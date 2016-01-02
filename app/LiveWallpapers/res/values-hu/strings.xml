@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">Android - élő háttérképek</string>
+    <string name="wallpaper_walkaround">Kamerakép</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">Nézzen keresztül a telefonján, és sétáljon baleset kockázata nélkül.</string>
+    <string name="wallpaper_clock">Íves óra</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">Balról jobbra haladó íveken jeleníti meg a dátumot és az időt: hónap, nap, óra, perc és másodperc.</string>
+    <string name="clock_settings">Íves óra beállításai</string>
+    <string name="show_seconds">Másodpercek megjelenítése</string>
+    <string name="variable_line_width">A gyűrűk szélességének változtatása</string>
+    <string name="palette">Színpaletta</string>
+    <string name="palette_gray">Vas</string>
+    <string name="palette_violet">Éjfél</string>
+    <string name="palette_matrix">Zöld képernyő</string>
+    <string name="palette_white_c">Jegesmedve (dinamikus)</string>
+    <string name="palette_black_c">Fekete lyuk (dinamikus)</string>
+    <string name="palette_halloween">Sütőtök</string>
+    <string name="palette_zenburn">Idegen gyümölcssaláta</string>
+    <string name="palette_oceanic">Kék lézer</string>
+</resources>
