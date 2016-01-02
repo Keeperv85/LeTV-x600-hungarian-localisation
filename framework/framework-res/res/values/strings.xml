@@ -71,7 +71,7 @@
     <string name="config_customVpnConfirmDialogComponent">com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog</string>
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.settings;</string>
     <string name="config_defaultNetworkScorerPackageName" />
-    <string name="config_persistentDataPackageName" />
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <string name="config_webViewPackageName">com.android.webview</string>
     <item type="string" name="timepicker_circle_radius_multiplier">0.82</item>
     <item type="string" name="timepicker_circle_radius_multiplier_24HourMode">0.85</item>
