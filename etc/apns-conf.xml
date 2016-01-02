@@ -790,21 +790,21 @@
        type="mms" 
  />
   
-  <apn carrier="Pannon MMS"
+  <apn carrier="Telenor MMS"
       mcc="216"
       mnc="01"
       apn="mms"
-      mmsc="http://mmsc.pgsm.hu/"
-      mmsproxy="193.225.154.22"
+      mmsc="http://mmsc.telenor.hu/"
+      mmsproxy="84.225.255.1"
       mmsport="8080"
       type="mms"
   />
 
-  <apn carrier="Pannon NET GPRS"
+  <apn carrier="Telenor Online"
       mcc="216"
       mnc="01"
-      apn="net"
-      type="default,supl"
+      apn="online"
+      type="default"
   />
 
   <apn carrier="T-Mobile NET GPRS"
@@ -826,7 +826,7 @@
       type="mms"
   />
 
-  <apn carrier="T-Mobile Westel"
+  <apn carrier="T-Mobile H"
       mcc="216"
       mnc="30"
       apn=""
@@ -836,7 +836,7 @@
   <apn carrier="Vodafone Elofizetes"
       mcc="216"
       mnc="70"
-      apn="vitamax.internet.vodafone.net"
+      apn="internet.vodafone.net"
       type="default,supl"
   />
 
