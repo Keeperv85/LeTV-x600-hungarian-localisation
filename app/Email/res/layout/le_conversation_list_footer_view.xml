@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.ConversationListFooterView android:orientation="horizontal" android:id="@id/back" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/front" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/network_error" style="@style/LeConversationListFooterRow">
+            <TextView android:id="@id/error_text" style="@style/LeConversationListFooterText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/loading" style="@style/LeConversationListFooterRow">
+            <com.letv.leui.widget.LeProgressBar android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" android:indeterminateTint="@color/le_progress_bar" android:indeterminateTintMode="multiply" style="?android:attr/progressBarStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/load_more" style="@style/LeConversationListFooterRow">
+            <TextView android:text="@string/load_more" style="@style/LeConversationListFooterText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/search_on_server" style="@style/LeConversationListFooterRow">
+            <TextView android:text="@string/le_search_on_sever" style="@style/LeConversationListFooterText" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.mail.browse.ConversationListFooterView>

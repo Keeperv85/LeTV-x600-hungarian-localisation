@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.MessageFooterView android:orientation="vertical" android:id="@id/attachments" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/conversation_view_text_color_link_blue" android:id="@id/view_entire_message_prompt" android:background="?android:selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_entire_message" style="@style/AttachmentPaddingStyle" />
+    <com.android.mail.ui.AttachmentTileGrid android:id="@id/attachment_tile_grid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/AttachmentMarginStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/attachment_bar_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AttachmentPaddingStyle" />
+</com.android.mail.browse.MessageFooterView>

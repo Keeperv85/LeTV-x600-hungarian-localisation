@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_border" android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/nonfolder_item" android:paddingLeft="@dimen/drawer_footer_item_padding" android:paddingRight="@dimen/drawer_footer_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/drawer_footer_item_minimum_height">
+        <ImageView android:id="@id/drawer_footer_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/drawer_item_font_size" android:textColor="@color/folder_item_text_color_normal" android:ellipsize="end" android:id="@id/drawer_footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DrawerFooterListItemStyle" />
+    </LinearLayout>
+    <Space android:id="@id/bottom_margin" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/le_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" xmlns:mail="http://schemas.android.com/apk/res-auto">
+    <com.letv.leui.widget.LeListView android:id="@id/attachments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" leui:leSwipeActionLeft="reveal" leui:leSwipeOffsetLeft="80.0dip" leui:leSwipeFrontView="@id/front" leui:leSwipeBackView="@id/back" leui:leListViewMode="leSwipe" />
+    <com.letv.leui.widget.LeBlankPage leui:icon="@drawable/le_ic_empty_attachments_svg" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:message="@string/le_no_attachment" />
+    <com.letv.commons.widget.LeMaskView android:id="@id/search_mask" android:background="@color/le_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <include layout="@layout/inc_content_cover" />
+</FrameLayout>

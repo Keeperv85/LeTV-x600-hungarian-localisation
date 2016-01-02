@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="le_contact_actions">
+        <item>发送邮件</item>
+        <item>send_email</item>
+        <item>创建为新联系人</item>
+        <item>save_contact</item>
+        <item>添加到已有联系人</item>
+        <item>add_to_an_exist_contact</item>
+    </string-array>
+    <string-array name="le_attachment_manager_filter_menu_items">
+        <item>来自收件箱</item>
+        <item>来自已发送</item>
+    </string-array>
+    <string-array name="le_attachment_manager_sort_menu_items">
+        <item>时间</item>
+        <item>类型</item>
+        <item>文件名</item>
+        <item>发件人</item>
+    </string-array>
+    <string-array name="le_save_draft_confirm_dialog_list">
+        <item>删除草稿</item>
+        <item>保存草稿</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="le_add_attachment_items">
+        <item>拍照</item>
+        <item>相册</item>
+        <item>文件</item>
+        <item>附件</item>
+    </string-array>
+    <string-array name="le_save_inline_image">
+        <item>保存所选图片</item>
+        <item>保存所有图片</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="le_forward_share_attachment">
+        <item>转发</item>
+        <item>分享</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="le_delete_calendar_event">
+        <item>查看关联邮件</item>
+        <item>确定删除邮件</item>
+        <item>暂不删除邮件</item>
+    </string-array>
+    <string-array name="le_search_texts">
+        <item>"全   部"</item>
+        <item>"正   文"</item>
+        <item>"主   题"</item>
+        <item>收件人</item>
+        <item>发件人</item>
+    </string-array>
+    <string-array name="le_search_attachment_texts">
+        <item>"全   部"</item>
+        <item>附件名</item>
+        <item>"主   题"</item>
+        <item>收件人</item>
+        <item>发件人</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>回复</item>
+        <item>全部回复</item>
+        <item>转发</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>成功</item>
+        <item>无网络连接。</item>
+        <item>无法登录。</item>
+        <item>安全错误。</item>
+        <item>无法同步。</item>
+        <item>内部错误</item>
+        <item>服务器错误</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>后一个会话</item>
+        <item>前一个会话</item>
+        <item>会话列表</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>在您执行删除操作后显示较新的后一个会话</item>
+        <item>在您执行删除操作后显示较旧的前一个会话</item>
+        <item>在您执行删除操作后显示会话列表</item>
+    </string-array>
+    <string-array name="prefEntries_removal_action">
+        <item>仅显示归档</item>
+        <item>仅显示删除</item>
+        <item>显示归档和删除</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>仅显示归档</item>
+        <item>仅显示删除</item>
+        <item>显示归档和删除</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>一律在屏幕顶部显示邮件操作</item>
+        <item>仅当旋转到纵向模式时，才在屏幕顶部显示邮件操作</item>
+        <item>不要在邮件顶部以外的地方显示邮件操作</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>一律显示</item>
+        <item>仅纵向显示</item>
+        <item>不显示</item>
+    </string-array>
+    <string-array name="le_preference_entries_snippet_lines">
+        <item>一行</item>
+        <item>两行</item>
+        <item>三行</item>
+        <item>四行</item>
+    </string-array>
+    <string-array name="le_preference_model">
+        <item>传统模式</item>
+        <item>对话模式</item>
+    </string-array>
+</resources>

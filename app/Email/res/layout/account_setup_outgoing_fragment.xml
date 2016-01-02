@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_smtp_server_label" style="@style/account_setup_label_text" />
+    <EditText android:id="@id/account_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_port_label" style="@style/account_setup_label_text" />
+    <EditText android:id="@id/account_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_security_label" style="@style/account_setup_label_text" />
+    <Spinner android:id="@id/account_security_type" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/account_require_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_require_login_label" />
+    <LinearLayout android:orientation="vertical" android:id="@id/account_require_login_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_username_label" style="@style/account_setup_label_text" />
+        <EditText android:id="@id/account_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+        <com.android.email.activity.setup.AuthenticationView android:id="@id/authentication_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

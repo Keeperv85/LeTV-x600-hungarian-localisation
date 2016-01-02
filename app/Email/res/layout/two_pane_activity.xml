@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.TwoPaneLayout android:id="@id/two_pane_activity" android:background="@color/tablet_background_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:id="@id/drawer" android:layout_width="@dimen/two_pane_drawer_width_open" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/drawer_fragment" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="left" android:id="@id/conversation_list_pane" android:layout_width="0.0dip" android:layout_height="fill_parent" style="@style/TwoPaneConversationList" />
+    <com.android.mail.ui.ConversationViewFrame android:layout_gravity="left" android:id="@id/conversation_pane" android:layout_width="0.0dip" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/conversation_pager" />
+    </com.android.mail.ui.ConversationViewFrame>
+    <com.android.mail.ui.ConversationViewFrame android:layout_gravity="left" android:id="@id/miscellaneous_pane" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <include layout="@layout/floating_actions" />
+</com.android.mail.ui.TwoPaneLayout>

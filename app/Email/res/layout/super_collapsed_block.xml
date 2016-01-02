@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.SuperCollapsedBlock android:id="@id/super_collapsed_block" android:background="@color/message_header_background_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuperCollapsedStrokeStyle">
+        <View android:background="@color/conversation_view_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:background="@color/conversation_view_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/super_collapsed_text_size" android:gravity="center" android:id="@id/super_collapsed_text" android:background="@drawable/super_collapse_circle" android:layout_width="40.0sp" android:layout_height="40.0sp" android:contentDescription="@null" style="@style/MessageHeaderIconStyle" />
+</com.android.mail.browse.SuperCollapsedBlock>

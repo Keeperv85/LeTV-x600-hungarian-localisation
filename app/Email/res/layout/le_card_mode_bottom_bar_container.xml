@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reply_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/option" android:background="@null" android:paddingLeft="12.0dip" android:paddingTop="11.0dip" android:paddingRight="12.0dip" android:paddingBottom="11.0dip" android:layout_width="52.0dip" android:layout_height="50.0dip" android:src="@drawable/le_ic_option_svg" android:tint="#ff005ac6" android:stateListAnimator="@null" />
+        <com.letv.leui.widget.LeEditText android:textSize="16.0sp" android:textColor="@android:color/black" android:textColorHint="@color/reply_container_text_color" android:gravity="center_vertical" android:id="@id/et_reply_all" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="34.0dip" android:hint="@string/le_reply_latest_in_sub" android:maxLines="5" android:capitalize="sentences" android:autoText="true" android:layout_weight="1.0" android:isScrollContainer="true" android:backgroundTint="@color/le_bar_bottom_bg" />
+        <Button android:textSize="15.0sp" android:textColor="@color/reply_container_text_color" android:id="@id/btn_send" android:background="@drawable/conversation_send_btn_bg" android:layout_width="56.0dip" android:layout_height="32.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/send" android:stateListAnimator="@null" />
+    </LinearLayout>
+    <com.android.mail.ui.LeConversationListBottomBar android:orientation="horizontal" android:id="@id/conversation_bottom_bar" android:background="@drawable/le_bar_bg_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

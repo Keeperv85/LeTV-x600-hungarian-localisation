@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="le_num_selected">
+        <item quantity="other">已选择%d项</item>
+        <item quantity="zero">已选择%d项</item>
+        <item quantity="one">已选择%d项</item>
+    </plurals>
+    <plurals name="le_move_done">
+        <item quantity="other">移动了%1$d封邮件</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">已选择 %1$d 项</item>
+        <item quantity="zero">已选择 %1$d 项</item>
+        <item quantity="one">已选择 %1$d 项</item>
+    </plurals>
+    <plurals name="le_folder_inbox">
+        <item quantity="other">（%d封未读）</item>
+    </plurals>
+    <plurals name="le_delete_conversation">
+        <item quantity="other">删除这 %1$d 个会话</item>
+    </plurals>
+    <plurals name="le_move_done_conversation">
+        <item quantity="other">移动了%1$d个会话</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">移动 %1$d 个会话</item>
+        <item quantity="one">移动会话</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">草稿</item>
+        <item quantity="one">草稿</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">删除这 %1$d 个邮件</item>
+        <item quantity="one">删除此邮件</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">要将这 %1$d 个会话归档吗？</item>
+        <item quantity="one">要将此会话归档吗？</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">舍弃这%1$d封邮件</item>
+        <item quantity="one">舍弃此邮件</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">正在取消 %1$d 个会话的星标。</item>
+        <item quantity="one">正在取消 %1$d 个会话的星标。</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">已忽略 &amp;lt;b>%1$d&amp;lt;/b> 个会话。</item>
+        <item quantity="one">已忽略 &amp;lt;b>%1$d&amp;lt;/b> 个会话。</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">已将&amp;lt;b>%1$d&amp;lt;/b>个会话列为垃圾邮件。</item>
+        <item quantity="one">已将&amp;lt;b>%1$d&amp;lt;/b>个会话列为垃圾邮件。</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">已将&amp;lt;b>%1$d&amp;lt;/b>个会话列为非垃圾邮件。</item>
+        <item quantity="one">已将&amp;lt;b>%1$d&amp;lt;/b>个会话列为非垃圾邮件。</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">已将 &amp;lt;b>%1$d&amp;lt;/b> 个会话标记为不重要。</item>
+        <item quantity="one">已将 &amp;lt;b>%1$d&amp;lt;/b> 个会话标记为不重要。</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">已将 &amp;lt;b>%1$d&amp;lt;/b> 个会话举报为网上诱骗。</item>
+        <item quantity="one">已将 &amp;lt;b>%1$d&amp;lt;/b> 个会话举报为网上诱骗。</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">已将 &amp;lt;b>%1$d&amp;lt;/b> 个会话归档。</item>
+        <item quantity="one">已将 &amp;lt;b>%1$d&amp;lt;/b> 个会话归档。</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">已删除 &amp;lt;b>%1$d&amp;lt;/b> 个会话。</item>
+        <item quantity="one">已删除 &amp;lt;b>%1$d&amp;lt;/b> 个会话。</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">已更改文件夹。</item>
+        <item quantity="one">已更改文件夹。</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">显示%1$d封新邮件。</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d封较早的邮件</item>
+    </plurals>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">%1$d封未读邮件</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">有%1$d封新邮件</item>
+        <item quantity="one">有%1$d封新邮件</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">永久删除%1$d封邮件</item>
+        <item quantity="one">永久删除%1$d封邮件</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d封邮件</item>
+        <item quantity="one">%1$d封邮件</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d个附件</item>
+        <item quantity="one">%1$d个附件</item>
+    </plurals>
+    <plurals name="move_messages">
+        <item quantity="other">移动邮件</item>
+        <item quantity="one">移动邮件</item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="other">%d B</item>
+        <item quantity="one">%d B</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="other">%d KB</item>
+        <item quantity="one">%d KB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="other">%d GB</item>
+        <item quantity="one">%d GB</item>
+    </plurals>
+</resources>

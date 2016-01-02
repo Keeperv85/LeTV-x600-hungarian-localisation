@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.FolderItemView android:background="@drawable/folder_item" android:paddingLeft="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/folder_list_item_minimum_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/folder_parent_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/folder_parent_icon" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/color_block" style="@style/FolderColorBoxStyle" />
+    <TextView android:textColor="@color/folder_name_color_primary_invertible" android:id="@id/unread" android:layout_toLeftOf="@id/folder_parent_icon" android:layout_alignWithParentIfMissing="true" style="@style/UnreadCountWithMarginEndStyle" />
+    <TextView android:id="@id/unseen" android:layout_toLeftOf="@id/folder_parent_icon" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" style="@style/UnseenCountWithMarginEndStyle" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/folder_swatch_height" android:layout_marginBottom="@dimen/folder_swatch_height" android:layout_toLeftOf="@id/unread" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@style/FolderListItemStartStyle">
+        <ImageView android:id="@id/folder_icon" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/folder_name_color_primary_invertible" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_toRightOf="@id/folder_icon" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/folder_name_color_primary_invertible" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/folder_icon" android:layout_below="@id/name" />
+    </RelativeLayout>
+</com.android.mail.ui.FolderItemView>

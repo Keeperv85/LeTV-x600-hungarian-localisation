@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.FolderItemView android:background="@color/le_white" android:paddingTop="@dimen/le_drawer_item_combined_folder_padding_top" android:paddingBottom="@dimen/le_drawer_item_combined_folder_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/le_drawer_item_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/folder_parent_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/folder_parent_icon" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/color_block" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/message_counts" android:layout_alignParentEnd="true" style="@style/LeFolderListItemStyle">
+        <TextView android:id="@id/unread" style="@style/LeUnreadCount" />
+        <TextView android:id="@id/unseen" style="@style/LeUnseenCount" />
+    </FrameLayout>
+    <ImageView android:id="@id/open" android:visibility="gone" android:src="@drawable/le_ic_open" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true" style="@style/LeFolderListItemStyle" />
+    <ImageView android:id="@id/folder_icon" android:duplicateParentState="true" android:layout_alignParentStart="true" style="@style/LeFolderListItemStyle" />
+    <TextView android:textColor="@color/le_folder_item_text_color" android:id="@id/name" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/message_counts" android:layout_toEndOf="@id/folder_icon" style="@style/LeFolderListItemStyle" />
+</com.android.mail.ui.FolderItemView>

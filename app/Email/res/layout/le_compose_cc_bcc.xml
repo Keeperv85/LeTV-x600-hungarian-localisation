@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/cc_bcc_from_content" style="@style/LeComposeFieldRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cc_bcc_from_label" android:minWidth="@dimen/le_compose_label_min_width" android:text="@string/le_cc_bcc" android:contentDescription="@string/le_cc_bcc" style="@style/LeComposeFieldLabel" />
+    <TextView android:id="@id/current_account_address" style="@style/LeComposeField" />
+</LinearLayout>

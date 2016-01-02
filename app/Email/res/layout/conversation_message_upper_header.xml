@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?android:selectableItemBackground" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mail.browse.MessageHeaderContactBadge android:id="@id/photo" android:background="?android:selectableItemBackground" android:layout_width="@dimen/contact_image_width" android:layout_height="@dimen/contact_image_height" android:layout_marginTop="@dimen/message_header_icon_margin" android:layout_marginBottom="@dimen/message_header_icon_margin" android:scaleType="centerCrop" android:contentDescription="@string/contact_info_string" style="@style/MessageHeaderIconStyle" />
+    <QuickContactBadge android:id="@id/invisible_quick_contact" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/message_header_icon_margin" android:layout_marginBottom="@dimen/message_header_icon_margin" />
+    <ImageView android:id="@id/draft" android:background="@drawable/draft_background_circle" android:visibility="gone" android:layout_width="@dimen/contact_image_width" android:layout_height="@dimen/contact_image_height" android:layout_marginTop="@dimen/message_header_icon_margin" android:layout_marginBottom="@dimen/message_header_icon_margin" android:src="@drawable/ic_drafts_wht_24dp" android:scaleType="center" style="@style/MessageHeaderIconStyle" />
+    <include layout="@layout/conversation_message_upper_header_text" />
+    <include layout="@layout/conversation_message_upper_header_actions" />
+</LinearLayout>

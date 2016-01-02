@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mail.ui.cardMode.LeCardModeListView android:scrollbarStyle="insideOverlay" android:id="@id/lv_conversation" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="true" android:transcriptMode="disabled" android:cacheColorHint="@android:color/transparent" android:divider="@color/divider_color" android:dividerHeight="1.0px" android:layout_weight="1.0" android:smoothScrollbar="true" leui:leSwipeMode="both" leui:leSwipeActionLeft="reveal" leui:leSwipeActionRight="swipeSwitch" leui:leSwipeOffsetLeft="140.0dip" leui:leSwipeRightSwitchLine="70.0dip" leui:leSwipeFrontView="@id/front" leui:leSwipeBackView="@id/back" leui:leListViewMode="leSwipe"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:leui="http://schemas.android.com/apk/prv/res/android" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <include layout="@layout/le_card_mode_bottom_bar_container" />
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v4.view.ViewPager android:id="@id/vp_bottom_option_panel" android:layout_width="fill_parent" android:layout_height="180.0dip" android:overScrollMode="never" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_bottom_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/conversation_bottom_dot_size" android:showDividers="middle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_attach_file_wht_24dp" android:id="@id/add_attachment" android:title="@string/add_file_attachment" app:showAsAction="always">
+        <menu>
+            <item android:id="@id/add_file_attachment" android:title="@string/add_file_attachment" app:showAsAction="never" />
+            <item android:id="@id/add_photo_attachment" android:title="@string/add_photo_attachment" app:showAsAction="never" />
+            <item android:id="@id/attach_from_service_stub1" android:visible="false" android:title="@string/attach_from_service_stub1" app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_send_wht_24dp" android:id="@id/send" android:title="@string/send" app:showAsAction="always" />
+    <item android:id="@id/save" android:title="@string/save_draft" app:showAsAction="never" />
+    <item android:id="@id/discard" android:title="@string/discard" app:showAsAction="never" />
+    <item android:id="@id/settings" android:title="@string/menu_settings" app:showAsAction="never" />
+    <item android:id="@id/help_info_menu_item" android:title="@string/help_and_feedback" />
+</menu>

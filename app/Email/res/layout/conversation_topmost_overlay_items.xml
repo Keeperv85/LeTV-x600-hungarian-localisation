@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="top" android:id="@id/snap_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/conversation_message_header" style="@style/ConversationViewPaddingStyle" />
+    <Button android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/new_message_notification_bar" android:paddingLeft="@dimen/new_message_button_padding" android:paddingRight="@dimen/new_message_button_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:animateLayoutChanges="true" style="@style/NewMessageButtonStyle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

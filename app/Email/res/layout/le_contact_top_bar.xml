@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.app.LeTopWidget android:layout_width="fill_parent" android:layout_height="fill_parent" leui:leftTextViewText="@string/le_back" leui:leftLogo="@drawable/le_ic_back" leui:leTopWidgetBg="@color/le_bar_bg" leui:leftTextViewTextColor="@color/le_bar_button" leui:leftMode="titleAndLogo" leui:rightMode="noTitleAndLogo"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" />

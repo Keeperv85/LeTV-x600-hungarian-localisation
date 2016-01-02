@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/le_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/le_email_contact_padding" android:paddingEnd="@dimen/le_email_contact_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeQuickContactBadge android:id="@id/badge" android:layout_width="@dimen/le_contact_badge_width" android:layout_height="@dimen/le_contact_badge_width" android:layout_marginTop="@dimen/le_contact_badge_margin_top" leui:corner_radius="@dimen/le_contact_badge_radius" leui:round_background="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/le_black" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_contact_name_margin" android:lineSpacingMultiplier="1.5" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/le_black" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" />
+    <ListView android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/le_contact_actions_margin" android:divider="@color/le_divider" android:dividerHeight="@dimen/le_divider_height" android:headerDividersEnabled="true" android:overScrollMode="never" android:textAlignment="center" />
+</LinearLayout>

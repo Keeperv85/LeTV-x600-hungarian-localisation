@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/le_conversation_item_front_view_bg" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:prv1="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+        <TextView android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:singleLine="true" android:layout_toLeftOf="@id/size" android:layout_alignParentLeft="true" style="@style/LeMessageAttachmentText" />
+        <TextView android:textSize="@dimen/le_font_size_small_more" android:textColor="@color/le_attachment_view" android:gravity="center_vertical" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/download" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/le_ic_attachment_download_svg" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/open" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_open" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/fail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_fail" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.letv.leui.widget.LeProgressBar android:layout_gravity="center_vertical" android:id="@id/download_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:indeterminateOnly="false" android:minWidth="10.0dip" android:minHeight="10.0dip" android:layout_centerInParent="true" prv1:le_progress_color="@color/le_progress_bar" prv1:le_progress_background_color="@color/le_progressbar_bg_gray" prv1:le_progress_round_radius="3.0dip" prv1:le_progress_circle_radius="8.0dip" prv1:le_type="circle" />
+        <View android:id="@id/progress_pause" android:background="@color/le_progress_bar" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:layout_gravity="center" android:id="@id/download_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LeTextButton.Small" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/wait_fragment" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/compose" android:background="@color/le_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/attachment_layout" android:overScrollMode="never" android:paddingStart="@dimen/le_email_content_padding_left">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <include layout="@layout/le_compose_recipients" />
+            <include layout="@layout/le_divider" />
+            <include layout="@layout/le_compose_cc_bcc" />
+            <include android:id="@id/cc_bcc_from_divider" layout="@layout/le_divider" />
+            <com.android.mail.compose.LeCcBccView android:id="@id/cc_bcc_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/from_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/le_compose_from" />
+                <include layout="@layout/le_divider" />
+            </LinearLayout>
+            <include layout="@layout/le_compose_subject" />
+            <include layout="@layout/le_divider" />
+            <com.android.mail.compose.LeAttachmentsView android:orientation="vertical" android:id="@id/attachments" android:paddingBottom="0.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/le_compose_attachments" />
+            </com.android.mail.compose.LeAttachmentsView>
+            <include layout="@layout/le_compose_body" />
+            <com.android.mail.compose.QuotedTextView android:id="@id/quoted_text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/le_email_content_padding_left" />
+            <View android:id="@id/composearea_tap_trap_bottom" android:background="@color/compose_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/attachment_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/le_divider" />
+        <com.android.mail.compose.LeComposeBottomBar android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@drawable/le_bar_bg_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

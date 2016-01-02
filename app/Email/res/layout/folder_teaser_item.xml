@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/folder_teaser_item_background" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/folder_imageView" android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="wrap_content" style="@style/FolderTeaserMarginStartStyle" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/text_layout" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FolderTeaserLabelMarginStyle">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/folder_teaser_main_text" android:ellipsize="end" android:id="@id/folder_textView" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/folder_teaser_senders_text" android:ellipsize="end" android:id="@id/senders_textView" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/folder_teaser_count_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/count_textView" android:layout_width="57.0sp" android:layout_height="20.0sp" style="@style/FolderTeaserMarginEndStyle" />
+</LinearLayout>

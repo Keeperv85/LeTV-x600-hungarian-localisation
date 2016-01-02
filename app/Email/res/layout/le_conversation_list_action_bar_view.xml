@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.app.LeTopWidget android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:leTopWidgetBg="@drawable/le_bar_bg_top" leui:leftTextViewTextColor="@color/le_bar_button" leui:rightTextViewTextColor="@color/le_bar_button" leui:centerTextViewTextColor="@color/le_bar_title" leui:leftMode="onlyTitle" leui:rightMode="onlyTitle" />
+    <com.android.mail.ui.LeSearchView android:id="@id/search" android:background="@drawable/le_bar_bg_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" leui:lcQueryHint="@string/search_hint" leui:lcQueryTextColor="@color/le_black" leui:lcMatchColor="@color/le_bar_bg" leui:lcCancelTextColor="@color/le_bar_button" leui:lcAlwaysShowCancel="true" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center|top" android:fillViewport="true" style="@style/VacationResponderScrollViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/vacation_responder_foreground" android:paddingTop="@dimen/vacation_responder_padding_vertical" android:paddingBottom="@dimen/vacation_responder_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/VacationResponderStyle">
+        <Switch android:textAppearance="?android:textAppearanceMedium" android:id="@id/vacation_responder_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/preferences_vacation_responder_title" style="@style/VacationResponderSwitch" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-12.0dip" android:minHeight="24.0dip">
+            <TextView android:text="@string/pick_start_date_title" style="@style/VactionResponderStartDateLabel" />
+            <TextView android:text="@string/pick_end_date_title" style="@style/VactionResponderEndDateLabel" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip">
+            <Button android:id="@id/start_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/VactionResponderStartDateSpinner" />
+            <Button android:id="@id/end_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/VactionResponderEndDateSpinner" />
+        </LinearLayout>
+        <RelativeLayout style="@style/ComposeFieldLayout">
+            <com.android.mail.compose.EnterSubject android:id="@id/subject" style="@style/VacationResponderSubject" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/body_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ComposeFieldLayout">
+            <EditText android:id="@id/body" android:hint="@string/vacation_responder_body_hint_text" style="@style/VacationResponderBody" />
+        </RelativeLayout>
+        <CheckedTextView android:id="@id/checkbox_send_to_contacts" android:text="@string/send_to_contacts_text" style="@style/VacationResponderCheckBox" />
+        <CheckedTextView android:id="@id/checkbox_send_to_domain" style="@style/VacationResponderCheckBox" />
+    </LinearLayout>
+</ScrollView>

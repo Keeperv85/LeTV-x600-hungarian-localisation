@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/holo_light_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ComposeAreaWrapper"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/wait_fragment" />
+    <ScrollView android:orientation="vertical" android:id="@id/compose" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/compose_padding_weight" />
+            <LinearLayout android:orientation="vertical" android:id="@id/content" style="@style/ComposeArea">
+                <include layout="@layout/compose_from" />
+                <include layout="@layout/compose_recipients" />
+                <include layout="@layout/compose_subject" />
+                <include layout="@layout/compose_body" />
+                <com.android.mail.compose.AttachmentsView android:orientation="vertical" android:id="@id/attachments" android:paddingLeft="5.0dip" android:paddingTop="8.0dip" android:paddingRight="5.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                    <include layout="@layout/compose_attachments" />
+                </com.android.mail.compose.AttachmentsView>
+                <com.android.mail.compose.QuotedTextView android:id="@id/quoted_text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:id="@id/composearea_tap_trap_bottom" android:background="@color/compose_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/compose_padding_weight" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

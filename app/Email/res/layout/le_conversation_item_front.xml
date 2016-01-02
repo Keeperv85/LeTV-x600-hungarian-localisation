@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/prv/res/android" xmlns:mail="http://schemas.android.com/apk/res-auto"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <FrameLayout leui:layout_gravity="top" leui:id="@id/badge_panel_ff" leui:layout_width="wrap_content" leui:layout_height="fill_parent" leui:layout_alignParentLeft="true" leui:layout_marginEnd="@dimen/le_conversation_list_badge_container_margin_right">
+        <RelativeLayout leui:layout_gravity="top" leui:id="@id/badge_panel" leui:layout_width="@dimen/le_conversation_list_badge_container" leui:layout_height="@dimen/le_conversation_list_badge_container">
+            <com.letv.leui.widget.LeQuickContactBadge leui:id="@id/badge" leui:layout_width="@dimen/le_conversation_list_badge" leui:layout_height="@dimen/le_conversation_list_badge" leui:layout_alignParentBottom="true" leui:layout_alignParentStart="true" leui:corner_radius="@dimen/le_conversation_list_badge_radius" leui:round_background="true" />
+            <ImageView leui:id="@id/unread_mask" leui:background="@drawable/le_ic_unread_overlay_back_svg" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:src="@drawable/le_ic_unread_overlay_front_svg" leui:layout_alignParentTop="true" leui:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <FrameLayout leui:layout_gravity="top" leui:id="@id/badge_panel_2" leui:visibility="gone" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginStart="@dimen/le_conversation_list_badge_container_margin_left_2" leui:layout_marginEnd="@dimen/le_conversation_list_badge_container_margin_right_2">
+            <TextView leui:visibility="invisible" leui:text="@string/le_place_holder" style="@style/LeConversationListItemText.Sender" />
+            <ImageView leui:layout_gravity="center_vertical" leui:id="@id/unread_mask_2" leui:visibility="gone" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:src="@drawable/le_ic_unread_overlay_svg" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout leui:orientation="vertical" leui:layout_width="fill_parent" leui:layout_height="wrap_content" leui:layout_toRightOf="@id/badge_panel_ff">
+        <RelativeLayout leui:gravity="center_vertical" leui:layout_width="fill_parent" leui:layout_height="wrap_content">
+            <com.letv.commons.widget.LeHighlightTextView leui:id="@id/sender_name" leui:layout_width="fill_parent" leui:layout_height="wrap_content" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" leui:layout_toLeftOf="@id/message_flag" mail:highlightColor="@color/le_highlight" mail:highlightType="foreground" style="@style/LeConversationListItemText.Sender" />
+            <LinearLayout leui:gravity="center_vertical" leui:id="@id/message_flag" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_alignParentRight="true" leui:layout_centerVertical="true">
+                <TextView leui:textSize="@dimen/le_font_size_small" leui:textColor="@color/le_highlight" leui:ellipsize="none" leui:id="@id/send_status" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" />
+                <ImageView leui:layout_gravity="center_vertical" leui:id="@id/forward" leui:visibility="gone" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" leui:src="@drawable/le_ic_conversation_forward" />
+                <ImageView leui:layout_gravity="center_vertical" leui:id="@id/reply" leui:visibility="gone" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" leui:src="@drawable/le_ic_conversation_reply" />
+                <ImageView leui:layout_gravity="center_vertical" leui:id="@id/star" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" leui:src="@drawable/le_ic_star_on_svg" />
+                <ImageView leui:layout_gravity="center_vertical" leui:id="@id/attachment_icon" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" leui:src="@drawable/le_ic_attachment" />
+                <TextView leui:id="@id/send_date" leui:layout_marginRight="@dimen/le_conversation_list_item_flag_margin" style="@style/LeConversationListItemText.Date" />
+                <ImageView leui:layout_gravity="center_vertical" leui:id="@id/conversation_mode" leui:visibility="gone" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="-8.0dip" leui:src="@drawable/le_ic_open" />
+                <ImageView leui:layout_gravity="center_vertical" leui:id="@id/caret" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:src="@drawable/le_ic_open" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.letv.commons.widget.LeHighlightTextView leui:ellipsize="end" leui:id="@id/subject" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginTop="6.0dip" leui:layout_marginRight="12.0dip" leui:singleLine="true" leui:leFontSizeEnlarge="true" mail:highlightColor="@color/le_highlight" mail:highlightType="foreground" style="@style/LeConversationListItemText.Subject" />
+        <com.letv.commons.widget.LeHighlightTextView leui:ellipsize="end" leui:id="@id/email_snippet" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="12.0dip" leui:leFontSizeEnlarge="true" mail:highlightColor="@color/le_highlight" mail:highlightType="foreground" style="@style/LeConversationListItemText.Snippet" />
+    </LinearLayout>
+    <LinearLayout leui:layout_width="wrap_content" leui:layout_height="fill_parent" leui:layout_alignParentRight="true">
+        <com.letv.leui.widget.LeCheckBox leui:layout_gravity="center_vertical" leui:id="@id/select" leui:visibility="gone" leui:clickable="true" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginLeft="16.0dip" leui:layout_marginRight="-8.0dip" leui:leBoxOnColor="@color/le_bar_bg" />
+    </LinearLayout>
+</merge>

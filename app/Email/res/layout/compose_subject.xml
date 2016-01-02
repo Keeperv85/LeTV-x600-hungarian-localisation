@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/subject_content" style="@style/RecipientComposeFieldLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ComposeFieldContent">
+        <com.android.mail.compose.EnterSubject android:id="@id/subject" style="@style/ComposeSubjectView" />
+    </LinearLayout>
+    <View style="@style/RecipientComposeFieldSpacer" />
+</LinearLayout>

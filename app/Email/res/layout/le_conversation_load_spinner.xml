@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/background_view" android:background="@color/le_loading_view_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.LeLoadingView android:layout_gravity="center" android:id="@id/llv" android:layout_width="46.0dip" android:layout_height="46.0dip" />
+    <com.letv.leui.widget.LeProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateBehavior="repeat" android:indeterminateTint="@color/le_progress_bar" android:indeterminateTintMode="multiply" style="?android:attr/progressBarStyle" />
+</FrameLayout>

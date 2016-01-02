@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" android:contentDescription="@null" android:importantForAccessibility="no">
+        <requestFocus />
+    </View>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="@dimen/setup_basics_logo_margin_top" android:layout_marginBottom="@dimen/setup_basics_logo_margin_bottom" android:src="@drawable/ic_email_yellow_big" android:contentDescription="@null" />
+    <TextView android:id="@id/lower_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_basics_headline" style="@style/account_setup_lower_headline" />
+    <TextView android:id="@id/instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_welcome" style="@style/account_setup_info_text" />
+    <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/account_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_email_label" android:inputType="textEmailAddress" />
+</LinearLayout>

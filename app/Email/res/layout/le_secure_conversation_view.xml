@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/le_white" android:paddingBottom="@dimen/le_email_content_webview_padding_bottom" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mail.browse.MessageScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scroll_view" android:paddingLeft="@dimen/le_email_content_padding_left" android:paddingRight="@dimen/le_email_content_padding_left" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/conversation_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/le_message_header" />
+            <com.android.mail.ui.LeDividerView android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <include layout="@layout/le_message_attachment" />
+            <TextView android:layout_gravity="end" android:id="@id/show_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginTop="@dimen/le_email_content_padding_top" android:text="@string/le_show_image" style="@style/LeConversationViewShowImageTextViewStyle" />
+            <com.android.mail.browse.MessageWebView android:id="@id/webview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-24.0dip" android:layout_marginTop="@dimen/le_email_content_padding_top" android:layout_marginRight="-24.0dip" android:layout_marginBottom="@dimen/le_email_content_padding_bottom" />
+            <com.letv.leui.widget.LeButton android:textColor="@android:drawable/btn_text_selector_blue" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/invitation" android:background="@android:drawable/btn_bg_selector_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/le_invitation_height" android:layout_marginBottom="@dimen/le_invitation_margin" android:text="@string/message_invite_calendar_view" />
+        </LinearLayout>
+    </com.android.mail.browse.MessageScrollView>
+    <include layout="@layout/le_conversation_load_spinner" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.ConversationFooterView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/conversation_view_border" />
+    <LinearLayout android:id="@id/footer_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/conversation_border_margin_side" android:layout_marginRight="@dimen/conversation_border_margin_side">
+        <TextView android:id="@id/reply_button" android:focusable="true" android:text="@string/reply" android:drawableTop="@drawable/ic_reply_24dp" style="@style/ConversationFooterButtonStyle" />
+        <TextView android:id="@id/reply_all_button" android:focusable="true" android:text="@string/reply_all" android:drawableTop="@drawable/ic_reply_all_24dp" style="@style/ConversationFooterButtonStyle" />
+        <TextView android:id="@id/forward_button" android:focusable="true" android:text="@string/forward" android:drawableTop="@drawable/ic_forward_24dp" style="@style/ConversationFooterButtonStyle" />
+    </LinearLayout>
+    <View android:background="@color/conversation_view_item_background_color" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+</com.android.mail.browse.ConversationFooterView>

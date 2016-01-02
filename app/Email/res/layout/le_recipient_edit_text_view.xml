@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mail="http://schemas.android.com/apk/res-auto">
+    <com.letv.commons.chip.RecipientEditTextView android:id="@id/edittext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/le_chip_min_height" android:inputType="textEmailAddress|textMultiLine" android:textIsSelectable="false" mail:chipHeight="@dimen/chip_height" style="@style/LeComposeField.Recipient" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/textview_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="@dimen/le_email_content_padding_left">
+        <TextView android:textSize="@dimen/le_font_size_normal" android:textColor="@color/le_bar_bg" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/textview" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="@dimen/le_recipient_width" android:minHeight="@dimen/le_chip_min_height" android:lines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/le_font_size_normal" android:textColor="@color/le_gray_drawer_unread_count" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/moreview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/le_chip_min_height" android:layout_marginStart="@dimen/le_spacing" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/select_all" android:title="@string/le_select_all" android:showAsAction="always" />
+    <item android:id="@id/select_none" android:visible="false" android:title="@string/le_select_none" android:showAsAction="always" />
+</menu>

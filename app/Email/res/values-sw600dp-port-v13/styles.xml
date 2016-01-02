@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TwoPaneConversationList">
+        <item name="android:paddingTop">@dimen/two_pane_tl_top</item>
+        <item name="android:paddingRight">@dimen/two_pane_tl_side</item>
+    </style>
+</resources>

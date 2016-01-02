@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.LeMessageHeaderView android:orientation="vertical" android:id="@id/message_header" android:paddingTop="@dimen/le_email_content_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/subject" android:paddingBottom="@dimen/le_email_content_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LeMessageHeaderSubjectStyle" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/summary_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/summary_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_from" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/LeMessageHeaderText" />
+        <TextView android:id="@id/summary" android:paddingLeft="@dimen/le_email_address_text_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/summary_label" android:layout_centerVertical="true" style="@style/LeMessageHeaderText" />
+        <TextView android:textColor="@color/le_gray_snippet" android:id="@id/summary_time" android:paddingLeft="@dimen/le_email_address_text_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/summary" android:layout_centerVertical="true" style="@style/LeMessageHeaderText" />
+        <TextView android:id="@id/expand" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_expand" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:lineSpacingMultiplier="1.5" style="@style/LeTextButton.Small" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/recipient_panel" android:paddingBottom="@dimen/le_compose_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/recipient_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_to" style="@style/LeMessageHeaderText" />
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/recipient" android:paddingLeft="@dimen/le_email_address_text_padding" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="@dimen/le_recipient_width" android:lines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/LeMessageHeaderText" />
+        <TextView android:textColor="@color/le_gray_date" android:id="@id/recipient_count" android:paddingRight="@dimen/le_email_address_count_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_to" style="@style/LeMessageHeaderText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_panel" android:paddingBottom="@dimen/le_email_content_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/le_gray_snippet" android:id="@id/senders_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_from" style="@style/LeMessageHeaderText" />
+            <com.android.mail.ui.LeEmailAddressTextView android:id="@id/senders" android:paddingRight="@dimen/le_email_address_padding_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LeMessageHeaderText.EmailAddress" />
+            <TextView android:gravity="center_vertical" android:id="@id/collapse" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_collapse" style="@style/LeTextButton.Small" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/le_gray_snippet" android:id="@id/receivers_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_to" style="@style/LeMessageHeaderText" />
+            <com.android.mail.ui.LeEmailAddressTextView android:id="@id/receivers" android:paddingRight="@dimen/le_email_address_count_padding_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LeMessageHeaderText.EmailAddress" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/cc_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/le_gray_snippet" android:id="@id/cc_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_cc" style="@style/LeMessageHeaderText" />
+            <com.android.mail.ui.LeEmailAddressTextView android:id="@id/cc" android:paddingRight="@dimen/le_email_address_count_padding_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LeMessageHeaderText.EmailAddress" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0dip">
+            <TextView android:textColor="@color/le_gray_snippet" android:id="@id/send_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_time" style="@style/LeMessageHeaderText" />
+            <TextView android:textColor="@color/le_gray_snippet" android:id="@id/send_time" android:paddingRight="@dimen/le_email_address_count_padding_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_email_address_text_padding" android:layout_weight="1.0" style="@style/LeMessageHeaderText" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.mail.ui.LeMessageHeaderView>

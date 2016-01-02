@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/empty_trash" android:title="@string/empty_trash" android:showAsAction="always|withText" />
+    <item android:id="@id/empty_spam" android:title="@string/empty_spam" android:showAsAction="always|withText" />
+    <item android:id="@id/add_account" android:visible="false" android:title="@string/add_account" android:showAsAction="always|withText" />
+    <item android:id="@id/compose" android:visible="false" android:title="@string/menu_compose" android:alphabeticShortcut="@string/trigger_compose_char" />
+    <item android:id="@id/refresh" android:visible="false" android:title="@string/refresh" android:alphabeticShortcut="@string/trigger_refresh_char" />
+</menu>

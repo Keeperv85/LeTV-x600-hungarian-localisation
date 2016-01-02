@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NewMessageButtonStyle" parent="@style/AbstractNewMessageButtonStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_marginStart">@dimen/toast_bar_margin</item>
+        <item name="android:layout_marginEnd">@dimen/toast_bar_margin</item>
+    </style>
+</resources>

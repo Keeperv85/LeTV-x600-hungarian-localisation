@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vacation_responder_width">600.0dip</dimen>
+    <dimen name="vacation_responder_padding_horizontal_wide">32.0dip</dimen>
+</resources>

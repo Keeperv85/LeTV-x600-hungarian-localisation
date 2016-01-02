@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/compose_button" android:contentDescription="@string/compose" style="@style/FloatingActionButtonStyle" />
+    <com.android.mail.ui.ActionableToastBar android:layout_gravity="bottom" android:id="@id/toast_bar" android:background="@color/snack_bar_background_color" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/description_text" android:paddingTop="@dimen/snack_bar_margin_vertical" android:paddingBottom="@dimen/snack_bar_margin_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/snack_bar_margin_horizontal" android:layout_marginRight="@dimen/snack_bar_margin_horizontal" android:layout_weight="1.0" />
+            <TextView android:textColor="@color/snack_bar_action_text_color" android:layout_gravity="center_vertical" android:id="@id/action_text" android:paddingTop="@dimen/snack_bar_margin_vertical" android:paddingBottom="@dimen/snack_bar_margin_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" style="@style/SnackBarActionTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@android:color/white" android:id="@id/multiline_description_text" android:paddingTop="@dimen/snack_bar_margin_vertical" android:paddingBottom="@dimen/snack_bar_margin_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/snack_bar_margin_horizontal" android:layout_marginRight="@dimen/snack_bar_margin_horizontal" />
+            <TextView android:textColor="@color/snack_bar_action_text_color" android:id="@id/multiline_action_text" android:paddingTop="@dimen/snack_bar_margin_vertical" android:paddingBottom="@dimen/snack_bar_margin_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/snack_bar_margin_horizontal" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/snack_bar_margin_horizontal" android:textAllCaps="true" style="@style/SnackBarActionTextStyle" />
+        </LinearLayout>
+    </com.android.mail.ui.ActionableToastBar>
+</LinearLayout>

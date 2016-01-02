@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/le_ic_calendar_svg" android:id="@id/calender" android:title="@string/calendar" android:showAsAction="always" />
+    <item android:id="@id/send" android:title="@string/send" android:showAsAction="always" />
+</menu>

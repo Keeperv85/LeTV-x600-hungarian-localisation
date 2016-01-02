@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LeAccountSetupContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow android:gravity="center_vertical" android:paddingTop="@dimen/le_account_setup_row_padding" android:paddingBottom="@dimen/le_account_setup_row_padding">
+            <TextView android:id="@id/account_email_label" android:text="@string/le_account_email" style="@style/LeAccountSetupLabel.Left" />
+            <EditText android:id="@id/account_email" android:hint="@string/account_setup_basics_email_label" android:imeOptions="actionNext" style="@style/LeAccountSetupEditText.Username.Left" />
+            <ImageView android:id="@id/le_email_clear_btn" android:focusable="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_btn_edit_text_clear" style="@style/LeAccountSetupEditText.Clear_btn" />
+        </TableRow>
+        <View android:orientation="vertical" android:id="@id/le_divider" android:background="@color/le_divider" android:layout_width="fill_parent" android:layout_height="@dimen/le_divider_height" />
+        <TextView android:gravity="center_horizontal" android:id="@id/le_gmail_label" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/le_gmail_label" />
+        <TableRow android:gravity="center_vertical" android:paddingTop="@dimen/le_account_setup_row_padding" android:paddingRight="@dimen/le_padding_right" android:paddingBottom="@dimen/le_account_setup_row_padding">
+            <TextView android:id="@id/account_password_label" android:text="@string/password_hint" style="@style/LeAccountSetupLabel.Left" />
+            <EditText android:id="@id/account_password" android:hint="@string/password_hint" android:imeOptions="actionNext" style="@style/LeAccountSetupEditText.Password.Left" />
+            <ImageView android:id="@id/le_password_clear_btn" android:focusable="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_btn_edit_text_clear" style="@style/LeAccountSetupEditText.Clear_btn" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/le_divider_settings" />
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/le_account_setup_type_spacing_height" />
+        <include layout="@layout/le_divider_settings" />
+        <LinearLayout android:orientation="horizontal" style="@style/LeAccountSetupRow">
+            <TextView android:id="@id/account_type_label" android:text="@string/le_account_type" style="@style/LeAccountSetupLabel.Left" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/search_banner_text" android:gravity="center|left" android:id="@id/account_type" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableRight="@drawable/le_ic_open" />
+        </LinearLayout>
+        <include layout="@layout/le_divider_settings" />
+    </LinearLayout>
+</LinearLayout>

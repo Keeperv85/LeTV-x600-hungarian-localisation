@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:layout_gravity="center_horizontal" android:id="@id/button" android:layout_width="@dimen/setup_account_type_buttons_width" android:layout_height="@dimen/setup_account_type_buttons_height" android:layout_marginTop="@dimen/setup_account_type_buttons_vertical_spacing" android:minWidth="@dimen/setup_account_type_button_min_width" android:text="@string/account_setup_options_mail_window_auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/between_chrome" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android" xmlns:mail="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/le_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.mail.ui.LeConversationListViewWrapper android:id="@id/conversation_list" android:background="@color/le_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.mail.ui.LeConversationListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="@color/le_divider" android:dividerHeight="@dimen/le_divider_height" leui:leSwipeMode="both" leui:leSwipeActionLeft="reveal" leui:leSwipeActionRight="swipeSwitch" leui:leSwipeOffsetLeft="140.0dip" leui:leSwipeRightSwitchLine="70.0dip" leui:leSwipeFrontView="@id/front" leui:leSwipeBackView="@id/back" leui:leListViewMode="leSwipe"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:leui="http://schemas.android.com/apk/prv/res/android" />
+            <com.letv.leui.widget.LeBlankPage android:icon="@drawable/le_ic_empty_svg" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/le_no_conversations" />
+            <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_search_content" android:id="@id/search_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/le_search_no_conversations" />
+        </com.android.mail.ui.LeConversationListViewWrapper>
+        <com.android.mail.ui.LeConversationListBottomBar android:orientation="horizontal" android:id="@id/conversation_bottom_bar" android:background="@drawable/le_bar_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.letv.commons.widget.LeMaskView android:id="@id/search_mask" android:background="@color/le_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <include layout="@layout/le_search_sever_loadview" />
+    <include layout="@layout/le_sever_search_error" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:gravity="center_horizontal" android:id="@id/failure_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:id="@id/password_edit" android:singleLine="true" android:inputType="textPassword" style="@*android:style/Widget.Leui.EditText.Light.Dialog" />
+</LinearLayout>

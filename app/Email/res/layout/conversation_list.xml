@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/between_chrome" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mail.ui.MailSwipeRefreshLayout android:id="@id/swipe_refresh_widget" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/conversation_list_parent_frame" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/conversation_list_empty_view" />
+            <com.android.mail.ui.SwipeableListView android:id="@id/conversation_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ConversationListFade" />
+            <include layout="@layout/conversation_load_spinner" />
+        </FrameLayout>
+    </com.android.mail.ui.MailSwipeRefreshLayout>
+</RelativeLayout>

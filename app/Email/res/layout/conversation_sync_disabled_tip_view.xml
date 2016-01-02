@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.ConversationSyncDisabledTipView android:background="@color/swiped_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/swipeable_content" android:background="@drawable/conversation_item_background_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/text_area" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/teaser_main_text" android:id="@id/text_line1" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/teaser_main_text" android:id="@id/text_line2" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <View android:id="@id/dismiss_separator" android:background="@color/teaser_main_text" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" style="@style/DismissSeparatorStyle" />
+        <ImageButton android:id="@id/dismiss_button" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_cancel_holo_light" android:scaleType="center" android:contentDescription="@string/dismiss_tip_hover_text" style="@style/DismissButtonStyle" />
+        <include layout="@layout/teaser_right_edge" />
+    </LinearLayout>
+</com.android.mail.ui.ConversationSyncDisabledTipView>

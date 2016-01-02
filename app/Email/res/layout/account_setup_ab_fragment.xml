@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ab_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_ab_instructions_format" style="@style/account_setup_info_text" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/ab_button_a" android:layout_width="@dimen/setup_account_ab_button_width" android:layout_height="@dimen/setup_account_ab_button_height" android:layout_marginTop="@dimen/setup_account_ab_button_vertical_spacing" android:minWidth="@dimen/setup_account_ab_button_min_width" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/ab_button_b" android:layout_width="@dimen/setup_account_ab_button_width" android:layout_height="@dimen/setup_account_ab_button_height" android:layout_marginTop="@dimen/setup_account_ab_button_vertical_spacing" android:minWidth="@dimen/setup_account_ab_button_min_width" />
+</LinearLayout>

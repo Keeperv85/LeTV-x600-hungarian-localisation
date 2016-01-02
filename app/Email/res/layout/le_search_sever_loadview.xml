@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loadViewLayout" android:background="@color/le_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.94"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mail.utils.LeLoadingView android:id="@id/llv" android:layout_width="46.0dip" android:layout_height="46.0dip" />
+    <TextView android:textSize="@dimen/le_font_size_middle" android:textColor="@color/le_search_sever_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/le_search_sever" />
+</LinearLayout>

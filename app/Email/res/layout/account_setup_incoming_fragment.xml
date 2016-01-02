@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_username_label" style="@style/account_setup_label_text" />
+    <EditText android:id="@id/account_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_username_label" android:inputType="textEmailAddress" />
+    <com.android.email.activity.setup.AuthenticationView android:id="@id/authentication_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/client_certificate_selector" android:visibility="gone" layout="@layout/client_certificate_selector" />
+    <LinearLayout android:orientation="vertical" android:id="@id/device_id_section" android:paddingTop="@dimen/setup_label_text_padding_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_exchange_device_id_label" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffbebebe" android:id="@id/device_id" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:id="@id/account_server_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_server_label" style="@style/account_setup_label_text" />
+    <EditText android:id="@id/account_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_server_label" android:inputType="textUri" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_port_label" style="@style/account_setup_label_text" />
+    <EditText android:id="@id/account_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_port_label" android:inputType="number" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_security_label" style="@style/account_setup_label_text" />
+    <Spinner android:id="@id/account_security_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/account_setup_incoming_security_label" />
+    <TextView android:id="@id/account_delete_policy_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_delete_policy_label" style="@style/account_setup_label_text" />
+    <Spinner android:id="@id/account_delete_policy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/account_setup_incoming_delete_policy_label" />
+    <LinearLayout android:orientation="vertical" android:id="@id/imap_path_prefix_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_imap_path_prefix_label" style="@style/account_setup_label_text" />
+        <EditText android:id="@id/imap_path_prefix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_imap_path_prefix_hint" android:inputType="text" />
+    </LinearLayout>
+</LinearLayout>

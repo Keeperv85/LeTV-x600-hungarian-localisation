@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RecipientEditTextView" parent="@style/RecipientEditTextViewBase">
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+    <style name="VacationResponderStyle">
+        <item name="android:paddingLeft">@dimen/vacation_responder_padding_horizontal_wide</item>
+        <item name="android:paddingRight">@dimen/vacation_responder_padding_horizontal_wide</item>
+    </style>
+    <style name="VacationResponderScrollViewStyle">
+        <item name="android:layout_width">@dimen/vacation_responder_width</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="MailActivityTheme" parent="@style/UnifiedEmailTheme.Appcompat" />
+    <style name="VacationResponderTheme" parent="@style/UnifiedEmailTheme.Appcompat">
+        <item name="android:windowBackground">@color/vacation_responder_background</item>
+    </style>
+</resources>

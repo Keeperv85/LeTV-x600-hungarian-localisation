@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.MessageHeaderView android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/message_header_border" layout="@layout/conversation_view_border" />
+    <include android:id="@id/upper_header" layout="@layout/conversation_message_upper_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/header_extra_content" android:background="@color/message_header_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/snap_header_bottom_border" android:background="@drawable/snap_header_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</com.android.mail.browse.MessageHeaderView>

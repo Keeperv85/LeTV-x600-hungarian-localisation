@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.FolderListLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:fadingEdge="none" android:nextFocusRight="@id/conversation_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.mail.ui.MiniDrawerView android:orientation="vertical" android:id="@id/mini_drawer" android:paddingTop="20.0dip" android:paddingBottom="18.0dip" android:layout_width="@dimen/two_pane_drawer_width_mini" android:layout_height="fill_parent">
+        <ImageView android:id="@id/current_account_avatar" android:paddingLeft="20.0dip" android:paddingTop="16.0dip" android:paddingRight="20.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" style="@style/MiniDrawerItemStyleBase" />
+        <ImageView android:id="@id/dotdotdot" android:layout_width="fill_parent" android:layout_height="56.0dip" android:src="@drawable/ic_ellipsis_24dp" style="@style/MiniDrawerFolderStyle" />
+        <Space android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </com.android.mail.ui.MiniDrawerView>
+</com.android.mail.ui.FolderListLayout>

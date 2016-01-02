@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.android.email">
+    <item android:drawable="@drawable/le_ic_folder_junk_holo_dark_svg" android:state_drag_can_accept="false" app:state_drag_mode="true" />
+    <item android:drawable="@drawable/le_ic_folder_junk_holo_dark_svg" android:state_activated="true" />
+    <item android:drawable="@drawable/le_ic_folder_junk_holo_light_svg" />
+</selector>

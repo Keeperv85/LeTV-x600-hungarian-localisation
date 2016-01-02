@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/quoted_text_area" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <View android:id="@id/upper_quotedtext_divider_bar" android:visibility="gone" style="@style/RecipientComposeFieldSpacer" />
+    <LinearLayout android:id="@id/quoted_text_button_bar" android:layout_width="fill_parent" android:layout_height="30.0dip" android:minHeight="0.0dip">
+        <com.letv.leui.widget.LeCheckBox android:textSize="15.0sp" android:textColor="@color/le_gray_snippet" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/hide_quoted_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/quoted_text_label" android:layout_weight="1.0" android:contentDescription="@string/quoted_text" android:leBoxOnColor="@color/le_bar_bg" android:leBoxInnerPadding="9.0dip" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/respond_inline_button" android:layout_width="wrap_content" android:text="@string/respond_inline" style="@style/LeConversationViewShowImageTextViewStyle" />
+    </LinearLayout>
+    <View android:id="@id/divider_bar" style="@style/RecipientComposeFieldSpacer" />
+    <WebView android:id="@id/quoted_text_web_view" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

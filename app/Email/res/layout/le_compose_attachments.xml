@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/attachments_header" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/LeMessageAttachmentText" />
+        <TextView android:id="@id/expand_collapse" android:paddingLeft="14.0dip" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_attachment_expand" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingEnd="@dimen/le_email_content_padding_left" style="@style/LeTextButton.Small" />
+    </RelativeLayout>
+    <TextView android:id="@id/attachment_summary" android:paddingLeft="42.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/LeMessageAttachmentText" />
+    <com.letv.commons.widget.LeLinearListView android:orientation="vertical" android:id="@id/attachment_list" android:paddingLeft="32.0dip" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:overScrollMode="never" />
+    <include layout="@layout/le_divider" />
+</merge>

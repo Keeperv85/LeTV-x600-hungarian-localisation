@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.LeMessageAttachmentView android:orientation="vertical" android:id="@id/message_attachment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_email_content_padding_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/le_black" android:id="@id/attachments_header" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" style="@style/LeMessageAttachmentText" />
+        <TextView android:textColor="@color/le_gray_date" android:id="@id/attachment_summary" android:paddingLeft="30.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/attachments_header" style="@style/LeMessageAttachmentText" />
+        <TextView android:id="@id/expand_collapse" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_attachment_expand" android:layout_alignParentRight="true" style="@style/LeTextButton.Small" />
+    </RelativeLayout>
+    <com.android.mail.ui.LeMessageAttachmentListView android:id="@id/attachments" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="-15.0dip" android:listSelector="@android:color/transparent" android:layout_weight="1.0" android:overScrollMode="never" />
+    <com.android.mail.ui.LeDividerView android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/le_email_content_padding_top" />
+</com.android.mail.ui.LeMessageAttachmentView>
