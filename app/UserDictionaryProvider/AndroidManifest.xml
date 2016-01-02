@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.shared" package="com.android.providers.userdictionary" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
-    <application android:allowClearUserData="false" android:backupAgent="DictionaryBackupAgent" android:killAfterRestore="false" android:label="@string/app_label" android:process="android.process.acore">
-        <provider android:authorities="user_dictionary" android:exported="true" android:multiprocess="false" android:name="UserDictionaryProvider" android:readPermission="android.permission.READ_USER_DICTIONARY" android:syncable="false" android:writePermission="android.permission.WRITE_USER_DICTIONARY"/>
-    </application>
-</manifest>
