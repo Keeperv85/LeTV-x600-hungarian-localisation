@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/search_activity_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/search_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" style="@style/SearchSuggestionListView" />
+    <GridView android:id="@id/search_selected_grid_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/search_engine_grid_margin_left" android:layout_marginRight="@dimen/search_engine_grid_margin_right" android:numColumns="@integer/search_engine_grid_num_columns" />
+    <FrameLayout android:id="@id/search_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/search_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baidu_sylogo" />
+        <ImageView android:id="@id/search_activity_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/search_box_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <include layout="@layout/le_search_box" />
+        </LinearLayout>
+    </FrameLayout>
+    <GridView android:id="@id/search_suggestion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:horizontalSpacing="@dimen/widgetHorizontalSpacing" android:verticalSpacing="@dimen/widgetVerticalSpacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/suggestionColumnWidth" android:numColumns="auto_fit" />
+</FrameLayout>

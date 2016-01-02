@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reverb_preset_list">
+        <item>無</item>
+        <item>小空間</item>
+        <item>中空間</item>
+        <item>大空間</item>
+        <item>中音量</item>
+        <item>大音量</item>
+        <item>平面迴響</item>
+    </string-array>
+</resources>

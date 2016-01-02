@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Movies and dramas</item>
+        <item>Entertainment News</item>
+        <item>Wallpapers</item>
+        <item>Hit singles</item>
+        <item>Music albums</item>
+        <item>Related artists</item>
+        <item>Related tweets</item>
+        <item>Related websites</item>
+    </string-array>
+    <string-array name="player">
+        <item>Movies and dramas</item>
+        <item>Sports News</item>
+        <item>Wallpapers</item>
+        <item>None</item>
+        <item>Music albums</item>
+        <item>None</item>
+        <item>Related tweets</item>
+        <item>Related websites</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Movies and dramas</item>
+        <item>Entertainment News</item>
+        <item>Wallpapers</item>
+        <item>Soundtracks</item>
+        <item>None</item>
+        <item>Related artists</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="team">
+        <item>Movies and dramas</item>
+        <item>Relevant news</item>
+        <item>Wallpapers</item>
+        <item>Related music</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="brand">
+        <item>None</item>
+        <item>Brand News</item>
+        <item>Wallpapers</item>
+        <item>Label music</item>
+        <item>None</item>
+        <item>None</item>
+        <item>Related tweets</item>
+        <item>Related websites</item>
+    </string-array>
+    <string-array name="region">
+        <item>None</item>
+        <item>Related videos</item>
+        <item>Wallpapers</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>Related tweets</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notification</item>
+        <item>Email</item>
+        <item>Messages</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>None</item>
+        <item>At time of event</item>
+        <item>5 minutes before</item>
+        <item>10 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+        <item>1 day before</item>
+        <item>2 days before</item>
+        <item>1 week before</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>None</item>
+        <item>Day of (9:00)</item>
+        <item>1 day before (9:00)</item>
+        <item>2 days before (9:00)</item>
+        <item>1 week before (9:00)</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>None</item>
+        <item>At time of event</item>
+        <item>5 minutes before</item>
+        <item>10 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+        <item>1 day before</item>
+        <item>2 days before</item>
+        <item>1 week before</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Default settings for language and region</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Busy</item>
+        <item>Available</item>
+        <item>Tentative</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Default</item>
+        <item>Private</item>
+        <item>Public</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Last</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>No response</item>
+        <item>Yes</item>
+        <item>Maybe</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Delete this event</item>
+        <item>Delete this event and future events</item>
+        <item>Delete all events</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>This event and future events</item>
+        <item>All events</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>This event only</item>
+        <item>All recurring events</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Date</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Only when you don’t participate</item>
+        <item>When you don’t participate or respond</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>First Sunday</item>
+        <item>Second Sunday</item>
+        <item>Third Sunday</item>
+        <item>Fourth Sunday</item>
+        <item>Last Sunday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>First Monday</item>
+        <item>Second Monday</item>
+        <item>Third Monday</item>
+        <item>Fourth Monday</item>
+        <item>Last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>First Tuesday</item>
+        <item>Second Tuesday</item>
+        <item>Third Tuesday</item>
+        <item>Fourth Tuesday</item>
+        <item>Last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>First Wednesday</item>
+        <item>Second Wednesday</item>
+        <item>Third Wednesday</item>
+        <item>Fourth Wednesday</item>
+        <item>Last Wednesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>First Thursday</item>
+        <item>Second Thursday</item>
+        <item>Third Thursday</item>
+        <item>Fourth Thursday</item>
+        <item>Last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>First Friday</item>
+        <item>Second Friday</item>
+        <item>Third Friday</item>
+        <item>Fourth Friday</item>
+        <item>Last Friday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>First Saturday</item>
+        <item>Second Saturday</item>
+        <item>Third Saturday</item>
+        <item>Fourth Saturday</item>
+        <item>Last Saturday</item>
+    </string-array>
+    <string-array name="day_of_weekly">
+        <item>Every Sunday</item>
+        <item>Every Monday</item>
+        <item>Every Tuesday</item>
+        <item>Every Wednesday</item>
+        <item>Every Thursday</item>
+        <item>Every Friday</item>
+        <item>Every Saturday</item>
+    </string-array>
+    <string-array name="rrule_type">
+        <item>One-time event</item>
+        <item>Every day</item>
+        <item>Work days (Monday-Friday)</item>
+        <item></item>
+        <item>Every month</item>
+        <item>Every month</item>
+        <item>Every year</item>
+    </string-array>
+    <string-array name="lunar_rrule_type">
+        <item>One-time event</item>
+        <item>Every lunar month</item>
+        <item>Every lunar year</item>
+    </string-array>
+    <string-array name="dropdown_list">
+        <item>All events</item>
+        <item>Personal agenda</item>
+        <item>Invitations</item>
+    </string-array>
+    <string-array name="recently_tab_names">
+        <item>Dynamic review</item>
+        <item>Dynamic preview</item>
+    </string-array>
+    <string-array name="event_types">
+        <item>Unknown</item>
+        <item>Sports</item>
+        <item>Travel</item>
+        <item>Birthday</item>
+        <item>Variety</item>
+        <item>TV series</item>
+        <item>Animation</item>
+        <item>Movie</item>
+        <item>Entertainment Productions</item>
+        <item>Letv movie</item>
+        <item>Concert</item>
+    </string-array>
+    <string-array name="game_states">
+        <item>Not started</item>
+        <item>In progress</item>
+        <item>Ended</item>
+    </string-array>
+    <string-array name="chineseten">
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="gan">
+        <item>Jia</item>
+        <item>Yi</item>
+        <item>Bing</item>
+        <item>Ding</item>
+        <item>Wu</item>
+        <item>Ji</item>
+        <item>Geng</item>
+        <item>Xin</item>
+        <item>Ren</item>
+        <item>Gui</item>
+    </string-array>
+    <string-array name="lunar_festival">
+        <item>"December 29 Chinese New Year's Eve"</item>
+        <item>"Layue 30 Chinese New Year's Eve"</item>
+        <item>Zhengyue 1 Spring Festival</item>
+        <item>2/2 Longtaitou Festival</item>
+        <item>Zhengyue 15 Lantern Festival</item>
+        <item>5/5 Dragon Boat Festival</item>
+        <item>7/7 Qixi Festival</item>
+        <item>7/15 Ghost Festival</item>
+        <item>8/15 Middle Autumn Festival</item>
+        <item>9/9 Double Ninth Festival</item>
+        <item>Layue 8 Laba Festival</item>
+        <item>Layue 23 Preliminary Eve</item>
+    </string-array>
+    <string-array name="animals">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
+    <string-array name="chinesenumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="lunar_month_name">
+        <item>January</item>
+        <item>2</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="zhi">
+        <item>Zi</item>
+        <item>Chou</item>
+        <item>Yin</item>
+        <item>Mao</item>
+        <item>Chen</item>
+        <item>Si</item>
+        <item>Wu</item>
+        <item>Wei</item>
+        <item>Shen</item>
+        <item>You</item>
+        <item>Xu</item>
+        <item>Hai</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>"I'll be a few minutes late."</item>
+        <item>"I'll be there in 10 minutes."</item>
+        <item>Go ahead and start without me.</item>
+        <item>"Sorry, I won't be able to make it. Let's meet another time."</item>
+    </string-array>
+    <string-array name="live_event_types">
+        <item>Live Sports</item>
+        <item>Live Entertainment</item>
+        <item>Live Music</item>
+        <item>Other Live Programs</item>
+        <item>Documentary</item>
+        <item>Movies</item>
+    </string-array>
+</resources>

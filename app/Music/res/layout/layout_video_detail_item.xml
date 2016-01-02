@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/prv/apk/res/android">
+    <ImageView android:id="@id/image" android:background="@color/background_grey" android:layout_width="113.0dip" android:layout_height="63.0dip" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/list_item_primary_text_color" android:gravity="center_horizontal" android:id="@id/video_name" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/image" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-regular" leui:leCJKTextSize="12sp" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/list_item_secondary_text_color" android:gravity="center_horizontal" android:id="@id/video_actor" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/video_name" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-regular" leui:leCJKTextSize="10sp" />
+</RelativeLayout>

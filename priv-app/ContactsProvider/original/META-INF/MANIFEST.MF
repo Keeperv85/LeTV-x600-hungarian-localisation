@@ -1,0 +1,218 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: res/layout/contact_dump_activity.xml
+SHA1-Digest: udlXz8gAsH6w9Nf3X0jCFLfe4yA=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sim_contact_green.pn
+ g
+SHA1-Digest: nI11nuPuOn4mXxUdj+/xmAHtaos=
+
+Name: res/drawable-xhdpi-v4/mtk_contact_icon_sim.png
+SHA1-Digest: gcorrydLjvlMqrS66CA+KVrRl1I=
+
+Name: res/drawable-hdpi-v4/mtk_contact_icon_sim.png
+SHA1-Digest: Ggd1syBFUDsO+2ExImzF1j8bK6c=
+
+Name: res/drawable-hdpi-v4/mtk_contact_icon_sim2.png
+SHA1-Digest: zGk26wuPAJd2sm9pqMbGMyPvoQg=
+
+Name: res/drawable-xxhdpi-v4/blacklist_icon.png
+SHA1-Digest: WS3SPipOruQhpGOGq/eNXj/EIwg=
+
+Name: res/drawable-hdpi-v4/mtk_missed_search.png
+SHA1-Digest: kRyNoL7/18TiQSAMvouz3d3fPsI=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sim_contact_green.p
+ ng
+SHA1-Digest: 6p5QK2rRZ/Pv0623rxBVLHIKbeY=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sim_contact_green.pn
+ g
+SHA1-Digest: BQk2NVZ+uSkLYxw+RDZRWm0juQQ=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sim_contact_blue.png
+SHA1-Digest: WQwrjJLJ4Mpe6ODerv4uwgqcZg0=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sdn_contact_green.pn
+ g
+SHA1-Digest: XkftgF12lOHKej7yyUoimtAopuI=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_contacts.png
+SHA1-Digest: UojTWRSletfgWma5LoS633j8tK0=
+
+Name: res/drawable-hdpi-v4/mtk_video_missed_search.png
+SHA1-Digest: pkTquHbByr3JM15sLLIr9sNYbHk=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sdn_contact_blue.pn
+ g
+SHA1-Digest: v8wZpUWMAb6O8EkBLxJSD/eCSVk=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sdn_contact.png
+SHA1-Digest: ufIbYQ5eLleIHNfozuEY2hDyYNs=
+
+Name: res/drawable-hdpi-v4/mtk_video_incoming_search.png
+SHA1-Digest: vTbqz6jN667PSxgnXRNs1n1KXuA=
+
+Name: res/drawable-xxxhdpi-v4/app_icon.png
+SHA1-Digest: hOxLUVbun6qOA14F6NJdSbtLnu4=
+
+Name: res/drawable-hdpi-v4/mtk_video_outing_search.png
+SHA1-Digest: 8qs+bGJMQDc3s1Jhsa5uXQjSQ6o=
+
+Name: res/drawable-mdpi-v4/mtk_incoming_search.png
+SHA1-Digest: hs70GoX64LXv3N5U4LxuWhq2L7U=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sdn_contact_purple.
+ png
+SHA1-Digest: w2/TrfAcn6YS0g4H0AoYLpF4/sw=
+
+Name: res/drawable-mdpi-v4/mtk_video_missed_search.png
+SHA1-Digest: pkTquHbByr3JM15sLLIr9sNYbHk=
+
+Name: res/drawable-xxxhdpi-v4/blacklist_icon.png
+SHA1-Digest: P+d26spsthq4C8gnu6kEhyJxfLM=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sim_contact_purple.p
+ ng
+SHA1-Digest: DjT5QoZJ9mZKubWGyRxFi+JErRg=
+
+Name: res/drawable-mdpi-v4/mtk_missed_search.png
+SHA1-Digest: XWcI7H+Tq2jsdGLyorGhyQO7XSY=
+
+Name: res/drawable-xhdpi-v4/app_icon.png
+SHA1-Digest: diTtHwMq+X0tk/k+tdENvaWT1sc=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sim_contact_blue.png
+SHA1-Digest: 7JoNoXVnXP/RowFqm7daDFM0A+8=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sim_contact_blue.pn
+ g
+SHA1-Digest: 69pTrlWdAgPLdqUsIJmdZHZWPkE=
+
+Name: res/drawable-xxhdpi-v4/call_logs_icon.png
+SHA1-Digest: u+lgSsq7Ilzsxzkbobn/RU722/s=
+
+Name: res/drawable-hdpi-v4/mtk_outing_search.png
+SHA1-Digest: pazsyopEmETAe16+hGxVznp6Wxg=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sim_contact_purple.
+ png
+SHA1-Digest: hk3HfxZHRwJiWI/ih/eR+82VPHk=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sim_contact_orange.p
+ ng
+SHA1-Digest: u5094ioMJo/OJoFugbqsNkKMbPE=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sdn_contact.png
+SHA1-Digest: MyyMN48NNlbOMEZT9FEo7yNWit4=
+
+Name: res/drawable-hdpi-v4/mtk_contact_icon_usim.png
+SHA1-Digest: QlLZJGJ9NYi6OnYzeDj+RROtMQw=
+
+Name: res/drawable-hdpi-v4/app_icon.png
+SHA1-Digest: 91YEgRX2pSypgdqNJ5cpUj/AuC8=
+
+Name: resources.arsc
+SHA1-Digest: 0DCZsJ/nMSoNE12OKkC/TA6PCOM=
+
+Name: res/drawable-mdpi-v4/app_icon.png
+SHA1-Digest: fftgm8ZemwTRu61zGTV7hrx7Pc8=
+
+Name: res/drawable-hdpi-v4/mtk_incoming_search.png
+SHA1-Digest: mQkSPd6I5UF8szzyxAKPYb7Stng=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sim_contact_purple.p
+ ng
+SHA1-Digest: bwG40IL6ofFVX5yzjtRz2thz158=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sim_contact_orange.
+ png
+SHA1-Digest: f5KJrX7LplutHZUnSe6jrecWlog=
+
+Name: res/drawable-mdpi-v4/mtk_video_outing_search.png
+SHA1-Digest: 8qs+bGJMQDc3s1Jhsa5uXQjSQ6o=
+
+Name: AndroidManifest.xml
+SHA1-Digest: QMK2j6W+vPC1I0bwHbJ9Hfu+3RM=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sdn_contact_purple.p
+ ng
+SHA1-Digest: zwRNryOl+9W0KLUYC2LfViGVC9c=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sim_contact_orange.p
+ ng
+SHA1-Digest: HhEtz4McDGxuaTqfTstHiCMkmnQ=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sdn_contact_orange.
+ png
+SHA1-Digest: 4pZwqEz8Uxt5OIhR+ZMEL2a59e8=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sdn_contact_orange.p
+ ng
+SHA1-Digest: +7/Ih652fpavvIxd1TD1iYoRHD8=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_contacts.png
+SHA1-Digest: hlGL1I5R9NIKRkhArc8BWffmh08=
+
+Name: res/drawable-xhdpi-v4/mtk_ic_contact_picture_sdn_contact_green.p
+ ng
+SHA1-Digest: CKDrB1JTo/4LlMxln8PoTtBlq+M=
+
+Name: res/drawable-xhdpi-v4/mtk_contact_icon_sim1.png
+SHA1-Digest: TQ25eq2O9D3lqFF9PUAyyMvTrHo=
+
+Name: res/drawable-xxhdpi-v4/app_icon.png
+SHA1-Digest: P1k2wrVPLZTZPJt7BZ3dlmt7rfU=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sdn_contact_orange.p
+ ng
+SHA1-Digest: yQ8Xp6eBzYlKamFfaNVR3w5eDSo=
+
+Name: res/drawable-hdpi-v4/mtk_contact_icon_sim1.png
+SHA1-Digest: TQ25eq2O9D3lqFF9PUAyyMvTrHo=
+
+Name: res/drawable-mdpi-v4/mtk_contact_icon_sim2.png
+SHA1-Digest: jKV3ta5yfMZC0gC7qMC6ZjNK3kU=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sdn_contact_blue.png
+SHA1-Digest: E3Y9fApgEYli7WX21AIyqWDFQME=
+
+Name: classes.dex
+SHA1-Digest: YtpbDH3BQO02IBauNziu03l+Bf4=
+
+Name: res/drawable-mdpi-v4/mtk_outing_search.png
+SHA1-Digest: PFGo5w384FQe2qkxB1Jg+RwXfww=
+
+Name: res/drawable-mdpi-v4/mtk_contact_icon_sim1.png
+SHA1-Digest: X7VNDiF3rnOJApkx2NTuznM6+Qo=
+
+Name: res/drawable-mdpi-v4/mtk_contact_icon_usim.png
+SHA1-Digest: FTTXWBX9bCUDZgyOlJG7MTT8DdA=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sdn_contact_purple.p
+ ng
+SHA1-Digest: cfg2HwBgvQjxBjSR3aD+4aIYe0Y=
+
+Name: res/drawable-mdpi-v4/mtk_video_incoming_search.png
+SHA1-Digest: vTbqz6jN667PSxgnXRNs1n1KXuA=
+
+Name: res/drawable-xxxhdpi-v4/call_logs_icon.png
+SHA1-Digest: 8mjDEuhp+J9H8+T/+X4QY2WdO64=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sdn_contact.png
+SHA1-Digest: tyYUelH9cSL1fYb76EpjIyFqv6w=
+
+Name: res/drawable-mdpi-v4/mtk_ic_contact_picture_sdn_contact_blue.png
+SHA1-Digest: hHZ/U/SCsmRBKbRvHi8XO4WPNVM=
+
+Name: res/drawable-mdpi-v4/mtk_contact_icon_sim.png
+SHA1-Digest: fpSqS4G1DdhdazgeP6+2noCi0f4=
+
+Name: res/drawable-xhdpi-v4/mtk_contact_icon_sim2.png
+SHA1-Digest: zGk26wuPAJd2sm9pqMbGMyPvoQg=
+
+Name: res/drawable-hdpi-v4/mtk_ic_contact_picture_sdn_contact_green.pn
+ g
+SHA1-Digest: lLrVWCTozJ/MqFJs8KWkIr3DIhQ=
+

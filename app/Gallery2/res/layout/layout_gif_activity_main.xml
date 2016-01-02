@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_content" android:background="@color/photo_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <uk.co.senab.photoview.PhotoView android:id="@id/iv_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_current_matrix" android:background="#60000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

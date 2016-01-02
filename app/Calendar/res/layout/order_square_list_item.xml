@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/order_square_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ic_order_square" android:layout_width="@dimen/subscribe_icon_size" android:layout_height="@dimen/subscribe_icon_size" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sucscribe_list_text_size" android:textColor="@android:color/black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_name_margin_icon" />
+            <ImageView android:id="@id/new_content_dot" android:background="#ffff0000" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/title" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/subscrite_num" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/edit_event_block_horizontal_padding" android:layout_marginRight="@dimen/edit_event_block_horizontal_padding" />
+</LinearLayout>

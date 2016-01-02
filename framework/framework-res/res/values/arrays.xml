@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="config_keySystemUuidMapping" />
+    <array name="preloaded_drawables">
+        <item>@drawable/toast_frame</item>
+        <item>@drawable/btn_check_on_pressed_holo_light</item>
+        <item>@drawable/btn_check_on_pressed_holo_dark</item>
+        <item>@drawable/btn_check_on_holo_light</item>
+        <item>@drawable/btn_check_on_holo_dark</item>
+        <item>@drawable/btn_check_on_focused_holo_light</item>
+        <item>@drawable/btn_check_on_focused_holo_dark</item>
+        <item>@drawable/btn_check_on_disabled_holo_light</item>
+        <item>@drawable/btn_check_on_disabled_holo_dark</item>
+        <item>@drawable/btn_check_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_check_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_check_off_pressed_holo_light</item>
+        <item>@drawable/btn_check_off_pressed_holo_dark</item>
+        <item>@drawable/btn_check_off_holo_light</item>
+        <item>@drawable/btn_check_off_holo_dark</item>
+        <item>@drawable/btn_check_off_focused_holo_light</item>
+        <item>@drawable/btn_check_off_focused_holo_dark</item>
+        <item>@drawable/btn_check_off_disabled_holo_light</item>
+        <item>@drawable/btn_check_off_disabled_holo_dark</item>
+        <item>@drawable/btn_check_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_check_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_check_holo_light</item>
+        <item>@drawable/btn_check_holo_dark</item>
+        <item>@drawable/btn_radio_on_pressed_holo_light</item>
+        <item>@drawable/btn_radio_on_pressed_holo_dark</item>
+        <item>@drawable/btn_radio_on_holo_light</item>
+        <item>@drawable/btn_radio_on_holo_dark</item>
+        <item>@drawable/btn_radio_on_focused_holo_light</item>
+        <item>@drawable/btn_radio_on_focused_holo_dark</item>
+        <item>@drawable/btn_radio_on_disabled_holo_light</item>
+        <item>@drawable/btn_radio_on_disabled_holo_dark</item>
+        <item>@drawable/btn_radio_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_radio_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_radio_off_pressed_holo_light</item>
+        <item>@drawable/btn_radio_off_pressed_holo_dark</item>
+        <item>@drawable/btn_radio_off_holo_light</item>
+        <item>@drawable/btn_radio_off_holo_dark</item>
+        <item>@drawable/btn_radio_off_focused_holo_light</item>
+        <item>@drawable/btn_radio_off_focused_holo_dark</item>
+        <item>@drawable/btn_radio_off_disabled_holo_light</item>
+        <item>@drawable/btn_radio_off_disabled_holo_dark</item>
+        <item>@drawable/btn_radio_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_radio_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_default_pressed_holo_light</item>
+        <item>@drawable/btn_default_pressed_holo_dark</item>
+        <item>@drawable/btn_default_normal_holo_light</item>
+        <item>@drawable/btn_default_normal_holo_dark</item>
+        <item>@drawable/btn_default_focused_holo_light</item>
+        <item>@drawable/btn_default_focused_holo_dark</item>
+        <item>@drawable/btn_default_disabled_holo_light</item>
+        <item>@drawable/btn_default_disabled_holo_dark</item>
+        <item>@drawable/btn_default_disabled_focused_holo_light</item>
+        <item>@drawable/btn_default_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_default_holo_dark</item>
+        <item>@drawable/btn_default_holo_light</item>
+        <item>@drawable/btn_star_off_normal_holo_light</item>
+        <item>@drawable/btn_star_on_normal_holo_light</item>
+        <item>@drawable/btn_star_on_disabled_holo_light</item>
+        <item>@drawable/btn_star_off_disabled_holo_light</item>
+        <item>@drawable/btn_star_on_pressed_holo_light</item>
+        <item>@drawable/btn_star_off_pressed_holo_light</item>
+        <item>@drawable/btn_star_on_focused_holo_light</item>
+        <item>@drawable/btn_star_off_focused_holo_light</item>
+        <item>@drawable/btn_star_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_star_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_star_holo_light</item>
+        <item>@drawable/btn_star_off_normal_holo_dark</item>
+        <item>@drawable/btn_star_on_normal_holo_dark</item>
+        <item>@drawable/btn_star_on_disabled_holo_dark</item>
+        <item>@drawable/btn_star_off_disabled_holo_dark</item>
+        <item>@drawable/btn_star_on_pressed_holo_dark</item>
+        <item>@drawable/btn_star_off_pressed_holo_dark</item>
+        <item>@drawable/btn_star_on_focused_holo_dark</item>
+        <item>@drawable/btn_star_off_focused_holo_dark</item>
+        <item>@drawable/btn_star_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_star_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_star_holo_dark</item>
+        <item>@drawable/btn_toggle_on_pressed_holo_light</item>
+        <item>@drawable/btn_toggle_on_pressed_holo_dark</item>
+        <item>@drawable/btn_toggle_on_normal_holo_light</item>
+        <item>@drawable/btn_toggle_on_normal_holo_dark</item>
+        <item>@drawable/btn_toggle_on_focused_holo_light</item>
+        <item>@drawable/btn_toggle_on_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_on_disabled_holo_light</item>
+        <item>@drawable/btn_toggle_on_disabled_holo_dark</item>
+        <item>@drawable/btn_toggle_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_toggle_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_off_pressed_holo_light</item>
+        <item>@drawable/btn_toggle_off_pressed_holo_dark</item>
+        <item>@drawable/btn_toggle_off_normal_holo_light</item>
+        <item>@drawable/btn_toggle_off_normal_holo_dark</item>
+        <item>@drawable/btn_toggle_off_focused_holo_light</item>
+        <item>@drawable/btn_toggle_off_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_off_disabled_holo_light</item>
+        <item>@drawable/btn_toggle_off_disabled_holo_dark</item>
+        <item>@drawable/btn_toggle_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_toggle_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_holo_light</item>
+        <item>@drawable/btn_toggle_holo_dark</item>
+        <item>@drawable/edit_text_holo_light</item>
+        <item>@drawable/edit_text_holo_dark</item>
+        <item>@drawable/text_cursor_holo_light</item>
+        <item>@drawable/text_cursor_holo_dark</item>
+        <item>@drawable/text_select_handle_left</item>
+        <item>@drawable/text_select_handle_right</item>
+        <item>@drawable/text_edit_paste_window</item>
+        <item>@drawable/expander_close_holo_dark</item>
+        <item>@drawable/expander_close_holo_light</item>
+        <item>@drawable/expander_group_holo_dark</item>
+        <item>@drawable/expander_group_holo_light</item>
+        <item>@drawable/list_selector_holo_dark</item>
+        <item>@drawable/list_selector_holo_light</item>
+        <item>@drawable/list_section_divider_holo_light</item>
+        <item>@drawable/list_section_divider_holo_dark</item>
+        <item>@drawable/menu_hardkey_panel_holo_dark</item>
+        <item>@drawable/menu_hardkey_panel_holo_light</item>
+        <item>@drawable/menu_submenu_background</item>
+        <item>@drawable/menu_dropdown_panel_holo_light</item>
+        <item>@drawable/menu_dropdown_panel_holo_dark</item>
+        <item>@drawable/menu_popup_panel_holo_light</item>
+        <item>@drawable/menu_popup_panel_holo_dark</item>
+        <item>@drawable/menu_panel_holo_light</item>
+        <item>@drawable/menu_panel_holo_dark</item>
+        <item>@drawable/spinner_16_outer_holo</item>
+        <item>@drawable/spinner_16_inner_holo</item>
+        <item>@drawable/spinner_48_outer_holo</item>
+        <item>@drawable/spinner_48_inner_holo</item>
+        <item>@drawable/spinner_76_outer_holo</item>
+        <item>@drawable/spinner_76_inner_holo</item>
+        <item>@drawable/progress_bg_holo_dark</item>
+        <item>@drawable/progress_bg_holo_light</item>
+        <item>@drawable/progress_horizontal_holo_dark</item>
+        <item>@drawable/progress_horizontal_holo_light</item>
+        <item>@drawable/progress_indeterminate_horizontal_holo</item>
+        <item>@drawable/progress_large_holo</item>
+        <item>@drawable/progress_medium_holo</item>
+        <item>@drawable/progress_primary_holo_dark</item>
+        <item>@drawable/progress_primary_holo_light</item>
+        <item>@drawable/progress_secondary_holo_dark</item>
+        <item>@drawable/progress_secondary_holo_light</item>
+        <item>@drawable/progress_small_holo</item>
+        <item>@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item>@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item>@drawable/background_holo_light</item>
+        <item>@drawable/background_holo_dark</item>
+        <item>@drawable/screen_background_dark</item>
+        <item>@drawable/screen_background_dark_transparent</item>
+        <item>@drawable/screen_background_light</item>
+        <item>@drawable/screen_background_light_transparent</item>
+        <item>@drawable/screen_background_selector_dark</item>
+        <item>@drawable/screen_background_selector_light</item>
+        <item>@drawable/scrollbar_handle_holo_dark</item>
+        <item>@drawable/scrollbar_handle_holo_light</item>
+        <item>@drawable/spinner_background_holo_dark</item>
+        <item>@drawable/spinner_background_holo_light</item>
+        <item>@drawable/spinner_ab_default_holo_dark</item>
+        <item>@drawable/spinner_ab_default_holo_light</item>
+        <item>@drawable/spinner_ab_disabled_holo_dark</item>
+        <item>@drawable/spinner_ab_disabled_holo_light</item>
+        <item>@drawable/spinner_ab_focused_holo_dark</item>
+        <item>@drawable/spinner_ab_focused_holo_light</item>
+        <item>@drawable/spinner_ab_pressed_holo_dark</item>
+        <item>@drawable/spinner_ab_pressed_holo_light</item>
+        <item>@drawable/spinner_ab_holo_dark</item>
+        <item>@drawable/spinner_ab_holo_light</item>
+        <item>@drawable/spinner_default_holo_dark</item>
+        <item>@drawable/spinner_default_holo_light</item>
+        <item>@drawable/spinner_disabled_holo_dark</item>
+        <item>@drawable/spinner_disabled_holo_light</item>
+        <item>@drawable/spinner_focused_holo_dark</item>
+        <item>@drawable/spinner_focused_holo_light</item>
+        <item>@drawable/spinner_pressed_holo_dark</item>
+        <item>@drawable/spinner_pressed_holo_light</item>
+        <item>@drawable/cab_background_bottom_holo_dark</item>
+        <item>@drawable/cab_background_top_holo_light</item>
+        <item>@drawable/cab_background_bottom_holo_light</item>
+        <item>@drawable/ic_cab_done_holo_dark</item>
+        <item>@drawable/cab_background_top_holo_dark</item>
+        <item>@drawable/ic_cab_done_holo_light</item>
+        <item>@drawable/btn_cab_done_default_holo_dark</item>
+        <item>@drawable/btn_cab_done_focused_holo_light</item>
+        <item>@drawable/btn_cab_done_default_holo_light</item>
+        <item>@drawable/btn_cab_done_pressed_holo_dark</item>
+        <item>@drawable/btn_cab_done_focused_holo_dark</item>
+        <item>@drawable/btn_cab_done_pressed_holo_light</item>
+        <item>@drawable/btn_cab_done_holo_light</item>
+        <item>@drawable/btn_cab_done_holo_dark</item>
+        <item>@drawable/ic_menu_close_clear_cancel</item>
+        <item>@drawable/ic_menu_copy_holo_dark</item>
+        <item>@drawable/ic_menu_copy_holo_light</item>
+        <item>@drawable/ic_menu_cut_holo_dark</item>
+        <item>@drawable/ic_menu_cut_holo_light</item>
+        <item>@drawable/ic_menu_more</item>
+        <item>@drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item>@drawable/ic_menu_moreoverflow_holo_light</item>
+        <item>@drawable/ic_menu_paste_holo_dark</item>
+        <item>@drawable/ic_menu_paste_holo_light</item>
+        <item>@drawable/ic_menu_selectall_holo_light</item>
+        <item>@drawable/ic_menu_selectall_holo_dark</item>
+        <item>@drawable/ic_clear</item>
+        <item>@drawable/ic_clear_disabled</item>
+        <item>@drawable/ic_clear_normal</item>
+        <item>@drawable/ic_search_api_holo_dark</item>
+        <item>@drawable/ic_search_api_holo_light</item>
+        <item>@drawable/ic_go</item>
+        <item>@drawable/ic_voice_search_api_holo_dark</item>
+        <item>@drawable/ic_voice_search_api_holo_light</item>
+        <item>@drawable/dialog_bottom_holo_dark</item>
+        <item>@drawable/dialog_bottom_holo_light</item>
+        <item>@drawable/dialog_full_holo_dark</item>
+        <item>@drawable/dialog_full_holo_light</item>
+        <item>@drawable/dialog_middle_holo_dark</item>
+        <item>@drawable/dialog_middle_holo_light</item>
+        <item>@drawable/dialog_top_holo_dark</item>
+        <item>@drawable/dialog_top_holo_light</item>
+        <item>@drawable/ic_dialog_alert_holo_dark</item>
+        <item>@drawable/ic_dialog_alert_holo_light</item>
+        <item>@drawable/list_divider_holo_dark</item>
+        <item>@drawable/list_divider_holo_light</item>
+        <item>@drawable/list_divider_holo_light</item>
+        <item>@drawable/ab_transparent_dark_holo</item>
+        <item>@drawable/ab_stacked_transparent_dark_holo</item>
+        <item>@drawable/ab_bottom_transparent_dark_holo</item>
+        <item>@drawable/ab_solid_dark_holo</item>
+        <item>@drawable/ab_stacked_solid_dark_holo</item>
+        <item>@drawable/ab_bottom_solid_dark_holo</item>
+        <item>@drawable/ab_transparent_light_holo</item>
+        <item>@drawable/ab_stacked_transparent_light_holo</item>
+        <item>@drawable/ab_bottom_transparent_light_holo</item>
+        <item>@drawable/ab_solid_light_holo</item>
+        <item>@drawable/ab_stacked_solid_light_holo</item>
+        <item>@drawable/ab_bottom_solid_light_holo</item>
+        <item>@drawable/ab_solid_shadow_holo</item>
+        <item>@drawable/item_background_holo_dark</item>
+        <item>@drawable/item_background_holo_light</item>
+        <item>@drawable/fastscroll_thumb_holo</item>
+        <item>@drawable/fastscroll_thumb_pressed_holo</item>
+        <item>@drawable/fastscroll_thumb_default_holo</item>
+        <item>@drawable/fastscroll_track_holo_dark</item>
+        <item>@drawable/fastscroll_track_pressed_holo_dark</item>
+        <item>@drawable/fastscroll_track_default_holo_dark</item>
+        <item>@drawable/fastscroll_label_left_holo_dark</item>
+        <item>@drawable/fastscroll_label_right_holo_dark</item>
+        <item>@drawable/fastscroll_track_holo_light</item>
+        <item>@drawable/fastscroll_track_pressed_holo_light</item>
+        <item>@drawable/fastscroll_track_default_holo_light</item>
+        <item>@drawable/fastscroll_label_left_holo_light</item>
+        <item>@drawable/fastscroll_label_right_holo_light</item>
+        <item>@drawable/editbox_dropdown_background_dark</item>
+        <item>@drawable/textfield_searchview_holo_dark</item>
+        <item>@drawable/textfield_searchview_right_holo_dark</item>
+        <item>@drawable/textfield_searchview_holo_light</item>
+        <item>@drawable/textfield_searchview_right_holo_light</item>
+        <item>@drawable/textfield_search_selected_holo_dark</item>
+        <item>@drawable/textfield_search_default_holo_dark</item>
+        <item>@drawable/textfield_search_right_selected_holo_dark</item>
+        <item>@drawable/textfield_search_right_default_holo_dark</item>
+        <item>@drawable/textfield_search_selected_holo_light</item>
+        <item>@drawable/textfield_search_default_holo_light</item>
+        <item>@drawable/textfield_search_right_selected_holo_light</item>
+        <item>@drawable/textfield_search_right_default_holo_light</item>
+        <item>@drawable/tab_indicator_holo</item>
+        <item>@drawable/tab_unselected_holo</item>
+        <item>@drawable/tab_selected_holo</item>
+        <item>@drawable/tab_unselected_focused_holo</item>
+        <item>@drawable/tab_selected_focused_holo</item>
+        <item>@drawable/tab_unselected_pressed_holo</item>
+        <item>@drawable/tab_selected_pressed_holo</item>
+        <item>@drawable/quickcontact_badge_overlay_dark</item>
+        <item>@drawable/quickcontact_badge_overlay_normal_dark</item>
+        <item>@drawable/quickcontact_badge_overlay_pressed_dark</item>
+        <item>@drawable/quickcontact_badge_overlay_light</item>
+        <item>@drawable/quickcontact_badge_overlay_normal_light</item>
+        <item>@drawable/quickcontact_badge_overlay_pressed_light</item>
+        <item>@drawable/ab_share_pack_mtrl_alpha</item>
+        <item>@drawable/ab_solid_shadow_mtrl_alpha</item>
+        <item>@drawable/btn_cab_done_mtrl_alpha</item>
+        <item>@drawable/btn_check_to_off_mtrl_000</item>
+        <item>@drawable/btn_check_to_off_mtrl_001</item>
+        <item>@drawable/btn_check_to_off_mtrl_002</item>
+        <item>@drawable/btn_check_to_off_mtrl_003</item>
+        <item>@drawable/btn_check_to_off_mtrl_004</item>
+        <item>@drawable/btn_check_to_off_mtrl_005</item>
+        <item>@drawable/btn_check_to_off_mtrl_006</item>
+        <item>@drawable/btn_check_to_off_mtrl_007</item>
+        <item>@drawable/btn_check_to_off_mtrl_008</item>
+        <item>@drawable/btn_check_to_off_mtrl_009</item>
+        <item>@drawable/btn_check_to_off_mtrl_010</item>
+        <item>@drawable/btn_check_to_off_mtrl_011</item>
+        <item>@drawable/btn_check_to_off_mtrl_012</item>
+        <item>@drawable/btn_check_to_off_mtrl_013</item>
+        <item>@drawable/btn_check_to_off_mtrl_014</item>
+        <item>@drawable/btn_check_to_off_mtrl_015</item>
+        <item>@drawable/btn_check_to_on_mtrl_000</item>
+        <item>@drawable/btn_check_to_on_mtrl_001</item>
+        <item>@drawable/btn_check_to_on_mtrl_002</item>
+        <item>@drawable/btn_check_to_on_mtrl_003</item>
+        <item>@drawable/btn_check_to_on_mtrl_004</item>
+        <item>@drawable/btn_check_to_on_mtrl_005</item>
+        <item>@drawable/btn_check_to_on_mtrl_006</item>
+        <item>@drawable/btn_check_to_on_mtrl_007</item>
+        <item>@drawable/btn_check_to_on_mtrl_008</item>
+        <item>@drawable/btn_check_to_on_mtrl_009</item>
+        <item>@drawable/btn_check_to_on_mtrl_010</item>
+        <item>@drawable/btn_check_to_on_mtrl_011</item>
+        <item>@drawable/btn_check_to_on_mtrl_012</item>
+        <item>@drawable/btn_check_to_on_mtrl_013</item>
+        <item>@drawable/btn_check_to_on_mtrl_014</item>
+        <item>@drawable/btn_check_to_on_mtrl_015</item>
+        <item>@drawable/btn_radio_to_off_mtrl_000</item>
+        <item>@drawable/btn_radio_to_off_mtrl_001</item>
+        <item>@drawable/btn_radio_to_off_mtrl_002</item>
+        <item>@drawable/btn_radio_to_off_mtrl_003</item>
+        <item>@drawable/btn_radio_to_off_mtrl_004</item>
+        <item>@drawable/btn_radio_to_off_mtrl_005</item>
+        <item>@drawable/btn_radio_to_off_mtrl_006</item>
+        <item>@drawable/btn_radio_to_off_mtrl_007</item>
+        <item>@drawable/btn_radio_to_off_mtrl_008</item>
+        <item>@drawable/btn_radio_to_off_mtrl_009</item>
+        <item>@drawable/btn_radio_to_off_mtrl_010</item>
+        <item>@drawable/btn_radio_to_off_mtrl_011</item>
+        <item>@drawable/btn_radio_to_off_mtrl_012</item>
+        <item>@drawable/btn_radio_to_off_mtrl_013</item>
+        <item>@drawable/btn_radio_to_off_mtrl_014</item>
+        <item>@drawable/btn_radio_to_off_mtrl_015</item>
+        <item>@drawable/btn_radio_to_on_mtrl_000</item>
+        <item>@drawable/btn_radio_to_on_mtrl_001</item>
+        <item>@drawable/btn_radio_to_on_mtrl_002</item>
+        <item>@drawable/btn_radio_to_on_mtrl_003</item>
+        <item>@drawable/btn_radio_to_on_mtrl_004</item>
+        <item>@drawable/btn_radio_to_on_mtrl_005</item>
+        <item>@drawable/btn_radio_to_on_mtrl_006</item>
+        <item>@drawable/btn_radio_to_on_mtrl_007</item>
+        <item>@drawable/btn_radio_to_on_mtrl_008</item>
+        <item>@drawable/btn_radio_to_on_mtrl_009</item>
+        <item>@drawable/btn_radio_to_on_mtrl_010</item>
+        <item>@drawable/btn_radio_to_on_mtrl_011</item>
+        <item>@drawable/btn_radio_to_on_mtrl_012</item>
+        <item>@drawable/btn_radio_to_on_mtrl_013</item>
+        <item>@drawable/btn_radio_to_on_mtrl_014</item>
+        <item>@drawable/btn_radio_to_on_mtrl_015</item>
+        <item>@drawable/btn_rating_star_off_mtrl_alpha</item>
+        <item>@drawable/btn_rating_star_on_mtrl_alpha</item>
+        <item>@drawable/btn_star_mtrl_alpha</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00001</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00002</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00003</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00004</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00005</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00006</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00007</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00008</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00009</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00010</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00011</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00012</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00001</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00002</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00003</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00004</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00005</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00006</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00007</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00008</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00009</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00010</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00011</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00012</item>
+        <item>@drawable/btn_toggle_indicator_mtrl_alpha</item>
+        <item>@drawable/expander_close_mtrl_alpha</item>
+        <item>@drawable/expander_open_mtrl_alpha</item>
+        <item>@drawable/fastscroll_thumb_mtrl_alpha</item>
+        <item>@drawable/fastscroll_track_mtrl_alpha</item>
+        <item>@drawable/ic_ab_back_material</item>
+        <item>@drawable/ic_cab_done_mtrl_alpha</item>
+        <item>@drawable/ic_clear_mtrl_alpha</item>
+        <item>@drawable/ic_commit_search_api_mtrl_alpha</item>
+        <item>@drawable/ic_dialog_alert_material</item>
+        <item>@drawable/ic_find_next_mtrl_alpha</item>
+        <item>@drawable/ic_find_previous_mtrl_alpha</item>
+        <item>@drawable/ic_go_search_api_material</item>
+        <item>@drawable/ic_media_route_disabled_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_off_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_0_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_1_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_2_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_mtrl_alpha</item>
+        <item>@drawable/ic_menu_copy_material</item>
+        <item>@drawable/ic_menu_cut_material</item>
+        <item>@drawable/ic_menu_find_mtrl_alpha</item>
+        <item>@drawable/ic_menu_moreoverflow_material</item>
+        <item>@drawable/ic_menu_paste_material</item>
+        <item>@drawable/ic_menu_search_mtrl_alpha</item>
+        <item>@drawable/ic_menu_selectall_material</item>
+        <item>@drawable/ic_menu_share_material</item>
+        <item>@drawable/ic_search_api_material</item>
+        <item>@drawable/ic_voice_search_api_material</item>
+        <item>@drawable/list_divider_mtrl_alpha</item>
+        <item>@drawable/list_section_divider_mtrl_alpha</item>
+        <item>@drawable/popup_background_mtrl_mult</item>
+        <item>@drawable/progress_mtrl_alpha</item>
+        <item>@drawable/scrollbar_handle_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_000</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_001</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_002</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_003</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_004</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_005</item>
+        <item>@drawable/scrubber_control_off_pressed_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_off_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_on_pressed_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_on_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_000</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_001</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_002</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_003</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_004</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_005</item>
+        <item>@drawable/scrubber_primary_mtrl_alpha</item>
+        <item>@drawable/scrubber_track_mtrl_alpha</item>
+        <item>@drawable/spinner_mtrl_am_alpha</item>
+        <item>@drawable/switch_track_mtrl_alpha</item>
+        <item>@drawable/text_cursor_mtrl_alpha</item>
+        <item>@drawable/textfield_activated_mtrl_alpha</item>
+        <item>@drawable/textfield_default_mtrl_alpha</item>
+        <item>@drawable/textfield_search_activated_mtrl_alpha</item>
+        <item>@drawable/textfield_search_default_mtrl_alpha</item>
+        <item>@drawable/text_select_handle_left_mtrl_alpha</item>
+        <item>@drawable/text_select_handle_middle_mtrl_alpha</item>
+        <item>@drawable/text_select_handle_right_mtrl_alpha</item>
+    </array>
+    <array name="preloaded_color_state_lists">
+        <item>@color/primary_text_dark</item>
+        <item>@color/primary_text_dark_disable_only</item>
+        <item>@color/primary_text_dark_nodisable</item>
+        <item>@color/primary_text_disable_only_holo_dark</item>
+        <item>@color/primary_text_disable_only_holo_light</item>
+        <item>@color/primary_text_holo_dark</item>
+        <item>@color/primary_text_holo_light</item>
+        <item>@color/primary_text_light</item>
+        <item>@color/primary_text_light_disable_only</item>
+        <item>@color/primary_text_light_nodisable</item>
+        <item>@color/primary_text_nodisable_holo_dark</item>
+        <item>@color/primary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_dark</item>
+        <item>@color/secondary_text_dark_nodisable</item>
+        <item>@color/secondary_text_holo_dark</item>
+        <item>@color/secondary_text_holo_light</item>
+        <item>@color/secondary_text_light</item>
+        <item>@color/secondary_text_light_nodisable</item>
+        <item>@color/secondary_text_nodisable_holo_dark</item>
+        <item>@color/secondary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_nofocus</item>
+        <item>@color/hint_foreground_dark</item>
+        <item>@color/hint_foreground_holo_dark</item>
+        <item>@color/hint_foreground_holo_light</item>
+        <item>@color/hint_foreground_light</item>
+        <item>@color/bright_foreground_light</item>
+        <item>@color/bright_foreground_dark</item>
+        <item>@color/tab_indicator_text</item>
+        <item>#ff000000</item>
+        <item>#00000000</item>
+        <item>#ffffffff</item>
+        <item>@color/background_cache_hint_selector_material_dark</item>
+        <item>@color/background_cache_hint_selector_material_light</item>
+        <item>@color/btn_default_material_dark</item>
+        <item>@color/btn_default_material_light</item>
+        <item>@color/primary_text_disable_only_material_dark</item>
+        <item>@color/primary_text_disable_only_material_light</item>
+        <item>@color/primary_text_material_dark</item>
+        <item>@color/primary_text_material_light</item>
+        <item>@color/search_url_text_material_dark</item>
+        <item>@color/search_url_text_material_light</item>
+    </array>
+    <string-array name="special_locale_codes">
+        <item>ar_EG</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>العربية</item>
+        <item>中文 (简体)</item>
+        <item>繁體中文 (台湾)</item>
+        <item>繁體中文 (香港)</item>
+    </string-array>
+    <string-array name="config_statusBarIcons">
+        <item>ime</item>
+        <item>sync_failing</item>
+        <item>sync_active</item>
+        <item>cast</item>
+        <item>location</item>
+        <item>bluetooth</item>
+        <item>nfc</item>
+        <item>headset</item>
+        <item>tty</item>
+        <item>speakerphone</item>
+        <item>zen</item>
+        <item>mute</item>
+        <item>volume</item>
+        <item>wifi</item>
+        <item>cdma_eri</item>
+        <item>data_connection</item>
+        <item>phone_evdo_signal</item>
+        <item>phone_signal</item>
+        <item>battery</item>
+        <item>alarm_clock</item>
+        <item>secure</item>
+        <item>clock</item>
+    </string-array>
+    <integer-array name="config_masterVolumeRamp">
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,2,-1,true</item>
+        <item>tedongle,49,49,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,300000,true</item>
+        <item>mobile_supl,3,0,2,300000,true</item>
+        <item>mobile_dun,4,0,3,300000,true</item>
+        <item>mobile_hipri,5,0,3,300000,true</item>
+        <item>bluetooth,7,7,0,-1,true</item>
+        <item>mobile_fota,10,0,2,300000,true</item>
+        <item>mobile_ims,11,0,2,300000,true</item>
+        <item>mobile_cbs,12,0,2,300000,true</item>
+        <item>mobile_dm,34,0,3,300000,true</item>
+        <item>mobile_wap,35,0,3,300000,true</item>
+        <item>mobile_net,36,0,3,300000,true</item>
+        <item>mobile_cmmail,37,0,3,300000,true</item>
+        <item>mobile_rcse,38,0,3,300000,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>csd,41,41,3,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+    </string-array>
+    <integer-array name="config_protectedNetworks">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <string-array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+        <item>7,1</item>
+        <item>41,1</item>
+        <item>49,1</item>
+    </string-array>
+    <integer-array name="config_data_usage_network_types">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+    </integer-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
+    <array name="config_tether_wimax_regexs" />
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <array name="config_tether_dhcp_range" />
+    <array name="config_mobile_hotspot_provision_app" />
+    <integer-array name="config_tether_upstream_types">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>49</item>
+    </integer-array>
+    <array name="config_cdma_dun_supported_types" />
+    <array name="config_usbHostBlacklist" />
+    <array name="config_serialPorts" />
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>15</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>40</item>
+    </integer-array>
+    <integer-array name="config_clockTickVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_calendarDateVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_safeModeDisabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>15</item>
+        <item>10</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>4</item>
+        <item>40</item>
+        <item>350</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>1600</item>
+        <item>3000</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>18</item>
+        <item>26</item>
+        <item>73</item>
+        <item>88</item>
+        <item>130</item>
+        <item>167</item>
+        <item>204</item>
+        <item>240</item>
+        <item>254</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_autoBrightnessButtonBacklightValues" />
+    <array name="config_autoBrightnessKeyboardBacklightValues" />
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.android.location.fused</item>
+        <item>com.google.android.gms</item>
+        <item>com.baidu.map.location</item>
+    </string-array>
+    <array name="config_testLocationProviders" />
+    <array name="config_twoDigitNumberPattern" />
+    <array name="config_sms_enabled_single_shift_tables" />
+    <array name="config_sms_enabled_locking_shift_tables" />
+    <array name="config_oemUsbModeOverride" />
+    <array name="config_mobile_tcp_buffers" />
+    <integer-array name="config_onlySingleDcAllowed">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="config_defaultNotificationVibePattern">
+        <item>0</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </integer-array>
+    <integer-array name="config_notificationFallbackVibePattern">
+        <item>0</item>
+        <item>100</item>
+        <item>150</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="config_disabledUntilUsedPreinstalledImes">
+        <item>com.android.inputmethod.latin</item>
+    </string-array>
+    <string-array name="config_notificationSignalExtractors">
+        <item>com.android.server.notification.ValidateNotificationPeople</item>
+        <item>com.android.server.notification.PackagePriorityExtractor</item>
+        <item>com.android.server.notification.NotificationIntrusivenessExtractor</item>
+        <item>com.android.server.notification.PackageVisibilityExtractor</item>
+    </string-array>
+    <array name="config_operatorConsideredNonRoaming" />
+    <array name="config_sameNamedOperatorConsideredRoaming" />
+    <string-array name="config_callBarringMMI">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_globalActionsList">
+        <item>power</item>
+        <item>bugreport</item>
+        <item>users</item>
+    </string-array>
+    <string-array name="config_telephonyHardware">
+        <item>0,modem,0,0,0,1,1,1</item>
+        <item>1,sim,0,modem</item>
+    </string-array>
+    <array name="config_cdma_home_system" />
+    <string-array name="no_ems_support_sim_operators">
+        <item>20404;suffix;BAE0000000000000</item>
+    </string-array>
+    <string-array name="config_sms_convert_destination_number_support">
+        <item>false</item>
+    </string-array>
+    <string-array name="config_gpsParameters">
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>NTP_SERVER=north-america.pool.ntp.org</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+    </string-array>
+    <array name="config_default_vm_number" />
+    <array name="dial_string_replace" />
+    <string-array name="networks_not_clear_data">
+        <item>71203</item>
+        <item>71606</item>
+        <item>71610</item>
+        <item>732101</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <array name="common_nicknames" />
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="carrier_properties" />
+    <array name="le_quick_contact_badge_background_color_lists">
+        <item>@color/le_color_budge_0</item>
+        <item>@color/le_color_budge_1</item>
+        <item>@color/le_color_budge_2</item>
+        <item>@color/le_color_budge_3</item>
+        <item>@color/le_color_budge_4</item>
+        <item>@color/le_color_budge_5</item>
+        <item>@color/le_color_budge_6</item>
+        <item>@color/le_color_budge_7</item>
+        <item>@color/le_color_budge_8</item>
+        <item>@color/le_color_budge_9</item>
+    </array>
+    <string-array name="le_months">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="le_lunar_months">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="le_months_en">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="le_days_31">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="le_lunar_days_29">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+    </string-array>
+    <string-array name="le_lunar_days_30">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_use_vibrate</item>
+        <item>@string/app_ops_read_contacts</item>
+        <item>@string/app_ops_modify_contacts</item>
+        <item>@string/app_ops_read_call_log</item>
+        <item>@string/app_ops_modify_call_log</item>
+        <item>@string/app_ops_read_calendar</item>
+        <item>@string/app_ops_modify_calendar</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_post_notification</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_make_phone_call</item>
+        <item>@string/app_ops_read_sms</item>
+        <item>@string/app_ops_write_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_send_sms</item>
+        <item>@string/app_ops_read_sms</item>
+        <item>@string/app_ops_write_sms</item>
+        <item>@string/app_ops_modify_settings</item>
+        <item>@string/app_ops_draw_on_top</item>
+        <item>@string/app_ops_access_notifications</item>
+        <item>@string/app_ops_access_camera</item>
+        <item>@string/app_ops_record_audio</item>
+        <item>@string/app_ops_play_audio</item>
+        <item>@string/app_ops_read_clipboard</item>
+        <item>@string/app_ops_modify_clipboard</item>
+        <item>@string/app_ops_use_media_buttons</item>
+        <item>@string/app_ops_use_audio_focus</item>
+        <item>@string/app_ops_use_master_volume</item>
+        <item>@string/app_ops_use_voice_volume</item>
+        <item>@string/app_ops_use_ring_volume</item>
+        <item>@string/app_ops_use_media_volume</item>
+        <item>@string/app_ops_use_alarm_volume</item>
+        <item>@string/app_ops_use_notification_volume</item>
+        <item>@string/app_ops_use_bluetooth_volume</item>
+        <item>@string/app_ops_keep_device_awake</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_usage_stats</item>
+        <item>@string/app_ops_mute_microphone</item>
+        <item>@string/app_ops_toast_window</item>
+        <item>@string/app_ops_project_media</item>
+        <item>@string/app_ops_activate_vpn</item>
+        <item>@string/app_ops_write_wallpaper</item>
+        <item>@string/app_ops_assist_structure</item>
+        <item>@string/app_ops_assist_screenshot</item>
+        <item>@string/app_ops_read_phone_state</item>
+        <item>@string/app_ops_add_voicemail</item>
+        <item>@string/app_ops_use_sip</item>
+        <item>@string/app_ops_process_outgoing_calls</item>
+        <item>@string/app_ops_use_fingerprint</item>
+        <item>@string/app_ops_body_sensor</item>
+        <item>@string/app_ops_read_cell_broadcasts</item>
+        <item>@string/app_ops_mock_location</item>
+        <item>@string/app_ops_read_external_storage</item>
+        <item>@string/app_ops_write_external_storage</item>
+        <item>@string/app_ops_turn_screen_on</item>
+        <item>@string/app_ops_get_account</item>
+        <item>@string/app_ops_toggle_wifi</item>
+        <item>@string/app_ops_toggle_bluetooth</item>
+        <item>@string/app_ops_toggle_mobile_data</item>
+        <item>@string/app_ops_alarm_wakeup</item>
+        <item>@string/app_ops_send_mms</item>
+        <item>@string/app_ops_read_mms</item>
+        <item>@string/app_ops_write_mms</item>
+        <item>@string/app_ops_start_at_bootup</item>
+        <item>@string/app_ops_nfc</item>
+        <item>@string/app_ops_notification_sound</item>
+        <item>@string/app_ops_read_phone_state</item>
+        <item>@string/app_ops_notification_favourite</item>
+        <item>@string/app_ops_three_way_calling</item>
+        <item>@string/app_ops_icon_mark</item>
+    </string-array>
+    <string-array name="select_name">
+        <item>@string/always_allow</item>
+        <item>@string/all_allow</item>
+        <item>@string/prohibit</item>
+    </string-array>
+    <string-array name="select_value">
+        <item>@string/always_allow_value</item>
+        <item>@string/allow_value</item>
+        <item>@string/prohibit_value</item>
+    </string-array>
+    <string-array name="select_switch_name">
+        <item>@string/all_allow</item>
+        <item>@string/prohibit</item>
+    </string-array>
+    <string-array name="select_switch_value">
+        <item>@string/allow_value</item>
+        <item>@string/prohibit_value</item>
+    </string-array>
+    <string-array name="sim_info_picker_color_values">
+        <item>@string/blue_value</item>
+        <item>@string/green_value</item>
+        <item>@string/yellow_value</item>
+        <item>@string/violet_value</item>
+    </string-array>
+    <string-array name="le_animals">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
+    <string-array name="le_gan">
+        <item>Jia</item>
+        <item>Yi</item>
+        <item>Bing</item>
+        <item>Ding</item>
+        <item>Wu</item>
+        <item>Ji</item>
+        <item>Geng</item>
+        <item>Xin</item>
+        <item>Ren</item>
+        <item>Gui</item>
+    </string-array>
+    <string-array name="le_zhi">
+        <item>Zi</item>
+        <item>Chou</item>
+        <item>Yin</item>
+        <item>Mao</item>
+        <item>Chen</item>
+        <item>Si</item>
+        <item>Wu</item>
+        <item>Wei</item>
+        <item>Shen</item>
+        <item>You</item>
+        <item>Xu</item>
+        <item>Hai</item>
+    </string-array>
+    <string-array name="le_chinesenumber">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="le_chineseten">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>三</item>
+    </string-array>
+    <string-array name="le_solar_term">
+        <item></item>
+        <item>Minor cold</item>
+        <item>Major cold</item>
+        <item>Start of spring</item>
+        <item>Rain water</item>
+        <item>Awakening of insects</item>
+        <item>Vernal equinox</item>
+        <item>Clear and bright</item>
+        <item>Grain rain</item>
+        <item>Start of summer</item>
+        <item>Grain full</item>
+        <item>Grain in ear</item>
+        <item>Summer solstice</item>
+        <item>Minor heat</item>
+        <item>Major heat</item>
+        <item>Start of autumn</item>
+        <item>Limit of heat</item>
+        <item>White dew</item>
+        <item>Autumnal equinox</item>
+        <item>Cold dew</item>
+        <item>Frost descent</item>
+        <item>Start of winter</item>
+        <item>Minor snow</item>
+        <item>Major snow</item>
+        <item>Winter solstice</item>
+    </string-array>
+    <string-array name="le_solar_holiday">
+        <item>01/01 New Years Day</item>
+        <item>"02/14 Valentine's Day"</item>
+        <item>"03/08 Women's Day"</item>
+        <item>03/12 Arbor Day</item>
+        <item>03/15 Consumer Day</item>
+        <item>"04/01 April Fool's Day"</item>
+        <item>05/01 Labor Day</item>
+        <item>05/04 Youth Day</item>
+        <item>"06/01 Children's Day"</item>
+        <item>"07/01 Party's Day"</item>
+        <item>"08/01 Army's Day"</item>
+        <item>"08/08 Father's Day"</item>
+        <item>"09/10 Teachers' Day"</item>
+        <item>10/01 National Day</item>
+        <item>10/31 Halloween</item>
+        <item>"11/11 Singles' Day"</item>
+        <item>12/24 Christmas Eve</item>
+        <item>12/25 Christmas</item>
+    </string-array>
+    <string-array name="le_lunar_festival">
+        <item>"Layue 19 Chinese New Year's Eve"</item>
+        <item>"Layue 30 Chinese New Year's Eve"</item>
+        <item>Zhengyue 1 Spring Festival</item>
+        <item>2/2 Longtaitou Festival</item>
+        <item>Zhengyue 15 Lantern Festival</item>
+        <item>5/5 Dragon Boat Festival</item>
+        <item>7/7 Qixi Festival</item>
+        <item>7/15 Ghost Festival</item>
+        <item>8/15 Middle Autumn Festival</item>
+        <item>9/9 Double Ninth Festival</item>
+        <item>Layue 8 Laba Festival</item>
+        <item>Layue 23 Preliminary Eve</item>
+    </string-array>
+    <string-array name="le_lunar_month_name">
+        <item>正</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>冬</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="le_fontsize_enlarge_mode_normal">
+        <item>1</item>
+        <item>1.2</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+    <string-array name="font_scale_locale_standard">
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.1</item>
+    </string-array>
+    <string-array name="font_scale_locale_codes">
+        <item>th</item>
+    </string-array>
+    <string-array name="font_scale_locale_codes_th">
+        <item>1.0</item>
+        <item>1.1</item>
+        <item>1.2</item>
+    </string-array>
+    <string-array name="le_url_phone_list">
+        <item>Make Call</item>
+        <item>Send Message</item>
+        <item>Copy Number</item>
+        <item>Save as New</item>
+        <item>Save to Exist</item>
+    </string-array>
+    <string-array name="le_url_phone_list_with_exists_contact">
+        <item>拨打电话</item>
+        <item>发送短信</item>
+        <item>复制号码</item>
+        <item>查看联系人：%s</item>
+    </string-array>
+    <string-array name="le_url_email_list">
+        <item>Copy Email</item>
+        <item>Send Email</item>
+        <item>Save Email</item>
+    </string-array>
+    <string-array name="le_url_web_list">
+        <item>Copy</item>
+        <item>Open</item>
+        <item>Save</item>
+    </string-array>
+</resources>

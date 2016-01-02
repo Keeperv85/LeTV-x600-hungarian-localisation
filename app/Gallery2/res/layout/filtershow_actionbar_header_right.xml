@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/le_filtershow_actionbar_foot_color" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_save" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" style="@style/FilterShowAcionBarMenuStyle" />
+    </LinearLayout>
+</RelativeLayout>

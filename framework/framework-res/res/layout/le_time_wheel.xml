@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.widget.picker.WheelView android:gravity="center" android:id="@id/le_hour" android:paddingRight="1.5dip" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+        <com.letv.leui.widget.picker.WheelView android:gravity="center" android:id="@id/le_mins" android:paddingRight="1.5dip" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+        <com.letv.leui.widget.picker.WheelView android:gravity="center" android:id="@id/le_am_pm" android:layout_width="50.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

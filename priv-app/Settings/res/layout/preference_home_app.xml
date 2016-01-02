@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_app_pref" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginEnd="@android:dimen/preference_item_padding_inner" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.letv.leui.widget.LeCheckBox android:layout_gravity="center" android:id="@id/home_radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxWithoutBorder="true" leui:leBoxIsTextOnRight="false" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/home_app_uninstall" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_delete_icon" android:contentDescription="@string/home_app_uninstall_button" android:layout_marginStart="@android:dimen/le_preference_summary_arrow_margin" />
+</LinearLayout>

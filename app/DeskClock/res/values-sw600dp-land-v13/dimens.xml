@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="time_text_size">275.0dip</dimen>
+    <dimen name="ampm_text_size">90.0dip</dimen>
+    <dimen name="date_text_size">15.0sp</dimen>
+    <dimen name="next_alarm_text_size">15.0sp</dimen>
+    <dimen name="time_margin_left">8.0dip</dimen>
+    <dimen name="time_margin_bottom">14.0dip</dimen>
+    <dimen name="time_margin_top">32.0dip</dimen>
+    <dimen name="ampm_margin_top">28.0dip</dimen>
+    <dimen name="font_margin_adjust">8.0dip</dimen>
+    <dimen name="next_alarm_margin_top">-5.0dip</dimen>
+    <dimen name="digital_world_clock_text_size">75.0dip</dimen>
+    <dimen name="digital_world_clock_ampm_text_size">14.0dip</dimen>
+    <dimen name="digital_main_clock_text_size">165.0dip</dimen>
+    <dimen name="timer_circle_diameter">360.0dip</dimen>
+    <dimen name="timer_circle_width">380.0dip</dimen>
+    <dimen name="main_ampm_font_size">25.0sp</dimen>
+    <dimen name="dialpad_font_size">42.0sp</dimen>
+    <dimen name="dialpad_digit_padding">26.0dip</dimen>
+    <dimen name="timer_setup_font_size">78.0sp</dimen>
+    <dimen name="timer_setup_button_size">36.0sp</dimen>
+    <dimen name="timer_setup_delete_start_margin">38.0sp</dimen>
+    <dimen name="timer_setup_label_size">24.0sp</dimen>
+    <dimen name="circle_margin_top">16.0dip</dimen>
+    <dimen name="circle_margin">48.0dip</dimen>
+    <dimen name="analog_clock_margin">48.0dip</dimen>
+    <dimen name="timer_circle_margin">48.0dip</dimen>
+    <dimen name="sw_padding_end">48.0dip</dimen>
+    <dimen name="world_clock_margin">48.0dip</dimen>
+    <dimen name="plusone_reset_button_padding">23.0dip</dimen>
+    <dimen name="delete_button_padding">19.0dip</dimen>
+    <dimen name="share_button_padding">16.0dip</dimen>
+    <dimen name="timer_button_extra_offset">0.0dip</dimen>
+    <dimen name="glowpadview_margin_right">-64.0dip</dimen>
+</resources>

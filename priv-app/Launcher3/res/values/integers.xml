@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_dynamic_grid_overview_icon_zone_percentage">20</integer>
+    <integer name="config_dynamic_grid_overview_scale_percentage">88</integer>
+    <integer name="config_maxNumberOfPageIndicatorsToShow">21</integer>
+    <integer name="config_flingToDeleteMinVelocity">-1500</integer>
+    <integer name="config_workspaceScrimAlpha">55</integer>
+    <integer name="config_allAppsTransitionTime">100</integer>
+    <integer name="config_overviewTransitionTime">500</integer>
+    <integer name="config_workspaceSpringLoadShrinkPercentage">80</integer>
+    <integer name="config_overlayRevealTime">220</integer>
+    <integer name="config_overlayTransitionTime">300</integer>
+    <integer name="config_overlayItemsAlphaStagger">60</integer>
+    <integer name="config_appsCustomizeRevealTime">220</integer>
+    <integer name="config_appsCustomizeZoomInTime">350</integer>
+    <integer name="config_appsCustomizeZoomOutTime">350</integer>
+    <integer name="config_appsCustomizeZoomScaleFactor">7</integer>
+    <integer name="config_appsCustomizeFadeInTime">250</integer>
+    <integer name="config_appsCustomizeFadeOutTime">200</integer>
+    <integer name="config_appsCustomizeWorkspaceShrinkTime">300</integer>
+    <integer name="config_appsCustomizeConcealTime">250</integer>
+    <integer name="config_appsCustomizeItemsAlphaStagger">60</integer>
+    <integer name="config_allAppsButtonPaddingPercent">17</integer>
+    <integer name="config_workspaceDefaultScreen">0</integer>
+    <integer name="config_dropTargetBgTransitionDuration">0</integer>
+    <integer name="config_dragOutlineFadeTime">900</integer>
+    <integer name="config_dragOutlineMaxAlpha">102</integer>
+    <integer name="config_dropAnimMinDuration">100</integer>
+    <integer name="config_dropAnimMaxDuration">500</integer>
+    <integer name="config_folderExpandDuration">120</integer>
+    <integer name="config_materialFolderExpandDuration">200</integer>
+    <integer name="config_materialFolderExpandStagger">60</integer>
+    <integer name="config_dropAnimMaxDist">800</integer>
+    <integer name="config_appsCustomizeWorkspaceAnimationStagger">40</integer>
+    <integer name="config_workspaceAppsCustomizeAnimationStagger">100</integer>
+    <integer name="column_count">2</integer>
+</resources>

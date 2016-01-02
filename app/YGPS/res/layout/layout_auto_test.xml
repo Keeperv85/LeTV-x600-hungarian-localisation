@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_auto_test" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:layout_gravity="center" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/gps_test_times" android:layout_weight="1.0" style="@style/style_table_left" />
+            <EditText android:id="@id/et_gps_test_times" android:layout_width="0.0px" android:layout_height="wrap_content" android:maxLength="3" android:layout_weight="1.0" android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_gravity="center" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/gps_test_interval" android:layout_weight="1.0" style="@style/style_table_left" />
+            <EditText android:id="@id/et_gps_test_interval" android:layout_width="0.0px" android:layout_height="wrap_content" android:maxLength="3" android:layout_weight="1.0" android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_gravity="center" android:id="@id/tv_start_type" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/start_type_text" android:layout_weight="5.0" style="@style/style_table_left" />
+            <Spinner android:id="@id/start_type_Spinner" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_need_3d_fix" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/need_3d_fix" android:layout_weight="4.0" />
+        <Button android:id="@id/btn_gps_test_start" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/gps_test_start" android:layout_weight="3.0" />
+        <Button android:id="@id/btn_gps_test_stop" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/gps_test_stop" android:layout_weight="3.0" />
+    </LinearLayout>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+        <View android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/gps_test_current_times" android:layout_weight="1.0" style="@style/style_table_left" />
+            <TextView android:textStyle="bold" android:id="@id/tv_current_times" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/last_ttff" android:layout_weight="1.0" style="@style/style_table_left" />
+            <TextView android:textStyle="bold" android:id="@id/tv_last_ttff" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/gps_test_mean_ttff" android:layout_weight="1.0" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_mean_ttff" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/reconnect_countdown" android:layout_weight="1.0" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_reconnect_countdown" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </TableRow>
+        <View android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </TableLayout>
+</LinearLayout>

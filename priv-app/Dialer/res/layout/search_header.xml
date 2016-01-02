@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="135.0dip" android:src="@android:drawable/le_blank_page_no_video" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/letter_tile_default_color" android:id="@id/totalContactsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:fontFamily="regular" />
+</LinearLayout>

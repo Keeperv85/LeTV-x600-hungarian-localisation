@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <View android:background="#ffdfdfdf" android:paddingLeft="@dimen/call_log_list_secondary_icon_padding" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:id="@id/voicemail_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/call_log_voicemail_status" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/leui_top_slide_content" />
+        <com.android.contacts.common.widget.SpaceTouchListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?android:actionBarSize" android:divider="@null" android:leSwipeMode="both" android:leSwipeActionLeft="reveal" android:leSwipeActionRight="reveal" android:leSwipeOffsetLeft="56.0dip" android:leSwipeOffsetRight="56.0dip" android:leSwipeCloseAllItemsWhenMoveList="true" android:leSwipeFrontView="@id/front" android:leSwipeBackView="@id/back" android:leListViewMode="leSwipe" />
+        <TextView android:textSize="@dimen/call_log_empty" android:textColor="@color/empty_calllog" android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/empty_message_top_margin" />
+    </FrameLayout>
+</LinearLayout>

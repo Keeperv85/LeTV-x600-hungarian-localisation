@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.deskclock.alarms.starclock.widget.LePullToRefreshScrollView android:id="@id/ringtone_square_pulltorefresh" android:background="@color/ringtone_square_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ringtone_square_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.lightsky.infiniteindicator.InfiniteIndicatorLayout android:id="@id/ringtone_banner" android:layout_width="fill_parent" android:layout_height="@dimen/ringtone_square_banner_height" app:indicator_type="indicator_default" />
+            <com.android.deskclock.alarms.starclock.widget.RingtoneHotView android:orientation="vertical" android:id="@id/ringtone_hot" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.android.deskclock.alarms.starclock.widget.RingtoneCategoryView android:orientation="vertical" android:id="@id/ringtone_category" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/le_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.android.deskclock.alarms.starclock.widget.LePullToRefreshScrollView>

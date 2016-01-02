@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dashboard-category android:id="@id/leui_apps" android:title="@string/leui_app_dashboard_title">
+        <dashboard-tile android:icon="@drawable/ic_contacts_settings" android:id="@id/leui_contacts_settings" android:title="@string/contacts_settings">
+            <intent android:targetPackage="com.android.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.android.contacts.preference.LeContactsPreferenceActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_phone" android:id="@id/phone_settings" android:title="@string/phone_settings">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_mms" android:id="@id/mms_settings" android:title="@string/mms_settings">
+            <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.ui.SettingListActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_recorder" android:id="@id/recorder_settings" android:title="@string/sound_recorder_settings">
+            <intent android:targetPackage="com.letv.android.recorder" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.recorder.settings.RecorderSetting" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_browser" android:id="@id/leui_broswer_settings" android:title="@string/broswer_settings">
+            <intent android:targetPackage="com.android.browser" android:action="android.intent.action.MAIN" android:targetClass="com.android.browser.settings.BrowserPreferencesPage" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_gallery" android:id="@id/leui_camera_gallery_settings" android:title="@string/camera_gallery_settings">
+            <intent android:targetPackage="com.android.gallery3d" android:action="android.intent.action.MAIN" android:targetClass="com.android.gallery3d.settings.GallerySettings" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_calendar" android:id="@id/calendar_settings" android:title="@string/calendar_settings">
+            <intent android:targetPackage="com.android.calendar" android:action="android.intent.action.MAIN" android:targetClass="com.android.calendar.CalendarSettingsActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_email" android:id="@id/email_settings" android:title="@string/email_settings">
+            <intent android:targetPackage="com.android.email" android:action="android.intent.action.MAIN" android:targetClass="com.android.email.activity.setup.AccountSettings" />
+        </dashboard-tile>
+    </dashboard-category>
+</dashboard-categories>

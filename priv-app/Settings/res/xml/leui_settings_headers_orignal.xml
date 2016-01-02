@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dashboard-category android:id="@id/wireless_section" android:title="@string/header_category_wireless_networks">
+        <dashboard-tile android:icon="@drawable/ic_settings_airplane" android:id="@id/leui_toggle_airplane" android:title="@string/airplane_mode" />
+        <dashboard-tile android:icon="@drawable/ic_settings_wireless" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:fragment="com.android.settings.wifi.WifiSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_bluetooth" android:id="@id/bluetooth_settings" android:title="@string/bluetooth_settings_title" android:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_network" android:id="@id/leui_network_settings" android:title="@string/network_settings_title" android:breadCrumbTitle="@string/wireless_networks_settings_title">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.MobileNetworkSettings" />
+        </dashboard-tile>
+        <header android:icon="@drawable/ic_settings_hotpots" android:id="@id/leui_person_hotspot_settings" android:title="@string/person_tether_title" android:fragment="com.android.settings.TetherSettings" />
+        <dashboard-tile android:icon="@drawable/ic_sim_sd" android:id="@id/sim_settings" android:title="@string/sim_settings_title" />
+        <dashboard-tile android:id="@id/operator_settings" android:fragment="com.android.settings.WirelessSettings">
+            <intent android:action="com.android.settings.OPERATOR_APPLICATION_SETTING" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_network_more" android:id="@id/vpn_control_settings" android:title="@string/vpn_control_settings" android:fragment="com.android.settings.vpn2.VpnSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_more" android:id="@id/wireless_settings" android:title="@string/radio_controls_title" android:fragment="com.android.settings.WirelessSettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/leui_common_section" android:title="@string/header_common_settings">
+        <dashboard-tile android:icon="@drawable/ic_settings_display" android:id="@id/display_settings" android:title="@string/display_wallpapers_settings" android:fragment="com.android.settings.DisplaySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_sound" android:id="@id/sound_settings" android:title="@string/sound_vibration_settings" android:fragment="com.android.settings.notification.NotificationSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_notification" android:id="@id/notification_settings" android:title="@string/notification_settings" android:fragment="com.letv.leui.settings.notifsettings.LeUINotificationSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_controlcenter" android:id="@id/leui_controlcenter_settings" android:title="@string/control_center_settings">
+            <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.controlcenter.settings.LeControlCenterSettingActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_personal" android:id="@id/leui_personal_time_settings" android:title="@string/personal_time_settings" android:fragment="com.android.settings.notification.ZenModeSettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_personal">
+        <dashboard-tile android:icon="@drawable/ic_settings_cloud" android:id="@id/leui_cloud_service_settings" android:title="@string/cloud_service_settings">
+            <intent android:targetPackage="com.letv.android.account" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.account.activity.AccountGuideActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_accounts" android:id="@id/account_settings" android:title="@string/account_settings_title" android:fragment="com.android.settings.accounts.AccountSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_security" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.android.settings.SecuritySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.settings.location.LocationSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_privacyauth" android:id="@id/leui_privacy_auth_settings" android:title="@string/privacyauth_settings">
+            <intent android:targetPackage="com.letv.android.letvsafe" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.letvsafe.HomeActivity" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/other_section" android:title="@string/other_settings_section">
+        <dashboard-tile android:icon="@drawable/ic_update_system_settings" android:id="@id/system_update_settings" android:title="@string/leui_system_update_settings">
+            <intent android:targetPackage="com.letv.android.ota" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.ota.LeSystemUpgrade" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_language" android:id="@id/language_settings" android:title="@string/language_settings" android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_date_time" android:id="@id/date_time_settings" android:title="@string/date_and_time_settings_title" android:fragment="com.android.settings.DateTimeSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_schpwronoff" android:id="@id/power_settings" android:title="@string/schedule_power_on_off_settings_title">
+            <intent android:action="com.android.settings.SCHEDULE_POWER_ON_OFF_SETTING" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_single_hand_settings" android:id="@id/leui_single_hand_mode_settings" android:title="@string/leui_single_hand_mode_title" android:fragment="com.letv.leui.settings.LeUISingleHandModeSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_applications" android:id="@id/application_settings" android:title="@string/applications_settings" android:fragment="com.android.settings.applications.ManageApplications" />
+        <dashboard-tile android:icon="@drawable/ic_settings_battery" android:id="@id/battery_settings" android:title="@string/power_usage_summary_title" android:fragment="com.android.settings.fuelgauge.PowerUsageSummary" />
+        <dashboard-tile android:icon="@drawable/ic_settings_storage" android:id="@id/storage_settings" android:title="@string/storage_settings" android:fragment="com.android.settings.deviceinfo.Memory" />
+        <dashboard-tile android:icon="@drawable/ic_settings_backup" android:id="@id/privacy_settings" android:title="@string/privacy_settings" android:fragment="com.android.settings.PrivacySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_accessibility" android:id="@id/accessibility_settings" android:title="@string/accessibility_settings" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+        <dashboard-tile android:icon="@drawable/ic_print" android:id="@id/print_settings" android:title="@string/print_settings" android:fragment="com.android.settings.print.PrintSettingsFragment" />
+        <dashboard-tile android:icon="@drawable/ic_settings_development" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.settings.DevelopmentSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_about" android:id="@id/about_settings" android:title="@string/about_settings" android:fragment="com.android.settings.DeviceInfoSettings" />
+    </dashboard-category>
+</dashboard-categories>

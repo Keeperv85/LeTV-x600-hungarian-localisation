@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/share_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/real_content" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/view1" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/display_less_five" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+        <View android:id="@id/specail_devider" android:background="#ffececec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/specail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/awalys_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <com.letv.leui.widget.LeCheckBox android:gravity="center_vertical" android:id="@id/checkbox_awalys" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/le_share_default_select_tips" android:leBoxInnerPadding="10.0dip" />
+        </LinearLayout>
+        <View android:id="@id/view3" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <Button android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/cancel" android:background="@drawable/le_bottomsheet_listbtn_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/share_cancel" android:textAllCaps="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/gv_content" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/real_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/gv_anim_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="#ff414141" android:gravity="center" android:id="@id/share_title" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/share_title" />
+            <View android:id="@id/view4" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <GridView android:id="@id/share_gv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:columnWidth="@dimen/share_layout_item_width" android:numColumns="5" android:fadeScrollbars="false" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

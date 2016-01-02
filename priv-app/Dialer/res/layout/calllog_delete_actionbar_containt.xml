@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/calllog_filter_title_contain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/actionbar_title_text_size" android:textColor="@color/actionbar_title_text_color" android:gravity="center_vertical" android:id="@id/actionbar_select_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/actionbar_menu_text_size" android:textColor="@color/actionbar_menu_text_color" android:gravity="center_vertical" android:id="@id/actionbar_select_state" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/actionbar_menu_margin_right" android:maxWidth="@dimen/leTopWidget_left_tv_width" android:text="@string/title_calllog_delete_select_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

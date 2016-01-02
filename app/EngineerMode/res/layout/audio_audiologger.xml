@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="3.0pt" android:text="@string/Audio_AudioLogger_Text" />
+        <View android:background="#ff909090" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="3.0pt" />
+        <CheckBox android:id="@id/Audio_StrmOtpt_Dump" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="5.0pt" android:text="@string/Audio_StreamOutput_Dump" />
+        <CheckBox android:id="@id/Audio_MixerBuf_Dump" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="5.0pt" android:text="@string/Audio_MixerBuffer_Dump" />
+        <CheckBox android:id="@id/Audio_TrackBuf_Dump" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="5.0pt" android:text="@string/Audio_TrackBuffer_Dump" />
+        <CheckBox android:id="@id/Audio_A2DPOtpt_Dump" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="5.0pt" android:text="@string/A2DP_StreamOutput_Dump" />
+        <CheckBox android:id="@id/Audio_StrmInpt_Dump" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="5.0pt" android:text="@string/Audio_StreamInput_Dump" />
+        <View android:background="#ff909090" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="3.0pt" />
+        <Button android:id="@id/Dump_Audio_DebgInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0pt" android:layout_marginTop="3.0pt" android:text="@string/Dump_Audio_DebgInfo" />
+    </LinearLayout>
+</ScrollView>

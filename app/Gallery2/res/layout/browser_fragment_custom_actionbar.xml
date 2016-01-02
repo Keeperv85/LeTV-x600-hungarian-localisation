@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff4c8599" android:id="@android:id/title" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/le_bookmark" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:id="@id/tab_text_1" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_recommend" android:layout_centerInParent="true" android:onClick="onTabClick" />
+            <ImageView android:id="@id/scroll_1" android:background="@drawable/view_pager_scroll" android:layout_width="wrap_content" android:layout_height="3.0dip" android:layout_alignLeft="@id/tab_text_1" android:layout_alignRight="@id/tab_text_1" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:id="@id/tab_text_2" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_hot" android:layout_centerInParent="true" android:onClick="onTabClick" />
+            <ImageView android:id="@id/scroll_2" android:background="@drawable/view_pager_scroll" android:layout_width="wrap_content" android:layout_height="3.0dip" android:layout_alignLeft="@id/tab_text_2" android:layout_alignRight="@id/tab_text_2" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:id="@id/tab_text_3" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/le_new" android:layout_centerInParent="true" android:onClick="onTabClick" />
+            <ImageView android:id="@id/scroll_3" android:background="@drawable/view_pager_scroll" android:layout_width="wrap_content" android:layout_height="3.0dip" android:layout_alignLeft="@id/tab_text_3" android:layout_alignRight="@id/tab_text_3" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="#ff2db5e5" android:layout_alignParentBottom="true" />
+</RelativeLayout>

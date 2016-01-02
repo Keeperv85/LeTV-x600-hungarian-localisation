@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_020" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_021" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_022" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_023" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_024" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_025" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_026" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_027" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_028" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_029" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_030" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_031" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_032" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_033" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_034" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_035" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_036" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_037" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_038" />
+    <item android:duration="50" android:drawable="@drawable/download_finished_animation_pic_039" />
+</animation-list>

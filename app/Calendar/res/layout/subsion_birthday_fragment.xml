@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/month_clicked_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/birthday_detail_head" android:layout_width="fill_parent" android:layout_height="270.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/detail_title" android:id="@id/birthday_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/font_medium" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/birthday_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:lineSpacingExtra="6.0dip" />
+        <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+        <com.letv.calendar.view.ScrollListView android:id="@id/related_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:divider="@null" />
+    </LinearLayout>
+</LinearLayout>

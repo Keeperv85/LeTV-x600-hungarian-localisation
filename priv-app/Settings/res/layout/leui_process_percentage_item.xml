@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:prv1="http://schemas.android.com/apk/prv/res/android">
+    <GridLayout android:layout_gravity="center" android:paddingTop="@android:dimen/le_preference_padding_top" android:paddingBottom="@android:dimen/le_preference_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="3" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+        <ImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="@android:dimen/le_item_between_title_subtitle_margin" android:scaleType="centerInside" android:contentDescription="@null" android:layout_rowSpan="3" android:paddingStart="@android:dimen/le_preference_content_padding_start" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:layout_gravity="fill_horizontal" android:id="@android:id/title" android:layout_width="0.0dip" android:singleLine="true" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/text1" android:layout_marginStart="8.0dip" />
+        <com.letv.leui.widget.LeProgressBar android:layout_gravity="fill_horizontal|center|top" android:id="@android:id/progress" android:layout_marginTop="4.0dip" android:max="100" android:progressDrawable="@drawable/data_usage_bar" android:layout_columnSpan="2" prv1:le_progress_color="@color/leui_blue" prv1:le_progress_background_color="@color/leui_progress_background" prv1:le_type="1" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="fill_horizontal|center|top" android:id="@android:id/summary" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="0.0dip" android:maxLines="2" android:layout_columnSpan="2" />
+    </GridLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="1.0px" android:paddingStart="@android:dimen/le_preference_padding_start">
+        <include layout="@layout/leui_divider" />
+    </LinearLayout>
+</LinearLayout>

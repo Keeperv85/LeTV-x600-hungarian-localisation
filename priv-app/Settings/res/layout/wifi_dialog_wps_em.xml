@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/wifi_wps_em" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/wifi_wps_pin_fields" style="@style/wifi_section">
+            <LinearLayout style="@style/wifi_item">
+                <TextView android:text="@string/wifi_wps_em_ssid" style="@style/wifi_item_label" />
+                <EditText android:id="@id/wifi_wps_em_ssid" android:singleLine="true" android:maxLength="32" android:inputType="textNoSuggestions" style="@style/wifi_item_content" />
+                <TextView android:text="@string/wifi_wps_em_security" style="@style/wifi_item_label" />
+                <Spinner android:entries="@array/pin_security" android:id="@id/pin_security" android:prompt="@string/wifi_security" style="@style/wifi_item_content" />
+                <TextView android:text="@string/wifi_wps_em_key" style="@style/wifi_item_label" />
+                <EditText android:id="@id/wifi_wps_em_key" android:singleLine="true" android:maxLength="64" android:inputType="textNoSuggestions" style="@style/wifi_item_content" />
+                <CheckBox android:textSize="14.0sp" android:id="@id/wifi_defalut_pins_togglebox" android:visibility="gone" android:text="@string/wifi_wps_em_ap_default" style="@style/wifi_item_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/wifi_pin_code_fields" style="@style/wifi_section">
+            <LinearLayout style="@style/wifi_item">
+                <TextView android:text="@string/wifi_pin_code_title" style="@style/wifi_item_label" />
+                <EditText android:id="@id/wifi_pin_code" android:singleLine="true" android:maxLength="9" android:inputType="textNoSuggestions" style="@style/wifi_item_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/nfc_password_token" style="@style/wifi_section">
+            <LinearLayout style="@style/wifi_item">
+                <CheckBox android:textSize="14.0sp" android:id="@id/nfc_password_token_togglebox" android:text="@string/nfc_password_token" style="@style/wifi_item_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

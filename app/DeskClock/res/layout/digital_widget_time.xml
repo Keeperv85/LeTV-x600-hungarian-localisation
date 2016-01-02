@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock android:textColor="@color/clock_white" android:layout_gravity="center|top" android:id="@id/the_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_text_spacing_digital" android:baselineAligned="true" android:singleLine="true" android:format12Hour="@string/main_widget_12_hours_format" android:format24Hour="@string/clock_24_hours_format" style="@style/widget_big_thin" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextClock android:textColor="@color/clock_white" android:gravity="center" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="" android:format24Hour="" style="@style/widget_label" />
+        <TextView android:textColor="@color/clock_gray" android:gravity="center" android:id="@id/nextAlarm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:drawableLeft="@drawable/ic_alarm_small" android:drawablePadding="2.0dip" android:drawableStart="@drawable/ic_alarm_small" android:layout_marginStart="8.0dip" style="@style/widget_label" />
+    </LinearLayout>
+</LinearLayout>

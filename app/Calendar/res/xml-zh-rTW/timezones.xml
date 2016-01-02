@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+    <timezone id="Pacific/Majuro" drawable="ic_flag_russia">馬朱諾</timezone>
+    <timezone id="Pacific/Midway" drawable="ic_flag_united_states">中途島</timezone>
+    <timezone id="Pacific/Honolulu" drawable="ic_flag_united_states">檀香山</timezone>
+    <timezone id="America/Anchorage" drawable="ic_flag_united_states">安克里治</timezone>
+    <timezone id="America/Los_Angeles" drawable="ic_flag_united_states">太平洋時間 （洛杉磯）</timezone>
+    <timezone id="America/Tijuana" drawable="ic_flag_mexico">太平洋時間 （提華納）</timezone>
+    <timezone id="America/Phoenix" drawable="ic_flag_united_states">山區時間 （鳳凰城）</timezone>
+    <timezone id="America/Chihuahua" drawable="ic_flag_qww">奇華華</timezone>
+    <timezone id="America/Denver" drawable="ic_flag_united_states">山區時間 （丹佛）</timezone>
+    <timezone id="America/Costa_Rica" drawable="ic_flag_costa_rica">中部時間 （哥斯大黎加）</timezone>
+    <timezone id="America/Chicago" drawable="ic_flag_united_states">中部時間 （芝加哥）</timezone>
+    <timezone id="America/Mexico_City" drawable="ic_flag_mexico">中部時間 （墨西哥市）</timezone>
+    <timezone id="America/Regina" drawable="ic_flag_canada">中部時間 （利宅那）</timezone>
+    <timezone id="America/Bogota" drawable="ic_flag_colombia">哥倫比亞</timezone>
+    <timezone id="America/New_York" drawable="ic_flag_burma">東部時間 （紐約）</timezone>
+    <timezone id="America/Caracas" drawable="ic_flag_venezuela">卡拉卡斯</timezone>
+    <timezone id="America/Barbados" drawable="ic_flag_barbados">大西洋時間 （巴貝多）</timezone>
+    <timezone id="America/Manaus" drawable="ic_flag_brazil">亞馬遜時間 （瑪瑙斯）</timezone>
+    <timezone id="America/Santiago" drawable="ic_flag_chile">聖地牙哥</timezone>
+    <timezone id="America/St_Johns" drawable="ic_flag_antigua_and_barbuda">紐芬蘭標準時間 （St. John's）</timezone>
+    <timezone id="America/Sao_Paulo" drawable="ic_flag_brazil">﻿聖保羅</timezone>
+    <timezone id="America/Argentina/Buenos_Aires" drawable="ic_flag_argentina">阿根廷時間 （布宜諾斯艾利斯）</timezone>
+    <timezone id="America/Godthab" drawable="ic_flag_denmark">高特哈市</timezone>
+    <timezone id="America/Montevideo" drawable="ic_flag_uruguay">烏拉圭</timezone>
+    <timezone id="Atlantic/South_Georgia" drawable="ic_flag_georgia">南喬治亞與南三明治島</timezone>
+    <timezone id="Atlantic/Azores" drawable="ic_flag_portugal">亞速爾群島</timezone>
+    <timezone id="Atlantic/Cape_Verde" drawable="ic_flag_cape_verde">維德角</timezone>
+    <timezone id="Africa/Casablanca" drawable="ic_flag_morocco">卡薩布蘭卡</timezone>
+    <timezone id="Europe/London" drawable="ic_flag_saint_helena">格林威治標準時間 （倫敦）</timezone>
+    <timezone id="Europe/Amsterdam" drawable="ic_flag_netherlands">中歐標準時間 （荷蘭）</timezone>
+    <timezone id="Europe/Belgrade" drawable="ic_flag_serbia">中歐標準時間 （塞爾維亞）</timezone>
+    <timezone id="Europe/Brussels" drawable="ic_flag_belgium">中歐標準時間 （布魯塞爾）</timezone>
+    <timezone id="Europe/Sarajevo" drawable="ic_flag_yemen">中歐標準時間 （沙拉耶佛）</timezone>
+    <timezone id="Africa/Windhoek" drawable="ic_flag_namibia">溫荷克</timezone>
+    <timezone id="Africa/Brazzaville" drawable="ic_flag_congo_democratic_republic_of_the">西非時間 （剛果共和國）</timezone>
+    <timezone id="Asia/Amman" drawable="ic_flag_jordan">東歐標準時間 （約旦）</timezone>
+    <timezone id="Europe/Athens" drawable="ic_flag_greece">東歐標準時間 （希臘）</timezone>
+    <timezone id="Asia/Beirut" drawable="ic_flag_lebanon">東歐標準時間 （貝鲁特特）</timezone>
+    <timezone id="Africa/Cairo" drawable="ic_flag_egypt">東歐標準時間 （埃及）</timezone>
+    <timezone id="Europe/Helsinki" drawable="ic_flag_finland">東歐標準時間 （芬蘭）</timezone>
+    <timezone id="Asia/Jerusalem" drawable="ic_flag_israel">以色列標準時間 （耶路撒冷）</timezone>
+    <timezone id="Europe/Minsk" drawable="ic_flag_belarus">白俄羅斯</timezone>
+    <timezone id="Africa/Harare" drawable="ic_flag_zimbabwe">中非時間 （辛巴威）</timezone>
+    <timezone id="Asia/Baghdad" drawable="ic_flag_iraq">阿拉伯時間 （伊拉克）</timezone>
+    <timezone id="Europe/Moscow" drawable="ic_flag_russia">莫斯科</timezone>
+    <timezone id="Asia/Kuwait" drawable="ic_flag_kuwait">阿拉伯時間 （科威特）</timezone>
+    <timezone id="Africa/Nairobi" drawable="ic_flag_kenya">東非時間 （奈洛比）</timezone>
+    <timezone id="Asia/Tehran" drawable="ic_flag_iran">伊朗</timezone>
+    <timezone id="Asia/Baku" drawable="ic_flag_azerbaijan">亞塞拜然</timezone>
+    <timezone id="Asia/Tbilisi" drawable="ic_flag_georgia">喬治亞</timezone>
+    <timezone id="Asia/Yerevan" drawable="ic_flag_armenia">亞美尼亞</timezone>
+    <timezone id="Asia/Dubai" drawable="ic_flag_united_arad_emirates">GT （杜拜）</timezone>
+    <timezone id="Asia/Kabul" drawable="ic_flag_afghanistan">阿富汗</timezone>
+    <timezone id="Asia/Karachi" drawable="ic_flag_pakistan">喀拉蚩</timezone>
+    <timezone id="Asia/Oral" drawable="ic_flag_russia">奧拉爾</timezone>
+    <timezone id="Asia/Yekaterinburg" drawable="ic_flag_russia">葉卡捷林堡</timezone>
+    <timezone id="Asia/Calcutta" drawable="ic_flag_india">印度</timezone>
+    <timezone id="Asia/Colombo" drawable="ic_flag_sri_lanka">可倫坡</timezone>
+    <timezone id="Asia/Katmandu" drawable="ic_flag_nepal">尼泊爾</timezone>
+    <timezone id="Asia/Almaty" drawable="ic_flag_kazakhstan">阿拉木圖</timezone>
+    <timezone id="Asia/Rangoon" drawable="ic_flag_burma">緬甸</timezone>
+    <timezone id="Asia/Krasnoyarsk" drawable="ic_flag_russia">克拉斯諾雅斯克</timezone>
+    <timezone id="Asia/Bangkok" drawable="ic_flag_thailand">泰國</timezone>
+    <timezone id="Asia/Shanghai" drawable="ic_flag_china">中國標準時間 （北京）</timezone>
+    <timezone id="Asia/Hong_Kong" drawable="ic_flag_china">中國香港特別行政區</timezone>
+    <timezone id="Asia/Irkutsk" drawable="ic_flag_russia">伊爾庫次克</timezone>
+    <timezone id="Asia/Kuala_Lumpur" drawable="ic_flag_malaysia">吉隆坡</timezone>
+    <timezone id="Australia/Perth" drawable="ic_flag_australia">伯斯</timezone>
+    <timezone id="Asia/Taipei" drawable="ic_flag_china">中華台北標準時間</timezone>
+    <timezone id="Asia/Seoul" drawable="ic_flag_korea_south">首爾</timezone>
+    <timezone id="Asia/Tokyo" drawable="ic_flag_japan">日本標準時間 （東京）</timezone>
+    <timezone id="Asia/Yakutsk" drawable="ic_flag_russia">雅庫次克</timezone>
+    <timezone id="Australia/Adelaide" drawable="ic_flag_australia">阿得雷德</timezone>
+    <timezone id="Australia/Darwin" drawable="ic_flag_australia">達爾文</timezone>
+    <timezone id="Australia/Brisbane" drawable="ic_flag_australia">布利斯班</timezone>
+    <timezone id="Australia/Hobart" drawable="ic_flag_australia">荷巴特</timezone>
+    <timezone id="Australia/Sydney" drawable="ic_flag_australia">雪梨</timezone>
+    <timezone id="Asia/Vladivostok" drawable="ic_flag_russia">海參崴</timezone>
+    <timezone id="Pacific/Guam" drawable="ic_flag_guam">關島</timezone>
+    <timezone id="Asia/Magadan" drawable="ic_flag_russia">馬加丹</timezone>
+    <timezone id="Pacific/Auckland" drawable="ic_flag_new_zealand">奧克蘭</timezone>
+    <timezone id="Pacific/Fiji" drawable="ic_flag_fiji">斐濟</timezone>
+    <timezone id="Pacific/Tongatapu" drawable="ic_flag_afghanistan">東加</timezone>
+</timezones>

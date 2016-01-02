@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leuiandroid="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/res/com.android.settings">
+    <com.letv.leui.settings.widget.LeUIViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/main_content" android:background="?preferenceBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.letv.leui.widget.LeScrollStripTabWidget android:id="@id/bottomTabWidget" android:background="@drawable/leui_action_bar_top_divider" android:layout_width="fill_parent" android:layout_height="@android:dimen/le_scroll_strip_tab_widget_text_size" />
+</LinearLayout>

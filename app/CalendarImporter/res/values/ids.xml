@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="account_title">false</item>
+    <item type="id" name="account_devide_line">false</item>
+    <item type="id" name="account_list">false</item>
+    <item type="id" name="result_title">false</item>
+    <item type="id" name="result_divide_line">false</item>
+    <item type="id" name="import_tip">false</item>
+    <item type="id" name="progress_number">false</item>
+    <item type="id" name="import_progress">false</item>
+    <item type="id" name="button_open">false</item>
+    <item type="id" name="button_done">false</item>
+    <item type="id" name="preview_loading">false</item>
+    <item type="id" name="spinner">false</item>
+    <item type="id" name="loading">false</item>
+    <item type="id" name="preview_activity">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="import_error_icon">false</item>
+    <item type="id" name="preview_title">false</item>
+    <item type="id" name="preview_divide_line">false</item>
+    <item type="id" name="calendar_value">false</item>
+    <item type="id" name="button_cancel">false</item>
+    <item type="id" name="import_error_certain">false</item>
+    <item type="id" name="button_ok">false</item>
+</resources>

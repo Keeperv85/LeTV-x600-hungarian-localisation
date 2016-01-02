@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/home_history_icon" android:layout_width="@dimen/le_home_history_item_icon_size" android:layout_height="@dimen/le_home_history_item_icon_size" android:layout_marginRight="@dimen/le_home_history_item_icon_margin" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/le_home_history_item_text_size" android:textColor="@color/le_list_item_text_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/home_history_title" android:layout_width="@dimen/le_home_history_favourate_item_text_width" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+</LinearLayout>

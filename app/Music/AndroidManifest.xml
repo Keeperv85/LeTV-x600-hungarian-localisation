@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.music" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <original-package android:name="com.android.music"/>
+    <permission android:name="com.android.music.permission.PUSH_RECEIVER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.music.permission.PUSH_RECEIVER"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_NETWORK_POLICY"/>
+    <uses-permission android:name="com.letv.android.accountinfo.accessAccountInfo"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <permission android:name="com.letv.music.permission.ACCESS_USER_DATA" android:protectionLevel="normal"/>
+    <application android:allowTaskReparenting="true" android:icon="@drawable/app_music" android:label="@string/musicbrowserlabel" android:largeHeap="true" android:name="com.android.music.MusicApplication" android:taskAffinity="android.task.music" android:theme="@style/AppBaseTheme">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name=".ui.MusicBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityHomeColorTheme" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MUSIC_PLAYER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_MUSIC"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name=".ui.MediaPlaybackActivity" android:screenOrientation="portrait" android:theme="@style/ActivityPlaybackTheme">
+            <intent-filter>
+                <action android:name="com.android.music.PLAYBACK_VIEWER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.letv.music.view.song"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name=".ui.AudioPreview" android:taskAffinity="" android:theme="@style/ActivityPreviewTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MyMusicMainActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.TrackScanActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.AddSongsToPlaylistActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".ui.AddSongsToPlaylistSubActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/audio"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.SelectPlaylistToAddActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".ui.MediaVideoBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.HistoryBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.BookmarkBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:launchMode="singleTop" android:name=".ui.DownloadBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.MyFollowBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.PlaylistBrowserActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.LossLessListActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".ui.watch.VideoDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityOverlayTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".ui.FullVideoActivity" android:screenOrientation="landscape" android:theme="@style/ActivityPlaybackTheme"/>
+        <activity android:name=".ui.listen.collects.CollectsActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:exported="true" android:name=".ui.listen.collects.detail.CollectsDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="com.letv.music.view.collect"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.listen.collects.introduce.CollectsIntroduceActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.listen.rank.RankActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name=".ui.listen.rank.detail.RankDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="com.letv.music.view.rank"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.listen.latestalbum.LatestAlbumDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:exported="true" android:name=".ui.listen.latestalbum.SingleAlbumActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="com.letv.music.view.album"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.listen.latestalbum.AlbumImageDownloadActivity" android:screenOrientation="portrait" android:theme="@style/ActivityFullScreenTheme"/>
+        <activity android:name=".ui.listen.latestalbum.AlbumIntroduceActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.listen.latestalbum.ArtistsDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityFullScreenTheme"/>
+        <activity android:exported="true" android:name=".ui.listen.latestalbum.MusicDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="com.letv.music.view.artist_song"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.letv.music.view.artist_album"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.letv.music.view.artist_mv"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.search.ArtistRegionActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name="com.android.music.ui.performance.CityListActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name="com.android.music.ui.performance.PerformanceByVenusIDActivity" android:screenOrientation="portrait" android:theme="@style/ActivityFullScreenTheme"/>
+        <activity android:name=".ui.show.detail.PerformDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="com.letv.music.view.perform_detail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.show.detail.PerformBuyTicketActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme">
+            <intent-filter>
+                <action android:name="com.letv.music.view.perform_purchase"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.show.detail.WebActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.watch.ActivityDescriptionActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name=".ui.listen.latestalbum.SimilarArtistsActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.android.music.ui.performance.LetvRaiseActivity" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:excludeFromRecents="true" android:icon="@drawable/ic_settings_music" android:label="@string/music_setting" android:name="com.android.music.setting.MainSettingActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/SettingActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="android.application.settings.TYPE" android:value="android.application.settings.TYPE_MEDIA"/>
+            <meta-data android:name="android.application.settings.PRIOPRITY" android:value="8"/>
+        </activity>
+        <activity android:name=".ui.watch.CustomMadeSectionActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.letv.ads.view.LetvWebViewActivity" android:screenOrientation="sensor" android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        <activity android:name="com.android.music.ui.listen.latestalbum.ArtistIntroduce" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name="com.android.music.ui.scan.ScanLocalResResultActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:name="com.android.music.ui.scan.ScanLocalResFilterActivity" android:screenOrientation="portrait" android:theme="@style/ActivityBaseTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.letv.android.client.playerlibs.uiimpl.BasePlayActivityPlayerLibs" android:screenOrientation="sensor" android:taskAffinity="com.letv.player" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="msiteAction" android:scheme="leadletvclient"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.search.SearchContentActivity" android:screenOrientation="portrait" android:theme="@style/SearchContent">
+            <intent-filter>
+                <action android:name="com.letv.music.view.search_result"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:name="com.letv.android.client.playerlibs.service.PipServicePlayerLibs"/>
+        <service android:exported="false" android:name=".play.MediaPlaybackService"/>
+        <service android:name=".download.DownloadService"/>
+        <service android:name=".sync.SyncService"/>
+        <service android:name=".receiver.PushIntentService"/>
+        <receiver android:name=".receiver.MediaButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.MediaControllerIntentReceiver">
+            <intent-filter>
+                <action android:name="com.android.music.musicservicecommand.togglepause"/>
+                <action android:name="com.android.music.musicservicecommand.previous"/>
+                <action android:name="com.android.music.musicservicecommand.next"/>
+                <action android:name="com.android.music.musicservicecommand.refresh"/>
+                <action android:name="com.android.music.musicservicecommand.pause"/>
+                <action android:name="com.android.music.musicservicecommand.play"/>
+                <action android:name="com.android.music.musicservicecommand.newlist"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.NetConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.music.receiver.WeakMessageReceiver" android:permission="com.stv.stvpush.permission.SEND_PUSH">
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_NOTIFICATION_MESSAGE"/>
+                <category android:name="com.android.music"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_RECEIVE_PUSH_MESSAGE"/>
+                <category android:name="com.android.music"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.music.widget.MediaAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info"/>
+        </receiver>
+        <receiver android:name=".receiver.PlayLiveShowReceiver">
+            <intent-filter>
+                <action android:name="com.letv.music.view.live"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.SwitchSongReceiver">
+            <intent-filter>
+                <action android:name="com.letv.music.metachanged"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.LetvAccountReceiver">
+            <intent-filter>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT"/>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT_SAVE"/>
+                <action android:name="com.letv.android.account.ACTION_LOGIN"/>
+                <action android:name="com.letv.android.account.ACTION_TOKEN_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.letv.music" android:exported="true" android:multiprocess="false" android:name=".io.MusicDataProvider" android:permission="com.letv.music.permission.ACCESS_USER_DATA"/>
+        <service android:name="com.letv.pp.service.CdeService" android:process=":cde"/>
+    </application>
+</manifest>

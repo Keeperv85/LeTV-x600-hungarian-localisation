@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="number_opt">
+        <item>Create contact</item>
+        <item>Add to existing contact</item>
+        <item>Delete</item>
+        <item>Call logs on top</item>
+        <item>Add to blacklist</item>
+        <item>Flag</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>Scam</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Delivery</item>
+        <item>Express</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>Block calls and messages</item>
+        <item>Block calls</item>
+        <item>Block messages</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organization</item>
+        <item>Notes</item>
+    </string-array>
+</resources>

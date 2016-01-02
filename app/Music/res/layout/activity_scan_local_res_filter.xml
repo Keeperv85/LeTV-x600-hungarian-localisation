@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <RelativeLayout android:id="@id/condition_layout" android:background="@drawable/shape_1px_stroke" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/condition_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="100.0dip" android:layout_marginBottom="20.0dip" android:text="@string/scan_filter_condition" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-regular" leui:leCJKTextSize="16.0sp" />
+        <com.letv.leui.widget.LeSwitch android:id="@id/condition_switch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" leui:leSwitchTrackColor="@color/main_color" />
+    </RelativeLayout>
+    <View android:id="@id/bt_start_scan_line" android:background="@color/listview_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="54.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff1e2d38" android:gravity="center" android:id="@id/bt_start_scan" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/start_scan" android:layout_alignParentBottom="true" android:alpha="0.7" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans-regular" leui:leCJKTextSize="16.0sp" />
+</RelativeLayout>

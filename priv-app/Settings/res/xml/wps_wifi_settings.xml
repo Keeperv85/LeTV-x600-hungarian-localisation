@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_advanced_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_wps_time" android:key="connection_info" />
+    <Preference android:persistent="false" android:layout="@layout/preference_wps_time" android:key="connection_time" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">false</bool>
+    <bool name="hide_title">true</bool>
+    <bool name="hide_nav_buttons">true</bool>
+    <bool name="menu_show_navigation">true</bool>
+    <bool name="menu_show_bookmarks">true</bool>
+    <bool name="recents_has_transposed_search_bar">true</bool>
+    <bool name="recents_has_transposed_nav_bar">true</bool>
+    <bool name="config_recents_use_hardware_layers">false</bool>
+    <bool name="config_recents_fake_shadows">false</bool>
+</resources>

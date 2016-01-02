@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/le_fragment_album_show_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/picker_switcher" android1:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/realtabcontent" android:background="@color/le_main_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <android.support.v4.app.LeFragmentTabHost android:id="@android:id/tabhost" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+        <com.letv.leui.widget.LeTabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="200.0dip" android:leTopStrip="@android:color/le_tab_indicator_top_strip_color" android:leTopStripHeight="@android:dimen/le_tab_indicator_top_strip_height" />
+    </android.support.v4.app.LeFragmentTabHost>
+    <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

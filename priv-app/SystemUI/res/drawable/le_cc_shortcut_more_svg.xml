@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="编辑" android:fillColor="#ff000000" android:pathData="M96,89c-3.867,0-7,3.134-7,7c0,3.867,3.133,7,7,7c3.866,0,7-3.133,7-7C103,92.134,99.866,89,96,89z M56.625,89   c-3.867,0-7,3.134-7,7c0,3.867,3.133,7,7,7c3.866,0,7-3.133,7-7C63.625,92.134,60.491,89,56.625,89z M135.375,89   c-3.866,0-7,3.134-7,7c0,3.867,3.134,7,7,7s7-3.133,7-7C142.375,92.134,139.241,89,135.375,89z" />
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_pulse_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@android:string/permgrouplab_phoneCalls" android:key="notification_pulse_call" android:switchTextOn="" android:switchTextOff="" />
+    <SwitchPreference android:persistent="false" android:title="@string/sms_messages_title" android:key="notification_pulse_sms" android:switchTextOn="" android:switchTextOff="" />
+    <SwitchPreference android:persistent="false" android:title="@string/leui_email_settings" android:key="notification_pulse_email" android:switchTextOn="" android:switchTextOff="" />
+    <SwitchPreference android:persistent="false" android:title="@string/leui_application_settings_other" android:key="notification_pulse" android:switchTextOn="" android:switchTextOff="" />
+</PreferenceScreen>

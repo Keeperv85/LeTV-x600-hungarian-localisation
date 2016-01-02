@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.IconLayoutModeContainer android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="@dimen/overview_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start|center|top" android:id="@id/auto_layout_mode_button" android:layout_marginLeft="@dimen/icon_layout_mode_margin" android:text="@string/auto_layout_mode_button_text" android:drawableTop="@drawable/auto_layout_mode_button" android:drawableBottom="@drawable/wallpaper_and_theme_item_selected_mark" style="@style/LeTextView.Shadow.OverviewPanelButton" />
+    <TextView android:layout_gravity="end|center|top" android:id="@id/manual_layout_mode_button" android:layout_marginRight="@dimen/icon_layout_mode_margin" android:text="@string/manual_layout_mode_button_text" android:drawableTop="@drawable/manual_layout_mode_button" android:drawableBottom="@drawable/wallpaper_and_theme_item_selected_mark" style="@style/LeTextView.Shadow.OverviewPanelButton" />
+</com.android.launcher3.IconLayoutModeContainer>

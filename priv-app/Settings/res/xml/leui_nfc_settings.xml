@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/nfc_quick_toggle_title" android:key="nfc_settings" />
+    <SwitchPreference android:persistent="true" android:title="@string/android_beam_settings_title" android:key="android_beam_settings" />
+    <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/nfc_settings_help" android:key="nfc_settings_help" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:fragment="com.android.settings.nfc.NfcHelp" />
+</PreferenceScreen>

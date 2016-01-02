@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="#33ffaa99" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:minHeight="100.0dip" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/subscribe_detail_margin_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_detail" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/ic_launcher_calendar" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="#33aacc88" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="80.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="#22ff0000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minHeight="80.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

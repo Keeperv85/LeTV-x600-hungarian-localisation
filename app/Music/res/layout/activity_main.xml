@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sv" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.common.recommend.widget.LeRecommendViewGroup android:id="@id/lrvg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/shape_recommend_divider_line" android:showDividers="middle" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/leui_bottom_tab_settings_actived" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/leui_bottom_tab_settings_actived" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/leui_bottom_tab_settings_actived" />
+    <item android:state_selected="true" android:drawable="@drawable/leui_bottom_tab_settings_actived" />
+    <item android:drawable="@drawable/leui_bottom_tab_settings_normal" />
+</selector>

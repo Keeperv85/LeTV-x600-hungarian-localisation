@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/video_brightness_volume" android:background="@drawable/popup_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/info_icon" android:paddingLeft="@dimen/info_seek_padding_left" android:paddingTop="@dimen/info_seek_padding_top" android:paddingRight="@dimen/info_seek_padding_right" android:paddingBottom="@dimen/info_seek_padding_center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/info_text" android:paddingBottom="@dimen/info_seek_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test" android:maxLength="20" android:fontFamily="@string/title_font_family" />
+</LinearLayout>

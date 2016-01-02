@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="count_down_text_width">72.0dip</dimen>
+    <dimen name="count_down_dot_15m">71.0dip</dimen>
+    <dimen name="count_down_dot_30m">142.0dip</dimen>
+    <dimen name="count_down_dot_45m">215.0dip</dimen>
+    <dimen name="count_down_dot_60m">286.0dip</dimen>
+    <dimen name="count_down_dot_75m">357.0dip</dimen>
+</resources>

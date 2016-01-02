@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mainView" android:background="@drawable/filtershow_tiled_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ProgressBar android:layout_gravity="center" android:id="@id/loading" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" style="@android:style/Widget.Holo.ProgressBar.Large" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <FrameLayout android:layout_gravity="center" android:id="@id/central_panel_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <FrameLayout android:id="@id/editorContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.android.gallery3d.filtershow.imageshow.ImageShow android:id="@id/imageShow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/state_panel_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/mainPanel" android:layout_width="350.0dip" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <FrameLayout android:id="@id/main_panel_container" android:layout_width="350.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.android.gallery3d.filtershow.category.CategorySelected android:id="@id/categorySelectedIndicator" android:visibility="invisible" android:layout_width="@dimen/category_panel_icon_size" android:layout_height="@dimen/category_panel_icon_size" />
+</FrameLayout>

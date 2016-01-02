@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <View android:id="@id/le_cc_content_divider_below_shortcut_id" android:background="@color/le_cc_content_landscape_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toLeftOf="@id/le_cc_brightness_id" android:layout_toRightOf="@id/le_cc_volume_id" android:layout_below="@id/le_cc_shortcut_layout_extend_id" />
+</merge>

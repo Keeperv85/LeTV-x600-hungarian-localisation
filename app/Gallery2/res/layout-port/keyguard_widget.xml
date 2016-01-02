@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/camera_controls" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shutter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shutter_offset" android:src="@drawable/btn_new_shutter" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginRight="-5.0dip" android:layout_marginBottom="6.0dip" android:layout_toRightOf="@id/shutter" android:layout_alignParentBottom="true" layout="@layout/menu_indicators_keyguard" />
+    <ImageView android:id="@id/camera_switcher" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_switch_camera" android:scaleType="center" android:layout_toLeftOf="@id/shutter" android:layout_alignParentBottom="true" android:contentDescription="@string/accessibility_mode_picker" style="@style/SwitcherButton" />
+    <ImageView android:id="@id/camera_switcher_ind" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_switcher_menu_indicator" android:scaleType="center" android:layout_toLeftOf="@id/shutter" android:layout_alignParentBottom="true" android:contentDescription="@string/accessibility_mode_picker" style="@style/SwitcherButton" />
+</RelativeLayout>

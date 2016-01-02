@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/install_progress_text_alpha_duration" android:valueFrom="@dimen/opacity" android:valueTo="@dimen/transparency" android:valueType="floatType" android:propertyName="@string/alpha" />
+    <set android:ordering="sequentially">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/install_progress_text_zoom_duration1" android:valueFrom="@dimen/zoomValue2" android:valueTo="@dimen/zoomValue3" android:valueType="floatType" android:propertyName="@string/scaleX" />
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/install_progress_text_zoom_duration1" android:valueFrom="@dimen/zoomValue2" android:valueTo="@dimen/zoomValue3" android:valueType="floatType" android:propertyName="@string/scaleY" />
+        </set>
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/install_progress_text_zoom_duration2" android:valueFrom="@dimen/zoomValue3" android:valueTo="@dimen/zoomValue1" android:valueType="floatType" android:propertyName="@string/scaleX" />
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/install_progress_text_zoom_duration2" android:valueFrom="@dimen/zoomValue3" android:valueTo="@dimen/zoomValue1" android:valueType="floatType" android:propertyName="@string/scaleY" />
+        </set>
+    </set>
+</set>

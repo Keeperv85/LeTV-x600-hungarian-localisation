@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_settings" android:key="notification_settings" settings:keywords="@string/keywords_sounds_and_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/sound_setting_volume" android:key="sound">
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@drawable/ic_audio_vol_24dp" android:title="@string/media_volume_option_title" android:key="media_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@drawable/ic_audio_alarm_24dp" android:title="@string/alarm_volume_option_title" android:key="alarm_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@drawable/ring_notif" android:title="@string/ring_volume_option_title" android:key="ring_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@drawable/ring_notif" android:title="@string/notification_volume_option_title" android:key="notification_volume" />
+        <SwitchPreference android:persistent="false" android:title="@string/leui_sound_settings_silentmode" android:key="soft_mutekey" android:switchTextOn="" android:switchTextOff="" />
+        <SwitchPreference android:persistent="false" android:title="@string/leui_mutekey_exclude_music" android:key="mutekey_exclude_music" android:switchTextOn="" android:switchTextOff="" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/leui_sound_settings_vibrate" android:key="all_vibrate_settings">
+        <SwitchPreference android:persistent="false" android:title="@string/leui_sound_settings_vibratemode" android:key="silent_mode" />
+        <SwitchPreference android:persistent="false" android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing" />
+        <SwitchPreference android:persistent="false" android:title="@string/vibrate_on_touch_title" android:key="vibrate_on_touch" android:switchTextOn="" android:switchTextOff="" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/leui_sound_settings_ring" android:key="ring_settings">
+        <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_call" android:key="ringtone_sound" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_call" android:fragment="com.letv.leui.settings.LeUINormalRingtoneFragment" />
+        <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_message" android:key="mms_ringtone" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_message" />
+        <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_notification" android:key="notification_sound" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_notification" />
+        <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_mail" android:key="mail_sound" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_mail" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/leui_sound_hint" android:key="other_sounds">
+        <SwitchPreference android:persistent="false" android:title="@string/dial_pad_tones_title" android:key="dial_pad_tones" android:switchTextOn="" android:switchTextOff="" />
+        <SwitchPreference android:persistent="false" android:title="@string/screen_locking_sounds_title" android:key="screen_locking_sounds" android:switchTextOn="" android:switchTextOff="" />
+        <SwitchPreference android:persistent="false" android:title="@string/touch_sounds_title" android:key="touch_sounds" android:switchTextOn="" android:switchTextOff="" />
+    </PreferenceCategory>
+</PreferenceScreen>

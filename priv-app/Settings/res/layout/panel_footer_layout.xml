@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/panel_footer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/cloud_service_btn_black_color" android:id="@id/footer_left_button" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/panel_footer_text_style" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/footer_center_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textColor="#ff2395ee" android:id="@id/footer_center_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/panel_footer_height" android:drawableRight="@drawable/leui_panel_footer_next" style="@style/panel_footer_text_style" />
+    </LinearLayout>
+    <TextView android:textColor="@color/panel_footer_text_color" android:id="@id/footer_right_button" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/panel_footer_text_style" />
+</LinearLayout>

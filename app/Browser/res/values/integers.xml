@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="recents_task_bar_dismiss_delay_seconds">1</integer>
+    <integer name="recents_filter_animate_current_views_duration">250</integer>
+    <integer name="recents_filter_animate_new_views_duration">250</integer>
+    <integer name="recents_animate_task_bar_enter_duration">225</integer>
+    <integer name="recents_animate_task_bar_enter_delay">275</integer>
+    <integer name="recents_animate_task_exit_to_home_duration">225</integer>
+    <integer name="recents_animate_task_bar_exit_duration">125</integer>
+    <integer name="recents_animate_task_enter_from_home_delay">150</integer>
+    <integer name="recents_animate_task_enter_from_home_duration">250</integer>
+    <integer name="recents_animate_task_enter_from_home_stagger_delay">12</integer>
+    <integer name="recents_animate_lock_to_app_button_short_duration">150</integer>
+    <integer name="recents_animate_lock_to_app_button_long_duration">300</integer>
+    <integer name="recents_nav_bar_scrim_enter_duration">400</integer>
+    <integer name="recents_animate_task_view_remove_duration">250</integer>
+    <integer name="recents_animate_task_stack_scroll_duration">225</integer>
+    <integer name="recents_max_task_stack_view_dim">96</integer>
+    <integer name="recents_alt_tab_key_delay">200</integer>
+    <integer name="config_recents_max_thumbnail_count">32</integer>
+    <integer name="config_recents_max_icon_count">20</integer>
+    <integer name="max_suggest_lines_landscape">5</integer>
+    <integer name="max_suggest_lines_portrait">6</integer>
+    <integer name="max_tabs">16</integer>
+    <integer name="tab_animation_duration">200</integer>
+    <integer name="most_visits_limit">10</integer>
+    <integer name="comboViewFadeInDuration">400</integer>
+    <integer name="tabFadeDuration">300</integer>
+    <integer name="max_bookmark_columns">5</integer>
+    <integer name="browser_top_bar_animation_duration">400</integer>
+    <integer name="menu_items_per_row">4</integer>
+    <integer name="search_engine_grid_num_columns">3</integer>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/tab_group" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/fake_actionbar_hight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left" android:id="@id/tab_contact" android:src="@drawable/ic_tab_contacts" style="@style/BottomTabStyle" />
+    <ImageView android:layout_gravity="center" android:id="@id/tab_dialpad" android:src="@drawable/ic_tab_dialpad" style="@style/BottomTabStyle" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/tab_search" android:src="@drawable/ic_tab_search" style="@style/BottomTabStyle" />
+</FrameLayout>

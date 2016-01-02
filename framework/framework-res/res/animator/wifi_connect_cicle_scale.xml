@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@interpolator/le_c_interpolator" android:duration="1000" android:valueFrom="0" android:valueTo="1.0" android:propertyName="@string/scale_x" />
+    <objectAnimator android:interpolator="@interpolator/le_c_interpolator" android:duration="1000" android:valueFrom="0" android:valueTo="1.0" android:propertyName="@string/scale_y" />
+</set>

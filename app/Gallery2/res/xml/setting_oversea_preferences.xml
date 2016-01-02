@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/le_setting_title" android:key="pref_key_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_slide_show_category" android:key="removal-actions-group">
+        <SwitchPreference android:persistent="true" android:title="@string/setting_slide_show_repeat" android:key="setting_oversea_slide_show_repeat" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/setting_slide_show_shuffle" android:key="setting_oversea_slide_show_shuffle" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/item_recommend_items_margin" android:layout_marginEnd="@dimen/item_recommend_items_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_context_box" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/item_recommend_calendar_month_front_size" android:textColor="@color/item_recommend_calendar_month_front_color" android:id="@id/tv_calendar_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="3.0dip" />
+        <TextView android:textSize="@dimen/item_recommend_calendar_data_front_size" android:textColor="@color/item_recommend_calendar_data_front_color" android:id="@id/tv_calendar_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_calendar_month" />
+        <TextView android:textSize="@dimen/item_recommend_calendar_content_front_size" android:textColor="@color/item_recommend_calendar_content_front_color" android:ellipsize="end" android:id="@id/tv_calendar_content" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="3" android:minLines="3" android:singleLine="false" android:layout_toRightOf="@id/tv_calendar_data" android:layout_marginStart="10.0dip" />
+        <Button android:textSize="@dimen/item_recommend_calendar_btn_front_size" android:gravity="center" android:id="@id/btn_calendar_buy" android:background="@android:color/holo_green_dark" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="9.0dip" android:text="@string/recommend_calendar_buy" android:layout_toRightOf="@id/tv_calendar_content" android:layout_marginStart="10.0dip" />
+        <ImageView android:background="#ffcccccc" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toRightOf="@id/btn_calendar_buy" android:layout_marginStart="10.0dip" />
+        <include android:id="@id/item_recommend_more" layout="@layout/item_recommend_more" />
+    </RelativeLayout>
+</RelativeLayout>

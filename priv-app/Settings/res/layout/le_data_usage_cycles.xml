@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cycles" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="96.0dip" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/data_usage_cycle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_usage_cycle" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="13.0sp" android:textColor="?android:textColorSecondary" android:id="@id/date_cycles_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </LinearLayout>
+</LinearLayout>

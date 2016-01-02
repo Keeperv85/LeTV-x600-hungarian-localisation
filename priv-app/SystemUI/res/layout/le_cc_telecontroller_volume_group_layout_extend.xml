@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/le_cc_telecontroller_volume_parent_id" android:background="@color/le_cc_brightness_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_cc_brightness_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/le_cc_telecontroller_parent_id" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/le_cc_telecontroller_text_size" android:textColor="@drawable/le_cc_telecontroller_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/le_cc_telecontroller_text_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/le_cc_telecontroller_text" android:drawableLeft="@drawable/le_cc_telecontroller_icon" android:drawablePadding="@dimen/le_cc_telecontroller_text_marginLeft" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/le_cc_telecontroller_volume_child_volume_id" android:paddingLeft="@dimen/le_cc_brightness_marginLeft" android:paddingRight="@dimen/le_cc_brightness_marginRight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_volume_low_indicate" />
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/le_cc_telecontroller_volume_child_volume_seekbar_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_cc_brightness_seekbar_marginLeft" android:layout_marginRight="@dimen/le_cc_brightness_seekbar_marginRight" android:layout_weight="1.0" style="@style/LeSeekBar" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_volume_hight_indicate" />
+    </LinearLayout>
+</FrameLayout>

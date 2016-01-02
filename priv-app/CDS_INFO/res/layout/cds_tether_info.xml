@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/tether_info_label" style="@style/info_label" />
+        </TableRow>
+        <View android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tether_info" style="@style/info_value" />
+        </TableRow>
+        <View android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </TableLayout>
+</ScrollView>

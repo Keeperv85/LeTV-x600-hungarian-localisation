@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/clock_select_btn" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/clock_select_turn_on" />
+    <TextView android:id="@id/ClockSelectionDesTxv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0pt" android:layout_marginTop="20.0px" android:layout_weight="1.0" />
+</LinearLayout>

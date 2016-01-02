@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/search_main_hot_artist_item"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.BorderedCircleImageView android:id="@id/imageView_hot_artist_avatar" leui:circle_radius="28.0dip" leui:border_width="0.0dip" style="@style/search_main_hot_artist_item_cover" />
+    <com.letv.leui.widget.LeTextView android:id="@id/textView_hot_artist_name" android:layout_below="@id/imageView_hot_artist_avatar" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/search_main_hot_artist_item_name" />
+</RelativeLayout>

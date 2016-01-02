@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableLayout android:id="@id/TableLayout01" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TableRow android:gravity="center" android:id="@id/TableRow01" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textColor="#ff00ff00" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0pt" android:text="@string/NFC_Settings_NFC_Text" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/NFC_Settings_NFC" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <RadioButton android:id="@id/NFC_Settings_NFC_OFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NFC_Settings_NFC_OFF" />
+                    <RadioButton android:id="@id/NFC_Settings_NFC_ON" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NFC_Settings_NFC_ON" />
+                </RadioGroup>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal" android:id="@id/TableRow01" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textColor="#ff00ff00" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0pt" android:text="@string/NFC_Settings_NFCDBG_Text" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/NFC_Settings_NFCDBG" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <RadioButton android:id="@id/NFC_Settings_NFCDBG_OFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NFC_Settings_NFCDBG_OFF" />
+                    <RadioButton android:id="@id/NFC_Settings_NFCDBG_ON" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NFC_Settings_NFCDBG_ON" />
+                </RadioGroup>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal" android:id="@id/TableRow01" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textColor="#ff00ff00" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0pt" android:text="@string/NFC_Settings_Protocol_Text" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/NFC_Settings_Protocol" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <RadioButton android:id="@id/NFC_Settings_Protocol_OFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NFC_Settings_Protocol_OFF" android:singleLine="true" />
+                    <RadioButton android:id="@id/NFC_Settings_Protocol_RD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NFC_Settings_Protocol_RD" />
+                </RadioGroup>
+            </TableRow>
+        </TableLayout>
+        <View android:background="#ff909000" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <Button android:id="@id/NFC_Settings_Btn_Set" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0pt" android:text="@string/NFC_Settings_Btn_Set" />
+    </LinearLayout>
+</ScrollView>

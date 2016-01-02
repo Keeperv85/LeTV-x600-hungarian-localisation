@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.wallpaper" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <original-package android:name="com.android.wallpaper"/>
+    <uses-feature android:name="android.software.live_wallpaper"/>
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application android:icon="@drawable/ic_launcher_wallpaper" android:label="@string/wallpapers">
+        <activity android:enabled="@bool/config_enable_polar_clock_wallpaper" android:exported="true" android:label="@string/clock_settings" android:name="com.android.wallpaper.polarclock.PolarClockSettings" android:theme="@android:style/Theme"/>
+        <service android:enabled="@bool/config_enable_polar_clock_wallpaper" android:label="@string/wallpaper_clock" android:name="com.android.wallpaper.polarclock.PolarClockWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/polar_clock"/>
+        </service>
+        <activity android:configChanges="orientation|screenSize" android:name=".PreviewStubActivity" android:theme="@style/Preview"/>
+    </application>
+</manifest>

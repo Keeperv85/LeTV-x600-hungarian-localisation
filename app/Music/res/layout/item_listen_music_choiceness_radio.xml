@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/radioItem1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.android.music.widget.BorderedRoundedCornersSquareImageView android:id="@id/radioItemImage1" android:background="@drawable/shape_1px_1dp_bound" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" android:layout_centerHorizontal="true" leui:corner_radius="1.0dip" />
+        <TextView android:id="@id/radioItemText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/radioItemImage1" android:layout_alignLeft="@id/radioItemImage1" android:layout_alignRight="@id/radioItemImage1" android:layout_centerHorizontal="true" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" style="@style/listenmusic_choiceness_rank_album_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/radioItem2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="1.0">
+        <com.android.music.widget.BorderedRoundedCornersSquareImageView android:id="@id/radioItemImage2" android:background="@drawable/shape_1px_1dp_bound" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" android:layout_centerHorizontal="true" leui:corner_radius="1.0dip" />
+        <TextView android:id="@id/radioItemText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/radioItemImage2" android:layout_alignLeft="@id/radioItemImage2" android:layout_alignRight="@id/radioItemImage2" android:layout_centerHorizontal="true" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" style="@style/listenmusic_choiceness_rank_album_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/radioItem3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="1.0">
+        <com.android.music.widget.BorderedRoundedCornersSquareImageView android:id="@id/radioItemImage3" android:background="@drawable/shape_1px_1dp_bound" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" android:layout_centerHorizontal="true" leui:corner_radius="1.0dip" />
+        <TextView android:id="@id/radioItemText3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/radioItemImage3" android:layout_alignLeft="@id/radioItemImage3" android:layout_alignRight="@id/radioItemImage3" android:layout_centerHorizontal="true" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" style="@style/listenmusic_choiceness_rank_album_text" />
+    </RelativeLayout>
+</LinearLayout>

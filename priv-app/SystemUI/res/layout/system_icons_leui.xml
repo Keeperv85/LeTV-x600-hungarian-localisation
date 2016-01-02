@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/system_icons" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.phone.NetSpeedText android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/netspeed_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:alpha="255.0" android:paddingEnd="3.0dip" />
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@drawable/status_icon_divider" android:showDividers="middle" />
+    <include android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" layout="@layout/signal_cluster_view" />
+    <com.android.systemui.BatteryMeterViewLeui android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+</LinearLayout>

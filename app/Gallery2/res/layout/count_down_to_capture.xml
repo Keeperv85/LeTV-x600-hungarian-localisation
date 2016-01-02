@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.CountDownView android:id="@id/count_down_to_capture" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="160.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/remaining_seconds" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/count_down_title" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/count_down_title_text" />
+</com.android.camera.ui.CountDownView>

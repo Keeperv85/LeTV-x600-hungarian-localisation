@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/alarm_setting_title_ringtone" android:key="alarm_alert_settings"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <PreferenceCategory android:title="@string/alarm_alert_title_ringtone_custom">
+        <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/alarm_ringtone_custom" android:key="prefs_ring_custom" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    </PreferenceCategory>
+    <com.letv.leui.preference.LeRadioGroupPreference android:persistent="false" android:title="@string/alarm_alert_title_ringtone_system" android:key="prefs_ring_system" android:defaultValue="@string/alarm_ringtone_system_default">
+        <com.letv.leui.preference.LeRadioPreference android:title="@string/alarm_ringtone_system_mute" android:key="@string/alarm_ringtone_system_mute" android:checkedTextColor="@color/le_radio_preference_checked_title_color" android:uncheckedTextColor="@color/le_radio_preference_unchecked_title_color" android:leBoxArrowColorWithoutBorder="@color/le_box_arrow_color" />
+    </com.letv.leui.preference.LeRadioGroupPreference>
+</PreferenceScreen>

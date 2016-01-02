@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wallpaper_options">
+        <item>鎖屏桌布</item>
+        <item>桌面桌布</item>
+        <item>同時設定</item>
+    </string-array>
+</resources>

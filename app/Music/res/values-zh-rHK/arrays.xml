@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>影視作品</item>
+        <item>娛樂報導</item>
+        <item>桌布推薦</item>
+        <item>熱門單曲</item>
+        <item>音樂專輯</item>
+        <item>相關藝人</item>
+        <item>相關微博</item>
+        <item>相關網站</item>
+    </string-array>
+    <string-array name="player">
+        <item>影視作品</item>
+        <item>體育報導</item>
+        <item>桌布推薦</item>
+        <item>None</item>
+        <item>音樂專輯</item>
+        <item>None</item>
+        <item>相關微博</item>
+        <item>相關網站</item>
+    </string-array>
+    <string-array name="movie">
+        <item>影视作品</item>
+        <item>娛樂報導</item>
+        <item>桌布推薦</item>
+        <item>原創音樂</item>
+        <item>None</item>
+        <item>相關藝人</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="team">
+        <item>影视作品</item>
+        <item>相關報導</item>
+        <item>桌布推薦</item>
+        <item>相關音樂</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="brand">
+        <item>None</item>
+        <item>品牌資訊</item>
+        <item>桌布推薦</item>
+        <item>品牌音樂</item>
+        <item>None</item>
+        <item>None</item>
+        <item>相關微博</item>
+        <item>相關網站</item>
+    </string-array>
+    <string-array name="region">
+        <item>None</item>
+        <item>相關視頻</item>
+        <item>桌布推薦</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>相關微博</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>暢銷</item>
+        <item>預售</item>
+        <item>無效</item>
+        <item>待定</item>
+        <item>售完</item>
+        <item>延期</item>
+        <item>取消</item>
+        <item>已接受</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>精選</item>
+        <item>精選推介</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>華語</item>
+        <item>歐美</item>
+        <item>韓國</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>歌曲</item>
+        <item>專輯</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>新歌排行榜</item>
+        <item>熱門歌曲排行榜</item>
+        <item>原創歌曲排行榜</item>
+        <item>美國 Billboard</item>
+        <item>韓國 MNUT</item>
+        <item>日本公信榜</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>按建立時間倒序</item>
+        <item>按建立時間順序</item>
+        <item>按起始字母排序</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>重新改名</item>
+        <item>刪除</item>
+    </string-array>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="album_detail_header_menu">
+        <item>分享</item>
+        <item>我的最愛</item>
+        <item>新增至</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>自動選取</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>蝦米官方排行榜</item>
+        <item>全球媒體排行榜</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>熱門歌曲排行榜</item>
+        <item>新歌排行榜</item>
+        <item>原創歌曲排行榜</item>
+        <item>音樂人 Demo 排行榜</item>
+    </string-array>
+    <string-array name="array_rank_types_world_media">
+        <item>Hito 中文排行榜</item>
+        <item>香港勁歌金曲榜</item>
+        <item>英國 UK 單曲榜</item>
+        <item>美國 Billboard 單曲榜</item>
+        <item>ORICON 公信單曲榜</item>
+        <item>韓國 MNET 音樂排行榜</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>單曲</item>
+        <item>歌手</item>
+        <item>專輯</item>
+        <item>MV</item>
+        <item>本地</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>華語男歌手</item>
+        <item>華語女歌手</item>
+        <item>華語樂隊組合</item>
+        <item>歐美男歌手</item>
+        <item>歐美女歌手</item>
+        <item>歐美樂隊組合</item>
+        <item>日本男歌手</item>
+        <item>日本女歌手</item>
+        <item>日本樂隊組合</item>
+        <item>韓國男歌手</item>
+        <item>韓國女歌手</item>
+        <item>韓國樂隊組合</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>沒搜尋到對應結果</item>
+        <item>無歌詞</item>
+        <item>無音樂</item>
+        <item>無記錄</item>
+        <item>沒有關注訊息</item>
+    </string-array>
+    <string-array name="blank_page_failure_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 星期</item>
+        <item>2 星期</item>
+        <item>3 星期</item>
+        <item>4 星期</item>
+        <item>5 星期</item>
+        <item>6 星期</item>
+        <item>7 星期</item>
+        <item>8 星期</item>
+        <item>9 星期</item>
+        <item>10 星期</item>
+        <item>11 星期</item>
+        <item>12 星期</item>
+    </string-array>
+</resources>

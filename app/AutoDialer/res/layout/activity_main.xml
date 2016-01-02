@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ToggleButton android:textSize="15.0sp" android:id="@id/Button_StartTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/start_test_on" android:textOff="@string/start_test_off" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/LinearLayout_Settings" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="15.0sp" android:id="@id/Button_Loops" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loops" />
+                <TextView android:id="@id/TextView_Loops" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="15.0sp" android:id="@id/Button_EndCallDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/end_call" />
+                <TextView android:id="@id/TextView_EndCallDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="15.0sp" android:id="@id/Button_PhoneCallDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_call" />
+                <TextView android:id="@id/TextView_PhoneCallDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" />
+                <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hot" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Warm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/warm" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Cold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cold" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Full" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/full" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone" />
+                <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Phone_911" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_911" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Phone_8378911" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_8378911" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Phone_Edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_edit" />
+                </RadioGroup>
+            </LinearLayout>
+            <EditText android:textSize="18.0sp" android:id="@id/EditText_PhoneEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="200.0dip" android:maxLength="100" android:inputType="phone" />
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/TextView_Info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/TextView_Info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/left_layout" android:paddingLeft="@dimen/leTopWidget_leftview_margin" android:paddingRight="@dimen/leTopWidget_leftview_margin" android:layout_width="wrap_content" android:layout_height="@dimen/leTopWidget_hight" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/back_iv" android:background="@drawable/le_actionbar_back" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/leTopWidget_textview_text_size" android:gravity="center_vertical" android:id="@id/back_tv" android:paddingLeft="@dimen/leTopWidget_textview_magin_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/leTopWidget_left_tv_width" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/leTopWidget_textview_text_size" android:gravity="center" android:layout_gravity="center" android:id="@id/center_tv" android:paddingLeft="@dimen/leTopWidget_leftview_margin" android:paddingRight="@dimen/leTopWidget_leftview_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/leTopWidget_hight" android:maxWidth="@dimen/leTopWidget_center_tv_width" android:singleLine="true" android:layout_centerInParent="true" android:fontFamily="hans-sans-medium" />
+    <LinearLayout android:gravity="center|right" android:id="@id/right_layout" android:layout_width="wrap_content" android:layout_height="@dimen/leTopWidget_hight" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/leTopWidget_textview_text_size" android:gravity="center|right" android:id="@id/right_tv" android:paddingLeft="@dimen/leTopWidget_leftview_margin" android:paddingRight="@dimen/leTopWidget_leftview_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:maxWidth="@dimen/leTopWidget_left_tv_width" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/right_iv" android:background="@drawable/le_actionbar_complete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/leTopWidget_leftview_margin" android:layout_marginRight="@dimen/leTopWidget_leftview_margin" android:layout_alignParentRight="true" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/player_little_tip_container" android:background="@color/letv_color_b3000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/letv_dimens_28" android:layout_marginBottom="@dimen/letv_dimens_40"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/letv_dimens_text_13" android:gravity="center_vertical" android:id="@id/player_little_tip_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/letv_dimens_5" android:layout_marginRight="@dimen/letv_dimens_5" />
+    <ImageButton android:id="@id/player_little_tip_close_btn" android:background="@drawable/player_little_tip_close_btn_selector" android:layout_width="@dimen/letv_dimens_28" android:layout_height="fill_parent" />
+</LinearLayout>

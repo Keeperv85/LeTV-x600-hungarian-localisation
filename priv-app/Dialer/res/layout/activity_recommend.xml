@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <ScrollView android:id="@id/MySearchScroll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/recommend_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="@color/font_color" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/tuijian" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                    </LinearLayout>
+                    <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                    <com.letv.android.letvyellowpage.view.MyGridView android:id="@id/recommend_grid_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:verticalSpacing="18.0dip" android:numColumns="2" />
+                    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                    <View android:background="@color/main_bg" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+                </LinearLayout>
+                <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/tv_zuijinjilu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/zuijinjilu" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                </LinearLayout>
+                <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.letv.android.letvyellowpage.view.MyListView android:id="@id/ShopListView" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:divider="#fff2f2f2" android:dividerHeight="1.0px" android:minHeight="?android:listPreferredItemHeight" android:footerDividersEnabled="true" />
+                <View android:layout_width="wrap_content" android:layout_height="50.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.letv.leui.widget.LeBottomWidget android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_widget" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

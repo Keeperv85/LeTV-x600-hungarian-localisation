@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="1.0px" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="20.0sp" android:gravity="left" android:id="@id/idspaddlockInputMCCMNC" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/strMCCMNC" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <Spinner android:id="@id/spinnersp1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="30.0dip" android:drawSelectorOnTop="true" android:prompt="@string/strInputMode" android:layout_weight="3.0" />
+                <com.android.simmelock.SimLockEditText android:textSize="20.0sp" android:id="@id/idspaddlockEditInputMCCMNC" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_weight="2.0" android:contentDescription="@string/strMCCMNC" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:gravity="left" android:id="@id/idspaddlockInputGID1" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/strGID1" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <Spinner android:id="@id/spinnersp2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="30.0dip" android:drawSelectorOnTop="true" android:prompt="@string/strInputMode" android:layout_weight="3.0" />
+                <com.android.simmelock.SimLockEditText android:textSize="20.0sp" android:id="@id/idspaddlockEditInputGID1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_weight="2.0" android:contentDescription="@string/strGID1" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:gravity="left" android:id="@id/idspaddlockInputPassword" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/strInputPassword" />
+            <com.android.simmelock.SimLockEditText android:layout_gravity="center" android:id="@id/idspaddlockInputEditPassword" android:layout_width="200.0dip" android:layout_height="wrap_content" android:contentDescription="@string/strInputPassword" />
+            <TextView android:textSize="20.0sp" android:gravity="left" android:id="@id/idspaddlockInputPasswordAgain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/strInputPasswordAgain" />
+            <com.android.simmelock.SimLockEditText android:layout_gravity="center" android:id="@id/idspaddlockEditInputPasswordAgain" android:layout_width="200.0dip" android:layout_height="wrap_content" android:contentDescription="@string/strInputPasswordAgain" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" style="@android:style/ButtonBar">
+        <Button android:textSize="20.0sp" android:id="@id/idspaddlockButtonConfirm" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/strConfirm" android:layout_weight="1.0" />
+        <Button android:textSize="20.0sp" android:id="@id/idspaddlockButtonCancel" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/strCancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shadow">#cc222222</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="shallowblack">#ff414141</color>
+    <color name="grey">#ffdfdfdf</color>
+    <color name="lightblack">#ff9d9d9d</color>
+    <color name="lightgrey">#fff9f9f9</color>
+    <color name="shallowgreen">#ff00bd9c</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffeb3e2e</color>
+    <color name="blackmenglayer">#80000000</color>
+    <color name="greenMenglayer">#f200bd9c</color>
+</resources>

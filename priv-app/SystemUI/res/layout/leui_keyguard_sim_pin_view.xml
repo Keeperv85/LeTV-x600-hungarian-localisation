@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.leui.KeyguardSimPinViewLeui android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_sim_pin_view" android:layout_width="fill_parent" android:layout_height="fill_parent" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/sim_card_name" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <include layout="@layout/num_input_entry_and_tips" />
+    <include layout="@layout/num_key_pad" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/complex_intput_entry_width" android:layout_height="wrap_content">
+        <com.android.keyguard.EmergencyButton android:id="@id/emergency_call_button" android:clickable="true" android:text="@string/kg_emergency_call_label" style="@style/Keyguard.Button" />
+        <Space android:visibility="invisible" android:layout_weight="1.0" style="@style/Keyguard.Button" />
+        <Button android:layout_gravity="right" android:id="@id/ok_button" android:text="@string/ok" style="@style/Keyguard.Button" />
+    </LinearLayout>
+</com.android.keyguard.leui.KeyguardSimPinViewLeui>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/le_top_btn_icon_find" android:id="@id/world_city_menu_search" android:title="@string/world_clock_city_search_hint" android:showAsAction="always" />
+</menu>

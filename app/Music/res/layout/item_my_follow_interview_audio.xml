@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_my_follow_item_header" />
+    <RelativeLayout android:id="@id/linearLayout_my_follow_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="22.0dip">
+        <RelativeLayout android:id="@id/logo_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView_cover" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" />
+            <ImageButton android:id="@id/imageButton_play" android:background="@drawable/music_bigplay" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.letv.leui.widget.BlurRelativeLayout android:id="@id/relativeLayout_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_toRightOf="@id/logo_container">
+            <com.letv.leui.widget.LeTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textView_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" />
+            <com.letv.leui.widget.LeTextView android:textSize="15.0sp" android:textColor="#ffefefef" android:ellipsize="end" android:id="@id/textView_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="15.0sp" />
+        </com.letv.leui.widget.BlurRelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/star_detail_activity" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/star_detail_profile_container" android:layout_width="fill_parent" android:layout_height="@dimen/star_detail_profile_height" android:paddingStart="@dimen/star_detail_profile_padding_start">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/star_detail_profile_icon" android:layout_width="@dimen/star_list_item_icon_size" android:layout_height="@dimen/star_list_item_icon_size" android:layout_marginEnd="@dimen/star_list_item_icon_margin_end" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/star_list_item_name_text_size" android:textColor="@color/star_list_item_name_text_color" android:id="@id/star_detail_profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/star_list_item_rank_text_size" android:textColor="@color/star_list_item_rank_text_color" android:id="@id/star_detail_profile_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/star_list_item_rank_margin_top" android:text="@string/star_media_tip" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/star_detail_profile_select_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.letv.leui.widget.LeSwitch android:layout_gravity="center_vertical" android:id="@id/star_detail_profile_selected" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/star_detail_profile_padding_start" android:paddingEnd="@dimen/star_detail_profile_padding_end" android:leSwitchTrackColor="@color/le_common_switch_or_other_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <GridView android:gravity="center" android:id="@id/star_detail_media" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/star_detail_media_horizontal_spacing" android:verticalSpacing="@dimen/star_detail_media_vertical_spacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/star_media_item_width" android:numColumns="auto_fit" android:paddingStart="@dimen/star_detail_media_padding_start" android:paddingEnd="@dimen/star_detail_media_padding_end" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/media_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/star_empty_hint_online" android:primaryText="@string/star_empty_retry_online" />
+</LinearLayout>

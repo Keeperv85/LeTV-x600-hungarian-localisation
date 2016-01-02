@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="@integer/preference_scrollbar_style" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/permissions_section" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="?android:colorAccent" android:layout_marginTop="@android:dimen/le_preference_category_paddingTop" android:layout_marginBottom="@android:dimen/le_preference_category_paddingBottom" android:minHeight="@android:dimen/le_preference_category_hight" android:text="@string/permissions_label" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end" style="?android:attr/listSeparatorTextViewStyle" />
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+            <include layout="@layout/leui_divider" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffb060" android:id="@id/security_settings_billing_desc" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_billing_desc" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+        <LinearLayout android:orientation="vertical" android:id="@id/security_settings_billing_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_settings_premium_sms_desc" />
+            <Spinner android:id="@id/security_settings_premium_sms_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/security_settings_desc" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_desc" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+        <LinearLayout android:orientation="vertical" android:id="@id/security_settings_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

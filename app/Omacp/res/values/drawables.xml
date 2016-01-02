@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="text_color">#ffffffff</item>
+    <item type="drawable" name="text_color_red">#ffff0000</item>
+    <item type="drawable" name="text_color_black">#ff000000</item>
+    <item type="drawable" name="text_color_offwhite">#55ffffff</item>
+    <item type="drawable" name="btn_background">#ff5b5a5a</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_height="fill_parent" class="com.android.contacts.widget.FullHeightLinearLayout" style="@style/ContactPickerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LcSearchView android:id="@id/lcsearch_view" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" searchview:lcQueryHint="@string/title_search_tip" searchview:lcCancelText="" searchview:lcAlwaysShowCancel="false" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
+    <FrameLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</view>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@android:dimen/le_preference_content_padding_start" android:paddingEnd="24.0dip">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="@android:dimen/le_preference_icon_size" android:layout_height="@android:dimen/le_preference_icon_size" android:layout_marginRight="@android:dimen/le_item_between_title_subtitle_margin" />
+        <RelativeLayout android:paddingTop="@android:dimen/le_preference_padding_top" android:paddingBottom="@android:dimen/le_preference_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@android:dimen/le_preference_title_summary_margin" android:maxLines="10" android:includeFontPadding="false" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="@android:attr/textAppearanceItemValues" android:gravity="center_vertical" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@android:dimen/le_preference_summary_arrow_margin" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/log_files_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/select_all_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff333333" android:id="@id/select_all_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/menu_select_all" android:singleLine="true" android:layout_weight="1.0" />
+        <CheckBox android:gravity="center" android:id="@id/select_all_check_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="5.0" />
+    </LinearLayout>
+    <ListView android:id="@id/log_files_list_view" android:padding="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/clear_cancel_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <Button android:textAppearance="?android:textAppearanceSmall" android:id="@id/clear_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/menu_clear" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cancel_menu" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

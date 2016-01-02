@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/leui_useragreement" android:key="leui_useragreement"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/leui_useragreement_hk" android:key="leui_useragreement_hk" android:widgetLayout="@layout/leui_widget_arrow" />
+    <PreferenceScreen android:title="@string/leui_useragreement_india" android:key="leui_useragreement_india" android:widgetLayout="@layout/leui_widget_arrow" />
+    <PreferenceScreen android:title="@string/leui_useragreement_north_america" android:key="leui_useragreement_north_america" android:widgetLayout="@layout/leui_widget_arrow" />
+</PreferenceScreen>

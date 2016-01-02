@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.exchange" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="com.android.email.permission.READ_BIG_BODY"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <application android:icon="@mipmap/icon" android:label="@string/app_name" android:name="Exchange" android:requiredAccountType="com.android.exchange" android:theme="@android:style/Theme.Holo.Light">
+        <service android:exported="true" android:name="com.android.exchange.service.EasService">
+            <intent-filter>
+                <action android:name="com.android.email.EXCHANGE_INTENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.android.exchange.service.EmailSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_email"/>
+        </service>
+        <service android:exported="true" android:name="com.android.exchange.service.ContactsSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_contacts"/>
+        </service>
+        <service android:exported="true" android:name="com.android.exchange.service.CalendarSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_calendar"/>
+        </service>
+        <provider android:authorities="com.android.exchange.directory.provider" android:exported="true" android:multiprocess="false" android:name="com.android.exchange.provider.ExchangeDirectoryProvider" android:readPermission="android.permission.READ_CONTACTS">
+            <meta-data android:name="android.content.ContactDirectory" android:value="true"/>
+        </provider>
+        <activity android:configChanges="fontScale|mnc|orientation|screenSize" android:name=".EasCertificateRequestor">
+            <intent-filter>
+                <action android:name="com.android.email.EXCHANGE_REQUEST_CERT"/>
+                <data android:path="/certrequest" android:scheme="eas"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingsRedirector">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="ExchangeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

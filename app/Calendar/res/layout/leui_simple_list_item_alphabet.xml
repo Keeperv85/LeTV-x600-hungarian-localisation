@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left" android:id="@id/pinned_header" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@android:dimen/preference_item_padding_side" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <ImageView android:id="@id/ic_flag" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TwoLineListItem android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:minHeight="?android:listPreferredItemHeight" android:mode="twoLine" android:layout_weight="4.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/text1" android:layout_alignLeft="@android:id/text1" />
+        </TwoLineListItem>
+        <ImageView android:layout_gravity="center|right" android:id="@id/prefered" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/leui_redspot_icon" />
+        <CheckBox android:gravity="center" android:layout_gravity="center" android:id="@id/check" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+    </LinearLayout>
+    <ImageView android:gravity="center_vertical" android:id="@id/divider" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

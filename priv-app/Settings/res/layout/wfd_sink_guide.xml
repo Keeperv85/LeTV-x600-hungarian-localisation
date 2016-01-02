@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#cc000000" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/dialog_fullscreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ff49c0ec" android:ellipsize="marquee" android:id="@id/wfd_sink_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/wfd_sink_guide_title" android:layout_marginStart="21.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/wfd_sink_guide_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/wfd_sink_guide_content" android:layout_below="@id/wfd_sink_guide_title" android:layout_alignStart="@id/wfd_sink_guide_title" />
+    <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/wfd_sink_guide_ok_btn" android:background="@drawable/cling_button_bg" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/wfd_sink_guide_btn" android:layout_below="@id/wfd_sink_guide_content" android:layout_marginEnd="21.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/leui_battery_saver" android:key="leui_battery_saver"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.preference.LeListPreference android:persistent="false" android:title="@string/leui_battery_saver_automatically_title" android:key="leui_turn_on_automatically" />
+    <PreferenceCategory android:title="@string/leui_battery_savermode" android:key="leui_battery_savermode" />
+    <com.letv.leui.settings.widget.LeUIRadioButtonPreference android:title="@string/leui_battery_saver_smart" android:key="leui_battery_saver_smart" android:summary="@string/leui_battery_saver_smart_summary" />
+    <com.letv.leui.settings.widget.LeUIRadioButtonPreference android:title="@string/leui_battery_saver_deep" android:key="leui_battery_saver_deep" android:summary="@string/leui_battery_saver_deep_summary" />
+    <com.letv.leui.settings.widget.LeUIRadioButtonPreference android:title="@string/leui_battery_saver_standby" android:key="leui_battery_saver_standby" android:summary="@string/leui_battery_saver_standby_summary" />
+</PreferenceScreen>

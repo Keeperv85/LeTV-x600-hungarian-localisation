@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <com.letv.leui.widget.PinnedHeaderListView android:id="@id/album_detail_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage_latestalbum_district" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="default_tip" />
+</FrameLayout>

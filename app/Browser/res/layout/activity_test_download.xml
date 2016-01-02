@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/application_main_color_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.browser.actionbar.CustomActionbar android:id="@id/custom_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/custom_action_bar">
+        <com.android.appframework.network.test.TestDownloadDrawView android:layout_gravity="center" android:id="@id/viewRound" android:layout_width="wrap_content" android:layout_height="230.0dip" />
+        <RelativeLayout android:layout_gravity="center" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/layout_average_speed" android:paddingLeft="67.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                <TextView android:textSize="31.0sp" android:textColor="@color/download_test_lineview" android:id="@id/average_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="21.0sp" android:textColor="@color/download_test_lineview" android:id="@id/average_speed_unit" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downlaod_test_unit" android:layout_toRightOf="@id/average_speed" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/download_test_lineview" android:gravity="center_horizontal" android:id="@id/average_speed_text" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_test_average_speed" android:layout_below="@id/average_speed" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_ping_time" android:paddingLeft="80.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/layout_average_speed" android:layout_alignParentRight="true">
+                <TextView android:textSize="31.0sp" android:textColor="@color/download_test_lineview" android:id="@id/ping_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="21.0sp" android:textColor="@color/download_test_lineview" android:id="@id/ping_time_unit" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_test_ping_unit" android:layout_toRightOf="@id/ping_time" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/download_test_lineview" android:gravity="center_horizontal" android:id="@id/ping_time_text" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_test_ping" android:layout_below="@id/ping_time" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:paddingTop="10.0dip" layout="@layout/network_line_view" />
+            <include layout="@layout/network_test_info" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

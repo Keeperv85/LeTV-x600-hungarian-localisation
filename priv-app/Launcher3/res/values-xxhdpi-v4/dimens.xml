@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="workspace_icon_text_shadow_radius">6.0px</dimen>
+    <dimen name="workspace_icon_text_shadow_radius_white">25.0px</dimen>
+    <dimen name="workspace_icon_text_y_offset">3.0px</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/le_leso_poster_width" android:layout_height="@dimen/le_leso_poster_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/leso_section_poster" android:background="@color/favourite_edittext_background_night" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/home_nav_video_leso_section_poster_title_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/leso_section_poster_title" android:background="@color/home_nav_video_leso_section_poster_title_background_color" android:layout_width="fill_parent" android:layout_height="20.0dip" android:singleLine="true" android:fontFamily="@string/title_font_family" />
+</FrameLayout>

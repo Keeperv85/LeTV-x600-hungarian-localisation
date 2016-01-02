@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/leui_divider" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="left" android:paddingTop="@android:dimen/le_preference_padding_top" android:paddingBottom="@android:dimen/le_preference_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/finger_print_lockscreen_header" android:maxLines="10" />
+</LinearLayout>

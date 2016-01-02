@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_big" android:textColor="@color/black" android:id="@id/tv_label_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_marge_big" android:layout_marginBottom="@dimen/item_marge_small" android:layout_marginStart="@dimen/item_marge_normal" android:layout_alignParentStart="true" />
+    <ViewStub android:id="@id/vs_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_label_name" />
+    <RelativeLayout android:id="@id/rl_label_action_box" android:layout_width="@dimen/click_area_w" android:layout_height="@dimen/click_area_h" android:layout_above="@id/vs_content" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_label_action_icon" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginRight="@dimen/item_recommend_label_box_margin" android:src="@drawable/recommend_more" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/item_recommend_label_more_front_size" android:textColor="@color/item_recommend_label_more_front_color" android:id="@id/tv_label_action_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_recommend_label_more_margin_r" android:text="@string/recommend_label_more" android:layout_centerVertical="true" android:layout_toStartOf="@id/iv_label_action_icon" />
+    </RelativeLayout>
+</merge>

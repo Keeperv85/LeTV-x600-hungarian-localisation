@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_colorpicker_holo_light" android:enabled="false" android:id="@id/info_action_change_color" android:visible="false" android:title="@string/choose_event_color_label" android:alphabeticShortcut="c" android:showAsAction="always" />
+    <item android:icon="@drawable/le_top_btn_icon_edit" android:enabled="false" android:id="@id/info_action_edit" android:visible="false" android:title="@string/edit_label" android:alphabeticShortcut="e" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_trash_holo_light" android:enabled="false" android:id="@id/info_action_delete" android:visible="false" android:title="@string/delete_label" android:alphabeticShortcut="x" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_to_note_svg" android:enabled="false" android:id="@id/minutes_of_meeting" android:visible="false" android:title="@string/goto_note" android:alphabeticShortcut="e" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_to_mail_svg" android:enabled="false" android:id="@id/mail_for_meeting" android:visible="false" android:title="@string/goto_mail" android:alphabeticShortcut="e" android:showAsAction="always" />
+</menu>

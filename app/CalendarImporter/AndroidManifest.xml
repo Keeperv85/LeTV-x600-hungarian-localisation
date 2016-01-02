@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mediatek.calendarimporter" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:hardwareAccelerated="false" android:label="VCalendar" android:name=".CalendarImporterApplication">
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name=".ShowPreviewActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/x-vcalendar"/>
+                <data android:mimeType="text/calendar"/>
+                <data android:mimeType="text/x-vCalendar"/>
+                <data android:mimeType="text/Calendar"/>
+                <data android:mimeType="application/ics"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name=".HandleProgressActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Holo.Light.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name=".ShowHandleResultActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Holo.Light.Dialog">
+            <intent-filter>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.mediatek.calendarimporter" android:exported="true" android:name=".ICalendarProvider"/>
+        <receiver android:name=".ImportReceiver">
+            <intent-filter>
+                <action android:name="com.mtk.intent.action.RESTORE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".service.VCalService"/>
+    </application>
+</manifest>

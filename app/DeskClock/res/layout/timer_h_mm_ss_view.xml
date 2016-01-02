@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:id="@id/hours_ones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/timer_setup_digit" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:layout_gravity="bottom" android:id="@id/hours_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hours_label" android:singleLine="true" android:contentDescription="@string/hours_label_description" style="@style/label" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:id="@id/minutes_tens" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/timer_setup_digit" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:id="@id/minutes_ones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/timer_setup_digit" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:layout_gravity="bottom" android:id="@id/minutes_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minutes_label" android:singleLine="true" android:contentDescription="@string/minutes_label_description" style="@style/label" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:layout_gravity="bottom" android:id="@id/seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/timer_setup_digit" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="none" android:layout_gravity="bottom" android:id="@id/seconds_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seconds_label" android:singleLine="true" android:contentDescription="@string/seconds_label_description" style="@style/label" />
+</merge>

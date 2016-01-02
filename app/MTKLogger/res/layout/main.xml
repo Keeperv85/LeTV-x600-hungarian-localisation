@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titleRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:id="@id/titleImageView" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/launcher" android:scaleType="fitCenter" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="20.0sp" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/app_name" android:layout_toRightOf="@id/titleImageView" />
+        <ImageButton android:id="@id/settingsImageButton" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_settings" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+        <View android:id="@id/titleBarView" android:background="@android:drawable/progress_horizontal" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/titleImageView" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="80.0sp" android:gravity="center_horizontal" android:id="@id/timeTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" android:text="@string/time_default" />
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+            <ImageView android:id="@id/mobileLogImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:src="@drawable/log_status_grey" android:layout_alignBottom="@id/mobileLogTextView" />
+            <TextView android:textSize="20.0sp" android:id="@id/mobileLogTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/log_stop" android:layout_toRightOf="@id/mobileLogImageView" />
+        </RelativeLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+            <ImageView android:id="@id/modemLogImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:src="@drawable/log_status_grey" android:layout_alignBottom="@id/modemLogTextView" />
+            <TextView android:textSize="20.0sp" android:id="@id/modemLogTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/log_stop" android:layout_toRightOf="@id/modemLogImageView" />
+        </RelativeLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+            <ImageView android:id="@id/networkLogImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:src="@drawable/log_status_grey" android:layout_alignBottom="@id/networkLogTextView" />
+            <TextView android:textSize="20.0sp" android:id="@id/networkLogTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/log_stop" android:layout_toRightOf="@id/networkLogImageView" />
+        </RelativeLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+            <ImageView android:id="@id/metLogImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:src="@drawable/log_status_grey" android:layout_alignBottom="@id/metLogTextView" />
+            <TextView android:textSize="20.0sp" android:id="@id/metLogTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/log_stop" android:layout_toRightOf="@id/metLogImageView" />
+        </RelativeLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/savePathTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" />
+    <View android:id="@id/view1" android:background="@android:drawable/progress_horizontal" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <view android:orientation="horizontal" android:id="@id/storage_color_bar" android:paddingLeft="0.0dip" android:paddingTop="30.0dip" android:paddingRight="0.0dip" android:paddingBottom="1.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" class="com.mediatek.mtklogger.LinearColorBar">
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ff000000" android:id="@id/usedStorageText" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textStyle="bold" android:textColor="#ffcccccc" android:layout_gravity="center" android:id="@id/storageChartLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-20.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ff000000" android:gravity="right" android:layout_gravity="right" android:id="@id/freeStorageText" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </view>
+    <View android:id="@id/view2" android:background="@android:drawable/progress_horizontal" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageButton android:id="@id/tagImageButton" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/taglog" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <ImageButton android:id="@id/clearLogImageButton" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_menu_contact_trash" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+        <ToggleButton android:id="@id/startStopToggleButton" android:background="@drawable/bg_btn_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="fitCenter" android:textOn=" " android:textOff=" " android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.dreams.basic" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <application android:hardwareAccelerated="true" android:label="@string/app_name" android:supportsRtl="true">
+        <service android:exported="true" android:icon="@mipmap/colors_icon" android:label="@string/color_dream_name" android:name="Colors" android:permission="android.permission.BIND_DREAM_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".PreviewStubActivity"/>
+    </application>
+</manifest>

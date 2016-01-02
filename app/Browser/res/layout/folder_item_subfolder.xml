@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/back" android:tag="back" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/delete" android:background="@color/le_favourite_item_swipe_bg" android:layout_width="@dimen/le_list_history_item_left_swipe_width" android:layout_height="@dimen/le_list_item_height" android:src="@drawable/le_ic_item_delete" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/front" android:background="@color/white" android:paddingLeft="@dimen/le_list_folder_item_margin_left" android:layout_width="fill_parent" android:layout_height="@dimen/le_list_item_height">
+        <ImageView android:id="@id/favicon" android:layout_width="@dimen/le_list_item_icon_size" android:layout_height="@dimen/le_list_item_icon_size" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/le_list_item_folder_text_size" android:textColor="@color/le_list_item_text_primary" android:id="@id/title" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_list_item_icon_text_margin" android:layout_marginRight="@dimen/le_list_item_margin" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/favicon" android:layout_centerVertical="true" />
+        <com.letv.leui.widget.LeCheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" leui:leBoxOnColor="@color/history_item_checkbox_color" />
+        <ImageView android:id="@id/folder_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_right_arrow" android:layout_toLeftOf="@id/checkbox" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

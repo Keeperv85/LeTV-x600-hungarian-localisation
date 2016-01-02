@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="contentPadding" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="targetDrawables" format="reference" />
+    <attr name="targetDescriptions" format="reference" />
+    <attr name="directionDescriptions" format="reference" />
+    <attr name="handleDrawable" format="reference" />
+    <attr name="outerRingDrawable" format="reference" />
+    <attr name="pointDrawable" format="reference" />
+    <attr name="innerRadius" format="dimension" />
+    <attr name="outerRadius" format="dimension" />
+    <attr name="glowRadius" format="dimension" />
+    <attr name="vibrationDuration" format="integer" />
+    <attr name="snapMargin" format="dimension" />
+    <attr name="feedbackCount" format="integer" />
+    <attr name="alwaysTrackFinger" format="boolean" />
+    <attr name="jewelRadius" format="dimension" />
+    <attr name="jewelOffset" format="dimension" />
+    <attr name="jewelColor" format="color" />
+    <attr name="format12Hour" format="string" />
+    <attr name="format24Hour" format="string" />
+    <attr name="itemTitile" format="string" />
+    <attr name="check" format="boolean" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="fillColor" format="color" />
+    <attr name="pageColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="strokeColor" format="color" />
+    <attr name="ci_width" format="dimension" />
+    <attr name="ci_height" format="dimension" />
+    <attr name="ci_margin" format="dimension" />
+    <attr name="ci_animator" format="reference" />
+    <attr name="ci_drawable" format="reference" />
+    <attr name="indicator_type">
+        <enum name="indicator_anim_circle" value="1" />
+        <enum name="indicator_anim_line" value="2" />
+        <enum name="indicator_default" value="0" />
+    </attr>
+    <attr name="headerLayout" format="reference" />
+</resources>

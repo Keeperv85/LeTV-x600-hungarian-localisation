@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fffcfcfd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/Search_top" android:background="@drawable/leui_action_bar_divider" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/Search_title" android:background="@drawable/search_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/icon_30" />
+            <View android:id="@id/getfc" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="1.0px" android:layout_height="1.0px">
+                <requestFocus />
+            </View>
+            <TextView android:textSize="15.0sp" android:textColor="@color/hintcolor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_hint2" android:includeFontPadding="false" android:drawablePadding="8.0dip" android:fontFamily="helve-neue-regular" />
+            <com.letv.leui.widget.LcSearchView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" searchview:lcBackground="@drawable/img_31" searchview:lcQueryHint="@string/search_hint" searchview:lcQueryTextSize="15.0sp" searchview:lcQueryTextColor="@color/query" searchview:lcQueryHintColor="@color/hintcolor" searchview:lcInputMarginLeft="0.0dip" searchview:lcCancelTextColor="@color/cancel" searchview:lcAlwaysShowCancel="true" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
+        </LinearLayout>
+        <View android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/Search_top" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/Search_top">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/recommend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/home_icon_lately" android:contentDescription="@string/home_icon" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zuijinhetuijian" android:layout_weight="1.0" />
+                    <LinearLayout android:layout_gravity="center|right" android:id="@id/more_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <TextView android:textSize="12.0sp" android:textColor="@color/font_color_more" android:gravity="center_vertical" android:id="@id/more" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/all" android:fontFamily="helve-neue-regular" />
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.letv.android.letvyellowpage.view.MyViewPager android:layout_gravity="center" android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/indicator_layout" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:id="@id/blankarea1" android:background="@color/main_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/service_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/blankarea2" android:background="@color/main_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/local_service_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

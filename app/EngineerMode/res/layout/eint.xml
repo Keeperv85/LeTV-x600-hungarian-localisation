@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:id="@id/EINT_edit_Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/EINT_edit_Text" />
+            <EditText android:id="@id/EINT_edit" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/EINT_edit" android:numeric="integer" />
+            <Button android:id="@id/EINT_query" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/EINT_query" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:id="@id/EINT_sensitivity_Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/EINT_sensitivity_Text" />
+            <TextView android:id="@id/EINT_sensitivity" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+. <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:id="@id/EINT_polarity_Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/EINT_polarity_Text" />
+            <TextView android:id="@id/EINT_polarity" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.android.gallery3d">
+    <com.android.gallery3d.filtershow.category.CategoryTrack android:id="@id/listItems" android:layout_width="wrap_content" android:layout_height="@dimen/category_panel_height" android:minHeight="@dimen/category_panel_height" custom:iconSize="@dimen/category_panel_icon_size" custom:categoryPaddingLeft="12.0dip" custom:categoryPaddingRight="12.0dip" custom:categoryPaddingTop="2.0dip" custom:categoryStrokeWidth="2.0dip" />
+</HorizontalScrollView>

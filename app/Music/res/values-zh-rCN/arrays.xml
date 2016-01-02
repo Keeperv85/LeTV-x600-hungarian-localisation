@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>影视作品</item>
+        <item>娱乐报道</item>
+        <item>壁纸推荐</item>
+        <item>热门单曲</item>
+        <item>音乐专辑</item>
+        <item>相关艺人</item>
+        <item>相关微博</item>
+        <item>相关网站</item>
+    </string-array>
+    <string-array name="player">
+        <item>影视作品</item>
+        <item>体育报道</item>
+        <item>壁纸推荐</item>
+        <item>None</item>
+        <item>音乐专辑</item>
+        <item>None</item>
+        <item>相关微博</item>
+        <item>相关网站</item>
+    </string-array>
+    <string-array name="movie">
+        <item>影视作品</item>
+        <item>娱乐报道</item>
+        <item>壁纸推荐</item>
+        <item>原声音乐</item>
+        <item>None</item>
+        <item>相关艺人</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="team">
+        <item>影视作品</item>
+        <item>相关报道</item>
+        <item>壁纸推荐</item>
+        <item>相关音乐</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="brand">
+        <item>None</item>
+        <item>品牌资讯</item>
+        <item>壁纸推荐</item>
+        <item>品牌音乐</item>
+        <item>None</item>
+        <item>None</item>
+        <item>相关微博</item>
+        <item>相关网站</item>
+    </string-array>
+    <string-array name="region">
+        <item>None</item>
+        <item>相关视频</item>
+        <item>壁纸推荐</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>相关微博</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>热卖</item>
+        <item>预售</item>
+        <item>无效</item>
+        <item>待定</item>
+        <item>售完</item>
+        <item>延期</item>
+        <item>取消</item>
+        <item>已接受</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>精选</item>
+        <item>推荐</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>华语</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>歌曲</item>
+        <item>专辑</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>新歌榜</item>
+        <item>热歌榜</item>
+        <item>原创榜</item>
+        <item>美国Billboard</item>
+        <item>韩国MNUT</item>
+        <item>日本公信榜</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>按创建时间倒序</item>
+        <item>按创建时间顺序</item>
+        <item>按首字母排序</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>重命名</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="album_detail_header_menu">
+        <item>分享</item>
+        <item>收藏</item>
+        <item>添加到</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>自动选择</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>虾米官方榜</item>
+        <item>全球媒体榜</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>热歌榜</item>
+        <item>新歌榜</item>
+        <item>原创榜</item>
+        <item>音乐人Demo榜</item>
+    </string-array>
+    <string-array name="array_rank_types_world_media">
+        <item>Hito中文排行榜</item>
+        <item>香港劲歌金曲榜</item>
+        <item>英国UK单曲榜</item>
+        <item>美国Billboard单曲榜</item>
+        <item>ORICON公信单曲榜</item>
+        <item>韩国MNET音乐排行榜</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>单曲</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>MV</item>
+        <item>本地</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>华语男艺人</item>
+        <item>华语女艺人</item>
+        <item>华语乐队组合</item>
+        <item>欧美男艺人</item>
+        <item>欧美女艺人</item>
+        <item>欧美乐队组合</item>
+        <item>日本男艺人</item>
+        <item>日本女艺人</item>
+        <item>日本乐队组合</item>
+        <item>韩国男艺人</item>
+        <item>韩国女艺人</item>
+        <item>韩国乐队组合</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>未搜到相应结果</item>
+        <item>无歌词</item>
+        <item>暂无音乐</item>
+        <item>暂无记录</item>
+        <item>暂无关注信息</item>
+    </string-array>
+    <string-array name="blank_page_failure_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 周</item>
+        <item>2 周</item>
+        <item>3 周</item>
+        <item>4 周</item>
+        <item>5 周</item>
+        <item>6 周</item>
+        <item>7 周</item>
+        <item>8 周</item>
+        <item>9 周</item>
+        <item>10 周</item>
+        <item>11 周</item>
+        <item>12 周</item>
+    </string-array>
+</resources>

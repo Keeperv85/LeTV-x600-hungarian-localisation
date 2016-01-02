@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <RelativeLayout android:id="@id/result_title_layout" android:background="@drawable/shape_1px_stroke" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="12.0sp" android:textColor="#ffbcbcbc" android:id="@id/result_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/scan_scanning" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-regular" leui:leCJKTextSize="12.0sp" />
+    </RelativeLayout>
+    <View android:id="@id/result_title_line" android:background="@color/listview_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/result_title_layout" />
+    <ListView android:id="@id/result_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="89.0dip" android:layout_below="@id/result_title_line" />
+    <RelativeLayout android:id="@id/result_bottom_layout" android:layout_width="fill_parent" android:layout_height="89.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/all_no_selected_layout" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="54.0dip" android:layout_alignParentBottom="true">
+            <View android:id="@id/selected_none_text_line" android:background="@color/listview_line" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+            <TextView android:id="@id/selected_none_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60.0dip" android:text="@string/local_music_action_unselect_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.letv.leui.widget.LeCheckBox android:id="@id/selected_none_checkbox" android:clickable="true" android:layout_width="50.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" leui:leBoxOnColor="@color/main_color" leui:leSwitchTrackColor="@color/main_color" />
+        </RelativeLayout>
+        <View android:id="@id/bottom_line" android:background="@color/listview_line" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="54.0dip" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff1e2d38" android:gravity="center" android:id="@id/complete_button" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/complete" android:layout_alignParentBottom="true" android:alpha="0.7" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-light" leui:leCJKTextSize="16.0sp" />
+    </RelativeLayout>
+    <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" music:tipType="default_tip" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu_base" android:visible="true" android:menuCategory="secondary" android:checkableBehavior="single">
+        <item android:icon="@drawable/le_ic_search" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="always" />
+        <item android:icon="@drawable/le_ic_add" android:id="@id/menu_add" android:title="@string/menu_add" android:showAsAction="always" />
+    </group>
+    <group android:id="@id/menu_group" android:visible="false" android:menuCategory="secondary" android:checkableBehavior="single">
+        <item android:id="@id/menu_create_groups" android:title="@string/menu_create_groups" android:showAsAction="always|withText" />
+        <item android:id="@id/menu_operation_list_groups" android:title="@string/menu_operation_list_groups" android:showAsAction="always|withText" />
+    </group>
+</menu>

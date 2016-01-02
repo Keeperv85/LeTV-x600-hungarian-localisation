@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/le_text_selection_popup_text_size" android:textColor="@color/le_text_selection_popup_text_color" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/le_text_selection_popup_item_padding" android:paddingEnd="@dimen/le_text_selection_popup_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

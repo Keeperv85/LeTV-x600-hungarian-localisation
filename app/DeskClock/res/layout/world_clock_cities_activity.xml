@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/world_clock_cities_container" android:background="@color/world_clock_fragment_bg" android:focusable="true" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/world_clock_cities_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="@color/world_city_item_city_name_text_color" android:gravity="center_horizontal" android:id="@id/world_clock_cities_no_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/world_city_empty_margin_top" android:text="@string/world_clock_city_search_no_result" android:contentDescription="@string/world_clock_city_search_no_result" />
+        <ListView android:id="@id/world_clock_cities_list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/world_clock_divider" android:dividerHeight="@dimen/deskclock_divider_height" />
+        <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:id="@id/world_clock_cities_index" android:layout_width="@android:dimen/le_awv_toast_offset" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:leSelectedBg="@drawable/alphabet_selected_bg" android:leAlphabetToastBg="@drawable/alphabet_toast_bg" />
+        <ImageView android:id="@id/world_clock_cities_search_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/cities_activity_search_mask" />
+    </RelativeLayout>
+</LinearLayout>

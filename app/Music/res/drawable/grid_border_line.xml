@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/letv_color_3f3f3f" />
+        </shape>
+    </item>
+    <item android:left="@dimen/letv_dimens_1px" android:top="@dimen/letv_dimens_1px" android:right="@dimen/letv_dimens_1px" android:bottom="@dimen/letv_dimens_1px">
+        <shape>
+            <solid android:color="@color/page_bg" />
+        </shape>
+    </item>
+</layer-list>

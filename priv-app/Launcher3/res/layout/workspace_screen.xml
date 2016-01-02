@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.CellLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:hapticFeedbackEnabled="false" launcher:maxGap="@dimen/workspace_max_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|top" android:id="@id/control_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hide_celllayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="33.0dip" android:src="@drawable/control_hide_button_on" />
+        <ImageView android:id="@id/home_celllayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/control_home_button_off" />
+    </LinearLayout>
+</com.android.launcher3.CellLayout>

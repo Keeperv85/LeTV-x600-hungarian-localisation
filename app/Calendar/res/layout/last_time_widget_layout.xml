@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/le_remote_view" android:background="@android:color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/le_lable_last" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/le_event_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/le_lable_last" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/le_last_day" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/le_lable_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_lable_unit" />
+    </LinearLayout>
+</LinearLayout>

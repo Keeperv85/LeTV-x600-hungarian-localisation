@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/lightgrey" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:id="@id/install_confirm_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="10.0dip" android:text="@string/install_confirm_question" />
+        <ImageView android:background="#ffdfdfdf" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.letv.leui.widget.LeScrollStripTabWidget android:id="@id/tabs" android:background="@color/lightgrey" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/permission_widget_textview_style" android:gravity="center" android:id="@id/newperm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/newPerms" android:layout_weight="1.0" android:fontFamily="normal" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/permission_widget_textview_style" android:gravity="center" android:id="@id/allperm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/allPerms" android:layout_weight="1.0" android:fontFamily="normal" />
+        </com.letv.leui.widget.LeScrollStripTabWidget>
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttons_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:showDividers="beginning">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+            <LinearLayout android:orientation="horizontal" android:id="@id/leftSpacer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.25" />
+            <Button android:textColor="@color/shallowgreen" android:layout_gravity="start" android:id="@id/cancel_button" android:background="@drawable/left_style" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="2" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+            <Button android:textColor="@color/white" android:layout_gravity="end" android:id="@id/ok_button" android:background="@drawable/right_style" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/next" android:maxLines="2" android:layout_weight="1.0" android:filterTouchesWhenObscured="true" style="?android:attr/buttonBarButtonStyle" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/rightSpacer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.25" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

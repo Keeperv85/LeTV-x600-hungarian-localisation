@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <com.letv.leui.widget.picker.WheelView android:id="@id/le_month" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+        <com.letv.leui.widget.picker.WheelView android:id="@id/le_day" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+        <com.letv.leui.widget.picker.WheelView android:id="@id/le_year" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+</merge>

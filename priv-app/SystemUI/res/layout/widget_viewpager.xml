@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.leui.keyguard.KeyguardViewPager android:id="@id/widget_container" android:layout_width="fill_parent" android:layout_height="fill_parent" keyguardViewPager:pageTransformer_overlay="false" keyguardViewPager:orientation_horizontal="true" keyguardViewPager:rebound="false" keyguardViewPager:reboundLength="0.05" keyguardViewPager:velocityFlip="true" keyguardViewPager:velocityFlipSpeed="2000"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:keyguardViewPager="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/leui_keyguard_remote_dial_view" />
+        <include android:id="@id/keyguard_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/leui_keyguard_status_view" />
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/notification_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keyguard_notification_collapse_marginbottom" />
+        <TextView android:textSize="@dimen/keyguard_notification_font_size" android:textColor="#44ffffff" android:layout_gravity="bottom|center" android:id="@id/double_click_review" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keyguard_notification_doubleclick_marginbottom" android:text="@string/double_click_review" android:fontFamily="helve-neue-regular" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/notification_clear" android:padding="@dimen/keyguard_notification_clear_padding" android:visibility="gone" android:layout_width="@dimen/keyguard_notification_expand_marginbottom" android:layout_height="@dimen/keyguard_notification_expand_marginbottom" android:src="@drawable/ic_notify_clear" android:scaleType="center" />
+    </FrameLayout>
+</com.leui.keyguard.KeyguardViewPager>

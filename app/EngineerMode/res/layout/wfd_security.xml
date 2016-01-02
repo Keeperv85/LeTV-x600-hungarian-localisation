@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:id="@id/Wfd_Sec_Content_tx" android:layout_width="170.0dip" android:layout_height="wrap_content" android:text="@string/wfd_sec_content" />
+        <RadioGroup android:orientation="vertical" android:id="@id/Wfd_Sec_Tv_Shows" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RadioButton android:id="@id/Wfd_Sec_Tv_Shows_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wfd_sec_tv_shows_0" />
+            <RadioButton android:id="@id/Wfd_Sec_Tv_Shows_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wfd_sec_tv_shows_1" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button android:id="@id/Wfd_Done" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="10.0dip" android:text="@string/wfd_Done" />
+</LinearLayout>

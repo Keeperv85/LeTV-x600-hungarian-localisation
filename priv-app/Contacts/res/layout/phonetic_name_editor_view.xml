@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.PhoneticNameEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:layout_gravity="center|left" android:id="@id/spinner" android:background="@drawable/le_spinner_bg" android:visibility="gone" android:layout_width="@dimen/editor_typelabel_width" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/editors" layout="@layout/edit_field_list" />
+        <include android:id="@id/expansion_view_container" android:visibility="gone" layout="@layout/name_edit_expansion_view" />
+        <include android:id="@id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button" />
+    </LinearLayout>
+</com.android.contacts.editor.PhoneticNameEditorView>

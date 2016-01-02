@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/widget_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Switch android:id="@id/widget_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RadioButton android:id="@id/widget_radiobutton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

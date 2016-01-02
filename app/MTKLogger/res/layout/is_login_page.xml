@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/login_name" android:hint="@string/login_page_hint_username" android:drawableStart="@drawable/ic_action_search" style="@style/LoginPageInputField" />
+    <EditText android:id="@id/login_password" android:hint="@string/login_page_hint_pwd" android:inputType="textPassword" android:drawableStart="@drawable/ic_action_search" style="@style/LoginPageInputField" />
+    <CheckBox android:id="@id/login_option_show_pwd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/login_page_msg_show_pwd" />
+    <CheckBox android:id="@id/login_option_remember" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:checked="false" android:text="@string/login_page_msg_remember" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/login_btn_login" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/login_page_btn_login" android:layout_weight="4.0" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/login_btn_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/action_btn_cancel" android:layout_weight="4.0" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+</LinearLayout>

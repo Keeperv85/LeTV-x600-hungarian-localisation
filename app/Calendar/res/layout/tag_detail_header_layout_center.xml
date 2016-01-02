@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="224.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="224.0dip">
+        <ImageView android:id="@id/le_poster_image" android:layout_width="fill_parent" android:layout_height="224.0dip" android:scaleType="centerCrop" />
+        <com.letv.leui.widget.BorderedCircleImageView android:id="@id/le_icon" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginTop="36.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" app:circle_radius="38.0dip" app:border_width="0.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/le_tag_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/le_icon" android:layout_centerHorizontal="true" />
+        <Button android:textSize="12.0sp" android:textColor="@color/bt_subscribe" android:id="@id/le_bt_subscribe" android:background="@drawable/selector_bt_subscribe" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginBottom="26.0dip" android:text="@string/bt_lable_subscribe" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

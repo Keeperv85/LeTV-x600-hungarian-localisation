@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/le_year_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip">
+            <com.letv.leui.widget.picker.WheelView android:id="@id/le_year" android:layout_width="75.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/le_day_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+            <com.letv.leui.widget.picker.WheelView android:id="@id/le_day" android:layout_width="80.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/le_hours_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+            <com.letv.leui.widget.picker.WheelView android:id="@id/le_am_pm" android:layout_width="60.0dip" android:layout_height="wrap_content" />
+            <com.letv.leui.widget.picker.WheelView android:id="@id/le_hour" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+            <com.letv.leui.widget.picker.WheelView android:id="@id/le_mins" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/show_all_contact_button_in_nofav" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" layout="@layout/show_all_contact_button" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/nofavorite_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/show_all_contact_button_in_nofav" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:gravity="center_horizontal" android:id="@id/nofavorite_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:src="@drawable/no_favorites_banner" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/nofavorite_text_color" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_favorites" />
+    </LinearLayout>
+</RelativeLayout>

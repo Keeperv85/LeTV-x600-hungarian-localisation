@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.BorderedCircleImageView android:id="@id/image" android:background="@drawable/shape_1px_34dp_bound" android:padding="1.0px" android:layout_width="68.0dip" android:layout_height="68.0dip" android:scaleType="centerCrop" leui:circle_radius="34.0dip" leui:round_background="true" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/text_color_artist_detail_secondary" android:gravity="center" android:id="@id/more" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="68.0dip" android:text="@string/artist_detail_check_more" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="11.0sp" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/text_color_artist_detail_primary" android:gravity="center_horizontal" android:id="@id/artist_name" android:paddingTop="5.0dip" android:layout_width="68.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/image" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="13.0sp" />
+</RelativeLayout>

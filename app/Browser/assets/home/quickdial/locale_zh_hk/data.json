@@ -1,0 +1,236 @@
+{
+    "errno": 10000,
+    "errmsg": "",
+    "v": "20151211000000",
+    "data": [
+        {
+            "uuid": 1,
+            "name":
+            {
+                "en_us": "LeMall",
+                "zh_cn": "乐视商城",
+                "zh_hk": "樂視商城",
+                "zh_tw": "樂視商城"
+            },
+            "url": "http://m.lemall.com/",
+            "icon": "m.lemall.com.png",
+            "rank": 1,
+            "color": "#e33a48",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 1
+            }
+        },
+        {
+            "uuid": 2,
+            "name":
+            {
+                "en_us": "Sina",
+                "zh_cn": "新浪",
+                "zh_hk": "新浪",
+                "zh_tw": "新浪"
+            },
+            "url": "http://sina.cn/",
+            "icon": "sina.cn.png",
+            "rank": 2,
+            "color": "#f5d945",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+
+        },
+        {
+            "uuid": 3,
+            "name":
+            {
+                "en_us": "Amazon",
+                "zh_cn": "亚马逊",
+                "zh_hk": "亞馬遜",
+                "zh_tw": "亞馬遜"
+            },
+            "url": "http://www.amazon.com/",
+            "icon": "www.amazon.com.png",
+            "rank": 3,
+            "color": "#ef8730",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+           "uuid": 4,
+            "name":
+            {
+                "en_us": "Yahoo",
+                "zh_cn": "雅虎",
+                "zh_hk": "Yahoo",
+                "zh_tw": "Yahoo"
+            },
+            "url": "https://www.yahoo.com/",
+            "icon": "www.yahoo.com.png",
+            "rank": 4,
+            "color": "#49139c",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 5,
+            "name":
+            {
+                "en_us": "Ebay",
+                "zh_cn": "Ebay",
+                "zh_hk": "Ebay",
+                "zh_tw": "Ebay"
+            },
+            "url": "http://m.ebay.com.hk/",
+            "icon": "m.ebay.com.hk.png",
+            "rank": 5,
+            "color": "#feb904",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 6,
+            "name":
+            {
+                "en_us": "Facebook",
+                "zh_cn": "Facebook",
+                "zh_hk": "Facebook",
+                "zh_tw": "Facebook"
+            },
+            "url": "https://m.facebook.com/",
+            "icon": "m.facebook.com.png",
+            "rank": 6,
+            "color": "#45639f",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 7,
+            "name":
+            {
+                "en_us": "Twitter",
+                "zh_cn": "Twitter",
+                "zh_hk": "Twitter",
+                "zh_tw": "Twitter"
+            },
+            "url": "http://mobile.twitter.com/",
+            "icon": "mobile.twitter.com.png",
+            "rank": 7,
+            "color": "#1dade9",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 8,
+            "name":
+            {
+                "en_us": "Ifeng",
+                "zh_cn": "凤凰网",
+                "zh_hk": "鳳凰網",
+                "zh_tw": "鳳凰網"
+            },
+            "url": "http://www.ifeng.com/",
+            "icon": "www.ifeng.com.png",
+            "rank": 8,
+            "color": "#dd3146",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 9,
+            "name":
+            {
+                "en_us": "ESPN",
+                "zh_cn": "ESPN",
+                "zh_hk": "ESPN",
+                "zh_tw": "ESPN"
+            },
+            "url": "http://espn.go.com/",
+            "icon": "espn.go.com.png",
+            "rank": 9,
+            "color": "#ed3e3e",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 10,
+            "name":
+            {
+                "en_us": "Google+",
+                "zh_cn": "Google+",
+                "zh_hk": "Google+",
+                "zh_tw": "Google+"
+            },
+            "url": "https://plus.google.com/explore",
+            "icon": "plus.google.com.png",
+            "rank": 10,
+            "color": "#3877b9",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 11,
+            "name":
+            {
+                "en_us": "Youtube",
+                "zh_cn": "Youtube",
+                "zh_hk": "Youtube",
+                "zh_tw": "Youtube"
+            },
+            "url": "http://m.youtube.com/",
+            "icon": "m.youtube.com.png",
+            "rank": 11,
+            "color": "#ea4044",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        },
+        {
+            "uuid": 12,
+            "name":
+            {
+                "en_us": "Reddit",
+                "zh_cn": "Reddit",
+                "zh_hk": "Reddit",
+                "zh_tw": "Reddit"
+            },
+            "url": "https://m.reddit.com/",
+            "icon": "m.reddit.com.png",
+            "rank": 12,
+            "color": "#1d83d0",
+            "type": 1,
+            "lang": "zh_cn",
+            "other": {
+                "isoperate": 0
+            }
+        }
+    ]
+}

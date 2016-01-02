@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/leui_single_hand_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/leui_single_hand_mode_settings_category" android:key="single_hand_category">
+        <SwitchPreference android:title="@string/leui_single_hand_mode_lockscreen" android:key="single_hand_lockscreen" />
+        <SwitchPreference android:title="@string/leui_single_hand_mode_dialing" android:key="single_hand_dialing" />
+        <SwitchPreference android:title="@string/leui_single_hand_mode_takltime" android:key="single_hand_talktime" />
+    </PreferenceCategory>
+</PreferenceScreen>

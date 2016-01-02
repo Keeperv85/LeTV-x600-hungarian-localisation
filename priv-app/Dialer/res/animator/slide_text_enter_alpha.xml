@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/fragment_answer_exit_duration" android:valueFrom="@dimen/answer_top_text_alpha_light" android:valueTo="@dimen/answer_top_text_alpha_dark" android:propertyName="@string/alpha"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

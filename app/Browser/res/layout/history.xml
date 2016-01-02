@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/com.android.browser">
+    <com.android.browser.widget.PinnedHeaderListView android:id="@id/history" android:layout_width="fill_parent" android:layout_height="fill_parent" app:leSwipeMode="left" app:leSwipeActionLeft="reveal" app:leSwipeOffsetLeft="@dimen/le_list_history_item_left_swipe" app:leSwipeAnimationTime="300" app:leSwipeCloseAllItemsWhenMoveList="true" app:leSwipeFrontView="@id/front" app:leSwipeBackView="@id/back" app:leListViewMode="leSwipe" blur:blur_bottom_height="@dimen/le_list_bottom_layout_height" blur:blur_enable="false" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_history_empty" android:scaleType="center" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/favourite_emtpy_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/empty_history" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/footer_organize" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/le_list_bottom_layout_height">
+        <View android:id="@id/history_bottombar_divider" android:background="@color/le_list_item_divider_bg" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:gravity="center|right" android:id="@id/bottom_right_text" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

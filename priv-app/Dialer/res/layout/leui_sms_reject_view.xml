@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/leui_sms_listview_textsize" android:textColor="#ff9d9d9d" android:gravity="center_vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/leui_call_button_text_width" android:layout_marginLeft="@dimen/call_button_margin_left" android:text="@string/custom_message_title" />
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="@dimen/leui_sms_reject_line_height" android:layout_marginLeft="@dimen/call_button_margin_left" android:layout_marginRight="@dimen/call_button_margin_left" />
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="@dimen/leui_sms_reject_height" android:layout_marginLeft="@dimen/call_button_margin_left" android:layout_marginRight="@dimen/call_button_margin_left" />
+    <ListView android:gravity="bottom" android:id="@id/lv_sms_reject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#ffffffff" android:dividerHeight="@dimen/leui_sms_reject_line_height" android:overScrollMode="never" />
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="@dimen/leui_sms_reject_height" android:layout_marginLeft="@dimen/call_button_margin_left" android:layout_marginRight="@dimen/call_button_margin_left" />
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="@dimen/leui_sms_reject_line_height" android:layout_marginLeft="@dimen/call_button_margin_left" android:layout_marginRight="@dimen/call_button_margin_left" />
+    <TextView android:textSize="@dimen/leui_sms_listview_textsize" android:textColor="#ff2095f2" android:gravity="center" android:id="@id/bt_cancel_sms" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/leui_call_button_text_width" android:text="@string/custom_message_cancel" />
+</LinearLayout>

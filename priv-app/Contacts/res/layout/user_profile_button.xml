@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeQuickContactBadge android:id="@id/profile_photo" android:layout_width="?list_item_photo_size" android:layout_height="?list_item_photo_size" android:layout_marginLeft="?list_item_photo_left_padding" android:scaleType="fitCenter" android:layout_centerVertical="true" app:corner_radius="?list_item_photo_corner_radius" app:round_background="true" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?list_item_gap_between_image_and_text" android:layout_toRightOf="@id/profile_photo">
+        <TextView android:ellipsize="end" android:id="@id/edit_profile_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_display_name" style="@style/TextAppearanceMedium" />
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/current_phone_numbers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/profile_display_name" android:singleLine="true" style="@style/user_profile_current_phone_number_textstyle" />
+    </LinearLayout>
+    <View android:background="@color/divider_bg_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="?list_item_gap_between_image_and_text" android:layout_marginRight="@dimen/list_item_divider_line_right" android:layout_toRightOf="@id/profile_photo" android:layout_alignParentBottom="true" />
+</RelativeLayout>

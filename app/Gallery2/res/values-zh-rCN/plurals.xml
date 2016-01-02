@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_images_deleted">
+        <item quantity="other">删除 %1$d 张图片</item>
+        <item quantity="zero">删除 %1$d 张图片</item>
+        <item quantity="one">删除 %1$d 张图片</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted">
+        <item quantity="other">删除 %1$d 个视频</item>
+        <item quantity="zero">删除 %1$d 个视频</item>
+        <item quantity="one">删除 %1$d 个视频</item>
+    </plurals>
+    <plurals name="number_of_items_deleted">
+        <item quantity="other">删除 %1$d 项</item>
+        <item quantity="zero">删除 %1$d 项</item>
+        <item quantity="one">删除 %1$d 项</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_in_fav">
+        <item quantity="other">删除收藏文件夹中的图片将会把其他相册中的原图删除， 如果您只是想让图片不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 张图片？</item>
+        <item quantity="zero">删除收藏文件夹中的图片将会把其他相册中的原图删除， 如果您只是想让图片不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 张图片？</item>
+        <item quantity="one">删除收藏文件夹中的图片将会把其他相册中的原图删除， 如果您只是想让图片不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 张图片？</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_in_fav">
+        <item quantity="other">删除收藏文件夹中的视频将会把其他相册中的原视频删除， 如果您只是想让视频不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 个视频？</item>
+        <item quantity="zero">删除收藏文件夹中的视频将会把其他相册中的原视频删除， 如果您只是想让视频不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 个视频？</item>
+        <item quantity="one">删除收藏文件夹中的视频将会把其他相册中的原视频删除， 如果您只是想让视频不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 个视频？</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_in_fav">
+        <item quantity="other">删除收藏文件夹中的图片或视频将会把其他相册中的原图片或视频删除， 如果您只是想让图片或视频不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 个项目？</item>
+        <item quantity="zero">删除收藏文件夹中的图片或视频将会把其他相册中的原图片或视频删除， 如果您只是想让图片或视频不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 个项目？</item>
+        <item quantity="one">删除收藏文件夹中的图片或视频将会把其他相册中的原图片或视频删除， 如果您只是想让图片或视频不在收藏文件夹中显示，请使用“取消收藏”图标，确认删除 %1$d 个项目？</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_fav">
+        <item quantity="other">删除 %1$d 张图片</item>
+        <item quantity="zero">删除 %1$d 张图片</item>
+        <item quantity="one">删除 %1$d 张图片</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_fav">
+        <item quantity="other">删除 %1$d 个视频</item>
+        <item quantity="zero">删除 %1$d 个视频</item>
+        <item quantity="one">删除 %1$d 个视频</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_fav">
+        <item quantity="other">删除 %1$d 项</item>
+        <item quantity="zero">删除 %1$d 项</item>
+        <item quantity="one">删除 %1$d 项</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_cloud">
+        <item quantity="other">如果删除云端图片，云端和本地的图片都将被删除. 确认删除 %1$d 张图片?</item>
+        <item quantity="zero">如果删除云端图片，云端和本地的图片都将被删除. 确认删除 %1$d 张图片?</item>
+        <item quantity="one">如果删除云端图片，云端和本地的图片都将被删除. 确认删除 %1$d 张图片?</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_cloud">
+        <item quantity="other">如果删除云端视频，云端和本地的视频都将被删除. 确认删除 %1$d 个视频?</item>
+        <item quantity="zero">如果删除云端视频，云端和本地的视频都将被删除. 确认删除 %1$d 个视频?</item>
+        <item quantity="one">如果删除云端视频，云端和本地的视频都将被删除. 确认删除 %1$d 个视频?</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_cloud">
+        <item quantity="other">如果删除云端图片或视频，云端和本地的图片或视频都将被删除. 确认删除 %1$d 个图片或视频?</item>
+        <item quantity="zero">如果删除云端图片或视频，云端和本地的图片或视频都将被删除. 确认删除 %1$d 个图片或视频?</item>
+        <item quantity="one">如果删除云端图片或视频，云端和本地的图片或视频都将被删除. 确认删除 %1$d 个图片或视频?</item>
+    </plurals>
+    <plurals name="number_of_albums_deleted">
+        <item quantity="other">删除 %1$d 个相册</item>
+        <item quantity="zero">删除 %1$d 个相册</item>
+        <item quantity="one">删除 %1$d 个相册</item>
+    </plurals>
+    <plurals name="delete_selection">
+        <item quantity="other">要删除所选内容吗？</item>
+        <item quantity="one">要删除所选内容吗？</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">已选择 %1$d 项</item>
+        <item quantity="zero">已选择 %1$d 项</item>
+        <item quantity="one">已选择 %1$d 项</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">选中了 %1$d 本相册</item>
+        <item quantity="zero">选中了 %1$d 本相册</item>
+        <item quantity="one">选中了 %1$d 本相册</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">选中了 %1$d 组</item>
+        <item quantity="zero">选中了 %1$d 组</item>
+        <item quantity="one">选中了 %1$d 组</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">允许离线查看相册。</item>
+        <item quantity="one">允许离线查看相册。</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">已扫描%1$d项</item>
+        <item quantity="zero">已扫描%1$d项</item>
+        <item quantity="one">已扫描%1$d项</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d张照片</item>
+        <item quantity="one">%1$d张照片</item>
+    </plurals>
+</resources>

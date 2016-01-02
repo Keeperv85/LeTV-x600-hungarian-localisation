@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/stopwatch_lap_bg" android:paddingLeft="@dimen/stopwatch_lap_item_padding_left" android:paddingRight="@dimen/stopwatch_lap_item_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/stopwatch_lap_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/stopwatch_lap_text_size" android:textColor="@color/stopwatch_lap_text_color" android:id="@id/lap_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/stopwatch_lap_margin_right" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textAllCaps="false" />
+    <TextView android:textSize="@dimen/stopwatch_lap_add_text_size" android:textColor="@color/stopwatch_lap_add_text_color" android:id="@id/lap_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium" android:layout_toRightOf="@id/lap_number" android:layout_centerVertical="true" android:textAllCaps="false" />
+    <TextView android:textSize="@dimen/stopwatch_lap_total_text_size" android:textColor="@color/stopwatch_lap_total_text_color" android:id="@id/lap_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" />
+</RelativeLayout>

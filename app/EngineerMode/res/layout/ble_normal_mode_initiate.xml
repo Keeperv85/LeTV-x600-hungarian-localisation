@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/BLEInitiate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/BLEInitiate" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEScanInterval" />
+            <EditText android:id="@id/BLEInitiateScanInterval" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLETimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEScanWindow" />
+            <EditText android:id="@id/BLEInitiateScanWindow" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLETimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEInitiateFilter" />
+            <Spinner android:id="@id/BLEInitiateFilterSpinner" android:layout_width="180.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEPeerAddressType" />
+            <Spinner android:id="@id/BLEInitiatePeerAddressTypeSpinner" android:layout_width="180.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEOwnAddressType" />
+            <Spinner android:id="@id/BLEInitiateOwnAddressTypeSpinner" android:layout_width="180.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEPeerAddress" />
+            <EditText android:id="@id/BLEPeerAddress" android:layout_width="180.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEIntervalMin" />
+            <EditText android:id="@id/BLEInitiateIntervalMin" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLETimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEIntervalMax" />
+            <EditText android:id="@id/BLEInitiateIntervalMax" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLETimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLELatency" />
+            <EditText android:id="@id/BLELatency" android:layout_width="150.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLESupervisionTimeout" />
+            <EditText android:id="@id/BLESupervisionTimeout" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLESupervisionTimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEMinCELength" />
+            <EditText android:id="@id/BLEMinCELength" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLETimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="@string/BLEMaxCELength" />
+            <EditText android:id="@id/BLEMaxCELength" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+            <TextView android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/BLETimeUnit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <Button android:id="@id/BLEInitiateStart" android:layout_width="155.0dip" android:layout_height="wrap_content" android:text="@string/BLEStart" />
+            <Button android:id="@id/BLEInitiateStop" android:layout_width="155.0dip" android:layout_height="wrap_content" android:text="@string/BLEStop" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

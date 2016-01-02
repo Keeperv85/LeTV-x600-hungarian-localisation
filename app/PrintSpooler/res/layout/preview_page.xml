@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.printspooler.widget.PreviewPageFrame android:orientation="vertical" android:id="@id/preview_page" android:background="?android:colorForeground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/preview_page_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.printspooler.widget.PageContentView android:id="@id/page_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/page_footer" android:background="@color/material_grey_500" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="@dimen/preview_page_footer_height">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/page_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/page_selector" android:background="@drawable/page_selector_background" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.android.printspooler.widget.PreviewPageFrame>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/settings_common_role_item" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_role_label_common" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/role_selected_flag_common" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_assignee_selected_flag" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <include layout="@layout/list_separator" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/settings_qa_role_item" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_role_label_qa" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/role_selected_flag_qa" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_assignee_selected_flag" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <include layout="@layout/list_separator" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    <Button android:id="@id/settings_logout_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_qa_role_logout" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

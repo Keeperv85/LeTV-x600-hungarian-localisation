@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/sleep_mode_contrl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/sleep_mode_6572" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/sleep_mode_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sleep_mode_disable" />
+                    <RadioButton android:id="@id/sleep_mode_legacy_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sleep_mode_legacy_sleep" />
+                    <RadioButton android:id="@id/sleep_mode_shutdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sleep_mode_shutdown" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sleep_mode_wake_timer_contrl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sleep_mode_wakeup_timer" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/sleep_mode_timer_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sleep_mode_disable" />
+                <RadioButton android:id="@id/sleep_mode_timer_fuel_gauge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sleep_mode_fuel_gauge" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/sleep_mode_timer_val_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                    <EditText android:id="@id/sleep_mode_timer_val" android:layout_width="100.0dip" android:layout_height="wrap_content" android:maxLength="7" android:numeric="integer" />
+                    <TextView android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/sleep_mode_timer_val_tip" />
+                </LinearLayout>
+                <Button android:id="@id/sleep_mode_start_timer" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:text="@string/sleep_mode_start_timer" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/sleep_mode_get_setting" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/sleep_mode_get_setting" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/relativeLayout_search_header" android:background="@color/main_color" android:layout_width="wrap_content" android:layout_height="48.0dip">
+        <com.letv.leui.widget.LcSearchView android:id="@id/search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" leui:lcQueryHint="@string/hint_search_input" leui:lcAlwaysShowCancel="true" style="@*android:style/Widget.LeuiCommon.SearchView" />
+    </RelativeLayout>
+    <ListView android:id="@id/listView_search_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/relativeLayout_search_header" />
+</RelativeLayout>

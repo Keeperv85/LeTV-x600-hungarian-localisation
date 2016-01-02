@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.EmergencyCarrierArea android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.CarrierText android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/kg_status_line_font_size" android:textColor="?android:textColorSecondary" android:ellipsize="marquee" android:id="@id/carrier_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.keyguard.EmergencyButton android:id="@id/emergency_call_button" android:clickable="true" android:text="@string/kg_emergency_call_label" style="@style/Keyguard.Button" />
+        <Space android:visibility="invisible" android:layout_weight="1.0" style="@style/Keyguard.Button" />
+        <Button android:layout_gravity="right" android:id="@id/forgot_password_button" android:visibility="gone" style="@style/Keyguard.Button" />
+        <Button android:layout_gravity="right" android:id="@id/ok_button" android:visibility="gone" android:text="@string/ok" style="@style/Keyguard.Button" />
+        <Button android:layout_gravity="right" android:id="@id/cancel_button" android:visibility="gone" android:text="@string/cancle" style="@style/Keyguard.Button" />
+    </LinearLayout>
+</com.android.keyguard.EmergencyCarrierArea>

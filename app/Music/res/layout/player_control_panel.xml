@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_panel_container" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/player_btn_back_resident" android:layout_width="@dimen/letv_dimens_35" android:layout_height="@dimen/player_operation_panel_up_height" android:src="@drawable/player_back_btn_selector" android:scaleType="centerInside" />
+    <include android:id="@id/player_upper_control_panel_container" android:layout_width="fill_parent" android:layout_height="@dimen/player_operation_panel_up_height" android:layout_alignParentTop="true" layout="@layout/player_control_panel_upper" />
+    <include android:id="@id/player_lower_control_panel_container" android:layout_width="fill_parent" android:layout_height="@dimen/player_operation_panel_bottom_height" android:layout_alignParentBottom="true" layout="@layout/player_control_panel_bottom" />
+    <TextView android:textSize="@dimen/letv_dimens_text_15" android:textColor="@color/letv_color_FFFFFF" android:id="@id/player_download_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/player_lower_control_panel_container" android:layout_alignParentRight="true" android:alpha="0.7" />
+    <include android:id="@id/player_adjust_volume_container" android:layout_width="@dimen/volume_adjust_bar_width" android:layout_height="@dimen/volume_adjust_bar_height" android:layout_above="@id/player_lower_control_panel_container" android:layout_alignParentRight="true" layout="@layout/player_float_adjust_volume_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/player_select_stream_container" android:background="@drawable/stream_select_float_bg" android:visibility="gone" android:layout_width="@dimen/stream_select_item_width" android:layout_height="wrap_content" android:layout_above="@id/player_lower_control_panel_container" android:layout_alignParentRight="true" />
+</RelativeLayout>

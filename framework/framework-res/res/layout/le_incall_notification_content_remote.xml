@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/le_status_content_padding" android:paddingEnd="@dimen/le_status_content_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/notification_height">
+        <ImageView android:id="@id/leStatus_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/leStatus_baseInfo" android:paddingLeft="@dimen/le_status_content_baseinfo_left_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/le_status_content_title_size" android:textColor="#ffffffff" android:ellipsize="end" android:layout_gravity="top" android:id="@id/leStatus_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="12" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" />
+                <ViewStub android:id="@id/le_chronometer" android:visibility="gone" android:layout="@layout/le_incall_notification_part_chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/leStatus_name" />
+                <ViewStub android:id="@id/le_time" android:visibility="gone" android:layout="@layout/le_incall_notification_part_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/leStatus_name" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/le_status_content_state_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?textAppearanceSmallInverse" android:textSize="@dimen/le_status_content_text_size" android:textColor="#70ffffff" android:id="@id/leStatus_state" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/le_status_content_text_size" android:textColor="#70ffffff" android:id="@id/leStatus_location" android:paddingLeft="@dimen/le_status_content_location_left_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="center" android:id="@id/leStatus_account" android:paddingLeft="@dimen/le_status_content_location_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/leStatus_action" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mobile_log_name" android:key="mobilelog_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/mobilelog_settings" android:key="mobilelog_category">
+        <CheckBoxPreference android:title="@string/enable_mobilelog" android:key="mobilelog_switch" android:defaultValue="true" />
+    </PreferenceCategory>
+    <CheckBoxPreference android:title="@string/enable_android_log_title" android:key="mobilelog_androidlog" android:summary="@string/enable_android_log_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_kernel_log_title" android:key="mobilelog_kernellog" android:summary="@string/enable_kernel_log_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_bluetooth_log_title" android:key="mobilelog_btlog" android:summary="@string/enable_bluetooth_log_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_md32_log_title" android:key="mobilelog_md32log" android:summary="@string/enable_md32_log_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_atf_log_title" android:key="mobilelog_atflog" android:summary="@string/enable_atf_log_summary" android:defaultValue="true" />
+    <EditTextPreference android:title="@string/limit_single_log_size_title" android:key="mobilelog_logsize" android:summary="@string/limit_single_log_size_summary" android:defaultValue="300" />
+    <EditTextPreference android:title="@string/limit_total_log_size_title" android:key="mobilelog_total_logsize" android:summary="@string/limit_total_log_size_summary" android:defaultValue="600" />
+    <CheckBoxPreference android:title="@string/start_automatically_title" android:key="mobilelog_autostart" android:summary="@string/start_automatically_mobile_summary" android:defaultValue="true" />
+</PreferenceScreen>

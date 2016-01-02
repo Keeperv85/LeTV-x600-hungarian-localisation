@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="90.0dip" android:layout_height="85.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/dialpad_key_semicolon" android:background="@drawable/dialpad_item" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_dial_action_semicolon" />
+    <ImageButton android:id="@id/dialpad_key_comma" android:background="@drawable/dialpad_item" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_dial_action_comma" />
+</LinearLayout>

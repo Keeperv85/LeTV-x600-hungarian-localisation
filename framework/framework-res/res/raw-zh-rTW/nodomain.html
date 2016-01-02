@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>網頁不可用</title>
+<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name='apple-touch-fullscreen' content='yes'>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<style type="text/css">
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-spacing: 0;
+}
+li {
+    list-style-type: none;
+}
+fieldset, img {
+    border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+address, caption, cite, code, dfn, em, var {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+.page {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  font-family: "Microsoft YaHei";
+  background: #eaecef;
+  color: #000;
+  line-height: 1.5;
+}
+.con {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 320px;
+  height: 220px;
+  margin-top: -115px;
+  margin-left: -160px;
+
+}
+.con .txt {
+  font-size: 15px;
+  color: #8c8c8c;
+  padding: 15px 0 6px;
+}
+.con a.btn {
+  display: inline-block;
+  width: 154px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #518ef1;
+  border: 1px solid #518ef1;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.con a.btn:active {
+  background: rgba(81, 142, 241, 4);
+  color: #fff;
+  -webkit-user-select:none;
+}
+</style>
+
+</head>
+<body>
+<div class="page">
+    <div class="con">
+    <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="60px" height="60px" viewBox="0 0 240 240" enable-background="new 0 0 240 240" xml:space="preserve">
+    <g id="wifi图标">
+        <path fill="#CCCCCC" d="M120,47.264c-46.001,0-87.431,19.543-116.464,50.77l8.714,8.248c1.244-1.338,2.506-2.663,3.805-3.962
+            C43.82,74.555,80.735,59.264,120,59.264s76.18,15.291,103.945,43.055c1.299,1.299,2.561,2.624,3.805,3.962l8.714-8.248
+            C207.431,66.807,166.001,47.264,120,47.264z M49.577,141.611l8.752,8.283C74.338,134.488,96.081,125,120,125
+            s45.662,9.488,61.671,24.894l8.752-8.283C172.229,123.908,147.39,113,120,113S67.771,123.908,49.577,141.611z M95.618,185.187
+            L120,208.264l24.382-23.077C137.355,180.646,128.989,178,120,178S102.645,180.646,95.618,185.187z"/>
+    </g>
+    </svg>
+    <p class="txt">網頁打開失敗。</p>
+    <p class="txt">%e</p>
+    <div><a class="btn" id="reload" href="browser://reload_webview" style="display: none;">刷新頁面</a></div>
+    <div><a class="btn" id= "settings" href="browser://network_settings" style="display: none;">設定網路</a></div>
+    </div>
+</div>
+
+</body>
+</html>
+

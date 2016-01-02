@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/label" android:background="@null" android:paddingLeft="@dimen/alarm_label_padding" android:paddingRight="@dimen/alarm_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:hint="@string/label" android:singleLine="true" android:paddingStart="@dimen/alarm_label_padding" android:paddingEnd="@dimen/alarm_label_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

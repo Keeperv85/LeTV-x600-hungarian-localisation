@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="le_cc_calulator_svg" android:fillColor="#ff000000" android:pathData="M112,58v6h34v-6H112z M112,138h34v-6h-34V138z M112,123h34v-6h-34V123z M147,95H97V45h-2v50H45v2h50v50h2V97h50V95z M61,78   h6V64h14v-6H67V44h-6v14H47v6h14V78z M73.899,112.858L64,122.757l-9.9-9.899l-4.243,4.243l9.899,9.9l-9.899,9.899l4.243,4.243   l9.9-9.899l9.899,9.899l4.243-4.243L68.243,127l9.899-9.9L73.899,112.858z" />
+</vector>

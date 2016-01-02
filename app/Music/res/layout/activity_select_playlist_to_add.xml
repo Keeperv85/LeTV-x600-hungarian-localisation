@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/current_playlist" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/current_playlist_icon" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="centerCrop" />
+            <ImageView android:background="@color/mask_black_opaque5" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/music_icon_playing" android:scaleType="center" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/main_color" android:id="@id/current_playlist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/my_music_add_to_current_playlist" android:layout_toRightOf="@id/current_playlist_icon" android:layout_centerVertical="true" android:fontFamily="sans-serif-light" />
+            <View android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/current_playlist_icon" android:layout_alignLeft="@id/current_playlist_name" style="@style/CommonFullFillDivider" />
+        </RelativeLayout>
+        <com.android.music.widget.UIPlaylistView android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/current_playlist" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.deskclock.widget.SquareLayout android:id="@id/star_media_item" android:background="@color/star_detail_item_background" android:layout_width="@dimen/star_media_item_width" android:layout_height="@dimen/star_media_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/star_media_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/star_media_type" android:background="@drawable/star_ringtone_icon_bg" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="@dimen/star_media_icon_padding_right" android:layout_marginBottom="@dimen/star_media_icon_padding_bottom" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.android.deskclock.widget.PlayingIndicatorView android:id="@id/star_media_playing_indicator" android:background="@drawable/star_ringtone_icon_bg" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="@dimen/star_media_icon_padding_right" android:layout_marginBottom="@dimen/star_media_icon_padding_bottom" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</com.android.deskclock.widget.SquareLayout>

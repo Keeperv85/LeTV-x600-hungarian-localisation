@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.leui.keyguard.KeyguardViewPager android:id="@id/widget_security_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" keyguardViewPager:pageTransformer_overlay="false" keyguardViewPager:orientation_horizontal="false" keyguardViewPager:rebound="true" keyguardViewPager:reboundLength="0.05" keyguardViewPager:velocityFlip="true" keyguardViewPager:velocityFlipSpeed="1000" keyguardViewPager:flipLength="0.2" keyguardViewPager:flipBaseLength="0.1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:keyguardViewPager="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/widget_viewpager" />
+    <com.android.keyguard.KeyguardSecurityViewFlipper android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/view_flipper" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.leui.keyguard.KeyguardViewPager>

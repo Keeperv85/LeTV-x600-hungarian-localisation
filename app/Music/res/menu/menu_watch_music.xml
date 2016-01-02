@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/dingzhi" android:id="@id/action_dingzhi" android:showAsAction="always" />
+    <item android:id="@id/action_playing" android:title="@string/menu_title_playing" android:showAsAction="ifRoom" android:actionLayout="@layout/playing_music_action_view" />
+</menu>

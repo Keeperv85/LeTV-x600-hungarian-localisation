@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="30.0dip" android:fontFamily="helve-neue-thin" android:leTextWeight="thin"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android" />

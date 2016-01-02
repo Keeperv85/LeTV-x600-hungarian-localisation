@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="music_cover_top_translation_x_anim_duration">1000</integer>
+    <integer name="music_cover_top_sr_anim_duration1">175</integer>
+    <integer name="music_cover_top_sr_anim_duration2">825</integer>
+    <integer name="music_cover_bottom_translation_x_anim_duration">800</integer>
+    <integer name="music_cover_bottom_sr_anim_duration1">140</integer>
+    <integer name="music_cover_bottom_sr_anim_duration2">660</integer>
+</resources>

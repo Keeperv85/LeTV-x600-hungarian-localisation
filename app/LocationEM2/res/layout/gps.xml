@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ToggleButton android:textSize="15.0dip" android:id="@id/Button_StartGPS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/gps_on" android:textOff="@string/gps_off" />
+            <Button android:textSize="15.0dip" android:id="@id/Button_Once" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" />
+            <Button android:textSize="15.0dip" android:id="@id/Button_ChangeRefLatLng" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ref_latlng" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ToggleButton android:textSize="15.0dip" android:id="@id/Button_Stress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/stress_on" android:textOff="@string/stress_off" />
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_Loop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="200.0dip" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:textSize="15.0dip" android:id="@id/CheckBox_LogNmea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/log_nmea" />
+            <CheckBox android:textSize="15.0dip" android:id="@id/CheckBox_LogToSdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/log_to_sdcard" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:id="@id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:textSize="15.0dip" android:id="@id/RadioButton_hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/hot" />
+                <RadioButton android:textSize="15.0dip" android:id="@id/RadioButton_warm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/warm" />
+                <RadioButton android:textSize="15.0dip" android:id="@id/RadioButton_cold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cold" />
+                <RadioButton android:textSize="15.0dip" android:id="@id/RadioButton_full" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/full" />
+            </RadioGroup>
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="15.0dip" android:id="@id/TextView_0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="15.0dip" android:id="@id/TextView_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="15.0dip" android:id="@id/TextView_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="13.0dip" android:id="@id/TextView_3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:id="@id/TextView_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:id="@id/TextView_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stress_test_settings" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_NumOfLoop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_of_fix" android:width="230.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_NumOfLoop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_Delay1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delay_before_starting_gps" android:width="230.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_Delay1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_Delay2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delay_before_deleting_data" android:width="230.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_Delay2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_Delay3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_timeout" android:width="230.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_Delay3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_Delay4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delay_before_stopping_gps" android:width="230.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_Delay4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <CheckBox android:id="@id/checkBox_switchDeleteToFirst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_aiding_data_first" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</ScrollView>

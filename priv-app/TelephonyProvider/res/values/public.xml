@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="mipmap" name="ic_launcher_phone" id="0x7f020000" />
+    <public type="mipmap" name="ic_launcher_smsmms" id="0x7f020001" />
+    <public type="mipmap" name="leui_ic_launcher_phone" id="0x7f020002" />
+    <public type="xml" name="hbpcd_lookup_tables" id="0x7f030000" />
+    <public type="string" name="app_label" id="0x7f040000" />
+    <public type="string" name="mmssms_sync_label" id="0x7f040001" />
+</resources>

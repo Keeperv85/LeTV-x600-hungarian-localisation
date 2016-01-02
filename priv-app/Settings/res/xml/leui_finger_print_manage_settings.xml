@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/finger_print_manager"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/finger_print_security_category" />
+    <SwitchPreference android:persistent="false" android:title="@string/finger_unlock" android:key="finger_print_verify" />
+    <PreferenceCategory android:title="@string/finger_print_touch_management_category" android:key="leui_finger_print_func">
+        <SwitchPreference android:persistent="false" android:title="@string/finger_print_manage_camera" android:key="finger_print_setup_camera" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/finger_print_manage_category" android:key="finger_print_ids_list" />
+</PreferenceScreen>

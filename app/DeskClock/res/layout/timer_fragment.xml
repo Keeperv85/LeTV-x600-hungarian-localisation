@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/deskclock_fragment_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/timer_view_content" android:background="@color/timer_background_white" android:layout_width="fill_parent" android:layout_height="@dimen/timer_content_height">
+        <com.android.deskclock.timer.TextTimerView android:id="@id/timer_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.deskclock.widget.LeTimePicker android:id="@id/timer_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/timer_separator1" android:background="@color/deskclock_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/deskclock_divider_height" android:layout_below="@id/timer_view_content" />
+    <include android:id="@id/timer_reminder_setting" android:layout_width="fill_parent" android:layout_height="@dimen/timer_setting_height" android:layout_below="@id/timer_separator1" layout="@layout/timer_setting_item" />
+    <ImageView android:id="@id/timer_separator2" android:background="@color/deskclock_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/deskclock_divider_height" android:layout_marginLeft="@dimen/timer_setting_padding_left" android:layout_marginRight="@dimen/timer_setting_padding_right" android:layout_below="@id/timer_reminder_setting" />
+    <include android:id="@id/timer_label_setting" android:layout_width="fill_parent" android:layout_height="@dimen/timer_setting_height" android:layout_below="@id/timer_separator2" layout="@layout/timer_setting_label" />
+    <ImageView android:background="@color/deskclock_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/deskclock_divider_height" android:layout_below="@id/timer_label_setting" />
+    <RelativeLayout android:gravity="center" android:id="@id/stopwatch_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/timer_button_margin_bottom" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/timer_button_text_size" android:textColor="@color/timer_button_text_color" android:gravity="center" android:id="@id/timer_left_button" android:background="@drawable/timer_left_btn_stop" android:layout_width="@dimen/timer_button_size" android:layout_height="@dimen/timer_button_size" android:layout_marginLeft="@dimen/timer_button_margin_left" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/timer_button_text_size" android:textColor="@color/timer_button_text_color" android:gravity="center" android:id="@id/timer_right_button" android:background="@drawable/timer_right_btn_stop" android:layout_width="@dimen/timer_button_size" android:layout_height="@dimen/timer_button_size" android:layout_marginRight="@dimen/timer_button_margin_right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

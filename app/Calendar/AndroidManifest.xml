@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserLabel="@string/app_label" package="com.android.calendar" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="com.android.calendar.permission.PUSH_RECEIVER" android:protectionLevel="signature"/>
+    <permission android:name="com.android.calendar.permission.ECO_TAGS_CHANGED_RECEIVER"/>
+    <uses-permission android:name="com.android.calendar.permission.PUSH_RECEIVER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.providers.calendar.permission.CALENDAR_UPDATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
+    <uses-permission android:name="com.android.launcher3.permission.INSTALL_WIDGET"/>
+    <uses-permission android:name="com.android.launcher3.permission.UNINSTALL_WIDGET"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application android:backupAgent="com.android.calendar.CalendarBackupAgent" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher_calendar" android:label="@string/app_label" android:name="CalendarApplication" android:requiredAccountType="*" android:taskAffinity="android.task.calendar">
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIM256oVOGnuSel5QKDpL8je_T65ZI8rFnDinssA"/>
+        <activity android:exported="true" android:label="@string/app_label" android:launchMode="singleTask" android:name="AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_CALENDAR"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calendar.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="time/epoch"/>
+                <data android:host="com.android.calendar"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="LaunchActivity" android:targetActivity=".AllInOneActivity"/>
+        <activity android:launchMode="singleTask" android:name=".EventInfoActivity2" android:parentActivityName="com.android.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/event"/>
+            </intent-filter>
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.calendar.AllInOneActivity"/>
+        </activity>
+        <activity android:launchMode="singleTask" android:name=".event.EditEventActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.android.calendar.ACTION_CREATE_EVENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.calendar.event.AttendeesActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
+        <activity-alias android:exported="true" android:name="EditEventActivity" android:screenOrientation="portrait" android:targetActivity=".event.EditEventActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/event"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/event"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/app_label" android:name="GoogleCalendarUriIntentFilter" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter android:priority="50">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.google.com" android:pathPrefix="/calendar/event" android:scheme="http"/>
+                <data android:host="www.google.com" android:pathPrefix="/calendar/event" android:scheme="https"/>
+                <data android:host="www.google.com" android:pathPattern="/calendar/hosted/.*/event" android:scheme="http"/>
+                <data android:host="www.google.com" android:pathPattern="/calendar/hosted/.*/event" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name=".agenda.ShowAgendaActivity" android:screenOrientation="portrait" android:theme="@style/Agenda.Spinner" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name=".lastday.ShowLastDayActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/select_visible_calendars_title" android:name=".selectcalendars.SelectVisibleCalendarsActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/select_synced_calendars_title" android:name=".selectcalendars.SelectSyncedCalendarsMultiAccountActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:icon="@drawable/ic_setting_calendar" android:label="@string/gadget_title" android:name="CalendarSettingsActivity" android:screenOrientation="portrait" android:theme="@style/calendar_settings_fill_states_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="android.application.settings.TYPE" android:value="android.application.settings.TYPE_SYSTEM"/>
+            <meta-data android:name="android.application.settings.PRIOPRITY" android:value="11"/>
+        </activity>
+        <activity android:label="@string/preferences_title" android:name="GeneralPreferences" android:screenOrientation="portrait" android:theme="@android:style/Theme.Leui"/>
+        <activity android:label="@string/preferences_title" android:name="CalendarAccountActivity" android:screenOrientation="portrait" android:theme="@style/calendar_settings_fill_states_bar"/>
+        <activity android:logo="@drawable/icon_back" android:name="com.letv.calendar.ui.OrderSquareActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar">
+            <intent-filter>
+                <action android:name="com.android.calendar.ORDER_SQUARE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.calendar.ui.CalendarListActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
+        <activity android:name="com.letv.calendar.ui.RecentlyListActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar">
+            <intent-filter>
+                <action android:name="com.android.calendar.RECENTLYLIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".event.EventRruleEndActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
+        <activity android:name="com.letv.calendar.ui.CalendarDetailActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
+        <activity android:name="com.letv.calendar.ui.SearchActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/subscribe_searchable"/>
+        </activity>
+        <activity android:name="com.letv.calendar.ui.TagDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.TAD_DETAILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.calendar.ui.SubscribeListActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
+        <activity android:name="com.letv.calendar.ui.SubscribeEventDetailActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar"/>
+        <activity android:icon="@drawable/back" android:name="com.letv.calendar.ui.SubscribeItemVarietyDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.calendar.ui.ImageDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:icon="@drawable/back" android:name="com.letv.calendar.ui.SubscribeItemBirthdayDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.calendar.ui.ShareActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar"/>
+        <activity android:icon="@drawable/back" android:name="com.letv.calendar.ui.SubscribeItemAgendaDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.calendar.ui.SubscribeItemSportsDetailActivity" android:parentActivityName="com.android.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.calendar.AllInOneActivity"/>
+        </activity>
+        <activity android:label="@string/event_detail" android:name="com.letv.calendar.ui.SubscribeItemActivity" android:parentActivityName="com.android.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionBar.NoOverlay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="HandleApiCalls" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_EVENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="HandleCreateEvent" android:targetActivity=".HandleApiCalls"/>
+        <meta-data android:name="android.app.default_searchable" android:value="com.android.calendar.SearchActivity"/>
+        <activity android:exported="true" android:label="@string/app_label" android:launchMode="singleTop" android:name="SearchActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <intent-filter>
+                <action android:name="com.android.calendar.QUICK_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.android.calendar.CalendarRecentSuggestionsProvider" android:exported="false" android:name=".CalendarRecentSuggestionsProvider"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name=".alerts.AlertActivity" android:screenOrientation="portrait" android:theme="@style/leLicenceDialogTheme"/>
+        <activity android:excludeFromRecents="true" android:label="@string/quick_response_dialog_title" android:launchMode="singleInstance" android:name=".alerts.QuickResponseActivity" android:screenOrientation="portrait" android:theme="@style/leLicenceDialogTheme"/>
+        <activity android:label="@string/event_detail" android:name="com.letv.calendar.ui.LiveDetailRemindActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar"/>
+        <activity android:launchMode="singleInstance" android:name="com.letv.calendar.ui.GuidePageActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionBar.NoOverlay">
+            <intent-filter>
+                <action android:name="android.intent.action.CALENDR_GUIDE_PAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.letv.calendar.push.LePushMessageReceiver">
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_NOTIFICATION_MESSAGE"/>
+                <category android:name="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_RECEIVE_PUSH_MESSAGE"/>
+                <category android:name="com.android.calendar"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".alerts.AlertReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.EVENT_REMINDER"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name=".alerts.GlobalDismissManager"/>
+        <receiver android:name=".UpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".alerts.AlertService"/>
+        <service android:name=".alerts.DismissAlarmsService"/>
+        <service android:name=".alerts.SnoozeAlarmsService"/>
+        <service android:name=".alerts.InitAlarmsService"/>
+        <service android:name="com.letv.calendar.ecooption.EcoTagObserverService"/>
+        <receiver android:label="@string/gadget_title" android:name=".widget.CalendarAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.calendar.ITEM_CLICK_VIEW_ACTION"/>
+                <action android:name="com.android.calendar.ADD_EVENT_VIEW_ACTION"/>
+                <action android:name="com.android.calendar.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info"/>
+        </receiver>
+        <receiver android:name=".widget.CalendarAppWidgetService$CalendarFactory">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".widget.LastTimeWidgetProvider$LauncherLastUpdate">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="com.android.calendar.update_widget"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.letv.calendar.AccountChangeReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+                <action android:name="com.letv.android.account.ACTION_LOGIN"/>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT_SAVE"/>
+                <action android:name="com.letv.android.calendar.ECO_SYNC_FINISH"/>
+                <action android:name="com.android.calendar.ACTION_ALLINONACTIVITY_ONCREATE"/>
+                <action android:name="com.letv.android.calendar.REFRESH_EVENTS"/>
+                <action android:name="com.android.calendar.ACTION_QUERY_NEW_TAG_IDS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.providers.calendar.ACTION.CALENDAR_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".widget.CalendarAppWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:name=".AsyncQueryServiceHelper"/>
+        <service android:name="com.letv.calendar.push.LetvPushIntentService"/>
+        <service android:name="com.letv.calendar.SubscribeSyncService"/>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher_calendar" android:label="@string/app_label" android:launchMode="singleTop" android:name="com.mtkcode.calendar.AgendaChoiceActivity" android:theme="@style/CalendarTheme.WithActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.CALENDARCHOICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/x-vcalendar"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".IClockService">
+            <intent-filter>
+                <action android:name="com.android.calendar.ClockService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name=".alerts.DateChangedReceiver">
+            <intent-filter>
+                <action android:name="letv.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.letv.calendar.ecooption.EcoTagsChangeReceiver" android:permission="com.android.calendar.permission.ECO_TAGS_CHANGED_RECEIVER">
+            <intent-filter>
+                <action android:name="com.letv.android.ecoProvider.tags_changed"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".alerts.QueryService">
+            <intent-filter>
+                <action android:name="letv.intent.action.QUERY_SERVICE"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

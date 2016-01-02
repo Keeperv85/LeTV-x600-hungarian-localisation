@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vpn_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.settings.widget.LeUISwitchPreference android:persistent="true" android:title="@string/leui_enable_text" android:key="limit_switch" android:order="0" />
+    <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/leui_data_usage_limit" android:key="limit_value" android:summary="@string/leui_data_usage_limit" android:order="1" android:widgetLayout="@layout/leui_widget_arrow" android:dialogTitle="@string/leui_data_usage_limit_editor_title" />
+    <PreferenceCategory android:key="app_list" android:order="3" />
+</PreferenceScreen>

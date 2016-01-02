@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.Folder android:background="@android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/folder_title" android:layout_width="@dimen/folder_title_width" android:layout_height="@dimen/folder_title_height">
+        <com.android.launcher3.FolderEditText android:textSize="16.0sp" android:textColor="#ffffffff" android:textColorHighlight="#ffcccccc" android:textColorHint="#ffffffff" android:gravity="center" android:id="@id/folder_name" android:background="@null" android:paddingLeft="@dimen/folder_name_delete_width" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/folder_hint_text" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@null" />
+        <ImageView android:id="@id/folder_name_delete" android:visibility="invisible" android:layout_width="@dimen/folder_name_delete_width" android:layout_height="fill_parent" android:src="@drawable/inputbox_delete" android:scaleType="center" />
+    </LinearLayout>
+    <ImageView android:id="@id/folder_preview_border" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ScrollView android:scrollbarThumbVertical="@drawable/fold_scrollbar" android:scrollbarStyle="outsideOverlay" android:id="@id/scroll_view" android:background="@android:color/transparent" android:fadingEdgeLength="@dimen/folder_scrollview_fading_edge_length" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical">
+        <com.android.launcher3.CellLayout android:id="@id/folder_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#ff333333" android:hapticFeedbackEnabled="false" />
+    </ScrollView>
+    <View android:id="@id/fold_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.launcher3.Folder>

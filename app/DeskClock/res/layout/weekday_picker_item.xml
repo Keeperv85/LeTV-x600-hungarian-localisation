@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.deskclock.widget.SquareLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:textColor="@color/weekday_item_text_color" android:layout_gravity="center" android:background="@drawable/weekday_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+</com.android.deskclock.widget.SquareLayout>

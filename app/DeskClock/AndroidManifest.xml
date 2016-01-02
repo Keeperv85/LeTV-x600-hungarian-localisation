@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.deskclock" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <original-package android:name="com.android.alarmclock"/>
+    <original-package android:name="com.android.deskclock"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <application android:icon="@drawable/ic_launcher_deskclock" android:label="@string/app_label" android:name=".DeskClockApplication" android:requiredForAllUsers="true" android:supportsRtl="false" android:theme="@android:style/Theme.Leui">
+        <provider android:authorities="com.android.deskclock" android:exported="true" android:name=".provider.ClockProvider"/>
+        <activity android:icon="@drawable/ic_launcher_deskclock" android:label="@string/app_label" android:launchMode="singleTask" android:name="DeskClock" android:screenOrientation="portrait" android:theme="@style/DeskClock" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="@bool/config_dockAppEnabled" android:icon="@drawable/ic_launcher_deskclock" android:label="@string/app_label" android:launchMode="singleTask" android:name="DockClock" android:screenOrientation="portrait" android:targetActivity="DeskClock" android:theme="@style/DeskClock" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DESK_DOCK"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:excludeFromRecents="true" android:label="@string/settings" android:name="SettingsActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/SettingsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale" android:excludeFromRecents="true" android:label="@string/cities_activity_title" android:name=".worldclock.CitiesActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/WorldClockCity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".alarms.AlarmSettingActivity" android:screenOrientation="portrait" android:theme="@style/DeskClock" android:windowSoftInputMode="adjustResize"/>
+        <activity android:excludeFromRecents="true" android:name=".alarms.AlarmRepeatSettings" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
+        <activity android:excludeFromRecents="true" android:name=".alarms.starclock.AlarmNormalRingtoneActivity" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
+        <activity android:excludeFromRecents="true" android:name=".alarms.AlarmSnoozeSettings" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
+        <activity android:excludeFromRecents="true" android:name=".alarms.CustomRingSelector" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
+        <activity android:excludeFromRecents="true" android:name=".timer.TimerReminderSetting" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:name=".alarms.AlarmActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/AlarmAlertFullScreenTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:name=".widget.keyguard.KeyguardAlertActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/KeyguardAlertTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:name=".timer.TimerKeyguardAlertActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity=".timerkeyguard" android:theme="@style/KeyguardAlertTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="ScreensaverActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/ScreensaverActivityTheme"/>
+        <activity android:excludeFromRecents="true" android:name=".alarms.staralarm.StarDetailActivity" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name=".alarms.staralarm.VideoPreviewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <receiver android:exported="false" android:name=".alarms.AlarmStateManager"/>
+        <service android:exported="false" android:name=".alarms.AlarmService"/>
+        <service android:exported="false" android:name=".timer.TimerAlertFullScreenService"/>
+        <service android:exported="false" android:name=".alarms.AlarmAlertService"/>
+        <activity android:excludeFromRecents="true" android:name="HandleApiCalls" android:permission="com.android.alarm.permission.SET_ALARM" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="HandleSetAlarm" android:targetActivity=".HandleApiCalls"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.letv.android.client.playerlibs.uiimpl.BasePlayActivityPlayerLibs" android:screenOrientation="sensor" android:taskAffinity="com.letv.player" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="msiteAction" android:scheme="leadletvclient"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.BATTERY_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:label="@string/app_label" android:name="Screensaver"> android:permission="android.permission.BIND_DREAM_SERVICE"&gt;
+<intent-filter>
+                <action android:name="android.service.dreams.DreamService"/>
+                <action android:name="android.app.action.NEXT_ALARM_CLOCK_CHANGED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.service.dream" android:resource="@xml/dream_info"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/screensaver_settings" android:name=".ScreensaverSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@android:style/Theme.Holo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.android.deskclock.timer.TimerAlertFullScreen" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/DeskClock"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/le_clockdesk_settings_icon" android:label="@string/pref_title_settings" android:name=".DeskClockSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/LeUIDeskClockSettingsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="android.application.settings.TYPE" android:value="android.application.settings.TYPE_SYSTEM"/>
+            <meta-data android:name="android.application.settings.PRIOPRITY" android:value="10"/>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name=".ChooseClockSettingDialog" android:taskAffinity=".chooseClock" android:theme="@style/leLicenceDialogTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="setRingtone" android:scheme="letvclock"/>
+            </intent-filter>
+        </activity>
+        <service android:description="@string/timer_ring_service_desc" android:exported="false" android:name="TimerRingService">
+            <intent-filter>
+                <action android:name="com.android.deskclock.TIMER_ALERT"/>
+            </intent-filter>
+        </service>
+        <service android:description="@string/timer_ring_service_desc" android:exported="false" android:name="TimerVibrateService">
+            <intent-filter>
+                <action android:name="com.android.deskclock.TIMER_ALERT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name=".alarms.staralarm.StarMediaFreeFlowService"/>
+        <service android:exported="false" android:name=".alarms.staralarm.StarMediaDownloadService"/>
+        <service android:exported="false" android:name=".alarms.starclock.download.LeStarDownloadService"/>
+        <receiver android:exported="false" android:name="com.android.deskclock.timer.TimerReceiver">
+            <intent-filter>
+                <action android:name="start_timer"/>
+                <action android:name="delete_timer"/>
+                <action android:name="times_up"/>
+                <action android:name="timer_stop"/>
+                <action android:name="timer_reset"/>
+                <action android:name="timer_done"/>
+                <action android:name="timer_update"/>
+                <action android:name="notif_in_use_show"/>
+                <action android:name="notif_in_use_cancel"/>
+                <action android:name="notif_times_up_stop"/>
+                <action android:name="notif_times_up_plus_one"/>
+                <action android:name="notif_times_up_show"/>
+                <action android:name="notif_times_up_cancel"/>
+                <action android:name="notif_timer_start"/>
+                <action android:name="notif_timer_pause"/>
+                <action android:name="notif_timer_cancel"/>
+            </intent-filter>
+        </receiver>
+        <service android:description="@string/stopwatch_service_desc" android:exported="false" android:name="com.android.deskclock.stopwatch.StopwatchService">
+            <intent-filter>
+                <action android:name="start_stopwatch"/>
+                <action android:name="lap_stopwatch"/>
+                <action android:name="stop_stopwatch"/>
+                <action android:name="reset_stopwatch"/>
+                <action android:name="share_stopwatch"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.android.deskclock.alarms.staralarm.StarAwakeStatisticsService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.letv.pp.service.CdeService" android:process=":cde"/>
+        <receiver android:icon="@drawable/ic_launcher_deskclock" android:label="@string/digital_gadget" android:name=".provider.DigitalClockWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.launcher3.WALLPAPER_MASTER_COLOR_CHANGE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/digital_clock_widget_left"/>
+        </receiver>
+        <receiver android:icon="@drawable/ic_launcher_deskclock" android:label="@string/digital_gadget" android:name=".provider.DigitalClockWidgetMiddleProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.launcher3.WALLPAPER_MASTER_COLOR_CHANGE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/digital_clock_widget_middle"/>
+        </receiver>
+        <receiver android:icon="@drawable/ic_launcher_deskclock" android:label="@string/digital_gadget" android:name=".provider.DigitalClockWidgetRightProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.launcher3.WALLPAPER_MASTER_COLOR_CHANGE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/digital_clock_widget_right"/>
+        </receiver>
+        <activity android:name=".alarms.starclock.ui.RingtoneSquareActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
+        <activity android:name=".alarms.starclock.ui.LeStarSquareActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
+        <activity android:name=".alarms.starclock.ui.LeStarDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ActionBar.Overlay"/>
+        <activity android:name=".alarms.starclock.ui.LeTopicDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ActionBar.Overlay"/>
+        <activity android:name=".alarms.starclock.ui.LeMediaListActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
+        <activity android:name=".alarms.starclock.ui.LeStarListActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".alarms.starclock.ui.LeHotMediaListActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
+        <activity android:name=".alarms.starclock.ui.LeFavoritesActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
+        <service android:exported="true" android:name=".SetRingtoneService"/>
+    </application>
+</manifest>

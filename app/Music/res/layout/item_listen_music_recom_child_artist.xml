@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/image_layout" android:layout_width="70.0dip" android:layout_height="70.0dip">
+        <com.letv.leui.widget.BorderedCircleImageView android:id="@id/cover_image" android:layout_width="70.0dip" android:layout_height="100.0dip" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" android:layout_centerVertical="true" leui:circle_radius="35.0dip" />
+        <ImageButton android:id="@id/play_button" android:background="@drawable/music_bigplay" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.letv.leui.widget.LeTextView android:textSize="14.0sp" android:textColor="@color/listenmusic_choiceness_recom_album_text" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" android:layout_below="@id/image_layout" android:layout_alignLeft="@id/image_layout" android:layout_alignRight="@id/image_layout" android:layout_centerHorizontal="true" leui:leCJKTextSize="14.0sp" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.music.widget.VideoRelativelayout android:id="@id/live_show" android:layout_width="fill_parent" android:layout_height="203.0dip">
+        <ImageView android:id="@id/video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/video_play" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/musicpeople_play" android:scaleType="center" />
+    </com.android.music.widget.VideoRelativelayout>
+    <FrameLayout android:id="@id/payment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="203.0dip" />
+    <include android:id="@id/program_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/live_show" layout="@layout/header_music_tv_list" />
+    <ListView android:id="@id/programme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/program_head" />
+    <include android:id="@id/programme_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/programme" layout="@layout/footer_music_tv_list" />
+</RelativeLayout>

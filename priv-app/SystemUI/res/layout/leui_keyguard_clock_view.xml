@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/leui_keyguard_clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/keyguard_widget_text_shadow_color" android:shadowDy="8.0" android:shadowRadius="4.0" android:format12Hour="@string/keyguard_time_format_12_hour" android:format24Hour="@string/keyguard_time_format_24_hour" style="@style/Keyguard.Clock" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/keyguard_clock_dot_padding" android:paddingEnd="@dimen/keyguard_clock_dot_padding">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keyguard_clock_dot_padding" android:src="@drawable/ic_dot" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyguard_clock_dot_padding" android:src="@drawable/ic_dot" />
+    </LinearLayout>
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/keyguard_widget_text_shadow_color" android:shadowDy="8.0" android:shadowRadius="4.0" android:format12Hour="@string/keyguard_time_format_minute" android:format24Hour="@string/keyguard_time_format_minute" style="@style/Keyguard.Clock" />
+</LinearLayout>

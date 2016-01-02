@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_item_4d" android:background="@color/white" android:paddingLeft="@dimen/le_list_item_margin" android:layout_width="fill_parent" android:layout_height="@dimen/my_video_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/snapshot" android:layout_width="@dimen/my_video_item_image_width" android:layout_height="@dimen/my_video_item_image_height" android:src="@drawable/movie_4d_the_ring" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/le_list_item_text_size" android:textColor="@color/le_list_item_text_primary" android:id="@id/title" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_list_item_icon_text_margin" android:layout_marginRight="@dimen/le_list_item_margin" android:maxLines="2" android:includeFontPadding="false" android:layout_toRightOf="@id/snapshot" android:layout_centerVertical="true" />
+</RelativeLayout>

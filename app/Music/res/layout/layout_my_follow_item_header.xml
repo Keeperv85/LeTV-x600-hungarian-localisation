@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.BorderedCircleImageView android:id="@id/borderedCircleImageView_my_follow_item_cover" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:src="@drawable/music_unknown_people" android:scaleType="centerCrop" android:layout_centerVertical="true" leui:circle_radius="20.0dip" leui:border_width="0.0dip" leui:round_background="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="46.0dip" android:layout_toRightOf="@id/borderedCircleImageView_my_follow_item_cover" android:layout_alignParentBottom="true">
+        <com.letv.leui.widget.LeTextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/textView_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" />
+        <com.letv.leui.widget.LeTextView android:textSize="10.0sp" android:textColor="#ff747474" android:ellipsize="end" android:id="@id/textView_detaill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/textView_name" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="10.0sp" />
+    </RelativeLayout>
+    <ImageView android:id="@id/action_more" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:clickable="true" android:layout_width="64.0dip" android:layout_height="24.0dip" android:src="@drawable/music_dian" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

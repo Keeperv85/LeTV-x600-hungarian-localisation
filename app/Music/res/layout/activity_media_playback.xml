@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/background_switch" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.0" />
+    <View android:id="@id/mask" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.music.widget.HorizontalSwipeSupportViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/controls" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/pager">
+        <RelativeLayout android:id="@id/left_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/delete" android:background="@null" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radiobtn_delete" />
+            <ImageButton android:id="@id/repeat" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_media_player_repeat" />
+        </RelativeLayout>
+        <ImageView android:id="@id/download_finished" android:background="@null" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="63.0dip" android:src="@drawable/download_finished_animation_pic_039" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/download" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="63.0dip" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/download1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_download_02" />
+            <ImageView android:id="@id/download2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_download_01" />
+        </LinearLayout>
+        <ImageButton android:id="@id/add_to_playlist" android:background="@null" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="63.0dip" android:src="@drawable/moreicon_add" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/radio_control" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/download" android:layout_toRightOf="@id/left_btn" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/radio_pause" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_radio_play" />
+            <com.android.music.widget.RepeatingImageButton android:id="@id/radio_next" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:src="@drawable/radiobtn_next" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/normal_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/download" android:layout_toRightOf="@id/left_btn">
+            <com.android.music.widget.RepeatingImageButton android:id="@id/prev" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_left" />
+            <ImageButton android:id="@id/pause" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:src="@drawable/btn_media_player_play" />
+            <com.android.music.widget.RepeatingImageButton android:id="@id/next" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:src="@drawable/btn_right" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/controls">
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/currenttime" android:paddingLeft="20.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/totaltime" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:fontFamily="sans-serif-light" />
+        <SeekBar android:id="@android:id/progress" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:maxHeight="3.0dip" android:progressDrawable="@drawable/media_player_seebar_progress" android:minHeight="3.0dip" android:thumb="@drawable/playbtn" android:thumbOffset="0.0dip" android:layout_below="@id/currenttime" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/vs_action_panel" android:layout="@layout/fragment_media_player_action_panel" android:inflatedId="@id/action_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

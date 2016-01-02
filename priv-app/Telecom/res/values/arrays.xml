@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leui_ic_emergency_diaplay_names">
+        <item>@string/leui_ic_emergency_police_number</item>
+        <item>@string/leui_ic_emergency_fire_number</item>
+        <item>@string/leui_ic_emergency_emergency_number</item>
+        <item>@string/leui_ic_emergency_red_cross_number</item>
+        <item>@string/leui_ic_emergency_traffic_number</item>
+    </string-array>
+</resources>

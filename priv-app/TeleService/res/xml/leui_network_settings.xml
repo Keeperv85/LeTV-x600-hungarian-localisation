@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/multisim_mobile_networks"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:title="@string/sim_settings_title" android:key="sim_cards" />
+    <PreferenceCategory android:title="@string/sim_pref_divider" android:key="sim_activities" />
+    <SwitchPreference android:persistent="false" android:title="@string/data_enabled" android:key="button_enabled_key" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/data_management_title" android:key="data_management_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <com.letv.leui.phone.RealtimeSpeedSwitchPreference android:persistent="false" android:title="@string/realtime_enabled" android:key="button_realtime_key" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/data_usage_summary" android:key="enable_datausage_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/preferred_network_mode_choices" android:title="@string/preferred_network_mode_title" android:key="preferred_network_mode_key" android:summary="@string/preferred_network_mode_summary" android:entryValues="@array/preferred_network_mode_values" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/enabled_networks_choices" android:title="@string/preferred_network_mode_title" android:key="enabled_networks_key" android:entryValues="@array/enabled_networks_values" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/gsm_umts_network_preferences_choices" android:title="@string/gsm_umts_network_preferences_title" android:key="gsm_umts_preferred_network_mode_key" android:summary="@string/gsm_umts_network_preferneces_summary" android:entryValues="@array/gsm_umts_network_preferences_values" />
+    <SwitchPreference android:persistent="false" android:title="@string/enhanced_4g_lte_mode_title" android:key="enhanced_4g_lte" android:summary="@string/enhanced_4g_lte_mode_summary" />
+    <PreferenceScreen android:title="@string/cdma_lte_data_service" android:key="cdma_lte_data_service_key" />
+    <com.letv.leui.phone.DefaultDialogPreferenceForData android:title="@string/cellular_data_title" android:key="sim_cellular_data" android:dialogTitle="@string/sim_cards_celluar_data_dialog_title" />
+    <com.letv.leui.phone.DefaultDialogPreference android:title="@string/calls_title" android:key="sim_calls" android:dialogTitle="@string/sim_cards_calls_dialog_title" />
+</PreferenceScreen>

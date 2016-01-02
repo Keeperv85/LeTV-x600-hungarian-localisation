@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sim_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:singleLine="true" android:title="@string/sim_editor_name" android:key="sim_name" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/sim_editor_name" />
+    <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:phoneNumber="true" android:title="@string/sim_editor_number" android:key="sim_number" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/sim_editor_number" />
+    <com.letv.leui.settings.sim.LeColorPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/sim_info_editor_color" android:key="sim_color" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+</PreferenceScreen>

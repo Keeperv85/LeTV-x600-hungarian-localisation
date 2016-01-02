@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="267.0dip">
+                <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_vertical" android:id="@id/company_bg_net_img" android:layout_width="fill_parent" android:layout_height="192.0dip" android:scaleType="fitXY" />
+                <ImageView android:id="@id/company_bg_img" android:layout_width="fill_parent" android:layout_height="192.0dip" android:scaleType="fitXY" />
+                <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+                    <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_vertical" android:id="@id/company_head_img" android:layout_width="75.0dip" android:layout_height="75.0dip" android:scaleType="centerCrop" />
+                    <ImageView android:id="@id/company_head" android:background="@drawable/firm_img" android:layout_width="75.0dip" android:layout_height="75.0dip" />
+                </FrameLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_below="@id/company_bg_img">
+                    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="107.0dip" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                    <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/guanzhu_text" android:background="@drawable/follow_bg" android:visibility="gone" android:layout_width="74.0dip" android:layout_height="34.0dip" android:layout_marginRight="16.0dip" android:text="@string/guanzhu" android:fontFamily="helve-neue-regular" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/company_call" android:background="@drawable/text_selected" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_phone" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/company_tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="helve-neue-regular" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff898b94" android:id="@id/tel_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dianhua" android:layout_below="@id/company_tel" android:fontFamily="helve-neue-regular" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff898b94" android:id="@id/tel_carrier" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:text="@string/yidong" android:layout_toRightOf="@id/tel_type" android:layout_below="@id/company_tel" android:fontFamily="helve-neue-regular" />
+                </RelativeLayout>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_msg" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/detail_icon_message_btn" />
+            </LinearLayout>
+            <View android:layout_gravity="right" android:background="#ffc6c7cb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/company_address" android:background="@drawable/text_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_address" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/company_address_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/address_demo" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/detail_icon_address_btn" />
+            </LinearLayout>
+            <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+            <RelativeLayout android:id="@id/service_package_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <com.letv.android.letvyellowpage.view.MyGridView android:id="@id/service_package_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="18.0dip" android:verticalSpacing="20.0dip" android:numColumns="4" />
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/calllog" android:background="@drawable/text_selected" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_record" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/call_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/tonghuajilu" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" />
+            </LinearLayout>
+            <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/after_service_layout" android:background="@drawable/text_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/after_service_title_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_custom" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/after_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/shouhoufuwu" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/after_service_title_img" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/fendian" android:background="@drawable/text_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/fendian_title_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_nearby" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/near_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/fujinmendian" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/fendian_title_img" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/offical_site" android:background="@drawable/text_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/offical_title_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_web" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/website" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/guanfangwangzhan" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/offical_title_img" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/offical_weibo" android:background="@drawable/text_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/weibo_title_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_weibo" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/weibo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/guanfangweibo" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/weibo_title_img" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/managament_app" android:background="@drawable/text_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/managament_title_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_bg_blue" android:layout_centerVertical="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/detail_icon_app" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/manage_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/zhinengguanli" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/managament_title_img" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:id="@id/data_from" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="@string/rq_shujulaiyuan" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+            <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/detail_sougou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_bg_blue" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_38" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/data_from_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@id/detail_sougou" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sogo_47_47" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+            <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/spokesman_title" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true">
+                    <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/pinpaidaiyanren" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                    <LinearLayout android:id="@id/spokesman_more" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <TextView android:textSize="12.0sp" android:textColor="#ffc6c7cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/gengduo" android:layout_alignParentRight="true" android:fontFamily="helve-neue-regular" />
+                        <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" />
+                    </LinearLayout>
+                    <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/spokesman_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="18.0dip" android:layout_below="@id/spokesman_title">
+                    <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/photo_head_normal" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/photo_head_normal" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/photo_head_normal" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/photo_head_normal" />
+                </LinearLayout>
+                <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/bizhituijian_title" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true">
+                    <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/bizhituijian" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                    <LinearLayout android:id="@id/wallpaper_more" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <TextView android:textSize="12.0sp" android:textColor="#ffc6c7cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/gengduo" android:fontFamily="helve-neue-regular" />
+                        <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" />
+                    </LinearLayout>
+                    <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <HorizontalScrollView android:layout_gravity="center_vertical" android:id="@id/bizhituijian_layout" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="204.0dip" android:layout_below="@id/bizhituijian_title">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+                        <ImageView android:background="#ff000000" android:layout_width="112.0dip" android:layout_height="168.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="18.0dip" />
+                        <ImageView android:background="#ff000000" android:layout_width="112.0dip" android:layout_height="168.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="18.0dip" />
+                        <ImageView android:background="#ff000000" android:layout_width="112.0dip" android:layout_height="168.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="18.0dip" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <View android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/video_title" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                    <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/xiangguanshipin" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+                    <LinearLayout android:id="@id/video_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                        <TextView android:textSize="12.0sp" android:textColor="#ffc6c7cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/gengduo" android:fontFamily="helve-neue-regular" />
+                        <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" />
+                    </LinearLayout>
+                    <View android:layout_gravity="right" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <HorizontalScrollView android:layout_gravity="center_vertical" android:id="@id/video_layout" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="156.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="48.0dip" android:layout_below="@id/video_title">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip">
+                            <ImageView android:background="#ff000000" android:layout_width="144.0dip" android:layout_height="108.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" />
+                            <TextView android:textSize="12.0sp" android:textColor="#ff54555c" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/benchiguanggao" android:fontFamily="helve-neue-regular" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+            <View android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_fxiang" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/add_blacklist" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/block_block" />
+            <TextView android:textSize="10.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/blacklist_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/jiaruheimingdan" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/add_fenxiang" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_33" />
+            <TextView android:textSize="10.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/rq_fenxiang" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/detail_fxiang" />
+</RelativeLayout>

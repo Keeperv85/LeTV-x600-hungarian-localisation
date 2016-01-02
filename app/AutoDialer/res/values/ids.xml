@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="Button_StartTest">false</item>
+    <item type="id" name="LinearLayout_Settings">false</item>
+    <item type="id" name="Button_Loops">false</item>
+    <item type="id" name="TextView_Loops">false</item>
+    <item type="id" name="Button_EndCallDuration">false</item>
+    <item type="id" name="TextView_EndCallDuration">false</item>
+    <item type="id" name="Button_PhoneCallDuration">false</item>
+    <item type="id" name="TextView_PhoneCallDuration">false</item>
+    <item type="id" name="RadioButton_Hot">false</item>
+    <item type="id" name="RadioButton_Warm">false</item>
+    <item type="id" name="RadioButton_Cold">false</item>
+    <item type="id" name="RadioButton_Full">false</item>
+    <item type="id" name="RadioButton_Phone_911">false</item>
+    <item type="id" name="RadioButton_Phone_8378911">false</item>
+    <item type="id" name="RadioButton_Phone_Edit">false</item>
+    <item type="id" name="EditText_PhoneEdit">false</item>
+    <item type="id" name="TextView_Info">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

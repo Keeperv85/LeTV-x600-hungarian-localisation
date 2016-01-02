@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="图标-亮度-高_1_" android:fillColor="#ff000000" android:pathData="M96,76c-11.028,0-20,8.972-20,20  c0,11.028,8.972,20,20,20c11.028,0,20-8.972,20-20C116,84.972,107.028,76,96,76z M96,112c-8.822,0-16-7.178-16-16s7.178-16,16-16  s16,7.178,16,16S104.822,112,96,112z M72,94H56v4h16V94z M98,56h-4v16h4V56z M94,136h4v-16h-4V136z M120,94v4h16v-4H120z   M80.444,77.615L69.13,66.302l-2.828,2.828l11.313,11.314L80.444,77.615z M125.698,69.13l-2.828-2.828l-11.313,11.313l2.828,2.829  L125.698,69.13z M111.557,114.385l11.313,11.313l2.828-2.828l-11.313-11.313L111.557,114.385z M66.302,122.87l2.828,2.828  l11.314-11.313l-2.829-2.828L66.302,122.87z" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:screenOrientation="portrait" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ps_fw_rule_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ps_fw_rule_note" style="@style/info_label" />
+    <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_width="fill_parent" style="@style/entry_layout">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ps_fw_rule" style="@style/info_label" />
+        <TextView android:id="@id/ps_fw_rule_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_value" />
+    </LinearLayout>
+    <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" style="@style/entry_layout">
+        <Button android:id="@id/btn_enable_fw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_enable_fw" />
+        <Button android:id="@id/btn_disable_fw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_disable_fw" />
+        <CheckBox android:id="@id/chk_stk_fw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chk_gcf_stk" />
+    </LinearLayout>
+    <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

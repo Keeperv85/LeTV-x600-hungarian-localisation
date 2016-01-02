@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/selection_drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/contact_picker" />
+    <FrameLayout android:layout_gravity="start" android:id="@id/selection_left_layout" android:layout_width="270.0dip" android:layout_height="fill_parent">
+        <include layout="@layout/group_sliding_menu" />
+    </FrameLayout>
+</android.support.v4.widget.DrawerLayout>

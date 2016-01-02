@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/clock_white" android:ellipsize="end" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/label" />
+    <TextView android:textColor="@color/clock_gray" android:ellipsize="none" android:id="@id/city_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/style_label_space" android:singleLine="true" android:layout_marginStart="@dimen/style_label_space" style="@style/label" />
+</merge>

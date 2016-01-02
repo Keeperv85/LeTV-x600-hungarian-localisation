@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/notification_panel_header_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:WeatherTextView="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_height" android:baselineAligned="false">
+            <com.android.systemui.statusbar.phone.CarrierText android:textAppearance="@style/TextAppearance.StatusBar.CarrierText" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/expanded_carrier_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:alpha="255.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="10.0dip">
+            <LinearLayout android:enabled="true" android:gravity="center_vertical" android:id="@id/datetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+                <include layout="@layout/leui_statusbar_expanded_header_clock_view" />
+                <com.android.systemui.statusbar.policy.DateView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" android:lineSpacingExtra="4.0dip" android:fontFamily="helve-neue-regular" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.leui.keyguard.WeatherTextView android:textSize="12.0sp" android:gravity="bottom|center|right" android:layout_gravity="bottom" android:id="@id/weather_view" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" WeatherTextView:tagSuffix="_Statusbar" WeatherTextView:showIcon="true" WeatherTextView:showRange="true" WeatherTextView:celsiusOrFahrenheit="true" WeatherTextView:showDescription="false" WeatherTextView:iconWidth="@dimen/weather_icon_size" WeatherTextView:iconHeight="@dimen/weather_icon_size" WeatherTextView:iconGravity="top" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

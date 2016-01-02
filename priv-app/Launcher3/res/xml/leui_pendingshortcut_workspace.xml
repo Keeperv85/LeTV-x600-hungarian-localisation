@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <leui-pendingshortcut launcher:packageName="com.letv.auto" launcher:screen="2" launcher:x="1" launcher:y="0" launcher:title="@string/pending_shortcut_leauto" />
+</favorites>

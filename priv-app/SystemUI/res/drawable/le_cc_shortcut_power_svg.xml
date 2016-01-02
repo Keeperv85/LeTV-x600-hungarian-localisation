@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="setting_hotspot" android:fillColor="#ff000000" android:pathData="M117.286,59H110v-1c0-2.209-1.791-4-4-4H86c-2.209,0-4,1.791-4,4v1h-5.441C72.511,59,68,62.103,68,66.556v58.889 c0,4.453,4.511,7.556,8.559,7.556h40.728c3.342,0,6.714-2.336,6.714-7.556V66.556C124,61.336,120.628,59,117.286,59z M116,125H76 V67h40V125z M93,108h6v-9h9v-6h-9v-9h-6v9h-9v6h9V108z" />
+</vector>

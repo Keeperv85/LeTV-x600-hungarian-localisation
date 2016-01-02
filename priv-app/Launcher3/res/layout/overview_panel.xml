@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/widget_button" android:layout_marginLeft="@dimen/overview_bar_item_margin" android:text="@string/widget_button_text" android:drawableTop="@drawable/widget_button" style="@style/LeTextView.Shadow.OverviewPanelButton" />
+    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:layout_gravity="center|top" android:id="@id/theme_button" android:text="@string/theme_button_text" android:drawableTop="@drawable/theme_button" style="@style/LeTextView.Shadow.OverviewPanelButton" />
+    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:id="@id/wallpaper_button" android:text="@string/wallpaper_button_text" android:drawableTop="@drawable/wallpaper_button" style="@style/LeTextView.Shadow.OverviewPanelButton" />
+    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:id="@id/icon_layout_button" android:layout_marginRight="@dimen/overview_bar_item_margin" android:text="@string/icon_layout_button_text" android:drawableTop="@drawable/icon_layout_button" style="@style/LeTextView.Shadow.OverviewPanelButton" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@android:color/transparent" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="12.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView0" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/leui_battery_saver_notification_icon44dp" />
+            <ImageView android:id="@id/imageViewSmall" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/leui_battery_saver_notification_warn16dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/text_content_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/battery_waring_more_title" android:fontFamily="helve-neue-regular" />
+            <TextView android:textSize="12.0dip" android:textColor="#a5ffffff" android:id="@id/text_content1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/battery_waring_two_context" android:fontFamily="helve-neue-regular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="7.0dip">
+            <ImageView android:id="@id/imageView1" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" />
+            <ImageView android:id="@id/imageView2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" />
+            <ImageView android:id="@id/imageView3" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" />
+            <ImageView android:id="@id/imageView4" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" />
+            <ImageView android:id="@id/imageView5" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" />
+            <TextView android:id="@id/text_content_dot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/battery_more" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

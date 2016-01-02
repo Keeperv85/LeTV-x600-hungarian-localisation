@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_video_shutter_recording_holo">@drawable/btn_video_shutter_recording_holo_xlarge</item>
+    <item type="drawable" name="btn_video_shutter_recording_pressed_holo">@drawable/btn_video_shutter_recording_pressed_holo_xlarge</item>
+</resources>

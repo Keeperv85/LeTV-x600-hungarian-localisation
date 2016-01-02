@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.leui.KeyguardPINViewLeui android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_pin_view" android:paddingTop="@dimen/security_container_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_pin_unlock" androidprv:layout_maxHeight="@dimen/keyguard_security_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/num_input_entry_and_tips" />
+    <com.leui.keyguard.GravityScrollView android:gravity="center_horizontal" android:id="@id/gravity_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include layout="@layout/num_key_pad" />
+            <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/emergency_btn_bottom_margin" layout="@layout/leui_keyguard_emergency_carrier_area" />
+        </LinearLayout>
+    </com.leui.keyguard.GravityScrollView>
+</com.android.keyguard.leui.KeyguardPINViewLeui>

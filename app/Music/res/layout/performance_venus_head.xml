@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/venus_head_ahead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip">
+        <RelativeLayout android:id="@id/venus_name" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/performance_location_head_location_image" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/musicsearch_icon_1" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff383838" android:id="@id/performance_location_head_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/performance_location_head_location_image" android:fontFamily="helve-neue" app:leCJKFontFamily="hans-sans" app:leCJKTextSize="12.0sp" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ffbcbcbc" android:id="@id/performance_location_head_location_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="56.0dip" android:layout_marginBottom="16.0dip" android:layout_below="@id/venus_name" android:lineSpacingExtra="4.0dip" android:fontFamily="helve-neue" app:leCJKFontFamily="hans-sans" app:leCJKTextSize="12.0sp" />
+        <View android:background="@color/listview_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/performance_location_head_location_detail" />
+        <ImageView android:id="@id/performance_location_head_map_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/musicplay_icon_gprs" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/performance_venue_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/venus_head_ahead">
+        <ImageView android:id="@id/performance_venue_title_image" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/musicsearch_icon_1" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff383838" android:id="@id/performance_venue_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/latest_performance" android:layout_toRightOf="@id/performance_venue_title_image" android:layout_centerVertical="true" android:fontFamily="helve-neue" app:leCJKFontFamily="hans-sans" app:leCJKTextSize="12.0sp" />
+    </RelativeLayout>
+</RelativeLayout>

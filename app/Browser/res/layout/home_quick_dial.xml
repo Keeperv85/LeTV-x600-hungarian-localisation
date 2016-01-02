@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/home_quick_dial_linear" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.browser.home.HomeSearchBox android:layout_gravity="center" android:id="@id/homeSearchBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+    <com.android.browser.home.homequickdial.HomeDynamicGridView2 android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/home_quick_dial_grid" android:paddingBottom="5.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/home_quick_dial_home_dynamic_gridview_margin_left" android:layout_marginBottom="@dimen/menu_bar_height" android:listSelector="@color/transparent" android:horizontalSpacing="2.0dip" android:verticalSpacing="@dimen/home_quick_dial_icon_vertical_spacing" android:stretchMode="spacingWidthUniform" android:columnWidth="@dimen/le_quick_dial_item" android:numColumns="4" android:layout_weight="1.0" android:overScrollMode="never" />
+</LinearLayout>

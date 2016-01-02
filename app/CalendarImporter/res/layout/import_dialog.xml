@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/result_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/import_title" style="?android:attr/windowTitleStyle" />
+    <View android:id="@id/result_divide_line" android:background="@android:color/holo_blue_light" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" />
+    <TextView android:id="@id/import_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:text="@string/importing" style="?android:attr/textAppearanceMedium" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textColor="#ff000000" android:gravity="right" android:id="@id/progress_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/progresshundred" />
+        <ProgressBar android:id="@id/import_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:max="100" android:progress="0" android:layout_below="@id/progress_number" style="?android:attr/progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="30.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/button_open" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/button_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

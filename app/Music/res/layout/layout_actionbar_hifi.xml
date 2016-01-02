@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_view_ripple" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/actionabr_playing_icon_min_width" android:minHeight="@dimen/actionabr_playing_icon_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/hifi_icon" android:background="@drawable/hifi_off" android:layout_width="58.0dip" android:layout_height="12.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

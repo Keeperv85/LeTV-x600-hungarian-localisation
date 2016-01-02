@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/res/com.android.settings">
+    <com.letv.leui.settings.widget.LeUIPreviewWidget android:id="@id/notification_app_preview01" android:background="@color/leui_status_bar_background" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" leui:LeUIStationModeCount="2" leui:LeUIStationModeIMGArray="@array/leui_notification_app_settings_preview_01" leui:LeUIStationModeNameTitle="@string/leui_notification_app_preview_01" />
+    <View android:background="@color/leui_status_bar_background" android:focusable="false" android:clickable="false" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+    <com.letv.leui.settings.widget.LeUIPreviewWidget android:id="@id/notification_app_preview02" android:background="@color/leui_status_bar_background" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="@android:dimen/le_preference_padding_end" leui:LeUIStationModeCount="4" leui:LeUIStationModeIMGArray="@array/leui_notification_app_settings_preview_02" leui:LeUIStationModeNameTitle="@string/leui_notification_app_preview_02" />
+</LinearLayout>

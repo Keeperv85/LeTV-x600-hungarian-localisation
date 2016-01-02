@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="blur_bottom_height" format="dimension" />
+    <attr name="blur_top_height" format="dimension" />
+    <attr name="blur_enable" format="boolean" />
+</resources>

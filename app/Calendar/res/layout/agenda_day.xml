@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_divider_simple" android:background="@color/agenda_list_separator_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/top_divider_past_present" android:background="@color/agenda_past_present_separator_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_padding_horizontal">
+        <TextView android:textSize="14.0dip" android:textColor="@color/sub_basic" android:gravity="center_vertical" android:id="@id/date" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:singleLine="true" android:layout_alignParentTop="true" />
+        <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

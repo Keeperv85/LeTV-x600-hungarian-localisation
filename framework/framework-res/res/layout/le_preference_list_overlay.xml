@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:paddingTop="@dimen/le_preference_category_paddingTop" android:paddingBottom="@dimen/le_preference_category_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceSmall" android:textColor="@color/white" android:gravity="right" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_preference_arrow_cycle" android:title="LeListPre1" android:key="LeListPre1" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/setting_confirm_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentBottom="true">
+        <View android:background="#3cffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <Button android:id="@id/setting_confirm_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/confirm" style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/category_title_foreground" android:gravity="center" android:id="@id/setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_above="@id/setting_confirm_layout" android:layout_below="@id/setting_title">
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_body_layout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    </ScrollView>
+</RelativeLayout>

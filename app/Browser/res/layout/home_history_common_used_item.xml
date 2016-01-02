@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.BorderedRoundedCornersImageView android:layout_gravity="center" android:id="@id/home_history_icon" android:layout_width="@dimen/le_home_commonly_used_icon" android:layout_height="@dimen/le_home_commonly_used_icon" android:scaleType="center" app:corner_radius="@dimen/le_home_guide_most_visited_icon_corner_radius" app:round_background="true" />
+    <TextView android:textSize="@dimen/le_home_history_common_used_item_text_size" android:textColor="@color/le_home_history_common_used_item_text" android:ellipsize="end" android:gravity="center" android:id="@id/home_history_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_home_history_most_visited_item_text_margin" android:singleLine="true" android:includeFontPadding="false" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="padded">
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Leui">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.Leui">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="InstallAppTheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/InstallAppAnim</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorControlActivated">@color/shallowgreen</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/change_image_transform_enter</item>
+        <item name="android:statusBarColor">@color/lightgrey</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="InstallAppProgressTheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorControlActivated">@color/shallowgreen</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/change_image_transform_enter</item>
+        <item name="android:statusBarColor">@color/lightgrey</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+    <style name="InstallAppAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/le_activity_temporary_appear_start_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/le_activity_temporary_appear_start_out</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+    <style name="GrantActivityDialog" parent="@android:style/Theme.Leui">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+</resources>

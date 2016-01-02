@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/le_share_specail_icon_color_selector" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M86,10H10c-3.314,0-6,2.686-6,6v64c0,3.314,2.686,6,6,6h76c3.314,0,6-2.686,6-6V16   C92,12.686,89.314,10,86,10z M86,80H10v-3.331l19.184-19.184l8.074,8.073l4.243,4.243l4.243-4.243l26.074-26.073L86,53.669V80z    M86,45.184L71.816,31L41.5,61.316L29.184,49L10,68.184V16h76V45.184z M27,38c2.761,0,5-2.239,5-5s-2.239-5-5-5s-5,2.239-5,5   S24.239,38,27,38z" />
+</vector>

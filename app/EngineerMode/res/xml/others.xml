@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/settings_font" android:key="settings_font">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.settingsfontsize.SettingsFontSize" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/swla" android:key="swla">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.swla.SwlaActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/thermal" android:key="thermal">
+        <intent android:targetPackage="com.mediatek.thermalmanager" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.thermalmanager.MTKThermalManagerActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/thermal_stress_test" android:key="thermal_Stress_Test">
+        <intent android:targetPackage="com.mediatek.mtkthermalstress" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.mtkthermalstress.MainActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/configure_check2_send_test" android:key="ConfigureCheck2_Send_Test">
+        <intent android:targetPackage="com.mediatek.configurecheck2" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.configurecheck2.CMCCSendTestActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/configure_check2_self_test" android:key="ConfigureCheck2_Self_Test">
+        <intent android:targetPackage="com.mediatek.configurecheck2" android:targetClass="com.mediatek.configurecheck2.ManSelfTestActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/cmcc_ftprecheck" android:key="cmcc_ftprecheck">
+        <intent android:targetPackage="com.mediatek.ftprecheck" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.ftprecheck.FTPreCheckActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/system_update" android:key="system_update">
+        <intent android:targetPackage="com.mediatek.systemupdate" android:action="com.mediatek.systemupdate.UPDATE_TYPE_OPTION" android:targetClass="com.mediatek.systemupdate.UpdateOption" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/usbacm" android:key="usbacm">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.usbacm.UsbAcm" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/saber" android:key="saber">
+        <intent android:targetPackage="com.viatelecom.saber" android:action="android.intent.action.MAIN" android:targetClass="com.viatelecom.saber.VIASaberActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/cip_title" android:key="cip">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.cip.CipPropContentActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/voice_settings_title" android:key="voice_settings">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.voicesettings.VoiceList" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/usb_checker_enabler" android:key="usb_checker_enabler">
+        <intent android:targetPackage="com.mediatek.usbchecker" android:targetClass="com.mediatek.usbchecker.EnablerActivity" />
+    </Preference>
+</PreferenceScreen>

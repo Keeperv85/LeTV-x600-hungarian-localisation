@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/image_layout_left" android:background="@color/black" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.android.music.widget.SquareImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/play_button" android:background="@drawable/music_bigplay" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/image_layout_right" android:background="@color/black" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.android.music.widget.SquareImageView android:layout_gravity="center" android:id="@id/cover_image1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" />
+        <com.letv.leui.widget.LeTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="10.0dip" leui:leCJKTextSize="14.0sp" style="@style/listen_music_recom" />
+        <com.letv.leui.widget.LeTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/title" leui:leCJKTextSize="12.0sp" />
+        <com.letv.leui.widget.LeTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/name2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/name1" leui:leCJKTextSize="12.0sp" />
+        <com.letv.leui.widget.LeTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/name3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/name2" leui:leCJKTextSize="12.0sp" />
+        <com.letv.leui.widget.LeTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/name4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/name3" leui:leCJKTextSize="12.0sp" />
+    </RelativeLayout>
+</LinearLayout>

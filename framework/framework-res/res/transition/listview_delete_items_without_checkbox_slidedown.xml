@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:duration="150" android:fadingMode="fade_out" />
+    <transitionSet android:duration="300" android:transitionOrdering="together">
+        <changeBounds android:interpolator="@interpolator/fast_out_slow_in" />
+        <slide android:interpolator="@interpolator/fast_out_slow_in" android:slideEdge="top" android:transitionVisibilityMode="mode_in" />
+    </transitionSet>
+</transitionSet>

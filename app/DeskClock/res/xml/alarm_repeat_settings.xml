@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/alarm_setting_title_ringtone" android:key="alarm_alert_ettings"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.preference.LeRadioGroupPreference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:key="pref_repeat_set" android:defaultValue="pref_repeat_0">
+        <com.letv.leui.preference.LeRadioPreference android:persistent="false" android:title="@string/alarm_repeat_never" android:key="pref_repeat_0" android:checkedTextColor="@color/le_radio_preference_checked_title_color" android:uncheckedTextColor="@color/le_radio_preference_unchecked_title_color" android:leBoxArrowColorWithoutBorder="@color/le_box_arrow_color" />
+        <com.letv.leui.preference.LeRadioPreference android:persistent="false" android:title="@string/alarm_repeat_work_day" android:key="pref_repeat_1" android:checkedTextColor="@color/le_radio_preference_checked_title_color" android:uncheckedTextColor="@color/le_radio_preference_unchecked_title_color" android:leBoxArrowColorWithoutBorder="@color/le_box_arrow_color" />
+        <com.letv.leui.preference.LeRadioPreference android:persistent="false" android:title="@string/alarm_repeat_every_day" android:key="pref_repeat_2" android:checkedTextColor="@color/le_radio_preference_checked_title_color" android:uncheckedTextColor="@color/le_radio_preference_unchecked_title_color" android:leBoxArrowColorWithoutBorder="@color/le_box_arrow_color" />
+        <com.letv.leui.preference.LeRadioPreference android:persistent="false" android:title="@string/alarm_repeat_six_day" android:key="pref_repeat_3" android:checkedTextColor="@color/le_radio_preference_checked_title_color" android:uncheckedTextColor="@color/le_radio_preference_unchecked_title_color" android:leBoxArrowColorWithoutBorder="@color/le_box_arrow_color" />
+    </com.letv.leui.preference.LeRadioGroupPreference>
+    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:title="@string/alarm_repeat_custom" android:key="pref_repeat_custom" />
+</PreferenceScreen>

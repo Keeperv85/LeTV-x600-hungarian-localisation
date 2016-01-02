@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/recent_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android" xmlns:leui="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/app_thumbnail" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/app_thumbnail_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:corner_radius="2.0dip" />
+    </RelativeLayout>
+    <ImageView android:id="@id/app_icon" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:scaleType="centerInside" android:minWidth="32.0dip" android:minHeight="32.0dip" android:layout_below="@id/app_thumbnail" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/status_bar_recents_app_label_text_size" android:textColor="@color/status_bar_recents_app_label_color" android:ellipsize="marquee" android:id="@id/app_label" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/app_icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

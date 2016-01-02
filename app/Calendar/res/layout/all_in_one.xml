@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/clalendar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0dip" android:textColor="#80ffffff" android:gravity="center|right" android:id="@id/home_time" android:background="@color/calendar_date_banner_background" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:fontFamily="@string/english_font_light" />
+            <FrameLayout android:id="@id/main_pane" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/secondary_pane" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/mini_month_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <FrameLayout android:id="@id/mini_month" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <FrameLayout android:id="@id/calendar_list" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/event_search_result_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/alphaLayout" android:background="#af000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

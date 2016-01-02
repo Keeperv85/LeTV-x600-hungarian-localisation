@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen settings:keywords="@string/keywords_battery"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/battery_timealign" android:key="leui_key_timealign_enable" android:summary="@string/battery_timealign_summary" />
+    <SwitchPreference android:title="@string/leui_timealign_twilight" android:key="leui_key_timealign_twilight_enable" android:summary="@string/battery_timealign_twilight_summary" />
+</PreferenceScreen>

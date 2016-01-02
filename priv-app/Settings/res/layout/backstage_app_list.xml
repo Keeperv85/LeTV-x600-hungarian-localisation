@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/le_back_app_listlayout" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:paddingTop="@android:dimen/le_preference_category_paddingTop" android:paddingBottom="@android:dimen/le_preference_category_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@android:dimen/le_preference_category_hight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+            <TextView android:id="@id/le_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/leui_backstage_power_notify_app_summary" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+            <include layout="@layout/leui_divider" />
+        </LinearLayout>
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="@android:integer/preference_fragment_scrollbarStyle" android:id="@android:id/list" android:paddingTop="@dimen/dashboard_padding_top" android:paddingBottom="@dimen/dashboard_padding_bottom" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin" style="@style/PreferenceFragmentListSinglePane" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/le_back_app_empty" android:visibility="gone" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/back_app_empty_picture" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/leui_battery_backgroud_empty50dp" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/back_app_empty_descrp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/battery_none_app" />
+    </LinearLayout>
+</LinearLayout>

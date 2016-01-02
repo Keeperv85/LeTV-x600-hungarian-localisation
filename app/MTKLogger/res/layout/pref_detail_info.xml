@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/pref_detail_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:key="pref_detail"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/report_status" android:title="@string/status">
+        <Preference android:title="@string/log_id" android:key="@string/pref_key_log_id" />
+        <Preference android:title="@string/cr_id" android:key="@string/pref_key_cr_id" />
+        <Preference android:title="@string/upload_status" android:key="@string/pref_key_upload_status" />
+        <Preference android:title="@string/upload_time" android:key="@string/pref_key_upload_time" />
+    </PreferenceCategory>
+    <PreferenceCategory android:id="@id/category_detail_logs" android:title="@string/logs" android:key="@string/pref_category_key_logs">
+        <Preference android:key="@string/pref_key_mobile_log" />
+        <Preference android:key="@string/pref_key_modem_log" />
+        <Preference android:key="@string/pref_key_network_log" />
+    </PreferenceCategory>
+    <PreferenceCategory android:id="@id/category_basic_info" android:title="@string/basic_info">
+        <Preference android:key="@string/pref_key_exception_db" />
+        <Preference android:key="@string/pref_key_process_name" />
+        <Preference android:key="@string/pref_key_exception_class" />
+        <Preference android:key="@string/pref_key_exception_level" />
+        <Preference android:key="@string/pref_key_exception_type" />
+        <Preference android:key="@string/pref_key_build_version" />
+        <Preference android:key="@string/pref_key_device_name" />
+        <Preference android:key="@string/pref_key_date_time" />
+    </PreferenceCategory>
+</PreferenceScreen>

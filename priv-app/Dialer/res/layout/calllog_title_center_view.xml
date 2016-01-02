@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/calllog_filter_title_contain" android:layout_width="wrap_content" android:layout_height="@dimen/system_actionbar_height" android:layout_marginLeft="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/leTopWidget_textview_text_size" android:textColor="@android:color/black" android:id="@id/filte_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calllog_all" />
+    <ImageView android:id="@id/filte_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/calllog_type_arrow_down" />
+</LinearLayout>

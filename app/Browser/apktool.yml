@@ -1,0 +1,22 @@
+version: 2.0.2
+apkFileName: Browser.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0.2-21
+sharedLibrary: false
+unknownFiles:
+  com/dtr/zbar/build/ZBarDecoder.java: '8'
+  com/letv/tracker/agnes/agnes.properties: '8'
+doNotCompress:
+- resources.arsc
+- assets/licence.conf
+- assets/tms_licence.ini

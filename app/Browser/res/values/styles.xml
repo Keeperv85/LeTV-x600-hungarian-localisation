@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrowserSetting" parent="@android:style/Theme.Leui">
+        <item name="android:actionBarStyle">@style/actionbar_style_setting</item>
+        <item name="android:actionMenuTextAppearance">@style/SettingMenuTextStyle</item>
+        <item name="android:statusBarColor">@color/application_main_color_bg</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="BrowserSetting_night" parent="@android:style/Theme.Leui">
+        <item name="android:textColor">@color/download_disabled</item>
+        <item name="android:background">@color/application_main_color_bg_night</item>
+        <item name="android:actionBarStyle">@style/actionbar_style_setting_night</item>
+        <item name="android:actionMenuTextAppearance">@style/SettingMenuTextStyle</item>
+        <item name="android:statusBarColor">@color/application_main_color_bg_night</item>
+        <item name="android:leStatusBarIconColor">@color/white</item>
+    </style>
+    <style name="SettingMenuTextStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/setting_main_color</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="VideomoreTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:colorBackground">@color/application_main_color_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/application_main_color_bg</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="DownloadTheme">
+        <item name="android:colorBackground">@color/application_main_color_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/application_main_color_bg</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="BrowserTheme" parent="@android:style/Theme.Leui">
+        <item name="android:colorBackground">@color/application_main_color_bg</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@style/actionbar_style</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="noAnimTheme" parent="@style/BrowserTheme">
+        <item name="android:windowBackground">@drawable/splash_portrait</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="MainActivityTheme" parent="@style/BrowserTheme">
+        <item name="android:windowBackground">@drawable/splash_portrait</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="BookmarkTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/bg_urlbar</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="Suggestions" parent="@android:style/Widget.Holo.AutoCompleteTextView">
+        <item name="android:popupBackground">#d0000000</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="SuggestionLineMedium" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="SuggestionLineSmall" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="ActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="ShortcutTheme" parent="@android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="TitleBar">
+        <item name="android:windowEnterAnimation">@anim/title_bar_enter</item>
+        <item name="android:windowExitAnimation">@anim/title_bar_exit</item>
+    </style>
+    <style name="HoloIcon">
+        <item name="android:layout_marginLeft">16.0dip</item>
+    </style>
+    <style name="HoloButton">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+    </style>
+    <style name="TabTitleSelected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TabTitleUnselected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="AutofillProfileTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2.0dip</item>
+    </style>
+    <style name="AutofillProfileEditText" parent="@style/AutofillProfileTextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext|flagNoExtractUi</item>
+    </style>
+    <style name="SearchSuggestionListView" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:color">@android:color/darker_gray</item>
+    </style>
+    <style name="AddQuickDialDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ComboTheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/actionbar_style</item>
+        <item name="android:actionModeBackground">@color/application_main_color_bg</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:actionMenuTextAppearance">@style/textAppearanceMenu</item>
+        <item name="android:statusBarColor">@color/application_main_color_bg</item>
+    </style>
+    <style name="actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:displayOptions">none</item>
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+        <item name="android:actionMenuTextColor">@color/actionBar_title_text_color</item>
+    </style>
+    <style name="actionbar_style_setting" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/setting_actionbar_color</item>
+        <item name="android:displayOptions">useLogo</item>
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle_setting</item>
+    </style>
+    <style name="actionbar_style_setting_night" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/application_main_color_bg_night</item>
+        <item name="android:displayOptions">useLogo</item>
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle_setting_night</item>
+    </style>
+    <style name="MyVideoTheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/actionbar_style</item>
+        <item name="android:actionModeBackground">@color/application_main_color_bg</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:actionMenuTextAppearance">@style/textAppearanceMenu</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:statusBarColor">@color/application_main_color_bg</item>
+    </style>
+    <style name="AcBar_titleStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionBar_title_text_color</item>
+        <item name="android:background">@color/application_main_color_bg</item>
+    </style>
+    <style name="AcBar_titleStyle_setting" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="AcBar_titleStyle_setting_night" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/download_disabled</item>
+    </style>
+    <style name="textAppearanceMenu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/actionBar_title_text_color</item>
+    </style>
+    <style name="menu_anim">
+        <item name="android:windowEnterAnimation">@anim/menu_translate_to_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_translate_to_bottom_out</item>
+    </style>
+    <style name="menu_alpha_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/menu_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_alpha_out</item>
+    </style>
+    <style name="FullScreen" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="TranslucentBars" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="download_checkbox">
+        <item name="android:button">@drawable/download_checkbox_normal</item>
+    </style>
+    <style name="QRcodeTheme" parent="@android:style/Theme.Leui">
+        <item name="android:colorBackground">@color/application_main_color_bg</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@style/actionbar_style</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:leStatusBarIconColor">@color/black</item>
+    </style>
+    <style name="QRFullScreenDialog">
+        <item name="android:windowBackground">@color/qrcode_dialog_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

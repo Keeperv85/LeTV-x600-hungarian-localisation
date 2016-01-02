@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="delete_target_hover_tint">#daff0000</color>
+    <color name="uninstall_target_hover_tint">#fff0592b</color>
+    <color name="info_target_hover_tint">#daff0000</color>
+    <color name="cling_scrim_background">#80000000</color>
+    <color name="focused_background">#80c6c5c5</color>
+    <color name="workspace_icon_text_color">#ffffffff</color>
+    <color name="workspace_edge_effect_color">#ffffffff</color>
+    <color name="folder_edge_effect_color">#ff757575</color>
+    <color name="quantum_panel_text_color">#ff666666</color>
+    <color name="quantum_panel_bg_color">#fff5f5f5</color>
+    <color name="quantum_panel_bg_color_dark">#ff374248</color>
+    <color name="outline_color">#ffffffff</color>
+    <color name="container_fastscroll_thumb_inactive_color">#42000000</color>
+    <color name="container_fastscroll_thumb_active_color">#ff009688</color>
+    <color name="all_apps_grid_section_text_color">#ff009688</color>
+    <color name="widgets_view_fastscroll_thumb_inactive_color">#42ffffff</color>
+    <color name="widgets_view_section_text_color">#ffffffff</color>
+    <color name="widgets_view_item_text_color">#ffc4c4c4</color>
+    <color name="widgets_cell_color">#ff263238</color>
+    <color name="overview_item_border_color">#14ffffff</color>
+    <color name="delete_drop_active_background_color">#4cf91414</color>
+    <color name="delete_drop_normal_background_color">#66414141</color>
+    <color name="uninstall_panel_background_color">#4d000000</color>
+    <color name="uninstall_info_warning_text_color">#7fffffff</color>
+    <color name="theme_animation_layout_background">#7f000000</color>
+    <color name="theme_switch_text_color">#7fffffff</color>
+    <color name="search_no_result_color">#4affffff</color>
+    <color name="search_background_color">#c7000000</color>
+    <color name="search_search_background_color">#4affffff</color>
+</resources>

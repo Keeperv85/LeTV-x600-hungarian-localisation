@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <SeekBar android:id="@id/seekbar" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="left" android:id="@id/test_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/test_area" />
+    <com.mediatek.settings.inputmethod.DoubleClickTestArea android:gravity="center" android:id="@id/double_click_area" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/double_click_tip" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:text="@string/lte_threshold" />
+        <TableLayout android:id="@id/lte_threshold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" />
+        <Button android:textSize="14.0sp" android:id="@id/lte_set_threshold" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/lte_set" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/lte_timer" />
+        <TableLayout android:id="@id/lte_timer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" />
+        <Button android:textSize="14.0sp" android:id="@id/lte_set_timer" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/lte_set" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/lte_enable_psdm" />
+        <CheckBox android:id="@id/lte_enable_psdm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/lte_enable" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/lte_instant_search" />
+        <Button android:textSize="14.0sp" android:id="@id/lte_instant_search" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/lte_search" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/lte_threshold_operation" />
+        <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_4g_rsrp" />
+                <Spinner android:id="@id/lte_4g_rsrp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_4g_rsrq" />
+                <Spinner android:id="@id/lte_4g_rsrq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_4g_relation" />
+                <Spinner android:id="@id/lte_4g_relation" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+        <Button android:textSize="14.0sp" android:id="@id/lte_set_threshold_operation" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/lte_set" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/lte_search_timer" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableLayout android:id="@id/lte_search_timer_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:layout_weight="1.0" />
+            <TableLayout android:id="@id/lte_search_timer_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="14.0sp" android:id="@id/lte_set_search_timer" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/lte_set" />
+            <Button android:textSize="14.0sp" android:id="@id/lte_get_search_timer" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/lte_get" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

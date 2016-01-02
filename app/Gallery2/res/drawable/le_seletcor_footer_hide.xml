@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/le_iconfont_hide" />
+    <item android:state_enabled="false" android:drawable="@drawable/le_iconfont_hide_disabled" />
+    <item android:drawable="@drawable/le_iconfont_hide" />
+</selector>

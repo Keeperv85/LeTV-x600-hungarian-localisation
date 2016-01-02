@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/LinearLayout_Debug" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="15.0sp" android:id="@id/Button_ResetAgpsd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_agpsd" />
+            <Button android:textSize="15.0sp" android:id="@id/Button_EmulatorMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emulator_mode" />
+            <Button android:textSize="15.0sp" android:id="@id/Button_TestCase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_case" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="15.0sp" android:id="@id/Button_ClearScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_screen" />
+        </LinearLayout>
+        <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0dip" android:id="@id/TextView_Message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </ScrollView>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

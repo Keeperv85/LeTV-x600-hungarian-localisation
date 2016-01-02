@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <ListView android:id="@id/local_ring_listview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/leui_local_ring_divider" android:dividerHeight="1.0px" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@drawable/empty_music" android:id="@id/local_ring_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/local_ringtone_is_none" />
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/le_list_item_bookmark_edit_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_title_url" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <com.letv.leui.widget.BorderedRoundedCornersImageView android:gravity="center_vertical" android:id="@id/website_icon" android:layout_width="@dimen/le_add_bookmark_icon" android:layout_height="@dimen/le_add_bookmark_icon" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:scaleType="fitXY" leui:corner_radius="@dimen/le_add_bookmark_icon_corner_radius" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <EditText android:textSize="16.0sp" android:textColor="@color/le_list_item_bookmark_edit_text" android:textColorHint="@color/edit_text_hint_color" android:layout_gravity="center_vertical" android:id="@id/bookmark_name" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:hint="@string/bookmark_title_hint" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:inputType="text">
+                    <requestFocus />
+                </EditText>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/bookmark_name_clear" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_clear" />
+            </LinearLayout>
+            <View android:background="@color/le_list_item_divider_bg" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="14.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <EditText android:textSize="16.0sp" android:textColor="@color/le_list_item_bookmark_edit_text" android:textColorHint="@color/edit_text_hint_color" android:layout_gravity="center_vertical" android:id="@id/bookmark_url" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:hint="@string/bookmark_url_hint" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:inputType="text" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/bookmark_url_clear" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_clear" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/folder_selector" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/le_list_item_bookmark_edit_text" android:layout_gravity="center_vertical" android:id="@id/folder_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/bookmark_edit_folder_position" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/le_list_item_bookmark_edit_folder_name" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/current_folder_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/bookmark_edit_folder_position" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/folder_name_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/le_right_arrow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/indication" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/indication_icon" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bookmark_indication" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/remember_decision" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <com.letv.leui.widget.LeCheckBox android:id="@id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" leui:leBoxOnColor="@color/history_item_checkbox_color" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/le_list_item_bookmark_edit_folder_name" android:layout_gravity="center_vertical" android:id="@id/remember_decision_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/remember_decision_add_bookmark" android:maxLines="2" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

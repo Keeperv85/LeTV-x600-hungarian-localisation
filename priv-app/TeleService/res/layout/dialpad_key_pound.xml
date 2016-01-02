@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/pound" style="@style/EmergencyKeyButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/EmergencyKeyInternalLayoutStyle">
+        <ImageView android:src="@drawable/leui_emergency_pond" style="@style/DialpadKeyStarStyle" />
+    </LinearLayout>
+</com.android.phone.common.dialpad.DialpadKeyButton>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/ic_le_bt_down_1_icon" />
+    <item android:duration="200" android:drawable="@drawable/ic_le_bt_down_2_icon" />
+    <item android:duration="200" android:drawable="@drawable/ic_le_bt_down_3_icon" />
+    <item android:duration="200" android:drawable="@drawable/ic_le_bt_down_4_icon" />
+    <item android:duration="200" android:drawable="@drawable/ic_le_bt_down_5_icon" />
+</animation-list>

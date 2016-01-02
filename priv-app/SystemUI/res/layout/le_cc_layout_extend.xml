@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.controlcenter.view.ControlCenterWindowView android:id="@id/le_cc_id" android:background="@color/le_cc_layout_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.android.systemui.controlcenter.view.ControlCenterWindowHolder android:id="@id/le_cc_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/le_cc_panel_layout_extend" />
+    </com.android.systemui.controlcenter.view.ControlCenterWindowHolder>
+</com.android.systemui.controlcenter.view.ControlCenterWindowView>

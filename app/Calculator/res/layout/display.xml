@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/display" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.calculator2.CalculatorEditText android:textColor="@color/button_ground_port_unclick" android:id="@id/formula" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textNoSuggestions" style="@style/DisplayEditTextStyle.Formula" />
+    <com.android.calculator2.CalculatorEditText android:textColor="@color/andvanced_button_text" android:id="@id/result" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/formula" android:inputType="none" style="@style/DisplayEditTextStyle.Result" />
+</RelativeLayout>

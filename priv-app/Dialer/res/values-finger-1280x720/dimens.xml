@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_key_numbers_size">36.0sp</dimen>
+    <dimen name="dialpad_key_letters_size">24.0px</dimen>
+    <dimen name="dialpad_key_pound_size">23.0sp</dimen>
+    <dimen name="dialpad_key_star_size">36.0sp</dimen>
+    <dimen name="dialpad_key_height">64.0dip</dimen>
+    <dimen name="dialpad_key_number_margin_bottom">3.0dip</dimen>
+    <dimen name="dialpad_zero_key_number_margin_bottom">1.0dip</dimen>
+    <dimen name="dialpad_symbol_margin_bottom">13.0dip</dimen>
+    <dimen name="dialpad_bottom_key_height">65.0dip</dimen>
+    <dimen name="dialpad_key_plus_size">18.0sp</dimen>
+    <dimen name="dialpad_horizontal_padding">5.0dip</dimen>
+    <dimen name="dialpad_digits_text_size">34.0sp</dimen>
+    <dimen name="dialpad_digits_text_min_size">24.0sp</dimen>
+    <dimen name="dialpad_digits_height">64.0dip</dimen>
+    <dimen name="dialpad_digits_padding">16.0dip</dimen>
+    <dimen name="dialpad_digits_menu_left_padding">8.0dip</dimen>
+    <dimen name="dialpad_digits_menu_right_padding">10.0dip</dimen>
+    <dimen name="dialpad_center_margin">3.0dip</dimen>
+    <dimen name="dialpad_button_margin">2.0dip</dimen>
+    <dimen name="dialpad_voicemail_icon_padding_top">2.0dip</dimen>
+    <dimen name="dialpad_key_button_translate_y">100.0dip</dimen>
+    <dimen name="dialpad_overflow_margin">8.0dip</dimen>
+    <dimen name="dialpad_space_above_keys">14.0dip</dimen>
+    <dimen name="floating_action_button_height">56.0dip</dimen>
+    <dimen name="floating_action_button_width">56.0dip</dimen>
+    <dimen name="floating_action_button_radius">28.0dip</dimen>
+    <dimen name="floating_action_button_translation_z">3.0dip</dimen>
+    <dimen name="floating_action_button_list_bottom_padding">88.0dip</dimen>
+    <dimen name="floating_action_button_margin_right">16.0dip</dimen>
+    <dimen name="floating_action_button_margin_bottom">16.0dip</dimen>
+    <dimen name="floating_action_button_dialpad_margin_bottom_offset">4.0dip</dimen>
+</resources>

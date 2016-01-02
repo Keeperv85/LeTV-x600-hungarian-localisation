@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/exception_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/submitter" />
+            <EditText android:id="@id/submitter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/submitter_hint" android:lines="1" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/feedback" />
+            <EditText android:scrollbarStyle="insideOverlay" android:gravity="top" android:id="@id/feedback" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/feedback_hint" android:lines="4" android:singleLine="false" android:fadeScrollbars="false" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:id="@id/log_info_text" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/logs" android:layout_weight="2.0" />
+                <ImageView android:id="@id/log_info_imageView" android:layout_width="80.0dip" android:layout_height="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/downarrow" android:layout_weight="2.0" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/log_information_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff333333" android:id="@id/select_db_path_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/exp_db" android:singleLine="true" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff333333" android:id="@id/select_db_path_subtextview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/exp_db" android:singleLine="true" />
+                </LinearLayout>
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/select_mobile_log_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff333333" android:id="@id/select_mobilelog_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mobile_log" android:singleLine="true" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff333333" android:id="@id/select_mobilelog_subtextview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/size" android:singleLine="true" />
+                    </LinearLayout>
+                    <CheckBox android:id="@id/select_mobilelog_box" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+                </LinearLayout>
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/select_modem_log_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff333333" android:id="@id/select_modemlog_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/modem_log" android:singleLine="true" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff333333" android:id="@id/select_modemlog_subtextview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/size" android:singleLine="true" />
+                    </LinearLayout>
+                    <CheckBox android:id="@id/select_modemlog_box" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+                </LinearLayout>
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/select_network_log_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff333333" android:id="@id/select_network_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/net_log" android:singleLine="true" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff333333" android:id="@id/select_network_subtextview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/size" android:singleLine="true" />
+                    </LinearLayout>
+                    <CheckBox android:id="@id/select_network_box" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:id="@id/basic_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/basic_info" android:layout_weight="2.0" />
+                <ImageView android:id="@id/basic_imageView" android:layout_width="80.0dip" android:layout_height="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/downarrow" android:layout_weight="2.0" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/basic_information_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_process_name" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/process_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_process_name" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pref_key_exception_class" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/exception_class" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_exception_class" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pref_key_exception_level" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/exception_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_exception_level" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_exception_type" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/exception_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_exception_type" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_build_version" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/build_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_build_version" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_device_name" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_device_name" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_date_time" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/pref_key_date_time" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceLarge" android:id="@id/send_later_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_later" android:layout_weight="2.0" />
+        <Button android:textAppearance="?android:textAppearanceLarge" android:id="@id/send_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

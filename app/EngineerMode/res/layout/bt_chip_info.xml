@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="left" android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BT_chipId" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="fill_horizontal" android:id="@id/chipId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chipId" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="left" android:id="@id/relativeLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BT_ecoVersion" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="center_horizontal" android:id="@id/ecoVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ecoVersion" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="left" android:id="@id/relativeLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BT_patchSize" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="clip_horizontal" android:id="@id/patchSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/patchSize" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="left" android:id="@id/relativeLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BT_patchDate" android:layout_alignParentLeft="true" />
+        <TextView android:id="@id/patchDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/patchDate" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

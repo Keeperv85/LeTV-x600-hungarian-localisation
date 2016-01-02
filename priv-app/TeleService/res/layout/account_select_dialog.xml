@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/account_list" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/separator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?android:listDivider" android:scaleType="fitXY" />
+    <TextView android:textAppearance="?android:textAppearance" android:gravity="center" android:id="@id/cancel" android:background="?android:listChoiceBackgroundIndicator" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:text="@string/cancel" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.TextFieldsEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/editor_container_min_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:id="@id/delete_button_container" android:visibility="invisible" layout="@layout/edit_delete_button" />
+        <Spinner android:textColor="@color/spinner_textcolor" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/spinner" android:background="@drawable/le_spinner_bg" android:paddingLeft="@dimen/spinner_padding_left" android:visibility="gone" android:layout_width="@dimen/spinner_width" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/content_marginleft">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/editors" android:background="@drawable/divider_dbdbdb" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:id="@id/anchor_view" android:background="@color/anchor_view_background" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+        <include android:id="@id/expansion_view_container" android:visibility="gone" layout="@layout/edit_expansion_view" />
+    </LinearLayout>
+</com.android.contacts.editor.TextFieldsEditorView>

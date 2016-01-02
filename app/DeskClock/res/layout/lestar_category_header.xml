@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ringtone_square_padding_normal" android:paddingEnd="@dimen/ringtone_square_padding_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ringtone_category_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/category_header_margin_top" android:layout_marginBottom="@dimen/category_header_padding_bottom" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/category_header_name_textsize" android:textColor="@color/category_header_name_textcolor" android:id="@id/ringtone_category_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/category_header_margin_top" android:layout_marginBottom="@dimen/category_header_padding_bottom" android:singleLine="true" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ringtone_category_more" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/category_header_more_textsize" android:textColor="@color/category_header_more_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ringtone_category_more" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more" android:layout_marginStart="@dimen/category_header_icon_margin_start" />
+    </LinearLayout>
+</LinearLayout>

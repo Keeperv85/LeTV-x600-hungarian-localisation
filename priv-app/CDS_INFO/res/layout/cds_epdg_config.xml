@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/epdg_parameters" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_apn_type" />
+            <Spinner android:id="@id/apnSpinnner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <Button android:id="@id/ApnActivity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dun_apn_button" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_fqdn" />
+            <EditText android:id="@id/Server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_auth_type" />
+            <Spinner android:id="@id/authSpinnner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_sim_index" />
+            <Spinner android:id="@id/simSpinnner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_m_prot" />
+            <Spinner android:id="@id/protSpinnner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_cert_path" />
+            <EditText android:id="@id/CertPath" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_ikea_algo" />
+            <EditText android:id="@id/IkeAlgo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_esp_algo" />
+            <EditText android:id="@id/EspAlgo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <Button android:id="@id/Set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sys_set_button" android:inputType="textNoSuggestions" />
+            <Button android:id="@id/SetAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_set_all" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

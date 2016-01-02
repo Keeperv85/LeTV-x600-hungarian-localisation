@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/preview_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/flash_overlay" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <FrameLayout android:id="@id/preview_border" android:background="@drawable/ic_snapshot_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.RenderOverlay android:id="@id/render_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.RotateLayout android:id="@id/recording_time_rect" style="@style/ViewfinderLabelLayout">
+        <include android:id="@id/labels" layout="@layout/viewfinder_labels_video" />
+    </com.android.camera.ui.RotateLayout>
+    <ImageView android:id="@id/review_image" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/btn_play" android:visibility="gone" android:src="@drawable/ic_gallery_play_big" android:layout_centerInParent="true" android:onClick="onReviewPlayClicked" style="@style/ReviewControlIcon" />
+    <include android:layout_gravity="center" layout="@layout/camera_controls" style="@style/CameraControls" />
+</merge>

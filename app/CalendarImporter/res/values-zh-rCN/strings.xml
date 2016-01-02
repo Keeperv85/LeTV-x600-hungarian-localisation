@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_to">导入到</string>
+    <string name="import_button">导入</string>
+    <string name="cancel">取消</string>
+    <string name="no_access_toast">无账户.请先添加一个账号</string>
+    <string name="null_name">无</string>
+    <string name="import_message">确定导入?</string>
+    <string name="calendar_lable">"账户: "</string>
+    <string name="date_lable">"时间: "</string>
+    <string name="import_title">导入事件</string>
+    <string name="importing">正在导入 ...</string>
+    <string name="import_complete">导入完成</string>
+    <string name="open">打开</string>
+    <string name="done">完成</string>
+    <string name="progresszero">0%</string>
+    <string name="import_vcs_failed">事件导入失败.</string>
+    <string name="title_lable">"名称: "</string>
+    <string name="no_syncable_calendars">无法导入</string>
+    <string name="no_calendars_found">此账户无日历同步功能，或者日历同步尚未完成.</string>
+    <string name="retry">重试</string>
+    <string name="give_up">放弃</string>
+    <string name="open_calendar_failed">无法打开日历.</string>
+    <string name="loading">正在加载...</string>
+    <string name="not_support_multi_events">不支持导入多事件文件。</string>
+</resources>

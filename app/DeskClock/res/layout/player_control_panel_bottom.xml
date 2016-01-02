@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/letv_color_b3000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/player_operation_panel_bottom_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/player_btn_play_pause" android:background="@android:color/transparent" android:layout_width="@dimen/letv_dimens_44" android:layout_height="fill_parent" android:src="@drawable/btn_play_disabled" android:scaleType="center" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/player_seekbar_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/player_operation_panel_bottom_height" android:layout_toLeftOf="@id/player_bottom_btn_container" android:layout_toRightOf="@id/player_btn_play_pause">
+        <com.letv.commonplayer.player.view.BottomTimeLine android:id="@id/player_bottom_time_line" android:background="@color/letv_color_4Dffffff" android:layout_width="fill_parent" android:layout_height="@dimen/letv_dimens_1" android:layout_centerVertical="true" />
+        <com.letv.commonplayer.player.view.LetvSeekBar android:id="@id/player_progress_seekbar" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/player_bottom_btn_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" layout="@layout/player_bottom_btns" />
+    <ImageView android:id="@id/player_video_head_mark" android:padding="0.0dip" android:visibility="gone" android:layout_width="@dimen/letv_dimens_7" android:layout_height="@dimen/letv_dimens_13" android:src="@drawable/player_skip_intro_ending_btn" android:layout_alignLeft="@id/player_seekbar_layout" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/player_video_tail_mark" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/letv_dimens_13" android:src="@drawable/player_skip_intro_ending_btn" android:layout_alignRight="@id/player_seekbar_layout" android:layout_centerVertical="true" />
+</RelativeLayout>

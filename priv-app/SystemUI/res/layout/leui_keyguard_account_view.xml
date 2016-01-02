@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.leui.KeyguardAccountViewLeui android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_account_view" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/account_view_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/flying_panel_height">
+        <TextView android:gravity="center" android:id="@id/tittle_reset_password" android:layout_width="fill_parent" android:layout_height="@dimen/clock_height" android:text="@string/reset_password" style="@style/Account.Tittle" />
+        <TextView android:gravity="center" android:id="@id/login" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/tittle_reset_password" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <include android:id="@id/keyguard_message_area" android:layout_width="fill_parent" android:layout_height="@dimen/account_tips_height" android:layout_below="@id/tittle_reset_password" layout="@layout/keyguard_message_area" />
+        <include layout="@layout/complex_input_entry" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/complex_intput_entry_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emergency_btn_bottom_margin">
+        <Button android:textColor="@drawable/button_font_bg" android:id="@id/ok" android:background="@android:color/transparent" android:text="@string/kg_login_submit_button" style="@style/Keyguard.Button" />
+        <Space android:visibility="invisible" android:layout_weight="1.0" style="@style/Keyguard.Button" />
+        <Button android:textColor="@drawable/button_font_bg" android:id="@id/cancel_button" android:background="@android:color/transparent" android:text="@string/cancle" style="@style/Keyguard.Button" />
+    </LinearLayout>
+</com.android.keyguard.leui.KeyguardAccountViewLeui>

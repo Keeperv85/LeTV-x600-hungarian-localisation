@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/map_cluster_item_width" android:layout_height="@dimen/map_cluster_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="@dimen/map_cluster_item_width" android:layout_height="@dimen/map_cluster_item_height">
+        <ImageView android:id="@id/cluster_image" android:background="@android:color/white" android:layout_width="@dimen/map_cluster_image_item_width" android:layout_height="@dimen/map_cluster_image_item_width" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/layout_info" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:text="@string/title_provider" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_provider" android:text="@string/provider" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_status" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_status" android:text="@string/status" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_ttff" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_ttff" android:text="@string/ttff" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_date" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_date" android:text="@string/date" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_time" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_time" android:text="@string/time" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/first_latitude_text" style="@style/style_table_left" />
+            <TextView android:id="@id/first_latitude_text" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/first_longtitude_text" style="@style/style_table_left" />
+            <TextView android:id="@id/first_longtitude_text" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_lat" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_latitude" android:text="@string/latitude" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_lon" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_longitude" android:text="@string/longitude" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_alt" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_altitude" android:text="@string/altitude" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_acc" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_accuracy" android:text="@string/accuracy" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_bear" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_bearing" android:text="@string/bearing" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_speed" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_speed" android:text="@string/speed" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_distance" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_distance" android:text="@string/distance" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_chip_version" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_chip_version" android:text="@string/chipversion" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_mnl_version" style="@style/style_table_left" />
+            <TextView android:textSize="12.0sp" android:id="@id/tv_mnl_version" android:text="@string/mnlversion" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_clock_type" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_clock_type" android:text="@string/gps_status_unknown" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/light_gray" android:layout_height="1.0dip" />
+        <TableRow>
+            <TextView android:text="@string/title_clock_buffer" style="@style/style_table_left" />
+            <TextView android:id="@id/tv_clock_buffer" android:text="@string/gps_status_unknown" style="@style/style_table_right" />
+        </TableRow>
+        <View android:background="@color/gray" android:layout_height="1.0dip" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_hot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hot" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_warm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/warm" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_cold" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cold" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_full" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/full" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_hotstill" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hot_still" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_restart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/restart" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_supllog" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/supl_log" android:layout_weight="1.0" />
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>

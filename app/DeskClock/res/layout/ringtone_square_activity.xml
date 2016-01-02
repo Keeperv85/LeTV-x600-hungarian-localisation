@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/deskclock_theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ringtone_square_system" layout="@layout/ringtone_square_item" />
+    <View android:background="@color/ringtone_square_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/ringtone_square_divider_margin_left" />
+    <include android:id="@id/ringtone_square_lestar" layout="@layout/ringtone_square_item" />
+    <View android:background="@color/ringtone_square_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/ringtone_square_divider_margin_left" />
+    <include android:id="@id/ringtone_square_favorites" layout="@layout/ringtone_square_item" />
+    <View android:background="@color/ringtone_square_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

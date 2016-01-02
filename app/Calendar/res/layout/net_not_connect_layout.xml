@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.widget.LeBlankPage leui:icon="@drawable/icon_wifi" android:id="@id/le_blankpage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" leui:message="@string/no_connect_network" leui:primaryText="@string/set_mobile_net" leui:secondText="@string/set_wifi_net"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" />

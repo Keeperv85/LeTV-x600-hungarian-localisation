@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <Spinner android:id="@id/msdc_sd3test_host_spinner" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="10.0dip" android:text="@string/msdc_sd3test_mode" />
+        <Spinner android:id="@id/msdc_sd3test_mode_spinner" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="20.0dip" android:text="@string/msdc_sd3test_max_current" />
+        <Spinner android:id="@id/msdc_sd3test_max_current_spinner" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="20.0dip" android:text="@string/msdc_sd3test_drive" />
+        <Spinner android:id="@id/msdc_sd3test_drive_spinner" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="20.0dip" android:text="@string/msdc_sd3test_power_control" />
+        <Spinner android:id="@id/msdc_sd3test_power_control_spinner" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" />
+        <View android:background="#ff909090" android:layout_width="240.0dip" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <Button android:id="@id/msdc_sd3test_get" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/MSDC_Get" />
+            <Button android:id="@id/msdc_sd3test_set" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/MSDC_Set" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

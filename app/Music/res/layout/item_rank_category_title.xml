@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.9"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/imageView_rank_category_title_tag" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/listenmusic_icon_2" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:id="@id/textView_rank_category_title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" />
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="le_letv_home_page_titles">
+        <item>Navigation</item>
+        <item>Speed dial</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="leso_recommends">
+        <item>Hot show</item>
+        <item>tv</item>
+        <item>http://m.letv.com/tv/</item>
+        <item>Movie</item>
+        <item>movie</item>
+        <item>http://m.letv.com/movie/</item>
+        <item>Cartoon</item>
+        <item>cartoon</item>
+        <item>http://m.letv.com/comic/</item>
+        <item>Variety</item>
+        <item>zongyi</item>
+        <item>http://m.letv.com/zongyi/</item>
+    </string-array>
+    <string-array name="user_agent">
+        <item></item>
+        <item>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24;</item>
+        <item>Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53</item>
+        <item>Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53</item>
+    </string-array>
+    <string-array name="user_agent_title">
+        <item>Default</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="text_zoom">
+        <item>6</item>
+        <item>10</item>
+        <item>13</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="text_zoom_title">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Extra large</item>
+    </string-array>
+    <string-array name="popup_window_1">
+        <item>Open in background</item>
+        <item>Open in new window</item>
+        <item>"Don't show again"</item>
+    </string-array>
+    <string-array name="popup_window_2">
+        <item>Open in background</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="popup_window_3">
+        <item>Open in background</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="search_engine_name">
+        <item>Baidu</item>
+        <item>Sogou</item>
+        <item>Taobao</item>
+        <item>Shenma</item>
+        <item>Easou</item>
+        <item>Delicacy</item>
+        <item>Google</item>
+        <item>Video</item>
+        <item>Picture</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Always on</item>
+        <item>On when required</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Current page</item>
+        <item>New page</item>
+        <item>Default page</item>
+        <item>Most visited</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Far</item>
+        <item>Medium</item>
+        <item>Close</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>Never</item>
+        <item>Only on Wi-Fi</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>Never</item>
+        <item>Only on Wi-Fi</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="select_carrier_title">
+        <item>Adjust</item>
+        <item>China Mobile (CMCC)</item>
+        <item>China Union (CU)</item>
+        <item>China Telecom (CT)</item>
+        <item>Full Netcom</item>
+        <item>Open</item>
+    </string-array>
+    <string-array name="select_carrier_title_values">
+        <item>default</item>
+        <item>cmcc</item>
+        <item>cu</item>
+        <item>ct</item>
+        <item>whole-netcom</item>
+        <item>normal</item>
+    </string-array>
+    <string-array name="select_channel_title">
+        <item>Adjust</item>
+        <item>Mainland China</item>
+        <item>Hangkong China</item>
+        <item>India</item>
+        <item>North America</item>
+    </string-array>
+    <string-array name="select_channel_title_values">
+        <item>default</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+</resources>

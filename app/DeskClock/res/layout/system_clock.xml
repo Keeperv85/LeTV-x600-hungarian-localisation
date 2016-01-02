@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/world_clock_item_bg" android:paddingLeft="@dimen/world_clock_item_padding_left" android:paddingRight="@dimen/world_clock_item_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/world_clock_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <FrameLayout android:id="@id/world_clock_item_flag_layout" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="@dimen/world_clock_item_flag_margin_right" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/world_clock_item_flag" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/le_city_icon_border" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/world_clock_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextClock android:textSize="@dimen/world_clock_item_time_text_size" android:textColor="@color/world_clock_item_time_text_color" android:id="@id/world_clock_time_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="helve-neue-thin" android:format12Hour="@string/time_format_12_hour" android:format24Hour="@string/time_format_24_hour" />
+        <TextView android:id="@id/world_clock_time_colon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextClock android:textSize="@dimen/world_clock_item_time_text_size" android:textColor="@color/world_clock_item_time_text_color" android:id="@id/world_clock_time_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="helve-neue-thin" android:format12Hour="@string/time_format_minute" android:format24Hour="@string/time_format_minute" />
+    </LinearLayout>
+    <TextClock android:textSize="@dimen/world_clock_item_ampm_text_size" android:textColor="@color/world_clock_item_ampm_text_color" android:id="@id/world_clock_item_ampm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/world_clock_item_time_ampm_margin_top" android:layout_toLeftOf="@id/world_clock_time" android:layout_alignTop="@id/world_clock_time" android:fontFamily="helve-neue-thin" android:format12Hour="a" />
+    <RelativeLayout android:id="@id/world_clock_item_city_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/world_clock_item_info_margin_right" android:layout_toLeftOf="@id/world_clock_item_ampm" android:layout_toRightOf="@id/world_clock_item_flag_layout" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/world_clock_item_city_text_size" android:textColor="@color/world_clock_item_city_text_color" android:id="@id/world_clock_item_city" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" leui:leCJKFontFamily="hans-sans-medium" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/world_clock_item_offset_margin_top" android:layout_below="@id/world_clock_item_city">
+            <TextView android:textSize="@dimen/world_clock_item_compare_text_size" android:textColor="@color/world_clock_item_compare_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/world_clock_item_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/world_clock_item_offset_margin_right" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/world_clock_item_type" android:layout_width="@dimen/world_clock_item_day_icon_size" android:layout_height="@dimen/world_clock_item_day_icon_size" android:layout_weight="0.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

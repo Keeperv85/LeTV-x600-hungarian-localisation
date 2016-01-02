@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/display" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/display" />
+        <TextView android:textColor="@color/deg_text" android:gravity="center" android:id="@id/degswitcher" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="35.0dip" android:layout_marginLeft="6.0dip" android:layout_marginBottom="8.0dip" android:text="@string/editState" android:layout_alignBottom="@id/display" android:layout_alignParentStart="true" android:elevation="4.0dip" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/advance_pad" />
+</LinearLayout>

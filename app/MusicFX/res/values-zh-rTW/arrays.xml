@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reverb_preset_list">
+        <item>無</item>
+        <item>小型房間</item>
+        <item>中型房間</item>
+        <item>大型房間</item>
+        <item>中型廳堂</item>
+        <item>大型廳堂</item>
+        <item>金屬板</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/empty_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/legal_leaflet_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/panel_done" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_description" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@drawable/leui_pravicy_policy" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffcccccc" android:textColorLink="#ff2395ee" android:gravity="center" android:autoLink="web" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="80.0dip" android:text="@string/leui_privacypolicy_oeversea_empty_description" android:lineSpacingExtra="3.0dip" />
+    </LinearLayout>
+</FrameLayout>

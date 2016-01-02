@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/manageConferencePanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="#99000000" android:paddingTop="@dimen/conference_call_manager_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/conferenceList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@android:dimen/status_bar_height">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/caller0" layout="@layout/caller_in_conference" />
+                <include android:id="@id/caller1" layout="@layout/caller_in_conference" />
+                <include android:id="@id/caller2" layout="@layout/caller_in_conference" />
+                <include android:id="@id/caller3" layout="@layout/caller_in_conference" />
+                <include android:id="@id/caller4" layout="@layout/caller_in_conference" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>>
+<ImageButton android:id="@id/volte_floating_add_member_button" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/end_call_button_margin_bottom" android:layout_marginBottom="@dimen/end_call_button_margin_bottom" android:src="@drawable/mtk_volte_btn_conference_add_member" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/addConferenceMemeberText" />
+</RelativeLayout>

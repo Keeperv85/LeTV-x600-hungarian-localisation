@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/world_clock_item_bg" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@android:dimen/le_preference_content_padding_start">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/custom_ring_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/placeholder_symbol_4" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="right" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.letv.leui.widget.LeCheckBox android:layout_gravity="center_vertical" android:id="@id/custom_ring_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@android:dimen/le_preference_summary_arrow_margin" leui:leBoxArrowColorWithoutBorder="@color/le_common_switch_or_other_color" leui:leBoxWithoutBorder="true" />
+</LinearLayout>

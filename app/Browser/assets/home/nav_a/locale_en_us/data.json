@@ -1,0 +1,175 @@
+{
+    "errno": 10000,
+    "v": "20151016182741",
+    "apiname": "nava",
+    "data": [
+        {
+            "id": "500",
+            "name": {
+                "en_us": "Netflix",
+                "zh_cn": "Netflix",
+                "zh_hk": "Netflix",
+                "zh_tw": "Netflix"
+            },
+            "url": "https://www.netflix.com",
+            "icon": "www.netflix.com.png",
+            "rank": "12",
+            "color": "#ffffff",
+            "other": []
+        },
+        {
+            "id": "492",
+            "name": {
+                "en_us": "Engadget",
+                "zh_cn": "Engadget",
+                "zh_hk": "Engadget",
+                "zh_tw": "Engadget"
+            },
+            "url": "http://www.engadget.com",
+            "icon": "www.engadget.com.png",
+            "rank": "11",
+            "color": "#3999d8",
+            "other": []
+        },
+        {
+            "id": "499",
+            "name": {
+                "en_us": "Live",
+                "zh_cn": "Live",
+                "zh_hk": "Live",
+                "zh_tw": "Live"
+            },
+            "url": "http://live.com/",
+            "icon": "live.com.png",
+            "rank": "10",
+            "color": "#ffffff",
+            "other": []
+        },
+        {
+            "id": "503",
+            "name": {
+                "en_us": "TechCrunch",
+                "zh_cn": "TechCrunch",
+                "zh_hk": "TechCrunch",
+                "zh_tw": "TechCrunch"
+            },
+            "url": "http://techcrunch.com",
+            "icon": "techcrunch.com.png",
+            "rank": "9",
+            "color": "#ffffff",
+            "other": []
+        },
+        {
+            "id": "497",
+            "name": {
+                "en_us": "Instagram",
+                "zh_cn": "Instagram",
+                "zh_hk": "Instagram",
+                "zh_tw": "Instagram"
+            },
+            "url": "http://instagram.com",
+            "icon": "instagram.com.png",
+            "rank": "8",
+            "color": "#175786",
+            "other": []
+        },
+        {
+            "id": "495",
+            "name": {
+                "en_us": "Ask",
+                "zh_cn": "Ask",
+                "zh_hk": "Ask",
+                "zh_tw": "Ask"
+            },
+            "url": "http://ask.com/",
+            "icon": "ask.com.png",
+            "rank": "7",
+            "color": "#ce0815",
+            "other": []
+        },
+        {
+            "id": "502",
+            "name": {
+                "en_us": "Trillist",
+                "zh_cn": "Trillist",
+                "zh_hk": "Trillist",
+                "zh_tw": "Trillist"
+            },
+            "url": "http://www.trillist.com",
+            "icon": "www.trillist.com.png",
+            "rank": "6",
+            "color": "#212121",
+            "other": []
+        },
+        {
+            "id": "501",
+            "name": {
+                "en_us": "Yahoo",
+                "zh_cn": "Yahoo",
+                "zh_hk": "Yahoo",
+                "zh_tw": "Yahoo"
+            },
+            "url": "https://www.yahoo.com/",
+            "icon": "www.yahoo.com.png",
+            "rank": "5",
+            "color": "#ffffff",
+            "other": []
+        },
+        {
+            "id": "490",
+            "name": {
+                "en_us": "CNET",
+                "zh_cn": "CNET",
+                "zh_hk": "CNET",
+                "zh_tw": "CNET"
+            },
+            "url": "http://www.cnet.com",
+            "icon": "www.cnet.com.png",
+            "rank": "4",
+            "color": "#c20a0a",
+            "other": []
+        },
+        {
+            "id": "498",
+            "name": {
+                "en_us": "NYT",
+                "zh_cn": "NYT",
+                "zh_hk": "NYT",
+                "zh_tw": "NYT"
+            },
+            "url": "http://mobile.nytimes.com",
+            "icon": "mobile.nytimes.com.png",
+            "rank": "3",
+            "color": "#eaeaea",
+            "other": []
+        },
+        {
+            "id": "496",
+            "name": {
+                "en_us": "Mashable",
+                "zh_cn": "Mashable",
+                "zh_hk": "Mashable",
+                "zh_tw": "Mashable"
+            },
+            "url": "http://mashable.com",
+            "icon": "mashable.com.png",
+            "rank": "2",
+            "color": "#2bb0e9",
+            "other": []
+        },
+        {
+            "id": "494",
+            "name": {
+                "en_us": "Quartz",
+                "zh_cn": "Quartz",
+                "zh_hk": "Quartz",
+                "zh_tw": "Quartz"
+            },
+            "url": "http://qz.com",
+            "icon": "qz.com.png",
+            "rank": "1",
+            "color": "#212121",
+            "other": []
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/alarm_setting_list_divider_padding_left" android:insetRight="@dimen/alarm_setting_list_divider_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@color/alarm_setting_list_divider_color" />
+    </shape>
+</inset>

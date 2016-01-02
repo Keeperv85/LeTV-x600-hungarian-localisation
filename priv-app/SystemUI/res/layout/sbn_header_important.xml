@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/group_header" android:background="@drawable/sbn_top_holder_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#7fffffff" android:gravity="center_vertical" android:id="@id/group_name" android:layout_width="fill_parent" android:layout_height="34.0dip" android:text="@string/sbn_important_msg" android:fontFamily="hans-sans" />
+    <ImageView android:id="@id/close_btn_group" android:padding="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_notify_clear" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

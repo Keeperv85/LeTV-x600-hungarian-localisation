@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <android.preference.PreferenceCategory android:title="@string/accout_relative">
+        <android.preference.Preference android:title="@string/accout_set" android:key="key_account_set" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    </android.preference.PreferenceCategory>
+    <android.preference.PreferenceCategory android:title="@string/download_set">
+        <android.preference.SwitchPreference android:title="@string/listen_and_download" android:key="key_listen_and_download" android:summary="@string/listen_and_download_summary" />
+        <android.preference.SwitchPreference android:title="@string/collect_and_download" android:key="key_collect_and_download" android:summary="@string/collect_and_download_summary" />
+    </android.preference.PreferenceCategory>
+    <android.preference.PreferenceCategory android:title="@string/network_set">
+        <android.preference.SwitchPreference android:title="@string/network_only_wlan" android:key="key_internet_only_wifi" />
+    </android.preference.PreferenceCategory>
+    <android.preference.PreferenceCategory android:title="@string/earphone_set">
+        <android.preference.SwitchPreference android:title="@string/earphone_out_stop_music" android:key="key_erji_disconnected_stop_music" android:summary="@string/earphone_out_stop_music_summary" android:defaultValue="true" />
+    </android.preference.PreferenceCategory>
+</android.preference.PreferenceScreen>

@@ -1,0 +1,17 @@
+/* TextColor
+   liebao   :  html a,html a * { 00c8ff }
+               html a:visited,html a:visited * { a8ecff }
+               data:text/css,html,body,h2,h3,h4,h5,h6,table,tr,td,th,tbody,form,ul,ol,li,dl,dd,section,footer,nav,strong,aside,header,label,hr {fff9e8}
+               article,dt,div,h1 { fff9e8 }
+               p { fff9e8 }
+               span,em { fff9e8 }
+               html input:focus,html select:focus,html option:focus,html button:focus,html textarea:focus { fff9e8 }
+               html input:hover,html select:hover,html option:hover,html button:hover,html textarea:hover { fff9e8 }
+               before,*:after { fff9e8 }
+
+
+    qqbrowser:  html a,html a * { 3c5d85 }
+                article,dt,div,h1 { 646974 }
+                html a:visited,html a:visited * { 5c3668 }
+                before,*:after { 3c5d85 }
+*/ 

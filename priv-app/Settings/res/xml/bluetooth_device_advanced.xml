@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_device_advanced_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/bluetooth_device_advanced_rename_device" android:key="rename_device" android:order="20" />
+    <PreferenceCategory android:title="@string/bluetooth_device_advanced_profile_header_title" android:key="profile_container" android:order="100" />
+</PreferenceScreen>

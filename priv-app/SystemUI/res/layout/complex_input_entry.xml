@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/keyguard_bouncer_frame" android:background="@drawable/input_bg" android:padding="0.0dip" android:layout_width="@dimen/complex_intput_entry_width" android:layout_height="@dimen/complex_intput_entry_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:keyguardViewPager="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/passwordEntry" android:background="@null" android:padding="0.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionDone|flagForceAscii" android:paddingStart="12.0dip" />
+    <ImageView android:id="@id/clear_all_btn" android:padding="0.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/delete_all" android:scaleType="center" />
+</LinearLayout>

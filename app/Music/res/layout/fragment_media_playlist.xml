@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" leui:leSwipeOffsetLeft="70.0dip" leui:leSwipeCloseAllItemsWhenMoveList="true" leui:leSwipeFrontView="@id/front" leui:leSwipeBackView="@id/back" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_media_playlist" android:layout_alignParentBottom="true" />
+</RelativeLayout>

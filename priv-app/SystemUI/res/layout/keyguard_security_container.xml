@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="@dimen/md_keyguard_security_width" android:layout_height="@dimen/md_keyguard_security_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/md_keyguard_message_area_height" layout="@layout/leui_keyguard_message_area" />
+    <include layout="@layout/num_input_entry_and_num_key_pad" />
+    <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="@dimen/md_keyguard_emergency_carrier_area_height" layout="@layout/md_keyguard_emergency_carrier_area" />
+</LinearLayout>

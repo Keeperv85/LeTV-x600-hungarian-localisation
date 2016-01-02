@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@interpolator/le_c_interpolator" android:duration="300" android:shareInterpolator="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromXDelta="-29.999996%" android:toXDelta="0.0" />
+    <alpha android:background="#ff000000" android:fromAlpha="0.9" android:toAlpha="1.0" />
+</set>

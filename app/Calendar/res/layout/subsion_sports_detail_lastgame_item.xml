@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="4.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/event_list_title" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/team_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="116.0dip" android:layout_height="fill_parent">
+            <TextView android:textSize="10.0dip" android:textColor="@color/detail_sub_text" android:id="@id/sports_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:fontFamily="Light" />
+            <TextView android:textSize="20.0dip" android:textColor="#ff464646" android:id="@id/sports_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/event_list_title" android:ellipsize="marquee" android:layout_gravity="center|right" android:id="@id/team_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

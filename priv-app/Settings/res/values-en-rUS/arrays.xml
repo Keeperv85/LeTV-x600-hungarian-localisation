@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Never</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Immediate</item>
+        <item>5 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Fast</item>
+        <item>Very fast</item>
+        <item>Swift</item>
+        <item>Very swift</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Very low</item>
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanning...</item>
+        <item>Connecting...</item>
+        <item>Authenticating...</item>
+        <item>Obtaining IP address...</item>
+        <item>Connected</item>
+        <item>Paused</item>
+        <item>Disconnecting...</item>
+        <item>Disconnected</item>
+        <item>Failed</item>
+        <item>Disabled</item>
+        <item>Temporarily closed (poor network condition)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning...</item>
+        <item>Connecting to %1$s...</item>
+        <item>Authenticating through %1$s...</item>
+        <item>Obtaining IP address from %1$s...</item>
+        <item>Connected to %1$s</item>
+        <item>Paused</item>
+        <item>Disconnecting from %1$s...</item>
+        <item>Disconnected</item>
+        <item>Failed</item>
+        <item>Disabled</item>
+        <item>Temporarily closed (poor network condition)</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Button</item>
+        <item>PIN obtained from peer device</item>
+        <item>PIN generated on this device</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Connected</item>
+        <item>Invited</item>
+        <item>Failed</item>
+        <item>Free</item>
+        <item>Out of range</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>1 hour</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Weak</item>
+        <item>Decent</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Always</item>
+        <item>Only when charging</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Always</item>
+        <item>Only when charging</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Past 30 days</item>
+        <item>Set usage cycle...</item>
+    </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Last 4 digits</item>
+        <item>First 4 numbers</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto</item>
+        <item>Use 5GHz band only</item>
+        <item>Use 2.4GHz band only</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Time used</item>
+        <item>Time used last time</item>
+        <item>App name</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>None</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>None</item>
+        <item>Manual</item>
+        <item>Auto configure proxy</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP or CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>None</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Internal storage</item>
+        <item>Mountable SD card</item>
+        <item>Determined by system</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Location</item>
+        <item>Personal</item>
+        <item>SMS</item>
+        <item>Media</item>
+        <item>Device</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Approximate location</item>
+        <item>Precise location</item>
+        <item>GPS</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Modify contact</item>
+        <item>Read call history</item>
+        <item>Modify call logs</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Wi-Fi scan</item>
+        <item>Notification</item>
+        <item>Scan for cellular network</item>
+        <item>Call phone</item>
+        <item>Read SMS</item>
+        <item>Compose SMS</item>
+        <item>Receive SMS</item>
+        <item>Receive emergency SMS</item>
+        <item>Receive MMS</item>
+        <item>Receive WAP push messages</item>
+        <item>Send SMS</item>
+        <item>Read ICC message</item>
+        <item>Write ICC messages</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>Camera</item>
+        <item>Record audio</item>
+        <item>Play audio</item>
+        <item>Read clipboard contents</item>
+        <item>Modify clipboard contents</item>
+        <item>Media button</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Audio volume</item>
+        <item>Ringtone volume</item>
+        <item>Media volume</item>
+        <item>Alarm volume</item>
+        <item>Notification volume</item>
+        <item>Bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Monitor location</item>
+        <item>Monitor high power-consuming location services</item>
+        <item>Obtain usage statistics</item>
+        <item>Mute or unmute microphone</item>
+        <item>Project media</item>
+        <item>Activate VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Location</item>
+        <item>Location</item>
+        <item>Location</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Modify contact</item>
+        <item>Read call history</item>
+        <item>Modify call logs</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Location</item>
+        <item>Send notification</item>
+        <item>Location</item>
+        <item>Call phone</item>
+        <item>Read SMS/MMS</item>
+        <item>Compose SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Send SMS/MMS</item>
+        <item>Read SMS/MMS</item>
+        <item>Compose SMS/MMS</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>Camera</item>
+        <item>Record audio</item>
+        <item>Play audio</item>
+        <item>Read clipboard contents</item>
+        <item>Modify clipboard contents</item>
+        <item>Media button</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Audio volume</item>
+        <item>Ringtone volume</item>
+        <item>Media volume</item>
+        <item>Alarm volume</item>
+        <item>Notification volume</item>
+        <item>Bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Location</item>
+        <item>Location</item>
+        <item>Obtain usage statistics</item>
+        <item>Mute or unmute microphone</item>
+        <item>Project media</item>
+        <item>Activate VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Default</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Default</item>
+        <item>None</item>
+        <item>Profile</item>
+        <item>Shadow</item>
+        <item>Raised</item>
+        <item>Sunken</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Use default app style</item>
+        <item>White on black</item>
+        <item>Black on white</item>
+        <item>Yellow on black</item>
+        <item>Blue on yellow</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64K for each log buffer</item>
+        <item>256K for each log buffer</item>
+        <item>1M for each log buffer</item>
+        <item>4M for each log buffer</item>
+        <item>16M for each log buffer</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Never check</item>
+        <item>Check for DRM content only</item>
+        <item>Always check</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Never use HDCP check</item>
+        <item>Use HDCP to check DRM contents only</item>
+        <item>Always use HDCP check</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Disable animation</item>
+        <item>Animation scale 0.5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Disable animation</item>
+        <item>Animation scale 0.5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Disable animation</item>
+        <item>Animation scale 0.5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>None</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>None</item>
+        <item>Logcat</item>
+        <item>Systrace (graph)</item>
+        <item>glGetError call stack</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Disable</item>
+        <item>Fill non-rectangular cropping area in blue</item>
+        <item>Highlight test pattern in green</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Disable</item>
+        <item>Display as bar graph on screen</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Disable</item>
+        <item>Show overdrawn area</item>
+        <item>Show areas suitable for users with deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard limits</item>
+        <item>Disable background processes</item>
+        <item>Only 1 processes</item>
+        <item>Only 2 processes</item>
+        <item>Only 3 processes</item>
+        <item>Only 4 processes</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN with pre-shared key</item>
+        <item>L2TP/IPSec VPN with certificate</item>
+        <item>Xauth-authenticated IPSec VPN with pre-shared key</item>
+        <item>Xauth-authenticated IPSec VPN with certificate</item>
+        <item>Hybrid-authenticated IPSec VPN with certificate</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Connection disconnected</item>
+        <item>Initializing...</item>
+        <item>Connecting...</item>
+        <item>Connected</item>
+        <item>Timeout</item>
+        <item>Failed</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Ask</item>
+        <item>Never allow</item>
+        <item>Always allow</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Decent</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Very insufficient</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Disable</item>
+        <item>Limited interruption</item>
+        <item>No interruption</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>Insufficient</item>
+        <item>Very insufficient</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Permanent</item>
+        <item>Top event</item>
+        <item>Important (foreground)</item>
+        <item>Important (background)</item>
+        <item>Backup</item>
+        <item>Heavyweight</item>
+        <item>Service (in use)</item>
+        <item>Service (restarting)</item>
+        <item>Receiver</item>
+        <item>Home screen</item>
+        <item>Previous action</item>
+        <item>Cached (active)</item>
+        <item>Cached (active client)</item>
+        <item>Cached (empty)</item>
+    </string-array>
+    <string-array name="leui_notification_settings_option_entries">
+        <item>@string/app_notification_block_title</item>
+        <item>@string/leui_notification_app_priority_important</item>
+        <item>Common</item>
+    </string-array>
+    <string-array name="vpn_types_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="leui_screen_timeout_entries_expand">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="sim_slot">
+        <item>(Not specified)</item>
+        <item>SIM card slot 1</item>
+        <item>SIM card slot 2</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Auto</item>
+        <item>WEP ASCII</item>
+        <item>WEP Hex</item>
+    </string-array>
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Always</item>
+        <item>Close after inactivity for 5 minutes</item>
+        <item>Close after inactivity for 10 minutes</item>
+    </string-array>
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>Button</item>
+        <item>PIN obtained from peer device</item>
+    </string-array>
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 user</item>
+        <item>2 users</item>
+        <item>3 users</item>
+        <item>4 users</item>
+        <item>5 users</item>
+        <item>6 users</item>
+        <item>7 users</item>
+        <item>8 users</item>
+    </string-array>
+    <string-array name="wfd_720p_resolution_entry">
+        <item>HD (60 fps)</item>
+        <item>﻿HD (30 fps)</item>
+    </string-array>
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>Full HD (30 fps)</item>
+        <item>HD (60 fps)</item>
+        <item>HD (30 fps)</item>
+    </string-array>
+    <string-array name="wfd_resolution_entry">
+        <item>1080P Full HD (for videos)</item>
+        <item>720P HD (for games)</item>
+    </string-array>
+    <string-array name="mouse_primary_button_titles">
+        <item>Right-hand mouse</item>
+        <item>Left-hand mouse</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Use network-provided time</item>
+        <item>Use GPS-provided time</item>
+        <item>Shut down</item>
+    </string-array>
+    <string-array name="microphone_checked_entries">
+        <item>Top (excluding calls)</item>
+        <item>Bottom</item>
+    </string-array>
+</resources>

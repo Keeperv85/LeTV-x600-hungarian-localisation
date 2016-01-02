@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <com.android.music.widget.RefreshAndMoreListView android:id="@id/recommendedListview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage_listen_music_recom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="default_tip" />
+</FrameLayout>

@@ -1,0 +1,318 @@
+data:text/css,html,body,h2,h3,h4,h5,h6,table,tr,td,th,tbody,form,ul,ol,li:not(.logis):not(.ww):not(.more):not(.individ):not(.car):not(.search):not(.icontao):not(.download):not(.history):not(.seacher):not(.pic),dl,dd,section:not(.anzaibody),footer,nav,strong,aside,header,label
+{
+	background:#0B0C10!important;
+	background-image:none!important;
+	background-color:#0B0C10!important;
+	color:#59758a!important;
+	box-shadow:0 0 0!important;
+	text-shadow:0 0 0!important;
+	border-color:#212A32!important;
+}
+
+article,dt,h1,button.suggest-item-title,div
+{
+	background-color:#0B0C10!important;
+	color:#59758a!important;
+	box-shadow:0 0 0!important;
+	text-shadow:0 0 0!important;
+	border-color:#212A32!important;
+}
+
+p
+{
+	color:#59758a!important;
+	box-shadow:0 0 0!important;
+	text-shadow:0 0 0!important;
+	border-color:#212A32!important;
+}
+
+html,html body
+{
+	scrollbar-base-color:#46567b!important;
+	scrollbar-face-color:#56688f!important;
+	scrollbar-shadow-color:#222!important;
+	scrollbar-highlight-color:#56688f!important;
+	scrollbar-dlight-color:#2e3952!important;
+	scrollbar-darkshadow-color:#222!important;
+	scrollbar-track-color:#46567b!important;
+	scrollbar-arrow-color:#000!important;
+	scrollbar-3dlight-color:#7a7967!important;
+}
+
+html input:not(type=&quot;radio&quot;),html select,html button,html textarea
+{
+	box-shadow:0 0 0!important;
+	color:#59758A!important;
+	background-color:#0B0C10!important;
+	border-color:#212A32!important;
+}
+
+html input[type=submit],html button
+{
+	opacity:.5;
+}
+
+html input[type=submit]:hover,html button:hover
+{
+	opacity:1;
+	border:1px solid #1A3973!important;
+	outline:2px solid #1A3973!important;
+}
+
+html img[src],html input[type=image]
+{
+	-webkit-filter: brightness(50%);
+	/* opacity:1.0; */
+}
+
+html input[type=image]:hover
+{
+	opacity:1;
+}
+
+a[class^=&quot;arrow&quot;]
+{
+	height:0;
+}
+
+html a,html a *
+{
+	background-color:transparent!important;
+	color:#366ba6!important;
+	text-decoration:none!important;
+	text-shadow:0 0 0!important;
+	border-color:#212A32!important;
+}
+
+html a:visited,html a:visited *
+{
+	color:#a716b9!important;
+}
+
+html a:hover,html a:active
+{
+	color:none!important;
+	border-color:none!important;
+}
+
+#logolink,#mask
+{
+	background-color:#0B0C10!important;
+	border-bottom:none!important;
+}
+
+:before,:after
+{
+	background-color:transparent!important;
+	color:#59758a!important;
+	border-color:#212A32!important;
+}
+
+div[class=&quot;x-progress-play-mini&quot;]
+{
+	background:#eb3c10!important;
+}
+
+div[class=&quot;suggest-box&quot;]
+{
+	background:#000!important;
+}
+
+div[class=&quot;x-progress-track&quot;]
+{
+	background-color:#555!important;
+}
+
+div[class=&quot;x-progress-load&quot;]
+{
+	background-color:#909090!important;
+}
+
+div[class=&quot;x-progress-play&quot;],div[class=&quot;x-seek-handle&quot;]
+{
+	background-color:#eb3c10!important;
+}
+
+div[class=&quot;chain-con te&quot;],div[class=&quot;chain-arrow&quot;],div[class=&quot;toolbar&quot;],div[class=&quot;toolbar-con&quot;],div[id=&quot;index-box&quot;],div[class=&quot;suggest-div&quot;],div[class=&quot;suggest-box&quot;],div[class=&quot;nova-suggest&quot;],div[class=&quot;suggest-container&quot;],div.suggest-container.suggest-history,div[class=&quot;s-sugs&quot;],div[class=&quot;gstl_0 sbdd_a&quot;],div[class=&quot;se-inner&quot;],div[id=&quot;blabla-pro&quot;],div[id=&quot;fixedTitle&quot;],div[class=&quot;searchboxtop&quot;],div[select=&quot;domain&quot;],div[class=&quot;dialog&quot;],div[id=&quot;doc-link-box&quot;],div[id=&quot;searchInputBoxHistory&quot;],div[class=&quot;nearby-geolocate&quot;],div[class=&quot;popImgInr&quot;],div[class=&quot;sebox&quot;],div[class=&quot;suggest-pop&quot;],div[class=&quot;dbtg&quot;],div[class=&quot;nav-home ng-scope fixed-top&quot;],div[class=&quot;ui-suggestion-content&quot;],div[class=&quot;sw-cat&quot;],div[class=&quot;bxzbb se-sug J_SeIpt_Sug&quot;],input[id=&quot;J_searchtext&quot;],textarea.se-input,button[id=&quot;se-bn&quot;],button[id=&quot;index-bn&quot;],a.btn.btn1,div[class=&quot;weather-panel-in&quot;],div[class=&quot;schWrap fat&quot;],div[class=&quot;headerNav clearfix&quot;],div[class=&quot;foot_comment&quot;],s[class=&quot;weather-blank&quot;],select.weather-panel-province,select.weather-panel-city,select.weather-panel-town,div[node-type=&quot;box&quot;],div[class=&quot;lymb-thumb&quot;],a[class=&quot;signup_a&quot;],div[node-type=&quot;tipBox&quot;],div[class=&quot;common_search_sug&quot;],div[id=&quot;mHeader&quot;],div[class=&quot;fastli&quot;],div[class=&quot;search-box&quot;],div[class=&quot;dk_bar_sy1&quot;],span[id=&quot;wy&quot;],div[class=&quot;ui-suggestion&quot;],div[class=&quot;hot-sug&quot;],div[class=&quot;ui-suggestion-result no-result&quot;],div[class=&quot;ui-suggestion-clear&quot;],.pic-list li p,a.h-tab,.pic-list-n li p,div[class=&quot;wszh&quot;],.wszh span:first-child,div[class=&quot;ad_list&quot;],div[class=&quot;ui-suggestion-button&quot;],selection.tips-bar,a.sort-new,div[class=&quot;shareTip active&quot;],a#_allcomlist2,div[class=&quot;weather-panel-area-wrap&quot;],div[class=&quot;page transition center&quot;],option,#nav-view .rec li.add span:last-child,div[class=&quot;g-navbar ng-scope ng-isolate-scope&quot;],div[class=&quot;common_search shadow&quot;],div[class=&quot;ui-suggestion-quickdel&quot;],div[class=&quot;input-text search-area&quot;],div[class=&quot;-col-auto&quot;],div[class=&quot;locbar row -bg-light -ft-tertiary&quot;],div[class=&quot;log&quot;],div[class=&quot;head_channels&quot;],.channels ul li,nav[class=&quot;nav-mod&quot;],h3.weather-panel-tit,span.gbgs4,.ml-map,table.suggestions,.ml-settings-top,div[jsaction=&quot;settings.drag;pointerleave:settings.drag;pointerup:settings.drag;pointermove:settings.drag;pointerdown:settings.drag;touchstart:settings.drag;touchleave:settings.drag;touchmove:settings.drag;touchend:settings.drag&quot;],div.title,div.livetit,footer#ft,button#neighbor_getpos.pio-btn,div[id=&quot;cardsmanger&quot;],em.title_news,td.gssb_e,nav,h3,div[class=&quot;summary2&quot;],div.info,div.g-header-input-container,form.g-header-v1 .g-header-search-form,ul[class=&quot;cate&quot;],div[id=&quot;bd&quot;],div[id=&quot;doc&quot;],div.titlebar,div.from,div.input-container,input#searchInputBox.q,div.rt-startend-container,input#lineStartInputBox.rt-text,input#lineEndInputBox.rt-text,div.chart-hd,div.chart-nav2,div.nav-quirk,div.nav-main,div[class=&quot;mod-caizhong clearfix&quot;],div#hd.zst-top,div.table-more,div.input-container,input#q.q,a.down,p.tit,h2#navtit,div.head,ul.pick-betting,div.pick-c,div.pop-box,div.dg-foot,div.btm-bar,.errType textarea,div[class$=&quot;dsk&quot;],div.p_tabnav_nav,div.p_tabnav,div.bst_wrap,p.footer_c,div.footer,.pick-b,.index-widget-searchbox .search-area .se-input-poi,button#se-btn.btn.-brand,div.input-wrapper,input[class=&quot;search-input top-search-bar&quot;],app-card
+{
+	background:#0B0C10!important;
+}
+
+div.ml-did-you-mean-query-correction-container
+{
+	background-color:rgba(163,157,157,1)!important;
+}
+
+textarea.se-input,textarea#q.g-header-q,.s-i
+{
+	border:#59758a!important;
+	color:#59758A!important;
+}
+
+.shelf .item li,.recommended li
+{
+	border-bottom:1px solid #0B0C10!important;
+}
+
+.tab-cont .pitch,.pick-red li .selected,.pick-red li.selected span
+{
+	background-color:#E62217!important;
+}
+
+.pick-blue li .selected
+{
+	background-color:#2152b7!important;
+}
+
+td.dg-bet-btn.dg-bet-btn-active
+{
+	background:#0a9400!important;
+}
+
+.k3bet-table td.on
+{
+	background:#0e4417!important;
+}
+
+.select-boll-list li.active .poker-num
+{
+	background:#0c5322!important;
+}
+
+select
+{
+	-webkit-appearance:none!important;
+	box-sizing:border-box!important;
+	align-items:center!important;
+	border:1px solid!important;
+	border-image-source:initial!important;
+	border-image-slice:initial!important;
+	border-image-width:initial!important;
+	border-image-outset:initial!important;
+	border-image-repeat:initial!important;
+	white-space:pre!important;
+	-webkit-rtl-ordering:logical!important;
+	color:#0c5322!important;
+	background-color:#0c5322!important;
+}
+
+div.ml-searchbox-settings-button,td#gs_tti50.gsib_a,form[id=&quot;ml-searchboxform&quot;],div#J_Shade
+{
+	background-color:#91979B!important;
+}
+
+span.js-nodetail.btn.read-btn
+{
+	background-color:#40c802!important;
+}
+
+.pic_slider div img
+{
+	opacity:.0!important;
+}
+
+html body,.-bg-normal,header,div#tsfi.msfi,div#gbr,button.g-header-search-button,.sumext-wenda .fold-btn,.search-mod .search-btn,ui.chart-tag,ol.gbtc,section[class=&quot;switch-page-main&quot;],div[class=&quot;container shelf&quot;],header[class=&quot;hd switch-page-tab&quot;],div[class=&quot;page center current&quot;],div[class=&quot;page transition right100&quot;],div[class=&quot;container nsh&quot;],.pic-list li,.pick-red li span,.pick-blue li span,h1.title,ul.item,ul.pic-list,div[class=&quot;page-content rank-content&quot;],ol.rank-list,div[class=&quot;page-content cate-content&quot;],ul[class=&quot;classification-nav js-classify&quot;],.classification-nav li,.rank-list li,div[id=&quot;nsh-anim&quot;],section.anzaibody,div.info,nav.switch-page-tab-nav,li.pic,div.content,ul.item,div.container-bd,b.name,.ml-searchbox input,.ml-searchbox,html input:hover
+{
+	background-color:#0B0C10!important;
+}
+
+span,em
+{
+	background-color:transparent!important;
+	color:#59758a!important;
+	box-shadow:0 0 0!important;
+	text-shadow:0 0 0!important;
+	border-color:#212A32!important;
+}
+
+div:empty,div[id=&quot;x-video-button&quot;],div[class=&quot;x-advert&quot;],div[class=&quot;player_controls svp_ctrl&quot;],div::after,h1#logo,div.gotop
+{
+	background-color:transparent!important;
+}
+
+dt:not(:empty),div:not(.swiper_area,.blocks),p:not(:empty),span:not(span.searchBox_inline),html input[type=text],html input[type=password]
+{
+	background-image:none!important;
+}
+
+html input:focus,html select:focus,html option:focus,html button:focus,html textarea:focus,html input:hover,html select:hover,html option:hover,html button:hover,html textarea:hover
+{
+	background-color:#0B0C10!important;
+	color:#59758A!important;
+	outline:2px solid #1A3973!important;
+	border-color:#1A3973!important;
+}
+
+div[class=&quot;img-view&quot;],ul[id=&quot;imgview&quot;],a[class^=&quot;prev&quot;],a[class^=&quot;next&quot;]a[class^=&quot;topic_img&quot;],a[class^=&quot;arrow&quot;],a:active[class^=&quot;arrow&quot;],a:visited[class^=&quot;arrow&quot;],img[src^=&quot;data&quot;],img[loaded=&quot;1&quot;],.anythingSlider .arrow,a img,#toolbarBox,#move_tip,div[class=&quot;x-prompt&quot;],div[class=&quot;x-dashboard&quot;],div[class=&quot;x-console&quot;],div[class=&quot;x-progress&quot;],div[class=&quot;x-progress-seek&quot;],i.close
+{
+	background:none!important;
+}
+
+input::-webkit-input-placeholder,b.name,b.icon,font
+{
+	color:#59758a!important;
+}
+
+.card-wrap app-card,.weather-panel-tit
+{
+	border-bottom:#0B0C10!important;
+}
+
+LI, UL {
+	background-color: inherit!important;
+}
+/**********************   bbs.letv.com   ***********************/
+.index_nav {background-color: #0B0C10!important;}
+.titBox {background-color: #0B0C10!important;}
+/**********************   m.baidu.com  suggest ***********************/
+.suggest-div {background-color: #0B0C10!important;}
+/**********************   m.baidu.com MOBILEP-19875   ***********************/
+.wiseui_dialog_container {background-color: #212A32!important;}
+/**********************   m.baidu.com SI-20357   ***********************/
+#kw {background-color: #212A32!important;}
+#kw2 {background-color: #212A32!important;}
+.cur {background: none!important;}
+/**********************   m.wo.cn/androidPage.html   ***********************/
+.option p {background: #0B0C10!important;}
+/**********************   www.amazon.cn   ***********************/
+#nav-logobar {background: none!important;}
+/**********************   www.yidianzixun.cn   ***********************/
+.article-more {opacity:0.0!important;}
+/**********************   infoapp.3g.qq.com MOBILEP-21437   ***********************/
+.tvp_ads {display: none!important;}
+.tvp_shadow {z-index: -1!important;}
+/**********************   wap.zol.com.cn XIII-645   ***********************/
+.breadcrumbs-container .breadcrumbs-scroller:before {border-left: none!important;background: none!important;background: none!important;}
+#header .breadcrumbs:after, #header.breadcrumbs:after {border-right: none!important;background: none!important;background: none!important;}
+#header .breadcrumbs a:after, #header.breadcrumbs a:after {background-size: 0!important;}
+/**********************   m.taobao.com MOBILEP-21421   ***********************/
+#a9012-2,#a3656-6,#a11587-10,#a5535-14,#a7864-18,#a5203-22,#a5553-26,#a7606-30 {width:0!important;}
+/**********************   mobile.baidu.com MOBILEP-21579   ***********************/
+app-card .app-card-main {background-color: #0B0C10!important;}
+/**********************   wap.zol.com.cn MOBILEP-21374   ***********************/
+#reviewstips .slider {background-color: #0B0C10!important;box-shadow: none!important;}
+.slider:before {background-color:#ffffff!important;}
+.slider:after {background-color:#ffffff!important;}
+/**********************   news.sina.cn MOBILEP-21971   ***********************/
+.p_dialoghead {background: #0B0C10!important;}
+.f_card .f_card_icon {background: transparent!important;}
+/**********************   m.letv.com MOBILEP-21913   ***********************/
+#j-pointer {background: transparent!important;}
+/**********************   map.baidu.com MOBILEP-22512   ***********************/
+#map-holder div {background:transparent!important;}
+/**********************   m.letv.com SI-21780   ***********************/
+.hv_play_bg, .hv_play_poster {background-color: transparent!important;}
+/**********************   m.iqiyi.com XIII-3082   ***********************/
+#player-trigger {background:transparent!important;}
+#player-dashboard {background:transparent!important;}
+/**********************   wap.zol.com.cn MOBILEP-26456   ***********************/
+.products li .image {z-index: inherit!important;}
+/**********************   news.sina.cn MOBILEP-27883   ***********************/
+.op_ico, .num_ico fr {background-color: #212A32!important;}
+.carditems_list_opright {background: none!important;}
+/**********************   news.sina.cn XIII-4716   ***********************/
+.query, .querybox {background-color: #212A32!important;}
+/**********************   im.qq.com/pcqq XIII-7601   ***********************/
+#fshow {background-color: transparent!important;}
+.modInner {background-color: transparent!important;}
+.banners {background-color: transparent!important;}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:id="@id/app_permission_item" android:background="#ffffffff" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" class="android.widget.AppSecurityPermissions$PermissionItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/control_title_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="#ff9d9d9d" android:gravity="bottom" android:id="@id/control_title" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip" android:fontFamily="normal" />
+        <View android:id="@id/control_title_line" android:background="#ffdfdfdf" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/permission_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/permission_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:fontFamily="normal" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffeb3e2e" android:id="@id/maybe_cost" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:text="@string/cost" android:fontFamily="normal" />
+            <ImageView android:id="@id/le_image_permission" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_permission_description" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.letv.leui.widget.LeListPreferenceView android:gravity="right" android:entries="@array/select_name" android:layout_gravity="center_vertical" android:id="@id/select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entryValues="@array/select_value" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</view>

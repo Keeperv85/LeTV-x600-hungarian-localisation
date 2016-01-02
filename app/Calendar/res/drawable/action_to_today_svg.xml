@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="action_to_today" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/black" android:pathData="M34,11h-6v17h6V11z M68,11h-6v17h6V11z M57,17H39v6h18V17z M78,17h-5v6h5v54H18V23h5   v-6h-5c-3.3,0-6,2.7-6,6v54c0,3.299,2.7,6,6,6h60c3.3,0,6-2.701,6-6V23C84,19.7,81.3,17,78,17z M31,45c2.761,0,5-2.239,5-5   c0-2.762-2.239-5-5-5s-5,2.239-5,5C26,42.761,28.239,45,31,45z" />
+</vector>

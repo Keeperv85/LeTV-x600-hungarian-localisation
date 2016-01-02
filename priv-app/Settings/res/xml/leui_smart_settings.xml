@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/leui_smart_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/leui_securitysettings_single_hand_lockscreen_title" android:key="smart_settings_single_hand_lockscreen" android:summary="@string/leui_single_hand_mode_summary" />
+    <PreferenceCategory android:title="@string/leui_smart_settings_gesture_category" />
+    <SwitchPreference android:title="@string/leui_smart_settings_gesture_up" android:key="smart_settings_gesture_up" />
+    <SwitchPreference android:title="@string/leui_smart_settings_gesture_down" android:key="smart_settings_gesture_down" />
+    <SwitchPreference android:title="@string/leui_smart_settings_gesture_left" android:key="smart_settings_gesture_left" />
+    <SwitchPreference android:title="@string/leui_smart_settings_gesture_right" android:key="smart_settings_gesture_right" />
+    <SwitchPreference android:title="@string/leui_smart_settings_gesture_double_click" android:key="smart_settings_gesture_double_click" />
+</PreferenceScreen>

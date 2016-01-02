@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_main_hover" android:background="#4d000000" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/frame_hide_show" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="400.0dip">
+        <include android:id="@id/hide_show_content" layout="@layout/layout_hide_show" />
+    </FrameLayout>
+</FrameLayout>

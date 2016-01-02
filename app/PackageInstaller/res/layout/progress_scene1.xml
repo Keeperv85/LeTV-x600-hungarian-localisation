@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/scene" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="73.0" layout="@layout/progress_head" />
+    <RelativeLayout android:id="@id/bottom_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="27.0" />
+</LinearLayout>

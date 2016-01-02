@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/location_basedservice" android:key="location_basedservice">
+        <intent android:targetPackage="com.mediatek.lbs.em2.ui" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.lbs.em2.ui.MyTabActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/auto_dialer" android:key="auto_dialer">
+        <intent android:targetPackage="com.example" android:action="android.intent.action.MAIN" android:targetClass="com.example.AutoDialerActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/YGPS" android:key="ygps">
+        <intent android:targetPackage="com.mediatek.ygps" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.ygps.YgpsActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/cw_test" android:key="cw_test">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.cwtest.CWTest" />
+    </Preference>
+</PreferenceScreen>

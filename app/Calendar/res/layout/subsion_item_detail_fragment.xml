@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/film_detail_head" android:layout_width="fill_parent" android:layout_height="270.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/detail_title" android:id="@id/film_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/font_medium" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/film_detail_when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/film_detail_director" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/film_detail_actor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/film_detail_language" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/film_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lineSpacingExtra="6.0dip" />
+        <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/detail_still_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textColor="#ff8d9599" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_still" android:fontFamily="@string/english_font_normal" />
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="11.0dip" />
+            <com.letv.calendar.view.HorizontalListView android:id="@id/detail_still" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="10.0dip" />
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/trail_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textColor="#ff8d9599" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_trail" android:fontFamily="@string/english_font_normal" />
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="11.0dip" />
+            <com.letv.calendar.view.HorizontalListView android:id="@id/detail_trail" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="10.0dip" />
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

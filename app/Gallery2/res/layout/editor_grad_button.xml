@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="21.0dip" android:layout_weight="1.0" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.gallery3d.filtershow.ui.FramedTextButton android:layout_gravity="center|left" android:id="@id/editorGradButton" android:background="@drawable/filtershow_button_background" android:visibility="visible" android:layout_width="84.0dip" android:layout_height="84.0dip" android:scaleType="centerInside" android:text="@string/editor_grad_style" />
+    <ToggleButton android:layout_gravity="center|left" android:id="@id/editor_grad_new" android:background="@drawable/filtershow_grad_button" android:visibility="visible" android:layout_width="84.0dip" android:layout_height="84.0dip" android:scaleType="centerInside" android:textOn="@string/editor_grad_new" android:textOff="@string/editor_grad_new" />
+</LinearLayout>

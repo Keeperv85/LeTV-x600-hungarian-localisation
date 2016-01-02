@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/no_record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/no_record" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffc6c7cb" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/no_record" android:fontFamily="helve-neue-regular" />
+    </LinearLayout>
+    <ScrollView android:id="@id/cl_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.android.letvyellowpage.view.MyListView android:id="@id/calllog_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:divider="#ffffffff" android:dividerHeight="1.0px" android:minHeight="?android:listPreferredItemHeight" />
+        </LinearLayout>
+    </ScrollView>
+    <com.letv.leui.widget.LeBottomWidget android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_widget" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

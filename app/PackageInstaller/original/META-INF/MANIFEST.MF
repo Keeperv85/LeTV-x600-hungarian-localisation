@@ -1,0 +1,130 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: res/layout/progress_head.xml
+SHA1-Digest: 0D2J9X6SDcyLMvTOTZ0k1qMBR9E=
+
+Name: res/drawable/right_style.xml
+SHA1-Digest: xfn1Tk9hl9SGaTrHQDLu3OJej8k=
+
+Name: res/layout/label.xml
+SHA1-Digest: Q2j0WHjmH7gf+IviBeOciV1zTiM=
+
+Name: res/drawable/permission_widget_textview_style.xml
+SHA1-Digest: YrAJxjAST5oSEUJm7zqIwW2XMx4=
+
+Name: res/animator/install_progress_text_start_anim.xml
+SHA1-Digest: QaAw7h82yqPLDDX54ftqO8GV1NQ=
+
+Name: res/animator/install_progress_text_end_anim.xml
+SHA1-Digest: 8MvWVRgUuYj2x7KMXSMyImhs8zo=
+
+Name: res/anim/perm_anim.xml
+SHA1-Digest: INWb4DwSyjXPSmFBwto8dTbPkCQ=
+
+Name: resources.arsc
+SHA1-Digest: JJt3YVR+sdCyc/IREqCFsLngfYM=
+
+Name: res/layout/uninstall_progress.xml
+SHA1-Digest: 4yDWIZvbEf/3RjVrGrDS6SXH2MU=
+
+Name: res/drawable-mdpi-v4/ic_success.png
+SHA1-Digest: IoL+AbRYPzmQn+D7qOI23DgF1rk=
+
+Name: res/drawable-mdpi-v4/ic_fail.png
+SHA1-Digest: PI/8fABk6B7zFRetNI1n5vKOQ0o=
+
+Name: AndroidManifest.xml
+SHA1-Digest: fDgGAENV7ATpyOy6TH6DsfWmyHo=
+
+Name: res/layout/op_progress.xml
+SHA1-Digest: x/EtZ77zzjmMu/LUw1zJ6AAFaTA=
+
+Name: res/drawable/progress_indeterminate_horizontal_material.xml
+SHA1-Digest: 7opjlYAEjnl6223t4+u8kjCr4oQ=
+
+Name: res/transition/instal_finish_transition.xml
+SHA1-Digest: y6H0IOQfAVWk3kgUBa3uqtNQi2A=
+
+Name: res/layout/app_details_progress.xml
+SHA1-Digest: 4VmSd7Q/NLh65t7Hvc6RNSLdODw=
+
+Name: res/animator/install_ok_text.xml
+SHA1-Digest: bjerSb2lTE7FaSEccPixdyXTfyQ=
+
+Name: res/layout/permissions_list.xml
+SHA1-Digest: /CMPcPcVyXevULNKar7wNsTT1Wk=
+
+Name: res/drawable-xhdpi-v4/widget_select.png
+SHA1-Digest: flVrxlz5EGwnGfUt/gHnCA/BHh8=
+
+Name: res/drawable/ic_result_status.xml
+SHA1-Digest: wBRCj30lsJWUL/hiXNoYn2PbSb8=
+
+Name: res/drawable/left_style.xml
+SHA1-Digest: 3NO2ua5dJlF1/8guI1IV2CVrs6Q=
+
+Name: res/drawable-xhdpi-v4/ic_fail.png
+SHA1-Digest: IbNDLtFrlobFvSqlK1dXiKChOoY=
+
+Name: res/layout/new_permission_list.xml
+SHA1-Digest: 04YIn7lPwzZHl6bR01kmZwpRyFc=
+
+Name: res/drawable-xhdpi-v4/error.png
+SHA1-Digest: qYOgLnf4GFh40sBn3DWx92CyzTM=
+
+Name: res/drawable-xhdpi-v4/ic_success.png
+SHA1-Digest: oeCqnqiRCHQ1Qk4ArHgFxn0dRAY=
+
+Name: classes.dex
+SHA1-Digest: EyJVIYHndm4rA+vnZqPG7sg/W2A=
+
+Name: res/layout/app_details_uninstall.xml
+SHA1-Digest: obCOh84r/+q4WEAJOkFW4dWM9Eg=
+
+Name: res/transition/change_image_transform_enter.xml
+SHA1-Digest: uInfv13ilgKzUCu3Z79bb93dR9g=
+
+Name: res/drawable/halo.xml
+SHA1-Digest: vknbPcAFmL3lXNGj1RJZKvcL43M=
+
+Name: res/layout/app_details.xml
+SHA1-Digest: f4l52yq9mltkyG3amxzZNI+WggE=
+
+Name: res/layout/install_confirm.xml
+SHA1-Digest: VzEkcWgLunKA9ftaLK2ywVO7bR8=
+
+Name: res/drawable-hdpi-v4/ic_success.png
+SHA1-Digest: KHPY2R+bzsVhEyaRpbz6mVo9xrk=
+
+Name: res/layout/uninstall_confirm.xml
+SHA1-Digest: nFud9fTIwBF5zqnH8IkwuP7jgOI=
+
+Name: res/layout/progress_scene2.xml
+SHA1-Digest: 9k1jFDRIOarOjTPjxRfQeN1ApHg=
+
+Name: res/layout/op_progress_start.xml
+SHA1-Digest: Tkfu0wcICPt49EZNJ/avN5hlWqE=
+
+Name: com/letv/tracker/agnes/agnes.properties
+SHA1-Digest: OcIcJoVqpYnrTgGQhBOP0M6S6g8=
+
+Name: res/drawable/vector_drawable_progress_indeterminate_horizontal.x
+ ml
+SHA1-Digest: xztlCDF9f/XEUUe0kwSMIAj7sug=
+
+Name: res/layout/all_permissions_list.xml
+SHA1-Digest: ssUd+w9tBaFiLSwKhsjzItww2wU=
+
+Name: res/layout/install_start.xml
+SHA1-Digest: aCKGa7CXsLaz0lBqtkK/hnCfKKY=
+
+Name: res/layout/progress_scene1.xml
+SHA1-Digest: 9XoXXhzAbNi6t76uf3ScIpDxClo=
+
+Name: res/drawable-hdpi-v4/ic_fail.png
+SHA1-Digest: Nr1r1aHpkGrW42RfF7D6uYSPKeA=
+
+Name: res/drawable-xhdpi-v4/widget_select_default.png
+SHA1-Digest: XTmvqSA5FcSNugM+mTUTKB5Y+Ik=
+

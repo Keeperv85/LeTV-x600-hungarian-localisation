@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/leui_double_apps_settings" android:title="@string/leui_useragreement" android:key="leui_double_apps_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/leui_double_apps_warning" android:key="leui_double_apps_settings_des" />
+    <SwitchPreference android:persistent="false" android:layout="@layout/leui_settings_preference_horizontal32" android:title="@string/leui_weixin_apps_settings" android:key="leui_wei_xin_double_setting" />
+</PreferenceScreen>

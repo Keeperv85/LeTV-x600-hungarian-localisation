@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false">
+        <shape>
+            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <solid android:color="@color/le_preference_item_normal" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="false" android:state_pressed="true">
+        <shape>
+            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <solid android:color="@color/le_preference_item_normal" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="false">
+        <shape>
+            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <solid android:color="@color/le_preference_item_normal" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_pressed="true">
+        <shape>
+            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <solid android:color="@color/le_preference_item_pressed" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_pressed="true">
+        <shape>
+            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <solid android:color="@color/le_preference_item_pressed" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <solid android:color="@color/le_preference_item_normal" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/alarm_settings" android:key="alarm_alert_settings"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/alarm_setting_title_repeat" android:key="pref_alarm_repeat" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/alarm_setting_title_ringtone" android:key="pref_alarm_ringtone" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <com.letv.leui.preference.LeEditTextPreference android:persistent="false" android:layout="@layout/le_preference_edittext" android:title="@string/alarm_setting_title_label" android:key="pref_alarm_label" android:focusColor="@color/le_common_switch_or_other_color" />
+    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:layout="@android:layout/le_preference_seekbar" android:title="@string/alarm_setting_title_snooze" android:key="pref_alarm_snooze" android:widgetLayout="@android:layout/le_ptr_simple_loading_header" />
+    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:layout="@android:layout/le_preference_seekbar" android:title="@string/alarm_alert_title_vibrate" android:key="pref_alarm_vibrate" android:widgetLayout="@android:layout/le_ptr_simple_loading_header" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cities_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/city_onoff" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/red_checkbox" />
+    <ImageView android:id="@id/city_selected_icon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_location" />
+    <TextView android:textColor="@color/clock_white" android:ellipsize="end" android:id="@id/city_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="10.0dip" style="@style/city_name" />
+    <TextView android:textColor="@color/clock_gray" android:id="@id/city_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" style="@style/city_time" />
+    <ImageView android:gravity="center_vertical" android:id="@id/city_remove" android:background="@drawable/item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@android:drawable/ic_menu_close_clear_cancel" />
+</LinearLayout>

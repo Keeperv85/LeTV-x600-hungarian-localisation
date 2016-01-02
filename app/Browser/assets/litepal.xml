@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="browser_litepal" >
+    </dbname>
+
+   <!--  取日期为版本号: 如20150121 -->
+    <version value="151201">
+    </version>
+
+    <list>
+        <mapping class="com.android.browser.data.datasupport.LastUpdateTable"></mapping>
+
+        <mapping class="com.android.browser.data.datasupport.HomeQuickDialTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.HomeNavGuideTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.HotWebsiteTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.HomeLesoTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.MyVideoHistoryTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.SearchEngineTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.DownloadTable"></mapping>
+        <mapping class="com.android.browser.data.datasupport.Bookmarks"></mapping>
+        <mapping class="com.android.browser.data.datasupport.History"></mapping>
+        <mapping class="com.android.browser.data.datasupport.Thumbnails"></mapping>
+    </list>
+
+</litepal>

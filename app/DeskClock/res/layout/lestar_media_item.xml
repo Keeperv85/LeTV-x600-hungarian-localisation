@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/star_media_item_background" android:layout_width="fill_parent" android:layout_height="@dimen/ringtone_media_item_height" android:paddingStart="@dimen/ringtone_square_padding_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/ringtone_media_item_icon_margin_right">
+                <ImageView android:id="@id/media_item_icon" android:layout_width="@dimen/ringtone_media_item_icon_width" android:layout_height="@dimen/ringtone_media_item_icon_width" android:src="@drawable/ic_media_audio" android:scaleType="centerCrop" />
+                <com.android.deskclock.widget.PlayingIndicatorView android:id="@id/media_item_playing_indicator" android:visibility="gone" android:layout_width="@dimen/ringtone_media_item_icon_width" android:layout_height="@dimen/ringtone_media_item_icon_width" android:scaleType="centerCrop" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/ringtone_media_item_name_textsize" android:textColor="@color/ringtone_media_item_name_color" android:gravity="center_vertical" android:id="@id/media_item_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ringtone_media_item_rank_textsize" android:textColor="@color/ringtone_media_item_rank_color" android:gravity="center_vertical" android:id="@id/media_item_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ringtone_media_item_rank_margin_top" android:singleLine="true" android:layout_marginStart="@dimen/ringtone_media_item_rank_margin_start" />
+    </LinearLayout>
+    <ImageView android:id="@id/media_item_status" android:visibility="gone" android:layout_width="@dimen/ringtone_media_item_op_width" android:layout_height="@dimen/ringtone_media_item_op_height" android:src="@drawable/ic_media_selected" />
+    <LinearLayout android:gravity="end|center" android:id="@id/media_item_op_container" android:layout_width="@dimen/ringtone_media_item_height" android:layout_height="@dimen/ringtone_media_item_height" android:paddingEnd="@dimen/ringtone_square_padding_normal">
+        <ImageView android:id="@id/media_item_op" android:layout_width="@dimen/ringtone_media_item_op_width" android:layout_height="@dimen/ringtone_media_item_op_height" android:src="@drawable/ic_media_op" />
+    </LinearLayout>
+</LinearLayout>

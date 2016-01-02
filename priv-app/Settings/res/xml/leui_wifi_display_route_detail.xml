@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.preference.LeEditTextPreference android:layout="@android:layout/le_preference_horizontal_widget_start" android:title="@string/user_rename" android:key="rename_pref" />
+</PreferenceScreen>

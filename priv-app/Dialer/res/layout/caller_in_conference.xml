@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="76.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingEnd="20.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0sp" android:id="@id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/call_label_text_size" android:textColor="@color/incall_call_banner_subtext_color" android:ellipsize="marquee" android:id="@id/conferenceCallerNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/call_account_label_margin_right" android:singleLine="true" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/call_label_text_size" android:textColor="@color/incall_call_banner_subtext_color" android:ellipsize="end" android:id="@id/conferenceCallerPhoneLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/conferenceCallerSeparate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/leui_conference_call_split" android:scaleType="center" android:contentDescription="@string/goPrivate" />
+        <ImageView android:id="@id/conferenceCallerDisconnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/leui_conference_call_hungup" android:scaleType="center" android:contentDescription="@string/onscreenEndCallText" android:layout_marginStart="20.0dip" />
+    </LinearLayout>
+    <TextView android:background="#20ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="-1.0px" android:layout_weight="1.0" />
+</LinearLayout>

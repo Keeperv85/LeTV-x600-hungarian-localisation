@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.widget.BorderedCircleImageView android:background="@color/primary_color" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/le_ic_dial_phone" android:scaleType="center" android:layout_centerHorizontal="true" android:contentDescription="@null" app:circle_radius="28.0dip" app:round_background="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen settings:keywords="@string/keywords_battery"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.letv.leui.settings.widget.LeUIBatteryHistoryPreference android:persistent="false" android:key="battery_value" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:key="battery_status" style="?android:attr/preferenceInformationStyle" />
+    <PreferenceCategory android:key="app_list" />
+</PreferenceScreen>

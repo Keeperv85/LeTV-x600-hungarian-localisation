@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <ImageView android:id="@id/title_img" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/home_icon_bank" android:contentDescription="@string/home_icon" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/title_text" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yinhangjinrong" android:layout_weight="1.0" android:fontFamily="helve-neue-regular" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:id="@id/more" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="12.0sp" android:textColor="#ff898b94" android:gravity="center_vertical" android:id="@id/more_text" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gengduo" android:fontFamily="helve-neue-regular" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.letv.android.letvyellowpage.view.MyGridView android:id="@id/service_grid_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="9.0dip" android:numColumns="2" />
+        <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</RelativeLayout>

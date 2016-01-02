@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/movie_view_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <View android:id="@id/line_view" android:background="@color/mira_blue_divide" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <TextView android:gravity="center" android:id="@id/text_on" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/on_text" android:layout_toLeftOf="@id/line_view" />
+    <TextView android:gravity="center" android:id="@id/text_off" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/off_text" android:layout_toRightOf="@id/line_view" />
+</RelativeLayout>

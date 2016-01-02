@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.CarrierText" parent="@android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">@dimen/statusbar_carrier_textsize_zh</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/status_bar_clock_color</item>
+        <item name="android:fontFamily">@string/statusbar_carrier_text_font_zh</item>
+    </style>
+</resources>

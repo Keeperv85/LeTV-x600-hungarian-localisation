@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <include workspace="@xml/default_workspace" />
+    <favorite launcher:className="com.android.dialer.DialtactsActivity" launcher:packageName="com.android.dialer" launcher:container="-101" launcher:screen="0" launcher:x="0" launcher:y="0" />
+    <favorite launcher:packageName="com.android.mms" launcher:container="-101" launcher:screen="1" launcher:x="1" launcher:y="0" />
+    <favorite launcher:packageName="com.android.browser" launcher:container="-101" launcher:screen="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:packageName="com.android.camera2" launcher:container="-101" launcher:screen="3" launcher:x="3" launcher:y="0" />
+</favorites>

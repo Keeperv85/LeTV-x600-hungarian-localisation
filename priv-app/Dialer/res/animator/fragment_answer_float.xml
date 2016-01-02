@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="@integer/fragment_answer_float_duration" android:repeatCount="infinite" android:repeatMode="reverse" android:propertyName="@string/translation_y"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.leui.keyguard.KeyguardViewContainer android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_host_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto" xmlns:slidemenu="http://schemas.android.com/apk/res-auto">
+    <com.leui.keyguard.SlideLayout android:id="@id/sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" slidemenu:layout_role="primaryMenu" />
+        <FrameLayout android:id="@id/camera_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" slidemenu:layout_role="secondaryMenu" />
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_security_container" android:paddingTop="@android:dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" slidemenu:layout_role="content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/app_widget_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" android:animateLayoutChanges="true" />
+            <com.android.keyguard.KeyguardSecurityContainer android:gravity="bottom|center" android:id="@id/keyguard_security_container" android:padding="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" slidemenu:layout_childType="challenge" slidemenu:layout_maxHeight="@dimen/keyguard_security_height">
+                <com.android.keyguard.KeyguardSecurityViewFlipper android:gravity="center" android:id="@id/view_flipper" android:paddingTop="@dimen/keyguard_security_view_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.android.keyguard.KeyguardSecurityContainer>
+        </LinearLayout>
+    </com.leui.keyguard.SlideLayout>
+    <View android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" slidemenu:layout_childType="scrim" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/camera_notify" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_camera" />
+</com.leui.keyguard.KeyguardViewContainer>

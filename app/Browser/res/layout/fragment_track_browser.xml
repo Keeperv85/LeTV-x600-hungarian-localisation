@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/application_main_color_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <com.letv.leui.widget.LeListView android:id="@id/track_list" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="@null" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/download_fragment_text" android:id="@id/download_no_records" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_no_records" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/attendees_info_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/event_info_text_label" android:id="@id/attendees_info_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_more_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_flow_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_import_export_contact_fail_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_incall_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_input_updata_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_ota_1_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_keyboard_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_keyboard_icon_small" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_media_device_connect_icon" />
+    <item android:duration="200" android:drawable="@android:drawable/le_notify_status_miss_alarm_icon" />
+</animation-list>

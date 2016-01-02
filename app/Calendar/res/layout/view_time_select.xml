@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/from_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+        <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_time" android:layout_centerVertical="true" android:fontFamily="regular" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:id="@id/start_date" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="helve-neue-regular" />
+            <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:gravity="center|right" android:id="@id/start_time" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_event_date_time_margin" android:fontFamily="helve-neue-regular" />
+            <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/start_time_picker_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.widget.picker.DateTimeWheel android:id="@id/start_date_time_wheel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/time_picker_mode_group_start" app:leNoYearWheel="true" />
+        <com.letv.leui.widget.picker.DateWheel android:id="@id/start_date_wheel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/time_picker_mode_group_start" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/time_picker_mode_group_start" android:background="@drawable/bg_raidogroup_blue_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <RadioButton android:textSize="15.0sp" android:id="@id/start_international_calendar" android:background="@drawable/bg_radiobutton_left" android:text="@string/lable_International_calendar" android:fontFamily="regular" style="@style/time_picker_tab" />
+            <RadioButton android:textSize="15.0sp" android:id="@id/start_chinese_calendar" android:background="@drawable/bg_radiobutton_right" android:text="@string/lable_chinese_calendar" android:fontFamily="regular" style="@style/time_picker_tab" />
+        </RadioGroup>
+    </RelativeLayout>
+    <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/to_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+        <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/end_time" android:layout_centerVertical="true" android:fontFamily="regular" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:id="@id/end_date" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="helve-neue-regular" />
+            <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:gravity="center|right" android:id="@id/end_time" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_event_date_time_margin" android:fontFamily="helve-neue-regular" />
+            <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/end_time_picker_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.widget.picker.DateTimeWheel android:id="@id/end_date_time_wheel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/time_picker_mode_group_end" app:leNoYearWheel="true" />
+        <com.letv.leui.widget.picker.DateWheel android:id="@id/end_date_wheel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/time_picker_mode_group_end" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/time_picker_mode_group_end" android:background="@drawable/bg_raidogroup_blue_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <RadioButton android:textSize="15.0sp" android:id="@id/end_international_calendar" android:background="@drawable/bg_radiobutton_left" android:text="@string/lable_International_calendar" android:fontFamily="regular" style="@style/time_picker_tab" />
+            <RadioButton android:textSize="15.0sp" android:id="@id/end_chinese_calendar" android:background="@drawable/bg_radiobutton_right" android:text="@string/lable_chinese_calendar" android:fontFamily="regular" style="@style/time_picker_tab" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

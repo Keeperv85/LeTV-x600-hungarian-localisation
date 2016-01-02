@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/front_content" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/le_device_progress" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center" android:id="@id/le_video_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ProgressBar android:id="@id/le_video_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="50" android:secondaryProgress="75" />
+    </FrameLayout>
+    <ImageView android:id="@id/le_push_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    <com.android.systemui.statusbar.phone.widget.LeMarqueeTextView android:textSize="@dimen/le_cb_video_title_size" android:ellipsize="marquee" android:gravity="center" android:id="@id/le_video_title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/le_video_title" android:scrollHorizontally="true" android:singleLine="true" android:layout_toLeftOf="@id/le_push_tv" android:layout_toRightOf="@id/le_device_progress" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

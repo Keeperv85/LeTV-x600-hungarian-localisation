@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entryvalues_font_size">
+        <item>1</item>
+        <item>1.08</item>
+        <item>1.16</item>
+        <item>1.25</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/search_item_icon" android:layout_width="@dimen/search_item_icon_size" android:layout_height="@dimen/search_item_icon_size" android:layout_marginLeft="12.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/search_item_icon" />
+    <TextView android:textSize="@dimen/le_text_size_12" android:textColor="@color/search_history_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/search_item_title" android:layout_width="fill_parent" android:layout_height="@dimen/search_history_item_height" android:singleLine="true" />
+</LinearLayout>

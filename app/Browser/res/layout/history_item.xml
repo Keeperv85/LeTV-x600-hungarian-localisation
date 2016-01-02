@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/back" android:tag="back" android:layout_width="fill_parent" android:layout_height="@dimen/le_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/delete" android:background="@color/le_favourite_item_swipe_bg" android:layout_width="@dimen/le_list_history_item_left_swipe_width" android:layout_height="@dimen/le_list_item_height" android:src="@drawable/le_ic_favourite_swipe_delete" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <LinearLayout android:id="@id/front" android:layout_width="fill_parent" android:layout_height="@dimen/le_list_item_height" android:layout_marginLeft="@dimen/bookmark_item_margin">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/edit_icon" android:paddingLeft="@dimen/bookmark_item_padding" android:paddingTop="19.0dip" android:paddingRight="@dimen/bookmark_item_padding" android:paddingBottom="19.0dip" android:visibility="gone" android:layout_width="@dimen/le_list_item_edit_icon_width" android:layout_height="@dimen/le_list_item_height" android:src="@drawable/le_ic_edit" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/favicon" android:layout_width="@dimen/le_list_item_icon_width" android:layout_height="@dimen/le_list_item_icon_height" android:layout_marginLeft="@dimen/bookmark_item_padding" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/le_list_item_text_size" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_list_item_icon_text_margin" android:layout_marginRight="@dimen/le_list_item_margin" android:maxLines="1" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/le_list_item_text_size_secondary" android:id="@id/url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_list_item_icon_text_margin2" android:layout_marginTop="@dimen/le_list_item_padding" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <com.letv.leui.widget.LeCheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="@color/history_item_checkbox_color" />
+    </LinearLayout>
+</RelativeLayout>

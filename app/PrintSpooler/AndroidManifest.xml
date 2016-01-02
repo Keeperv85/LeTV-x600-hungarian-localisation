@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.printspooler" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <permission android:description="@string/permdesc_accessAllPrintJobs" android:label="@string/permlab_accessAllPrintJobs" android:name="com.android.printspooler.permission.ACCESS_ALL_PRINT_JOBS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_startPrintServiceConfigActivity" android:label="@string/permlab_startPrintServiceConfigActivity" android:name="android.permission.START_PRINT_SERVICE_CONFIG_ACTIVITY" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.printspooler.permission.ACCESS_ALL_PRINT_JOBS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.START_PRINT_SERVICE_CONFIG_ACTIVITY"/>
+    <application android:allowBackup="false" android:allowClearUserData="true" android:label="@string/app_label" android:supportsRtl="true">
+        <service android:exported="true" android:name=".model.PrintSpoolerService" android:permission="android.permission.BIND_PRINT_SPOOLER_SERVICE"/>
+        <service android:isolatedProcess="true" android:name=".renderer.PdfManipulationService" android:process=":renderer"/>
+        <activity android:configChanges="locale|fontScale|keyboard|keyboardHidden|layoutDirection|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name=".ui.PrintActivity" android:permission="android.permission.BIND_PRINT_SPOOLER_SERVICE" android:theme="@style/PrintActivity">
+            <intent-filter>
+                <action android:name="android.print.PRINT_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:pathPattern="*" android:scheme="printjob"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/all_printers_label" android:name=".ui.SelectPrinterActivity" android:theme="@android:style/Theme.Material.Settings"/>
+        <receiver android:exported="false" android:name=".model.NotificationController$NotificationBroadcastReceiver"/>
+    </application>
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="linearLayout_coolers">false</item>
+    <item type="id" name="textView_coolers">false</item>
+    <item type="id" name="listView_coolers">false</item>
+    <item type="id" name="switch_thermal_logger">false</item>
+    <item type="id" name="textView_separater1">false</item>
+    <item type="id" name="separater2">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="spinner1">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="listView_main">false</item>
+    <item type="id" name="linearLayout_thermal_sensors">false</item>
+    <item type="id" name="textView_thermal_sensors">false</item>
+    <item type="id" name="listView_thermal_sensors">false</item>
+    <item type="id" name="linearLayout_tz_device">false</item>
+    <item type="id" name="textView_tz_device">false</item>
+    <item type="id" name="listView_tz_device">false</item>
+</resources>

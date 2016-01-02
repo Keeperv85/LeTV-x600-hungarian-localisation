@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/filtershow_cut" android:background="@color/le_filtershow_actionbar_foot_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="20.0" />
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="60.0">
+        <LinearLayout android:gravity="center" android:id="@id/le_filtershow_crop_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_filtershow_cut_svg" />
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_filtershow_crop" style="@style/FilterShowFootAcionBarTextStyle" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:id="@id/le_filtershow_rotate_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_filtershow_rotate_svg" />
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_filtershow_rotate" style="@style/FilterShowFootAcionBarTextStyle" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:id="@id/le_filtershow_effect_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_filtershow_effect_svg" />
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_filtershow_effect" style="@style/FilterShowFootAcionBarTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="20.0" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="30.0dip" android:src="@drawable/listenmusic_icon_3" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <com.letv.leui.widget.LeTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_toRightOf="@id/logo" android:layout_centerVertical="true" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="14.0sp" style="@style/listenmusic_recom_item_title" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/recommended_view" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/title_layout" />
+    <View android:id="@id/line" android:background="@color/main_color" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/title_layout" android:layout_alignBottom="@id/recommended_view" />
+</RelativeLayout>

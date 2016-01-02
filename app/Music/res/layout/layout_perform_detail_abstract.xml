@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/textView_perform_detail_abstract_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout_perform_detail_abstract_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/textView_perform_detail_abstract_title">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/app_music" />
+        <TextView android:textSize="14.0dip" android:ellipsize="end" android:id="@id/textView_perform_detail_abstract_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout_perform_detail_abstract_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/linearLayout_perform_detail_abstract_name">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/app_music" />
+        <TextView android:textSize="14.0dip" android:ellipsize="end" android:id="@id/textView_perform_detail_abstract_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout_perform_detail_abstract_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/linearLayout_perform_detail_abstract_location">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/app_music" />
+        <TextView android:textSize="14.0dip" android:ellipsize="end" android:id="@id/textView_perform_detail_abstract_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout_perform_detail_abstract_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/linearLayout_perform_detail_abstract_time">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/app_music" />
+        <TextView android:textSize="14.0dip" android:ellipsize="end" android:id="@id/textView_perform_detail_abstract_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="16.0dip" android:textColor="#ff5cacee" android:id="@id/textView_perform_detail_abstract_interst" android:background="@drawable/select_only_frame_blue" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_interst" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

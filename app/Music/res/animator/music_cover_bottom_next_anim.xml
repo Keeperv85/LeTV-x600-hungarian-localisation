@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:interpolator/le_c_interpolator" android:duration="@integer/music_cover_bottom_translation_x_anim_duration" android:propertyName="@string/transaltion_x" />
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/music_cover_bottom_sr_anim_duration1" android:valueFrom="@dimen/music_cover_scale1" android:valueTo="@dimen/music_cover_scale2" android:propertyName="@string/scale_x" />
+        <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/music_cover_bottom_sr_anim_duration1" android:valueFrom="@dimen/music_cover_scale1" android:valueTo="@dimen/music_cover_scale2" android:propertyName="@string/scale_y" />
+        <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/music_cover_bottom_sr_anim_duration1" android:valueFrom="@dimen/music_cover_rotate_y2" android:valueTo="@dimen/music_cover_rotate_y3" android:propertyName="@string/rotation_y" />
+    </set>
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/music_cover_bottom_sr_anim_duration2" android:valueFrom="@dimen/music_cover_scale2" android:valueTo="@dimen/music_cover_scale1" android:propertyName="@string/scale_x" />
+        <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/music_cover_bottom_sr_anim_duration2" android:valueFrom="@dimen/music_cover_scale2" android:valueTo="@dimen/music_cover_scale1" android:propertyName="@string/scale_y" />
+        <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/music_cover_bottom_sr_anim_duration2" android:startOffset="@integer/music_cover_bottom_sr_anim_duration1" android:valueFrom="@dimen/music_cover_rotate_y3" android:valueTo="@dimen/music_cover_rotate_y2" android:propertyName="@string/rotation_y" />
+    </set>
+</set>

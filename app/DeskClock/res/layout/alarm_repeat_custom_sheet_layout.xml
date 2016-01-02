@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:toolbar="http://schemas.android.com/apk/res/com.android.deskclock">
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_monday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_tuesday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_wednesday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_thursday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_friday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_saturday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.deskclock.widget.AlarmRepeatItem android:id="@id/alarm_repeat_custom_sunday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/le_cc_telecontroller_text_id" android:layout_width="fill_parent" android:layout_height="@dimen/le_cc_telecontroller_landscape_height" android:layout_toLeftOf="@id/le_cc_brightness_id" android:layout_toRightOf="@id/le_cc_volume_id" android:layout_below="@id/le_cc_music_layout_extend_id"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <View android:id="@id/le_cc_content_divider_below_music_id" android:background="@color/le_cc_content_landscape_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/le_cc_telecontroller_parent_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/le_cc_telecontroller_text_size" android:textColor="@drawable/le_cc_telecontroller_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/le_cc_telecontroller_child_text_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/le_cc_telecontroller_text" android:drawableLeft="@drawable/le_cc_telecontroller_icon" android:drawablePadding="@dimen/le_cc_telecontroller_text_marginLeft" />
+    </LinearLayout>
+</RelativeLayout>

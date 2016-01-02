@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/issue_info_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/info_edit_submitter_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/qa_submitter" android:hint="@string/info_edit_submitter_hint" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_assignee_label" style="@style/EditInfoItemLabel" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:enabled="false" android:textSize="16.0sp" android:id="@id/qa_assignee" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/info_edit_assignee_hint" android:layout_weight="1.0" />
+            <ImageView android:id="@id/qa_assignee_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_search" android:contentDescription="@string/info_edit_assignee_selector_desc" style="@style/SelectorButton" />
+        </LinearLayout>
+        <TextView android:text="@string/info_edit_title_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/qa_title" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_feature_category_label" style="@style/EditInfoItemLabel" />
+        <Spinner android:id="@id/qa_feature_category_spinner" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_feature_name_label" style="@style/EditInfoItemLabel" />
+        <Spinner android:id="@id/qa_feature_name_spinner" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_priority_label" style="@style/EditInfoItemLabel" />
+        <Spinner android:entries="@array/issue_priority_entry" android:id="@id/qa_priority_spinner" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_repeat_ratio_label" style="@style/EditInfoItemLabel" />
+        <Spinner android:entries="@array/issue_repeat_ratio_entry" android:id="@id/qa_repeat_ratio_spinner" style="@style/EditInfoItemContent" />
+        <include layout="@layout/issue_info_screenshot_group" />
+        <TextView android:text="@string/info_edit_repeat_steps_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/qa_repeat_steps" android:lines="2" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_description_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/qa_description" android:lines="3" style="@style/EditInfoItemContent" />
+        <include layout="@layout/issue_info_attachment_group" />
+        <include layout="@layout/issue_info_basic_group" />
+        <View android:layout_width="wrap_content" android:layout_height="10.0dip" />
+    </LinearLayout>
+</ScrollView>

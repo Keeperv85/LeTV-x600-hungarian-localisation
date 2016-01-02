@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sync_failed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sync_error_holo" android:contentDescription="@string/sync_failed" android:layout_marginEnd="8.0dip" />
+    <com.letv.leui.widget.LeSwitch android:layout_gravity="center" android:id="@android:id/visible_panel" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

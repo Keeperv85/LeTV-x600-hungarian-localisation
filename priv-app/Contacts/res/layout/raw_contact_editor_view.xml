@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorView android:orientation="vertical" android:paddingTop="@dimen/editor_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_marginleft" android:layout_marginTop="@dimen/body_head_marginTop">
+            <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_name_note_marginLeft" android:layout_weight="1.0">
+                <include android:id="@id/edit_name" layout="@layout/structured_name_editor_view" />
+                <include android:id="@id/edit_organization" layout="@layout/organization_editor_view_switcher" />
+                <include android:id="@id/edit_note" layout="@layout/note_text_fields_editor_view" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sect_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        <Button android:textSize="16.0sp" android:textColor="@color/button_add_field" android:layout_gravity="center" android:id="@id/button_add_field" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/button_add_filed_height" android:layout_marginBottom="@dimen/button_add_filed_marginBottom" android:text="@string/add_field" android:drawableLeft="@drawable/le_ic_add_blue" android:drawablePadding="@dimen/button_add_filed_drawablePadding" android:textAllCaps="false" />
+    </LinearLayout>
+</com.android.contacts.editor.RawContactEditorView>

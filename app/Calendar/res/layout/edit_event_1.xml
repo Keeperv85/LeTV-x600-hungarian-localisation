@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/calendar_selector_group" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/calendars_spinner" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:prompt="@string/edit_event_calendar_label" android:layout_weight="1.0" />
+        <ImageButton android:enabled="false" android:layout_gravity="center_vertical" android:id="@id/change_color_new_event" android:padding="8.0dip" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_menu_colorpicker_holo_dark" android:scaleType="centerInside" android:contentDescription="@string/choose_event_color_label" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/calendar_group" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="#ffffffff" android:id="@id/calendar_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" style="@style/TextAppearance.EditEvent_Value" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/calendar_textview_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" style="@style/TextAppearance.EditEvent_Value" />
+        </LinearLayout>
+        <ImageButton android:enabled="false" android:layout_gravity="center_vertical" android:id="@id/change_color_existing_event" android:padding="8.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_menu_colorpicker_holo_dark" android:scaleType="centerInside" android:contentDescription="@string/choose_event_color_label" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <EditText android:id="@id/title" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minHeight="48.0dip" android:hint="@string/hint_what" android:singleLine="true" android:capitalize="sentences" android:inputType="textAutoCorrect|textCapSentences" style="@style/TextAppearance.EditEvent_Value" />
+    <LinearLayout android:orientation="vertical" android:id="@id/where_row" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip">
+        <AutoCompleteTextView android:id="@id/location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:hint="@string/hint_where" android:singleLine="false" android:inputType="textAutoCorrect|textCapSentences" android:imeOptions="actionDone" style="@style/TextAppearance.EditEvent_Value" />
+        <View style="@style/EditEventSeparator" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/when_row" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <TextView android:id="@id/when_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:text="@string/when_label" style="@style/TextAppearance.EditEvent_LabelSmall" />
+        <TextView android:id="@id/when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" style="@style/TextAppearance.EditEvent_Value" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/all_day_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+        <com.letv.leui.widget.LeSwitch android:gravity="center_vertical" android:id="@id/is_all_day" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edit_event_leswitch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:leSwitchTrackColor="@color/sub_basic" />
+        <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:id="@id/is_all_day_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/is_all_day" android:layout_toLeftOf="@id/is_all_day" android:layout_centerVertical="true" android:fontFamily="regular" />
+    </RelativeLayout>
+    <com.android.calendar.event.TimeSelectView android:id="@id/timeselectview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/timezone_textview_row" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <TextView android:id="@id/timezone_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" style="@style/TextAppearance.EditEvent_Value" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/timezone_button_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <Button android:gravity="center|left" android:id="@id/timezone_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_pick_time_zone" style="@style/TextAppearance.EditEvent_SpinnerButton" />
+    </LinearLayout>
+    <View style="@style/EditEventSeparator" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="le_status_action_height">108.0px</dimen>
+    <dimen name="le_status_action_width">471.0px</dimen>
+    <dimen name="le_status_hangup_action_width">960.0px</dimen>
+    <dimen name="le_status_hangup_action_height">108.0px</dimen>
+    <dimen name="le_status_action_text_left">36.0px</dimen>
+    <dimen name="le_status_action_button_left">18.0px</dimen>
+    <dimen name="le_status_action_text_size">42.0px</dimen>
+    <dimen name="le_status_action_back_height">144.0px</dimen>
+    <dimen name="le_incall_account_size">40.0px</dimen>
+    <dimen name="le_status_content_padding">45.0px</dimen>
+    <dimen name="le_status_content_baseinfo_left_padding">30.0px</dimen>
+    <dimen name="le_status_content_title_size">45.0px</dimen>
+    <dimen name="le_status_content_text_size">36.0px</dimen>
+    <dimen name="le_status_content_state_top_padding">18.0px</dimen>
+    <dimen name="le_status_content_location_left_padding">24.0px</dimen>
+</resources>

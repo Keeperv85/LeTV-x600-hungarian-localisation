@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.controlcenter.brightnessvolume.LeBrightnessToggleSlider android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/le_cc_common_margin_A" android:paddingRight="@dimen/le_cc_common_margin_A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/le_cc_brightness_low_indicate_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_brightness_low_svg" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/le_cc_brightness_seekbar_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_cc_brightness_seekbar_marginLeft" android:layout_marginRight="@dimen/le_cc_brightness_seekbar_marginRight" android:layout_weight="1.0" style="@style/LeSeekBar" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/le_cc_brightness_auto_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_brightness_high_svg" />
+</com.android.systemui.controlcenter.brightnessvolume.LeBrightnessToggleSlider>

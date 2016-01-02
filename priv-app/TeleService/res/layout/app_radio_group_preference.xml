@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@android:dimen/preference_item_padding_side" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:singleLine="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="6.0dip" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="horizontal" android:id="@id/color_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+          xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+            <com.letv.leui.widget.LeRadioButton android:enabled="false" android:id="@id/ids1" android:padding="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="#ff6aca3e" />
+            <com.letv.leui.widget.LeRadioButton android:id="@id/ids2" android:padding="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="#ffffd5ab" />
+            <com.letv.leui.widget.LeRadioButton android:id="@id/ids3" android:padding="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="#ffff7373" />
+            <com.letv.leui.widget.LeRadioButton android:id="@id/ids4" android:padding="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="#ff9326ff" />
+            <com.letv.leui.widget.LeRadioButton android:id="@id/ids5" android:padding="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="#ff2693ff" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

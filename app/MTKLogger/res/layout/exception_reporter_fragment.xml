@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_reporter" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/submitter" />
+    <EditText android:id="@id/submitter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/submitter_hint" android:lines="1" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/feedback" />
+    <EditText android:scrollbarStyle="insideOverlay" android:gravity="top" android:id="@id/feedback" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/feedback_hint" android:lines="4" android:singleLine="false" android:fadeScrollbars="false" />
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:fadeScrollbars="false" />
+</LinearLayout>

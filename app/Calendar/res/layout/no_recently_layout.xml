@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="47.0dip" android:paddingRight="47.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_recently" style="@style/noRecentlyBlankTextStyle" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/play_over" style="@style/noRecentlyBlankTextStyle" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/no_cms" style="@style/noRecentlyBlankTextStyle" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/server_error" style="@style/noRecentlyBlankTextStyle" />
+    </LinearLayout>
+    <Button android:textColor="@color/delete_button_color" android:id="@id/lebt_refresh" android:background="@drawable/button_click_bg" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="36.0dip" android:text="@string/refresh_data" android:layout_alignParentBottom="true" />
+</RelativeLayout>

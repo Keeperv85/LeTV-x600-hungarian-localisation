@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/network_log_name" android:key="networklog_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/networklog_settings" android:key="networklog_category">
+        <CheckBoxPreference android:title="@string/enable_networklog" android:key="networklog_switch" android:defaultValue="true" />
+    </PreferenceCategory>
+    <CheckBoxPreference android:title="@string/networklog_ping_title" android:key="networklog_ping_flag" android:summary="@string/networklog_ping_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/networklog_limit_package_enabler" android:key="networklog_limit_package_enabler" android:summary="@string/networklog_limit_package_enabler_summary" android:defaultValue="false" />
+    <EditTextPreference android:layout="?android:preferenceLayoutChild" android:title="@string/networklog_limit_package_size" android:key="networklog_limited_package_size" android:summary="@string/networklog_limit_package_size_summary" android:dependency="networklog_limit_package_enabler" android:defaultValue="90" />
+    <EditTextPreference android:title="@string/limit_log_size_title" android:key="networklog_logsize" android:summary="@string/limit_log_size_summary" android:defaultValue="200" />
+    <CheckBoxPreference android:title="@string/start_automatically_title" android:key="networklog_autostart" android:summary="@string/start_automatically_network_summary" android:defaultValue="true" />
+</PreferenceScreen>

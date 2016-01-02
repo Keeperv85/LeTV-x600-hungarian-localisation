@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/le_fragment_album_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lv_albums" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android1:listSelector="?android:selectableItemBackground" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_printer" android:id="@id/blank_hint_take_photo" android1:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:message="@string/blank_message" android:tintColor="@color/le_main_color" />
+</RelativeLayout>

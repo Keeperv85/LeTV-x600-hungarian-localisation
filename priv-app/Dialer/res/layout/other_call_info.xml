@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/other_call_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@android:dimen/status_bar_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.incallui.CallInfoView android:id="@id/line1_call_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.3" />
+        <com.android.incallui.CallInfoView android:id="@id/secondary_call_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/dim_effect_for_secondary" android:background="@color/incall_banner_dim_effect_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/call_info_view_height" android:layout_alignTop="@id/secondary_call_info" android:layout_alignBottom="@id/secondary_call_info" />
+    </LinearLayout>
+</LinearLayout>

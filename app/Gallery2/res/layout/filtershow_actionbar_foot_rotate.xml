@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/filtershow_cut" android:background="@color/le_filtershow_actionbar_foot_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+    <LinearLayout android:id="@id/rotate_layout" android:layout_width="0.0dip" android:layout_height="48.0dip" android:minHeight="48.0dip" android:layout_weight="70.0">
+        <LinearLayout android:gravity="center" android:id="@id/clockwiseLayout" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_clockwise_svg" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:id="@id/anticlockwiseLayout" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_anticlockwise_svg" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:id="@id/flipLR" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_turn_around_svg" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:id="@id/flipUD" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upside_down_svg" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+</LinearLayout>

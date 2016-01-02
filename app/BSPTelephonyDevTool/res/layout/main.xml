@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/default_phone" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_default_phone_phone1" android:tag="btn_default_phone_phone1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone1" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_default_phone_phone2" android:tag="btn_default_phone_phone2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone2" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_default_phone_phone3" android:tag="btn_default_phone_phone3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone3" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_default_phone_phone4" android:tag="btn_default_phone_phone4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone4" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_horizontal" android:id="@id/operator_sim1" android:tag="operator_sim1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_sim_inserted" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/operator_sim2" android:tag="operator_sim2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_sim_inserted" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/operator_sim3" android:tag="operator_sim3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_sim_inserted" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/operator_sim4" android:tag="operator_sim4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_sim_inserted" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/default_common_phone_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/default_common_phone" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/default_common_phone" android:tag="default_common_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/default_voice_phone_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/default_voice_phone" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/default_voice_phone" android:tag="default_voice_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/default_sms_phone_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/default_sms_phone" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/default_sms_phone" android:tag="default_sms_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/default_data_phone_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/default_data_phone" android:layout_weight="1.0" />
+                <TextView android:gravity="center_horizontal" android:id="@id/default_data_phone" android:tag="default_data_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_status_bar_notification" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/network_status_and_signal_strength" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/network_type_text_sim1" android:tag="network_type_text_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/network_type_sim1" android:tag="network_type_sim1" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <ProgressBar android:id="@id/progress_signal_sim1" android:tag="progress_signal_sim1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Horizontal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/network_type_text_sim2" android:tag="network_type_text_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/network_type_sim2" android:tag="network_type_sim2" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <ProgressBar android:id="@id/progress_signal_sim2" android:tag="progress_signal_sim2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Horizontal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/network_type_text_sim3" android:tag="network_type_text_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/network_type_sim3" android:tag="network_type_sim3" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <ProgressBar android:id="@id/progress_signal_sim3" android:tag="progress_signal_sim3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Horizontal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/network_type_text_sim4" android:tag="network_type_text_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/network_type_sim4" android:tag="network_type_sim4" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <ProgressBar android:id="@id/progress_signal_sim4" android:tag="progress_signal_sim4" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Horizontal" />
+            </LinearLayout>
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/data_connection" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/data_connection_type_text_sim1" android:tag="data_connection_type_text_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_connection_type_sim1" android:tag="data_connection_type_sim1" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_activity_sim1" android:tag="data_activity_sim1" android:background="#ffaaaaaa" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/data_connection_type_text_sim2" android:tag="data_connection_type_text_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_connection_type_sim2" android:tag="data_connection_type_sim2" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_activity_sim2" android:tag="data_activity_sim2" android:background="#ffaaaaaa" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/data_connection_type_text_sim3" android:tag="data_connection_type_text_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_connection_type_sim3" android:tag="data_connection_type_sim3" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_activity_sim3" android:tag="data_activity_sim3" android:background="#ffaaaaaa" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:textSize="8.0pt" android:id="@id/data_connection_type_text_sim4" android:tag="data_connection_type_text_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_connection_type_sim4" android:tag="data_connection_type_sim4" android:background="#ffaaaaaa" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <TextView android:textSize="8.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/data_activity_sim4" android:tag="data_activity_sim4" android:background="#ffaaaaaa" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sim_switch" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_sim_switch_sim1" android:tag="btn_sim_switch_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_sim_switch_sim2" android:tag="btn_sim_switch_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_sim_switch_sim3" android:tag="btn_sim_switch_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_sim_switch_sim4" android:tag="btn_sim_switch_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sim_hot_plug_out" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_plug_out_sim1" android:tag="btn_plug_out_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_plug_out_sim2" android:tag="btn_plug_out_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_plug_out_sim3" android:tag="btn_plug_out_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_plug_out_sim4" android:tag="btn_plug_out_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_plug_out_all_sims" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plug_out_all_sims" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sim_hot_plug_in" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_plug_in_sim1" android:tag="btn_plug_in_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_plug_in_sim2" android:tag="btn_plug_in_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_plug_in_sim3" android:tag="btn_plug_in_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_plug_in_sim4" android:tag="btn_plug_in_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_plug_in_all_sims" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plug_in_all_sims" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sim_missing" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_missing_sim1" android:tag="btn_missing_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_missing_sim2" android:tag="btn_missing_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_missing_sim3" android:tag="btn_missing_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_missing_sim4" android:tag="btn_missing_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="8.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sim_recovery" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_recovery_sim1" android:tag="btn_recovery_sim1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim1" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_recovery_sim2" android:tag="btn_recovery_sim2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim2" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_recovery_sim3" android:tag="btn_recovery_sim3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim3" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_recovery_sim4" android:tag="btn_recovery_sim4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim4" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_test_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

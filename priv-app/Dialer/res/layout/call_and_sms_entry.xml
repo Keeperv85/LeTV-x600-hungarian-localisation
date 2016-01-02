@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/call_and_sms_main_action" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/call_detail_content_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:id="@id/call_icon" android:background="?android:selectableItemBackground" android:padding="@dimen/layout_padding" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_ic_type_phone" android:scaleType="centerInside" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_detail_secondary_title_color" android:ellipsize="end" android:id="@id/call_and_sms_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="hans-sans" android:paddingEnd="@dimen/call_log_icon_margin" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/call_detail_primary_title_color" android:ellipsize="end" android:id="@id/call_and_sms_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" android:paddingEnd="@dimen/call_log_icon_margin" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:id="@id/call_and_sms_divider" android:background="@color/background_dialer_light" android:layout_width="1.0dip" android:layout_height="28.0dip" />
+        <ImageView android:id="@id/call_and_sms_icon" android:background="?android:selectableItemBackground" android:padding="@dimen/layout_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/separator_list" android:background="@color/background_dialer_light" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginLeft="@dimen/call_detail_content_height" />
+</LinearLayout>

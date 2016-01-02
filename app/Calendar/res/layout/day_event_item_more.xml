@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/event_item_rl" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="18.0dip" android1:layout_marginTop="12.0dip" android:layout_centerInParent="true">
+            <ImageView android:id="@id/event_item_icon_more" android:paddingRight="8.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="marquee" android1:gravity="center_vertical" android:id="@id/event_item_text_more" android:layout_width="fill_parent" android:layout_height="fill_parent" android1:text="@string/event_item_expand" android:singleLine="true" style="?android:attr/textAppearanceSmallInverse" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/event_item_separator" android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

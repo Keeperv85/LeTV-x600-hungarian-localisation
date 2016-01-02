@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <android.preference.PreferenceCategory android:title="@string/earphone_set">
+        <android.preference.SwitchPreference android:title="@string/earphone_out_stop_music" android:key="key_erji_disconnected_stop_music" android:summary="@string/earphone_out_stop_music_summary" android:defaultValue="true" />
+    </android.preference.PreferenceCategory>
+</android.preference.PreferenceScreen>

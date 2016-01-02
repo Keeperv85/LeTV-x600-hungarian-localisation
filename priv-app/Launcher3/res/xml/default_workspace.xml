@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <appwidget launcher:className="com.android.deskclock.provider.DigitalClockWidgetProvider" launcher:packageName="com.android.deskclock" launcher:screen="1" launcher:x="0" launcher:y="0" launcher:spanX="4" launcher:spanY="2" />
+    <favorite launcher:packageName="com.android.deskclock" launcher:screen="1" launcher:x="0" launcher:y="2" />
+    <favorite launcher:packageName="com.android.calendar" launcher:screen="1" launcher:x="1" launcher:y="2" />
+    <favorite launcher:packageName="sina.mobile.tianqitongletv" launcher:screen="1" launcher:x="2" launcher:y="2" />
+    <favorite launcher:packageName="com.android.music" launcher:screen="1" launcher:x="3" launcher:y="2" />
+    <favorite launcher:packageName="com.letv.android.remotecontrol" launcher:screen="1" launcher:x="0" launcher:y="3" />
+    <favorite launcher:packageName="com.letv.android.wallpaperonline" launcher:screen="1" launcher:x="1" launcher:y="3" />
+    <favorite launcher:packageName="com.letv.android.client" launcher:screen="1" launcher:x="2" launcher:y="3" />
+    <favorite launcher:packageName="com.lesports.glivesports" launcher:screen="1" launcher:x="3" launcher:y="3" />
+    <favorite launcher:packageName="com.letv.android.filemanager" launcher:screen="1" launcher:x="0" launcher:y="4" />
+    <favorite launcher:packageName="com.letv.app.appstore" launcher:screen="1" launcher:x="1" launcher:y="4" />
+    <favorite launcher:packageName="com.android.gallery3d" launcher:screen="1" launcher:x="2" launcher:y="4" />
+    <favorite launcher:packageName="com.android.settings" launcher:screen="1" launcher:x="3" launcher:y="4" />
+    <favorite launcher:packageName="com.letv.games" launcher:screen="2" launcher:x="0" launcher:y="0" />
+    <favorite launcher:packageName="com.letv.android.supermanager" launcher:screen="2" launcher:x="1" launcher:y="0" />
+    <favorite launcher:packageName="com.letv.android.bugreporter" launcher:screen="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:packageName="com.letv.android.ota" launcher:screen="2" launcher:x="3" launcher:y="0" />
+    <favorite launcher:packageName="com.letv.letvshop" launcher:screen="2" launcher:x="0" launcher:y="1" />
+    <favorite launcher:packageName="com.letv.android.note" launcher:screen="2" launcher:x="1" launcher:y="1" />
+    <favorite launcher:packageName="com.letv.bbs" launcher:screen="2" launcher:x="2" launcher:y="1" />
+    <favorite launcher:packageName="cn.wps.moffice_eng" launcher:screen="2" launcher:x="3" launcher:y="1" />
+    <favorite launcher:packageName="com.sina.weibo" launcher:screen="2" launcher:x="0" launcher:y="2" />
+    <favorite launcher:packageName="com.baidu.BaiduMap" launcher:screen="2" launcher:x="1" launcher:y="2" />
+    <favorite launcher:packageName="com.letv.android.account" launcher:screen="2" launcher:x="2" launcher:y="2" />
+    <folder launcher:screen="2" launcher:x="3" launcher:y="2" launcher:title="@string/system_tools_folder_name">
+        <favorite launcher:packageName="com.android.videoplayer" />
+        <favorite launcher:packageName="com.android.email" />
+        <favorite launcher:packageName="com.android.calculator2" />
+        <favorite launcher:className="com.android.dialer.allContactsActivity" launcher:packageName="com.android.dialer" />
+        <favorite launcher:packageName="com.letv.android.recorder" />
+        <favorite launcher:packageName="com.android.stk" />
+        <favorite launcher:packageName="com.android.providers.downloads.ui" />
+        <favorite launcher:packageName="com.letv.android.compass" />
+    </folder>
+    <include workspace="@xml/leui_more_app" />
+</favorites>

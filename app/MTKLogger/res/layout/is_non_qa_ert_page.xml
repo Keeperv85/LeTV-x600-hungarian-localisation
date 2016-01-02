@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/issue_info_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/info_edit_submitter_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/non_qa_submitter" android:hint="@string/info_edit_submitter_hint" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_title_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/non_qa_title" style="@style/EditInfoItemContent" />
+        <TextView android:text="@string/info_edit_description_label" style="@style/EditInfoItemLabel" />
+        <EditText android:id="@id/non_qa_description" android:lines="3" style="@style/EditInfoItemContent" />
+        <include layout="@layout/issue_info_screenshot_group" />
+        <include layout="@layout/issue_info_aee_attachment_group" />
+        <include layout="@layout/issue_info_basic_group" />
+        <View android:layout_width="wrap_content" android:layout_height="10.0dip" />
+    </LinearLayout>
+</ScrollView>

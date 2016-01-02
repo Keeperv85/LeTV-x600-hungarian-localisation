@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <com.android.music.widget.VideoRelativelayout android:id="@id/live_show" android:layout_width="fill_parent" android:layout_height="203.0dip">
+        <ImageView android:id="@id/video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/video_play" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/musicpeople_play" android:scaleType="center" />
+    </com.android.music.widget.VideoRelativelayout>
+    <RelativeLayout android:id="@id/action_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.android.music.widget.UITrackListActionView android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/action_layout" android:layout_below="@id/live_show">
+        <com.android.music.widget.UITopNavigationTabView android:id="@id/tabs" style="@style/TopScrollStripTabWidget" />
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" />
+    </RelativeLayout>
+    <com.android.music.widget.LeMusicBlankPage android:id="@android:id/empty" android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="song_tip" />
+    <com.android.music.widget.MusicLoadingProgressBar android:id="@id/progress_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+</RelativeLayout>

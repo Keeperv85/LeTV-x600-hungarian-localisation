@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:background="#fffcfcfd" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.dialer.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+            <com.letv.leui.widget.LeQuickContactBadge android:id="@id/quick_contact_photo" android:focusable="false" android:layout_width="@dimen/smart_dial_search_empty_view_quick_contact_photo_size" android:layout_height="@dimen/smart_dial_search_empty_view_quick_contact_photo_size" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/menutitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="36.0dip" />
+    </LinearLayout>
+</view>

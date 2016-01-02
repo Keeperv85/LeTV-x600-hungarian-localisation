@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="@integer/preference_scrollbar_style" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/all_details" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/leui_app_percentage_item" layout="@layout/app_percentage_item" />
+        <LinearLayout android:orientation="vertical" android:id="@id/two_buttons_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+            <include layout="@layout/two_buttons_panel" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+            <include layout="@layout/leui_divider" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/details_subtitle" android:paddingTop="@android:dimen/le_preference_category_paddingTop" android:paddingBottom="@android:dimen/le_preference_category_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@android:dimen/le_preference_category_hight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+            <TextView android:text="@string/details_subtitle" android:includeFontPadding="false" style="?android:attr/listSeparatorTextViewStyle" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+            <include layout="@layout/leui_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/details" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:paddingTop="@android:dimen/le_preference_category_paddingTop" android:paddingBottom="@android:dimen/le_preference_category_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@android:dimen/le_preference_category_hight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+                <TextView android:id="@id/controls_title" android:text="@string/controls_subtitle" android:includeFontPadding="false" style="?android:attr/listSeparatorTextViewStyle" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+                <include layout="@layout/leui_divider" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/messages" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+                <include layout="@layout/leui_divider" />
+            </LinearLayout>
+            <LinearLayout android:paddingTop="@android:dimen/le_preference_category_paddingTop" android:paddingBottom="@android:dimen/le_preference_category_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@android:dimen/le_preference_category_hight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+                <TextView android:id="@id/messages_title" android:includeFontPadding="false" style="?android:attr/listSeparatorTextViewStyle" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+                <include layout="@layout/leui_divider" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/packages_section_title" android:paddingTop="@android:dimen/le_preference_category_paddingTop" android:paddingBottom="@android:dimen/le_preference_category_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@android:dimen/le_preference_category_hight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end">
+            <TextView android:text="@string/packages_subtitle" android:includeFontPadding="false" style="?android:attr/listSeparatorTextViewStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/packages_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+                <include layout="@layout/leui_divider" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

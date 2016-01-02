@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/login_dialog_label_username" style="@style/LoginDialogItemLabel" />
+    <EditText android:id="@id/login_name" style="@style/LoginDialogItemContent" />
+    <TextView android:text="@string/login_dialog_label_password" style="@style/LoginDialogItemLabel" />
+    <EditText android:id="@id/login_password" android:inputType="textPassword" style="@style/LoginDialogItemContent" />
+    <CheckBox android:id="@id/login_option_show_pwd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="0.0dip" android:text="@string/login_page_msg_show_pwd" />
+</LinearLayout>

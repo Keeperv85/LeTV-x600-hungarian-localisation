@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/leui_white_spot_icon" />
+    <item android:state_checked="true" android:drawable="@drawable/leui_blue_spot_icon" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/hotspot_dialog_content" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textSize="16.0dip" android:textColor="#ff91999e" android:gravity="center" android:id="@id/checkBox1" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/hotspot_dialog_checkbox_tip" />
+    </LinearLayout>
+</LinearLayout>

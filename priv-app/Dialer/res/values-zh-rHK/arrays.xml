@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fee">
+        <item>10元（售價9.5元）</item>
+        <item>30元（售價29.5元）</item>
+        <item>50元（售價49.5元）</item>
+        <item>100元（售價99.5元）</item>
+        <item>200元（售價109.5元）</item>
+    </string-array>
+    <string-array name="cards">
+        <item>查詢SIM卡1、SIM卡2話費餘額</item>
+        <item>只查詢SIM卡1話費餘額</item>
+        <item>只查詢SIM卡2話費餘額</item>
+    </string-array>
+    <string-array name="flows">
+        <item>查詢卡1、卡2流量餘額</item>
+        <item>只查詢卡1流量餘額</item>
+        <item>只查詢卡2流量餘額</item>
+    </string-array>
+    <string-array name="card1">
+        <item>只查詢卡1話費餘額</item>
+    </string-array>
+    <string-array name="card2">
+        <item>只查詢卡2話費餘額</item>
+    </string-array>
+    <string-array name="number_opt">
+        <item>創建聯繫人</item>
+        <item>添加已有聯繫人</item>
+        <item>刪除</item>
+        <item>置頂通話記錄</item>
+        <item>添加黑名單</item>
+        <item>標記</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>詐騙</item>
+        <item>中介</item>
+        <item>推銷</item>
+        <item>外賣</item>
+        <item>速遞</item>
+        <item>自定義</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>封鎖來電和信息</item>
+        <item>攔截電話</item>
+        <item>攔截信息</item>
+    </string-array>
+    <string-array name="filter_calllog_list">
+        <item>全部通話</item>
+        <item>未接來電</item>
+        <item>SIM卡1通話</item>
+        <item>SIM卡2通話</item>
+    </string-array>
+    <string-array name="group_operation_list">
+        <item>添加聯繫人</item>
+        <item>新建聯繫人</item>
+        <item>群發信息</item>
+    </string-array>
+</resources>

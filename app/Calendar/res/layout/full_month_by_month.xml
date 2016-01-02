@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/month" android:background="@color/month_clicked_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/basic" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/day_names" layout="@layout/full_month_header" />
+        <View android:background="#80bcbcbc" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+    <com.android.calendar.month.AllViewGroup android:id="@id/all_group" android:background="@color/basic" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.calendar.month.UpViewGroup android:orientation="vertical" android:id="@id/up_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.calendar.month.VerticalViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="@dimen/month_view_height" />
+        </com.android.calendar.month.UpViewGroup>
+        <View android:background="#80bcbcbc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.android.calendar.month.EventViewPager android:id="@id/day_event_viewpager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.calendar.month.NoEventsContainer android:id="@id/no_event_tv" android:background="@color/month_clicked_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_events" />
+                <TextView android:textSize="14.0dip" android:textColor="#7fbcbcbc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/no_event_label" />
+            </LinearLayout>
+        </com.android.calendar.month.NoEventsContainer>
+    </com.android.calendar.month.AllViewGroup>
+</LinearLayout>

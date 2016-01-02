@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/info_layout">
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <AutoCompleteTextView android:id="@id/AtComLine" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapCharacters|textNoSuggestions" style="@style/info_label" />
+        <Button android:textSize="14.0sp" android:id="@id/Submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/Send" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_imei_label" style="@style/info_label" />
+            <TextView android:id="@id/imei" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_imsi_label" style="@style/info_label" />
+            <TextView android:id="@id/imsi" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_impi_label" style="@style/info_label" />
+            <TextView android:id="@id/impi" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_impu_label" style="@style/info_label" />
+            <TextView android:id="@id/impu" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_ims_domain_label" style="@style/info_label" />
+            <TextView android:id="@id/imsDomain" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_state_label" style="@style/info_label" />
+            <TextView android:id="@id/radioState" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/sim_state_label" style="@style/info_label" />
+            <TextView android:id="@id/simState" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_phone_number_label" style="@style/info_label" />
+            <TextView android:id="@id/number" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_current_network_label" style="@style/info_label" />
+            <TextView android:id="@id/operator" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_signal_strength_label" style="@style/info_label" />
+            <TextView android:id="@id/dbm" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_roaming_label" style="@style/info_label" />
+            <TextView android:id="@id/roaming" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_gsm_service_label" style="@style/info_label" />
+            <TextView android:id="@id/gsm" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_gprs_attach_service_label" style="@style/info_label" />
+            <TextView android:id="@id/gprs_attach" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_gprs_service_label" style="@style/info_label" />
+            <TextView android:id="@id/gprs" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_network_type_label" style="@style/info_label" />
+            <TextView android:id="@id/network" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_service_state_label" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/service_state" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_ims_service_state_label" style="@style/info_label" />
+            <TextView android:id="@id/ims_service_state" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_ims_service_extra_label" style="@style/info_label" />
+            <TextView android:id="@id/ims_service_extra" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_call_status_label" style="@style/info_label" />
+            <TextView android:id="@id/call" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_signal_location_label" style="@style/info_label" />
+            <TextView android:id="@id/location" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_neighboring_location_label" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/neighboring" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_radio_resets_label" style="@style/info_label" />
+            <TextView android:id="@id/resets" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_data_attempts_label" style="@style/info_label" />
+            <TextView android:id="@id/attempts" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_data_successes_label" style="@style/info_label" />
+            <TextView android:id="@id/successes" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_gsm_disconnects_label" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:id="@id/disconnects" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_ppp_sent_label" style="@style/info_label" />
+            <TextView android:id="@id/sent" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_ppp_received_label" style="@style/info_label" />
+            <TextView android:id="@id/received" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/radio_info_ppp_resets_label" style="@style/info_label" />
+            <TextView android:id="@id/sentSinceReceived" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/system_property_label" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/system_property" style="@style/info_value" />
+        </LinearLayout>
+        <Button android:textSize="14.0sp" android:id="@id/ping_test" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ping_test_label" />
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_ping_ipaddr" style="@style/info_label" />
+            <TextView android:id="@id/pingIpAddr" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_ping_hostname" style="@style/info_label" />
+            <TextView android:id="@id/pingHostname" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout_hidden">
+            <TextView android:text="@string/radio_info_http_client_test" style="@style/info_label" />
+            <TextView android:id="@id/httpClientTest" style="@style/info_value" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

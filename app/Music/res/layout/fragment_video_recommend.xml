@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.music.widget.StateAwareScrollView android:id="@id/recommend_scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/prv/apk/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/recommend_videos" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.v4.view.ViewPager android:id="@id/image_slider" android:layout_width="fill_parent" android:layout_height="202.0dip" />
+                <com.viewpagerindicator.IconPageIndicator android:id="@id/icon_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:layout_alignBottom="@id/image_slider" android:layout_alignParentRight="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/text_color_white" android:id="@id/image_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/icon_indicator" android:layout_alignBottom="@id/image_slider" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="14sp" />
+            </RelativeLayout>
+            <ViewStub android:id="@id/stub_hot_recommend" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_hot_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_global_hot" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_global_hot" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_topic_plan" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_topic_plan" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_music_live" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_music_live" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_music_event" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_music_event" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_music_movie" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_music_movie" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_music_reward" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_music_reward" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_music_sole" android:layout="@layout/layout_video_recommend_section" android:inflatedId="@id/layout_music_sole" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.android.music.widget.LeMusicBlankPage android:id="@android:id/empty" android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="song_tip" />
+    </RelativeLayout>
+</com.android.music.widget.StateAwareScrollView>

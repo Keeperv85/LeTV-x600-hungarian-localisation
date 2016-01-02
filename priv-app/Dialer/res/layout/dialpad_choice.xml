@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/choice_guide_content" android:background="#ffffffff" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffdfdfe2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/keypad_choice_title" />
+    <View android:background="#ffdfdfe2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/choice_t9key_container" android:paddingTop="28.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/choice_t9key_iv" android:layout_width="@dimen/dialpad_choice_im_width" android:layout_height="@dimen/dialpad_choice_im_height" android:src="@drawable/le_9_choice" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.letv.leui.widget.LeCheckBox android:layout_gravity="center" android:id="@id/choice_t9key_cb" android:paddingTop="26.0dip" android:paddingBottom="26.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+                <TextView android:textColor="@color/le_choice_tip_selected_color" android:gravity="center" android:id="@id/t9_choice_tip" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/keypad_9_choice_tip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#ffdfdfe2" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/choice_26key_container" android:paddingTop="28.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/choice_26key_iv" android:layout_width="@dimen/dialpad_choice_im_width" android:layout_height="@dimen/dialpad_choice_im_height" android:src="@drawable/le_all_normal" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.letv.leui.widget.LeCheckBox android:layout_gravity="center" android:id="@id/choice_26key_cb" android:paddingTop="26.0dip" android:paddingBottom="26.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/le_choice_tip_normal_color" android:gravity="center" android:id="@id/all_choice_tip" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/keypad_all_choice_tip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ffdfdfe2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dialpad_choice_guid_ok" android:background="@drawable/keypad_choice_ok_bg_color1" android:layout_width="288.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/dialicon_bg_paddingbottom" android:layout_marginBottom="@dimen/dialicon_bg_paddingbottom" android:text="@android:string/ok" />
+</LinearLayout>

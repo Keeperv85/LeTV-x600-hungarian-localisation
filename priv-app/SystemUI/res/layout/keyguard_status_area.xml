@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:gravity="center" android:id="@id/status_switcher" android:layout_width="fill_parent" android:layout_height="@dimen/date_height" android:inAnimation="@anim/view_switch_fade_in" android:outAnimation="@anim/view_switch_fade_out"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextClock android:gravity="center" android:id="@id/date_view" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leCJKFontFamily="hans-sans-light" style="@style/Keyguard.Date" />
+        <TextView android:gravity="center" android:id="@id/date_ampm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Keyguard.Date" />
+        <TextView android:textColor="@color/clock_gray" android:gravity="center" android:id="@id/alarm_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:drawableLeft="@drawable/ic_alarm_small" android:drawablePadding="2.0dip" android:drawableStart="@drawable/ic_alarm_small" android:layout_marginStart="8.0dip" style="@style/widget_label" />
+    </LinearLayout>
+    <TextView android:textColor="@color/clock_white" android:gravity="center" android:layout_gravity="center" android:id="@id/charge_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Keyguard.Date" />
+</ViewSwitcher>

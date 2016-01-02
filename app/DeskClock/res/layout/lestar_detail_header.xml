@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lestar_detail_header_container" android:layout_width="fill_parent" android:layout_height="@dimen/media_detail_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/media_detail_header_divider" android:background="@color/media_detail_header_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center_vertical" android:background="@color/deskclock_fragment_bg" android:layout_width="fill_parent" android:layout_height="@dimen/media_detail_header_info_height" android:layout_above="@id/media_detail_header_divider" android:layout_alignParentBottom="true" android:paddingStart="@dimen/ringtone_square_padding_normal" android:paddingEnd="@dimen/ringtone_square_padding_normal">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/media_detail_header_info_padding_left">
+            <TextView android:textSize="@dimen/media_detail_header_name_textsize" android:textColor="@color/media_detail_header_name_textcolor" android:id="@id/media_detail_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/media_detail_header_desc_textsize" android:textColor="@color/media_detail_header_desc_textcolor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/media_detail_header_subscribe_container" android:background="@drawable/media_subscribe_bg" android:visibility="gone" android:layout_width="@dimen/media_detail_header_subscribe_width" android:layout_height="@dimen/media_detail_header_subscribe_height">
+            <TextView android:textSize="@dimen/media_detail_header_subscribe_textsize" android:textColor="@color/media_detail_header_subscribe_textcolor" android:gravity="center" android:id="@id/media_detail_header_subscribe" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/media_detail_header_subscribe_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/media_detail_header_profile_icon" android:layout_width="@dimen/media_detail_header_profile_icon_size" android:layout_height="@dimen/media_detail_header_profile_icon_size" android:layout_marginBottom="@dimen/media_detail_header_profile_margin_bottom" android:src="@drawable/ic_media_audio" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/ringtone_square_padding_normal" />
+</RelativeLayout>

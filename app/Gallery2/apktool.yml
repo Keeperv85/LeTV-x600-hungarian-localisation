@@ -1,0 +1,26 @@
+version: 2.0.2
+apkFileName: Gallery2.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '111111'
+  versionName: 1.1.40030
+sharedLibrary: false
+unknownFiles:
+  LICENSE.txt: '8'
+  NOTICE.txt: '8'
+  builddef.lst: '8'
+  isoparser-default.properties: '8'
+  version.txt: '8'
+  com/letv/tracker/agnes/agnes.properties: '8'
+  com/readystatesoftware/viewbadger/BadgeView.java: '8'
+doNotCompress:
+- resources.arsc
+- res/drawable/filtershow_state_button_background

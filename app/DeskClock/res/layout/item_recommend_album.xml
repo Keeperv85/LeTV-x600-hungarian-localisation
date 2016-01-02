@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/item_marge_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/cv_album_photo_box" android:layout_width="@dimen/item_recomment_album_icon" android:layout_height="@dimen/item_recomment_album_icon" android:layout_centerHorizontal="true" card_view:cardCornerRadius="@dimen/item_card_view_corner_radius" card_view:cardElevation="@dimen/item_card_view_elevation">
+        <RelativeLayout android:id="@id/rl_context_box" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_album_photo" android:background="@color/item_recommend_photo_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/iv_album_play" android:visibility="gone" android:layout_width="@dimen/item_recommend_latest_news_play" android:layout_height="@dimen/item_recommend_latest_news_play" android:src="@drawable/recommend_play_button" android:layout_centerInParent="true" />
+            <RelativeLayout android:background="@drawable/item_recommend_photo_shape" android:layout_width="fill_parent" android:layout_height="29.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/recommend_music" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <include android:id="@id/item_recommend_more" layout="@layout/item_recommend_more" />
+    </android.support.v7.widget.CardView>
+    <TextView android:textSize="@dimen/font_normal" android:textColor="@color/shallow_black" android:ellipsize="end" android:gravity="center" android:id="@id/tv_musics_album_name" android:layout_width="@dimen/item_recomment_album_icon" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_marge_small" android:layout_marginBottom="@dimen/font_marge_big" android:maxEms="6" android:singleLine="true" android:layout_below="@id/cv_album_photo_box" />
+</RelativeLayout>

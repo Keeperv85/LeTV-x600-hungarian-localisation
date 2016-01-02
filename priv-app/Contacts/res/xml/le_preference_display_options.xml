@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/list_filter_single" android:key="contacts_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/exp_imp_contacts" android:key="imp_exp_contacts_key">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.android.contacts.preference.ImportExportPreferenceActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/delete_contacts_label" android:key="delete_contacts_key">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.android.contacts.activities.DeleteContactsActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/contacts_filter_label" android:key="filter_sim_contacts_key">
+        <SwitchPreference android:title="@string/show_contacts_with_number_title" android:key="show_contacts_with_number" />
+        <SwitchPreference android:title="@string/show_contacts_intelligenta_photo_label" android:key="show_contacts_intelligenta_photo" android:summary="@string/show_contacts_intelligenta_photo_tip" />
+        <SwitchPreference android:title="@string/show_sim1_contacts_label" android:key="show_sim1_contacts" />
+        <SwitchPreference android:title="@string/show_sim2_contacts_label" android:key="show_sim2_contacts" />
+    </PreferenceCategory>
+    <PreferenceScreen android:persistent="false" android:title="@string/show_contacts_by_accounts_title" android:key="show_contacts_by_accounts_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+        <intent android:targetPackage="com.android.contacts" android:targetClass="com.android.contacts.preference.LeAccountsContactsPreferenceActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/other_preference_label" android:key="other_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/black_list_title" android:key="black_list_key">
+            <intent android:action="android.intent.action.VIEW_BLACK_LIST" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

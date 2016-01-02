@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Light" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="CardView.Dark" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="detailplay_full_top_textview">
+        <item name="android:textSize">@dimen/letv_dimens_12</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/letv_dimens_42</item>
+        <item name="android:layout_height">@dimen/letv_dimens_24</item>
+        <item name="android:layout_marginLeft">@dimen/letv_dimens_5</item>
+        <item name="android:layout_marginRight">@dimen/letv_dimens_5</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="letv_text_13_ffffffff">
+        <item name="android:textSize">@dimen/letv_dimens_text_13</item>
+        <item name="android:textColor">@color/letv_color_ffffffff</item>
+    </style>
+    <style name="letv_text_17_blue_white">
+        <item name="android:textSize">@dimen/letv_dimens_text_17</item>
+        <item name="android:textColor">@drawable/btn_white_txt_play_selecter</item>
+    </style>
+    <style name="LeTextStyle">
+        <item name="android:textSize">@dimen/item_recomend_tv_music_index_front_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/item_recommend_card_background_color</item>
+        <item name="android:fontFamily">helve-neue-ultralight</item>
+        <item name="android:layout_marginEnd">@dimen/item_recomend_margin_size</item>
+    </style>
+    <style name="LeTextStyleThin">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/item_recommend_card_background_color</item>
+        <item name="android:fontFamily">helve-neue-thin</item>
+        <item name="android:layout_marginEnd">@dimen/item_recomend_margin_size</item>
+    </style>
+    <style name="Center">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="CenterBottom">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="BottomRight">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="BottomLeft">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="CenterTop">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="CenterTopRight">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="CenterTopLeft">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="AnimLineIndicator">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="ci_width">10.0dip</item>
+        <item name="ci_height">4.0dip</item>
+        <item name="ci_margin">6.0dip</item>
+        <item name="ci_animator">@animator/translation_and_rotate</item>
+        <item name="ci_drawable">@drawable/balck_radius_square</item>
+    </style>
+    <style name="clock">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="DeskClock" parent="@android:style/Theme.Leui">
+        <item name="android:editTextStyle">@style/Widget.NumberPicker.Dark</item>
+        <item name="android:seekBarStyle">@style/DeskSeekbarStyle</item>
+        <item name="android:actionBarStyle">@style/DeskClockActionBarStyle</item>
+        <item name="android:actionModeCloseDrawable">@android:drawable/le_topslidetoast_btn_textcolor_selector</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionMenuTextAppearance">@style/DeskClockMenuTextAppearance</item>
+        <item name="android:actionMenuTextColor">@color/action_bar_text_color</item>
+        <item name="android:actionModeStyle">@style/LeUiDeskClockActionModeTheme</item>
+        <item name="android:colorPrimary">@color/le_common_switch_or_other_color</item>
+        <item name="android:statusBarColor">@color/deskclock_theme_color</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="DeskClockMenuTextAppearance" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="LeUIDeskClockSettingsTheme" parent="@android:style/Theme.Leui">
+        <item name="android:actionBarStyle">@style/LeUISettingsActionBarStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/SettingMenuTextStyle</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="LeUISettingsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/leui_status_bar_background</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:titleTextStyle">@style/DeskClockActionbarTitleStyle</item>
+    </style>
+    <style name="SettingMenuTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/le_actionbar_menu_text_color_for_setting</item>
+    </style>
+    <style name="DeskClockActionbarTitleStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="LeUiDeskClockActionModeTheme" parent="@android:style/Widget.Material.ActionMode">
+        <item name="android:background">@color/deskclock_theme_color</item>
+        <item name="android:titleTextStyle">@style/DeskClockActionModeTitleStyle</item>
+    </style>
+    <style name="DeskClockActionModeTitleStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+    <style name="KeyguardAlertTheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="WorldClockCity" parent="@style/DeskClock">
+        <item name="android:actionBarStyle">@style/DeskClockActionBarStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:statusBarColor">@color/deskclock_theme_color</item>
+    </style>
+    <style name="AlertFullScreen" parent="@android:style/Theme.Leui">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimStyle</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ActivityAnimStyle">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+    <style name="Widget.NumberPicker.Dark" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+    <style name="DeskClockTabStyle" parent="@android:style/Theme.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:paddingLeft">@dimen/actionbar_tab_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_tab_padding</item>
+    </style>
+    <style name="DeskClockTabBarStyle" parent="@android:style/Theme.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/header_bg</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="DeskClockActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/deskclock_theme_color</item>
+        <item name="android:title">" "</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/DeskClockActionBarTextStyle</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="DeskClockActionBarTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+    <style name="MenuTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/action_bar_text_color</item>
+    </style>
+    <style name="DeskClockDropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/item_background</item>
+    </style>
+    <style name="AlarmClockTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="SettingsTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="CitiesTheme" parent="@style/SettingsTheme">
+        <item name="android:fastScrollThumbDrawable">@drawable/red_fastscroll_thumb</item>
+    </style>
+    <style name="SettingsTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_hairline</item>
+        <item name="android:displayOptions">showTitle|useLogo</item>
+        <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
+    </style>
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/clock_red</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SetAlarmTheme" parent="@android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="AlarmAlertFullScreenWindowTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="AlarmAlertFullScreenTheme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+        <item name="android:windowTitleStyle">@style/AlarmAlertFullScreenWindowTitle</item>
+    </style>
+    <style name="ScreensaverActivityTheme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+    <style name="RoundTouchButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonStripLeft">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_strip_trans_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonStripMiddle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_strip_trans_middle</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonStripRight">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_strip_trans_right</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="alarm_list_left_column">
+        <item name="android:layout_width">68.0dip</item>
+        <item name="android:layout_height">68.0dip</item>
+    </style>
+    <style name="small_bold">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="small_thin">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="no_alarms">
+        <item name="android:textSize">@dimen/no_alarms_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="small_light">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="timer_setup_digit">
+        <item name="android:textSize">@dimen/timer_setup_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="timer_setup_label">
+        <item name="android:textSize">@dimen/timer_setup_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="medium_light">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="widget_medium_thin">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="label">
+        <item name="android:textSize">@dimen/label_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="label_not_caps" parent="@style/label">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="widget_label" parent="@style/label">
+        <item name="android:textSize">@dimen/widget_label_font_size</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">@dimen/header_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="header_not_caps" parent="@style/header">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="big_thin">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="widget_big_thin" parent="@style/big_thin">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+    <style name="alarm_label">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="alarm_label_not_caps" parent="@style/alarm_label">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="alarm_label_bold" parent="@style/alarm_label">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="body">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="body_not_caps" parent="@style/body">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="body_bold">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="button">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="timer_label">
+        <item name="android:textSize">@dimen/timer_label_font_size</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="dialog_button">
+        <item name="android:textSize">@dimen/dialog_button_font_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="bold_button" parent="@style/button">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="city_name">
+        <item name="android:textSize">@dimen/city_name_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="city_time">
+        <item name="android:textSize">@dimen/city_time_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TimePickerDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.StatusBar" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="ToastBarStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:alpha">0.0</item>
+    </style>
+    <style name="TimePickerTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:textColorPrimaryInverse">@color/hot_pink</item>
+        <item name="android:background">@color/time_picker_gray</item>
+        <item name="android:colorAccent">@color/hot_pink</item>
+        <item name="android:timePickerStyle">@style/TimePickerStyle</item>
+    </style>
+    <style name="TimePickerStyle" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">@color/time_picker_gray</item>
+        <item name="android:headerTimeTextAppearance">@style/TimeLabelTextAppearance</item>
+        <item name="android:headerAmPmTextAppearance">@style/AmPmTextAppearance</item>
+        <item name="android:numbersTextColor">@color/white</item>
+        <item name="android:numbersBackgroundColor">@color/time_picker_gray</item>
+        <item name="android:amPmTextColor">@color/white</item>
+    </style>
+    <style name="TimeLabelTextAppearance" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">60.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="AmPmTextAppearance" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="DeskSeekbarStyle" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:thumbOffset">6.0dip</item>
+    </style>
+    <style name="LeStarRingtoneBaseTheme" parent="@android:style/Theme.Leui">
+        <item name="android:colorBackground">@color/deskclock_fragment_bg</item>
+        <item name="android:actionBarStyle">@style/EmptyActionBarBlack</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:statusBarColor">@color/deskclock_theme_color</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="EmptyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="EmptyActionBarWhite" parent="@style/EmptyActionBar">
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyleWhite</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_back_white</item>
+    </style>
+    <style name="EmptyActionBarBlack" parent="@style/EmptyActionBar">
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyleBlack</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_back_black</item>
+    </style>
+    <style name="ActionBarTitleStyleWhite" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarTitleStyleBlack" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Theme.ActionBar.Overlay" parent="@style/LeStarRingtoneBaseTheme">
+        <item name="android:actionBarStyle">@style/EmptyActionBarWhite</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:leStatusBarIconColor">@android:color/white</item>
+    </style>
+    <style name="ServiceAlertDialogTheme" parent="@android:style/Theme.Leui.Dialog.Alert" />
+    <style name="DeskClockCommonTheme" parent="@android:style/Theme.Leui">
+        <item name="android:editTextStyle">@style/Widget.NumberPicker.Dark</item>
+        <item name="android:seekBarStyle">@style/DeskSeekbarStyle</item>
+        <item name="android:actionBarStyle">@style/DeskClockActionBarStyle</item>
+        <item name="android:actionModeCloseDrawable">@android:drawable/le_topslidetoast_btn_textcolor_selector</item>
+        <item name="android:actionMenuTextColor">@color/action_bar_text_color</item>
+        <item name="android:actionModeStyle">@style/LeUiDeskClockActionModeTheme</item>
+        <item name="android:colorPrimary">@color/le_common_switch_or_other_color</item>
+        <item name="android:statusBarColor">@color/deskclock_theme_color</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="leLicenceDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/leLicenceWindowAnimationStyle</item>
+        <item name="android:windowMinWidthMinor">100.0%</item>
+    </style>
+    <style name="leLicenceWindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/le_licence_slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/le_licence_slide_bottom_out</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/expanding_entrycardview_item_height" style="@style/SelectableItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/expanding_entry_card_item_padding_start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/arrow" android:background="@drawable/quickcontact_icon" android:layout_width="@dimen/expanding_entry_card_item_icon_height" android:layout_height="@dimen/expanding_entry_card_item_icon_width" android:src="@drawable/quickcontact_expanding_entry_button" />
+        <TextView android:textSize="@dimen/expanding_entry_card_collpase_button_text_size" android:textColor="@color/expanding_entry_card_button_text_color" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/expanding_entry_card_item_icon_icon_margin_right" />
+    </LinearLayout>
+    <View android:background="@color/expanding_entry_card_item_separator_color" android:layout_width="fill_parent" android:layout_height="@dimen/expanding_entry_card_item_separator_height" android:layout_marginLeft="@dimen/expanding_entry_card_item_padding_start" android:layout_alignParentBottom="true" />
+</RelativeLayout>

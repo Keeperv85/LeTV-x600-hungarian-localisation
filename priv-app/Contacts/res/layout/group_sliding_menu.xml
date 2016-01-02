@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start" android:id="@id/left_layout" android:layout_width="@dimen/sliding_menu_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/list_fragment_sliding_menu_editor" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.common.group.GroupListSlidingMenuEditorFragment" />
+    <fragment android:id="@id/list_fragment_sliding_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.common.group.GroupListSlidingMenuFragment" />
+</FrameLayout>

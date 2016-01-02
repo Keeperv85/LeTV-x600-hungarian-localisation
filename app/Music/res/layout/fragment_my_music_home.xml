@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.android.music.widget.HeadAlbumImageView android:id="@id/head_albums" android:layout_width="fill_parent" android:layout_height="150.0dip" android:scaleType="centerCrop" />
+    <com.android.music.widget.DistanceAwareScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/bg_avatar" android:background="@drawable/bg_home_user_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="110.0dip" />
+            <com.letv.leui.widget.BorderedCircleImageView android:id="@id/user_avatar" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/music_head" android:scaleType="center" android:layout_alignTop="@id/bg_avatar" android:layout_alignStart="@id/bg_avatar" leui:circle_radius="36.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/text_color_black" android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="166.0dip" android:layout_marginBottom="27.0dip" android:text="@string/my_music_login_in_letv_account" android:layout_toRightOf="@id/bg_avatar" android:alpha="0.6" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans-light" leui:leCJKTextSize="13.0sp" leui:leTextWeight="light" />
+            <TextView android:textSize="14.0sp" android:id="@id/entry_local_music" android:text="@string/my_music_item_local_music" android:drawableLeft="@drawable/music_icon1" android:layout_below="@id/login" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/local_music_count" android:layout_alignTop="@id/entry_local_music" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_local_music" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:textSize="14.0sp" android:id="@id/entry_local_mv" android:text="@string/my_music_item_local_mv" android:drawableLeft="@drawable/music_icon2" android:layout_below="@id/entry_local_music" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/local_mv_count" android:layout_alignTop="@id/entry_local_mv" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_local_mv" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:textSize="14.0sp" android:id="@id/entry_downloads" android:text="@string/my_music_item_downloads" android:drawableLeft="@drawable/music_icon3" android:layout_below="@id/entry_local_mv" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/download_count" android:layout_alignTop="@id/entry_downloads" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_downloads" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:textSize="14.0sp" android:id="@id/entry_history" android:text="@string/my_music_item_history" android:drawableLeft="@drawable/music_icon4" android:layout_below="@id/entry_downloads" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/history_count" android:layout_alignTop="@id/entry_history" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_history" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:textSize="14.0sp" android:id="@id/entry_bookmark" android:text="@string/my_music_item_bookmark" android:drawableLeft="@drawable/music_icon5" android:layout_below="@id/entry_history" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/bookmark_count" android:layout_alignTop="@id/entry_bookmark" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_bookmark" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:textSize="14.0sp" android:id="@id/entry_follow" android:text="@string/my_music_item_follow" android:drawableLeft="@drawable/music_icon6" android:layout_below="@id/entry_bookmark" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/follow_count" android:layout_alignTop="@id/entry_follow" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_follow" style="@style/CommonFullFillDivider" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_color_grey" android:gravity="center" android:id="@id/create_playlist" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/my_music_create_playlist" android:drawableLeft="@drawable/music_little_add" android:drawablePadding="6.0dip" android:layout_below="@id/entry_follow" android:layout_centerHorizontal="true" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans" />
+            <ImageView android:layout_below="@id/create_playlist" style="@style/CommonBothMargin20dpDivider" />
+            <com.android.music.widget.UIPlaylistView android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/create_playlist" />
+        </RelativeLayout>
+    </com.android.music.widget.DistanceAwareScrollView>
+    <com.android.music.widget.StatusBarAndActionBarFillView android:id="@id/head_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

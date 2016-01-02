@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/uninstall_layout" android:background="@color/uninstall_panel_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/uninstall_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uninstall_panel_margin_horizontal" android:layout_marginTop="@dimen/uninstall_info_margin_top" android:layout_marginRight="@dimen/uninstall_panel_margin_horizontal">
+        <RelativeLayout android:id="@id/uninstall_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/app_icon_size">
+            <ImageView android:id="@id/uninstall_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_images" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/uninstall_info_app_text_size" android:textColor="@android:color/white" android:id="@id/uninstall_info_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uninstall_info_text_margin_left" android:text="@string/uninstall_info_app" android:singleLine="true" android:layout_toRightOf="@id/uninstall_info_icon" style="@style/LeTextView" />
+            <TextView android:textSize="@dimen/uninstall_info_warning_text_size" android:textColor="@color/uninstall_info_warning_text_color" android:id="@id/uninstall_info_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uninstall_info_text_margin_left" android:layout_marginTop="@dimen/uninstall_info_warning_margin_top" android:text="@string/uninstall_info_warning" android:singleLine="true" android:layout_toRightOf="@id/uninstall_info_icon" android:layout_alignBottom="@id/uninstall_info_icon" style="@style/LeTextView" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uninstall_button_margin_top">
+            <Button android:textSize="@dimen/uninstall_button_text_size" android:textColor="@android:color/white" android:id="@id/uninstall_cancel" android:background="@drawable/uninstall_button_cancel_bg_selector" android:layout_width="wrap_content" android:layout_height="@dimen/uninstall_button_height" android:text="@string/uninstall_button_cancel" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/uninstall_button_text_size" android:textColor="@android:color/white" android:id="@id/uninstall_confirm" android:background="@drawable/uninstall_button_confirm_bg_selector" android:layout_width="wrap_content" android:layout_height="@dimen/uninstall_button_height" android:layout_marginLeft="@dimen/uninstall_button_gap" android:text="@string/uninstall_button_confirm" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

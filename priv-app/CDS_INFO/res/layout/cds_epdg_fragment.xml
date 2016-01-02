@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:screenOrientation="portrait" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <Spinner android:id="@id/apnTypeSpinnner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/Start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Start" android:inputType="textNoSuggestions" />
+            <Button android:id="@id/Stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Stop" android:inputType="textNoSuggestions" />
+            <Button android:id="@id/Show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_show_nw" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:id="@id/outputText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textLongMessage|textMultiLine|textNoSuggestions" style="@style/info_value" />
+        <TextView android:id="@id/output2Text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textLongMessage|textMultiLine|textNoSuggestions" style="@style/info_value" />
+    </LinearLayout>
+</ScrollView>

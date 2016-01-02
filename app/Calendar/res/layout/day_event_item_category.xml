@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/event_item_rl" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/sub_basic" android:ellipsize="marquee" android1:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android1:layout_marginTop="12.0dip" android1:text="@string/my_subscribe_label" android:singleLine="true" android:layout_alignParentLeft="true" style="?android:attr/textAppearanceSmallInverse" />
+    </RelativeLayout>
+    <View android:id="@id/event_item_separator" android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen settings:keywords="@string/keywords_battery"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/leui_show_battery_percent" android:key="statusbar_show_battery_percent" />
+    <Preference android:title="@string/battery_timealign" android:key="battery_timealign" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.letv.leui.settings.fuelgauge.LeUITimeAlignSettingsFragment" />
+    <Preference android:title="@string/leui_battery_saver" android:key="leui_battery_saver" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.letv.leui.settings.fuelgauge.LeuiBatterySaverSettings" />
+    <Preference android:title="@string/leui_battery_manager_settings" android:key="leui_power_save_manager" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.letv.android.supermanager" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.supermanager.activity.PowersavingActivity" />
+    </Preference>
+    <PreferenceCategory android:title="@string/power_usage_summary_title" android:key="app_list">
+        <Preference android:persistent="false" android:key="battery_status" style="?android:attr/preferenceInformationStyle" />
+    </PreferenceCategory>
+</PreferenceScreen>

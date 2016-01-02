@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/order_square_padding" android:paddingRight="@dimen/order_square_padding" android:paddingBottom="@dimen/order_square_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.widget.BorderedCircleImageView android:id="@id/calendar_icon" android:layout_width="@dimen/subscribe_icon_size" android:layout_height="@dimen/subscribe_icon_size" android:scaleType="centerCrop" app:circle_radius="@dimen/subscribe_icon_radius" app:border_width="1.0px" app:border_color="#10000000" />
+        <TextView android:textSize="@dimen/sucscribe_list_text_size" android:textColor="@android:color/black" android:id="@id/calendar_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_name_margin_icon" android:layout_weight="1.0" />
+        <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+    </LinearLayout>
+    <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/edit_event_block_horizontal_padding" android:layout_marginRight="@dimen/edit_event_block_horizontal_padding" />
+</LinearLayout>

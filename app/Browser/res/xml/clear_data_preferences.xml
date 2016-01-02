@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref2_item_clear_data"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref2_item_clear_cookie" android:key="clear_cookie" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref2_item_clear_cache" android:key="clear_cache" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref2_item_clear_user_password" android:key="clear_user_password" android:defaultValue="true" />
+</PreferenceScreen>

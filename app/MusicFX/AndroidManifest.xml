@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.android.musicfx" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:label="@string/eq_dialog_title" android:name=".ActivityMusic" android:theme="@android:style/Theme.Material.Light">
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.CATEGORY_CONTENT_MUSIC"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name=".ControlPanelPicker" android:theme="@android:style/Theme.Holo.Dialog.Alert"/>
+        <receiver android:name=".ControlPanelReceiver">
+            <intent-filter>
+                <action android:name="android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION"/>
+                <action android:name="android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION"/>
+                <action android:name="AudioEffect.ACTION_SET_PARAM"/>
+                <action android:name="AudioEffect.ACTION_GET_PARAM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="Compatibility$Service"/>
+        <activity android:name="Compatibility$Redirector">
+            <intent-filter android:priority="2147483647"/>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.fw.upgrade.sysoper">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <service android:name="com.fw.upgrade.sysoper.SysService">
+            <intent-filter>
+                <action android:name="android.intent.action.Fota.SysService"/>
+            </intent-filter>
+        </service>
+        <receiver android:label="WriteCommandReceiver" android:name="com.fw.upgrade.sysoper.WriteCommandReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.Fota.WriteCommandReceiver"/>
+                <action android:name="android.intent.action.FotaUpdate.WriteCommandReceiver"/>
+                <action android:name="android.intent.action.Fota.OperReceiver"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+</manifest>

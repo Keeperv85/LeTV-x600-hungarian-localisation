@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="图标-音乐-播放_1_" android:fillColor="#ff000000" android:pathData="M57,54c0-3.3,2.426-4.822,5.395-3.382  l88.208,42.765c2.97,1.44,2.969,3.795-0.001,5.235l-88.206,42.766C59.426,142.822,57,141.3,57,138V54z" />
+</vector>

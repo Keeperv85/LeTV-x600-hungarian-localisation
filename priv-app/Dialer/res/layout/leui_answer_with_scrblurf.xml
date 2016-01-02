@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:leui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/incoming_image" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.incallui.ScrollableBlurFrameLayout android:orientation="vertical" android:id="@id/answerFr" android:background="#cc000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/answer_view_height">
+        <View android:id="@id/answerFr_top" android:layout_width="fill_parent" android:layout_height="@dimen/answer_view_half_height" />
+        <LinearLayout android:orientation="vertical" android:id="@id/answerFr_bottom" android:background="#260c538e" android:layout_width="fill_parent" android:layout_height="@dimen/answer_view_half_height">
+            <RelativeLayout android:gravity="center_horizontal" android:id="@id/caller_info_view" android:layout_width="fill_parent" android:layout_height="@dimen/answer_view_imageview_width">
+                <include layout="@layout/primary_call_info" />
+            </RelativeLayout>
+            <include android:layout_gravity="bottom" android:layout_width="@dimen/answer_view_imageview_width" android:layout_height="@dimen/answer_view_imageview_height" android:layout_marginTop="@dimen/answer_fragment_callbutton_margin_top" layout="@layout/call_button_fragment" />
+        </LinearLayout>
+    </com.android.incallui.ScrollableBlurFrameLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/blue_gradient_view" android:background="@drawable/leui_blue_view" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="@dimen/answer_incoming_textsize" android:textColor="#ffffffff" android:gravity="bottom|center" android:layout_gravity="bottom" android:id="@id/incoming_decline_text" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/answer_textview_margin_bottom" android:text="@string/up_answering_down_decline" />
+    <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/sms_reject_button" android:background="#00000000" android:padding="@dimen/button_cluster_horizontal_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/answer_view_line_marginbottom" android:layout_marginBottom="@dimen/answer_view_imageview_marginbottom" android:src="@drawable/leui_ic_sms_reject" />
+    <ImageButton android:layout_gravity="bottom|center|left" android:id="@id/move_screen_back_button" android:background="#00000000" android:padding="@dimen/button_cluster_horizontal_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/answer_view_line_marginbottom" android:layout_marginBottom="@dimen/answer_view_imageview_marginbottom" android:src="@drawable/leui_ic_move_screen_back" />
+</FrameLayout>

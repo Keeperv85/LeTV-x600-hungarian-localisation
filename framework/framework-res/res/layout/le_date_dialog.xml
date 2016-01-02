@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/le_datedia_rootview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/le_datedia_bottomview" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/le_datedia_bottomview" android:background="@color/le_time_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/le_time_dialog_txtcolor" android:gravity="center" android:id="@id/le_date_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/le_time_dialog_showtxt" android:gravity="center" android:id="@id/le_datedia_timeTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <View android:background="@color/le_time_dialog_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" />
+        <com.letv.leui.widget.picker.DateWheel android:id="@id/le_datedia_datewheel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="5.0dip" />
+        <View android:background="@color/le_time_dialog_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/le_time_dialog_btncolor" android:gravity="center" android:id="@id/le_datedia_confirmbtn" android:background="@drawable/le_dialog_button" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/le_force_close" />
+        <View android:background="@color/le_time_dialog_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/le_time_dialog_txtcolor" android:gravity="center" android:id="@id/le_datedia_canclebtn" android:background="@drawable/le_dialog_button" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_cancel" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/special_item_layout" android:background="@drawable/bg_view_ripple" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <View android:id="@id/blank" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/blank">
+        <ImageView android:id="@id/newSongImage" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/music_unknown_song" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/newSongPlay" android:paddingLeft="8.0dip" android:paddingTop="15.0dip" android:paddingRight="8.0dip" android:paddingBottom="15.0dip" android:layout_width="34.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/listenmusic_little_more" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/newSongMV" android:paddingLeft="8.0dip" android:paddingTop="15.0dip" android:paddingRight="8.0dip" android:paddingBottom="15.0dip" android:visibility="invisible" android:layout_width="34.0dip" android:layout_height="48.0dip" android:src="@drawable/listenmusic_little_mv" android:scaleType="centerCrop" android:layout_toLeftOf="@id/newSongPlay" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/album_name_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/newSongMV" android:layout_toRightOf="@id/newSongImage" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="@color/list_item_primary_text_color" android:ellipsize="end" android:id="@id/newSongName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="helve-neue" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="16.0sp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/list_item_secondary_text_color" android:ellipsize="end" android:id="@id/newSongAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="1" android:drawablePadding="@dimen/music_download_flag_padding" android:layout_below="@id/newSongName" android:fontFamily="helve-neue" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/hot_song_line" android:background="@color/gainsboro" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="68.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/main_layout" />
+</RelativeLayout>

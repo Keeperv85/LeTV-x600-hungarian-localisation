@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/le_cc_control_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="30.0dip" android:leBlurContrastBoost="1.0" android:leBlurBlendColor2="@color/le_cc_rt_background_color"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:leui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.controlcenter.LeControlCenterPanelView android:orientation="vertical" android:id="@id/le_cc_id" android:layout_width="fill_parent" android:layout_height="@dimen/le_cc_recent_controlcenter_height" android:layout_alignParentTop="true">
+        <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.35" layout="@layout/le_cc_app_layout_extend_portrait" />
+        <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" layout="@layout/le_cc_music_layout_extend_portrait" />
+        <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.15" layout="@layout/le_cc_brightness_layout_extend_portrait" />
+        <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.33" layout="@layout/le_cc_shortcut_layout_extend_portrait" />
+    </com.android.systemui.controlcenter.LeControlCenterPanelView>
+    <View android:id="@id/divider" android:background="#26000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/le_cc_id" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/le_cc_recent_container_height" android:layout_below="@id/divider" android:layout_alignParentBottom="true" layout="@layout/leui_recents_view_container" />
+</RelativeLayout>

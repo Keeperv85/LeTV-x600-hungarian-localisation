@@ -1,0 +1,207 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: res/drawable/bt_share.xml
+SHA1-Digest: EsmTDyTps+6h1f6abMLBBMST0KQ=
+
+Name: res/drawable-xhdpi-v4/ic_le_bt_stat_history_upload_done.xml
+SHA1-Digest: 0yqutuqIL8FIHx88tH/YVjIbWuo=
+
+Name: res/drawable/ic_launcher_folder_bluetooth.xml
+SHA1-Digest: hSK/ACwG8nHwqFCwMs74jcBAc9s=
+
+Name: res/drawable-mdpi-v4/bt_share.png
+SHA1-Digest: IBkE0HJjqFg6UWXqLjn5mhg7faU=
+
+Name: res/drawable/ic_le_bt_down_9_icon.xml
+SHA1-Digest: cbWqAy+oZov3V0DbCQQ/ooHHVIo=
+
+Name: res/drawable/ic_le_bt_down_7_icon.xml
+SHA1-Digest: pwrFv9fGxurDv3l9hDnPzS3569o=
+
+Name: res/drawable-xhdpi-v4/ic_le_bt_stat_history_download_done.xml
+SHA1-Digest: 50vKsD/322H4fAiEDAsnmmeG2qQ=
+
+Name: res/drawable/ic_le_bt_noti_drop_file_confirm.xml
+SHA1-Digest: ij1RH1kxPdrhnKkJgU7SQVOxPzk=
+
+Name: res/drawable-mdpi-v4/ic_launcher_folder_bluetooth.png
+SHA1-Digest: 5Syb8L4r38hqFxYqXRtcqk2KUiU=
+
+Name: res/menu/transferhistory.xml
+SHA1-Digest: 6lPv6qgeFWqKzp+Wh3PXZJkS8ms=
+
+Name: res/menu/receivedfilescontextfinished.xml
+SHA1-Digest: xtw2TmJuUxAfGvO4H3odKLfqKCc=
+
+Name: res/layout/sim_selector.xml
+SHA1-Digest: MoogzLQQbxp9YLCLZe39wCsha6U=
+
+Name: res/drawable/ic_le_bt_up_3_icon.xml
+SHA1-Digest: mLkOyH0yDwBEDpOQs7MIvFkyFbs=
+
+Name: res/layout/bt_enabling_progress.xml
+SHA1-Digest: vImFbd+TNc+9/hEFFDWvDmx3DZY=
+
+Name: res/drawable/ic_le_bt_down_8_icon.xml
+SHA1-Digest: mONcStdu3y/Oj2HkRs4BbXJ6aE8=
+
+Name: res/drawable/ic_le_bt_up_5_icon.xml
+SHA1-Digest: Fpw8qmrl53RgkACI1sIGRPs//qk=
+
+Name: res/drawable-mdpi-v4/bt_incomming_file_notification_am.png
+SHA1-Digest: ZyO1r185lE/DWx+lJi7TiWdq5OQ=
+
+Name: res/drawable/ic_le_bt_up_7_icon.xml
+SHA1-Digest: /O4SKGqMK3Jj8QE5MWQTtLdn234=
+
+Name: res/layout/no_transfers.xml
+SHA1-Digest: 6lcTqb3DpekaXA8PrELeUtaS6PY=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_download_done.xml
+SHA1-Digest: aisB3df2R6cnVZP8O7shWJsRV/M=
+
+Name: res/drawable/le_top_btn_icon_reback.xml
+SHA1-Digest: U86U8l7bJA0GQ8EMSqiFOwLXjJ8=
+
+Name: res/layout/bluetooth_transfers_page.xml
+SHA1-Digest: ib4GHP4IsGQsUKiAneaF/Ffj6AA=
+
+Name: res/drawable/ic_le_bt_up_6_icon.xml
+SHA1-Digest: Nv7SO6c7b6qvStfz5KKg64nd9Nw=
+
+Name: res/layout/testactivity_main.xml
+SHA1-Digest: ACu/Psm1NmwIX0eKkZEBv3HuqSU=
+
+Name: res/layout/bluetooth_transfer_item.xml
+SHA1-Digest: MFC1ZXw9l42MarcI69DPvZz6LL4=
+
+Name: res/drawable/ic_le_bt_down_2_icon.xml
+SHA1-Digest: VItMrxceoJvdvFlKbdbKWpbyfjI=
+
+Name: res/drawable/ic_le_bt_drop_upload.xml
+SHA1-Digest: zK+baY0OzBn45vU7dgVuuA4n008=
+
+Name: res/layout/bluetooth_map_email_settings_account_group.xml
+SHA1-Digest: 0Sgr9Y4iCVbtLePWoIDdJK/fLtw=
+
+Name: res/drawable-mdpi-v4/bt_share_am.png
+SHA1-Digest: IBkE0HJjqFg6UWXqLjn5mhg7faU=
+
+Name: res/drawable/ic_le_bt_down_3_icon.xml
+SHA1-Digest: TZj0pPGZlF6yS7GPq0a5Jrz8m9g=
+
+Name: res/drawable/le_bt_transfer_clear_all.xml
+SHA1-Digest: Llerme0h3mWQydFzhVBlqaeCfCE=
+
+Name: res/drawable-xhdpi-v4/ic_le_bt_stat_history_error.xml
+SHA1-Digest: M8s5Ps5ZRpgbqib5CL8s/BQbf94=
+
+Name: res/drawable/ic_le_bt_up_0_icon.xml
+SHA1-Digest: 4k0NQkmw1uKWlf8hzeVUMd3J2O0=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_error.xml
+SHA1-Digest: YIe0Dp1WZD4YghOQLmmvvhv1tMY=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_infile_comfirm.xml
+SHA1-Digest: iZFESHiwiYIEMvrLmcS0stdeHoM=
+
+Name: res/layout/auth.xml
+SHA1-Digest: He9kEm2dolJcAyb41wM8lMygRI0=
+
+Name: res/drawable/ic_le_bt_down_0_icon.xml
+SHA1-Digest: v0HMBqZPPI0LmLFZzXk/7DRrYQg=
+
+Name: res/drawable/ic_le_bt_up_1_icon.xml
+SHA1-Digest: RhUOfLS2CLnUUYzv1e5czH02/wY=
+
+Name: res/drawable/ic_le_bt_up_2_icon.xml
+SHA1-Digest: SGA4AksXM4rOPPsAcEMTyb1g7CM=
+
+Name: res/drawable-hdpi-v4/bt_share.png
+SHA1-Digest: P5wCZmR1LLybNEjeFpaeZnKKiHU=
+
+Name: res/layout/file_transfer.xml
+SHA1-Digest: ktXqF1HmHy5dywxHLHYoxoelPvo=
+
+Name: res/drawable-hdpi-v4/bt_incomming_file_notification_am.png
+SHA1-Digest: jIgzbP/5+ohwkmYlSaqJ6HZhREM=
+
+Name: resources.arsc
+SHA1-Digest: vnMTqtufEBcJ48PrUKtyjWMG2hc=
+
+Name: res/drawable/ic_le_bt_drop_download.xml
+SHA1-Digest: I5X6fhT+b5ddxdtiua9apRYIwoo=
+
+Name: res/menu/transferhistorycontextfinished.xml
+SHA1-Digest: craWMJyW1T2rywa/1/wJApy82HA=
+
+Name: res/drawable-xhdpi-v4/bt_incomming_file_notification.png
+SHA1-Digest: Otbi7t6gndZbRSwvx9O1kSTIAto=
+
+Name: res/drawable/ic_le_bt_up_9_icon.xml
+SHA1-Digest: s+kY7BjnN5saBDzOeKgKYY/zuSg=
+
+Name: res/drawable/ic_le_bt_up_8_icon.xml
+SHA1-Digest: qyLMWv1nej2qEoZ976JiWp56I0c=
+
+Name: res/layout/confirm_dialog.xml
+SHA1-Digest: LtMpfYaQTncev6aa3LfdeUtBvBY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: JoQyvK8LFXDGGwq218UOcUs0YPI=
+
+Name: res/drawable/ic_le_bt_down_5_icon.xml
+SHA1-Digest: kGOoR9bQe5GXUc18XL1HYv3qLFI=
+
+Name: res/drawable/ic_le_bt_down_4_icon.xml
+SHA1-Digest: 4nGYcYbps1KqXnRBj/0kx7JIpIM=
+
+Name: res/drawable-hdpi-v4/bt_share_am.png
+SHA1-Digest: P5wCZmR1LLybNEjeFpaeZnKKiHU=
+
+Name: res/drawable/ic_le_bt_down_1_icon.xml
+SHA1-Digest: 2w53fckl4iiCgERLWdiv56m9f4c=
+
+Name: res/drawable-hdpi-v4/ic_launcher_folder_bluetooth.png
+SHA1-Digest: F0U42VgucrUGyi6hK63PaEA/FSM=
+
+Name: res/drawable-xhdpi-v4/bt_incomming_file_notification_am.png
+SHA1-Digest: Otbi7t6gndZbRSwvx9O1kSTIAto=
+
+Name: res/drawable/ic_le_bt_up_4_icon.xml
+SHA1-Digest: QRnrg5Gqqsok0TlSz6G1k7CrVXM=
+
+Name: res/layout/bluetooth_map_email_settings.xml
+SHA1-Digest: A9rOoYdkgJeTOT2MofNdKcJdbLc=
+
+Name: classes.dex
+SHA1-Digest: 8LFCVq3GhsR7Ge+JZfawTm2WoVc=
+
+Name: res/layout/bluetooth_map_email_settings_account_item.xml
+SHA1-Digest: uTksYx9lAVemDs7mjZBEtAEIgGM=
+
+Name: res/drawable-hdpi-v4/bt_incomming_file_notification.png
+SHA1-Digest: jIgzbP/5+ohwkmYlSaqJ6HZhREM=
+
+Name: res/drawable-mdpi-v4/ic_launcher_folder_bluetooth_am.png
+SHA1-Digest: 5Syb8L4r38hqFxYqXRtcqk2KUiU=
+
+Name: res/drawable-hdpi-v4/ic_launcher_folder_bluetooth_am.png
+SHA1-Digest: F0U42VgucrUGyi6hK63PaEA/FSM=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_upload_done.xml
+SHA1-Digest: iXh6oVYZr2Jjm/0OMoJap+6tLJ4=
+
+Name: res/layout/incoming_dialog.xml
+SHA1-Digest: WgrjJc5vSEXmlZn8IJMdbhuzoxY=
+
+Name: res/drawable/bt_incomming_file_notification.xml
+SHA1-Digest: iudw1MNHWEF5PMDTilFzqqsf8K0=
+
+Name: res/drawable/ic_le_bt_down_6_icon.xml
+SHA1-Digest: WDnHAdgJ1twOwNIgSHfJLpSlFJE=
+
+Name: res/drawable-mdpi-v4/bt_incomming_file_notification.png
+SHA1-Digest: ZyO1r185lE/DWx+lJi7TiWdq5OQ=
+

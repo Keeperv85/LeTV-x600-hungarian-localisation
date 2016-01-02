@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_debug_category" android:key="preferences_debug_category">
+        <Preference android:title="@string/copy_db" android:key="preferences_copy_db" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_reminders_category" android:key="preferences_reminders_category">
+        <ListPreference android:entries="@array/preferences_skip_reminders_labels" android:title="@string/preferences_reminders_responded_label" android:key="preferences_reminders_responded" android:dialogTitle="@string/preferences_reminders_responded_dialog" android:entryValues="@array/preferences_skip_reminders_values" />
+        <CheckBoxPreference android:title="@string/preferences_reminders_quiet_hours_label" android:key="preferences_reminders_quiet_hours" android:summary="@string/preferences_reminders_quiet_hours_description" />
+        <Preference android:title="@string/preferences_reminders_quiet_hours_start" android:key="preferences_reminders_quiet_hours_start" android:summary="10:00pm" android:dependency="preferences_reminders_quiet_hours" />
+        <Preference android:title="@string/preferences_reminders_quiet_hours_end" android:key="preferences_reminders_quiet_hours_end" android:summary="08:00am" android:dependency="preferences_reminders_quiet_hours" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/tardis" android:key="preferences_tardis_category">
+        <CheckBoxPreference android:title="@string/do_not_check" android:key="preferences_tardis_1" />
+    </PreferenceCategory>
+</PreferenceScreen>

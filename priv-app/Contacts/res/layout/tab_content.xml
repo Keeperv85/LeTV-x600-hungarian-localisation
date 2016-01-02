@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/realtabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <android.support.v13.app.LeFragmentTabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/divider_bg_color" android:layout_width="wrap_content" android:layout_height="1.0px" />
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+            <com.letv.leui.widget.LeTabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </android.support.v13.app.LeFragmentTabHost>
+    </LinearLayout>
+    <FrameLayout android:id="@id/shade" android:background="#1a1e2c38" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,71 @@
+version: 2.0.2
+apkFileName: webview.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '2'
+versionInfo:
+  versionCode: '100002'
+  versionName: 37 (21-arm64)
+sharedLibrary: true
+doNotCompress:
+- resources.arsc
+- assets/am.pak
+- assets/ar.pak
+- assets/bg.pak
+- assets/bn.pak
+- assets/ca.pak
+- assets/cs.pak
+- assets/da.pak
+- assets/de.pak
+- assets/el.pak
+- assets/en-GB.pak
+- assets/en-US.pak
+- assets/es-419.pak
+- assets/es.pak
+- assets/et.pak
+- assets/fa.pak
+- assets/fi.pak
+- assets/fil.pak
+- assets/fr.pak
+- assets/gu.pak
+- assets/he.pak
+- assets/hi.pak
+- assets/hr.pak
+- assets/hu.pak
+- assets/id.pak
+- assets/it.pak
+- assets/ja.pak
+- assets/kn.pak
+- assets/ko.pak
+- assets/lt.pak
+- assets/lv.pak
+- assets/ml.pak
+- assets/mr.pak
+- assets/ms.pak
+- assets/nb.pak
+- assets/nl.pak
+- assets/pl.pak
+- assets/pt-BR.pak
+- assets/pt-PT.pak
+- assets/ro.pak
+- assets/ru.pak
+- assets/sk.pak
+- assets/sl.pak
+- assets/sr.pak
+- assets/sv.pak
+- assets/sw.pak
+- assets/ta.pak
+- assets/te.pak
+- assets/th.pak
+- assets/tr.pak
+- assets/uk.pak
+- assets/vi.pak
+- assets/webviewchromium.pak
+- assets/zh-CN.pak
+- assets/zh-TW.pak

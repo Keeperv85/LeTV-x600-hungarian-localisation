@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.deviceinfo.FileItemInfoLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.LeCheckBox android:gravity="center_vertical" android:id="@id/misc_checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@android:dimen/le_item_between_title_subtitle_margin" android:scaleType="fitCenter" android:layout_centerVertical="true" android:paddingStart="@android:dimen/le_preference_content_padding_start" />
+    <RelativeLayout android:paddingTop="@android:dimen/le_preference_padding_top" android:paddingBottom="@android:dimen/le_preference_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/misc_filename" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/misc_filesize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@android:dimen/le_preference_title_summary_margin" android:maxLines="2" android:layout_below="@id/misc_filename" android:layout_alignStart="@id/misc_filename" />
+    </RelativeLayout>
+</com.android.settings.deviceinfo.FileItemInfoLayout>

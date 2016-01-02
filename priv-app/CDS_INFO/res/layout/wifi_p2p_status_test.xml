@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/info_layout">
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_EM_version" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_EM_version_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_state" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_state_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_device_name" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_device_name_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_mac" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_mac_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_detail_info" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_detail_info_value" style="@style/info_value" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_network_state" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_network_state_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_role" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_role_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_channel_connected" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_channel_connected_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_myself_IP" style="@style/info_label" />
+            <TextView android:id="@id/wifi_p2p_myself_IP_value" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_peer_ip_mac" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_peer_ip_mac_value" style="@style/info_value" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_scan_result" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_scan_result_value" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_persistent_group" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_persistent_group_value" style="@style/info_value" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_fast_connect" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_fast_connect_step0" style="@style/info_state_value" />
+        </LinearLayout>
+        <RadioGroup android:orientation="vertical" android:id="@id/wifi_p2p_FC_step0_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/wifi_p2p_FC_GO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_FC_GO" />
+            <RadioButton android:id="@id/wifi_p2p_FC_GC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_FC_GC" />
+        </RadioGroup>
+        <LinearLayout style="@style/entry_layout">
+            <EditText android:id="@id/wifi_p2p_FC_GO_wlan_ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textPhonetic">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <Button android:textSize="14.0sp" android:id="@id/wifi_p2p_FC_do" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_p2p_FC_do" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_fast_connect_step1" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_FC_result" style="@style/info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_fast_connect_step2" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <Button android:textSize="14.0sp" android:id="@id/wifi_p2p_FC_disconnect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_p2p_FC_disconnect" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_NIC_statistics" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_NIC_statistics_value" style="@style/info_value" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <CheckBox android:id="@id/wifi_p2p_link_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/wifi_p2p_link_info" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_link_info_value" style="@style/info_value" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <CheckBox android:id="@id/wifi_p2p_listen_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/wifi_p2p_listen_mode" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <CheckBox android:id="@id/wifi_p2p_autonomous_go" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/wifi_p2p_autonomous_go" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_wfd_wps" style="@style/info_label" />
+        </LinearLayout>
+        <RadioGroup android:orientation="vertical" android:id="@id/wifi_p2p_wfd_wps_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/wifi_p2p_wfd_wps_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_wfd_wps_default" />
+            <RadioButton android:id="@id/wifi_p2p_wfd_wps_pbc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_wfd_wps_pbc" />
+            <RadioButton android:id="@id/wifi_p2p_wfd_wps_keypad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_wfd_wps_keypad" />
+            <RadioButton android:id="@id/wifi_p2p_wfd_wps_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_wfd_wps_display" />
+        </RadioGroup>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_setting_wps" style="@style/info_label" />
+        </LinearLayout>
+        <RadioGroup android:orientation="vertical" android:id="@id/wifi_p2p_setting_wps_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/wifi_p2p_setting_wps_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_setting_wps_default" />
+            <RadioButton android:id="@id/wifi_p2p_setting_wps_pbc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_setting_wps_pbc" />
+            <RadioButton android:id="@id/wifi_p2p_setting_wps_keypad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_setting_wps_keypad" />
+            <RadioButton android:id="@id/wifi_p2p_setting_wps_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_setting_wps_display" />
+            <RadioButton android:id="@id/wifi_p2p_setting_wps_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_setting_wps_label" />
+        </RadioGroup>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_listen_channel" style="@style/info_label" />
+        </LinearLayout>
+        <RadioGroup android:orientation="vertical" android:id="@id/wifi_p2p_listen_channel_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/wifi_p2p_listen_channel_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/wifi_p2p_listen_channel_auto" />
+            <RadioButton android:id="@id/wifi_p2p_listen_channel_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_listen_channel_1" />
+            <RadioButton android:id="@id/wifi_p2p_listen_channel_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_listen_channel_6" />
+            <RadioButton android:id="@id/wifi_p2p_listen_channel_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_listen_channel_11" />
+        </RadioGroup>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_operation_channel" style="@style/info_label" />
+        </LinearLayout>
+        <RadioGroup android:orientation="vertical" android:id="@id/wifi_p2p_operation_channel_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/wifi_p2p_operation_channel_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/wifi_p2p_operation_channel_auto" />
+            <RadioButton android:id="@id/wifi_p2p_operation_channel_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_operation_channel_1" />
+            <RadioButton android:id="@id/wifi_p2p_operation_channel_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_operation_channel_6" />
+            <RadioButton android:id="@id/wifi_p2p_operation_channel_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_operation_channel_11" />
+            <RadioButton android:id="@id/wifi_p2p_operation_channel_36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_operation_channel_36" />
+        </RadioGroup>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/wifi_p2p_stability_test" style="@style/info_label" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <EditText android:id="@id/wifi_p2p_ST_mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textCapCharacters|textNoSuggestions">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <Button android:textSize="14.0sp" android:id="@id/wifi_p2p_ST_do" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_p2p_ST_do" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:id="@id/wifi_p2p_ST_statistics" style="@style/info_state_value" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

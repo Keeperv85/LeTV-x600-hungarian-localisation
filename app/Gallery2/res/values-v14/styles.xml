@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarTwoLineItem">
+        <item name="android:background">?android:activatedBackgroundIndicator</item>
+    </style>
+    <style name="Theme.Photos.Gallery" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.Photos.Fullscreen" parent="@android:style/Theme.DeviceDefault" />
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff000000" android:gravity="center" android:id="@id/le_bottomsheet_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_title_choose_account" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ff9d9d9d" android:gravity="center|right" android:id="@id/le_bottomsheet_list_title_tail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+    </LinearLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/rruleType" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    <View android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff000000" android:gravity="center" android:id="@id/le_bottomsheet_cancle" android:paddingTop="16.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/discard_label" />
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Film &amp; TV Series</item>
+        <item>Entertainment News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Popular Music</item>
+        <item>Music Album</item>
+        <item>Relevant Artist</item>
+        <item>Related Weibo</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="player">
+        <item>Film &amp; TV Series</item>
+        <item>Sports News</item>
+        <item>Recommended Wallpaper</item>
+        <item>None</item>
+        <item>Music Album</item>
+        <item>None</item>
+        <item>Related Weibo</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Film &amp; TV Series</item>
+        <item>Entertainment News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Original Music</item>
+        <item>None</item>
+        <item>Relevant Artist</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="team">
+        <item>Film &amp; TV Series</item>
+        <item>Relevant News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Relevant Music</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="brand">
+        <item>None</item>
+        <item>Brand News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Brand Music</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="region">
+        <item>None</item>
+        <item>Relevant Video</item>
+        <item>Recommended Wallpaper</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>Hot</item>
+        <item>Advance</item>
+        <item>Invalid</item>
+        <item>Pending</item>
+        <item>Sold out</item>
+        <item>Delayed</item>
+        <item>Cancel</item>
+        <item>Accepted</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>Handpicked</item>
+        <item>Recommended</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>Chinese</item>
+        <item>Western</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>Songs</item>
+        <item>Albums</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>New</item>
+        <item>Popular</item>
+        <item>Original</item>
+        <item>Billboard</item>
+        <item>Korea MNUT</item>
+        <item>Japan Oricon Chart</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>By earliest creation time</item>
+        <item>By latest creation time</item>
+        <item>By initials</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="music_observer_path">
+        <item>xiami/audios</item>
+        <item>netease/cloudmusic/Music</item>
+        <item>DUOMI/down</item>
+        <item>Baidu_music/download</item>
+        <item>qqmusic/song</item>
+        <item>ttpod/song</item>
+    </string-array>
+    <string-array name="album_detail_header_menu">
+        <item>Share</item>
+        <item>Favorite</item>
+        <item>Add to</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>Auto select</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>Xiami charts</item>
+        <item>Worldwide charts</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>Popular</item>
+        <item>New</item>
+        <item>Original</item>
+        <item>Artist Demos</item>
+    </string-array>
+    <string-array name="array_rank_types_world_media">
+        <item>Hito Chinese</item>
+        <item>Hong Kong Gold</item>
+        <item>UK Singles</item>
+        <item>Billboard</item>
+        <item>ORICON</item>
+        <item>Korea MNET</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>Single</item>
+        <item>Artist</item>
+        <item>Album</item>
+        <item>MV</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>Chinese male artists</item>
+        <item>Chinese female artists</item>
+        <item>Chinese bands</item>
+        <item>Western male artists</item>
+        <item>Western female artists</item>
+        <item>Western bands</item>
+        <item>Japanese male artists</item>
+        <item>Japanese female artists</item>
+        <item>Japanese bands</item>
+        <item>Korean male artists</item>
+        <item>Korean female artists</item>
+        <item>Korean bands</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>No search results</item>
+        <item>No lyrics</item>
+        <item>No music</item>
+        <item>No record</item>
+        <item>No message followed</item>
+    </string-array>
+    <string-array name="blank_page_failure_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>4 weeks</item>
+        <item>5 weeks</item>
+        <item>6 weeks</item>
+        <item>7 weeks</item>
+        <item>8 weeks</item>
+        <item>9 weeks</item>
+        <item>10 weeks</item>
+        <item>11 weeks</item>
+        <item>12 weeks</item>
+    </string-array>
+</resources>

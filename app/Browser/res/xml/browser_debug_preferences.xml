@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref2_debug_settings" android:key="debug_main_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.preference.LeListPreference android:entries="@array/select_carrier_title" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_carrier_select" android:key="carrier_select" android:defaultValue="default" android:entryValues="@array/select_carrier_title_values" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/select_channel_title" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_channel_select" android:key="channel_select" android:defaultValue="default" android:entryValues="@array/select_channel_title_values" />
+    <SwitchPreference android:title="@string/pref2_update_nava" android:key="update_nava" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_update_navb" android:key="update_navb" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_update_quickdial" android:key="update_quickdial" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_update_icon_opt" android:key="update_icon_opt" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_update_home_video" android:key="update_home_video" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pref2_update_search_engine" android:key="update_search_engine" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_check_url_safety" android:key="check_url_safety" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pref2_multi_thrads_download" android:key="download_multi_thread" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pref2_check_database_memory_leak" android:key="database_memory_leak" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_download_log_writer" android:key="download_log_writer" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref2_check_safari_menu" android:key="safari_menu" android:defaultValue="false" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_iconopt_debug" android:key="icon_opt_page" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+        <intent android:targetPackage="com.android.browser" android:action="android.intent.action.SETTINGS_ICONOPT_DEBUG" android:targetClass="com.android.browser.settings.IconOptDebugPage" />
+    </PreferenceScreen>
+    <com.android.browser.settings.TextPreference android:key="current_ua" />
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pattern_day">
+        <item quantity="other">" Days "</item>
+        <item quantity="one">" Day "</item>
+    </plurals>
+    <plurals name="pattern_hour">
+        <item quantity="other">" Hours "</item>
+        <item quantity="one">" Hour "</item>
+    </plurals>
+    <plurals name="pattern_minute">
+        <item quantity="other">" Minutes "</item>
+        <item quantity="one">" Minute "</item>
+    </plurals>
+    <plurals name="pattern_second">
+        <item quantity="other">" Seconds "</item>
+        <item quantity="one">" Second "</item>
+    </plurals>
+</resources>

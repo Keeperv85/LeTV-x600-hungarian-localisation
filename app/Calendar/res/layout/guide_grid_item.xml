@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.letv.leui.widget.BorderedCircleImageView android:id="@id/tag_item_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="centerCrop" leui:circle_radius="32.0dip" leui:border_width="1.0px" leui:border_color="#10000000" leui:round_background="true" />
+        <TextView android:id="@id/tag_item_icon_cover" android:layout_width="64.0dip" android:layout_height="64.0dip" style="?guideIconCover" />
+        <com.letv.leui.widget.LeCheckBox android:gravity="center_vertical" android:id="@id/tag_item_check" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/tag_item_icon" android:layout_alignParentBottom="true" leui:leBoxOnColor="#ffe84f40" leui:leBoxIsTextOnRight="false" />
+    </RelativeLayout>
+    <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tag_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" style="?guideItemName" />
+</LinearLayout>

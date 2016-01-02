@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:orientation="vertical" android:id="@id/le_cc_control_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/le_cc_handle_layout_extend_common" />
+        <include layout="@layout/le_cc_shortcut_layout_extend_portrait" />
+        <include layout="@layout/le_cc_brightness_layout_extend_portrait" />
+        <include layout="@layout/le_cc_music_layout_extend_portrait" />
+        <include layout="@layout/le_cc_volume_layout_extend_portrait" />
+        <include layout="@layout/le_cc_telecontroller_volume_group_layout_extend" />
+        <include layout="@layout/le_cc_app_layout_extend_portrait" />
+    </LinearLayout>
+</merge>

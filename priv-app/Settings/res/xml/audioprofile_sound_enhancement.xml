@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/music_plus_title" android:key="music_plus" android:summary="@string/music_plus_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/audio_profile_bes_loudness_title" android:key="bes_loudness" android:summary="@string/audio_profile_bes_loudness_summary" />
+    <Preference android:persistent="false" android:title="@string/audio_profile_bes_surround_title" android:key="bes_surround" android:summary="@string/audio_profile_bes_surround_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/lossless_title" android:key="bes_lossless" android:summary="@string/lossless_summary" />
+</PreferenceScreen>

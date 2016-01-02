@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/import_contacts" android:key="import_contacts_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/import_from_sdcard" android:key="imp_vcard_key">
+            <intent android:targetPackage="com.android.contacts" android:targetClass="com.android.contacts.common.vcard.ImportVCardActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/import_from_simcard" android:key="imp_simcard_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/export_contacts" android:key="export_contacts_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/export_to_sdcard" android:key="exp_vcard_key" />
+        <PreferenceScreen android:persistent="false" android:title="@string/export_to_simcard" android:key="exp_simcard_key" />
+    </PreferenceCategory>
+</PreferenceScreen>

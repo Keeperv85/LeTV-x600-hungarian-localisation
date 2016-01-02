@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_images_deleted">
+        <item quantity="other">Delete %1$d pictures</item>
+        <item quantity="zero">Delete %1$d picture</item>
+        <item quantity="one">Delete %1$d picture</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted">
+        <item quantity="other">Delete %1$d videos</item>
+        <item quantity="zero">Delete %1$d video</item>
+        <item quantity="one">Delete %1$d video</item>
+    </plurals>
+    <plurals name="number_of_items_deleted">
+        <item quantity="other">Delete %1$d items</item>
+        <item quantity="zero">Delete %1$d item</item>
+        <item quantity="one">Delete %1$d item</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_in_fav">
+        <item quantity="other">Deleting pictures from your favorites folder will also delete the original picture. If you want to remove a picture from your favorites, please use unfavorite. Are you sure you want to delete %1$d pictures?</item>
+        <item quantity="zero">Deleting pictures from your favorites folder will also delete the original picture. If you want to remove a picture from your favorites, please use unfavorite. Are you sure you want to delete %1$d picture?</item>
+        <item quantity="one">Deleting pictures from your favorites folder will also delete the original picture. If you want to remove a picture from your favorites, please use unfavorite. Are you sure you want to delete %1$d picture?</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_in_fav">
+        <item quantity="other">Deleting videos from your favorites folder will also delete the original video. If you want to remove a video from your favorites, please use unfavorite. Are you sure you want to delete %1$d videos?</item>
+        <item quantity="zero">Deleting videos from your favorites folder will also delete the original video. If you want to remove a video from your favorites, please use unfavorite. Are you sure you want to delete %1$d video?</item>
+        <item quantity="one">Deleting videos from your favorites folder will also delete the original video. If you want to remove a video from your favorites, please use unfavorite. Are you sure you want to delete %1$d video?</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_in_fav">
+        <item quantity="other">Deleting pictures or videos from your favorites folder will also delete the original file. If you want to remove a picture or video from your favorites, please use unfavorite. Are you sure you want to delete %1$d items?</item>
+        <item quantity="zero">Deleting pictures or videos from your favorites folder will also delete the original file. If you want to remove a picture or video from your favorites, please use unfavorite. Are you sure you want to delete %1$d item?</item>
+        <item quantity="one">Deleting pictures or videos from your favorites folder will also delete the original file. If you want to remove a picture or video from your favorites, please use unfavorite. Are you sure you want to delete %1$d item?</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_fav">
+        <item quantity="other">Delete %1$d pictures</item>
+        <item quantity="zero">Delete %1$d picture</item>
+        <item quantity="one">Delete %1$d picture</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_fav">
+        <item quantity="other">Delete %1$d videos</item>
+        <item quantity="zero">Delete %1$d video</item>
+        <item quantity="one">Delete %1$d video</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_fav">
+        <item quantity="other">Delete %1$d items</item>
+        <item quantity="zero">Delete %1$d item</item>
+        <item quantity="one">Delete %1$d item</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_cloud">
+        <item quantity="other">If you delete a picture from your cloud album, it will also be deleted locally. Delete %1$d pictures?</item>
+        <item quantity="zero">If you delete a picture from your cloud album, it will also be deleted locally. Delete %1$d picture?</item>
+        <item quantity="one">If you delete a picture from your cloud album, it will also be deleted locally. Delete %1$d picture?</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_cloud">
+        <item quantity="other">If you delete a video from your cloud album, it will also be deleted locally. Delete %1$d videos?</item>
+        <item quantity="zero">If you delete a video from your cloud album, it will also be deleted locally. Delete %1$d video?</item>
+        <item quantity="one">If you delete a video from your cloud album, it will also be deleted locally. Delete %1$d video?</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_cloud">
+        <item quantity="other">If you delete a video or picture from your cloud album, it will also be deleted locally. Delete %1$d items?</item>
+        <item quantity="zero">If you delete a video or picture from your cloud album, it will also be deleted locally. Delete %1$d item?</item>
+        <item quantity="one">If you delete a video or picture from your cloud album, it will also be deleted locally. Delete %1$d item?</item>
+    </plurals>
+    <plurals name="number_of_albums_deleted">
+        <item quantity="other">Delete %1$d albums</item>
+        <item quantity="zero">Delete %1$d album</item>
+        <item quantity="one">Delete %1$d album</item>
+    </plurals>
+    <plurals name="delete_selection">
+        <item quantity="other">Delete selected content?</item>
+        <item quantity="one">Delete selected content?</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d items selected</item>
+        <item quantity="zero">%1$d item selected</item>
+        <item quantity="one">%1$d item selected</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d albums selected</item>
+        <item quantity="zero">%1$d album selected</item>
+        <item quantity="one">%1$d album selected</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d groups selected</item>
+        <item quantity="zero">%1$d group selected</item>
+        <item quantity="one">%1$d group selected</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Make albums available offline</item>
+        <item quantity="one">Make album available offline</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Scanned %1$d items</item>
+        <item quantity="zero">Scanned %1$d item</item>
+        <item quantity="one">Scanned %1$d item</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">1 second</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d pictures</item>
+        <item quantity="one">%1$d pictures</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/floating_menu_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menu_key_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_floating_menu_mark" android:scaleType="center" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/menu_key_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.mediatek.floatmenu.KeyButtonView android:id="@id/menu_key_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_floating_menu_back" android:scaleType="center" />
+        <Space android:layout_width="2.0dip" android:layout_height="wrap_content" />
+        <com.mediatek.floatmenu.KeyButtonView android:id="@id/menu_key_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_floating_menu_home" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

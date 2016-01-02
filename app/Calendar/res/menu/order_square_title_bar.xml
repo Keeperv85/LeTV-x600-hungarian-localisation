@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_le_top_btn_icon_find" android:id="@id/action_search" android:orderInCategory="1" android:title="@string/search" android:alphabeticShortcut="f" android:imeOptions="actionSearch" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/menu_le_top_btn_icon_menu" android:id="@id/action_subscribed_list" android:orderInCategory="1" android:title="@string/title_subscribed" android:alphabeticShortcut="t" android:showAsAction="ifRoom" />
+</menu>

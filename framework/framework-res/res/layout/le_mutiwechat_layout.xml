@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mutiWechat" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/real_content" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="#ff414141" android:gravity="center" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/le_choose_wechat_account" />
+        <View android:id="@id/view1" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/display_less_five" android:layout_width="fill_parent" android:layout_height="106.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/wechatLayout1" android:background="@drawable/le_share_layout_item_selector" android:layout_width="@dimen/share_layout_item_width" android:layout_height="106.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/wechat1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0sp" />
+                <TextView android:textSize="@dimen/share_app_lable_size" android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:id="@id/wechat1_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0sp" android:text="@string/le_wechat" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/wechatLayout2" android:background="@drawable/le_share_layout_item_selector" android:layout_width="@dimen/share_layout_item_width" android:layout_height="106.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/wechat2" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0sp" />
+                <TextView android:textSize="@dimen/share_app_lable_size" android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:id="@id/wechat2_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0sp" android:text="@string/le_wechat_small_account" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/view3" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <Button android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/weChatCancel" android:background="@drawable/le_bottomsheet_listbtn_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/share_cancel" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

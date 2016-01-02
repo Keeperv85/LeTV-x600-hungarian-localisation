@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/updating_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:persistent="false" android:title="@string/recognition_through_Internet" android:key="button_recgenize">
+        <SwitchPreference android:checked="false" android:title="@string/number_intelligent_recognition" android:key="online_number" android:summary="@string/search_by_internet" />
+        <PreferenceScreen android:title="@string/dial_query" android:key="button_number_quary" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+            <com.letv.leui.preference.LeRadioGroupPreference android:persistent="true" android:title="@string/select_automatic_query_in_Network" android:key="select_auto">
+                <com.letv.leui.preference.LeRadioPreference android:title="@string/all_along" android:key="check_always" android:defaultValue="true" />
+                <com.letv.leui.preference.LeRadioPreference android:title="@string/only_in_wlan" android:key="check_InWifi" />
+            </com.letv.leui.preference.LeRadioGroupPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/call" android:key="button_misc_category_key">
+        <SwitchPreference android:persistent="false" android:title="@string/ringtone_increase_title" android:key="button_ringtone_increase" android:summaryOn="@string/open_ringtone_increase" android:summaryOff="@string/close_ringtone_increase" />
+        <PreferenceScreen android:persistent="false" android:title="@string/refusing_information_reply" android:key="button_respond_via_sms_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+            <intent android:targetPackage="com.android.server.telecom" android:action="android.intent.action.MAIN" android:targetClass="com.android.server.telecom.RespondViaSmsSettings$Settings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/callforwarding" android:key="button_cf_expand_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.GsmUmtsCallForwardOptions" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/call_wait" android:key="button_gsm_more_expand_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/lable_call_barring" android:key="button_cb_expand_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.CallBarring" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/black_list_manager" android:key="button_black_list_manager_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+            <intent android:action="android.intent.action.VIEW_BLACK_LIST_PHONE" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/dial" android:key="button_call">
+        <PreferenceScreen android:persistent="false" android:title="@string/ip_prefix_setting" android:key="button_ip_prefix_key" android:summary="@string/ip_prefix_setting_sum">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.IpPrefixPreference" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/fdn" android:key="button_fdn_key">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.FdnSetting" />
+        </PreferenceScreen>
+        <SwitchPreference android:persistent="false" android:title="@string/auto_retry_mode_title" android:key="button_auto_retry_key" android:summary="@string/auto_redial" />
+        <PreferenceScreen android:title="@string/call_speed_dial" android:key="button_speed_dial_key">
+            <intent android:targetPackage="com.android.dialer" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.dialer.plugin.speeddial.SpeedDialActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/other" android:key="call_setInstall">
+        <SwitchPreference android:persistent="false" android:title="@string/call_vibrate" android:key="button_call_vibrate_key" />
+        <PreferenceScreen android:persistent="false" android:title="@string/auto_sound_record" android:key="button_auto_sound_record">
+            <intent android:targetPackage="com.android.phone" android:targetClass="com.letv.leui.phone.AutoRecordSetting" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceScreen android:persistent="false" android:title="@string/voicemail" android:key="button_voicemail_category_key">
+        <ListPreference android:persistent="true" android:title="@string/voicemail_provider" android:key="button_voicemail_provider_key" android:summary="@string/sum_voicemail_choose_provider" android:defaultValue="" />
+        <PreferenceScreen android:persistent="false" android:title="@string/voicemail_settings" android:key="button_voicemail_setting_key">
+            <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/voicemail_settings_number_label" android:key="button_voicemail_key" android:dialogTitle="@string/voicemail" phone:confirmMode="confirm" />
+        </PreferenceScreen>
+        <RingtonePreference android:persistent="true" android:title="@string/voicemail_notification_ringtone_title" android:key="button_voicemail_notification_ringtone_key" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/voicemail_notification_vibrate_when_title" android:key="button_voicemail_notification_vibrate_key" />
+    </PreferenceScreen>
+    <ListPreference android:entries="@array/dtmf_tone_entries" android:title="@string/dtmf_tones_title" android:key="button_dtmf_settings" android:summary="@string/dtmf_tones_summary" android:entryValues="@array/dtmf_tone_values" />
+</PreferenceScreen>

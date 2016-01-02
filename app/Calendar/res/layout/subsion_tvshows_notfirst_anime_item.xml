@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="82.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/film_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/textAppearanceSmallInverse" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/play_button_color" android:gravity="center_vertical" android:id="@id/film_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="@string/english_font_normal" app:leCJKFontFamily="@string/english_font_normal" />
+    </LinearLayout>
+    <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="82.0dip" android:layout_alignParentBottom="true" />
+</LinearLayout>

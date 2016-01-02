@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display-mode-settings
+  xmlns:android="http://schemas.android.com/apk/res/com.android.settings">
+    <display-mode-category android:id="@id/normal_section" android:title="@string/leui_display_normal_mode" android:value="440" android:leuiKey="normal_section">
+        <display-mode-preview android:icon="@drawable/display_mode_normal1" android:leuiKey="normal_section1" />
+        <display-mode-preview android:icon="@drawable/display_mode_normal2" android:leuiKey="normal_section2" />
+        <display-mode-preview android:icon="@drawable/display_mode_normal3" android:leuiKey="normal_section3" />
+    </display-mode-category>
+    <display-mode-category android:id="@id/large_section" android:title="@string/leui_display_large_mode" android:value="480" android:leuiKey="large_section">
+        <display-mode-preview android:icon="@drawable/display_mode_large1" android:leuiKey="large_section1" />
+        <display-mode-preview android:icon="@drawable/display_mode_large2" android:leuiKey="large_section2" />
+        <display-mode-preview android:icon="@drawable/display_mode_large3" android:leuiKey="large_section3" />
+    </display-mode-category>
+</display-mode-settings>

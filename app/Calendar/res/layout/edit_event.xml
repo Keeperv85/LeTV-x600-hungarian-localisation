@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/edit_event" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/loading_message" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loading" android:layout_weight="1.0" android:fontFamily="regular" style="?android:attr/textAppearanceLarge" />
+    <ScrollView android:id="@id/scroll_view" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="2.0" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="16.0dip" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <EditText android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_title" android:textColorHint="#ffd9d9d9" android:id="@id/title" android:background="@null" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height" android:hint="@string/hint_what" android:singleLine="true" android:capitalize="sentences" android:inputType="textAutoCorrect|textCapSentences" android:fontFamily="regular" />
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/where_row" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+                    <AutoCompleteTextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_title" android:textColorHint="#ffd9d9d9" android:id="@id/location" android:background="@null" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hint_where" android:singleLine="false" android:inputType="textAutoCorrect|textCapSentences" android:imeOptions="actionDone" android:fontFamily="regular" />
+                </LinearLayout>
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/all_day_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+                    <com.letv.leui.widget.LeSwitch android:gravity="center_vertical" android:id="@id/is_all_day" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edit_event_leswitch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:leSwitchTrackColor="@color/sub_basic" />
+                    <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:id="@id/is_all_day_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/is_all_day" android:layout_toLeftOf="@id/is_all_day" android:layout_centerVertical="true" android:fontFamily="regular" />
+                </RelativeLayout>
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.android.calendar.event.TimeSelectView android:id="@id/timeselectview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/rrule_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+                    <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeats_label" android:layout_centerVertical="true" android:fontFamily="regular" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:gravity="center|right" android:id="@id/rrule" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/does_not_repeat" android:contentDescription="@string/accessibility_pick_recurrence" android:fontFamily="regular" />
+                        <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:id="@id/rrule_end_row_divider" android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/rrule_end_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+                    <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/end_remind" android:layout_centerVertical="true" android:fontFamily="regular" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:id="@id/rrule_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="regular" />
+                        <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+                <com.android.calendar.ReminderView android:id="@id/reminder_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/account_type_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+                    <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lable_calendar" android:layout_centerVertical="true" android:fontFamily="regular" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <com.letv.leui.widget.BorderedCircleImageView android:id="@id/account_dot" android:layout_width="8.0dip" android:layout_height="8.0dip" android:scaleType="fitXY" app:circle_radius="4.0dip" app:border_width="0.0dip" app:border_color="#00000000" app:round_background="true" />
+                        <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:id="@id/account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/lable_calendar" android:fontFamily="regular" />
+                        <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:id="@id/invite_row_divider" android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/invite_row" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_item_height">
+                    <TextView android:textSize="@dimen/edit_event_text_size" android:textColor="@color/edit_event_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lable_invite" android:layout_centerVertical="true" android:fontFamily="regular" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/edit_event_text_size_right" android:textColor="@color/edit_event_text_right" android:id="@id/invited_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="regular" />
+                        <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/description_row" android:background="@drawable/shape_rounded_rectangle" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <EditText android:textSize="@dimen/edit_event_text_size" android:textStyle="normal" android:textColor="@color/edit_event_text_left" android:textColorHint="@color/edit_event_text_right" android:gravity="start" android:id="@id/description" android:background="@null" android:paddingLeft="@dimen/edit_event_block_horizontal_padding" android:paddingTop="15.0dip" android:paddingRight="@dimen/edit_event_block_horizontal_padding" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:minHeight="100.0dip" android:hint="@string/hint_remarks" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:fontFamily="regular" />
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/response_row" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+        <TextView android:gravity="center_vertical" android:id="@id/response_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_event_response_label" style="@style/TextAppearance.EditEvent_LabelSmall" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/response_value" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip">
+            <RadioButton android:gravity="center_vertical" android:id="@id/response_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="128.0dip" android:text="@string/response_yes" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent" />
+            <RadioButton android:gravity="center_vertical" android:id="@id/response_maybe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="128.0dip" android:text="@string/response_maybe" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent" />
+            <RadioButton android:gravity="center_vertical" android:id="@id/response_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="128.0dip" android:text="@string/response_no" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent" />
+        </RadioGroup>
+        <View style="@style/EditEventSeparator" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/organizer_row" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <TextView android:id="@id/organizer_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_event_organizer_label" style="@style/TextAppearance.EditEvent_LabelSmall" />
+        <TextView android:id="@id/organizer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.EditEvent_Value" />
+        <View style="@style/EditEventSeparator" />
+    </LinearLayout>
+</LinearLayout>

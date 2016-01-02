@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/plmn_list_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/network_id" android:key="network_id_key" android:inputType="number" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/network_priority_title" android:key="network_priority_key" android:inputType="number" />
+    <com.mediatek.settings.NetworkTypePreference android:title="@string/network_type" android:key="key_network_type" android:dialogTitle="@string/network_type" />
+</PreferenceScreen>

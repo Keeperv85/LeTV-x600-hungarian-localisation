@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/time_switcher_oversea" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/top_switch_time" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/le_selector_switcher" android:gravity="center_vertical" android:id="@id/time_switcher" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/top_switch_time" />
+    <View android:id="@id/line_switcher" android:background="#66ffffff" android:layout_width="1.0px" android:layout_height="18.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/le_selector_switcher" android:gravity="center_vertical" android:id="@id/map_switcher" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/top_switch_location" />
+</LinearLayout>

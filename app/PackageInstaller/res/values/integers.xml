@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="install_progress_text_alpha_duration">525</integer>
+    <integer name="install_progress_text_zoom_duration1">175</integer>
+    <integer name="install_progress_text_zoom_duration2">350</integer>
+</resources>

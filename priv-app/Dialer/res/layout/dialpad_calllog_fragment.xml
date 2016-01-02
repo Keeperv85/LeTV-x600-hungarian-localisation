@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dialpad_calllog_container" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.android.dialer.calllog.CallLogFragment" android:id="@id/calllog_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/search_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:name="com.android.dialer.dialpad.DialpadFragment" android:id="@id/dialpad_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

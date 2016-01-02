@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/le_layout_pading_left" android:layout_marginEnd="@dimen/le_layout_pading_right">
+        <TextView android:textSize="16.0sp" android:id="@id/collect_random_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/le_ringtone_collect_random" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/collect_random_describe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:text="@string/le_ringtone_collect_random_describe" android:layout_below="@id/collect_random_title" android:layout_alignLeft="@id/collect_random_title" />
+        <com.letv.leui.widget.LeSwitch android:id="@id/collect_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" leui:leSwitchTrackColor="@color/le_common_switch_or_other_color" />
+    </RelativeLayout>
+    <View android:background="@color/le_common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:id="@id/collect_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:divider="@color/le_common_divider_color" android:dividerHeight="1.0px" />
+</LinearLayout>

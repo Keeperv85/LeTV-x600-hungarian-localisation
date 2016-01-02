@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/custom_select_default_account_notification_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/normal_default_account_select_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/account_select_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="30.0dip">
+        <include layout="@layout/select_account_row_one" />
+        <include layout="@layout/select_account_row_two" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="500.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/preview_loading" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:layout_gravity="center" android:id="@id/loading" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/preview_activity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="1.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/import_error_icon" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_alert_holo_light" />
+            <TextView android:ellipsize="end" android:id="@id/preview_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/import_title" android:singleLine="true" style="?android:attr/windowTitleStyle" />
+        </LinearLayout>
+        <View android:id="@id/preview_divide_line" android:background="@android:color/holo_blue_light" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" />
+        <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/calendar_value" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" style="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="5.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+            <Button android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+            <Button android:id="@id/import_error_certain" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+            <Button android:id="@id/button_ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/import_button" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

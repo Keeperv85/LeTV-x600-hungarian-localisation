@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/playlist_icon" android:background="@drawable/music_unknown_song" android:layout_width="72.0dip" android:layout_height="72.0dip" />
+    <ImageView android:id="@id/action_more" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_little_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_color_black" android:ellipsize="end" android:id="@id/playlist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="2" android:layout_toLeftOf="@id/action_more" android:layout_toRightOf="@id/playlist_icon" android:layout_centerVertical="true" android:fontFamily="helve-neue-light" leui:leCJKFontFamily="hans-sans-light" leui:leCJKTextSize="14.0sp" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/divider_common_grey" android:layout_below="@id/playlist_icon" android:layout_alignLeft="@id/playlist_name" />
+</RelativeLayout>

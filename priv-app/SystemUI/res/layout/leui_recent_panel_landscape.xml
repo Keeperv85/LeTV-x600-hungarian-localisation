@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/le_cc_control_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="30.0dip" android:leBlurContrastBoost="1.0" android:leBlurBlendColor2="@color/le_cc_rt_background_color"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <include layout="@layout/le_cc_app_layout_extend_landscape" />
+    <include layout="@layout/le_cc_shortcut_layout_extend_landscape" />
+    <include layout="@layout/le_cc_music_layout_extend_landscape" />
+    <include layout="@layout/le_cc_brightness_layout_extend_landscape" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/le_cc_shortcut_layout_extend_id" android:layout_toRightOf="@id/le_cc_app_layout_extend_id" android:layout_below="@id/le_cc_music_layout_extend_id" android:layout_alignParentBottom="true" layout="@layout/leui_recents_view_container_landscape" />
+    <View android:background="#26000000" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toLeftOf="@id/le_cc_shortcut_layout_extend_id" />
+    <View android:background="#26000000" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toRightOf="@id/le_cc_app_layout_extend_id" />
+    <View android:background="#26000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_toLeftOf="@id/le_cc_shortcut_layout_extend_id" android:layout_toRightOf="@id/le_cc_app_layout_extend_id" android:layout_below="@id/le_cc_music_layout_extend_id" />
+</RelativeLayout>

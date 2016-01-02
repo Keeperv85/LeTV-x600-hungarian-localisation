@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="60.0dip" android:width="60.0dip" android:viewportWidth="240.0" android:viewportHeight="240.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/le_blank_page_common_gray" android:pathData="M155.664,118.083l-51.996-34.892     c0,0-3.048-2.14-3.048,1.86v68c0,3,1.122,5.248,3.048,3.959c11.182-7.494,49.44-33.141,52-34.898     C158.668,120.051,155.664,118.083,155.664,118.083z M120,20C64.771,20,20,64.771,20,120s44.771,100,100,100s100-44.771,100-100     S175.229,20,120,20z M120,212c-50.729,0-92-41.271-92-92c0-50.729,41.271-92,92-92s92,41.271,92,92C212,170.729,170.729,212,120,212z" />
+</vector>

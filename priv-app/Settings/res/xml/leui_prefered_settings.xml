@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/security_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_launcher_settings" android:key="leui_launcher_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_dialing_settings" android:key="leui_dialing_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_incall_settings" android:key="leui_incall_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_mms_settings" android:key="leui_mms_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_broswer_settings" android:key="leui_broswer_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_camera_settings" android:key="leui_camera_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_gallery_settings" android:key="leui_gallery_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_music_settings" android:key="leui_music_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_email_settings" android:key="leui_email_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_office_default_application" android:key="leui_office_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_video_settings" android:key="leui_video_settings" />
+    <com.letv.leui.settings.widget.LeUIPreferedSettingsPreference android:title="@string/leui_calendar_settings" android:key="leui_calendar_settings" />
+</PreferenceScreen>

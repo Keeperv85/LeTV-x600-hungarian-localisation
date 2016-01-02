@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.leui.keyguard.KeyguardViewContainerVertical android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_host_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:keyguardViewPager="http://schemas.android.com/apk/res-auto">
+    <com.leui.keyguard.KeyguardViewPager android:id="@id/main_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" keyguardViewPager:pageTransformer_overlay="false" keyguardViewPager:orientation_horizontal="false" keyguardViewPager:rebound="true" keyguardViewPager:reboundLength="0.05" keyguardViewPager:velocityFlip="true" keyguardViewPager:velocityFlipSpeed="1000" keyguardViewPager:flipLength="0.3" keyguardViewPager:flipBaseLength="0.1" keyguardViewPager:bottomUntouch="false" keyguardViewPager:bottomUntouchSize="36">
+        <RelativeLayout android:id="@id/main_page" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.keyguard.KeyguardMessageArea android:id="@id/owner_info_view" android:visibility="gone" android:layout_width="@dimen/owner_info_width" android:layout_height="@dimen/owner_info_height" android:layout_marginTop="@dimen/flying_panel_height" android:layout_centerHorizontal="true" style="@style/Keyguard.Owner.Info" />
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/widget_security_viewpager" />
+        </RelativeLayout>
+        <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.leui.keyguard.KeyguardViewPager>
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/content_table_btn" android:visibility="gone" android:layout_width="@dimen/keyguard_camera_icon_size" android:layout_height="@dimen/keyguard_camera_icon_size" android:layout_marginLeft="@dimen/camera_touch_bottom_margin" android:layout_marginBottom="@dimen/camera_touch_bottom_margin" android:src="@drawable/ic_content_table" android:scaleType="center" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/camera_btn" android:layout_width="@dimen/keyguard_camera_icon_size" android:layout_height="@dimen/keyguard_camera_icon_size" android:layout_marginRight="@dimen/camera_touch_bottom_margin" android:layout_marginBottom="@dimen/camera_touch_bottom_margin" android:src="@drawable/ic_camera" android:scaleType="center" />
+    <TextView android:textSize="@dimen/shake_wallpaper_text_font_size" android:gravity="center" android:layout_gravity="center|top" android:id="@id/shake_wallpaper_text" android:layout_width="@dimen/shake_wallpaper_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/shake_wallpaper_margin_top" android:drawableTop="@drawable/shake_wallpaper_list" />
+    <com.leui.keyguard.WidgetIndicator android:layout_gravity="bottom|center" android:id="@id/widget_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_indicator_margin_bottom" />
+    <View android:id="@id/keyguard_cover" android:background="#ff000000" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/battery_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/battery_container_margin_bottom">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <com.leui.keyguard.BatteryView android:id="@id/battery_view" android:background="@drawable/battery_view_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.292" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center" android:id="@id/current_battery_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" style="@style/Keyguard.BatteryCurrentLevel" />
+    </LinearLayout>
+</com.leui.keyguard.KeyguardViewContainerVertical>

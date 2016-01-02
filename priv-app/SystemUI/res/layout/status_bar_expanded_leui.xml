@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NotificationPanelViewLeui android:id="@id/notification_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="16.0dip" android:leBlurContrastBoost="0.66" android:leBlurBlendColor2="#80080808"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <FrameLayout android:paddingBottom="@dimen/close_handle_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/notification_panel_header_height" layout="@layout/status_bar_expanded_header_leui" />
+        <ScrollView android:id="@id/scroll" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_panel_header_height" android:layout_marginBottom="@dimen/sbn_btn_holder_height" android:overScrollMode="never">
+            <com.android.systemui.statusbar.stack.NotificationStackScrollLayout android:id="@id/notification_stack_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" />
+        </ScrollView>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/sbn_btn_holder" android:background="#7f191919" android:layout_width="fill_parent" android:layout_height="@dimen/sbn_btn_holder_height" android:animateLayoutChanges="true">
+            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.ClearButton" android:textColor="@drawable/le_stat_sys_notification_button_text_color" android:id="@id/clear_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/le_clear_notification_btn_text" android:drawableTop="@drawable/ic_notify_clear" android:layout_marginEnd="@dimen/sbn_btn_holder_clear_all_margin_right" />
+            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.ClearButton" android:textColor="@drawable/le_stat_sys_notification_button_text_color" android:id="@id/status_bar_notification_setting_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/le_setting_notification_btn_text" android:drawableTop="@drawable/ic_notify_setting" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:background="#ff191919" android:layout_width="fill_parent" android:layout_height="@dimen/close_handle_height">
+        <View android:id="@id/handle" android:background="@drawable/status_bar_close" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    </LinearLayout>
+</com.android.systemui.statusbar.phone.NotificationPanelViewLeui>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/le_fragment_album_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.pulltorefresh.PullToRefreshAdapterViewLayout android:id="@id/pull_refresh_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/lv_albums_cloud" android:background="@android:color/transparent" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:divider="@android:color/white" android:dividerHeight="@dimen/album_list_item_divide" />
+    </com.letv.leui.widget.pulltorefresh.PullToRefreshAdapterViewLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/no_album_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/le_iconfont_xiangji" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_album_no_album_hint" />
+    </LinearLayout>
+</RelativeLayout>

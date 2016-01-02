@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/artist_big_album" android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="606.0px" android:scaleType="centerCrop" />
+    <View android:id="@id/artist_big_album_corver" android:background="@color/artist_image" android:layout_width="fill_parent" android:layout_height="606.0px" />
+    <com.android.music.widget.DistanceAwareScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/artist_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:id="@id/fill_view" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginTop="606.0px" />
+                <ImageView android:id="@id/bg_avatar" android:background="@drawable/bg_artist_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="507.0px" />
+                <com.letv.leui.widget.BorderedCircleImageView android:id="@id/artist_avatar" android:background="#ffededed" android:visibility="visible" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="519.0px" android:src="@drawable/default_people_image" android:scaleType="centerCrop" leui:circle_radius="37.0dip" leui:border_width="0.0dip" leui:round_background="true" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/fill_view" android:layout_alignBottom="@id/fill_view">
+                    <Button android:textSize="13.0sp" android:textColor="@color/text_color_white" android:gravity="center" android:id="@id/btn_follow" android:background="@drawable/background_artist_page_button" android:layout_width="74.0dip" android:layout_height="30.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="16.0dip" android:text="@string/follow" android:layout_alignParentRight="true" />
+                    <TextView android:textSize="18.0sp" android:textColor="@color/text_color_artist_detail_primary" android:ellipsize="end" android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="18.0sp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff808080" android:ellipsize="end" android:id="@id/follow_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_below="@id/artist_name" android:layout_alignLeft="@id/artist_name" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <ViewStub android:id="@id/stub_song" android:layout="@layout/layout_artist_detail_song" android:inflatedId="@id/songs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_album" android:layout="@layout/layout_artist_detail_section" android:inflatedId="@id/albums" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_similar_artist" android:layout="@layout/layout_artist_detail_section" android:inflatedId="@id/similar_artists" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.letv.leui.common.recommend.widget.LeRecommendViewGroup android:id="@id/widget_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/shape_recommend_divider_line" android:showDividers="middle" />
+        </LinearLayout>
+    </com.android.music.widget.DistanceAwareScrollView>
+    <com.android.music.widget.MusicLoadingProgressBar android:id="@id/progress_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+    <com.android.music.widget.LeMusicBlankPage android:id="@android:id/empty" android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="song_tip" />
+    <com.android.music.widget.StatusBarAndActionBarFillView android:id="@id/empty_head" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

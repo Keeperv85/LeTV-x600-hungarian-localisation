@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/remote_lock_dial_bg" android:background="@drawable/remote_lock_dial_bg" android:visibility="gone" android:layout_width="@dimen/remote_lock_dial_width" android:layout_height="@dimen/remote_lock_dial_height" android:layout_marginBottom="@dimen/remote_lock_dial_margin_bottom">
+        <ImageView android:id="@id/remote_lock_dial_img" android:layout_width="@dimen/remote_lock_dial_icon_height" android:layout_height="@dimen/remote_lock_dial_icon_height" android:src="@drawable/remote_lock_dial" />
+        <TextView android:textSize="@dimen/remote_lock_dial_font_size" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:id="@id/remote_lock_dial_num" android:layout_width="wrap_content" android:layout_height="@dimen/remote_lock_dial_icon_height" android:layout_marginLeft="@dimen/remote_lock_dial_icon_margin" android:fontFamily="helve-neue-regular" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/remote_lock_dial_font_size" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/remote_lock_dial_msg" android:visibility="gone" android:layout_width="@dimen/remote_lock_dial_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/remote_lock_msg_margin_bottom" android:lineSpacingExtra="@dimen/remote_lock_msg_line_space" android:fontFamily="sans-serif" />
+</merge>

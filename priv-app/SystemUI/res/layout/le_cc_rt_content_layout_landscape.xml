@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/le_cc_control_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <include layout="@layout/le_cc_app_layout_extend_landscape" />
+    <include layout="@layout/le_cc_shortcut_layout_extend_landscape" />
+    <include layout="@layout/le_cc_music_layout_extend_landscape" />
+    <include layout="@layout/le_cc_brightness_layout_extend_landscape" />
+    <com.android.systemui.recent.RecentsPanelView android:id="@id/recents_root" android:layout_width="fill_parent" android:layout_height="252.0dip" android:layout_toLeftOf="@id/le_cc_shortcut_layout_extend_id" android:layout_toRightOf="@id/le_cc_app_layout_extend_id" android:layout_alignParentBottom="true" systemui:recentItemLayout="@layout/status_bar_recent_item">
+        <include layout="@layout/le_cc_rt_content_layout" />
+        <include layout="@layout/status_bar_no_recent_apps" />
+    </com.android.systemui.recent.RecentsPanelView>
+</RelativeLayout>

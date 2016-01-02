@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/landscape_part_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/landscape_menubar_goback" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/le_common_back" android:scaleType="center" />
+    <ImageView android:layout_gravity="center" android:id="@id/landscape_menubar_goforward" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/menu_icon_go_forward_landscape" android:scaleType="center" />
+</LinearLayout>

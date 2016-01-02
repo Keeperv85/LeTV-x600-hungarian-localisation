@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reverb_preset_list">
+        <item>无</item>
+        <item>小房间</item>
+        <item>中等房间</item>
+        <item>大房间</item>
+        <item>中等厅</item>
+        <item>大厅</item>
+        <item>板式混响</item>
+    </string-array>
+</resources>

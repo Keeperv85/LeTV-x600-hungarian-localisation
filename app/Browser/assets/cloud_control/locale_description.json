@@ -1,0 +1,36 @@
+{
+    "locales": [
+        {
+            "name": "中国",
+            "code": "10",
+            "data_path": {
+                "json": "locale_zh_cn/data.json"
+            },
+            "is_default": 1
+        },
+        {
+            "name": "香港",
+            "code": "11",
+            "data_path": {
+                "json": "locale_zh_hk/data.json"
+            },
+            "is_default": 0
+        },
+        {
+            "name": "印度",
+            "code": "12",
+            "data_path": {
+                "json": "locale_hi_in/data.json"
+            },
+            "is_default": 0
+        },
+        {
+            "name": "美国",
+            "code": "13",
+            "data_path": {
+                "json": "locale_en_us/data.json"
+            },
+            "is_default": 0
+        }
+    ]
+}

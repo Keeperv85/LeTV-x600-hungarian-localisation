@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="drag_handle" android:fillColor="#ffa9b7c1" android:pathData="M26,29h44c1.657,0,3-1.343,3-3s-1.343-3-3-3H26 c-1.657,0-3,1.343-3,3S24.343,29,26,29z M70,67H26c-1.657,0-3,1.343-3,3s1.343,3,3,3h44c1.657,0,3-1.343,3-3S71.657,67,70,67z M83,45H13c-1.657,0-3,1.343-3,3s1.343,3,3,3h70c1.657,0,3-1.343,3-3S84.657,45,83,45z" />
+</vector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/attachment_group_controller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/info_edit_attachment_label" android:layout_alignParentLeft="true" style="@style/EditInfoItemLabel" />
+        <ImageView android:id="@id/attachment_group_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_downarrow" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/attachment_group" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/mobile_log_label" android:text="@string/info_edit_attachment_mblog_label" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/EditInfoHideItemLabel" />
+            <TextView android:id="@id/mobile_log_summary" android:visibility="gone" android:text="@string/info_edit_attachment_mblog_value" android:layout_below="@id/mobile_log_label" android:layout_alignParentLeft="true" style="@style/EditInfoHideItemContent" />
+            <CheckBox android:id="@id/mobile_log_checker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/modem_log_label" android:text="@string/info_edit_attachment_mdlog_label" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/EditInfoHideItemLabel" />
+            <TextView android:id="@id/modem_log_summary" android:visibility="gone" android:text="@string/info_edit_attachment_mdlog_value" android:layout_below="@id/modem_log_label" android:layout_alignParentLeft="true" style="@style/EditInfoHideItemContent" />
+            <CheckBox android:id="@id/modem_log_checker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/network_log_label" android:text="@string/info_edit_attachment_netlog_label" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/EditInfoHideItemLabel" />
+            <TextView android:id="@id/network_log_summary" android:visibility="gone" android:text="@string/info_edit_attachment_netlog_value" android:layout_below="@id/network_log_label" android:layout_alignParentLeft="true" style="@style/EditInfoHideItemContent" />
+            <CheckBox android:id="@id/network_log_checker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

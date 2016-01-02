@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/strActionNameLock" android:key="lock" />
+    <Preference android:title="@string/strActionNameUnlock" android:key="unlock" />
+    <Preference android:title="@string/strActionNameAddLock" android:key="addlock" />
+    <Preference android:title="@string/strActionNameRemoveLock" android:key="removelock" />
+    <Preference android:title="@string/strActionNamePermanentUnlock" android:key="permanentlyunlock" />
+</PreferenceScreen>

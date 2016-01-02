@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dreams.phototable.BummerView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/bummer" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/need_to_configure" android:drawablePadding="8.0dip" android:alpha="0.5" android:drawableStart="@android:drawable/stat_sys_warning" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end" style="?android:attr/listSeparatorTextViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

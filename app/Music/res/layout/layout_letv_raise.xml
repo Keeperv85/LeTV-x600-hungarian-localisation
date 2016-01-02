@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <WebView android:id="@id/letv_raise_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/customViewContainer" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="default_tip" />
+</FrameLayout>

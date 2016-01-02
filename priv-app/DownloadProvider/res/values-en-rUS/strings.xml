@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Download Manager</string>
+    <string name="permlab_downloadManager">Access Download Manager</string>
+    <string name="permdesc_downloadManager">Allow this app to use Download Manager and download files through it. Malicious apps may take this to interrupt downloading and access private information.</string>
+    <string name="permlab_downloadManagerAdvanced">Advanced Download Manager features</string>
+    <string name="permdesc_downloadManagerAdvanced">Allow this app to use the advanced features of Download Manager. Malicious apps may take this to interrupt downloading and access private information.</string>
+    <string name="permlab_downloadCompletedIntent">Send downloading notifications</string>
+    <string name="permdesc_downloadCompletedIntent">Allow this app to send notifications when download is completed. Malicious apps may take this to disguise as other apps that download files.</string>
+    <string name="permlab_seeAllExternal">View all downloads to be saved to a USB storage device</string>
+    <string name="permdesc_seeAllExternal">"Allow this app to view all contents downloaded to the SD card (regardless the app used to download). "</string>
+    <string name="permlab_downloadCacheNonPurgeable">Keep the space in the download cache</string>
+    <string name="permdesc_downloadCacheNonPurgeable">"Allow this app to download the files to the download cache (the system will not automatically delete the contents in the download cache because of more space needed by the Download Manager). "</string>
+    <string name="permlab_downloadWithoutNotification">Download files directly and do not display notifications</string>
+    <string name="permdesc_downloadWithoutNotification">Allow this app to download files through the Download Manager without displaying any notifications to the user.</string>
+    <string name="permlab_accessAllDownloads">Access all system downloads</string>
+    <string name="permdesc_accessAllDownloads">Allow this app to view and modify all the contents downloaded by any app on your system.</string>
+    <string name="download_unknown_title">(Untitled)</string>
+    <string name="notification_download_complete">Download completed</string>
+    <string name="notification_download_failed">Download failed</string>
+    <string name="notification_need_wifi_for_size">The file is too large. You need to download it a Wi-Fi network.</string>
+    <string name="notification_paused_in_background">Paused in the background</string>
+    <string name="wifi_required_title">The file is too large and not suitable for downloading over a cellular network.</string>
+    <string name="wifi_required_body" formatted="false">"You need to connect to a Wi-Fi network to download this file (%s).
+
+Tap %s to download it next time when you connect to a Wi-Fi network."</string>
+    <string name="wifi_recommended_title">Add to queue later?</string>
+    <string name="wifi_recommended_body" formatted="false">"Downloading this file (%s) now may drain the battery and/or use excessive mobile data (which may incur charges by your carrier depending on your data plan).
+
+Tap %s to download it next time when you connect to a Wi-Fi network."</string>
+    <string name="button_queue_for_wifi">Queue</string>
+    <string name="button_cancel_download">Cancel</string>
+    <string name="button_start_now">Start</string>
+    <string name="download_percent">%d%%</string>
+    <string name="download_remaining">Time remaining: %s</string>
+    <string name="download_no_application_title">Unable to open file</string>
+    <string name="root_downloads">Download</string>
+    <string name="download_queued">Added to queue</string>
+    <string name="download_running">Downloading</string>
+    <string name="download_error">Failed</string>
+    <string name="download_running_percent">Downloading: %d%%</string>
+    <string name="download_notification_pause">Pause ads</string>
+    <string name="download_file_save_toast">File saved: %1$s</string>
+    <string name="download_pause_notification_tip">%1$s - download paused</string>
+    <string name="download_storage_insufficient_dialog_content">File cannot be downloaded. Please clear some space and try again.</string>
+    <string name="download_storage_insufficient_dialog_negative_button">Cancel</string>
+    <string name="download_storage_insufficient_dialog_positive_button">Clear</string>
+    <string name="le_notification_download_complete_cmcc">File downloaded to:</string>
+    <string name="le_download_confirm_dialog_positive">Download</string>
+    <string name="le_download_confirm_dialog_negative">Cancel</string>
+    <string name="le_download_confirm_dialog_filename">File name: %1$s</string>
+    <string name="le_download_confirm_dialog_filesize">File size: %1$s</string>
+    <string name="le_download_confirm_dialog_savepath">Download directory: %1$s</string>
+    <string name="le_download_confirm_dialog_unknow_size">Unknown</string>
+</resources>

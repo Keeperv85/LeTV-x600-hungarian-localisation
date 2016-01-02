@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/end_call_touch_feedback_tint"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_focused="true" android:state_selected="true" android:drawable="@drawable/end_call_pressed" />
+            <item android:state_focused="true" android:drawable="@drawable/end_call_pressed" />
+            <item android:state_selected="true" android:drawable="@drawable/end_call_pressed" />
+            <item android:drawable="@drawable/end_call_normal" />
+        </selector>
+    </item>
+</ripple>

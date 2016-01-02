@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mediatek.providers.drm" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <permission android:description="@string/permdesc_accessDrm" android:label="@string/permlab_accessDrm" android:name="android.permission.ACCESS_DRM" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_installDrm" android:label="@string/permlab_installDrm" android:name="android.permission.INSTALL_DRM" android:protectionLevel="normal"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <application android:allowBackup="false" android:label="@string/app_label" android:process="com.mediatek.providers.drm">
+        <receiver android:name=".DrmPushReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED"/>
+                <data android:mimeType="application/vnd.oma.drm.rights+xml"/>
+                <data android:mimeType="application/vnd.oma.drm.rights+wbxml"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".TimeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".ConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:name=".DrmService"/>
+    </application>
+</manifest>

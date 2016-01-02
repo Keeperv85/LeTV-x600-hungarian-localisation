@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#fff9f9f9" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/rqdetail_fill" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/rqdetail_fm" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_vertical" android:id="@id/rqdetail_img" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerCrop" />
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/bg02" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="24.0sp" android:textColor="#ff202020" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/rqdetail_txt" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:text="@string/chezhufuwu" android:layout_toRightOf="@id/rqdetail_fm" android:textIsSelectable="true" android:fontFamily="helve-neue-regular" />
+            <TextView android:textSize="12.0sp" android:textColor="#b3ffffff" android:layout_gravity="center_vertical" android:id="@id/rqdetail_txt_small " android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chezhufuwu" android:layout_toRightOf="@id/rqdetail_img" android:layout_below="@id/rqdetail_txt" android:layout_alignLeft="@id/rqdetail_txt" android:layout_alignBottom="@id/rqdetail_img" android:textIsSelectable="true" android:fontFamily="helve-neue-regular" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <RelativeLayout android:id="@id/detail_call_rl" android:background="@drawable/text_selector" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" android:layout_alignParentLeft="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_call" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_34" android:layout_centerVertical="true" />
+            <ImageView android:gravity="center_vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_35" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/detail_nb " android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:text="@string/chezhufuwu" android:layout_toRightOf="@id/detail_call" android:layout_centerVertical="true" android:textIsSelectable="true" />
+            <View android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/detail_call" />
+        </RelativeLayout>
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/detail_msg" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_icon_12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:id="@id/rqdetail_rl_fendian" android:background="@drawable/text_selector" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_fendian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_34" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_37" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:text="@string/rq_fendian" android:layout_toRightOf="@id/detail_fendian" android:layout_centerVertical="true" android:textIsSelectable="false" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line_fendian" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:id="@id/rqdetail_rl_calllog" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_calllog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_34" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/detail_icon_record" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:text="@string/rq_calllog" android:layout_toRightOf="@id/detail_calllog" android:layout_centerVertical="true" android:textIsSelectable="true" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line_callog" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="23.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/detail_wangzhi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_34" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_38" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:text="@string/rq_wangzhi" android:layout_toRightOf="@id/detail_wangzhi" android:layout_centerVertical="true" android:textIsSelectable="true" />
+        <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line_wangzhi" android:background="#ffdfdfdf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="@string/rq_shujulaiyuan" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <ImageView android:gravity="center_vertical" android:id="@id/detail_sougou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_34" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_38" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:text="@string/rq_sougou" android:layout_toRightOf="@id/detail_sougou" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sogo_47_47" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_fxiang" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/block_block" />
+            <TextView android:textSize="10.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jiaruheimingdan" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_33" />
+            <TextView android:textSize="10.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rq_fenxiang" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

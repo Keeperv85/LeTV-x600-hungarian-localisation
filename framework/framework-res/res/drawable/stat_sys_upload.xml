@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_0_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_1_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_2_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_3_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_4_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_5_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_6_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_7_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_8_icon" />
+    <item android:duration="200" android:drawable="@drawable/le_notify_status_upload_9_icon" />
+</animation-list>

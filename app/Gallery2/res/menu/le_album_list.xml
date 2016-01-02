@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_camera_svg" android:id="@id/menu_camera" android:visible="true" android:title="@string/le_header_camera" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/le_album_hide_show_icon" android:id="@id/menu_add_hide_show" android:visible="true" android:title="@string/le_add_show_album" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_edit" android:visible="true" android:title="@string/le_header_edit" android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="应用-便签_1_" android:fillColor="#ff000000" android:pathData="M136,43H56c-3.86,0-7,3.14-7,7v92c0,3.859,3.14,7,7,7h80c3.859,0,7-3.141,7-7V50C143,46.14,139.859,43,136,43z M137,142   c0,0.542-0.458,1-1,1H56c-0.542,0-1-0.458-1-1V50c0-0.542,0.458-1,1-1h80c0.542,0,1,0.458,1,1V142z M66,79h60v-6H66V79z M66,99h60   v-6H66V99z M66,119h34v-6H66V119z" />
+</vector>

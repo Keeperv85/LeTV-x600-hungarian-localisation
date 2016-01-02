@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="#e6ffffff" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/citylist_head_image" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/musicplay_icon_2" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <TextView android:textSize="10.0sp" android:textColor="#ffbcbcbc" android:id="@id/citylist_head_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/locate_city" android:layout_toRightOf="@id/citylist_head_image" android:layout_centerVertical="true" android:fontFamily="helve-neue" app:leCJKFontFamily="hans-sans" app:leCJKTextSize="10.0sp" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/le_bottom_layout1_root" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/le_buttom_layout1_divideine" android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <Button android:textSize="18.0dip" android:textColor="@color/le_bottom_btn_textcolor" android:id="@id/le_bottom_layout1_btn" android:background="@null" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:singleLine="true" />
+</LinearLayout>

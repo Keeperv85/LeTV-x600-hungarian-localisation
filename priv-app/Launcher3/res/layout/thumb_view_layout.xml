@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.ScreenThumbImage android:layout_width="@dimen/screen_thumb_item_width" android:layout_height="@dimen/screen_thumb_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

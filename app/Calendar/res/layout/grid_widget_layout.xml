@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/grid_widget_dark_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+            <TextView android:textSize="16.0dip" android:id="@id/time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageButton android:id="@id/add_event" android:background="@drawable/action_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <include android:id="@id/day_names" android:layout_alignParentBottom="true" layout="@layout/full_month_header_grid_widget" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <GridView android:id="@id/gridview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:numColumns="7" />
+    </LinearLayout>
+</LinearLayout>

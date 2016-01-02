@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/player_operation_panel_bottom_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/play_seekbar_child" android:paddingLeft="@dimen/letv_dimens_0" android:paddingRight="@dimen/letv_dimens_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/letv_dimens_0" android:maxHeight="@dimen/player_operation_panel_bottom_height" android:progressDrawable="@drawable/seek_holo_light" android:minHeight="@dimen/player_operation_panel_bottom_height" android:thumb="@drawable/letv_seekbar_seek_thumb" android:thumbOffset="@dimen/letv_dimens_0" />
+    <RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/player_seekbar_time_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/letv_dimens_text_14" android:textColor="@color/letv_color_9Affffff" android:id="@id/seek_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/letv_dimens_text_14" android:textColor="@color/letv_color_9Affffff" android:id="@id/seek_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

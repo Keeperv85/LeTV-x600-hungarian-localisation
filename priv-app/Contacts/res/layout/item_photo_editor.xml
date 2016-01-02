@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/photo_editor_width_height" android:layout_height="@dimen/photo_editor_width_height" android:layout_marginTop="@dimen/edit_photo_marginTop" class="com.android.contacts.editor.PhotoEditorView"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.letv.leui.widget.BorderedRoundedCornersImageView android:gravity="start" android:id="@id/photo" android:background="@color/item_photo_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/le_ic_contact_photo_addnew" android:scaleType="centerCrop" android:cropToPadding="true" app:corner_radius="5.0dip" app:round_background="true" />
+        <View android:id="@id/frame" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/description_contact_photo" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/photo_triangle_affordance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/account_spinner_icon" />
+</view>

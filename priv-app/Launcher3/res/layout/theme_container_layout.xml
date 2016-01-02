@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.theme.ThemePreviewLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.LePageContainer android:layout_gravity="bottom" android:id="@id/theme_preview_container" android:layout_width="fill_parent" android:layout_height="@dimen/wallpaper_container_height" android:layout_marginBottom="@dimen/wallpaper_container_margin_bottom">
+        <com.android.launcher3.widget.OverscrollContainer android:id="@id/overscroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.launcher3.theme.ThemeViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.android.launcher3.widget.OverscrollContainer>
+        <ImageView android:id="@id/arrow_left" android:visibility="invisible" android:layout_width="@dimen/wallpaper_and_theme_item_arrow_width" android:layout_height="@dimen/wallpaper_and_theme_item_arrow_height" android:src="@drawable/wallpaper_thumb_img_left" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/arrow_right" android:visibility="invisible" android:layout_width="@dimen/wallpaper_and_theme_item_arrow_width" android:layout_height="@dimen/wallpaper_and_theme_item_arrow_height" android:src="@drawable/wallpaper_thumb_img_right" android:layout_alignParentRight="true" />
+    </com.android.launcher3.LePageContainer>
+    <include android:id="@id/theme_animation_layout" layout="@layout/theme_animation_layout" />
+</com.android.launcher3.theme.ThemePreviewLayout>

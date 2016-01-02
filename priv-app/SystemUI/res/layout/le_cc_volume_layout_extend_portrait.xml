@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/le_cc_volume_parent_id" android:paddingLeft="@dimen/le_cc_brightness_marginLeft" android:paddingRight="@dimen/le_cc_brightness_marginRight" android:layout_width="fill_parent" android:layout_height="@dimen/le_cc_brightness_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_volume_low_indicate" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/le_cc_volume_seekbar_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_cc_brightness_seekbar_marginLeft" android:layout_marginRight="@dimen/le_cc_brightness_seekbar_marginRight" android:layout_weight="1.0" style="@style/LeSeekBar" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_volume_hight_indicate" />
+</LinearLayout>

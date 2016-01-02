@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@color/leui_section_background" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:minHeight="@android:dimen/le_preference_category_hight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:colorAccent" android:id="@id/category" style="?android:attr/listSeparatorTextViewStyle" />
+</LinearLayout>

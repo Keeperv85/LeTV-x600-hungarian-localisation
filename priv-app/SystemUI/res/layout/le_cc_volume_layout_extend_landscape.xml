@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/le_cc_volume_id" android:layout_width="@dimen/le_cc_brightness_width_landscape" android:layout_height="wrap_content" android:layout_alignBottom="@id/le_cc_app_layout_extend_id" android:layout_alignParentLeft="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/le_cc_volume_hight_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cc_volume_hight_indicate" android:layout_centerHorizontal="true" />
+    <com.android.systemui.controlcenter.brightnessvolume.LeVerticalSeekBar android:id="@id/le_cc_volume_seekbar_id" android:layout_width="wrap_content" android:layout_height="@dimen/le_cc_brightness_seekbar_height_landscape" android:layout_marginTop="@dimen/le_cc_brightness_seekbar_marginTop_landscape" android:layout_marginBottom="@dimen/le_cc_brightness_seekbar_marginBottom_landscape" android:layout_below="@id/le_cc_volume_hight_id" android:layout_centerHorizontal="true" style="@style/LeSeekBar" />
+    <ImageView android:id="@id/le_cc_volume_low_indicate_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/le_cc_brightness_marginBottom_landscape" android:src="@drawable/le_cc_volume_low_indicate" android:layout_below="@id/le_cc_volume_seekbar_id" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/icon_xiami" android:id="@id/flag_xiami_music" android:title="@string/xiami_music" android:showAsAction="always" android:actionLayout="@layout/layout_actionbar_listen_custom" />
+    <item android:id="@id/action_playing" android:title="@string/menu_title_playing" android:showAsAction="ifRoom" android:actionLayout="@layout/playing_music_action_view" />
+</menu>

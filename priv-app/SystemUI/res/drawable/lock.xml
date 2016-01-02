@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dip" android:width="100.0dip" android:viewportWidth="157.0" android:viewportHeight="157.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateY="12.0">
+        <path android:name="eye" android:fillColor="@android:color/white" android:pathData="M67.766,60.295V45.819c0-5.463,4.444-9.907,9.907-9.907s9.907,4.444,9.907,9.907v7.781     h4.912v-7.781C92.492,37.648,85.844,31,77.673,31s-14.819,6.648-14.819,14.819v14.476h-5.589v34.538h40.818V60.295H67.766z" />
+    </group>
+</vector>

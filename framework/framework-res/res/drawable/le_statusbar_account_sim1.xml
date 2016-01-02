@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/le_incall_account_size" android:width="@dimen/le_incall_account_size" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#70ffffff" android:pathData="M32.622,2.923l-18.82-0.007l-8.524,8.454v23.745c0,1.007,0.806,1.828,1.813,1.828h25.521   c1.008,0,1.833-0.802,1.833-1.808V4.708C34.445,3.701,33.837,2.925,32.622,2.923z M22.9,29.045h-3.038v-12.76h-4.254v-1.966   c1.823-0.161,2.953-0.432,3.609-0.812c0.657-0.379,1.28-1.276,1.604-2.69H22.9V29.045z" />
+</vector>

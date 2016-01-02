@@ -1,0 +1,687 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: res/layout/modem_test_activity_6589.xml
+SHA1-Digest: PFQ/7NUTEQEwyHs/U0XhdCXJOVU=
+
+Name: res/layout/desense_camera.xml
+SHA1-Digest: eOgXvX8xc+wH5oZ5dy7M5+Ox3JM=
+
+Name: res/layout/ctiasetting.xml
+SHA1-Digest: VBw8A1mJHaGLXIbhq0TUn70+N8w=
+
+Name: res/layout/power.xml
+SHA1-Digest: CH4I5XJWiMuKpDjBYiQtyGqXHw4=
+
+Name: res/layout/btlist.xml
+SHA1-Digest: xTdRY2MWXWKagvqOLnbj52ORNg0=
+
+Name: res/layout/mydialog.xml
+SHA1-Digest: 9wDofmgE4WynRT1bd3qkLvdcVIg=
+
+Name: res/xml/log_and_debugging.xml
+SHA1-Digest: 8vKeA7Ku9M/mo5EAUTMCAA+8GiM=
+
+Name: res/layout/power_pmu_tabs.xml
+SHA1-Digest: QrZlk3WZu+ri+VuD5B87m0fpm2c=
+
+Name: res/drawable/cross.png
+SHA1-Digest: UMCRp8WvcVkPW6Qswj9iqtpC3eQ=
+
+Name: res/layout/hqa_cpustress_clockswitch.xml
+SHA1-Digest: rWDiyjFzBsAp0WCD+rVrfgxrsy0=
+
+Name: res/layout/gprs.xml
+SHA1-Digest: K2tXOQ8u/b83lfIuWTWhE4br4g8=
+
+Name: res/layout/new_auto_calibration.xml
+SHA1-Digest: cThUtV+yqWAijiChJG3oUHjpyCY=
+
+Name: res/layout/eint.xml
+SHA1-Digest: anWnbZVcHjWeoBIXCXmw4W2+cVw=
+
+Name: res/layout/ssp_debug_mode.xml
+SHA1-Digest: PuKvubiudGCKeWyDk8AoWRBJ6jU=
+
+Name: res/layout/ble_normal_mode_scan.xml
+SHA1-Digest: Zoa3q2WfWMDjOrGICYuFw/lKBqk=
+
+Name: res/drawable/dialog_btn_selector.xml
+SHA1-Digest: WmHsaExX5MWhgC36modH1GdWF9M=
+
+Name: res/layout/lte_networkinfo_detail.xml
+SHA1-Digest: j9JDROKPAsd18ELUJ55yulWp+EE=
+
+Name: res/layout/wifi.xml
+SHA1-Digest: KhKc9svaB/VLQGmNMg3V1GVELKQ=
+
+Name: res/layout/hqa_nfc_function_write.xml
+SHA1-Digest: NF0JdLbHZE09KYX0Jf3Jbrxryjw=
+
+Name: res/layout/battery_charge.xml
+SHA1-Digest: 7jpDZvIgkBvqEhp5eFsnNWJ+/JI=
+
+Name: res/layout/simselect.xml
+SHA1-Digest: tTm5ZHsqQUUhZY3L47COQF+elqM=
+
+Name: res/layout/ble_normal_mode_advertise.xml
+SHA1-Digest: ibomlV1aA5LLzD5rx8q01E4bbmU=
+
+Name: res/layout/ble_normal_mode_initiate.xml
+SHA1-Digest: U06F2KpVX92A+pIhWvstkK/t95U=
+
+Name: res/layout/hqa_nfc_loopback_test.xml
+SHA1-Digest: qa1s/fAyxGT/lvQE8Hj0FlISna4=
+
+Name: res/layout/tx_only_test.xml
+SHA1-Digest: Sv0gDILQq7Jl5SPw0HiTHdcfrLE=
+
+Name: res/layout/hqa_cpustress_dvfs.xml
+SHA1-Digest: dGOSRDdfoe/Tj1/T4zGn//kjRGk=
+
+Name: res/layout/bt_debug_feature.xml
+SHA1-Digest: WLFLUHJ5y/rplpWBkjnYkwg5uro=
+
+Name: res/layout/video_entry.xml
+SHA1-Digest: m94JR6W4IsXalONF5IwghlOAhps=
+
+Name: res/layout/bandselect.xml
+SHA1-Digest: NGmeTSz9bghLuu3BrQ8jp64Yuw4=
+
+Name: res/layout/user2root.xml
+SHA1-Digest: unEUMXaa1rlUCwUwaRXqzMPHOeY=
+
+Name: res/drawable-mdpi-v4/ic_focus_failed.9.png
+SHA1-Digest: MhEXur3pWgrim60bkk4c+P884V8=
+
+Name: res/layout/wfd_power_saving.xml
+SHA1-Digest: 2cvH+eS+A5erR6VbXMKiGajEcU8=
+
+Name: res/layout/cw_test.xml
+SHA1-Digest: Fy9jGuFC/eVYfcDxHDTOh1edv0o=
+
+Name: res/layout/sensor_ps_calibration.xml
+SHA1-Digest: j+Qcfj58U3ou6gZs74eyE+SGPd0=
+
+Name: res/layout/hqa_nfc_p2p_mode.xml
+SHA1-Digest: MQ9NfkI1SNzTC8dIXS6fo1ElZpU=
+
+Name: res/drawable-hdpi-v4/ic_focus_focusing.9.png
+SHA1-Digest: Jtwq3rnrtlBKCqTQX6fEtuqCFZo=
+
+Name: res/layout/wfd_security.xml
+SHA1-Digest: 7erhoqz9FkifwynJRPuNJiMOvdg=
+
+Name: res/layout/desense_freqhopping_set_6572.xml
+SHA1-Digest: h4ACxkaXeWEgFsN1eDtxwdELf5g=
+
+Name: res/raw/point1.data
+SHA1-Digest: PriRCg2HR9gm0cRHkh2tUCuHFXw=
+
+Name: res/layout/hqa_nfc_reader_mode.xml
+SHA1-Digest: WhM60zHJx5SMc2+TXT1haYa03kw=
+
+Name: res/xml/gsm_umts_options.xml
+SHA1-Digest: VTjXbVrqF1jp+A4/kN0fP90eRfM=
+
+Name: res/layout/cip_prop_content.xml
+SHA1-Digest: ZJTLO7y5S348WVSBcc9l7TaJDp0=
+
+Name: res/drawable-mdpi-v4/ic_focus_focused.9.png
+SHA1-Digest: W2QmSYHZ5wxh82LIK9jc3DxsYnI=
+
+Name: res/layout/rf_desense_tx_test.xml
+SHA1-Digest: zIBsoQll3G69tUMQtIjwYz2eKkk=
+
+Name: res/layout/modem_switch.xml
+SHA1-Digest: 3CebUJABC5wCp02aPJFjxJuMs/o=
+
+Name: res/layout/wps_nfc_role_enrollee.xml
+SHA1-Digest: Zl6vvDZtKxLrVfPd/Sf45yv+h3g=
+
+Name: res/layout/network_select_sim_type.xml
+SHA1-Digest: tTm5ZHsqQUUhZY3L47COQF+elqM=
+
+Name: res/layout/usb.xml
+SHA1-Digest: 1aMpRhFlgFuF4CBoXtXptXBIg+c=
+
+Name: res/layout/wps_nfc.xml
+SHA1-Digest: pM8BYFzRLv1O260mttjW2G1R6PM=
+
+Name: res/drawable-mdpi-v4/border_view_finder.9.png
+SHA1-Digest: BIUdb0jXe6l6/KmWAbWhqLUJznU=
+
+Name: res/layout/bandmodesimselect.xml
+SHA1-Digest: TXqNjMNJOfQ1Pc4jzQ9U7jyGH9I=
+
+Name: res/layout/desense_activity.xml
+SHA1-Digest: J1n3tdPQV1PF5uIPEd5Nq/Bsnu0=
+
+Name: res/layout/wfd_latency_profiling.xml
+SHA1-Digest: hd/otdswtPW/C7It9vH4zSshDeE=
+
+Name: res/layout/sim1_networkinfo.xml
+SHA1-Digest: yqDE5IRJeBLkl/Uzm7zVqtEQ7mw=
+
+Name: res/layout/battery_info.xml
+SHA1-Digest: bdjqffTfXXPx0KaMnxW9yQY4Ph4=
+
+Name: res/layout/usb_acm.xml
+SHA1-Digest: cbUAq8A1jq2UglaDA2cS6mLBP9w=
+
+Name: res/layout/hqa_nfc_pnfc_command.xml
+SHA1-Digest: XArv0gJ/H59QD9Y/JUioQz6e6CM=
+
+Name: res/layout/usb_test_ex.xml
+SHA1-Digest: WCxxXg0BQWz9WQh40BNCEx5Wbaw=
+
+Name: res/layout/wfd_vdo_capability.xml
+SHA1-Digest: DHmrYWHGNNM/PS3wk8Ut+lFBQzY=
+
+Name: res/layout/msdc_select.xml
+SHA1-Digest: c0Bkab0MX7d/keKYWUiVYR6F4ng=
+
+Name: res/layout/nfc_entry.xml
+SHA1-Digest: RkwVNQGI5yxb+PwtqjtQne17kZ8=
+
+Name: res/layout/help_page.xml
+SHA1-Digest: i6bvOIBNFjW+KX3ApRP9NjrsFWo=
+
+Name: res/layout/ims_config.xml
+SHA1-Digest: YkPGPY1IjHdnbNCxiOqpDK2nbqM=
+
+Name: res/layout/sensor_ps_change_threshold.xml
+SHA1-Digest: tzja34Xhsen/qFgU2ghyM81ud1k=
+
+Name: res/layout/voice_wakeup_detector.xml
+SHA1-Digest: +qyJTHjoxsUQ1ZIH5v7XzRt64lg=
+
+Name: res/xml/connectivity.xml
+SHA1-Digest: f8KqdTooMeMTArR/7W6AHmBsmt4=
+
+Name: res/layout/audio_modesetting_enhance.xml
+SHA1-Digest: HAqEssiuXQZkgvgPjfduxIbfX9o=
+
+Name: res/layout/wifi_eeprom.xml
+SHA1-Digest: uBlUiYscItMMSHn5Cfrd2PgRxEs=
+
+Name: res/layout/audio_debugsession.xml
+SHA1-Digest: /NUwLfWFOsqbjS509ACfmHwskuY=
+
+Name: res/layout/radio_info.xml
+SHA1-Digest: 377CeJxs7JMdfm2TZQgNeJMwJL0=
+
+Name: res/layout/sensor_curve.xml
+SHA1-Digest: +iDRRcidHBFGXjI5556SL6d4LhQ=
+
+Name: res/xml/hqa_nfc_main.xml
+SHA1-Digest: ZBg4uNaQdlZLSWiLCee5gmtXhVQ=
+
+Name: res/layout/nfc_software_stack_raw_command.xml
+SHA1-Digest: zMusrKfGnw6RLVGdzcs4Kz7x3XM=
+
+Name: res/layout/uart_usb_switch.xml
+SHA1-Digest: vDETj5e2irH5olOXIn4eUQrPPgA=
+
+Name: res/layout/hspa_info.xml
+SHA1-Digest: hC3gmH/N+mZn1/Ad89g8mzHqLc8=
+
+Name: res/layout/rx_only_test.xml
+SHA1-Digest: ESjLaPHibYAm4A9APPowbDSTSDU=
+
+Name: res/layout/voice_wakeup.xml
+SHA1-Digest: ggvoT/Z17XS5kcbHrpGdaSI9ojU=
+
+Name: res/layout/sleep_mode_6572.xml
+SHA1-Digest: aoZgaJ36wSkh28JW77/N/AwM/iA=
+
+Name: res/layout/nfc_software_stack_p2p_init_dect.xml
+SHA1-Digest: lXRCQlNvxzHYIE6A30wgkvq877E=
+
+Name: res/layout/wifi_rx_6620.xml
+SHA1-Digest: fpwx7dFTku+zBNfRLCGNph5L/dA=
+
+Name: res/layout/band_mode.xml
+SHA1-Digest: gqe/RV5la8z0Y3R3juENaDc0+wc=
+
+Name: res/layout/audio_speechenhancement.xml
+SHA1-Digest: 4gR5So0VcEa8TZOlQDdYHOTvr28=
+
+Name: res/layout/hqa_nfc_pollingloop_mode.xml
+SHA1-Digest: r+BbC6Cjj5GeSem3JA4FArKC5Rk=
+
+Name: res/layout/audio_modesetting.xml
+SHA1-Digest: legUPIeNuMioZmAFkctbfHcT7e8=
+
+Name: res/layout/msdc_hopset.xml
+SHA1-Digest: c2o9qndoFov66EjWtkFK45exCT8=
+
+Name: res/layout/rf_desense_tx_test_lte.xml
+SHA1-Digest: XcoxzWGfny1bE9g0QybqZSI3T8M=
+
+Name: res/xml/ims_config.xml
+SHA1-Digest: 1YhCNJEHaxvHMcKjF04VcznqB80=
+
+Name: res/layout/preference_sim_info.xml
+SHA1-Digest: 4Yp/G0Y6qmDB8YVYjTAy2u8C9qk=
+
+Name: res/layout/nfc_software_stack_secure.xml
+SHA1-Digest: hzS4uvo3WXaY28QWtrCLrjer9YM=
+
+Name: res/layout/phone_auto_test_tool.xml
+SHA1-Digest: IzjyhnhyNgPSTOLyo3dBVftNoAE=
+
+Name: res/xml/misc.xml
+SHA1-Digest: RRG4p4oGaGX411nU57FXVYG6QS8=
+
+Name: res/layout/hqa_nfc_virtualcard_function.xml
+SHA1-Digest: BwBxEGGSPLC4d6/60Abd2Q8MePs=
+
+Name: res/layout/dcm_apdcm.xml
+SHA1-Digest: JLxp+0zTe9fjTT+kbJK8PgErPlY=
+
+Name: res/drawable-hdpi-v4/border_view_finder.9.png
+SHA1-Digest: RAx2+GWb/2GMpb+fDApKs0I/PB0=
+
+Name: res/drawable-hdpi-v4/btn_shot_photo_repeat.png
+SHA1-Digest: FGrLYgTMdwn9o0ebSmW03WsUIxs=
+
+Name: res/layout/nfc_settings_result.xml
+SHA1-Digest: 9xHJkGYt6AXeNeuUttpOWQg59og=
+
+Name: res/layout/sensor_ps_collection.xml
+SHA1-Digest: 1HlyO8z/un3y/qYjW7wUVZppqSM=
+
+Name: res/layout/audio.xml
+SHA1-Digest: j1x7ILekwa06qTgOQr7AdrPMhv0=
+
+Name: res/layout/atci.xml
+SHA1-Digest: EEyfIhHPgVCvdk/+YfRF6ddRYBk=
+
+Name: res/layout/ims.xml
+SHA1-Digest: g+PQCfd4SBsiK/j/8XJgnQ1qxC0=
+
+Name: res/layout/em_simple_list_item_layout.xml
+SHA1-Digest: pRQfSSEeEIbwUBtujbahFuBw5iE=
+
+Name: res/layout/networkmode_switching.xml
+SHA1-Digest: ewZ0Xz/TIRyT9q/lYIYkAt0CfNE=
+
+Name: res/layout/hqa_nfc_function_read.xml
+SHA1-Digest: GQJ4vvVTad7OzeBNi0EDPranKjE=
+
+Name: res/layout/sensor_mag_curve.xml
+SHA1-Digest: XerPXxf6fEe6MmL5ChH/mDosOoU=
+
+Name: res/layout/hqa_nfc_swp_test.xml
+SHA1-Digest: WqBCR77v486O1z6sP2p9xV3wt4o=
+
+Name: res/layout/networkinfo_info.xml
+SHA1-Digest: j9JDROKPAsd18ELUJ55yulWp+EE=
+
+Name: res/layout/ptp_ptp2.xml
+SHA1-Digest: 4Mzn8HeaQeKZLBBhgFmM26HR7T0=
+
+Name: res/xml/network_mode_settings.xml
+SHA1-Digest: 0eCC+02WVcYX1S2JTZdDKVcl2qM=
+
+Name: res/layout/cfu_activity.xml
+SHA1-Digest: vBC96blxryPThJjdIGaOrDipfsk=
+
+Name: res/layout/desense_mempll_set.xml
+SHA1-Digest: ttUXIyZ5VFIXtayxp95Ar7rnH8k=
+
+Name: res/layout/auto_answer.xml
+SHA1-Digest: EcB7GQy9tu0kcJ8AWzzCiiANJ88=
+
+Name: res/layout/desense_pll_detail_activity.xml
+SHA1-Digest: cV46IWdDLsUYiOj9kAF///bPNis=
+
+Name: res/layout/wfd_quality.xml
+SHA1-Digest: ec5FdP0TqL7vnw3AZak6AC7pyas=
+
+Name: res/layout/wfd_list.xml
+SHA1-Digest: xTdRY2MWXWKagvqOLnbj52ORNg0=
+
+Name: res/layout/audio_audiologger.xml
+SHA1-Digest: WYPTHRsXvW1OZjjuv9Z/CYmFXXk=
+
+Name: res/layout/new_camera.xml
+SHA1-Digest: pARqndURZQ7Ri/PPXqf5NBkXJyU=
+
+Name: res/layout/hqa_nfc_tx_carrier_signal.xml
+SHA1-Digest: RVpPHMI8io+GVeBcJ8j7rTTrMfA=
+
+Name: res/layout/gpio.xml
+SHA1-Digest: tiR+2j3NvhQFURn6tybUb+VKnn0=
+
+Name: res/drawable-mdpi-v4/btn_shot_photo_repeat.png
+SHA1-Digest: JpuJw9ApOFROLSK/StJfpoAPU98=
+
+Name: res/layout/cpu_dvfs.xml
+SHA1-Digest: kSOL/nvnCCVnD3aTgW2q+A1/lkY=
+
+Name: res/layout/memory.xml
+SHA1-Digest: L0gvHb1DPVsH7upvhwZpgGY9+t8=
+
+Name: res/layout/modem_debug.xml
+SHA1-Digest: iwZjBZfsG8HAdT7UAXO0goru+kc=
+
+Name: res/layout/plls_list_item.xml
+SHA1-Digest: q+9SlVk46a5qxbN0AXuZGO9/MZY=
+
+Name: res/layout/cmmb_activity.xml
+SHA1-Digest: Qpqf7Xt7zJ2j+WsxMb15mNNvOSA=
+
+Name: res/layout/nfc_software_stack.xml
+SHA1-Digest: GecwMOJwaqntnL/CFPDx+13L6+Q=
+
+Name: res/layout/nfc_software_stack_scan_read_ndef.xml
+SHA1-Digest: 7tJShtPwK1eW0J6UmKolxFDu7SM=
+
+Name: res/layout/touch_settings.xml
+SHA1-Digest: spBJ6RZSliettNdb6ZOLFA1NqS4=
+
+Name: res/layout/hqa_cpustress_custom_opts_v2.xml
+SHA1-Digest: i7S7jkbE6z+qq4El64l9USZ8mIs=
+
+Name: res/layout/usb_otg20_test.xml
+SHA1-Digest: 3HgdJrl5l/7VIOp63dXW+IOLOwY=
+
+Name: res/layout/ble_normal_mode_whitelist.xml
+SHA1-Digest: PT+DRA0YI45ZJgzNAScdl2nWqNw=
+
+Name: res/layout/networkselection.xml
+SHA1-Digest: VupoYtQ44JnmJpTj6txxkKGmZEs=
+
+Name: res/xml/telephony.xml
+SHA1-Digest: Y2zm/WkZUNrqILV++JxAm82jWNY=
+
+Name: res/layout/bandmodesim2.xml
+SHA1-Digest: LucIFrQzXD1NOR6GP5GyPZeYkr4=
+
+Name: res/layout/display.xml
+SHA1-Digest: fKkVF82EVBx18Dls4LSweibANpE=
+
+Name: res/layout/dcm_list.xml
+SHA1-Digest: 2xr3XunL1t+jWgTrWfLJewz6Tkg=
+
+Name: res/layout/hqa_nfc_version_query.xml
+SHA1-Digest: 3pk6HxJm+o8PfW7DvvJa33ESByU=
+
+Name: res/layout/test_mode.xml
+SHA1-Digest: T8j32hj5na0NxNDy6qHHJ1DYm08=
+
+Name: res/layout/dualtalk_networkinfo.xml
+SHA1-Digest: pm1EhvbL/wlUYum9E4u2PmASLa8=
+
+Name: res/layout/settings_fontsize.xml
+SHA1-Digest: 3nSXj7Euc+xMMCd4pwq3qfmTO0Q=
+
+Name: res/layout/devicemgr.xml
+SHA1-Digest: uAdFwIPX6Zw0gD/YcHdauBa0GO8=
+
+Name: res/layout/mcdi_setting.xml
+SHA1-Digest: ERNccP9OYn0A+f6ZJ22qCUr2+HY=
+
+Name: res/layout/device_register.xml
+SHA1-Digest: dhq0xifbQhDbbKkKjpGNuqfb2bo=
+
+Name: res/layout/nfc_rawdata.xml
+SHA1-Digest: uIQVlS3hXLeRZlEbbVsrc2DXYmc=
+
+Name: res/xml/location.xml
+SHA1-Digest: dgFwcwiYn9ZSIqeojy/vCciXMn4=
+
+Name: res/xml/sim_management.xml
+SHA1-Digest: OuLJLFrsXmldGH1Mt74eBWsqTwk=
+
+Name: res/layout/pll_cg.xml
+SHA1-Digest: khUhrYP0oEVFow2buEmta4hvCoY=
+
+Name: res/layout/wifi_mcr.xml
+SHA1-Digest: R0osu4JDWiPgoaVyH6MskQdicOE=
+
+Name: res/layout/hqa_cpustress.xml
+SHA1-Digest: 9ue7DS+IHxykOrby7QgmAOVlFhc=
+
+Name: res/layout/sim2_networkinfo.xml
+SHA1-Digest: yqDE5IRJeBLkl/Uzm7zVqtEQ7mw=
+
+Name: res/layout/desense_plls_activity.xml
+SHA1-Digest: bFLMN/fE9kLU3b4uTb6PB0jfeaQ=
+
+Name: res/layout/io.xml
+SHA1-Digest: fsZCTxFAUEaFaQ4gAi6vPXFYuTM=
+
+Name: res/layout/bt_clock_selection.xml
+SHA1-Digest: C1q3vl+NbB8RM1gCLIErzzVh/8U=
+
+Name: res/layout/power_pmu6575_tabs.xml
+SHA1-Digest: 7SAybP3a46Spcp6vg9HaK2eQHps=
+
+Name: res/layout/modem_activity.xml
+SHA1-Digest: E0T1/x2i9k9tWWxbXag05nkj6k4=
+
+Name: res/layout/sensor_calibration_select.xml
+SHA1-Digest: cxLTldRSVbQx0iE4BdboI5TIiFw=
+
+Name: resources.arsc
+SHA1-Digest: aO52HeqXTIXMshHxHF85G1iUJSI=
+
+Name: res/layout/hqa_nfc_option.xml
+SHA1-Digest: FwlJ+BbVAppXtHYcOrdy+Cqx8Yo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: kfp16zCO/M8Tm/FUtY+MUiU/PVI=
+
+Name: res/layout/non_sleep_mode.xml
+SHA1-Digest: 8iQmk+5smYL64qcXy3ggYAY8RFA=
+
+Name: res/layout/modem_test_activity.xml
+SHA1-Digest: TWqd/a3Cd+Mx+/t3AlpvRClwm5o=
+
+Name: res/xml/others.xml
+SHA1-Digest: z8YynnSxnMbsNarzfGVJwC2Xdms=
+
+Name: res/layout/bandmodesim1.xml
+SHA1-Digest: gLw6PAEHy/qQ1+otAGEnpBa4Oxo=
+
+Name: res/layout/hqa_desense_lcm.xml
+SHA1-Digest: GvcVzCUR5xtcfjCEBhXlz10nql4=
+
+Name: res/layout/msdc_sd3test.xml
+SHA1-Digest: czxVqpkoJXZDoV6zHw5JgWoQjRs=
+
+Name: res/layout/nfc_software_stack_scan.xml
+SHA1-Digest: frtfYigoqrnFBd7egOPlVSXDc98=
+
+Name: res/layout/deep_idle_setting.xml
+SHA1-Digest: VnpI5wJVVofy6D7jsF1VYzN71kI=
+
+Name: res/layout/voice_list.xml
+SHA1-Digest: xTdRY2MWXWKagvqOLnbj52ORNg0=
+
+Name: res/layout/dcm_lpm.xml
+SHA1-Digest: Vk3BmoUumhB0nzelDUVO2qffNDc=
+
+Name: res/drawable-mdpi-v4/ic_focus_focusing.9.png
+SHA1-Digest: 3HiGAf7z8weZG5FURxSf+BQmJ7s=
+
+Name: res/layout/touchscreen.xml
+SHA1-Digest: Y0PMhuWo7QNJQ7T0a+8b5qPNHwM=
+
+Name: res/layout/voice_recorder.xml
+SHA1-Digest: pDUh9Eabe3yQE4LnB+xWJA2moxM=
+
+Name: res/layout/lte_configuration.xml
+SHA1-Digest: M/4MB8OnRM7aDExkRBALcBvtFqA=
+
+Name: classes.dex
+SHA1-Digest: vjqg9yI4Ix2lxw8fSs0OPQJfyfg=
+
+Name: res/layout/touchscreen_verification.xml
+SHA1-Digest: iA70dBT97X340sxpg9EVmbERkYY=
+
+Name: res/layout/antena_test.xml
+SHA1-Digest: opC6WACxYeUlMfABdbONOB3q99s=
+
+Name: res/layout/fastdormancy_config.xml
+SHA1-Digest: FqyCeI+WR6k/5V2IweTAAKWhEqU=
+
+Name: res/layout/hqa_cpustress_swvideo.xml
+SHA1-Digest: oz+Km+rZd1UncSPEIkNKcpAI4BU=
+
+Name: res/layout/nfc_software_stack_scan_write_ndef.xml
+SHA1-Digest: NDfdD6Ilt1L2747uW/uLldskrek=
+
+Name: res/layout/desense_sdlog_activity.xml
+SHA1-Digest: ktRm5daNML+Uu0Iffr8/s/p3ubw=
+
+Name: res/layout/rx_nosig_test.xml
+SHA1-Digest: Eb0WaWDFmfgTmcL8VJgCxl2L0hc=
+
+Name: res/xml/hardware_testing.xml
+SHA1-Digest: 3gB6MifbJHblo2MbA3LUiAww3o4=
+
+Name: res/layout/hqa_nfc_card_emulation_mode.xml
+SHA1-Digest: umeFu3GfpVXsjVs7vg7IdYteg3A=
+
+Name: res/layout/lte_network_mode.xml
+SHA1-Digest: ewZ0Xz/TIRyT9q/lYIYkAt0CfNE=
+
+Name: res/drawable-hdpi-v4/ic_focus_failed.9.png
+SHA1-Digest: SX5OKM9h+1PYK0Sw4mMc+jgL2Tw=
+
+Name: res/layout/tddbandselect.xml
+SHA1-Digest: PAhBHxaF1hSKRObYa++JIe9P0lU=
+
+Name: res/drawable-hdpi-v4/ic_focus_focused.9.png
+SHA1-Digest: 1nG2wWvRKqjuHEVs97LEXMept1g=
+
+Name: res/layout/lte_tool_edit.xml
+SHA1-Digest: DivpZCFuZVo99rGHWciHTyB4NqI=
+
+Name: res/layout/wifi_tx_6620.xml
+SHA1-Digest: By3s/KS/UZHXi94H9BzR1BVxumU=
+
+Name: res/layout/new_msdc.xml
+SHA1-Digest: 2Nin+SFBKBB8PDxu1+g7teLyS88=
+
+Name: res/layout/camera.xml
+SHA1-Digest: 06qeNRwJYgpROF+IYIiAQy+zFBM=
+
+Name: res/layout/voice_common_setting.xml
+SHA1-Digest: TTDmXDKIZSetZE173t2mxJGtWrw=
+
+Name: res/layout/ble_test_mode.xml
+SHA1-Digest: OswnLUCWacZIfsdUkU5/hGgBvw0=
+
+Name: res/layout/bt_chip_info.xml
+SHA1-Digest: TMAW/enswweOjsCbneWDVpihozw=
+
+Name: res/layout/main.xml
+SHA1-Digest: gLvaVZPczzVjs8DaFqGopXjYEyc=
+
+Name: res/layout/hqa_nfc_rw_function.xml
+SHA1-Digest: SOM5eIMGZvvt4+3S+NzxMmxAK+I=
+
+Name: res/layout/rf_desense_test.xml
+SHA1-Digest: zIBsoQll3G69tUMQtIjwYz2eKkk=
+
+Name: res/layout/desense_freqhopping_set.xml
+SHA1-Digest: fFDw9191biA5QMur2HB5jDvtRMk=
+
+Name: res/layout/audio_wakelock.xml
+SHA1-Digest: jSLGUKSiLrUr0qq+gmholiWPwSE=
+
+Name: res/layout/audio_debuginfo.xml
+SHA1-Digest: Ndd4LGmPNKX5iK5hUCk5oadNQ0Y=
+
+Name: res/layout/low_power_debug.xml
+SHA1-Digest: fStEWdHjlLa7XPB1cKM6htA4wkc=
+
+Name: res/layout/bt_relayer_mode.xml
+SHA1-Digest: 6UuTLWqj70PNWnjB0S33CRtEWSs=
+
+Name: res/layout/new_focus_indicator.xml
+SHA1-Digest: s3YaT9YLQg9CFuXi4H9dlYdm0zI=
+
+Name: res/layout/audio_speechloggerx.xml
+SHA1-Digest: gGWrnisjxgUcNsYsUjpm1OP/Sb0=
+
+Name: res/layout/fastdormancy.xml
+SHA1-Digest: ki6ZLlWKosZw2mWhKLyJ5JGPS8A=
+
+Name: res/layout/camera_preview.xml
+SHA1-Digest: MR592kJ1vgrThyNx1r2QUV1xZA0=
+
+Name: res/layout/nfc_settings.xml
+SHA1-Digest: s2uzo7f2DDHlKyh8mBM2dOl2ggw=
+
+Name: res/layout/rf_desense_tx_test_td.xml
+SHA1-Digest: OXIprd9gqdvrDpSRbW6DXy9g7eM=
+
+Name: res/layout/networkinfo.xml
+SHA1-Digest: zvx3BUW9gUaSrJdcrsGupBB6svg=
+
+Name: res/layout/rf_desense_tx_test_gsm.xml
+SHA1-Digest: w+Ce9R8ZVPSfuGMjKOwXkm8bo9g=
+
+Name: res/layout/memory_nand_tabs.xml
+SHA1-Digest: 3ccmrUWwGDeBFpoOyYhEaDoDViU=
+
+Name: res/layout/sensor_calibration.xml
+SHA1-Digest: HwL/1j2ScZROw9FJwy4EavGkxh0=
+
+Name: res/layout/lte_networkinfo.xml
+SHA1-Digest: YP+gcn45BKglmow5+J4uCyNf6IM=
+
+Name: res/drawable/point.png
+SHA1-Digest: nM9sS5Av1Q2tYCc84e43AgVS5PI=
+
+Name: res/layout/ptp_ptp1.xml
+SHA1-Digest: KZCMwXm7hcur7tnZEnCj3kMjrSw=
+
+Name: res/layout/aal_setting.xml
+SHA1-Digest: dGKcWW03ZZW9pQquqDt3esyYQM4=
+
+Name: res/layout/baseband.xml
+SHA1-Digest: 4zg0MOQRM1ZOC3C31uxqfccvOQg=
+
+Name: res/layout/em_single_input_layout.xml
+SHA1-Digest: e3Agkw6dkiavx82Qi/DPLsK+mf8=
+
+Name: res/xml/wifi_test_setting.xml
+SHA1-Digest: 8spafDchv2b7+WXdehX+UTNiLLw=
+
+Name: res/layout/file_name_list.xml
+SHA1-Digest: 5Yn1LSMAS/+dHTuHWSlIsKiGdQQ=
+
+Name: res/layout/hqa_cpustress_check_opts.xml
+SHA1-Digest: ea85gSkFXT35Oi0asrkJB+HHlbQ=
+
+Name: res/layout/wps_nfc_em.xml
+SHA1-Digest: FYfdtdICHslmAj/z1lphzxlBOuw=
+
+Name: res/menu/menu_show.xml
+SHA1-Digest: GebM58dJoTWGxrh2pzylmuyEHcQ=
+
+Name: res/layout/hqa_cpustress_apmcu.xml
+SHA1-Digest: BYdo+gTZufztm77CSlhGBHLJRpk=
+
+Name: res/layout/class_d_activity.xml
+SHA1-Digest: XdB0gvUp3WO31PXzRHsEL9RxlXY=
+
+Name: res/layout/ims_config_view.xml
+SHA1-Digest: C2kdCQfPFOTGpL7Im+tpSApYPCQ=
+
+Name: res/layout/usb_test.xml
+SHA1-Digest: GL36eeLfzvxFUbbhVJwYmKBVdko=
+
+Name: res/layout/swla_activity.xml
+SHA1-Digest: TYMRJS40WidzXRrqKqTW5S+tzXg=
+
+Name: res/xml/modem_warning.xml
+SHA1-Digest: eMQcSFyHtFdbRYa3xOg6fbBzMeU=
+

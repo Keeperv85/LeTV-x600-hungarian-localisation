@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/recipient_container" android:background="?contact_browser_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?list_item_height"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/res/com.android.contacts.common.widget">
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/recipient_hint_string" />
+    <com.android.contacts.common.widget.LimitedHorizontalScrollView android:gravity="center" android:orientation="horizontal" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:id="@id/selected_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.android.contacts.common.widget.LimitedHorizontalScrollView>
+    <EditText android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

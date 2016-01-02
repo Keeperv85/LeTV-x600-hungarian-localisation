@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/le_status_action_back_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/status_hangup" android:background="@drawable/leui_status_hangup_backg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/hangup_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_action_dismiss" />
+        <TextView android:textSize="@dimen/le_status_action_text_size" android:textColor="@color/le_status_hangup_action_color" android:id="@id/hangup_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_text_left" android:text="@string/notification_action_end_call" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/status_dismiss" android:background="@drawable/leui_status_dismiss_backg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/dismiss_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_action_dismiss" />
+        <TextView android:textSize="@dimen/le_status_action_text_size" android:textColor="@color/le_status_dismiss_action_color" android:id="@id/dismiss_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_text_left" android:text="@string/notification_action_dismiss" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/status_answer" android:background="@drawable/leui_status_answer_backg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_button_left" android:layout_weight="1.0">
+        <ImageView android:id="@id/answer_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_action_answer" />
+        <TextView android:textSize="@dimen/le_status_action_text_size" android:textColor="@color/le_status_answer_action_color" android:id="@id/answer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_text_left" android:text="@string/description_target_answer" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/status_callback" android:background="@drawable/leui_status_misscall_backg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/callback_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_missedcall_back" />
+        <TextView android:textSize="@dimen/le_status_action_text_size" android:textColor="@color/le_status_action_backtext_color" android:id="@id/callback_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_text_left" android:text="@string/callback_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/status_messageback" android:background="@drawable/leui_status_misscall_backg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_button_left" android:layout_weight="1.0">
+        <ImageView android:id="@id/messageback_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_missedcall_message" />
+        <TextView android:textSize="@dimen/le_status_action_text_size" android:textColor="@color/le_status_action_backtext_color" android:id="@id/messageback_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_status_action_text_left" android:text="@string/messageback_text" />
+    </LinearLayout>
+</LinearLayout>

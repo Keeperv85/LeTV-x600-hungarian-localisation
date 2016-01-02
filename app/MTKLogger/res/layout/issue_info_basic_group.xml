@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/basic_group_controller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/info_edit_basic_group_label" android:layout_alignParentLeft="true" style="@style/EditInfoItemLabel" />
+        <ImageView android:id="@id/basic_group_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_downarrow" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/basic_group" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/info_edit_project_label" style="@style/EditInfoHideItemLabel" />
+        <EditText android:enabled="false" android:id="@id/qa_project" style="@style/EditInfoHideItemContent" />
+        <TextView android:text="@string/info_edit_sw_version_label" style="@style/EditInfoHideItemLabel" />
+        <EditText android:enabled="false" android:id="@id/qa_sw_version" style="@style/EditInfoHideItemContent" />
+        <TextView android:text="@string/info_edit_platform_label" style="@style/EditInfoHideItemLabel" />
+        <EditText android:enabled="false" android:id="@id/qa_platform" style="@style/EditInfoHideItemContent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/process_name_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/info_edit_process_label" style="@style/EditInfoHideItemLabel" />
+            <EditText android:enabled="false" android:id="@id/non_qa_process" style="@style/EditInfoHideItemContent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

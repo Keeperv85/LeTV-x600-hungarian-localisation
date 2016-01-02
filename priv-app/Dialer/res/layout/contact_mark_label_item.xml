@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/labelIcon_iv" android:layout_width="@dimen/number_marking_icon_size" android:layout_height="@dimen/number_marking_icon_size" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/contact_mark_lable_unselect_color" android:ellipsize="end" android:id="@id/tv_lable" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/contact_mark_lable_unselect_color" android:id="@id/tv_lable_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/call_home" android:layout_toRightOf="@id/tv_lable" />
+            <com.letv.leui.widget.LeCheckBox android:id="@id/lc_checked" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" leui:leBoxArrowColorWithoutBorder="@color/contact_mark_lable_select_color" leui:leBoxWithoutBorder="true" leui:leBoxIsTextOnRight="false" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/number_marking_item_devider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+</LinearLayout>

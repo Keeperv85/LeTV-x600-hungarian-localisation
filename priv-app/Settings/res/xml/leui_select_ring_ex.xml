@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.preference.LeRadioGroupPreference android:persistent="false" android:title="@string/ring_select_system" android:key="@string/ring_select_gp">
+        <com.letv.leui.preference.LeRadioPreference android:title="@string/ring_select_none" android:key="@string/ring_select_none" />
+    </com.letv.leui.preference.LeRadioGroupPreference>
+</PreferenceScreen>

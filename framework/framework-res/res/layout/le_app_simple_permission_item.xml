@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:background="#ffffffff" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" class="android.widget.AppSecurityPermissions$PermissionItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/simple_permission_title" android:layout_width="fill_parent" android:layout_height="56.0dip" android:fontFamily="normal" />
+    <ImageView android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</view>

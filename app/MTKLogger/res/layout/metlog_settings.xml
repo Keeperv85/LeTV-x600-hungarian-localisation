@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/met_log_name" android:key="metlog_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/metlog_settings" android:key="metlog_category" />
+    <EditTextPreference android:title="@string/limit_log_size_title" android:key="metlog_logsize" android:summary="@string/limit_log_size_summary" android:defaultValue="200" />
+    <EditTextPreference android:title="@string/metlog_period_title" android:key="metlog_period" android:summary="@string/metlog_period_summary" android:defaultValue="20" />
+    <EditTextPreference android:title="@string/metlog_cpu_buffer_title" android:key="metlog_cpu_buffer" android:summary="@string/metlog_cpu_buffer_summary" android:defaultValue="512" />
+</PreferenceScreen>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">软件包安装程序</string>
+    <string name="next">下一步</string>
+    <string name="install">安装</string>
+    <string name="done">完成</string>
+    <string name="security_settings_desc">允许此应用获取：</string>
+    <string name="cancel">取消</string>
+    <string name="unknown">未知</string>
+    <string name="install_done">应用安装完成。</string>
+    <string name="install_confirm_question">要安装此应用吗？它将获得以下权限：</string>
+    <string name="install_confirm_question_no_perms">您要安装此应用吗？此应用不需要任何特殊权限。</string>
+    <string name="install_confirm_question_update">您要安装此应用的新版本吗？您现有的数据不会丢失。更新后的应用将具备以下权限：</string>
+    <string name="install_confirm_question_update_system">您要安装此内置应用的新版本吗？您现有的数据不会丢失。更新后的应用将具备以下权限：</string>
+    <string name="install_confirm_question_update_no_perms">是否要为这一现有应用安装更新？您现有的数据不会丢失，且安装过程无需任何特殊权限。</string>
+    <string name="install_confirm_question_update_system_no_perms">是否要为这一内置应用安装更新？您现有的数据不会丢失，且安装过程无需任何特殊权限。</string>
+    <string name="install_failed">应用未安装。</string>
+    <string name="install_failed_invalid_apk">该软件包似乎已损坏。</string>
+    <string name="install_failed_inconsistent_certificates">已安装了存在签名冲突的同名软件包。</string>
+    <string name="install_failed_older_sdk">该软件包仅适用于更高版本的Android。</string>
+    <string name="install_failed_cpu_abi_incompatible">此应用与您的手机不兼容。</string>
+    <string name="install_failed_file_not_found">软件包已被删除，无法完成安装。</string>
+    <string name="install_failed_verify_failed">该软件包未通过验证，无法安装。</string>
+    <string name="install_failed_verify_timeout">尝试验证此软件包时发生超时。请稍后尝试重新安装。</string>
+    <string name="install_failed_msg">无法在您的手机上安装“%1$s”。</string>
+    <string name="launch">打开</string>
+    <string name="unknown_apps_dlg_title">禁止安装</string>
+    <string name="unknown_apps_dlg_text">出于安全考虑，您的手机已设置为禁止安装来源不明的应用。</string>
+    <string name="ok">确定</string>
+    <string name="settings">设置</string>
+    <string name="allow_source_dlg_title">新的应用来源</string>
+    <string name="allow_source_dlg_text">"%1$s要求安装其他应用。
+
+从现在起允许此操作吗？"</string>
+    <string name="manage_applications">管理应用</string>
+    <string name="dlg_app_replacement_title">要替换该应用吗？</string>
+    <string name="dlg_app_replacement_statement">"您要安装的应用将替换另一应用。
+
+系统将保存您以前的所有用户数据。"</string>
+    <string name="dlg_sys_app_replacement_statement">"这是系统应用。
+
+系统将保存您以前的所有用户数据。"</string>
+    <string name="out_of_space_dlg_title">没有存储空间</string>
+    <string name="out_of_space_dlg_text">无法安装“%1$s”，请释放一些存储空间并重试。</string>
+    <string name="dlg_ok">确定</string>
+    <string name="app_not_found_dlg_title">未找到应用</string>
+    <string name="app_not_found_dlg_text">未在已安装应用的列表中找到该应用。</string>
+    <string name="uninstall_application_title">卸载应用</string>
+    <string name="uninstall_update_title">卸载更新</string>
+    <string name="uninstall_activity_text">%1$s属于以下应用：</string>
+    <string name="uninstall_application_text">要卸载此应用吗？</string>
+    <string name="uninstall_application_text_all_users">是否要为<b>所有</b>用户卸载此应用？系统将为设备上的<b>所有</b>用户删除此应用及其数据。</string>
+    <string name="uninstall_application_text_user">您要为用户%1$s卸载此应用吗？</string>
+    <string name="uninstall_update_text">您要将此应用替换成出厂版本吗？</string>
+    <string name="uninstalling">正在卸载...</string>
+    <string name="uninstall_done">卸载完成。</string>
+    <string name="uninstall_failed">卸载失败。</string>
+    <string name="uninstall_failed_device_policy_manager">此软件包是当前使用的设备管理器，无法卸载。</string>
+    <string name="uninstall_blocked_profile_owner">这是您的%1$s个人资料所需的应用，因此无法卸载。</string>
+    <string name="uninstall_blocked_device_owner">这是您的设备管理员要求必须安装的应用，因此无法卸载。</string>
+    <string name="manage_device_administrators">管理设备管理器</string>
+    <string name="uninstall_failed_msg">无法卸载“%1$s”。</string>
+    <string name="Parse_error_dlg_title">解析错误</string>
+    <string name="Parse_error_dlg_text">解析软件包时出现问题。</string>
+    <string name="newPerms">新权限</string>
+    <string name="allPerms">全部</string>
+    <string name="privacyPerms">隐私相关权限</string>
+    <string name="devicePerms">设备相关权限</string>
+    <string name="no_new_perms">新版本不需要任何新的权限</string>
+    <string name="grant_confirm_question">要向该应用授予以下权限吗？</string>
+    <string name="unknow_source">解除禁止</string>
+    <string name="relieve_Prohibition">解除禁止</string>
+    <string name="unknow_source_message">"为安全起见，系统已禁止安装非官方渠道获取的应用程序，解除禁止后可以安装任意渠道的应用程序，但您的手机安全和个人数据可能会受到威胁，您将承担可能的安全风险。
+或通过“设置－>密码安全“中进行设置。"</string>
+    <string name="apk_uncompatible">该应用与已安装的应用%1$s不兼容，请卸载此应用或下载最新的版本后再次尝试安装。</string>
+    <string name="apk_unnormal">安装包异常导致安装失败，请重新下载。</string>
+    <string name="apk_Version_low">系统已安装了较高版本的此应用，请下载更高的版本。</string>
+    <string name="apk_location_Incorrect">指定了不正确的安装位置。</string>
+    <string name="apk_Unknown_error">由于一些未识别的错误，此次未能成功安装，请尝试下载最新的版本后进行安装。</string>
+    <string name="apk_redownload">重新下载</string>
+    <string name="clear_space">清理垃圾</string>
+    <string name="parsing_failure">此APK文件不正确,无法正常打开</string>
+    <string name="other_permissions">其他权限</string>
+    <string name="app_version">版本 : %1$s</string>
+    <string name="low_compare_SDK">应用版本过低，请下载最新版本的应用。</string>
+    <string name="update_system">更新系统</string>
+    <string name="install_failed_system_error">系统异常导致安装失败，建议升级系统到最新的版本。</string>
+    <string name="not_enough_storage_space">系统的存储空间不足，请清理之后再尝试。</string>
+    <string name="sdk_too_low">由于您的手机系统版本过低导致安装失败，您可尝试更新系统之后进行安装。</string>
+    <string name="apk_uncompatible_with_letv">手机已安装专属适配EUI系统的领先版乐视视频，不再支持普通版本的乐视视频。</string>
+    <string name="select_delete_apk">删除安装包</string>
+    <string name="delete_apk_faile">安装包删除失败</string>
+    <string name="delete_apk_success">安装包删除成功</string>
+    <string name="no_perms">应用没有申请任何权限</string>
+    <string name="delete_apk_toast">已删除“%1$s”安装包</string>
+    <string name="installing">已安装  %1$d%%</string>
+    <string name="high_risk_permissions">高风险权限,(涉及安全,隐私,可能产生费用)</string>
+    <string name="install_failed_duplicate_permission">该应用请求的权限与已安装的“%1$s”应用请求的自定义权限“%2$s”冲突，未遵循安卓5.0系统规范。我们将尽快推进开发者更新符合规范的版本。</string>
+</resources>

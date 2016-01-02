@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/textView_search_tip_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" />
+    <ImageView android:id="@id/textView_search_tip_item_delete" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingRight="20.0dip" android:paddingBottom="12.0dip" android:layout_width="58.0dip" android:layout_height="fill_parent" android:src="@drawable/history_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

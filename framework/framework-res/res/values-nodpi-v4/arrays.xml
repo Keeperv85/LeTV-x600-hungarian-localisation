@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wallpapers">
+        <item>default_lock_wallpaper_cp</item>
+        <item>default_wallpaper_cp</item>
+        <item>default_wallpaper1</item>
+        <item>default_wallpaper2</item>
+        <item>default_wallpaper3</item>
+        <item>default_wallpaper4</item>
+        <item>default_wallpaper5</item>
+        <item>default_wallpaper6</item>
+        <item>default_wallpaper7</item>
+        <item>default_wallpaper8</item>
+        <item>default_wallpaper9</item>
+        <item>default_wallpaper10</item>
+        <item>default_wallpaper11</item>
+        <item>default_wallpaper12</item>
+        <item>default_wallpaper13</item>
+        <item>default_wallpaper14</item>
+        <item>default_wallpaper15</item>
+        <item>default_wallpaper16</item>
+        <item>default_wallpaper17</item>
+        <item>default_wallpaper18</item>
+    </string-array>
+</resources>

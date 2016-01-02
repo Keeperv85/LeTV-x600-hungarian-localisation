@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="18.0sp" android:gravity="center" android:id="@id/value_right_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="3" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="numberSigned" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/category_title_foreground" android:gravity="center_vertical" android:id="@id/desc_sep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/value_right_edit" android:layout_centerVertical="true" />
+    <EditText android:textSize="18.0sp" android:gravity="center" android:id="@id/value_left_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:ems="3" android:layout_toLeftOf="@id/desc_sep2" android:layout_centerVertical="true" android:inputType="numberSigned" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/category_title_foreground" android:gravity="center_vertical" android:id="@id/desc_pre_suf2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/value_left_edit" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/trim_view_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="@dimen/le_trim_video_padding_top" android:paddingBottom="@dimen/le_trim_video_padding_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/le_trim_video_padding_start" android:paddingEnd="@dimen/le_trim_video_padding_end">
+        <VideoView android:id="@id/surface_view" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.android.gallery3d.app.TrimVideoSeekBar android:id="@id/thumbSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/le_trim_video_playback_height">
+        <ImageButton android:id="@id/playback" android:background="@android:color/transparent" android:layout_width="@dimen/le_trim_video_playback_height" android:layout_height="@dimen/le_trim_video_playback_height" android:src="@drawable/le_videocut_play" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

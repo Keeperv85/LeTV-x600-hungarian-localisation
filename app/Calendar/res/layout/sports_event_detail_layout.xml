@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/all_layout_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/subscribe_detail_margin_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/le_group_img_1" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/ic_launcher_calendar" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/subscribe_detail_title" android:id="@id/le_group_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/event_detail" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="11.0sp" android:textColor="@color/subscribe_detail_title" android:id="@id/le_game_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_detail" />
+                <TextView android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/le_game_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_detail" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/subscribe_detail_title" android:id="@id/le_game_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_detail" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/le_group_img_2" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/ic_launcher_calendar" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/subscribe_detail_title" android:id="@id/le_group_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/event_detail" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/subscribe_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/event_detail" />
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/black" android:id="@id/le_live_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/event_detail" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/subscribe_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/event_detail" />
+            <LinearLayout android:orientation="vertical" android:id="@id/le_lineup_upgrade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/le_look_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="11.0sp" android:textColor="@color/subscribe_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_detail" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <include layout="@layout/subscribe_setting_layout" />
+        </LinearLayout>
+        <Button android:id="@id/le_resource_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/event_detail" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/quick_response_seperator" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textAppearance="?android:textAppearanceListItemSmall" android:textSize="@dimen/quick_response_label" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/quick_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" android:maxLines="2" />
+</LinearLayout>

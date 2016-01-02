@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:descendantFocusability="blocksDescendants" app:layout_width="fill_parent" app:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <LinearLayout app:gravity="center_vertical" app:orientation="horizontal" app:id="@id/event_item_rl" app:paddingTop="13.0dip" app:paddingBottom="13.0dip" app:layout_width="fill_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="21.0dip" app:textColor="@color/event_list_when" app:ellipsize="marquee" app:id="@id/when" app:layout_width="66.0dip" app:layout_height="wrap_content" app:layout_marginLeft="16.0dip" app:singleLine="true" app:leTextWeight="thin" style="?android:attr/textAppearanceSmallInverse" />
+        <LinearLayout app:orientation="vertical" app:layout_width="0.0dip" app:layout_height="wrap_content" app:layout_marginRight="12.0dip" app:layout_weight="1.0">
+            <TextView app:textSize="15.0dip" app:textColor="@color/black" app:ellipsize="marquee" app:id="@id/title" app:layout_width="fill_parent" app:layout_height="wrap_content" app:singleLine="true" style="?android:attr/textAppearanceMediumInverse" />
+            <LinearLayout app:orientation="horizontal" app:id="@id/event_where_container" app:layout_width="fill_parent" app:layout_height="wrap_content" app:layout_marginTop="6.0dip">
+                <ImageView app:id="@id/where_icon" app:background="@drawable/where" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+                <TextView app:textSize="12.0dip" app:textColor="@color/event_list_where" app:ellipsize="marquee" app:gravity="center_vertical" app:id="@id/where" app:layout_width="0.0dip" app:layout_height="fill_parent" app:layout_marginLeft="8.0dip" app:singleLine="true" app:layout_weight="1.0" style="?android:attr/textAppearanceSmallInverse" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android1:id="@id/iv_type" app:layout_width="wrap_content" app:layout_height="wrap_content" android1:layout_marginRight="20.0dip" android1:src="@drawable/ic_alarm_dark" />
+    </LinearLayout>
+    <View app:id="@id/event_item_separator" app:background="@color/day_view_line" app:visibility="gone" app:layout_width="fill_parent" app:layout_height="1.0px" app:layout_marginLeft="80.0dip" app:layout_alignParentBottom="true" />
+</RelativeLayout>

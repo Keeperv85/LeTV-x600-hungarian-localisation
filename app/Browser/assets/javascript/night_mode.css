@@ -1,0 +1,288 @@
+
+data:text/css,html,body,h2,h3,h4,h5,h6,table,tr,td,th,tbody,form,ul,ol,li,dl,dd,section,footer,nav,strong,aside,header,label,hr {
+    background-color: #151413!important;
+    color: #646974!important;
+    border-color: #212A32!important;
+    box-shadow: 0 0 0!important;
+    text-shadow: 0 0 0!important;
+}
+
+html body {
+    background-color: #151413!important;
+}
+
+
+/**article,dt,div,h1 start**/
+article,dt,div,h1 {
+    background-color: #151413!important;
+    color: #646974!important;
+    border-color: #212A32!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+}
+/**article,dt,div,h1 end**/
+
+p {
+    color: #646974!important;
+    border-color: #212A32!important;
+    box-shadow: 0 0 0!important;
+    text-shadow: 0 0 0!important;
+}
+
+div[id=&quot;x-video-button&quot;],div[class=&quot;x-advert&quot;] {
+    background-color: transparent!important;
+}
+
+span,em {
+    background-color: transparent!important;
+    color: #646974!important;
+    border-color: #212A32!important;
+    box-shadow: 0 0 0!important;
+    text-shadow: 0 0 0!important;
+}
+
+html input,html select,html button,html textarea {
+    box-shadow: 0 0 0!important;
+    color: #646974!important;
+    background-color: #151413!important;
+    border-color: #212A32!important;
+}
+
+html input:focus,html select:focus,html option:focus,html button:focus,html textarea:focus {
+    background-color: #151413!important;
+    color: #646974!important;
+    border-color: #1A3973!important;
+    outline: 2px solid #1A3973!important;
+}
+
+html input:hover,html select:hover,html option:hover,html button:hover,html textarea:hover {
+    background-color: #151413!important;
+    color: #646974!important;
+    border-color: #1A3973!important;
+    outline: 2px solid #1A3973!important;
+}
+
+html input[type=text],html input[type=password] {
+    background-image: none!important;
+}
+
+html input[type=submit],html button {
+    opacity: .5!important;
+    outline: 1px solid #212A32!important;
+}
+
+html input[type=submit]:hover,html button:hover {
+    opacity: 1!important;
+    outline: 1px solid #1A3973!important;
+}
+
+html img[src],html input[type=image] {
+    opacity: 1.0
+}
+
+html input[type=image]:hover {
+    opacity: 1!important;
+}
+
+div[class=&quot;img-view&quot;],ul[id=&quot;imgview&quot;],a[class^=&quot;prev&quot;],a[class^=&quot;next&quot;]a[class^=&quot;topic_img&quot;],a[class^=&quot;arrow&quot;],a:active[class^=&quot;arrow&quot;],a:visited[class^=&quot;arrow&quot;],img[src^=&quot;data&quot;],img[loaded=&quot;1&quot;] {
+    background: none!important;
+}
+
+a[class^=&quot;arrow&quot;] {
+    height: 0!important;
+}
+
+.anythingSlider .arrow {
+    background: none!important;
+}
+
+html a,html a * {
+    /* background-color: transparent!important; */
+    color: #3c5d85!important;
+    text-decoration: none!important;
+    border-color: #212A32!important;
+    text-shadow: 0 0 0!important;
+}
+
+html a:visited,html a:visited * {
+    color: #5c3668!important;
+}
+
+html a:hover,html a:active {
+    color: none!important;
+    border-color: transparent!important;
+}
+
+#toolbarBox,#move_tip {
+    background: none!important;
+}
+
+#logolink,#mask {
+    background-color: #151413!important;
+    border-bottom: none!important;
+}
+
+*:before,*:after {
+    color: #3c5d85!important;
+    border-color: #212A32!important;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff9e8!important;
+}
+
+div[class=&quot;x-prompt&quot;],div[class=&quot;x-dashboard&quot;] {
+    background: none!important;
+}
+
+div[class=&quot;x-progress-play-mini&quot;] {
+    background: #eb3c10!important;
+}
+
+div[class=&quot;x-console&quot;],div[class=&quot;x-progress&quot;],div[class=&quot;x-progress-seek&quot;] {
+    background: none!important;
+}
+
+div[class=&quot;x-progress-track&quot;] {
+    background-color: #555555!important;
+}
+
+div[class=&quot;x-progress-load&quot;] {
+    background-color: #909090!important;
+}
+
+div[class=&quot;x-progress-play&quot;],div[class=&quot;x-seek-handle&quot;] {
+    background-color: #eb3c10!important;
+}
+
+iframe {
+    opacity: 0.7!important;
+}
+
+/**********************   m.letv.com   ***********************/
+.scroll-nav .ico-tri {
+    background: -webkit-gradient(linear,0 0,100% 0,from(rgba(239,239,239,0.0)),to(#151413),color-stop(100%,#151413))
+}
+
+
+/**********************   m.sina.com   ***********************/
+.navitems {
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.navitems_f{
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.p_tabnav{
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.bst_wrap{
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.headBox{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.footer{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.bl-blog-foot{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.news_tab {
+    background: #f5f5f5;
+}
+
+/**********************   www.ifeng.com   ***********************/
+.FNewVidLis ul li{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.FNewMTop ul li{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.NavV ul li{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.FNewMTop ul.VideoUl li{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.FNewMBomList ul li{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.Tit01{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.ColAMCon ul li{
+    background: linear-gradient(#151413,#151413)!important;
+}
+.Rec {
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.VideoLis a {
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+h3 {
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.currentTab
+{
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.Login a{
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+.Search, .Home, .Search a, .Home a {
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+
+/**********************   m.ifeng.com   ***********************/
+.wszh span:first-child {
+    background: linear-gradient(#151413,#151413)!important;
+}
+.wszh {
+    background: linear-gradient(#151413,#151413)!important;
+}
+
+/**********************   m.iqiyi.com   ***********************/
+.mod-nav .nav_inner {
+    background-image: linear-gradient(#151413,#151413)!important;
+}
+
+/**********************   m.baidu.com   ***********************/
+.baiduappcall-wrap:after {
+    background: #151413!important;
+}
+.fm {
+	border: 1px solid #8d9394;
+}
+.appcamera .appcamera-ico {
+	z-index: inherit;
+	border: 1px solid #8d9394;
+}
+.virtualsearch .appcamera{
+	background: rgba(255,255,255,.0);
+}
+.cur {
+	background: transparent;
+}
+.se-input, .se-encode{
+	background: #151413!important;
+}
+
+/**********************   m.leso.cn   ***********************/
+.hv_play_bg {
+    background-color: transparent!important;
+}
+
+/**********************   aq.qq.com/s   ***********************/
+.tit {
+    background-color: transparent!important;
+}

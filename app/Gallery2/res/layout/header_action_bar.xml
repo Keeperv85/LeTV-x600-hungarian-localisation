@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/le_header_action_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/le_header_title" android:ellipsize="end" android:gravity="center" android:id="@id/bar_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="64.0dip" android:layout_marginRight="64.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/bar_left" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_mode" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_mode" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_back" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_back" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_select_all" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_select_all" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_select_none" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_select_none" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/bar_right" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_edit" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_edit" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_edit_cancel" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_edit_cancel" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_today" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/le_header_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/le_header_today" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" layout="@layout/horizontal_lne" />
+</RelativeLayout>

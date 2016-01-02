@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.deskclock.alarms.starclock.widget.CustomListView android:id="@id/lestar_topic_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/star_media_item_background" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+    <com.letv.leui.widget.LeLoadingView android:id="@id/lestar_topic_detail_loading_view" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/le_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lestar_topic_listview" />
+</RelativeLayout>

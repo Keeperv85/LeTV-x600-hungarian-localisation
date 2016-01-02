@@ -1,0 +1,208 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: B2wZXSPbGZluNzam29Syv9hKPHU=
+
+Name: res/drawable/bt_share.xml
+SHA1-Digest-Manifest: jf8JgSEAssVvumD7s0cSpgsQ+HU=
+
+Name: res/drawable-xhdpi-v4/ic_le_bt_stat_history_upload_done.xml
+SHA1-Digest-Manifest: YLL/vTmpsQMbgMOBlNC7s16ak0U=
+
+Name: res/drawable/ic_launcher_folder_bluetooth.xml
+SHA1-Digest-Manifest: /8mhf1RUQvfElvPSD24mz4hXyrY=
+
+Name: res/drawable-mdpi-v4/bt_share.png
+SHA1-Digest-Manifest: Nk5BxhgX0DVXf29P9F6EXb0RGbk=
+
+Name: res/drawable/ic_le_bt_down_9_icon.xml
+SHA1-Digest-Manifest: 0VRVO18zqrOfJ6IY8+aTelA1nsE=
+
+Name: res/drawable/ic_le_bt_down_7_icon.xml
+SHA1-Digest-Manifest: DDYBNmCf6Bmtn3iKy4n5vf3Vx80=
+
+Name: res/drawable-xhdpi-v4/ic_le_bt_stat_history_download_done.xml
+SHA1-Digest-Manifest: DvcnTamAmKnLoa8yEHf9Etz0rm8=
+
+Name: res/drawable/ic_le_bt_noti_drop_file_confirm.xml
+SHA1-Digest-Manifest: ZrH5JyqbzHsVh3/kAE4jWqwSHno=
+
+Name: res/drawable-mdpi-v4/ic_launcher_folder_bluetooth.png
+SHA1-Digest-Manifest: HktFUxm6c7P9YsE8KhlMnDR/N8w=
+
+Name: res/menu/transferhistory.xml
+SHA1-Digest-Manifest: eZpY8M2ZcASm0APFA5+h1wLwhBM=
+
+Name: res/menu/receivedfilescontextfinished.xml
+SHA1-Digest-Manifest: iDkGQqUxHQ0M+t233v5nzvu6fE8=
+
+Name: res/layout/sim_selector.xml
+SHA1-Digest-Manifest: 92z6zWiOK+r9TcsuaD9sdRkWyTA=
+
+Name: res/drawable/ic_le_bt_up_3_icon.xml
+SHA1-Digest-Manifest: hKO9bxCxPb4e1BZHAjrtenMBlow=
+
+Name: res/drawable/ic_le_bt_down_8_icon.xml
+SHA1-Digest-Manifest: VCSlHqSsK0B/Gal9ait/Yayxdf8=
+
+Name: res/layout/bt_enabling_progress.xml
+SHA1-Digest-Manifest: JO9lkheXhriljU2PvkPySyaxycQ=
+
+Name: res/drawable/ic_le_bt_up_5_icon.xml
+SHA1-Digest-Manifest: uC3EBPhkUlxTjftjiTtdB3HDy4M=
+
+Name: res/drawable-mdpi-v4/bt_incomming_file_notification_am.png
+SHA1-Digest-Manifest: 31GqbNavJFIDcj1b/qUZgtFzJ5M=
+
+Name: res/drawable/ic_le_bt_up_7_icon.xml
+SHA1-Digest-Manifest: ZsdoGzHrlHjwf5ESeqca/aUfn+8=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_download_done.xml
+SHA1-Digest-Manifest: xhMElYz/NSgf8sMJsnvDCynSvu8=
+
+Name: res/layout/no_transfers.xml
+SHA1-Digest-Manifest: UjAlzgswab6amMKACihwrg125y4=
+
+Name: res/drawable/le_top_btn_icon_reback.xml
+SHA1-Digest-Manifest: dyw38b3UfAtVGvw6OC2+p3LjlS4=
+
+Name: res/layout/bluetooth_transfers_page.xml
+SHA1-Digest-Manifest: GxOQikWls/Q4GiYhgYJRh3Dw+qs=
+
+Name: res/drawable/ic_le_bt_up_6_icon.xml
+SHA1-Digest-Manifest: aVwRaNcIsFFbqNx3kdoKaW9EYHU=
+
+Name: res/layout/testactivity_main.xml
+SHA1-Digest-Manifest: 75fZIQmImb2AtSiu+USaGMfeoL4=
+
+Name: res/layout/bluetooth_transfer_item.xml
+SHA1-Digest-Manifest: jGLqBAuDC/0v5MIgKgW3gt+QLwE=
+
+Name: res/drawable/ic_le_bt_down_2_icon.xml
+SHA1-Digest-Manifest: Gwu2ieQL1g0JVqtclb5BFZqzpu0=
+
+Name: res/drawable/ic_le_bt_drop_upload.xml
+SHA1-Digest-Manifest: XLN+iRZNueQcBKXm/JjH7P1xv8I=
+
+Name: res/layout/bluetooth_map_email_settings_account_group.xml
+SHA1-Digest-Manifest: Q3PpgxH5gmlcCbwmMR6G+ZzptTU=
+
+Name: res/drawable-mdpi-v4/bt_share_am.png
+SHA1-Digest-Manifest: OOKfIJIPFpsU/4vrDfzPQnbobSY=
+
+Name: res/drawable/ic_le_bt_down_3_icon.xml
+SHA1-Digest-Manifest: GLS+SCN3/LtajjHofGVwTcJP5jw=
+
+Name: res/drawable/le_bt_transfer_clear_all.xml
+SHA1-Digest-Manifest: tqwndBCRO9j76nxSGjm0BVt004w=
+
+Name: res/drawable-xhdpi-v4/ic_le_bt_stat_history_error.xml
+SHA1-Digest-Manifest: dnBmw+X+Kw7oiNFsBrTtHjg+YK0=
+
+Name: res/drawable/ic_le_bt_up_0_icon.xml
+SHA1-Digest-Manifest: cvKYan6KSYt1T54kQu7dJmzBlM4=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_error.xml
+SHA1-Digest-Manifest: QT9iOVCKrRDkmmARiBcsJx7qLqY=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_infile_comfirm.xml
+SHA1-Digest-Manifest: 3/txHh8xojMqz2YcbSNf7fr/uLw=
+
+Name: res/layout/auth.xml
+SHA1-Digest-Manifest: Syv6fw4rUCXcknRjdgn7tpxHrd8=
+
+Name: res/drawable/ic_le_bt_down_0_icon.xml
+SHA1-Digest-Manifest: fit4HAq8jqJQkiSgUhcrV2HK+Vs=
+
+Name: res/drawable/ic_le_bt_up_1_icon.xml
+SHA1-Digest-Manifest: ETPhr4pnOQhGFtn8yTi6VnwzLNM=
+
+Name: res/drawable/ic_le_bt_up_2_icon.xml
+SHA1-Digest-Manifest: Wagy46aJkQCCADXBMoTWdRNH3NU=
+
+Name: res/drawable-hdpi-v4/bt_share.png
+SHA1-Digest-Manifest: AVId4wbf0OclSzpNzCYRTXYAtdA=
+
+Name: res/layout/file_transfer.xml
+SHA1-Digest-Manifest: MaDL9L/TrfLc8T0gEpvZM8h27as=
+
+Name: res/drawable-hdpi-v4/bt_incomming_file_notification_am.png
+SHA1-Digest-Manifest: 0cToxG4PT3K0tVqQD1UJ1fvbmTE=
+
+Name: resources.arsc
+SHA1-Digest-Manifest: kmU9/8PkCsf93tFae61qDOOFyWM=
+
+Name: res/drawable/ic_le_bt_drop_download.xml
+SHA1-Digest-Manifest: eRjrwFYK/qhCdcw1/TQuscHe6Js=
+
+Name: res/menu/transferhistorycontextfinished.xml
+SHA1-Digest-Manifest: AAKas50dj9DHehM0YIzbwh7xKN0=
+
+Name: res/drawable-xhdpi-v4/bt_incomming_file_notification.png
+SHA1-Digest-Manifest: QuBUYUkJI1+zcEywUIyYdp1DFbE=
+
+Name: res/drawable/ic_le_bt_up_9_icon.xml
+SHA1-Digest-Manifest: GAPPAKBIlE/R8cUi5zrAXCBqH5c=
+
+Name: res/drawable/ic_le_bt_up_8_icon.xml
+SHA1-Digest-Manifest: JFSiBYoSrUWaUQFcwpSMO3Cz1hk=
+
+Name: AndroidManifest.xml
+SHA1-Digest-Manifest: DRGGc1FR8pT5XVftB6RbaWkU06w=
+
+Name: res/layout/confirm_dialog.xml
+SHA1-Digest-Manifest: M3GD0TyPUMJRkf/YSwW++bA84vk=
+
+Name: res/drawable/ic_le_bt_down_5_icon.xml
+SHA1-Digest-Manifest: s+ix5Mvu7oXf4180+lFt8SXGpY0=
+
+Name: res/drawable/ic_le_bt_down_4_icon.xml
+SHA1-Digest-Manifest: RpHO8wWFGGHYiCDm5OSWnKSNoSE=
+
+Name: res/drawable-hdpi-v4/bt_share_am.png
+SHA1-Digest-Manifest: E0520OUPwa43nYHRVwNvYizKZQw=
+
+Name: res/drawable/ic_le_bt_down_1_icon.xml
+SHA1-Digest-Manifest: hrY55mXRFJsQyuSrRVCwIxEB5jc=
+
+Name: res/drawable-hdpi-v4/ic_launcher_folder_bluetooth.png
+SHA1-Digest-Manifest: lDsIusQSdt4Tc9dUVSiYJMLQAYA=
+
+Name: res/drawable-xhdpi-v4/bt_incomming_file_notification_am.png
+SHA1-Digest-Manifest: 8gC8B1FTD02mUPH8W6uymKWkOf4=
+
+Name: res/drawable/ic_le_bt_up_4_icon.xml
+SHA1-Digest-Manifest: Ku/CZNz/0eQs3YTJtoMn2xVpgVs=
+
+Name: res/layout/bluetooth_map_email_settings.xml
+SHA1-Digest-Manifest: jA/NPH15clsQKQ4pZpg8iNRoqJc=
+
+Name: classes.dex
+SHA1-Digest-Manifest: SZcX39bsCYuifY5xgHQE1HI9Cqg=
+
+Name: res/layout/bluetooth_map_email_settings_account_item.xml
+SHA1-Digest-Manifest: 5JJJGZQ2F3+H6NP8Jz51/Sr/8ak=
+
+Name: res/drawable-hdpi-v4/bt_incomming_file_notification.png
+SHA1-Digest-Manifest: Bb44l4EgJOogJ8DzK0dclc8i8EI=
+
+Name: res/drawable-mdpi-v4/ic_launcher_folder_bluetooth_am.png
+SHA1-Digest-Manifest: A0V5UHYIzExUskkPeFFcovSbYvw=
+
+Name: res/drawable-hdpi-v4/ic_launcher_folder_bluetooth_am.png
+SHA1-Digest-Manifest: WRDwEByeVsggxbPG+vbbQngA2dQ=
+
+Name: res/drawable/ic_le_bt_stat_sys_notify_upload_done.xml
+SHA1-Digest-Manifest: H4CU4JUNKeJm3pIz6ra1vePScx4=
+
+Name: res/layout/incoming_dialog.xml
+SHA1-Digest-Manifest: rHTAuvzY3LcKpsk/by6PnK3ta3s=
+
+Name: res/drawable/ic_le_bt_down_6_icon.xml
+SHA1-Digest-Manifest: 7VEnRoHFikp/CQH+t+t84NLYd3w=
+
+Name: res/drawable/bt_incomming_file_notification.xml
+SHA1-Digest-Manifest: C7jpvwditeLkRwJ0fE1E0tl95Ng=
+
+Name: res/drawable-mdpi-v4/bt_incomming_file_notification.png
+SHA1-Digest-Manifest: YevqvknGUQ447OmrcsJM6FM3oUs=
+

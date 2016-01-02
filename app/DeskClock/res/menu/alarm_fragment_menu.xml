@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/le_ic_square_enter" android:id="@id/alarm_menu_square" android:title="@string/actionbar_lestar" android:showAsAction="always" />
+    <item android:icon="@drawable/le_top_btn_icon_add" android:id="@id/alarm_menu_add" android:title="@string/actionbar_add" android:showAsAction="always" />
+</menu>

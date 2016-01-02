@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_digits_text_size">120.0px</dimen>
+    <dimen name="dialpad_icon_padding">40.0px</dimen>
+    <dimen name="digits_paddingleft">216.0px</dimen>
+    <dimen name="digits_container_height">224.0px</dimen>
+    <dimen name="dialpad_height">901.0px</dimen>
+    <dimen name="dialpad_dialrow_height">256.0px</dimen>
+    <dimen name="call_remark_text_size">64.0px</dimen>
+    <dimen name="dialpad_key_number_size">120.0px</dimen>
+    <dimen name="dialpad_hint_size">64.0px</dimen>
+    <dimen name="dialpad_digits_belong_location_text_size">40.0px</dimen>
+    <dimen name="dialpad_key_letters_sized">40.0px</dimen>
+    <dimen name="dialpad_key_letters_width">164.0px</dimen>
+    <dimen name="dialpad_starpd_width">120.0px</dimen>
+    <dimen name="dialpad_starpd_height">136.0px</dimen>
+    <dimen name="dialpad_voicewidth">164.0px</dimen>
+    <dimen name="dialpad_voiceheight">45.0px</dimen>
+    <dimen name="digits_marginright">16.0px</dimen>
+    <dimen name="deletebutton_marginright">24.0px</dimen>
+    <dimen name="dialicon_bg_paddingleft">144.0px</dimen>
+    <dimen name="dialicon_bg_paddingright">144.0px</dimen>
+    <dimen name="dialicon_bg_paddingtop">32.0px</dimen>
+    <dimen name="dialicon_bg_paddingbottom">32.0px</dimen>
+    <dimen name="call_log_empty_marginbottom">1060.0px</dimen>
+    <dimen name="iv_showcall1_marginleft">72.0px</dimen>
+    <dimen name="show_call_1_text_margitnleft">16.0px</dimen>
+    <dimen name="show_call_1_text_margitnright">72.0px</dimen>
+    <item type="dimen" name="callcard_base_height">1042</item>
+    <item type="dimen" name="photo_anim_delta_height">410</item>
+    <item type="dimen" name="primary_baseInfo_lastY">608</item>
+    <item type="dimen" name="callcard_secondry_height">632</item>
+    <item type="dimen" name="primary_baseInfo_nextY">100</item>
+    <item type="dimen" name="primary_baseInfo_anim_duration">350</item>
+    <dimen name="remark_space_width">4.0px</dimen>
+    <dimen name="remark_space_height">64.0px</dimen>
+    <dimen name="remark_space_left_right">24.0px</dimen>
+    <dimen name="call_secondary_remark_text_size">40.0px</dimen>
+    <dimen name="secondary_remark_space_height">40.0px</dimen>
+    <dimen name="secondary_remark_space_left_right">16.0px</dimen>
+    <dimen name="dialpad_choice_im_width">592.0px</dimen>
+    <dimen name="dialpad_choice_im_height">460.0px</dimen>
+</resources>

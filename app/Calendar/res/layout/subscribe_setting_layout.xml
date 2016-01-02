@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/subscribe_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff747474" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lable_reminder_setting" android:fontFamily="regular" />
+    <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/reminder_time_row" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="12.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/reminder_time_lable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lable_reminder_time" android:fontFamily="regular" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:id="@id/reminder_time_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/reminder_summary" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="13.0sp" android:textColor="#ff747474" android:id="@id/reminder_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="regular" />
+                <ImageView android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="0.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_remind_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.leui.widget.LeSwitch android:gravity="center_vertical" android:id="@id/is_remind_1" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edit_event_leswitch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:leSwitchTrackColor="@color/actionbar_bg" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0sp" android:layout_marginRight="30.0dip" android:layout_marginBottom="12.0sp" android:layout_toLeftOf="@id/is_remind_1">
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/reminder_lable_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lable_sleep_slient" android:fontFamily="regular" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:id="@id/reminder_summary_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/sleep_slient_summary" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/divider_margin_vertical" android:layout_marginBottom="@dimen/divider_margin_vertical" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_remind_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.leui.widget.LeSwitch android:gravity="center_vertical" android:id="@id/is_remind_2" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edit_event_leswitch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:leSwitchTrackColor="@color/actionbar_bg" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="12.0dip" android:layout_toLeftOf="@id/is_remind_2">
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/reminder_lable_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lable_res_online" android:fontFamily="regular" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:id="@id/reminder_summary_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/res_online_summary" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="@dimen/divider_margin_vertical" />
+    </LinearLayout>
+</LinearLayout>

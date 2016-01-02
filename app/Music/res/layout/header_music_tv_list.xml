@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_color_grey2" android:gravity="center_vertical" android:id="@id/title_programme" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/watch_music_tv_programme_list" android:drawableLeft="@drawable/musicsearch_icon_1" android:drawableRight="@drawable/music_grey_down" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" />
+    <ImageView android:layout_marginTop="0.0dip" style="@style/CommonBothMargin20dpDivider" />
+</LinearLayout>

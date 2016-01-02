@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.PageIndicatorMarker android:layout_gravity="center" android:layout_width="@dimen/page_indicator_item_size" android:layout_height="@dimen/page_indicator_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/inactive" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_pageindicator_default" android:scaleType="centerInside" />
+    <ImageView android:layout_gravity="center" android:id="@id/active" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_pageindicator_current" android:scaleType="centerInside" android:alpha="0.0" android:scaleX="0.5" android:scaleY="0.5" />
+</com.android.launcher3.PageIndicatorMarker>

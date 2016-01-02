@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/header_and_title" />
+    <LinearLayout android:id="@id/progress_container" android:visibility="gone" style="@style/MainTextContainer">
+        <TextView android:text="@string/setting_up_workspace" style="@style/MainText" />
+        <ProgressBar style="@style/ProgressBar" />
+    </LinearLayout>
+    <include layout="@layout/user_consent_main_text" />
+</LinearLayout>

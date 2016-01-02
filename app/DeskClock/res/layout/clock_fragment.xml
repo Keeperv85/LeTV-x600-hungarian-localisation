@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/deskclock_fragment_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeListView android:id="@id/world_clock_cities" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="#ffcccccc" android:dividerHeight="1.0px" android:colorControlHighlight="@color/deskclock_theme_color" android:leListViewMode="leDragSort" android:leSortDragScrollStart="0.33" android:leSortMaxDragScrollSpeed="0.5" android:leSortFloatBackgroundColor="@android:color/black" android:leSortFloatAlpha="0.6" android:leSortSlideShuffleSpeed="0.3" android:leSortEnabled="true" android:leSortDragStartMode="onDown" android:leSortDragHandleId="@id/world_clock_item_sort" android:leSortUseDefaultController="true" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@drawable/ic_no_clock" android:id="@id/clock_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/list_empty_no_clock" />
+</RelativeLayout>

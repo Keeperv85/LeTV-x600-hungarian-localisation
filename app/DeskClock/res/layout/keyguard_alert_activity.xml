@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/keyguard_alert_media" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/keyguard_alert_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/keyguard_alert_mask_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/keyguard_alert_activity" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/keyguard_alert_op_bg" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/keyguard_alert_snooze_text_size" android:textColor="@color/keyguard_alert_snooze_text_color" android:gravity="center" android:id="@id/keyguard_alert_snooze" android:background="@drawable/keyguard_snooze_bg" android:layout_width="wrap_content" android:layout_height="@dimen/keyguard_alert_snooze_height" android:layout_marginBottom="@dimen/keyguard_alert_snooze_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-light" android:paddingStart="@dimen/keyguard_alert_snooze_padding" android:paddingEnd="@dimen/keyguard_alert_snooze_padding" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_alert_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keyguard_alert_info_margin_bottom_with_snooze" android:layout_above="@id/keyguard_alert_snooze">
+            <com.android.deskclock.widget.AnimateTriangleView android:id="@id/keyguard_alert_triangle" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="20.0dip" />
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextClock android:textSize="@dimen/keyguard_alert_time_text_size" android:textColor="@color/keyguard_alert_time_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="helve-neue-ultraLightextended" android:format12Hour="@string/keyguard_alert_time_format_12_hours_hour" android:format24Hour="@string/keyguard_alert_time_format_24_hours_hour" />
+                <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_time_splite_dot" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/le_time_splite_dot" />
+                </LinearLayout>
+                <TextClock android:textSize="@dimen/keyguard_alert_time_text_size" android:textColor="@color/keyguard_alert_time_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="helve-neue-ultraLightextended" android:format12Hour="@string/keyguard_alert_time_format_12_hours_minute" android:format24Hour="@string/keyguard_alert_time_format_24_hours_minute" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/keyguard_alert_label_text_size" android:textColor="@color/keyguard_alert_label_text_color" android:id="@id/keyguard_alert_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyguard_alert_label_margin_top" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

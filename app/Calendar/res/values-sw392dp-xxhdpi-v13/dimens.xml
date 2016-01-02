@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tag_detail_bg_image_height">220.0dip</dimen>
+    <dimen name="tag_detail_bg_image_layout_height">275.0dip</dimen>
+    <dimen name="tag_detail_alpha_height">208.0dip</dimen>
+    <dimen name="tag_detail_title_layout_height">68.0dip</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/callbutton_svg_tint" android:height="@dimen/call_button_image_svg_size" android:width="@dimen/call_button_image_svg_size" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M75.6,64.1c-0.3-0.2-18.8-13.8-21.9-16c3.1-2.2,21.5-15.8,21.9-16c0.6-0.4,0.5-1,0-1.4   S44.1,6.1,44.1,6.1c-0.2-0.2-0.4-0.3-0.7-0.3c-0.5,0-0.9,0.4-0.9,1v32.9L24.3,24.6L20,28.9l22.5,19.2L20,67.3l4.2,4.3l18.2-15.2   v32.9c0,0.6,0.4,1,0.9,1c0.2,0,0.5-0.1,0.7-0.3c0,0,31-24.2,31.6-24.6S76.2,64.5,75.6,64.1z M48.5,18.1l17.6,13.3L48.5,44.3V18.1z    M48.5,78.1V52l17.6,12.8L48.5,78.1z" />
+</vector>

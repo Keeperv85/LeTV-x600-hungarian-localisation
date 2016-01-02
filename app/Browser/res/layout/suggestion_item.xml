@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/suggestion" android:background="@color/transparent" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.BorderedRoundedCornersImageView android:layout_gravity="center" android:id="@id/url_suggestion_icon_image_view" android:layout_width="@dimen/suggestion_item_icon" android:layout_height="@dimen/suggestion_item_icon" android:src="@drawable/le_ic_website_suggest_icon_default" android:scaleType="fitXY" android:layout_centerInParent="true" app:corner_radius="@dimen/le_quick_dial_icon_corner_radius" app:round_background="true"
+      xmlns:app="http://schemas.android.com/apk/prv/res/android" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/url_suggestion_title_text_view" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffbdbdbd" android:id="@id/url_suggestion_url_text_view" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

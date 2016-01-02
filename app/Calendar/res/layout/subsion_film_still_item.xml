@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.BorderedRoundedCornersImageView android:id="@id/still_src" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="117.0dip" android:layout_height="80.0dip" android:scaleType="fitXY" app:corner_radius="2.0dip" app:border_width="0.0dip" />
+</RelativeLayout>

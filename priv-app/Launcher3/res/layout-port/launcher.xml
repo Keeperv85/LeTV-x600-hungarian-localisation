@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.LauncherRootView android:id="@id/launcher" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.launcher3.FocusIndicatorView android:id="@id/focus_indicator" android:layout_width="52.0dip" android:layout_height="52.0dip" />
+        <com.android.launcher3.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:defaultScreen="@integer/config_workspaceDefaultScreen" launcher:pageIndicator="@id/page_indicator" />
+        <include android:id="@id/hotseat" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/hotseat" />
+        <include android:id="@id/search_drop_target_bar" layout="@layout/le_search_drop_target_bar" />
+        <include android:id="@id/overview_panel" android:visibility="gone" layout="@layout/overview_panel" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/page_indicator" />
+        <include android:id="@id/widget_preview_container" android:visibility="gone" layout="@layout/widget_preview_container" />
+        <include android:id="@id/screen_thumbs_container" android:visibility="gone" layout="@layout/screen_thumbs_container" />
+        <include android:id="@id/screen_thumbs_dragtip" android:visibility="gone" layout="@layout/screen_thumb_dragtip" />
+        <include android:id="@id/icon_layout_modes_layout" android:visibility="gone" layout="@layout/icon_layout_modes_layout" />
+    </com.android.launcher3.DragLayer>
+    <include android:visibility="invisible" layout="@layout/uninstall_layout" />
+</com.android.launcher3.LauncherRootView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/custom_title_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center|left" android:id="@id/select_all" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/select_mult_mode" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/selected_conv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center|right" android:id="@id/cancel_multi" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/cancel_mult_mode" />
+</FrameLayout>

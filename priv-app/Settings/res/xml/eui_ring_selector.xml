@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <PreferenceCategory android:title="@string/ring_select_custom">
+        <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_from_local" android:key="prefs_ring_custom" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    </PreferenceCategory>
+    <com.letv.leui.preference.LeRadioGroupPreference android:persistent="false" android:title="@string/ring_select_system" android:key="prefs_ring_system" android:defaultValue="@string/ring_select_default">
+        <com.letv.leui.preference.LeRadioPreference android:title="@string/ring_select_none" android:key="@string/ring_select_none" android:checkedTextColor="@drawable/le_radio_preference_checked_title_color" android:uncheckedTextColor="@drawable/le_radio_preference_unchecked_title_color" android:leBoxArrowColorWithoutBorder="@drawable/le_box_arrow_color" />
+    </com.letv.leui.preference.LeRadioGroupPreference>
+    <com.letv.leui.preference.LeRadioGroupPreference android:persistent="false" android:title="@string/ring_select_song" android:key="prefs_ring_song" />
+    <com.letv.leui.preference.LeRadioGroupPreference android:persistent="false" android:title="@string/ring_select_national" android:key="prefs_ring_national" />
+</PreferenceScreen>

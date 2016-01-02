@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/event_item_rl" android1:paddingLeft="@dimen/list_item_padding_horizontal" android1:paddingTop="@dimen/list_item_padding_vertical" android1:paddingRight="@dimen/list_item_padding_horizontal" android1:paddingBottom="@dimen/list_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/right_container" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:ellipsize="marquee" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceMediumInverse" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/sub_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/event_list_where" android:ellipsize="marquee" android:id="@id/when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceSmallInverse" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/event_list_where" android:ellipsize="marquee" android:id="@id/where" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/textAppearanceSmallInverse" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/right_container" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.android.calendar.ColorChipView android:id="@id/agenda_item_color" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/last_day_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <TextView android:textSize="13.0dip" android:textColor="@color/sub_basic" android:ellipsize="marquee" android:gravity="center" android:id="@id/last_days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" style="?android:attr/textAppearanceMediumInverse" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/event_item_separator" android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/list_item_padding_horizontal" android:layout_alignParentBottom="true" />
+</RelativeLayout>

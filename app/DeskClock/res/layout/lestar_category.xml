@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ringtone_category_divider" layout="@layout/ringtone_divider" />
+    <include layout="@layout/lestar_category_header" />
+    <com.android.deskclock.alarms.starclock.widget.HorizontalListView android:id="@id/ringtone_category_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/category_list_height" />
+</LinearLayout>

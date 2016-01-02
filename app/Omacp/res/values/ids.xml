@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="title">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="summary">false</item>
+    <item type="id" name="text_linear_layout">false</item>
+    <item type="id" name="message_settings_detail_info_scroll">false</item>
+    <item type="id" name="message_settings_detail_info">false</item>
+    <item type="id" name="btn_linear_layout">false</item>
+    <item type="id" name="full_install_btn">false</item>
+    <item type="id" name="custom_install_btn">false</item>
+    <item type="id" name="pin_edit">false</item>
+</resources>

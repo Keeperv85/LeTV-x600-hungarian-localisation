@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/usb_connection_category" android:key="usb_category">
+        <com.mediatek.settings.deviceinfo.RadioButtonPreference android:title="@string/usb_mtp_title" android:key="usb_mtp" android:summary="@string/usb_mtp_summary" />
+        <com.mediatek.settings.deviceinfo.RadioButtonPreference android:title="@string/usb_ptp_title" android:key="usb_ptp" android:summary="@string/usb_ptp_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/debug_debugging_category" android:key="usbseting_debug">
+        <com.letv.leui.settings.widget.LeUISwitchPreference android:title="@string/enable_adb" android:key="enable_adb" android:summary="@string/enable_adb_summary" />
+        <com.letv.leui.settings.widget.LeUISwitchPreference android:persistent="false" android:title="@string/no_usbsettings_fragment_again_title" android:key="no_usbsettings_again" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/leui_usb_optional_category" android:key="leui_usb_optional_category">
+        <com.letv.leui.settings.widget.LeUISwitchPreference android:persistent="false" android:title="@string/leui_usb_fast_charging" android:key="usb_fast_charging" android:summary="@string/leui_usb_fast_charging_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

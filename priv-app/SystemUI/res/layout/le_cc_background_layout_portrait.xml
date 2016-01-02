@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:background="@color/le_cc_brightness_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_cc_brightness_height" android:layout_marginBottom="@dimen/le_cc_app_height" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" />

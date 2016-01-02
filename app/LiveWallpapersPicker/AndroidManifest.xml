@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.wallpaper.livepicker" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <original-package android:name="com.android.wallpaper.livepicker"/>
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+    <application android:icon="@mipmap/ic_launcher_live_wallpaper" android:label="@string/application_name" android:supportsRtl="true">
+        <activity android:hardwareAccelerated="true" android:label="@string/live_wallpaper_picker_label" android:name="LiveWallpaperActivity" android:theme="@style/LivePickerTheme">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.LIVE_WALLPAPER_CHOOSER"/>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview" android:resource="@xml/wallpaper_picker_preview"/>
+        </activity>
+        <activity android:label="@string/live_wallpaper_preview_title" android:name="LiveWallpaperChange" android:theme="@style/Preview">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.CHANGE_LIVE_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/live_wallpaper_preview_title" android:name="LiveWallpaperPreview" android:theme="@style/Preview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

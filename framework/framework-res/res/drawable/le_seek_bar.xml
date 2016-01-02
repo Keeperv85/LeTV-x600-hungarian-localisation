@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/le_seekbar_progress" android:tint="#ffcccccc" />
+    </item>
+    <item>
+        <layer-list>
+            <item android:id="@id/background">
+                <nine-patch android:src="@drawable/le_seekbar_progress" android:tint="#ffe8e8e8" />
+            </item>
+            <item android:id="@id/secondaryProgress">
+                <scale android:scaleWidth="100%">
+                    <nine-patch android:src="@drawable/le_seekbar_progress" android:tint="?colorControlActivated" android:alpha="0.3" android:tintMode="multiply" />
+                </scale>
+            </item>
+            <item android:id="@id/progress">
+                <scale android:scaleWidth="100%">
+                    <nine-patch android:src="@drawable/le_seekbar_progress" android:tint="?colorControlActivated" />
+                </scale>
+            </item>
+        </layer-list>
+    </item>
+</selector>

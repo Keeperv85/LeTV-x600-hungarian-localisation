@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">Found %d call logs</item>
+        <item quantity="one">Found 1 call log</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d contacts found</item>
+        <item quantity="one">1 contact found</item>
+    </plurals>
+    <plurals name="rington_count">
+        <item quantity="other">Ring %s times</item>
+        <item quantity="one">Ring once</item>
+    </plurals>
+    <plurals name="contactsDeleteTip">
+        <item quantity="other">Delete %s contacts?</item>
+        <item quantity="one">Delete one contact?</item>
+    </plurals>
+    <plurals name="addContactsForGroupTip">
+        <item quantity="other">Add %s contacts to this group?</item>
+        <item quantity="one">Add one contact to this group?</item>
+    </plurals>
+    <plurals name="selectedContact">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">1 selected</item>
+    </plurals>
+    <plurals name="import_from_vcard_success">
+        <item quantity="other">Contacts imported</item>
+        <item quantity="one">Contact imported</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d contact has a phone number</item>
+        <item quantity="one">1 contact has a phone number</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d contacts found</item>
+        <item quantity="one">1 contact found</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">Merged with %0$d others</item>
+        <item quantity="one">Unmerged</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d groups</item>
+        <item quantity="one">1 group</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d people from %2$s</item>
+        <item quantity="one">%1$d contacts in %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d people</item>
+    </plurals>
+</resources>

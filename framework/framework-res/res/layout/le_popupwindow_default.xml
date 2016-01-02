@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/le_popupwindow_topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/le_popupwindow_title_template" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/le_popupwindow_titleicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_info" />
+                <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff414141" android:ellipsize="end" android:gravity="center" android:id="@id/le_popupwindow_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+            </LinearLayout>
+            <ImageView android:id="@id/le_popupwindow_titlegapline" android:background="@drawable/le_bottomsheet_gapline_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/le_popupwindow_customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/le_popupwindow_custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:id="@id/le_popupwindow_contentgapline" android:background="@drawable/le_bottomsheet_gapline_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/le_popupwindow_contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ScrollView android:id="@id/le_popupwindow_scrollView" android:paddingLeft="16.0dip" android:paddingTop="2.0dip" android:paddingRight="16.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/le_bottomsheet_content_color" android:textColorLink="@color/le_bottomsheet_content_color_link" android:gravity="left" android:id="@id/le_popupwindow_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:bufferType="spannable" android:lineSpacingExtra="6.0sp" style="?android:attr/textAppearanceMedium" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/le_popupwindow_licencePanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:soundEffectsEnabled="false">
+            <com.letv.leui.widget.LeCheckBox android:textSize="14.0sp" android:textColor="#ff414141" android:gravity="center" android:layout_gravity="center" android:id="@id/le_bottomsheet_switchbutton_checkbox" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" leui:leBoxOnColor="@color/le_bottomsheet_content_color_link" leui:leBoxInnerPadding="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/le_popupwindow_buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/le_popupwindow_gapline1" android:background="@drawable/le_bottomsheet_gapline_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.letv.leui.widget.LeButton android:textSize="18.0sp" android:textColor="@color/le_bottomsheet_title_color_default" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/le_popupwindow_button_neutral" android:background="@drawable/le_bottomsheet_listbtn_selector" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:fontFamily="helve-neue-regular" android:stateListAnimator="@null" />
+            <ImageView android:id="@id/le_popupwindow_gapline2" android:background="@drawable/le_bottomsheet_gapline_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.letv.leui.widget.LeButton android:textSize="18.0sp" android:textColor="@color/le_bottomsheet_title_color_default" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/le_popupwindow_button_positive" android:background="@drawable/le_bottomsheet_listbtn_selector" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:fontFamily="helve-neue-regular" android:stateListAnimator="@null" />
+            <ImageView android:id="@id/le_popupwindow_gapline3" android:background="@drawable/le_bottomsheet_gapline_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.letv.leui.widget.LeButton android:textSize="18.0sp" android:textColor="@color/le_bottomsheet_title_color_default" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/le_popupwindow_button_negative" android:background="@drawable/le_bottomsheet_listbtn_selector" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:fontFamily="helve-neue-regular" android:stateListAnimator="@null" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

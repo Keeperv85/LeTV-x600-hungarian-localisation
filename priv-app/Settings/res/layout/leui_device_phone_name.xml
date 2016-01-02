@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/spacerBottom" android:background="@android:drawable/divider_horizontal_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/phone_name_entry_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center|left" android:id="@id/phone_name_icon" android:padding="9.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/leui_device_phone_name_icon" />
+            <EditText android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/phone_name_edt_entry" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="50" android:layout_weight="1.0" android:imeOptions="actionDone" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/phone_name_edt_clear" android:padding="19.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_btn_edit_text_clear" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="left" android:id="@id/BottomText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:text="@string/leui_device_phone_name_tips" android:lines="2" android:lineSpacingExtra="5.0sp" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_container" style="@style/SecurityPreferenceButtonContainer">
+        <com.letv.leui.widget.LeButton android:textColor="@android:drawable/btn_text_selector_blue" android:id="@id/confirm_btn" android:background="@android:drawable/btn_bg_selector_blue" android:visibility="gone" android:layout_height="48.0dip" android:text="@android:string/ok" android:layout_marginEnd="8.0dip" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

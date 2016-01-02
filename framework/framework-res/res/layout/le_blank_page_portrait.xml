@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/blank_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/info_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/icon" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/le_blank_page_common_gray" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="18.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/handle_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/info_layout">
+            <TextView android:textSize="12.0sp" android:textColor="@color/le_blank_page_common_gray" android:orientation="vertical" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/le_blank_page_btn_text_color" android:id="@id/primaryBtn" android:background="@drawable/le_blank_page_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minWidth="156.0dip" android:minHeight="43.0dip" android:stateListAnimator="@null" />
+            <Button android:textSize="14.0sp" android:textColor="@color/le_blank_page_btn_text_color" android:id="@id/secondBtn" android:background="@drawable/le_blank_page_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="156.0dip" android:minHeight="43.0dip" android:stateListAnimator="@null" />
+            <Button android:textSize="14.0sp" android:textColor="@color/le_blank_page_btn_text_color" android:id="@id/thirdBtn" android:background="@drawable/le_blank_page_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="156.0dip" android:minHeight="43.0dip" android:stateListAnimator="@null" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

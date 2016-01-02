@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="24.0dip" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ring_id" android:layout_width="24.0dip" android:layout_height="24.0dip" android:fontFamily="helve-neue-light" />
+</FrameLayout>

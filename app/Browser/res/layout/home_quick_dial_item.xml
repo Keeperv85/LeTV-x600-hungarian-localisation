@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="82.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/home_quick_dial_item_linear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+        <com.letv.leui.widget.BorderedRoundedCornersImageView android:layout_gravity="right" android:id="@id/thumb" android:layout_width="@dimen/le_quick_dial_icon" android:layout_height="@dimen/le_quick_dial_icon" android:scaleType="fitCenter" app:corner_radius="@dimen/le_quick_dial_icon_corner_radius" app:round_background="true"
+          xmlns:app="http://schemas.android.com/apk/prv/res/android"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <TextView android:textSize="@dimen/le_text_size_13" android:textColor="@color/home_quick_dial_item_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/thumb_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/test_text" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/delete" android:padding="3.0dip" android:visibility="invisible" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="@dimen/le_quick_dial_remove_left" android:layout_marginTop="@dimen/le_quick_dial_remove_top" android:src="@drawable/le_ic_remove_quick_dial_sun" />
+</FrameLayout>

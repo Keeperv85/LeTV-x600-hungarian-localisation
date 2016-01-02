@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/le_time_dialog_btncolor" android:gravity="center" android:id="@id/le_bottomsheet_gridview_text1" android:visibility="gone" android:layout_width="84.0dip" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" android:singleLine="true" />
+    <ImageView android:id="@id/le_bottomsheet_gridview_img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="11.0dip" />
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/le_bottomsheet_grid_textcolor" android:gravity="center" android:id="@id/le_bottomsheet_gridview_text" android:layout_width="84.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

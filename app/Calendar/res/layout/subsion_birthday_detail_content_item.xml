@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="81.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <ImageView android:id="@id/content_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="15.0dip" android:textColor="@color/birthday_list_title" android:id="@id/content_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/birthday_list_subtitle" android:id="@id/content_when" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/birthday_list_subtitle" android:id="@id/content_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_to" />
+    </LinearLayout>
+    <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+</LinearLayout>

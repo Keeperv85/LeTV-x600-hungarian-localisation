@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_saved_access_points_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/wifi_display" android:key="enable_wifi_display" android:summary="@string/wifi_display_summary" />
+</PreferenceScreen>

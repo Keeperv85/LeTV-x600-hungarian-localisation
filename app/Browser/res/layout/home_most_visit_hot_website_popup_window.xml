@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/home_pop_window_most_visit_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/url_most_visit_divide_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0px" />
+        <TextView android:textSize="@dimen/le_home_history_header_text_size" android:textColor="@color/le_home_history_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/recently_closed" android:includeFontPadding="false" />
+        <com.android.browser.home.HomeGridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/home_pop_window_most_visit_gridview" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:verticalSpacing="@dimen/home_quick_dial_icon_vertical_spacing" android:stretchMode="spacingWidthUniform" android:columnWidth="@dimen/le_quick_dial_item" android:numColumns="4" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

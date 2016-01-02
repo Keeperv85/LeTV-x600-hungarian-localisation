@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:screenOrientation="portrait" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/info_layout"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/connectivity_inet_hint" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <Spinner android:id="@id/connTypeSpinnner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <EditText android:id="@id/ReportPercent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="3" android:digits="1234567890" android:inputType="phone" />
+            <Button android:id="@id/Report" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Report" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/connectivity_change_delay" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/info_layout">
+            <EditText android:id="@id/conn_change_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/setBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sys_set_button" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/connectivity_captive_portal" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <CheckBox android:id="@id/conn_captive_portal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connectivity_captive_portal_setting" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:id="@id/dun_apn_current_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tethering_dun_apn_label" />
+        <EditText android:textSize="18.0sp" android:id="@id/dun_apn_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textMultiLine" />
+        <Button android:id="@id/dun_apn_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dun_apn_button" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tethering_test_label" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <EditText android:id="@id/tether_udp_test_ipaddr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="16" />
+        <Button android:id="@id/tetherEnableBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_enable_udp" />
+        <Button android:id="@id/tetherDisableBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_disable_udp" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</ScrollView>

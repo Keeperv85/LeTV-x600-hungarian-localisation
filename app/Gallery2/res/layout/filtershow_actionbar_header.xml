@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/le_filtershow_actionbar_foot_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="64.0dip" android:layout_marginRight="64.0dip" android:layout_centerVertical="true">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/bar_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerVertical="true" style="@style/FilterShowActionBarTitleStyle" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/center_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/undo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_undo_svg" />
+            <ImageView android:id="@id/redo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_redo_svg" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:id="@id/bar_left" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_back" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/le_actionbar_complete" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_cancel" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/FilterShowAcionBarMenuStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/bar_right" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_save" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" style="@style/FilterShowAcionBarMenuStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

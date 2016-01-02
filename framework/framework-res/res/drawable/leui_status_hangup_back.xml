@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/le_status_hangup_action_height" android:width="@dimen/le_status_hangup_action_width" android:viewportWidth="960.0" android:viewportHeight="108.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/le_status_hangup_action_color" android:pathData="M954,3c1.654,0,3,1.346,3,3v96c0,1.654-1.346,3-3,3H6c-1.654,0-3-1.346-3-3V6c0-1.654,1.346-3,3-3   H954 M954,0H6C2.7,0,0,2.7,0,6v96c0,3.3,2.7,6,6,6h948c3.3,0,6-2.7,6-6V6C960,2.7,957.3,0,954,0L954,0z" />
+</vector>

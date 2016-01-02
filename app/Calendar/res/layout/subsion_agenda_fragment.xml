@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/month_clicked_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/agenda_detail_head" android:layout_width="fill_parent" android:layout_height="270.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/detail_title" android:id="@id/agenda_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/font_medium" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/detail_title" android:id="@id/agenda_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lineSpacingExtra="6.0dip" />
+        <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/set_item_subtitle_height">
+                <TextView android:textSize="14.0dip" android:textColor="#ff747474" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:text="@string/agenda_place" android:fontFamily="@string/english_font_normal" />
+            </LinearLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/place_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/set_item_height">
+                <TextView android:textSize="16.0dip" android:textColor="@color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/agenda_place" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_alignParentLeft="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_to" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

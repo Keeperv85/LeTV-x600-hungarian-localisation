@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/prv/apk/res/android">
+    <com.android.music.widget.WidthScreenImageView android:id="@id/image" android:background="@color/background_grey" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:background="@drawable/bg_video_wall_info" android:paddingRight="64.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignBottom="@id/image">
+        <com.letv.leui.widget.LeTextView android:textSize="12.0sp" android:textColor="@color/color_white_opaque8" android:id="@id/artist" android:paddingLeft="20.0dip" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" />
+        <com.letv.leui.widget.LeTextView android:textSize="14.0sp" android:textColor="@color/text_color_white" android:id="@id/name" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" android:layout_above="@id/artist" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" />
+    </RelativeLayout>
+    <ImageView android:id="@id/action_like" android:background="@null" android:paddingLeft="20.0dip" android:paddingTop="14.0dip" android:paddingRight="20.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_media_player_love" android:layout_alignBottom="@id/image" android:layout_alignParentRight="true" />
+    <com.android.music.widget.LovePathView android:id="@id/action_like_animator" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="60.0dip" android:layout_marginRight="8.0dip" android:layout_alignBottom="@id/image" android:layout_alignParentRight="true" />
+</RelativeLayout>

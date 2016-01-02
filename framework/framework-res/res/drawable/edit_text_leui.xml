@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/textfield_multiline_default_leui" android:state_multiline="true" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/textfield_multiline_disabled_leui" android:state_multiline="true" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/textfield_multiline_activated_leui" android:state_multiline="true" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_multiline="true">
+        <nine-patch android:src="@drawable/textfield_multiline_activated_leui" android:tint="?colorControlActivated" />
+    </item>
+    <item android:state_enabled="true" android:drawable="@drawable/textfield_multiline_default_leui" android:state_multiline="true" />
+    <item android:drawable="@drawable/textfield_multiline_disabled_leui" android:state_multiline="true" />
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/textfield_default_leui" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/textfield_disabled_leui" />
+    <item android:state_focused="true" android:state_enabled="true">
+        <nine-patch android:src="@drawable/textfield_activated_leui" android:tint="?colorControlActivated" />
+    </item>
+    <item android:state_enabled="true" android:drawable="@drawable/textfield_default_leui" />
+    <item android:drawable="@drawable/textfield_disabled_leui" />
+</selector>

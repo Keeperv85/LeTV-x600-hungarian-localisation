@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.theme.ThemeCircleLayout android:background="@color/theme_animation_layout_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/theme_ring" android:background="@drawable/theme_animation_ring" android:layout_width="@dimen/theme_animation_ring_width" android:layout_height="@dimen/theme_animation_ring_width" android:layout_centerInParent="true">
+        <FrameLayout android:layout_gravity="center" android:id="@id/theme_mask" android:background="@drawable/theme_animation_mask" android:layout_width="@dimen/theme_animation_mask_size" android:layout_height="@dimen/theme_animation_mask_size">
+            <ImageView android:id="@id/theme_large_gear" android:layout_width="@dimen/theme_animation_gear_large_size" android:layout_height="@dimen/theme_animation_gear_large_size" android:layout_marginLeft="@dimen/theme_animation_large_gear_margin_left" android:layout_marginTop="@dimen/theme_animation_large_gear_margin_top" android:src="@drawable/theme_animation_gear" />
+            <ImageView android:id="@id/theme_mid_gear" android:layout_width="@dimen/theme_animation_gear_mid_size" android:layout_height="@dimen/theme_animation_gear_mid_size" android:layout_marginTop="@dimen/theme_animation_mid_gear_margin_top" android:src="@drawable/theme_animation_gear" />
+            <ImageView android:id="@id/theme_small_gear" android:layout_width="@dimen/theme_animation_gear_small_size" android:layout_height="@dimen/theme_animation_gear_small_size" android:layout_marginLeft="@dimen/theme_animation_small_gear_margin_left" android:layout_marginTop="@dimen/theme_animation_small_gear_margin_top" android:src="@drawable/theme_animation_gear" />
+            <ImageView android:layout_gravity="center" android:id="@id/theme_triangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_animation_triangle" />
+            <ImageView android:layout_gravity="center" android:id="@id/theme_rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_animation_rectangle" />
+            <ImageView android:layout_gravity="center" android:id="@id/theme_star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_animation_star" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/theme_switch_text_size" android:textColor="@color/theme_switch_text_color" android:id="@id/theme_switch_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/theme_switch_text_margin_top" android:text="@string/theme_switching_text" android:layout_below="@id/theme_ring" android:layout_centerHorizontal="true" style="@style/LeTextView" />
+</com.android.launcher3.theme.ThemeCircleLayout>

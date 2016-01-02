@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/setting_account_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_title" />
+        <include android:id="@id/setting_account_set" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_set" />
+        <include android:id="@id/setting_quality_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_title" />
+        <include android:id="@id/setting_online_music_quality" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_auto" />
+        <include android:id="@id/setting_download_music_quality" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_auto" />
+        <include android:id="@id/setting_download_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_title" />
+        <include android:id="@id/setting_listen_and_download" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_open" />
+        <include android:id="@id/setting_collect_and_download" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_open" />
+        <include android:id="@id/setting_net_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_title" />
+        <include android:id="@id/setting_internet_only_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_open" />
+        <include android:id="@id/setting_earphone_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_title" />
+        <include android:id="@id/setting_earphone_stop_music" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_setting_open" />
+    </LinearLayout>
+</ScrollView>

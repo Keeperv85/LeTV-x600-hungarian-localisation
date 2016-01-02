@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.widget.LeBlankPage leui:icon="@drawable/no_events" android:id="@id/le_blankpage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" leui:primaryText="@string/reload" leui:tintColor="@color/actionbar_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" />

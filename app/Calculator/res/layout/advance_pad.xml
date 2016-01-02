@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/simplePad" android:tag="land" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:id="@id/leftParen" android:text="@string/leftParen" android:onClick="onButtonClick" android:contentDescription="@string/leftParenDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/rightParen" android:text="@string/rightParen" android:onClick="onButtonClick" android:contentDescription="@string/rightParenDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/mc" android:text="@string/mc" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/mPlus" android:text="@string/mPlus" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/mMinus" android:text="@string/mMinus" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/mr" android:text="@string/mr" android:onClick="onButtonClick" android:contentDescription="@string/mulDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/blue_divide_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/clear" android:src="@drawable/calculator_clear" android:onClick="onButtonClick" style="@style/button_small_style" />
+        <View android:background="@color/blue_divide_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/del" android:src="@drawable/calculator_del" android:onClick="onButtonClick" style="@style/button_small_style" />
+        <View android:background="@color/blue_divide_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/percent" android:src="@drawable/calculator_percentage" android:onClick="onButtonClick" android:contentDescription="@string/mulDesc" style="@style/button_small_style" />
+        <View android:background="@color/blue_divide_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/positiveNegative" android:src="@drawable/calculator_plus_minus" android:onClick="onButtonClick" style="@style/advanced_button_ground_port_style" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/land_blue_divid_long_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/shift" android:src="@drawable/shift" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/towx" android:src="@drawable/power_x" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/xy" android:src="@drawable/x_power_y" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/power" android:src="@drawable/power" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/e" android:text="@string/e" android:onClick="onButtonClick" android:contentDescription="@string/eDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/ex" android:src="@drawable/e_power_x" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit7" android:text="@string/digit7" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit8" android:text="@string/digit8" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit9" android:text="@string/digit9" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/div" android:src="@drawable/calculator_divide" android:onClick="onButtonClick" android:contentDescription="@string/divDesc" style="@style/advanced_button_ground_port_style" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/land_blue_divid_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:id="@id/reciprocal" android:text="@string/reciprocal" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/factorial" android:text="@string/factorial" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/xSqrtY" android:src="@drawable/x_sqrt_y" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/sqrt" android:src="@drawable/sqrt" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/pi" android:text="@string/const_pi" android:onClick="onButtonClick" android:contentDescription="@string/equalDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/ln" android:text="@string/ln" android:onClick="onButtonClick" android:contentDescription="@string/plusDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit4" android:text="@string/digit4" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit5" android:text="@string/digit5" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit6" android:text="@string/digit6" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/mul" android:src="@drawable/calculator_time" android:onClick="onButtonClick" android:contentDescription="@string/mulDesc" style="@style/advanced_button_ground_port_style" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/land_blue_divid_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:id="@id/rand" android:text="@string/rand" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/tan" android:text="@string/tan" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <ImageButton android:id="@id/arctan" android:visibility="gone" android:src="@drawable/arctan" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/sin" android:text="@string/sin" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <ImageButton android:id="@id/arcsin" android:visibility="gone" android:src="@drawable/arcsin" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/cos" android:text="@string/cos" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <ImageButton android:id="@id/arccos" android:visibility="gone" android:src="@drawable/arccos" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/yx" android:src="@drawable/y_power_x" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/tenx" android:src="@drawable/ten_power_x" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit1" android:text="@string/digit1" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit2" android:text="@string/digit2" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit3" android:text="@string/digit3" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/minus" android:src="@drawable/calculator_minus" android:onClick="onButtonClick" style="@style/advanced_button_ground_port_style" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/land_blue_divid_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textColor="@color/button_ground_port_unclick" android:id="@id/deg" android:text="@string/deg" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/tanh" android:text="@string/tanh" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <ImageButton android:id="@id/arctanh" android:visibility="gone" android:src="@drawable/arctanh" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/sinh" android:text="@string/sinh" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <ImageButton android:id="@id/arcsinh" android:visibility="gone" android:src="@drawable/arcsinh" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/cosh" android:text="@string/cosh" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <ImageButton android:id="@id/arccosh" android:visibility="gone" android:src="@drawable/arccosh" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/logy" android:src="@drawable/log_y" android:onClick="onButtonClick" android:contentDescription="@string/equalDesc" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/log" android:text="@string/lg" android:onClick="onButtonClick" style="@style/button_advanced_small_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/dot" android:text="@string/dot" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:id="@id/digit0" android:text="@string/digit0" android:onClick="onButtonClick" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/equal" android:padding="9.0dip" android:src="@drawable/calculator_equal" android:scaleType="centerInside" android:onClick="onButtonClick" android:contentDescription="@string/equalDesc" style="@style/advanced_button_ground_gray_style" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/plus" android:src="@drawable/calculator_plus" android:onClick="onButtonClick" android:contentDescription="@string/plusDesc" style="@style/advanced_button_ground_port_style" />
+    </LinearLayout>
+</LinearLayout>

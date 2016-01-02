@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollview_login_ppl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/layout_login_ppl_outer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/tv_login_ppl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/title_access_lock" />
+        <ProgressBar android:id="@id/common_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_login_ppl_up" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_login_ppl_title">
+            <EditText android:id="@id/et_login_ppl_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="numberPassword">
+                <requestFocus />
+            </EditText>
+            <CheckBox android:id="@id/cb_login_ppl_show_pw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/checkbox_show_password" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/layout_login_ppl_down" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layout_login_ppl_up" android:layout_alignParentBottom="true">
+            <View android:id="@id/view_split_line" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            <Button android:id="@id/btn_bottom_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_confirm" style="?android:attr/borderlessButtonStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

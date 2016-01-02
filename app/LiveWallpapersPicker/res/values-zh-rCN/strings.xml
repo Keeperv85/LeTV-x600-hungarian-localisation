@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Live Wallpaper Picker</string>
+    <string name="live_wallpaper_picker_title">选择动态壁纸</string>
+    <string name="live_wallpaper_picker_label">动态壁纸</string>
+    <string name="live_wallpaper_preview_title">动态壁纸预览</string>
+    <string name="configure_wallpaper">设为...</string>
+    <string name="wallpaper_instructions">设为壁纸</string>
+    <string name="live_wallpaper_empty">无动态壁纸。</string>
+    <string name="set_live_wallpaper">设为壁纸</string>
+    <string name="wallpaper_title_and_author">%1$s提供者：%2$s</string>
+    <string name="live_wallpaper_loading">正在加载动态壁纸…</string>
+    <string name="wallpaper_cancel">取消</string>
+    <string name="state_setting_as_wallpaper">设为壁纸</string>
+    <string name="failed_loading_wallpaper">加载壁纸失败</string>
+</resources>

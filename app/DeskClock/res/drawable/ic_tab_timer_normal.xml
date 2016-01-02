@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/deskclock_main_tab_normal_color" android:pathData="M48,12c-1.657,0-3,1.343-3,3s1.343,3,3,3c19.299,0,35,15.701,35,35S67.299,88,48,88S13,72.299,13,53   c0-4.665,0.901-9.191,2.679-13.456c0.638-1.529-0.085-3.286-1.615-3.923c-1.531-0.637-3.286,0.085-3.923,1.615   C8.057,42.235,7,47.539,7,53c0,22.607,18.393,41,41,41s41-18.393,41-41S70.607,12,48,12z M48,56.001c1.657,0,3-1.343,3-3V31.625   c0-1.657-1.343-3-3-3s-3,1.343-3,3v21.376C45,54.658,46.343,56.001,48,56.001z M19,32c1.657,0,3-1.343,3-3s-1.343-3-3-3   s-3,1.343-3,3S17.343,32,19,32z" />
+</vector>

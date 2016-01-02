@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ff8b9296" android:gravity="bottom" android:id="@id/cate_name" android:paddingLeft="@dimen/order_square_padding" android:paddingRight="@dimen/order_square_padding" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true" />
+    <View android:background="@color/subscribe_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/edit_event_block_horizontal_padding" android:layout_marginRight="@dimen/edit_event_block_horizontal_padding" android:layout_below="@id/cate_name" />
+</RelativeLayout>

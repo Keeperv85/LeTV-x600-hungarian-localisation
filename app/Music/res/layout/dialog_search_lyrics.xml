@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:id="@id/hint_song_name" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_search_lyrics_song_hint" android:layout_centerVertical="true" />
+        <EditText android:textColor="@android:color/black" android:id="@id/input_song" android:hint="@string/dialog_search_lyrics_song_hint" android:layout_toRightOf="@id/hint_song_name" style="@style/LightEditTextInAlertDialog" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:id="@id/hint_artist_name" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_search_lyrics_artist_hint" android:layout_centerVertical="true" />
+        <EditText android:textColor="@android:color/black" android:id="@id/input_artist" android:hint="@string/dialog_search_lyrics_artist_hint" android:layout_toRightOf="@id/hint_artist_name" style="@style/LightEditTextInAlertDialog" />
+    </RelativeLayout>
+</LinearLayout>

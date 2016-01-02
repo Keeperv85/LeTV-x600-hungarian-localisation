@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@interpolator/l_in_interpolator" android:duration="@integer/fragment_answer_enter_duration" android:propertyName="@string/translation_y"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

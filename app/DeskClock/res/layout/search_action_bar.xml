@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@color/deskclock_theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LcSearchView android:id="@id/world_clock_city_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" leui:lcQueryHint="@string/world_clock_city_search_hint" leui:lcInputMarginLeft="0.0dip" leui:lcCancelTextColor="@color/le_searchview_city_cancel_color" leui:lcAlwaysShowCancel="true" leui:lcCursorColor="@color/le_action_bar_menu_icon_color" leui:lcUnderlineColor="@color/le_action_bar_menu_icon_color" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
+</LinearLayout>

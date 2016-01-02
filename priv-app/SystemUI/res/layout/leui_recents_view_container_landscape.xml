@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.recent.leui.LeuiRecentsViewContainer android:orientation="vertical" android:id="@id/leui_recent_view_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.widget.AutoCenterScrollView android:id="@id/acsv" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:layout_width="fill_parent" android:layout_height="40.0dip" layout="@layout/leui_recent_clear_all_btn_landscape" />
+</com.android.systemui.recent.leui.LeuiRecentsViewContainer>

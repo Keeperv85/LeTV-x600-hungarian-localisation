@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android" xmlns:sliding="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/slide_content_stub" android:layout="@layout/leui_top_slide_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/tab_content" />
+        <ViewStub android:layout_gravity="start" android:id="@id/left_layout_stub" android:layout="@layout/group_sliding_menu" android:layout_width="@dimen/sliding_menu_width" android:layout_height="fill_parent" />
+    </android.support.v4.widget.DrawerLayout>
+</FrameLayout>

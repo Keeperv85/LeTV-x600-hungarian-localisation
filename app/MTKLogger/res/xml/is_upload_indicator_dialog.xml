@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/indicator_compress_label" android:layout_marginLeft="15.0dip" android:text="@string/indicator_label_compress" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/UploadingIndicatorStageLabel" />
+    <ImageView android:id="@id/indicator_compress_icon" android:visibility="gone" android:layout_marginRight="15.0dip" android:src="@android:drawable/star_on" android:layout_alignBottom="@id/indicator_compress_label" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/UploadingIndicatorStatusIcon" />
+    <TextView android:id="@id/indicator_upload_label" android:text="@string/indicator_label_upload" android:layout_below="@id/indicator_compress_label" android:layout_alignLeft="@id/indicator_compress_label" style="@style/UploadingIndicatorStageLabel" />
+    <ImageView android:id="@id/indicator_upload_icon" android:visibility="gone" android:src="@android:drawable/star_on" android:layout_below="@id/indicator_compress_icon" android:layout_alignLeft="@id/indicator_compress_icon" android:layout_alignBottom="@id/indicator_upload_label" style="@style/UploadingIndicatorStatusIcon" />
+    <TextView android:id="@id/indicator_generate_label" android:layout_marginBottom="20.0dip" android:text="@string/indicator_label_generate_cr" android:layout_below="@id/indicator_upload_label" android:layout_alignLeft="@id/indicator_upload_label" style="@style/UploadingIndicatorStageLabel" />
+    <TextView android:id="@id/indicator_cr_id" android:layout_marginLeft="5.0dip" android:text="@string/indicator_label_cr_id" android:layout_toRightOf="@id/indicator_generate_label" android:layout_below="@id/indicator_upload_label" style="@style/UploadingIndicatorStageLabel" />
+    <ImageView android:id="@id/indicator_generate_icon" android:visibility="gone" android:src="@android:drawable/star_on" android:layout_below="@id/indicator_upload_icon" android:layout_alignLeft="@id/indicator_upload_icon" android:layout_alignBottom="@id/indicator_generate_label" style="@style/UploadingIndicatorStatusIcon" />
+</RelativeLayout>

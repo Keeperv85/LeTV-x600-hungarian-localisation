@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="action_to_agenda" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/black" android:pathData="M22,21v6h66v-6H22z M22,54h66v-6H22V54z M22,81h66v-6H22V81z M10,27h7v-6h-7V27z M10,54h7v-6h-7V54z    M10,81h7v-6h-7V81z" />
+</vector>

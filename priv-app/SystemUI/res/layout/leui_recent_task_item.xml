@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/leui_recent_task_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.recent.leui.LeuiRecentTaskImageView android:id="@id/leui_recent_thumbnail" android:background="@drawable/status_bar_recents_app_thumbnail_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerHorizontal="true"
+      xmlns:LeuiRecentTaskImageView="http://schemas.android.com/apk/res/com.android.systemui" />
+    <com.android.systemui.recents.views.FixedSizeImageView android:id="@id/leui_recent_icon" android:layout_width="@dimen/leui_recents_icon_size" android:layout_height="@dimen/leui_recents_icon_size" android:scaleType="centerInside" android:layout_below="@id/leui_recent_thumbnail" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/leui_recent_lock_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/leui_recents_lock_neghalf_icon_size" android:src="@drawable/leui_recents_task_unlock" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.ShortcutWidgetLayoutExtend android:gravity="center" android:id="@id/shortcut_widget_layout_extend" android:background="@android:color/transparent" android:clickable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.phone.LeSlideView android:id="@id/le_shortcut_slide_view" android:layout_width="fill_parent" android:layout_height="fill_parent" systemui:LeSlideFrontContentOffset="@dimen/leslideview_front_content_offset" systemui:LeSlideFrontContentView="@id/front_content" systemui:LeSlideFrontView="@id/front" systemui:LeSlideBackView="@id/back" systemui:LeSlideMode="bottom"
+      xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+        <com.android.systemui.statusbar.phone.widget.LeSlideBackLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" systemui:LeSlideFrontView="@id/front" systemui:LeSlideBackViewClip="true" systemui:LeSlideMode="bottom">
+            <ImageView android:id="@id/back_more" android:background="@color/back_handle_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_cb_widget_more" android:scaleType="fitXY" />
+        </com.android.systemui.statusbar.phone.widget.LeSlideBackLayout>
+        <com.android.systemui.statusbar.phone.widget.LeSlideFrontLayout android:id="@id/front" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:LeSlideBackView="@id/back">
+            <com.android.systemui.statusbar.phone.widget.LeLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/front_content" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="5.0dip" android:paddingBottom="0.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" />
+        </com.android.systemui.statusbar.phone.widget.LeSlideFrontLayout>
+    </com.android.systemui.statusbar.phone.LeSlideView>
+</com.android.systemui.statusbar.phone.ShortcutWidgetLayoutExtend>

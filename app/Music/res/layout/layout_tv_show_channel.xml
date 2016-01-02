@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/channel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.android.music.widget.BorderedRoundedCornersSquareImageView android:id="@id/channel_logo" android:background="@drawable/shape_1px_1dp_bound" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" leui:corner_radius="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff38545c" android:ellipsize="end" android:id="@id/channel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:layout_below="@id/channel_logo" android:layout_centerHorizontal="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" />
+</RelativeLayout>

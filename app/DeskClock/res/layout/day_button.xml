@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:background="@drawable/item_background" android:padding="0.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:textColor="@color/clock_gray" android:layout_gravity="center" android:background="@drawable/toggle_underline" android:padding="0.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:singleLine="true" style="@style/body" />
+</FrameLayout>

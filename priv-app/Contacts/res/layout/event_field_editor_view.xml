@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.EventFieldEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/editor_container_min_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:id="@id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button" />
+        <Spinner android:textColor="@color/spinner_textcolor" android:layout_gravity="center|left" android:id="@id/spinner" android:background="@drawable/le_spinner_bg" android:paddingLeft="@dimen/spinner_padding_left" android:visibility="gone" android:layout_width="@dimen/spinner_width" android:layout_height="wrap_content" />
+        <include android:id="@id/date_view" layout="@layout/edit_date_picker" />
+    </LinearLayout>
+    <View android:id="@id/devider" android:background="@color/anchor_view_background" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/divider_marginLeft" />
+</com.android.contacts.editor.EventFieldEditorView>

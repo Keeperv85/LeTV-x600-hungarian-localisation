@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>影視作品</item>
+        <item>娛樂報導</item>
+        <item>桌布推薦</item>
+        <item>熱門單曲</item>
+        <item>音樂專輯</item>
+        <item>相關藝人</item>
+        <item>相關微博</item>
+        <item>相關網站</item>
+    </string-array>
+    <string-array name="player">
+        <item>影視作品</item>
+        <item>體育報導</item>
+        <item>桌布推薦</item>
+        <item>None</item>
+        <item>音樂專輯</item>
+        <item>None</item>
+        <item>相關微博</item>
+        <item>相關網站</item>
+    </string-array>
+    <string-array name="movie">
+        <item>影视作品</item>
+        <item>娛樂報導</item>
+        <item>桌布推薦</item>
+        <item>原創音樂</item>
+        <item>None</item>
+        <item>相關藝人</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="team">
+        <item>影视作品</item>
+        <item>相關報導</item>
+        <item>桌布推薦</item>
+        <item>相關音樂</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="brand">
+        <item>None</item>
+        <item>品牌資訊</item>
+        <item>桌布推薦</item>
+        <item>品牌音樂</item>
+        <item>None</item>
+        <item>None</item>
+        <item>相關微博</item>
+        <item>相關網站</item>
+    </string-array>
+    <string-array name="region">
+        <item>None</item>
+        <item>相關視頻</item>
+        <item>桌布推薦</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>相關微博</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="cities_names">
+        <item>阿比讓</item>
+        <item>阿克拉</item>
+        <item>阿的斯阿貝巴</item>
+        <item>阿爾及爾</item>
+        <item>布藍泰爾</item>
+        <item>布拉薩維爾</item>
+        <item>開羅</item>
+        <item>卡薩布蘭加</item>
+        <item>科納克里</item>
+        <item>達卡</item>
+        <item>達累斯薩拉姆</item>
+        <item>吉布提</item>
+        <item>弗里敦</item>
+        <item>嘉柏隆里</item>
+        <item>哈拉雷</item>
+        <item>約翰內斯堡</item>
+        <item>坎帕拉</item>
+        <item>喀土穆</item>
+        <item>基加利</item>
+        <item>金沙薩</item>
+        <item>拉各斯</item>
+        <item>馬塞魯</item>
+        <item>摩加迪沙</item>
+        <item>奈羅比</item>
+        <item>聖多美</item>
+        <item>廷巴克圖</item>
+        <item>的黎波里</item>
+        <item>突尼斯</item>
+        <item>安克雷奇</item>
+        <item>門多薩</item>
+        <item>阿魯巴</item>
+        <item>亞松森</item>
+        <item>巴巴多斯</item>
+        <item>伯利茲</item>
+        <item>波哥大</item>
+        <item>布宜諾斯艾利斯</item>
+        <item>坎昆</item>
+        <item>卡拉卡斯</item>
+        <item>開曼</item>
+        <item>芝加哥</item>
+        <item>哥斯達黎加</item>
+        <item>庫拉索</item>
+        <item>道森溪</item>
+        <item>丹佛</item>
+        <item>底特律</item>
+        <item>多明尼加</item>
+        <item>埃德蒙頓</item>
+        <item>薩爾瓦多</item>
+        <item>福塔萊薩</item>
+        <item>大特克</item>
+        <item>格瑞納達</item>
+        <item>危地馬拉</item>
+        <item>圭亞那</item>
+        <item>哈利法克斯</item>
+        <item>哈瓦那</item>
+        <item>印第安納波利</item>
+        <item>諾克斯</item>
+        <item>馬倫哥</item>
+        <item>聖彼得堡</item>
+        <item>泰爾市</item>
+        <item>斐威</item>
+        <item>萬塞訥</item>
+        <item>威納馬克</item>
+        <item>京士敦</item>
+        <item>拉巴斯</item>
+        <item>利瑪</item>
+        <item>洛杉磯</item>
+        <item>路易斯維爾</item>
+        <item>馬那瓜</item>
+        <item>馬提尼克</item>
+        <item>門多薩</item>
+        <item>梅特拉卡特拉</item>
+        <item>墨西哥市</item>
+        <item>蒙特雷</item>
+        <item>蒙特維多</item>
+        <item>蒙特利爾</item>
+        <item>納索</item>
+        <item>紐約</item>
+        <item>比尤萊</item>
+        <item>中心</item>
+        <item>新塞勒姆</item>
+        <item>巴拿馬</item>
+        <item>鳳凰城</item>
+        <item>西班牙港</item>
+        <item>太子港</item>
+        <item>波多黎各</item>
+        <item>聖多明各</item>
+        <item>聖保羅</item>
+        <item>聖約翰</item>
+        <item>聖基茨</item>
+        <item>聖露西亞</item>
+        <item>聖托馬斯</item>
+        <item>蒂華納</item>
+        <item>多倫多</item>
+        <item>溫哥華</item>
+        <item>溫尼伯</item>
+        <item>南極</item>
+        <item>朗伊爾城</item>
+        <item>阿拉木圖</item>
+        <item>安曼</item>
+        <item>阿納德爾</item>
+        <item>阿克套</item>
+        <item>巴格達</item>
+        <item>巴林</item>
+        <item>巴庫</item>
+        <item>曼谷</item>
+        <item>貝魯特</item>
+        <item>加爾各答</item>
+        <item>大馬士革</item>
+        <item>達卡</item>
+        <item>杜拜</item>
+        <item>加沙</item>
+        <item>希伯崙</item>
+        <item>胡志明市</item>
+        <item>香港</item>
+        <item>伊斯坦布爾</item>
+        <item>雅加達</item>
+        <item>耶路撒冷</item>
+        <item>喀布爾</item>
+        <item>卡拉奇</item>
+        <item>加德滿都</item>
+        <item>吉隆坡</item>
+        <item>科威特</item>
+        <item>澳門</item>
+        <item>馬尼拉</item>
+        <item>馬斯喀特</item>
+        <item>金邊</item>
+        <item>平壤</item>
+        <item>卡塔爾</item>
+        <item>仰光</item>
+        <item>利雅得</item>
+        <item>西貢</item>
+        <item>首爾</item>
+        <item>上海</item>
+        <item>新加坡</item>
+        <item>台北</item>
+        <item>德黑蘭</item>
+        <item>特拉維夫</item>
+        <item>東京</item>
+        <item>烏蘭巴托</item>
+        <item>百慕達</item>
+        <item>加納利</item>
+        <item>佛得角</item>
+        <item>雷克雅未克</item>
+        <item>斯坦利</item>
+        <item>阿德萊德</item>
+        <item>布里斯本</item>
+        <item>坎培拉</item>
+        <item>達爾文</item>
+        <item>墨爾本</item>
+        <item>新南威爾士</item>
+        <item>珀斯</item>
+        <item>昆士蘭</item>
+        <item>悉尼</item>
+        <item>維多利亞</item>
+        <item>紐芬蘭</item>
+        <item>薩斯喀徹溫</item>
+        <item>復活島</item>
+        <item>阿姆斯特丹</item>
+        <item>安道爾</item>
+        <item>雅典</item>
+        <item>貝爾法斯特</item>
+        <item>貝爾格萊德</item>
+        <item>柏林</item>
+        <item>布拉迪斯拉法</item>
+        <item>布魯塞爾</item>
+        <item>布加勒斯特</item>
+        <item>布達佩斯</item>
+        <item>基希那烏</item>
+        <item>哥本哈根</item>
+        <item>都柏林</item>
+        <item>直布羅陀</item>
+        <item>赫爾辛基</item>
+        <item>馬恩島</item>
+        <item>伊斯坦布爾</item>
+        <item>基輔</item>
+        <item>里斯本</item>
+        <item>倫敦</item>
+        <item>盧森堡</item>
+        <item>馬德里</item>
+        <item>馬耳他</item>
+        <item>明斯克</item>
+        <item>摩納哥</item>
+        <item>莫斯科</item>
+        <item>奧斯陸</item>
+        <item>巴黎</item>
+        <item>布拉格</item>
+        <item>里加</item>
+        <item>羅馬</item>
+        <item>聖馬力諾</item>
+        <item>薩拉熱窩</item>
+        <item>辛菲羅波爾</item>
+        <item>斯科普里</item>
+        <item>索非亞</item>
+        <item>斯德哥爾摩</item>
+        <item>塔林</item>
+        <item>梵蒂岡</item>
+        <item>維也納</item>
+        <item>維爾紐斯</item>
+        <item>華沙</item>
+        <item>薩格勒布</item>
+        <item>蘇黎世</item>
+        <item>塔那那利佛</item>
+        <item>馬爾代夫</item>
+        <item>毛里裘斯</item>
+        <item>奧克蘭</item>
+        <item>斐濟</item>
+        <item>關島</item>
+        <item>檀香山</item>
+        <item>基里地馬地</item>
+        <item>努美阿</item>
+        <item>薩摩亞</item>
+        <item>大溪地</item>
+        <item>安提瓜</item>
+        <item>奧斯汀</item>
+        <item>波士頓</item>
+        <item>卡爾加里</item>
+        <item>哥倫布</item>
+        <item>達拉斯</item>
+        <item>諾克斯維爾</item>
+        <item>孟菲斯</item>
+        <item>邁阿密</item>
+        <item>明尼阿波利斯</item>
+        <item>渥太華</item>
+        <item>費城</item>
+        <item>波特蘭</item>
+        <item>聖地牙哥</item>
+        <item>三藩市</item>
+        <item>鹽湖城</item>
+        <item>聖荷西</item>
+        <item>聖薩爾瓦多</item>
+        <item>西雅圖</item>
+        <item>聖路易斯</item>
+        <item>華盛頓特區</item>
+        <item>休斯頓</item>
+        <item>聖安東尼奧</item>
+        <item>傑克遜維爾</item>
+        <item>巴爾的摩</item>
+        <item>納什維爾</item>
+        <item>密爾沃基</item>
+        <item>奥克拉荷馬城</item>
+        <item>拉斯維加斯</item>
+        <item>阿爾伯克基</item>
+        <item>圖森</item>
+        <item>薩克拉門托</item>
+        <item>阿特蘭大</item>
+        <item>克利夫蘭</item>
+        <item>新奧爾良</item>
+        <item>坦帕</item>
+        <item>匹茲堡</item>
+        <item>辛辛那提</item>
+        <item>山景城</item>
+        <item>雷諾</item>
+        <item>黑岩城</item>
+        <item>多哈</item>
+        <item>北京</item>
+        <item>孟買</item>
+        <item>德里</item>
+        <item>大阪</item>
+        <item>拉合爾</item>
+        <item>沙那</item>
+        <item>巴塞隆拿</item>
+        <item>慕尼黑</item>
+        <item>米蘭</item>
+        <item>法蘭克福</item>
+        <item>河內</item>
+        <item>安卡拉</item>
+        <item>班加羅爾</item>
+        <item>巴西利亞</item>
+        <item>開普敦</item>
+        <item>伊斯蘭堡</item>
+        <item>里約熱內盧</item>
+        <item>安阿伯</item>
+        <item>博爾德</item>
+        <item>劍橋</item>
+        <item>科克蘭</item>
+        <item>麥迪遜</item>
+        <item>廣州</item>
+        <item>海得拉巴</item>
+        <item>雷斯頓</item>
+        <item>美景市</item>
+        <item>聖地牙哥</item>
+        <item>蒙羅維亞</item>
+        <item>可倫坡</item>
+        <item>奇瓦瓦</item>
+        <item>薩爾瓦多</item>
+        <item>古爾岡</item>
+        <item>曼徹斯特</item>
+        <item>基輔</item>
+        <item>聖彼得堡</item>
+        <item>克拉科夫</item>
+        <item>樂斯拉夫</item>
+        <item>漢堡</item>
+        <item>奧盧</item>
+        <item>海法</item>
+        <item>聖胡安</item>
+        <item>德古斯加巴</item>
+        <item>巴拉馬利波</item>
+        <item>基多</item>
+    </string-array>
+    <string-array name="alarm_snooze_entries">
+        <item>延遲3分鐘</item>
+        <item>延遲5分鐘</item>
+        <item>延遲8分鐘</item>
+        <item>延遲10分鐘</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>剩下不到一分鐘</item>
+        <item>剩下 %1$s</item>
+        <item>剩下 %2$s</item>
+        <item>剩下 %1$s %2$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>已將鬧鐘設定在不到 1 分鐘後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s後啟動。</item>
+        <item>已將鬧鐘設定在 %2$s後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s %2$s後啟動。</item>
+        <item>已將鬧鐘設定在 %3$s後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s %3$s後啟動。</item>
+        <item>已將鬧鐘設定在 %2$s %3$s後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s %2$s %3$s後啟動。</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>重響</item>
+        <item>關閉</item>
+        <item>不執行任何操作</item>
+    </string-array>
+    <string-array name="sw_share_strings">
+        <item>您就像閃電俠。</item>
+        <item>享受辛勞的成果。</item>
+        <item>Android 以快速見稱，但還跟不上您！</item>
+        <item>差點趕不及。</item>
+        <item>果然是高手。</item>
+        <item>迅雷不及掩耳。</item>
+        <item>再次超越時空。</item>
+        <item>往左邊跳。</item>
+        <item>您真身手敏捷。</item>
+        <item>電光飆速。</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>類比</item>
+        <item>數碼</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>馬紹爾群島</item>
+        <item>中途島</item>
+        <item>夏威夷</item>
+        <item>阿拉斯加</item>
+        <item>太平洋時間</item>
+        <item>蒂華納</item>
+        <item>亞利桑那</item>
+        <item>奇瓦瓦</item>
+        <item>山區時間</item>
+        <item>中美洲</item>
+        <item>中部時間</item>
+        <item>墨西哥城</item>
+        <item>薩斯喀徹溫</item>
+        <item>波哥大</item>
+        <item>東部時間</item>
+        <item>委內瑞拉</item>
+        <item>大西洋時間 (巴巴多斯)</item>
+        <item>大西洋時間 (加拿大)</item>
+        <item>馬瑙斯</item>
+        <item>聖地牙哥</item>
+        <item>紐芬蘭</item>
+        <item>巴西利亞</item>
+        <item>布宜諾斯艾利斯</item>
+        <item>格陵蘭</item>
+        <item>蒙得維的亞</item>
+        <item>大西洋中部</item>
+        <item>亞速爾</item>
+        <item>佛得角群島</item>
+        <item>卡薩布蘭卡</item>
+        <item>倫敦、都柏林</item>
+        <item>阿姆斯特丹、柏林</item>
+        <item>貝爾格萊德</item>
+        <item>布魯塞爾</item>
+        <item>薩拉熱窩</item>
+        <item>溫得和克</item>
+        <item>非洲西部時間</item>
+        <item>約旦安曼</item>
+        <item>雅典、伊斯坦布爾</item>
+        <item>黎巴嫩貝魯特</item>
+        <item>開羅</item>
+        <item>赫爾辛基</item>
+        <item>耶路撒冷</item>
+        <item>明斯克</item>
+        <item>哈拉雷</item>
+        <item>巴格達</item>
+        <item>莫斯科</item>
+        <item>科威特</item>
+        <item>奈羅比</item>
+        <item>德黑蘭</item>
+        <item>巴庫</item>
+        <item>第比利斯</item>
+        <item>埃里溫</item>
+        <item>杜拜</item>
+        <item>喀布爾</item>
+        <item>伊斯蘭堡、卡拉奇</item>
+        <item>烏拉爾</item>
+        <item>葉卡特琳堡</item>
+        <item>加爾各答</item>
+        <item>斯里蘭卡</item>
+        <item>加德滿都</item>
+        <item>阿斯塔納</item>
+        <item>仰光</item>
+        <item>克拉斯諾亞爾斯克</item>
+        <item>曼谷</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>伊爾庫茨克</item>
+        <item>吉隆坡</item>
+        <item>珀斯</item>
+        <item>台北</item>
+        <item>首爾</item>
+        <item>東京、大阪</item>
+        <item>雅庫茨克</item>
+        <item>阿德萊德</item>
+        <item>達爾文</item>
+        <item>布里斯本</item>
+        <item>霍巴特</item>
+        <item>悉尼、坎培拉</item>
+        <item>海參崴</item>
+        <item>關島</item>
+        <item>馬加丹</item>
+        <item>奧克蘭</item>
+        <item>斐濟</item>
+        <item>湯加</item>
+        <item>雅加達</item>
+    </string-array>
+    <string-array name="timer_reminders">
+        <item>振動</item>
+        <item>響鈴</item>
+        <item>無提醒</item>
+    </string-array>
+    <string-array name="day_compare">
+        <item>昨日</item>
+        <item>今日</item>
+        <item>明日</item>
+    </string-array>
+    <string-array name="time_compare" formatted="false">
+        <item>%s</item>
+        <item>%s 早%d分鍾</item>
+        <item>%s 早%d分鍾</item>
+        <item>%s 早%d小時</item>
+        <item>%s 早%d小時</item>
+        <item>%s 早%d小時%d分鍾</item>
+        <item>%s 早%d小時%d分鍾</item>
+        <item>%s 早%d小時%d分鍾</item>
+        <item>%s 早%d小時%d分鍾</item>
+        <item>%s 慢%d分鍾</item>
+        <item>%s 慢%d分鍾</item>
+        <item>%s 慢%d小時</item>
+        <item>%s 慢%d小時</item>
+        <item>%s 慢%d小時%d分鍾</item>
+        <item>%s 慢%d小時%d分鍾</item>
+        <item>%s 慢%d小時%d分鍾</item>
+        <item>%s 慢%d小時%d分鍾</item>
+    </string-array>
+    <string-array name="timer_alert_text">
+        <item>計時已結束</item>
+        <item>“%s”計時已結束</item>
+    </string-array>
+    <string-array name="notification_timer_title">
+        <item>倒數計時</item>
+        <item>“%s”倒數計時</item>
+    </string-array>
+</resources>

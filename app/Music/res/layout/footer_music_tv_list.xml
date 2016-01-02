@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_color_grey2" android:gravity="center_vertical" android:id="@id/title_channel" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/watch_music_tv_channels" android:drawableLeft="@drawable/musicsearch_icon_1" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="12.0sp" />
+    <ImageView android:layout_marginTop="10.0dip" style="@style/CommonBothMargin20dpDivider" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.music.widget.EquallyGridLayout android:id="@id/channel_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

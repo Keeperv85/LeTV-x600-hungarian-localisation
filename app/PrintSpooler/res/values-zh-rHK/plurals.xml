@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="other">找到 %1$s 部打印機</item>
+        <item quantity="one">找到 %1$s 部打印機</item>
+    </plurals>
+    <plurals name="composite_notification_title_template">
+        <item quantity="other">多項 %1$d 列印工作</item>
+        <item quantity="one">一項 %1$d 列印工作</item>
+    </plurals>
+</resources>

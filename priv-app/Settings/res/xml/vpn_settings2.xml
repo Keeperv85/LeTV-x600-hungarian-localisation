@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vpn_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/vpn_settings_title" android:key="vpn_switch" android:order="0" />
+    <PreferenceCategory android:persistent="false" android:title="@string/leui_vpn_list" android:key="preferences_list" android:order="1" />
+    <Preference android:persistent="false" android:title="@string/vpn_create" android:key="vpn_add_button" android:order="2" />
+</PreferenceScreen>

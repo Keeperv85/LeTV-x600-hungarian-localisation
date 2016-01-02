@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/headsup_notification_custom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/singleAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/singleAction" android:layout_toRightOf="@id/icon" />
+    <FrameLayout android:id="@id/actions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/singleAction" android:layout_toRightOf="@id/icon" android:layout_below="@id/content" />
+</RelativeLayout>

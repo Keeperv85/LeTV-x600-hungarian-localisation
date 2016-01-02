@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.mediatek.connectivity" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_NETWORK_POLICY"/>
+    <uses-permission android:name="android.permission.NET_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name="com.mediatek.connectivity.CdsInfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_common_info" android:name="com.mediatek.connectivity.CdsCommonInfoTabActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_common_tab_framework" android:name="com.mediatek.connectivity.CdsFrameworkSrvActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_common_tab_native" android:name="com.mediatek.connectivity.CdsNatvieNetworkSrvActivity" android:screenOrientation="landscape"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_tether_info" android:name="com.mediatek.connectivity.CdsTetherSrvActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_traffic_info" android:name="com.mediatek.connectivity.CdsTrafficStatActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_wifi_info" android:name="com.mediatek.connectivity.CdsWifiInfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_radio_menu_info" android:name="com.mediatek.connectivity.CdsRadioMenuActivity" android:process="com.android.phone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/cds_radio_info" android:name="com.mediatek.connectivity.CdsRadioInfoActivity" android:process="com.android.phone"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_utility_info" android:name="com.mediatek.connectivity.CdsUtilityActivity"/>
+        <activity android:label="@string/cds_ds_info" android:name="com.mediatek.connectivity.CdsDuHelperActivity"/>
+        <activity android:label="@string/cds_pdp_info" android:name="com.mediatek.connectivity.CdsPdpActivity"/>
+        <activity android:label="@string/cds_connectivity_info" android:name="com.mediatek.connectivity.CdsConnectivityActivity"/>
+        <activity android:label="@string/cds_connectivity_mtu" android:name="com.mediatek.connectivity.CdsMtuSettingActivity"/>
+        <activity android:label="@string/cds_socket_info" android:name="com.mediatek.connectivity.CdsSocketActivity"/>
+        <activity android:label="@string/ps_data_flow" android:name="com.mediatek.connectivity.CdsPsControlActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/cds_wifi_p2p_info" android:name="com.mediatek.connectivity.CdsWifiP2pInfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/ims_mo_list" android:name="com.mediatek.connectivity.CdsImsMoActivity"/>
+        <activity android:label="@string/epdg_functions" android:name="com.mediatek.connectivity.CdsEpdgTabActivity"/>
+        <receiver android:name="CdsInfoReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BOOT_IPO"/>
+            </intent-filter>
+        </receiver>
+        <service android:icon="@drawable/ic_launcher" android:label="@string/service_name" android:name="com.mediatek.connectivity.CdsInfoService"/>
+    </application>
+</manifest>

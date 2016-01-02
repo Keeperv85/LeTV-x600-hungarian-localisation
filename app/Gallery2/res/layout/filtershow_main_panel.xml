@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_main_toolbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="top" android:id="@id/state_panel_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/category_panel_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="@color/toolbar_separation_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.android.gallery3d.filtershow.CenteredLinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="60.0dip" custom:max_width="400.0dip"
+      xmlns:custom="http://schemas.android.com/apk/res/com.android.gallery3d">
+        <LinearLayout android:background="@color/background_main_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effectsLayout" android:background="@drawable/filtershow_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/effectsButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photoeditor_effects" android:scaleType="centerInside" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/filtershow_footer_text_size" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filtershow_effect" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/geometryLayout" android:background="@drawable/filtershow_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/geometryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photoeditor_fix" android:scaleType="centerInside" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/filtershow_footer_text_size" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filtershow_crop" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/filtersLayout" android:background="@drawable/filtershow_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/filtersButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photoeditor_color" android:scaleType="centerInside" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/filtershow_footer_text_size" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filtershow_filter" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.android.gallery3d.filtershow.CenteredLinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/call_account_label_size" android:width="@dimen/call_account_label_size" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#80ffffff" android:pathData="M78.292,7.016L33.125,7L12.667,27.29v56.989c0,2.416,1.934,4.388,4.35,4.388h61.25c2.418,0,4.4-1.925,4.4-4.34V11.299   C82.667,8.883,81.209,7.019,78.292,7.016z M54.959,69.708h-7.292V39.083H37.458v-4.719c4.375-0.387,7.087-1.038,8.662-1.948   c1.578-0.91,3.071-3.062,3.849-6.457h4.99V69.708z" />
+</vector>

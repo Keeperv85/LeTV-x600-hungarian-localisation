@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/epdg_profile_setting" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_profile" />
+            <Spinner android:id="@id/epdgProfile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_wfc_setting" />
+            <Spinner android:id="@id/epdgWfcSetting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:id="@id/SetProfile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sys_set_button" android:inputType="textNoSuggestions" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/epdg_handoff" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_rove_in" />
+            <EditText android:id="@id/WifiRoveIn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" android:inputType="numberSigned" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/info_layout">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epdg_rove_out" />
+            <EditText android:id="@id/WifiRoveOut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="4" android:inputType="numberSigned" />
+        </LinearLayout>
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:id="@id/SetRove" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sys_set_button" android:inputType="textNoSuggestions" />
+        <View android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:id="@id/pdn_path" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/pdn_retry_choose" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/wifi_rssi" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

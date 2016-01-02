@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/strLockNameNetwork" android:key="nplock" />
+    <Preference android:title="@string/strLockNameNetworkSub" android:key="nsplock" />
+    <Preference android:title="@string/strLockNameService" android:key="splock" />
+    <Preference android:title="@string/strLockNameCorporate" android:key="cplock" />
+    <Preference android:title="@string/strLockNameSIM" android:key="simplock" />
+</PreferenceScreen>

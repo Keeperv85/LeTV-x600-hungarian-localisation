@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/leui_sms_listview_textsize" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/leui_call_button_text_width" android:maxLines="1" android:paddingStart="@dimen/call_button_margin_left" android:paddingEnd="@dimen/call_button_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

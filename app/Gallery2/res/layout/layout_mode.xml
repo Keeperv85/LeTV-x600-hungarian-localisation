@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#fff1f1f1" android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mode_time_flow" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/le_selector_mode_time_flow" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/le_selector_mode_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/le_mode_time_flow" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include layout="@layout/vertical_line" />
+    <RelativeLayout android:id="@id/mode_map" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/le_selector_mode_map" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/le_selector_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/le_mode_map" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include layout="@layout/vertical_line" />
+    <RelativeLayout android:id="@id/mode_people" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/le_selector_mode_people" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/le_selector_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/le_mode_people" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include layout="@layout/vertical_line" />
+    <RelativeLayout android:id="@id/mode_calendar" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/le_selector_mode_calendar" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/le_selector_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/le_mode_calendar" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

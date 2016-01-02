@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/LinearLayout_Debug" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="15.0sp" android:id="@id/Button_TriggerTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trigger_test" />
+            <Button android:textSize="15.0sp" android:id="@id/Button_TestButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_button" />
+            <Button android:textSize="15.0sp" android:id="@id/Button_ResetAgpsd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_agpsd" />
+            <TextView android:id="@id/TextView_Property" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:id="@id/TextView_EmulatorMode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agps_profiling_info" />
+        <TextView android:textSize="12.0dip" android:id="@id/TextView_ProfilingInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agps_onoff" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_EnableAgps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_agps" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cp_up_switch" />
+        <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_plane" />
+            <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Cp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/control_plane" />
+        </RadioGroup>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/LinearLayout_UpSettings" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/LinearLayout_CdmaSetting" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cdma_settings" />
+                <RadioGroup android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_WCDMAPrefer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wcdma_prefer" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_CDMAForce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cdma_force" />
+                </RadioGroup>
+            </LinearLayout>
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/supl_settings" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/up_prefmethod" android:width="200.0dip" />
+            <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_MSA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msa" />
+                <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_MSB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msb" />
+                <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_NoPref" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_prefer" />
+            </RadioGroup>
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/up_pos_technology" android:width="200.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_MSA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msa" />
+                <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_MSB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msb" />
+                <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_ECID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ecid" />
+                <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_OTDOA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/otdoa" />
+            </LinearLayout>
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/up_pos_protocol" android:width="200.0dip" />
+            <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_LPP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lpp" />
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/supl_version" android:height="40.0dip" android:width="100.0dip" />
+                <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_supl1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/supl_1" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_supl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/supl_2" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tls_version" android:height="40.0dip" android:width="100.0dip" />
+                <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_tls1_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tls1_0" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_tls1_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tls1_1" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_tls1_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tls1_2" />
+                </RadioGroup>
+            </LinearLayout>
+            <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_certVerfiy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ca_enable" />
+            <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_UdpEnable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/udp_enable" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="15.0sp" android:id="@id/Button_SuplUt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_supl_ut2" />
+                <TextView android:textSize="15.0sp" android:id="@id/TextView_suplUt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slp_addr" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="15.0sp" android:id="@id/Button_SuplUt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_supl_ut3" />
+                <TextView android:textSize="15.0sp" android:id="@id/TextView_suplUt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slp_addr" />
+            </LinearLayout>
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="15.0sp" android:layout_gravity="center" android:id="@id/Button_SlpTemplate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slp_template" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slp_addr" android:width="100.0dip" android:singleLine="true" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ffff" android:ellipsize="end" android:id="@id/TextView_SlpAddr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="150.0dip" android:singleLine="true" />
+                <Button android:textSize="15.0sp" android:id="@id/Button_SlpAddr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:width="70.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slp_port" android:width="100.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ffff" android:id="@id/TextView_SlpPort" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="150.0dip" android:maxLength="5" />
+                <Button android:textSize="15.0sp" android:id="@id/Button_SlpPort" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:width="70.0dip" />
+            </LinearLayout>
+            <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_Tls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tls_enable" />
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/LinearLayout_SUPL2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/periodic_settings" android:width="150.0dip" />
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <Button android:textSize="15.0sp" android:id="@id/Button_PeriodicStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/periodic_start" />
+                    <Button android:textSize="15.0sp" android:id="@id/Button_PeriodicAbort" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abort" />
+                </LinearLayout>
+                <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/area_settings" android:width="150.0dip" />
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <Button android:textSize="15.0sp" android:id="@id/Button_AreaStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/area_start" />
+                    <Button android:textSize="15.0sp" android:id="@id/Button_AreaAbort" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abort" />
+                </LinearLayout>
+                <RadioGroup android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Enter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/enter" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Inside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inside" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Outside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/outside" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Leave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/leave" />
+                </RadioGroup>
+            </LinearLayout>
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ToggleButton android:textSize="15.0sp" android:id="@id/Button_ShowQoP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/show_si_qop_editor" android:textOff="@string/show_si_qop_editor" />
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/LinearLayout_QoP" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accuracy_unit" android:width="80.0dip" />
+                    <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_KValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/k_value" />
+                        <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_Meter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meter" />
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/horizontal_accuracy" android:width="150.0dip" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ffff" android:id="@id/TextView_HAcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_10" android:width="50.0dip" android:maxLength="9" />
+                    <Button android:textSize="15.0sp" android:id="@id/Button_HAcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:width="100.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vertical_accuracy" android:width="150.0dip" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ffff" android:id="@id/TextView_VAcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_16" android:width="50.0dip" android:maxLength="9" />
+                    <Button android:textSize="15.0sp" android:id="@id/Button_VAcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:width="100.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_age" android:width="150.0dip" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ffff" android:id="@id/TextView_LocationAge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_0" android:width="50.0dip" android:maxLength="9" />
+                    <Button android:textSize="15.0sp" android:id="@id/Button_LocationAge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:width="100.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delay" android:width="150.0dip" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff00ffff" android:id="@id/TextView_Delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_0" android:width="50.0dip" android:maxLength="9" />
+                    <Button android:textSize="15.0sp" android:id="@id/Button_Delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:width="100.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/LinearLayout_CpSettings" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cp_settings" />
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textColor="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/molr_position_method" android:width="80.0dip" />
+                <RadioGroup android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_LocationEstimate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/location_estimate" />
+                    <RadioButton android:textSize="15.0sp" android:id="@id/RadioButton_AssistanceData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assistance_data" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_ExternalAddr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/external_addr" android:width="150.0dip" />
+                <TextView android:textSize="15.0sp" android:id="@id/TextView_ExternalAddr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_MlcNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mlc_number" android:width="150.0dip" />
+                <TextView android:textSize="15.0sp" android:id="@id/TextView_MlcNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_CPAutoReset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cp_auto_reset" />
+            <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_EpcMolrPduEnable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epc_molr_pdu_enable" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feature_enabler" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_NiAllow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allow_ni" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_RoamingAllow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allow_roaming" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_Supl2File" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_supl_to_file" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_CertFromSdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cert_from_sdcard" android:filterTouchesWhenObscured="true" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_AutoProfileEnable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_profile_enable" android:filterTouchesWhenObscured="true" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_NlpService" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nlp_service" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_SuplApnEnable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/supl_apn_enable" />
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_SyncToSlp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_to_slp" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_to_default" />
+        <Button android:textSize="15.0sp" android:id="@id/Button_Reset2Default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_to_default" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</ScrollView>

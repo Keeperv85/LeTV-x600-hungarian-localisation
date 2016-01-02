@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="drag_event_parity" />
+    <item type="id" name="action_remove" />
+    <item type="id" name="action_uninstall" />
+    <item type="id" name="action_info" />
+    <item type="id" name="action_add_to_workspace" />
+    <item type="id" name="action_move" />
+    <item type="id" name="action_move_to_workspace" />
+    <item type="id" name="action_move_screen_backwards" />
+    <item type="id" name="action_move_screen_forwards" />
+    <item type="id" name="action_resize" />
+    <item type="id" name="tag_view_holder" />
+    <item type="id" name="tag_position" />
+    <item type="id" name="apps_view">false</item>
+    <item type="id" name="search_box_container">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="all_apps_reveal">false</item>
+    <item type="id" name="all_apps_container">false</item>
+    <item type="id" name="apps_list_view">false</item>
+    <item type="id" name="empty_text">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="search_container">false</item>
+    <item type="id" name="dismiss_search_button">false</item>
+    <item type="id" name="search_box_input">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="mask_fg">false</item>
+    <item type="id" name="search_area">false</item>
+    <item type="id" name="search">false</item>
+    <item type="id" name="app_listview">false</item>
+    <item type="id" name="search_no_result">false</item>
+    <item type="id" name="preview_background">false</item>
+    <item type="id" name="folder_icon_name">false</item>
+    <item type="id" name="layout">false</item>
+    <item type="id" name="auto_layout_mode_button">false</item>
+    <item type="id" name="manual_layout_mode_button">false</item>
+    <item type="id" name="launcher">false</item>
+    <item type="id" name="drag_layer">false</item>
+    <item type="id" name="focus_indicator">false</item>
+    <item type="id" name="page_indicator">false</item>
+    <item type="id" name="hotseat">false</item>
+    <item type="id" name="search_drop_target_bar">false</item>
+    <item type="id" name="overview_panel">false</item>
+    <item type="id" name="widget_preview_container">false</item>
+    <item type="id" name="screen_thumbs_container">false</item>
+    <item type="id" name="screen_thumbs_dragtip">false</item>
+    <item type="id" name="icon_layout_modes_layout">false</item>
+    <item type="id" name="widgets_view">false</item>
+    <item type="id" name="launcher_overlay_stub">false</item>
+    <item type="id" name="launcher_overlay">false</item>
+    <item type="id" name="search_overlay">false</item>
+    <item type="id" name="search_box">false</item>
+    <item type="id" name="delete_target_text">false</item>
+    <item type="id" name="live_layout">false</item>
+    <item type="id" name="live">false</item>
+    <item type="id" name="longpress_cling">false</item>
+    <item type="id" name="cling_content">false</item>
+    <item type="id" name="cling_dismiss_longpress_info">false</item>
+    <item type="id" name="migration_cling">false</item>
+    <item type="id" name="ic_cling_migration">false</item>
+    <item type="id" name="cling_dismiss_migration_copy_apps">false</item>
+    <item type="id" name="cling_dismiss_migration_use_default">false</item>
+    <item type="id" name="widget_button">false</item>
+    <item type="id" name="theme_button">false</item>
+    <item type="id" name="wallpaper_button">false</item>
+    <item type="id" name="icon_layout_button">false</item>
+    <item type="id" name="inactive">false</item>
+    <item type="id" name="active">false</item>
+    <item type="id" name="screen_thumb_tip_text">false</item>
+    <item type="id" name="search_app_item">false</item>
+    <item type="id" name="image_name">false</item>
+    <item type="id" name="app_label">false</item>
+    <item type="id" name="drag_target_bar">false</item>
+    <item type="id" name="info_target_text">false</item>
+    <item type="id" name="uninstall_target_text">false</item>
+    <item type="id" name="theme_ring">false</item>
+    <item type="id" name="theme_mask">false</item>
+    <item type="id" name="theme_large_gear">false</item>
+    <item type="id" name="theme_mid_gear">false</item>
+    <item type="id" name="theme_small_gear">false</item>
+    <item type="id" name="theme_triangle">false</item>
+    <item type="id" name="theme_rectangle">false</item>
+    <item type="id" name="theme_star">false</item>
+    <item type="id" name="theme_switch_text">false</item>
+    <item type="id" name="theme_preview_container">false</item>
+    <item type="id" name="overscroll_container">false</item>
+    <item type="id" name="view_pager">false</item>
+    <item type="id" name="arrow_left">false</item>
+    <item type="id" name="arrow_right">false</item>
+    <item type="id" name="theme_animation_layout">false</item>
+    <item type="id" name="uninstall_layout">false</item>
+    <item type="id" name="uninstall_panel">false</item>
+    <item type="id" name="uninstall_info_layout">false</item>
+    <item type="id" name="uninstall_info_icon">false</item>
+    <item type="id" name="uninstall_info_app">false</item>
+    <item type="id" name="uninstall_info_warning">false</item>
+    <item type="id" name="uninstall_cancel">false</item>
+    <item type="id" name="uninstall_confirm">false</item>
+    <item type="id" name="folder_title">false</item>
+    <item type="id" name="folder_name">false</item>
+    <item type="id" name="folder_name_delete">false</item>
+    <item type="id" name="folder_preview_border">false</item>
+    <item type="id" name="scroll_view">false</item>
+    <item type="id" name="folder_content">false</item>
+    <item type="id" name="fold_outline">false</item>
+    <item type="id" name="item_thumb">false</item>
+    <item type="id" name="item_name">false</item>
+    <item type="id" name="item_select_mark">false</item>
+    <item type="id" name="page_child_1">false</item>
+    <item type="id" name="page_child_2">false</item>
+    <item type="id" name="page_child_3">false</item>
+    <item type="id" name="page_child_4">false</item>
+    <item type="id" name="widget_preview">false</item>
+    <item type="id" name="widget_name">false</item>
+    <item type="id" name="widget_dims">false</item>
+    <item type="id" name="widgets_preview_content">false</item>
+    <item type="id" name="widget_add_hint">false</item>
+    <item type="id" name="widgets_cell_list_container">false</item>
+    <item type="id" name="section">false</item>
+    <item type="id" name="widgets_scroll_container">false</item>
+    <item type="id" name="widgets_cell_list">false</item>
+    <item type="id" name="widgets_reveal_view">false</item>
+    <item type="id" name="widgets_list_view">false</item>
+    <item type="id" name="control_layout">false</item>
+    <item type="id" name="hide_celllayout">false</item>
+    <item type="id" name="home_celllayout">false</item>
+</resources>

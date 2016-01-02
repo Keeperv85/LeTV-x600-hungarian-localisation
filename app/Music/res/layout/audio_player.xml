@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.music.widget.Rotate3dImageView android:id="@id/album_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.music.widget.Rotate3dImageView android:id="@id/album" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/infos" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_below="@id/album">
+        <ImageButton android:id="@id/action_more" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/action_like" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:src="@drawable/btn_media_player_love" android:layout_toLeftOf="@id/action_more" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/no_music_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_player_no_music" android:singleLine="true" android:layout_centerVertical="true" android:alpha="0.4" />
+        <com.android.music.widget.LovePathView android:id="@id/action_like_animator" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="100.0dip" android:layout_marginRight="18.0dip" android:layout_toLeftOf="@id/action_more" android:layout_alignBottom="@id/action_like" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/trackname" android:paddingLeft="20.0dip" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="98.0dip" android:singleLine="true" android:layout_below="@id/album" />
+    <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/artistname" android:paddingLeft="20.0dip" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="98.0dip" android:singleLine="true" android:layout_below="@id/trackname" />
+    <ImageView android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_media_playlist" android:layout_alignParentBottom="true" />
+</RelativeLayout>

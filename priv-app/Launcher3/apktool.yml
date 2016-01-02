@@ -1,0 +1,33 @@
+version: 2.0.2
+apkFileName: Launcher3.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '55'
+  versionName: 5.0.2-21
+sharedLibrary: false
+unknownFiles:
+  com/j256/ormlite/android/LICENSE.txt: '8'
+  com/j256/ormlite/android/README.txt: '8'
+  com/j256/ormlite/core/LICENSE.txt: '8'
+  com/j256/ormlite/core/README.txt: '8'
+  com/letv/app/appstore/DownloadAppInfo.aidl: '8'
+  com/letv/app/appstore/thirdGetDownloadInfo/AppStoreDownloadInterface.aidl: '8'
+  com/letv/app/appstore/thirdGetDownloadInfo/DownloadInfo.aidl: '8'
+  com/letv/app/appstore/thirdGetDownloadInfo/OnDownloadListener.aidl: '8'
+  com/letv/tracker/agnes/agnes.properties: '8'
+  com/umeng/analytics/package.html: '8'
+  org/apache/log4j/lf5/config/defaultconfig.properties: '8'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif: '8'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif: '8'
+  org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif: '8'
+  org/apache/log4j/xml/log4j.dtd: '8'
+doNotCompress:
+- resources.arsc

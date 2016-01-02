@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="google_play_services_version">7571000</integer>
+    <integer name="max_video_recording_length">0</integer>
+    <integer name="albumset_columns_land">4</integer>
+    <integer name="albumset_columns_port">1</integer>
+    <integer name="albumset_slot_width_factor">310</integer>
+    <integer name="albumset_slot_height_factor">90</integer>
+    <integer name="album_columns_land">6</integer>
+    <integer name="album_columns_port">4</integer>
+    <integer name="cluster_album_land_little">6</integer>
+    <integer name="cluster_album_port_little">4</integer>
+    <integer name="cluster_album_land_medium">8</integer>
+    <integer name="cluster_album_port_medium">6</integer>
+    <integer name="cluster_album_land_most">10</integer>
+    <integer name="cluster_album_port_most">8</integer>
+    <integer name="le_photo_action_bar_center_text">16</integer>
+    <integer name="alpha_100">0xff</integer>
+    <integer name="alpha_90">0xe6</integer>
+    <integer name="alpha_80">0xcc</integer>
+    <integer name="alpha_70">0xb3</integer>
+    <integer name="alpha_60">0x99</integer>
+    <integer name="alpha_50">0x80</integer>
+    <integer name="alpha_40">0x66</integer>
+    <integer name="alpha_30">0x4d</integer>
+    <integer name="alpha_20">0x33</integer>
+    <integer name="alpha_10">0x1a</integer>
+    <integer name="alpha_0">0</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+</resources>

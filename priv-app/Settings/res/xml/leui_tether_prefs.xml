@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.settings.widget.LeUISwitchAdapterCheckBoxPreference android:persistent="false" android:title="@string/wifi_tether_checkbox_text" android:key="enable_wifi_ap" />
+    <PreferenceCategory android:persistent="false" android:title="@string/wifi_tether_configure_ap_text" android:key="wifi_tether_configure">
+        <android.preference.LeHotspotSsidPreference android:title="@string/wifi_name" android:key="wifi_ssid" android:dialogTitle="@string/edit_name" android:positiveButtonText="@android:string/ok" android:negativeButtonText="@android:string/cancel" />
+    </PreferenceCategory>
+</PreferenceScreen>

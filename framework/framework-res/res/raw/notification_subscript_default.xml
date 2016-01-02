@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<NotificationSubscriptXmlHelper date="2015-07-20    01:55:15">
+  <subscriptNode>
+    <subscriptKey>com.android.mms_com.android.mms.ui.ConversationList_0</subscriptKey>
+    <subscriptValue>0</subscriptValue>
+  </subscriptNode>
+  <subscriptNode>
+    <subscriptKey>com.android.dialer_com.android.dialer.DialtactsActivity_0</subscriptKey>
+    <subscriptValue>0</subscriptValue>
+  </subscriptNode>
+  <subscriptNode>
+    <subscriptKey>com.letv.android.account_com.letv.android.account.activity.AccountIndexBeforeLoginActivity_0</subscriptKey>
+    <subscriptValue>0</subscriptValue>
+  </subscriptNode>
+  <subscriptNode>
+    <subscriptKey>com.android.calendar_com.android.calendar.AllInOneActivity_0</subscriptKey>
+    <subscriptValue>0</subscriptValue>
+  </subscriptNode>
+  <subscriptNode>
+    <subscriptKey>com.letv.app.appstore_com.letv.app.appstore.MainActivity_0</subscriptKey>
+    <subscriptValue>0</subscriptValue>
+  </subscriptNode>
+  <subscriptNode>
+    <subscriptKey>com.letv.android.ota_com.letv.android.ota.LeSystemUpgrade_0</subscriptKey>
+    <subscriptValue>0</subscriptValue>
+  </subscriptNode>
+</NotificationSubscriptXmlHelper>

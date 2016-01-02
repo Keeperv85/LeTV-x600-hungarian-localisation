@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.mediatek.thermalmanager" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="com.android.alarm.permission.WRITE_SETTINGS"/>
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <activity android:exported="true" android:label="@string/app_name" android:name=".MTKThermalManagerActivity"/>
+        <activity android:label="@string/thermal_sensors" android:name="ThermalSensorActivity"/>
+        <activity android:label="@string/coolers" android:name="CoolersActivity"/>
+        <activity android:label="@string/tz_device_info" android:name="TzDeviceActivity"/>
+        <receiver android:name="ServiceStarter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.THERMAL_WARNING"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="ShutDownAlertDialogActivity" android:theme="@android:style/Theme.Translucent"/>
+        <receiver android:name="ShutDownAlarm"/>
+    </application>
+</manifest>

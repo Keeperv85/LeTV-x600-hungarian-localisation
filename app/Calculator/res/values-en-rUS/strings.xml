@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="error">Error</string>
+    <string name="digit0">0</string>
+    <string name="digit1">1</string>
+    <string name="digit2">2</string>
+    <string name="digit3">3</string>
+    <string name="digit4">4</string>
+    <string name="digit5">5</string>
+    <string name="digit6">6</string>
+    <string name="digit7">7</string>
+    <string name="digit8">8</string>
+    <string name="digit9">9</string>
+    <string name="del">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="errortip">Too much content</string>
+    <string name="e">e</string>
+    <string name="ln">ln</string>
+    <string name="lg">log</string>
+    <string name="leftParen">(</string>
+    <string name="rightParen">)</string>
+    <string name="basic">Basic</string>
+    <string name="advanced">Advanced</string>
+    <string name="clear_history">Clear history</string>
+    <string name="text_copied_toast">Text copied.</string>
+    <string name="leftParenDesc">(</string>
+    <string name="rightParenDesc">)</string>
+    <string name="factorialDesc">!</string>
+    <string name="lnDesc">ln</string>
+    <string name="lgDesc">log</string>
+    <string name="sqrtDesc">√</string>
+    <string name="divDesc">Divide</string>
+    <string name="mulDesc">*</string>
+    <string name="plusDesc">+</string>
+    <string name="minusDesc">-</string>
+    <string name="dotDesc">Decimal</string>
+    <string name="powerDesc">^</string>
+    <string name="delDesc">Delete</string>
+    <string name="clearDesc">Clear</string>
+    <string name="tanDesc">tan</string>
+    <string name="sinDesc">sin</string>
+    <string name="cosDesc">cos</string>
+    <string name="eDesc">e</string>
+    <string name="piDesc">π</string>
+    <string name="equalDesc">=</string>
+    <string name="oversize">Cannot copy more than 50 characters</string>
+</resources>

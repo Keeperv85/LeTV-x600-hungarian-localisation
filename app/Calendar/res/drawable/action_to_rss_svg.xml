@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="action_to_rss" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/black" android:pathData="M32.242,42.294L28,46.539L45.851,64l36.391-36.463L78,23.294L45.851,55.516L32.242,42.294z M77,46   v31H21V22h45l6-6H17c0.686,0-2,2.686-2,6v55c0,3.313,2.686,6,6,6h56c3.314,0,6-2.687,6-6V40L77,46z" />
+</vector>

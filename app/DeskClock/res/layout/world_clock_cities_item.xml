@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/world_clock_city_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/world_city_list_padding_left"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/world_clock_city_flag_layout" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="@dimen/world_city_item_flag_margin_right">
+        <ImageView android:id="@id/world_clock_cities_flag" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/le_city_icon_border" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_listview_item_margin_top" android:layout_marginBottom="@dimen/le_listview_item_margin_bottom">
+        <TextView android:textSize="@dimen/world_city_item_city_name_text_size" android:textColor="@color/world_city_item_city_name_text_color" android:gravity="center_vertical" android:id="@id/world_clock_cities_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/world_city_item_city_name_margin_bottom" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <TextClock android:textSize="@dimen/world_city_item_city_time_text_size" android:textColor="@color/world_city_item_city_time_text_color" android:id="@id/world_clock_cities_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="helve-neue-regular" android:format12Hour="a h:mm" android:format24Hour="H:mm" />
+    </LinearLayout>
+</LinearLayout>

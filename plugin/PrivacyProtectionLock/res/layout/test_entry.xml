@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/launch_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/test_entry_launch" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/status_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/test_entry_status" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <CheckBox android:id="@id/enable_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/test_entry_enabled" android:layout_below="@id/status_hint" android:layout_alignLeft="@id/status_hint" />
+    <CheckBox android:id="@id/provision_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/test_entry_provisioned" android:layout_below="@id/enable_checkbox" android:layout_alignLeft="@id/enable_checkbox" />
+</RelativeLayout>

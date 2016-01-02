@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<NotificationSubscriptXmlHelper date="2015-07-20    01:55:15">
+  <subscriptNode>
+    <subscriptKey>com.android.server.telecom</subscriptKey>
+    <subscriptValue>com.android.dialer</subscriptValue>
+  </subscriptNode>
+</NotificationSubscriptXmlHelper>

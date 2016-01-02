@@ -1,0 +1,131 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: b+6CMw4DUDisX4nYW48HXBE1ODQ=
+
+Name: res/drawable/right_style.xml
+SHA1-Digest-Manifest: ZwVPT7U9nlbtBUQ+5Wr6xs2sppw=
+
+Name: res/layout/progress_head.xml
+SHA1-Digest-Manifest: YIvfBY3mH36Fr44DwpjBSKEhZ+g=
+
+Name: res/layout/label.xml
+SHA1-Digest-Manifest: KkKBRP0EVRVqGhw+ws/3S3d/PgA=
+
+Name: res/drawable/permission_widget_textview_style.xml
+SHA1-Digest-Manifest: 5IjziihNPZEb+BIe96RWV6fGT1I=
+
+Name: res/animator/install_progress_text_end_anim.xml
+SHA1-Digest-Manifest: keFLRthvYyVysCZ8w7NMc3GaOWE=
+
+Name: res/animator/install_progress_text_start_anim.xml
+SHA1-Digest-Manifest: e2ek8rqsZCZGSmxTdJTFg1w57JM=
+
+Name: res/anim/perm_anim.xml
+SHA1-Digest-Manifest: OuP0OkbJXmRDHAKwYmn4ARY4Wxc=
+
+Name: resources.arsc
+SHA1-Digest-Manifest: A5NTOaf4nCpW4wOv0uRqefynNZQ=
+
+Name: res/drawable-mdpi-v4/ic_success.png
+SHA1-Digest-Manifest: IAwvi6qIIgylrYrHP36vsjpmUbY=
+
+Name: res/layout/uninstall_progress.xml
+SHA1-Digest-Manifest: /IaC1k4+X2CcH1h2GsO9qjY0LiI=
+
+Name: AndroidManifest.xml
+SHA1-Digest-Manifest: mjs+iz6nDJY4uW8TlZ5PcRRcRlY=
+
+Name: res/drawable-mdpi-v4/ic_fail.png
+SHA1-Digest-Manifest: PrKht2bT/agq7/cfphLl2PzLov8=
+
+Name: res/layout/op_progress.xml
+SHA1-Digest-Manifest: QuyQwxZzlSH5OnhQFRB0FPyfhZA=
+
+Name: res/drawable/progress_indeterminate_horizontal_material.xml
+SHA1-Digest-Manifest: OMNLKWy71TSK9iDQkmFa4vaV4z8=
+
+Name: res/transition/instal_finish_transition.xml
+SHA1-Digest-Manifest: 4q3A/FbRh4a+moMqCJfr7iDODqE=
+
+Name: res/layout/app_details_progress.xml
+SHA1-Digest-Manifest: fgTQwzzkgyKEfPGlla3HwiFdO2M=
+
+Name: res/animator/install_ok_text.xml
+SHA1-Digest-Manifest: aOCCGnswhV8dsjgZk48+6C8zNGk=
+
+Name: res/layout/permissions_list.xml
+SHA1-Digest-Manifest: JB4ABUGrWDtDYCC/nyQKaBjWe3I=
+
+Name: res/drawable-xhdpi-v4/widget_select.png
+SHA1-Digest-Manifest: EsRda1pazsTzSYCGG0XQP8sAhGc=
+
+Name: res/drawable/ic_result_status.xml
+SHA1-Digest-Manifest: ScUCs7iLtuUX4tcs0jLtjlkEGGE=
+
+Name: res/drawable/left_style.xml
+SHA1-Digest-Manifest: 5xEtGKqvxjuMeNtbswzb2SsiuMI=
+
+Name: res/drawable-xhdpi-v4/ic_fail.png
+SHA1-Digest-Manifest: s2imAzjnnpL+VbkjMcfa16oXaMc=
+
+Name: res/layout/new_permission_list.xml
+SHA1-Digest-Manifest: qm/ppCGJZdRrBCl675+QRQk1v3s=
+
+Name: res/drawable-xhdpi-v4/ic_success.png
+SHA1-Digest-Manifest: n2jEeb8b+sPfrhohpD/a9yvdqMI=
+
+Name: res/drawable-xhdpi-v4/error.png
+SHA1-Digest-Manifest: Vsa2QQ+RL5RPjiCY+aoMxpeEyN4=
+
+Name: classes.dex
+SHA1-Digest-Manifest: 3k+8xmF/wR9zuf+GDUG8/S6mo68=
+
+Name: res/layout/app_details_uninstall.xml
+SHA1-Digest-Manifest: iBd8IhWIx4tS0UX8lT4Ri9tMLjE=
+
+Name: res/drawable/halo.xml
+SHA1-Digest-Manifest: Qq22KSA6X0VbJsL45DrgjCzCmXg=
+
+Name: res/transition/change_image_transform_enter.xml
+SHA1-Digest-Manifest: eAxlqGzpRqTTP9D7O/zITofP6u0=
+
+Name: res/layout/app_details.xml
+SHA1-Digest-Manifest: /wIjHItihvw7Nc0QfQInlHXTlWQ=
+
+Name: res/layout/install_confirm.xml
+SHA1-Digest-Manifest: LNQ4u5DqOkjBpuRGWQmyl+6MbSQ=
+
+Name: res/drawable-hdpi-v4/ic_success.png
+SHA1-Digest-Manifest: kcpWERdZf+MDG0aCp9RvP4wO14M=
+
+Name: res/layout/uninstall_confirm.xml
+SHA1-Digest-Manifest: q0nNFDvbINMI19UI9+fbxjhXWb8=
+
+Name: res/layout/progress_scene2.xml
+SHA1-Digest-Manifest: 100xb8OfVisCLMzvBrqlDx0ODRw=
+
+Name: res/layout/op_progress_start.xml
+SHA1-Digest-Manifest: YDJgpy+55tVK4yVXNp/YVm9ZJnc=
+
+Name: res/layout/all_permissions_list.xml
+SHA1-Digest-Manifest: sy7GO8TTWPAld9HOGTJowOpxwJo=
+
+Name: res/drawable/vector_drawable_progress_indeterminate_horizontal.x
+ ml
+SHA1-Digest-Manifest: 6g2iQn9qXPI21BMbw+J1Tb1B4dA=
+
+Name: com/letv/tracker/agnes/agnes.properties
+SHA1-Digest-Manifest: PWzDCUc8dku0t3iCGueiKd+DfH0=
+
+Name: res/layout/install_start.xml
+SHA1-Digest-Manifest: mvvh59YP+c+wJ1BhNTutUL2nNLA=
+
+Name: res/layout/progress_scene1.xml
+SHA1-Digest-Manifest: XjMl9CyiJPbguTvvYv/u1SQJgTQ=
+
+Name: res/drawable-xhdpi-v4/widget_select_default.png
+SHA1-Digest-Manifest: EtfHsfeGBig8q5FhXwqwVrloUBM=
+
+Name: res/drawable-hdpi-v4/ic_fail.png
+SHA1-Digest-Manifest: SR7UM5Jzi/ctgReKAWxZJ48qiR4=
+

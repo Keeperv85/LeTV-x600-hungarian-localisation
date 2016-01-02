@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/leui_deviceinfo_phone_name" android:key="this_device" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+</PreferenceScreen>

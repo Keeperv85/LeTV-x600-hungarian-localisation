@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/star_list_item_height" android:paddingStart="@dimen/star_list_item_padding_star"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/star_profile_icon" android:layout_width="@dimen/star_list_item_icon_size" android:layout_height="@dimen/star_list_item_icon_size" android:layout_marginEnd="@dimen/star_list_item_icon_margin_end" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/star_list_item_name_text_size" android:textColor="@color/star_list_item_name_text_color" android:id="@id/star_profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/star_list_item_rank_text_size" android:textColor="@color/star_list_item_rank_text_color" android:id="@id/star_profile_rank" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/star_list_item_rank_margin_top" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/star_select_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.letv.leui.widget.LeSwitch android:layout_gravity="center_vertical" android:id="@id/star_select" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/star_list_item_padding_star" android:paddingEnd="@dimen/star_list_item_padding_end" leui:leSwitchTrackColor="@color/le_common_switch_or_other_color" />
+    </LinearLayout>
+</LinearLayout>

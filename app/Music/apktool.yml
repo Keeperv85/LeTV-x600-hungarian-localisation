@@ -1,0 +1,61 @@
+version: 2.0.2
+apkFileName: Music.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0.2-21
+sharedLibrary: false
+unknownFiles:
+  XPP3_1.1.4c_VERSION: '0'
+  com/letv/tracker/agnes/agnes.properties: '8'
+  javax/annotation/CheckForNull.java: '8'
+  javax/annotation/CheckForSigned.java: '8'
+  javax/annotation/CheckReturnValue.java: '8'
+  javax/annotation/Detainted.java: '8'
+  javax/annotation/MatchesPattern.java: '8'
+  javax/annotation/Nonnegative.java: '8'
+  javax/annotation/Nonnull.java: '8'
+  javax/annotation/Nullable.java: '8'
+  javax/annotation/OverridingMethodsMustInvokeSuper.java: '8'
+  javax/annotation/ParametersAreNonnullByDefault.java: '8'
+  javax/annotation/ParametersAreNullableByDefault.java: '8'
+  javax/annotation/PropertyKey.java: '8'
+  javax/annotation/RegEx.java: '8'
+  javax/annotation/Signed.java: '8'
+  javax/annotation/Syntax.java: '8'
+  javax/annotation/Tainted.java: '8'
+  javax/annotation/Untainted.java: '8'
+  javax/annotation/WillClose.java: '8'
+  javax/annotation/WillCloseWhenClosed.java: '8'
+  javax/annotation/WillNotClose.java: '8'
+  javax/annotation/concurrent/GuardedBy.java: '8'
+  javax/annotation/concurrent/Immutable.java: '8'
+  javax/annotation/concurrent/NotThreadSafe.java: '8'
+  javax/annotation/concurrent/ThreadSafe.java: '8'
+  javax/annotation/meta/Exclusive.java: '8'
+  javax/annotation/meta/Exhaustive.java: '8'
+  javax/annotation/meta/TypeQualifier.java: '8'
+  javax/annotation/meta/TypeQualifierDefault.java: '8'
+  javax/annotation/meta/TypeQualifierNickname.java: '8'
+  javax/annotation/meta/TypeQualifierValidator.java: '8'
+  javax/annotation/meta/When.java: '8'
+  org/apache/commons/codec/overview.html: '8'
+  org/apache/commons/codec/package.html: '8'
+  org/apache/commons/codec/binary/package.html: '8'
+  org/apache/commons/codec/digest/package.html: '8'
+  org/apache/commons/codec/language/package.html: '8'
+  org/apache/commons/codec/net/package.html: '8'
+  org/apache/http/version.properties: '8'
+  org/apache/http/client/version.properties: '8'
+doNotCompress:
+- resources.arsc
+- res/drawable-xxhdpi-v4/follow_like
+- res/drawable-xxhdpi-v4/follows_unlike

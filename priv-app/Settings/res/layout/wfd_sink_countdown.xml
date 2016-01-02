@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/dialog_fullscreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="72.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/wfd_sink_countdown_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/wfd_sink_countdown_num" android:layout_alignBottom="@id/wfd_sink_countdown_num" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/wfd_sink_countdown_num">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/wfd_sink_countdown_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_display_settings_title" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/wfd_sink_countdown_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/wfd_sink_disconnecting" android:layout_below="@id/wfd_sink_countdown_title1" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

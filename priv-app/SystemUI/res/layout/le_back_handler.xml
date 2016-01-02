@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <ImageView android:id="@id/back" android:background="@color/back_handle_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_back" android:scaleType="fitXY" />
+    <ImageView android:id="@id/home" android:background="@color/back_handle_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_home" android:scaleType="fitXY" />
+    <ImageView android:id="@id/recent" android:background="@color/back_handle_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_recent" android:scaleType="fitXY" />
+</LinearLayout>

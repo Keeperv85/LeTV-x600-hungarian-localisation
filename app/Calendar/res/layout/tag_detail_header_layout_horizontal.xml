@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/le_poster_image" android:layout_width="fill_parent" android:layout_height="224.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="99.0dip" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/le_icon" android:layout_width="132.0dip" android:layout_height="99.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="#ff464646" android:id="@id/le_tag_name" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <Button android:textSize="13.0sp" android:textColor="@color/bt_subscribe" android:id="@id/le_bt_subscribe" android:background="@drawable/selector_bt_subscribe" android:layout_width="74.0dip" android:layout_height="28.0dip" android:text="@string/bt_lable_subscribe" />
+                <Button android:textSize="13.0sp" android:textColor="@color/bt_subscribe" android:id="@id/le_bt_share" android:background="@drawable/selector_bt_subscribe" android:layout_width="74.0dip" android:layout_height="28.0dip" android:layout_marginLeft="20.0dip" android:text="@string/bt_share" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

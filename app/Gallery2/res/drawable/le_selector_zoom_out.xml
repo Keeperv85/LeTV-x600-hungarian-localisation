@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/le_map_zoom_out" />
+    <item android:state_enabled="false" android:drawable="@drawable/le_map_zoom_out" />
+    <item android:drawable="@drawable/le_map_zoom_out" />
+</selector>

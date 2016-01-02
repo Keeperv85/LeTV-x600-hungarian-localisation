@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.controlcenter.LeControlCenterPanelView android:orientation="vertical" android:id="@id/le_cc_panel_id" android:leBlurMode="window" android:leBlurRadius="20.0dip" android:leBlurContrastBoost="1.0" android:leBlurBlendColor2="@color/le_cc_background_color"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <include layout="@layout/le_cc_app_layout_extend_keyguard" />
+    <include layout="@layout/le_cc_music_layout_extend_keyguard" />
+    <include layout="@layout/le_cc_brightness_layout_extend_keyguard" />
+    <include layout="@layout/le_cc_shortcut_layout_extend_keyguard" />
+</com.android.systemui.controlcenter.LeControlCenterPanelView>

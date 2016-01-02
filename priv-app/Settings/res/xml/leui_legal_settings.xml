@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/legal_information" android:key="container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/copyright_title" android:key="copyright">
+        <intent android:action="android.settings.COPYRIGHT" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/license_title" android:key="license" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:action="android.settings.LICENSE" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/leui_useragreement" android:key="leui_user_agreemen" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:action="android.settings.USERAGREEMENT" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/leui_privacypolicy" android:key="leui_privacy_policy" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:action="android.settings.PRIVACYPOLICY" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/terms_title" android:key="terms">
+        <intent android:action="android.settings.TERMS" />
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <View android:background="@color/le_cc_brightness_background_color" android:layout_width="@dimen/le_cc_brightness_width_landscape" android:layout_height="fill_parent" android:layout_below="@id/handle" android:layout_alignBottom="@id/le_cc_app_layout_extend_id" android:layout_alignParentLeft="true" />
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d recent apps in overview</item>
+        <item quantity="one">1 recent app in overview</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM card PIN is incorrect. You can attempt %d more times.</item>
+        <item quantity="one">SIM card PIN is incorrect. You can attempt %d more times. If you fail again, please contact your carrier to unlock this device.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM card PUK code is incorrect. You can attempt %d more times. If you fail again, your SIM card will be permanently locked.</item>
+        <item quantity="one">SIM card PUK code is incorrect. You can attempt %d more times. If you fail again, your SIM card will be permanently locked.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_leui">
+        <item quantity="other">PIN has been entered incorrectly %1$d times.After %2$d more attempts, you can only use the PUK code.</item>
+        <item quantity="one">PIN has been entered incorrectly %1$d time.After %2$d more attempts, you can only use the PUK code.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_leui">
+        <item quantity="other">PUK code has been entered incorrectly %1$d times.After %2$d more failed attempts, SIM%d will be locked.</item>
+        <item quantity="one">PUK code has been entered incorrectly %1$d time.After %2$d more failed attempts, SIM%d will be locked.</item>
+    </plurals>
+</resources>

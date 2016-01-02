@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_gallery" android:id="@id/menu_gallery" android:visible="true" android:title="@string/le_setting_title" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/le_icon_svg_photo_select" android:id="@id/menu_edit" android:visible="true" android:title="@string/le_header_edit" android:showAsAction="ifRoom" />
+</menu>

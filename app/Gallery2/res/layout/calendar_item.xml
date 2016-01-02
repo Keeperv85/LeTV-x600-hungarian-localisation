@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.gallery3d.ui.SquareRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.gallery3d.ui.RecyclingImageView android:id="@id/date_icon" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/calendar_image_hover" android:background="@drawable/kuang" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/le_calendar_content_color" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </com.android.gallery3d.ui.SquareRelativeLayout>
+</FrameLayout>

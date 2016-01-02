@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.calendar.view.NotifyingScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:reminderview="http://schemas.android.com/apk/res/com.android.calendar">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/event_info_header" />
+        <LinearLayout android:orientation="vertical" android:id="@id/happy" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.leui.widget.LeTextView android:textColor="#ff898b94" android:background="@color/birthady_bk_color" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send_blessings" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/phone_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/phone_svg" />
+                <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/call" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:layout_marginRight="16.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/sms_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/msg_svg" />
+                <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/sms" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:layout_marginRight="16.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/card_container" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/card_svg" />
+                <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/card" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:layout_marginRight="16.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_surprised" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.leui.widget.LeTextView android:textColor="#ff898b94" android:background="@color/birthady_bk_color" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send_surprised" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/flower_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/flower_svg" />
+                <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/give_flower" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:layout_marginRight="16.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/cake_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/cake_svg" />
+                <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/give_cake" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:layout_marginRight="16.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/gift_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/gift_svg" />
+                <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/give_gift" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_event_arrow_size" android:layout_height="@dimen/edit_event_arrow_size" android:layout_marginLeft="@dimen/edit_event_item_arrow_left_margin" android:layout_marginRight="16.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_reminder" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.leui.widget.LeTextView android:textColor="#ff898b94" android:background="@color/birthady_bk_color" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_reminder" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/notify_svg" />
+                <com.android.calendar.ReminderView android:id="@id/reminder_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" reminderview:hide_bottomline="true" />
+            </LinearLayout>
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" />
+        </LinearLayout>
+        <LinearLayout android:background="@color/birthady_bk_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.letv.calendar.view.NotifyingScrollView>

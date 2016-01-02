@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/outgoing_call_alpha_change_duration" android:valueFrom="@dimen/outgoing_call_alpha_from" android:valueTo="@dimen/outgoing_call_alpha_to" android:propertyName="@string/alpha"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

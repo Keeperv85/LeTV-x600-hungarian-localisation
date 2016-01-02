@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/player_bottom_btn_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/letv_dimens_5" android:layout_marginRight="@dimen/letv_dimens_5" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/player_bottom_function_btn_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/player_volume_btn" android:layout_width="@dimen/letv_dimens_42" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/letv_dimens_5" android:src="@drawable/volume_btn_0_selector" android:scaleType="centerInside" />
+        <TextView android:textColor="@drawable/player_controlpanel_top_btn_text_selector" android:gravity="center" android:id="@id/player_stream_btn" android:background="@drawable/player_function_btn_bg_selector" android:visibility="gone" android:button="@null" style="@style/detailplay_full_top_textview" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/player_cinema_sound_btn" android:background="@drawable/cinema_sound_3d_btn_bg_selector" android:visibility="gone" android:layout_width="@dimen/letv_dimens_55" android:layout_height="@dimen/letv_dimens_24" android:layout_marginLeft="@dimen/letv_dimens_5" android:layout_marginRight="@dimen/letv_dimens_5">
+            <TextView android:textSize="@dimen/letv_dimens_12" android:textColor="@drawable/cinema_sound_text_color_selector" android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_cinema_sound" android:includeFontPadding="false" />
+            <ImageView android:paddingLeft="@dimen/letv_dimens_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/streamcode_vip" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/player_3d_btn" android:background="@drawable/cinema_sound_3d_btn_bg_selector" android:visibility="gone" android:layout_width="@dimen/letv_dimens_42" android:layout_height="@dimen/letv_dimens_24" android:layout_marginLeft="@dimen/letv_dimens_5" android:layout_marginRight="@dimen/letv_dimens_5">
+            <TextView android:textSize="@dimen/letv_dimens_12" android:textColor="@drawable/cinema_sound_text_color_selector" android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_3d" android:includeFontPadding="false" />
+            <ImageView android:paddingLeft="@dimen/letv_dimens_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/streamcode_vip" android:scaleType="centerInside" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/player_orientation_switch_btn" android:padding="0.0dip" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/letv_dimens_45" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:src="@drawable/player_orientation_switch_selector_landscape" android:scaleType="centerInside" />
+</LinearLayout>

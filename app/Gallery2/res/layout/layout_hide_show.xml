@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/white" android:paddingTop="50.0px" android:layout_width="fill_parent" android:layout_height="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffdaddde" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/bottom_line" android:background="#ffdaddde" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <Button android:textSize="16.0sp" android:textColor="@color/le_main_color" android:gravity="center" android:id="@id/text" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/le_album_hide_show_ok" android:layout_above="@id/bottom_line" />
+    <View android:id="@id/top_line" android:background="#ffdaddde" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/text" />
+    <ListView android:id="@id/lv_hide_show_albums" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="?android:selectableItemBackground" android:divider="@null" android:layout_above="@id/text" android:layout_alignParentTop="true" />
+</RelativeLayout>

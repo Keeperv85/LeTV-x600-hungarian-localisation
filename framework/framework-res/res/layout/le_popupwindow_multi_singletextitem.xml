@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.widget.LeCheckableLinearLayout android:orientation="horizontal" android:background="@drawable/le_bottomsheet_listitem_selector" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:textColor="#ff414141" android:gravity="center_vertical" android:id="@id/le_popupwindow_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="helve-neue-normal" />
+    </LinearLayout>
+    <com.letv.leui.widget.LeCheckBox android:layout_gravity="center_vertical" android:id="@id/le_popupwindow_listview_item_chkbox" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" leui:leBoxOnColor="#ff2395ee" leui:leBoxWithoutBorder="false" leui:leBoxIsTextOnRight="false" />
+</com.letv.leui.widget.LeCheckableLinearLayout>

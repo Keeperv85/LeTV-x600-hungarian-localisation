@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" layout="@layout/horizontal_lne" />
+    <LinearLayout android:orientation="horizontal" android:background="#fff1f1f1" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/header_line">
+        <RelativeLayout android:id="@id/footer_edit" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/footer_image_width" android:layout_height="@dimen/footer_image_height" android:layout_marginTop="@dimen/footer_marginTop" android:src="@drawable/le_selector_footer_edit" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/footer_text_size" android:textColor="@color/le_selector_footer_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/footer_marginBottom" android:text="@string/le_footer_edit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/footer_share" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/footer_image_width" android:layout_height="@dimen/footer_image_height" android:layout_marginTop="@dimen/footer_marginTop" android:src="@drawable/le_selector_footer_share" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/footer_text_size" android:textColor="@color/le_selector_footer_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/footer_marginBottom" android:text="@string/le_footer_share" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/footer_use_as" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/footer_image_width" android:layout_height="@dimen/footer_image_height" android:layout_marginTop="@dimen/footer_marginTop" android:src="@drawable/le_selector_footer_use_as" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/footer_text_size" android:textColor="@color/le_selector_footer_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/footer_marginBottom" android:text="@string/le_footer_use_as" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/footer_add_to" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/footer_image_width" android:layout_height="@dimen/footer_image_height" android:layout_marginTop="@dimen/footer_marginTop" android:src="@drawable/le_selector_footer_add_to" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/footer_text_size" android:textColor="@color/le_selector_footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/footer_marginBottom" android:text="@string/le_footer_add_to" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/footer_delete" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/footer_image_width" android:layout_height="@dimen/footer_image_height" android:layout_marginTop="@dimen/footer_marginTop" android:src="@drawable/le_selector_footer_delete" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/footer_text_size" android:textColor="@color/le_selector_footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/footer_marginBottom" android:text="@string/le_footer_delete" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/footer_more" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/footer_image_width" android:layout_height="@dimen/footer_image_height" android:layout_marginTop="@dimen/footer_marginTop" android:src="@drawable/le_selector_footer_more" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/footer_text_size" android:textColor="@color/le_selector_footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/footer_marginBottom" android:text="@string/le_footer_more" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

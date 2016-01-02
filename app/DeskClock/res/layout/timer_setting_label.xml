@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@color/timer_background_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/timer_setting_padding_start" android:paddingEnd="@dimen/timer_setting_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/timer_setting_content_padding_start">
+        <TextView android:textSize="@dimen/timer_setting_title_text_size" android:textColor="@color/timer_setting_title_text_color" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/timer_setting_widget_min_width" />
+        <EditText android:textSize="@dimen/timer_setting_summary_text_size" android:textColor="@color/timer_setting_summary_text_color" android:gravity="center|right" android:id="@id/edit" android:background="@android:color/transparent" android:paddingRight="1.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxEms="5" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/timer_setting_widget_min_width" />
+    </LinearLayout>
+</LinearLayout>

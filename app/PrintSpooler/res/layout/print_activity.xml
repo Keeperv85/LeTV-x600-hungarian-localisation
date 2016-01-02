@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.printspooler.widget.PrintContentView android:id="@id/options_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:printspooler="http://schemas.android.com/apk/res/com.android.printspooler">
+    <FrameLayout android:id="@id/static_content" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:elevation="@dimen/preview_controls_elevation">
+        <Spinner android:id="@id/destination_spinner" android:layout_width="@dimen/preview_destination_spinner_width" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minHeight="?android:listPreferredItemHeightSmall" android:dropDownWidth="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/summary_content" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:elevation="@dimen/preview_controls_elevation">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_copies_summary" android:layout_marginStart="12.0dip" android:labelFor="@id/copies_count_summary" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:id="@id/copies_count_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_paper_size_summary" android:layout_marginStart="32.0dip" android:labelFor="@id/paper_size_summary" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:id="@id/paper_size_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <ImageButton android:id="@id/print_button" android:background="@drawable/print_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:elevation="@dimen/preview_controls_elevation" />
+    <include layout="@layout/print_activity_controls" />
+    <com.android.printspooler.widget.EmbeddedContentContainer android:gravity="center" android:id="@id/embedded_content_container" android:background="@color/print_preview_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/preview_content" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/embedded_content_scrim" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.printspooler.widget.EmbeddedContentContainer>
+</com.android.printspooler.widget.PrintContentView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vpn_edit"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/leui_empty_preferencecategory" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_name" android:key="name" android:inputType="text" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/vpn_types" android:title="@string/vpn_type" android:key="vpn_type" android:entryValues="@array/vpn_types_value" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_server" android:key="server" android:inputType="text" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_username" android:key="username" android:inputType="text" />
+    <com.letv.leui.preference.LePassWordPreference android:title="@string/vpn_password" android:key="password" android:inputType="textPassword" />
+    <SwitchPreference android:persistent="false" android:enabled="true" android:title="@string/vpn_mppe" android:key="mppe" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_l2tp_secret" android:key="l2tp_secret" android:inputType="text" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_ipsec_identifier" android:key="ipsec_identifier" android:inputType="text" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_ipsec_secret" android:key="ipsec_secret" android:inputType="text" />
+    <com.letv.leui.preference.LeListPreference android:title="@string/vpn_ipsec_user_cert" android:key="ipsec_user_cert" />
+    <com.letv.leui.preference.LeListPreference android:title="@string/vpn_ipsec_ca_cert" android:key="ipsec_ca_cert" />
+    <com.letv.leui.preference.LeListPreference android:title="@string/vpn_ipsec_server_cert" android:key="ipsec_server_cert" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_search_domains" android:key="search_domains" android:inputType="text" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_dns_servers" android:key="dns_servers" android:inputType="text" />
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/vpn_routes" android:key="routes" android:inputType="text" />
+</PreferenceScreen>

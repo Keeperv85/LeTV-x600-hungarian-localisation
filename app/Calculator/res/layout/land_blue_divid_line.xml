@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/button_lattice_separation_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:background="@color/blue_divide_line" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

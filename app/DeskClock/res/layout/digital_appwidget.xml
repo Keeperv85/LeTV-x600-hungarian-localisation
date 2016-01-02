@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/digital_appwidget" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center|top" android:id="@id/digital_clock" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/digital_widget_time" />
+    <ListView android:layout_gravity="center|top" android:id="@id/digital_appwidget_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/digital_widget_list_margin_top" android:divider="@null" />
+</LinearLayout>

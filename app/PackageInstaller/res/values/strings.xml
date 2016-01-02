@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App installer</string>
+    <string name="next">Next step</string>
+    <string name="install">Install</string>
+    <string name="done">Done</string>
+    <string name="security_settings_desc">Allow this app to:</string>
+    <string name="cancel">Cancel</string>
+    <string name="unknown">Unknown</string>
+    <string name="install_done">App installed.</string>
+    <string name="install_confirm_question">"Install this app?  It requires the following permissions:"</string>
+    <string name="install_confirm_question_no_perms">"Install this app?  This app requires no permissions."</string>
+    <string name="install_confirm_question_update">"Install this update?  Current data will not be lost.  The following permissions are required after update:"</string>
+    <string name="install_confirm_question_update_system">"Install this built-in app update?  Current data will not be lost.  The following permissions are required after update:"</string>
+    <string name="install_confirm_question_update_no_perms">"Install update for this existing app?  Current data will not be lost and the update will not require any permissions."</string>
+    <string name="install_confirm_question_update_system_no_perms">"Install update for this built-in app?  Current data will not be lost and the update will not require any permissions."</string>
+    <string name="install_failed">Unable to install app.</string>
+    <string name="install_failed_invalid_apk">Invalid APK.</string>
+    <string name="install_failed_inconsistent_certificates">An app with this certificate already exists.</string>
+    <string name="install_failed_older_sdk">This app may only be installed on newer versions of Android.</string>
+    <string name="install_failed_cpu_abi_incompatible">This app is incompatible with your phone.</string>
+    <string name="install_failed_file_not_found">APK not found. Unable to complete installation.</string>
+    <string name="install_failed_verify_failed">APK has not been verified. Unable to install.</string>
+    <string name="install_failed_verify_timeout">"APK verification timed out.  Please try again."</string>
+    <string name="install_failed_msg">"Unable to install '%1$s' on your phone."</string>
+    <string name="launch">Open</string>
+    <string name="unknown_apps_dlg_title">Unknown app</string>
+    <string name="unknown_apps_dlg_text">For security reasons, your phone may not install apps from unknown sources.</string>
+    <string name="ok">Confirm</string>
+    <string name="settings">Settings</string>
+    <string name="allow_source_dlg_title">New app source</string>
+    <string name="allow_source_dlg_text">"%1$s is asking to install other apps.
+
+Allow this action from now on?"</string>
+    <string name="manage_applications">Manage apps</string>
+    <string name="dlg_app_replacement_title">Replace this app?</string>
+    <string name="dlg_app_replacement_statement">"The app you are trying to install will replace another app.
+
+The system will save all of your previous user data."</string>
+    <string name="dlg_sys_app_replacement_statement">"This is a system app.
+
+The system will save all of your previous user data."</string>
+    <string name="out_of_space_dlg_title">Not enough free space</string>
+    <string name="out_of_space_dlg_text">"Unable to install '%1$s'. Please clear some free space and try again."</string>
+    <string name="dlg_ok">Confirm</string>
+    <string name="app_not_found_dlg_title">App not found</string>
+    <string name="app_not_found_dlg_text">Unable to find app in list of installed apps.</string>
+    <string name="uninstall_application_title">Uninstall app</string>
+    <string name="uninstall_update_title">Uninstall update</string>
+    <string name="uninstall_activity_text">%1$s of the following app:</string>
+    <string name="uninstall_application_text">Uninstall this app?</string>
+    <string name="uninstall_application_text_all_users">Uninstall this app for <b>all</b>" users?  The system will delete this app and its data for "<b>all</b> users.</string>
+    <string name="uninstall_application_text_user">Uninstall this app for %1$s?</string>
+    <string name="uninstall_update_text">Switch this app to the factory version?</string>
+    <string name="uninstalling">Uninstalling...</string>
+    <string name="uninstall_done">Uninstall complete.</string>
+    <string name="uninstall_failed">Unable to uninstall.</string>
+    <string name="uninstall_failed_device_policy_manager">This app is the current device manager and cannot be uninstalled.</string>
+    <string name="uninstall_blocked_profile_owner">This is a necessary app for %1$s and may not be uninstalled.</string>
+    <string name="uninstall_blocked_device_owner">This app is required by your device administrator and may not be uninstalled.</string>
+    <string name="manage_device_administrators">Manage device manager</string>
+    <string name="uninstall_failed_msg">"Unable to uninstall '%1$s'."</string>
+    <string name="Parse_error_dlg_title">Parsing error</string>
+    <string name="Parse_error_dlg_text">Error while parsing app package.</string>
+    <string name="newPerms">New</string>
+    <string name="allPerms">All</string>
+    <string name="privacyPerms">Privacy permissions</string>
+    <string name="devicePerms">Device permissions</string>
+    <string name="no_new_perms">Updated version does not require any new permissions</string>
+    <string name="grant_confirm_question">Grant this app the following permissions?</string>
+    <string name="unknow_source">Lift restrictions</string>
+    <string name="relieve_Prohibition">Lift restrictions</string>
+    <string name="unknow_source_message">"For security reasons, the system has restricted installing app from unofficial sources. Lifting restrictions will allow you to install apps from any source, but your phone security and personal information may be put at risk and you will be solely responsible for such security risks.
+ You may also change this setting in Settings > Security."</string>
+    <string name="apk_uncompatible">This app and an installed app %1$s are incompatible. Please uninstall this app or download the newest version and try installing again.</string>
+    <string name="apk_unnormal">APK is corrupted and is unable to be installed. Please download again.</string>
+    <string name="apk_Version_low">A newer version of this app already exists on your device. Please download a higher version.</string>
+    <string name="apk_location_Incorrect">Installation directory is incorrect.</string>
+    <string name="apk_Unknown_error">Install failed due to an unknown error. Please redownload the newest version of this app and try installing again.</string>
+    <string name="apk_redownload">Redownload</string>
+    <string name="clear_space">Clear space</string>
+    <string name="parsing_failure">This APK file is corrupted. Unable to open.</string>
+    <string name="other_permissions">Other permissions</string>
+    <string name="app_version">Version: %1$s</string>
+    <string name="low_compare_SDK">App version is too old. Please download the newest version of this app.</string>
+    <string name="update_system">Update system</string>
+    <string name="install_failed_system_error">The system encountered an error while trying to complete installation. It is recommended that you update your system to the newest version.</string>
+    <string name="not_enough_storage_space">Insufficient storage. Please clear space before trying again.</string>
+    <string name="sdk_too_low">Installation failed as your system version is too low. Please update your system before reattempting installation.</string>
+    <string name="apk_uncompatible_with_letv">Letv Video Edge optimized for EUI has been installed on your phone. Older versions of Letv Video are not supported now.</string>
+    <string name="select_delete_apk">Delete APK</string>
+    <string name="delete_apk_faile">Unable to delete APK</string>
+    <string name="delete_apk_success">APK deleted</string>
+    <string name="no_perms">App does not require any permissions</string>
+    <string name="delete_apk_toast">APK %1$s deleted</string>
+    <string name="installing">%1$d%% has been installed</string>
+    <string name="app_icon">app_icon</string>
+    <string name="alpha">alpha</string>
+    <string name="scaleX">scaleX</string>
+    <string name="scaleY">scaleY</string>
+    <string name="high_risk_permissions">High risk permissions, (related to security and privacy; charges may be incurred)</string>
+    <string name="install_failed_duplicate_permission">The permissions requested by this apps conflict the custom permissions %2$s requested by the installed app %1$s, which violates the Android 5.0 system specifications. We will encourage developers to make updated versions compliant with the system specifications.</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/filtershow_cut" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="12.0" />
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/le_filtershow_aspect_group" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="76.0">
+        <RadioButton android:textColor="@color/le_filtershow_aspect_text_color" android:gravity="center" android:id="@id/le_aspect_effect" android:layout_width="48.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/le_aspect_effect" android:drawableTop="@drawable/le_filtershow_aspect_bg" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/le_filtershow_aspect_text_color" android:gravity="center" android:id="@id/le_aspect1to1_effect" android:layout_width="48.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/le_aspect1to1_effect" android:drawableTop="@drawable/le_filtershow_aspect1to1_bg" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/le_filtershow_aspect_text_color" android:gravity="center" android:id="@id/le_aspect3to2_effect" android:layout_width="48.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/le_aspect3to2_effect" android:drawableTop="@drawable/le_filtershow_aspect3to2_bg" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/le_filtershow_aspect_text_color" android:gravity="center" android:id="@id/le_aspect4to3_effect" android:layout_width="48.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/le_aspect4to3_effect" android:drawableTop="@drawable/le_filtershow_aspect4to3_bg" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/le_filtershow_aspect_text_color" android:gravity="center" android:id="@id/le_aspect16to9_effect" android:layout_width="48.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/le_aspect16to9_effect" android:drawableTop="@drawable/le_filtershow_aspect16to9_bg" />
+    </RadioGroup>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="12.0" />
+</LinearLayout>

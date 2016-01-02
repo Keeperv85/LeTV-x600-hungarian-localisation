@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialpad" android:background="#00000000" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/leui_dialpad_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/DialpadLineStyle">
+        <include layout="@layout/leui_dialpad_key_one" />
+        <include android:id="@id/leui_two" android:paddingLeft="@dimen/dialpad_button_margin" android:paddingRight="@dimen/dialpad_button_margin" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+        <include android:id="@id/leui_three" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+    </LinearLayout>
+    <LinearLayout style="@style/DialpadLineStyle">
+        <include android:id="@id/leui_four" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+        <include android:id="@id/leui_five" android:paddingLeft="@dimen/dialpad_button_margin" android:paddingRight="@dimen/dialpad_button_margin" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+        <include android:id="@id/leui_six" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+    </LinearLayout>
+    <LinearLayout style="@style/DialpadLineStyle">
+        <include android:id="@id/leui_seven" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+        <include android:id="@id/leui_eight" android:paddingLeft="@dimen/dialpad_button_margin" android:paddingRight="@dimen/dialpad_button_margin" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+        <include android:id="@id/leui_nine" layout="@layout/leui_dialpad_key" style="@style/DialpadKeyButtonStyle" />
+    </LinearLayout>
+    <LinearLayout style="@style/DialpadLineStyle">
+        <include layout="@layout/leui_dialpad_key_star" />
+        <include android:paddingLeft="@dimen/dialpad_button_margin" android:paddingRight="@dimen/dialpad_button_margin" layout="@layout/leui_dialpad_key_zero" />
+        <include layout="@layout/leui_dialpad_key_pound" />
+    </LinearLayout>
+</LinearLayout>

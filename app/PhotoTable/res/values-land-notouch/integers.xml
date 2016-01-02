@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="table_capacity">6</integer>
+    <integer name="redeal_count">2</integer>
+    <integer name="table_ratio">333333</integer>
+    <integer name="photo_pickup_duration">1500</integer>
+</resources>

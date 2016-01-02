@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/tag_detail_bg_image_layout_height">
+        <ImageView android:id="@id/le_poster_image" android:layout_width="fill_parent" android:layout_height="@dimen/tag_detail_bg_image_height" android:src="@drawable/subscribe_default_big" android:scaleType="centerCrop" />
+        <View android:id="@id/alpha_layout" android:background="#26000000" android:layout_width="fill_parent" android:layout_height="@dimen/tag_detail_alpha_height" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffe6eaf0" android:layout_width="fill_parent" android:layout_height="@dimen/tag_detail_title_layout_height" android:layout_alignParentBottom="true">
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/le_tag_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="110.0dip" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="medium" />
+            <RelativeLayout android:layout_width="@dimen/subscribe_bt_width" android:layout_height="@dimen/subscribe_bt_height" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/subscribe_button_color" android:ellipsize="end" android:gravity="center" android:id="@id/le_bt_subscribe" android:background="@drawable/selector_bt_subscribe" android:layout_width="@dimen/subscribe_bt_width" android:layout_height="@dimen/subscribe_bt_height" android:text="@string/bt_lable_subscribe" android:singleLine="true" android:fontFamily="regular" />
+                <com.letv.leui.widget.LeLoadingView android:id="@id/le_loading" android:layout_width="@dimen/loading_view_size" android:layout_height="@dimen/loading_view_size" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.letv.leui.widget.BorderedCircleImageView android:id="@id/le_icon_circle" android:visibility="gone" android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="14.0dip" android:scaleType="centerCrop" android:layout_alignParentBottom="true" app:circle_radius="37.0dip" app:border_width="2.0dip" app:border_color="#ffe5e5e5" />
+        <com.letv.leui.widget.BorderedRoundedCornersImageView android:id="@id/le_icon_rec" android:visibility="gone" android:layout_width="78.0dip" android:layout_height="100.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="14.0dip" android:scaleType="centerCrop" android:layout_alignParentBottom="true" app:corner_radius="0.0dip" app:border_width="2.0dip" app:border_color="#ffe5e5e5" />
+    </RelativeLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

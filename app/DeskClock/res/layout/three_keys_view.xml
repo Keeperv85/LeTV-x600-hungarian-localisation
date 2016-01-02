@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/key_left" android:background="@drawable/item_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/dialpad" />
+    <Button android:id="@id/key_middle" android:background="@drawable/item_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/dialpad" />
+    <Button android:id="@id/key_right" android:background="@drawable/item_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/dialpad" />
+</LinearLayout>

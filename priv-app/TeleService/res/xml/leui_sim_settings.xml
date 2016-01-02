@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/enable_state" android:key="enable_state" />
+    <PreferenceCategory android:persistent="false" android:title="@string/edit_sim_info">
+        <com.letv.leui.phone.LeCustomStyleEditTextPreference android:singleLine="true" android:title="@string/edit_name_info" android:key="edit_name_info" android:dialogTitle="@string/edit_name_info" android:inputType="text" />
+        <com.letv.leui.phone.LeCustomStyleEditTextPreference android:singleLine="true" android:title="@string/edit_number_info" android:key="edit_number_info" android:dialogTitle="@string/edit_number_info" android:inputType="text" />
+        <com.letv.leui.phone.LeAppRadioGroupPreference android:title="@string/edit_number_info" android:key="edit_sim_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

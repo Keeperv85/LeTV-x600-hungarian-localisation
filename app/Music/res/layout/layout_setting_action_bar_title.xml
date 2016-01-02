@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeTextView android:textSize="16.0sp" android:textColor="#ff6666ee" android:id="@id/textView_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_setting" android:singleLine="true" android:layout_centerVertical="true" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="16.0sp" />
+</RelativeLayout>

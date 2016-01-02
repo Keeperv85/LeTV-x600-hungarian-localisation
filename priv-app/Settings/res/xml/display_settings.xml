@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings" settings:keywords="@string/keywords_display"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/leui_display_settings_brightness_section" />
+    <PreferenceScreen android:title="@string/brightness" android:key="brightness" settings:keywords="@string/keywords_display_brightness_level">
+        <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
+    </PreferenceScreen>
+    <com.letv.leui.settings.widget.BrightnessSeekBarPreference android:persistent="false" android:title="@string/brightness" android:key="leui_brightness" settings:keywords="@string/keywords_display_brightness_level" />
+    <SwitchPreference android:persistent="false" android:title="@string/auto_brightness_title" android:key="auto_brightness" android:summary="@string/auto_brightness_summary" settings:keywords="@string/keywords_display_auto_brightness" />
+    <PreferenceCategory android:title="@string/leui_display_category_display" />
+    <Preference android:title="@string/leui_displaysettings_color_settings" android:key="leui_display_color_mode_settings" android:summary="@string/leui_displaysettings_color_settings_desc" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.letv.leui.settings.colormode.LeUIDisplayColorModeSettings" />
+    </Preference>
+    <Preference android:title="@string/leui_display_mode_settings" android:key="leui_display_mode_settings" android:summary="@string/leui_display_mode_settings_desc" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.letv.leui.settings.displaymode.LeUIDisplayModeSettings" />
+    <SwitchPreference android:persistent="false" android:title="@string/leui_video_display_enhanced_title" android:key="video_display_enhanced" android:summary="@string/leui_video_display_enhanced_summary" />
+    <com.android.settings.WarnedListPreference android:entries="@array/entries_font_size" android:title="@string/title_font_size" android:key="font_size" android:dialogTitle="@string/dialog_title_font_size" android:entryValues="@array/entryvalues_font_size" settings:keywords="@string/keywords_display_font_size" />
+    <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
+    <PreferenceCategory android:title="@string/leui_display_settings_system_section" />
+    <SwitchPreference android:persistent="false" android:title="@string/lift_to_wake_title" android:key="lift_to_wake" />
+    <SwitchPreference android:persistent="false" android:title="@string/doze_title" android:key="doze" android:summary="@string/doze_summary" />
+    <com.letv.leui.preference.LeListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:entryValues="@array/screen_timeout_values" />
+    <Preference android:title="@string/notification_pulse_title" android:key="notification_pulse_section" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.letv.leui.settings.notifsettings.NotificationPulseSectionFragment" />
+    <SwitchPreference android:persistent="false" android:title="@string/accelerometer_title" android:key="toggle_lock_screen_rotation_preference" />
+    <com.letv.leui.preference.LeListPreference android:title="@string/display_auto_rotate_title" android:key="auto_rotate" android:widgetLayout="@layout/leui_widget_arrow" />
+    <PreferenceScreen android:title="@string/wifi_display_settings_title" android:key="wifi_display" android:fragment="com.android.settings.wfd.WifiDisplaySettings" settings:keywords="@string/keywords_display_cast_screen" />
+</PreferenceScreen>

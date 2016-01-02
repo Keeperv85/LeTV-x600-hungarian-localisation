@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.android.music.widget.MediaPlayerMini android:id="@id/mini_player" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_alignParentBottom="true" />
+    <com.android.music.widget.DistanceAwareScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/mini_player">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/entry_local_music" android:layout_marginTop="90.0dip" android:text="@string/my_music_item_local_music" android:drawableLeft="@drawable/music_icon1" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/local_music_count" android:layout_alignTop="@id/entry_local_music" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_local_music" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:id="@id/entry_history" android:text="@string/my_music_item_history" android:drawableLeft="@drawable/music_icon4" android:layout_below="@id/entry_local_music" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/history_count" android:layout_alignTop="@id/entry_history" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_history" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:id="@id/entry_bookmark" android:text="@string/my_music_item_bookmark" android:drawableLeft="@drawable/music_icon5" android:layout_below="@id/entry_history" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/bookmark_count" android:layout_alignTop="@id/entry_bookmark" style="@style/MyMusicHomeEntryCountItem" />
+            <ImageView android:layout_below="@id/entry_bookmark" style="@style/CommonFullFillDivider" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_color_grey" android:gravity="center" android:id="@id/create_playlist" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/my_music_create_playlist" android:drawableLeft="@drawable/music_little_add" android:drawablePadding="6.0dip" android:layout_below="@id/entry_bookmark" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_below="@id/create_playlist" style="@style/CommonBothMargin20dpDivider" />
+            <com.android.music.widget.UIPlaylistView android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/create_playlist" />
+        </RelativeLayout>
+    </com.android.music.widget.DistanceAwareScrollView>
+    <com.android.music.widget.StatusBarAndActionBarFillView android:id="@id/head_mask" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

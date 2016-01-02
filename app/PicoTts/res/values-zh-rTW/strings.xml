@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_title">錯誤</string>
+    <string name="no_market_app">尚未安裝 Market 應用程式。</string>
+    <string name="alert_dialog_ok">確定</string>
+    <string name="app_name">Pico TTS</string>
+    <string name="eng_usa_sample">這是 Pico 語音合成的英文範例。</string>
+    <string name="eng_gbr_sample">這是 Pico 語音合成的英文範例。</string>
+    <string name="fra_fra_sample">Voici un échantillon de synthèse vocale en français avec Pico.</string>
+    <string name="deu_deu_sample">Dies ist ein Beispiel für Sprachsynthese in Deutsch mit Pico.</string>
+    <string name="ita_ita_sample">Questo è un esempio di sintesi vocale in italiano con Pico.</string>
+    <string name="spa_esp_sample">Este es un ejemplo de síntesis de voz en español con Pico.</string>
+    <string name="installed">已安裝</string>
+    <string name="not_installed">未安裝</string>
+</resources>

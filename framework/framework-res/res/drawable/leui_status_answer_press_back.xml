@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/le_status_action_height" android:width="@dimen/le_status_action_width" android:viewportWidth="471.0" android:viewportHeight="108.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:fillColor="@color/le_status_answer_action_color" android:pathData="M6,106.5c-2.481,0-4.5-2.019-4.5-4.5V6c0-2.481,2.019-4.5,4.5-4.5h459c2.481,0,4.5,2.019,4.5,4.5v96   c0,2.481-2.019,4.5-4.5,4.5H6z" android:fillAlpha="0.2" />
+        <path android:fillColor="@color/le_status_answer_action_color" android:pathData="M465,3c1.654,0,3,1.346,3,3v96c0,1.654-1.346,3-3,3H6c-1.654,0-3-1.346-3-3V6c0-1.654,1.346-3,3-3H465 M465,0H6   C2.7,0,0,2.7,0,6v96c0,3.3,2.7,6,6,6h459c3.3,0,6-2.7,6-6V6C471,2.7,468.3,0,465,0L465,0z" />
+    </group>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.CameraControls android:id="@id/camera_controls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/blocker" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/switcher_size" />
+    <include android:layout_gravity="bottom|center|right" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginRight="-5.0dip" android:layout_marginBottom="6.0dip" layout="@layout/menu_indicators" />
+    <com.android.camera.ui.PieMenuButton android:layout_gravity="bottom|center|right" android:id="@id/menu" android:layout_marginBottom="2.0dip" android:contentDescription="@string/accessibility_menu_button" style="@style/SwitcherButton" />
+    <com.android.camera.ui.CameraSwitcher android:layout_gravity="bottom|center|left" android:id="@id/camera_switcher" android:layout_marginBottom="2.0dip" android:contentDescription="@string/accessibility_mode_picker" style="@style/SwitcherButton" />
+    <com.android.camera.ShutterButton android:layout_gravity="bottom|center" android:id="@id/shutter_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shutter_offset" android:src="@drawable/btn_new_shutter" android:scaleType="center" android:contentDescription="@string/accessibility_shutter_button" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/preview_thumb" android:visibility="invisible" android:layout_width="@dimen/capture_size" android:layout_height="@dimen/capture_size" android:scaleType="centerInside" />
+</com.android.camera.ui.CameraControls>

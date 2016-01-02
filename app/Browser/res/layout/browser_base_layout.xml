@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <FrameLayout android:id="@id/fullscreen_custom_content" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/error_console" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/fixed_titlebar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fixed_titlebar_container" />
+        <FrameLayout android:id="@id/shadow_menubar" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_below="@id/main_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_gravity="top" android:id="@id/quick_dial_edit_mode_mask_top" android:background="@color/quick_dial_edit_mode_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/quick_dial_edit_mode_mask_bottom" android:background="@color/quick_dial_edit_mode_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</FrameLayout>

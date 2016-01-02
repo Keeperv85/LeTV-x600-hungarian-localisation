@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/search_container" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LcSearchView android:id="@id/lcsearch_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" searchview:lcQueryHint="@string/title_search_tip" searchview:lcInputMarginLeft="0.0dip" searchview:lcCancelTextColor="@color/actionbar_text_color" searchview:lcAlwaysShowCancel="true" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
+</LinearLayout>

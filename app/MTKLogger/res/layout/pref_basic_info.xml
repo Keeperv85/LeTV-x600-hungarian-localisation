@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/pref_basic_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:key="pref_logs"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/category_logs" android:title="@string/logs">
+        <CheckBoxPreference android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/mobile_log" android:key="@string/chk_key_mobile_log" />
+        <CheckBoxPreference android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/modem_log" android:key="@string/chk_key_modem_log" />
+        <CheckBoxPreference android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/net_log" android:key="@string/chk_key_net_log" />
+    </PreferenceCategory>
+    <PreferenceCategory android:id="@id/category_basic_info" android:title="@string/basic_info">
+        <Preference android:key="@string/pref_key_exception_db" />
+        <Preference android:key="@string/pref_key_process_name" />
+        <Preference android:key="@string/pref_key_exception_class" />
+        <Preference android:key="@string/pref_key_exception_level" />
+        <Preference android:key="@string/pref_key_exception_type" />
+        <Preference android:key="@string/pref_key_build_version" />
+        <Preference android:key="@string/pref_key_device_name" />
+        <Preference android:key="@string/pref_key_date_time" />
+    </PreferenceCategory>
+</PreferenceScreen>

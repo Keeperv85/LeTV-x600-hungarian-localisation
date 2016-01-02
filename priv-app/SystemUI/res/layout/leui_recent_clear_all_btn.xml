@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/leui_recent_clear_all_btn_layout" android:background="@drawable/clear_all_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.widget.LeClearAllLayout android:id="@id/leui_recent_clear_all_btn" android:clickable="true" android:layout_width="@dimen/le_cc_recent_btn_clear_all_width" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/clear_all_btn_text_color" android:gravity="center" android:id="@id/leui_recent_clear_all_txtview" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/leui_recent_clear_btn_svg" android:drawablePadding="4.0dip" android:layout_centerInParent="true" />
+    </com.android.systemui.widget.LeClearAllLayout>
+</RelativeLayout>

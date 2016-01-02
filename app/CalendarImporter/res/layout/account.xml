@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/account_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/import_to" style="?android:attr/windowTitleStyle" />
+    <View android:id="@id/account_devide_line" android:background="@android:color/holo_blue_light" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" />
+    <ListView android:id="@id/account_list" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" />
+</LinearLayout>

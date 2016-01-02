@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/confirm_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentBottom="true">
+        <View android:background="#3cffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <Button android:id="@id/confirm_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/confirm" style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/settings_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/confirm_layout" android:layout_alignParentTop="true">
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/timer_setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timer_setting_title" />
+        <View android:background="#3cffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/static_timer_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/category_title_foreground" android:gravity="center_vertical" android:id="@id/static_timer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/static_timer_title" />
+            <EditText android:textSize="18.0sp" android:gravity="center" android:id="@id/static_timer_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:hint="@string/static_timer_hint" android:ems="6" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/dynamic_timer_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/category_title_foreground" android:gravity="center_vertical" android:id="@id/dynamic_timer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dynamic_timer_title" />
+            <EditText android:textSize="18.0sp" android:gravity="center" android:id="@id/dynamic_timer_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:hint="@string/dynamic_timer_hint" android:ems="6" android:inputType="number" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/report_setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/report_setting_title" />
+        <View android:background="#3cffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/location_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/category_title_foreground" android:gravity="center_vertical" android:id="@id/location_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_title" />
+            <EditText android:textSize="18.0sp" android:gravity="center" android:id="@id/location_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="41.0dip" android:ems="10" android:inputType="text" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/condition_setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/condition_setting_title" />
+        <View android:background="#3cffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <ListView android:textSize="18.0sp" android:id="@id/chapter_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

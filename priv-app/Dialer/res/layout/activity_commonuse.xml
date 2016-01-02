@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/mf_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.android.letvyellowpage.view.MyListView android:id="@id/commonuse_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:divider="#fff2f2f2" android:dividerHeight="1.0px" android:minHeight="?android:listPreferredItemHeight" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

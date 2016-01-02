@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/le_cc_setting_list_divider_trans_bg" />
+    <item android:drawable="@drawable/le_cc_setting_list_divider_gray_fg" android:left="52.0dip" />
+</layer-list>

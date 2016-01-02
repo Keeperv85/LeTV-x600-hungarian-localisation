@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/ingest_switch_view" android:showAsAction="always" />
+    <item android:id="@id/import_items" android:title="@string/Import" android:showAsAction="always|withText" />
+</menu>

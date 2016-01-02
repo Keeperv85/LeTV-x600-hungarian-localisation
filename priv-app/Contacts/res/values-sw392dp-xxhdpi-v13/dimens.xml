@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_icon_padding">30.0px</dimen>
+    <dimen name="digits_container_height">168.0px</dimen>
+    <dimen name="dialpad_height">676.0px</dimen>
+    <dimen name="dialpad_dialrow_height">192.0px</dimen>
+</resources>

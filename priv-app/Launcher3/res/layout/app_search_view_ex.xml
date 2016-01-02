@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.AppSearchViewEx android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <View android:id="@id/mask_fg" android:background="@color/search_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.widget.LcSearchView android:id="@id/search" android:background="@color/search_search_background_color" android:paddingTop="@android:dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="wrap_content" searchview:lcQueryHint="@string/search_hint" searchview:lcAlwaysShowCancel="true" style="@*android:style/Widget.LeuiCommon.SearchView.Transparent" />
+        <ListView android:id="@id/app_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/search_app_noresult_text_size" android:textColor="@color/search_no_result_color" android:layout_gravity="center" android:id="@id/search_no_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_no_result" android:drawableTop="@drawable/search_no_result" android:drawablePadding="@dimen/search_app_noresult_padding" android:fontFamily="helve-neue" />
+</com.android.launcher3.AppSearchViewEx>

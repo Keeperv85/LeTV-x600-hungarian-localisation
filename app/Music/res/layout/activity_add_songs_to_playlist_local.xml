@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/entry_local_music" android:text="@string/my_music_item_local_music" android:drawableLeft="@drawable/music_icon1" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/local_music_count" android:layout_alignTop="@id/entry_local_music" style="@style/MyMusicHomeEntryCountItem" />
+            <View android:layout_below="@id/entry_local_music" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:id="@id/entry_local_mv" android:visibility="gone" android:text="@string/my_music_item_local_mv" android:drawableLeft="@drawable/music_icon2" android:layout_below="@id/entry_local_music" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/local_mv_count" android:visibility="gone" android:layout_alignTop="@id/entry_local_mv" style="@style/MyMusicHomeEntryCountItem" />
+            <View android:visibility="gone" android:layout_below="@id/entry_local_mv" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:id="@id/entry_history" android:text="@string/my_music_item_history" android:drawableLeft="@drawable/music_icon4" android:layout_below="@id/entry_local_mv" style="@style/MyMusicHomeEntryTextItem" />
+            <TextView android:id="@id/history_count" android:layout_alignTop="@id/entry_history" style="@style/MyMusicHomeEntryCountItem" />
+            <View android:layout_below="@id/entry_history" style="@style/CommonLeftMargin20dpDivider" />
+            <TextView android:id="@id/entry_bookmark" android:text="@string/my_music_item_bookmark" android:drawableLeft="@drawable/music_icon5" android:layout_below="@id/entry_history" style="@style/MyMusicHomeEntryTextItem" />
+            <View android:layout_below="@id/entry_bookmark" style="@style/CommonFullFillDivider" />
+            <com.android.music.widget.UIPlaylistView android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/entry_bookmark" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

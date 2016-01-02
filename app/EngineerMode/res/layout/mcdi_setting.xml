@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/mcdi_mode_contrl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/mcdi_mode" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/mcdi_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mcdi_disable" />
+                    <RadioButton android:id="@id/mcdi_only" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mcdi_only" />
+                    <RadioButton android:id="@id/mcdi_sodi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mcdi_sodi" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/mcdi_wake_timer_contrl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mcdi_set_wake_timer" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/mcdi_timer_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/mcdi_timer_disable" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/mcdi_timer_val_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                    <EditText android:id="@id/mcdi_timer_val" android:layout_width="100.0dip" android:layout_height="wrap_content" android:maxLength="7" android:numeric="integer" />
+                    <TextView android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/mcdi_wake_timer_tip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/mcdi_start_timer" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="@string/mcdi_start_timer" />
+            <Button android:id="@id/get_mcdi_setting" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="@string/get_mcdi_setting" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

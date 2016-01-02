@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/app_music" android:id="@id/menu_search" android:title="Search" android:showAsAction="ifRoom" android:actionViewClass="com.android.music.ui.search.SearchBarView" />
+</menu>

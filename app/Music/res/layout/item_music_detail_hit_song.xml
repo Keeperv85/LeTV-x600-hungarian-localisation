@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/special_item_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/music_detail_layout" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/listenmusic_choiceness_latestalbum_text1" android:ellipsize="end" android:id="@id/album_detail_tab1_collect_item_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_music_add_to_current_playlist" android:maxLines="1" android:fontFamily="hans-sans-normal" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/listenmusic_choiceness_latestalbum_text2" android:ellipsize="end" android:id="@id/album_detail_tab1_collect_item_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/my_music_add_to_current_playlist" android:maxLines="1" android:layout_below="@id/album_detail_tab1_collect_item_text1" android:layout_alignLeft="@id/album_detail_tab1_collect_item_text1" android:fontFamily="hans-sans-normal" />
+    </RelativeLayout>
+    <ImageView android:id="@id/album_detail_tab1_collect_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/listenmusic_little_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#fffcfcfd" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip">
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.volley.toolbox.NetworkImageView android:id="@id/ShopItemImage" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/category_img" android:background="@drawable/firm_img" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/font_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/follow_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/firm_name" android:maxEms="5" android:singleLine="true" android:fontFamily="helve-neue-regular" />
+    </LinearLayout>
+</LinearLayout>

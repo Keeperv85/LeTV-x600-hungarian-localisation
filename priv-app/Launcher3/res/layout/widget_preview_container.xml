@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.WidgetPreviewsContainer android:id="@id/widget_preview_container" android:paddingLeft="@dimen/widget_preview_container_padding" android:paddingTop="@android:dimen/status_bar_height" android:paddingRight="@dimen/widget_preview_container_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/widgets_preview_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_preview_hint_text_height" />
+    <TextView android:textSize="@dimen/widget_preview_hint_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/widget_add_hint" android:layout_width="wrap_content" android:layout_height="@dimen/widget_preview_hint_text_height" android:text="@string/widget_add_hint" style="@style/LeTextView" />
+</com.android.launcher3.WidgetPreviewsContainer>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_settings_phone" android:title="@string/phone_settings" android:key="phone_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_mms" android:title="@string/mms_settings" android:key="mms_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.letv.leui.mms.act.LeUiMessagingPreferenceActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_recorder" android:title="@string/sound_recorder_settings" android:key="recorder_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.letv.android.recorder" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.recorder.settings.RecorderSetting" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_browser" android:title="@string/broswer_settings" android:key="leui_broswer_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.browser" android:action="android.intent.action.MAIN" android:targetClass="com.android.browser.settings.BrowserPreferencesPage" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_gallery" android:title="@string/camera_gallery_settings" android:key="leui_camera_gallery_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.gallery3d" android:action="android.intent.action.MAIN" android:targetClass="com.android.gallery3d.settings.GallerySettings" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_calendar" android:title="@string/calendar_settings" android:key="calendar_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.calendar" android:action="android.intent.action.MAIN" android:targetClass="com.android.calendar.CalendarSettingsActivity" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_email" android:title="@string/email_settings" android:key="email_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com.android.email" android:action="android.intent.action.MAIN" android:targetClass="com.android.email.activity.setup.AccountSettings" />
+    </Preference>
+    <Preference android:icon="@drawable/ic_settings_music" android:title="@string/leui_music_settings" android:key="music_settings" android:widgetLayout="@layout/leui_widget_arrow">
+        <intent android:targetPackage="com. androd. music" android:action="android.intent.action.MAIN" android:targetClass="com. androd. music.setting.MainSettingActivity" />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="525">
+        <targets>
+            <target android:targetId="@id/app_snippet" />
+            <target android:targetId="@id/bottom_container" />
+        </targets>
+    </changeBounds>
+    <slide android:interpolator="@android:interpolator/le_c_interpolator" android:duration="350" android:startDelay="350" android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@id/buttons_panel" />
+        </targets>
+    </slide>
+</transitionSet>

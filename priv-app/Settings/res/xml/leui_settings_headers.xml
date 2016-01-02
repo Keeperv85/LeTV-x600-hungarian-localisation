@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/res/com.android.settings">
+    <dashboard-category android:id="@id/wireless_section" android:title="@string/header_category_wireless_networks">
+        <dashboard-tile leui:icon="@drawable/ic_settings_airplane_svg" leui:id="@id/leui_toggle_airplane" leui:title="@string/airplane_mode" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_wlan_svg" leui:id="@id/wifi_settings" leui:title="@string/wifi_settings_title" leui:fragment="com.android.settings.wifi.WifiSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_bluetooth_svg" leui:id="@id/bluetooth_settings" leui:title="@string/bluetooth_settings_title" leui:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_sim_sd_svg" leui:id="@id/leui_network_settings" leui:title="@string/dual_sim_network_settings_title" leui:breadCrumbTitle="@string/wireless_networks_settings_title">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.MobileNetworkSettings">
+                <extra android:name=":settings:show_fragment_as_subsetting" android:value="true" />
+            </intent>
+        </dashboard-tile>
+        <dashboard-tile leui:icon="@drawable/ic_settings_hotpots_svg" leui:id="@id/leui_person_hotspot_settings" leui:title="@string/person_tether_title" leui:fragment="com.android.settings.TetherSettings" />
+        <dashboard-tile leui:id="@id/operator_settings" leui:fragment="com.android.settings.WirelessSettings">
+            <intent android:action="com.android.settings.OPERATOR_APPLICATION_SETTING" />
+        </dashboard-tile>
+        <dashboard-tile leui:icon="@drawable/ic_settings_vpn_svg" leui:id="@id/vpn_control_settings" leui:title="@string/vpn_control_settings" leui:fragment="com.android.settings.vpn2.VpnSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_more_svg" leui:id="@id/wireless_settings" leui:title="@string/radio_controls_title" leui:fragment="com.android.settings.WirelessSettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/leui_common_section" android:title="@string/header_common_settings">
+        <dashboard-tile leui:icon="@drawable/ic_settings_display_svg" leui:id="@id/display_settings" leui:title="@string/display_settings_title" leui:fragment="com.android.settings.DisplaySettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_wallpaper_svg" leui:id="@id/wallpaper_settings" leui:title="@string/leui_wallpaper_and_theme_settings">
+            <intent android:targetPackage="com.letv.android.themesettings" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.themesettings.ThemeSettingsActivity" />
+        </dashboard-tile>
+        <dashboard-tile leui:icon="@drawable/ic_settings_sound_svg" leui:id="@id/sound_settings" leui:title="@string/sound_vibration_settings" leui:fragment="com.android.settings.notification.NotificationSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_notification_svg" leui:id="@id/notification_settings" leui:title="@string/notification_settings" leui:fragment="com.android.settings.notification.NotificationAppList" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_controlcenter_svg" leui:id="@id/leui_controlcenter_settings" leui:title="@string/control_center_settings">
+            <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.controlcenter.settings.LeControlCenterSettingActivity" />
+        </dashboard-tile>
+        <dashboard-tile leui:icon="@drawable/ic_settings_personal" leui:id="@id/leui_personal_time_settings" leui:title="@string/personal_time_settings" leui:fragment="com.android.settings.notification.ZenModeSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_double_apps" leui:id="@id/leui_double_apps_settings" leui:title="@string/leui_double_apps_settings" leui:fragment="com.letv.leui.settings.LeUIDoubleAppsSettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_personal">
+        <dashboard-tile leui:icon="@drawable/ic_settings_letv_ecosystem_svg" leui:id="@id/leui_ecosystem_settings" leui:title="@string/leui_ecosystem_settings_title" leui:summary="@string/leui_ecosystem_settings_summary" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_cloud_svg" leui:id="@id/leui_cloud_sync_settings" leui:title="@string/letv_cloud_settings" leui:fragment="com.android.settings.accounts.LetvAccountSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_accounts_svg" leui:id="@id/account_settings" leui:title="@string/le_account_settings_title" leui:fragment="com.android.settings.accounts.AccountSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_security_svg" leui:id="@id/security_settings" leui:title="@string/security_settings_title" leui:fragment="com.android.settings.SecuritySettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_finger_print_svg" leui:id="@id/finger_print_settings" leui:title="@string/finger_settings" leui:fragment="com.letv.leui.settings.fingerprint.LeUIFingerPrintManageFragment" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_location_svg" leui:id="@id/location_settings" leui:title="@string/location_settings_title" leui:fragment="com.android.settings.location.LocationSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_privacyauth_svg" leui:id="@id/leui_privacy_auth_settings" leui:title="@string/privacyauth_settings">
+            <intent android:targetPackage="com.letv.android.letvsafe" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.letvsafe.HomeActivity" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/other_section" android:title="@string/other_settings_section">
+        <dashboard-tile leui:icon="@drawable/ic_update_system_settings_svg" leui:id="@id/system_update_settings" leui:title="@string/leui_system_update_settings">
+            <intent android:targetPackage="com.letv.android.ota" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.ota.LeSystemUpgrade">
+                <extra android:name="expose" android:value="SystemSetting" />
+            </intent>
+        </dashboard-tile>
+        <dashboard-tile leui:icon="@drawable/ic_settings_language_svg" leui:id="@id/language_settings" leui:title="@string/language_settings" leui:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_date_time_svg" leui:id="@id/date_time_settings" leui:title="@string/date_and_time_settings_title" leui:fragment="com.android.settings.DateTimeSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_smart" leui:id="@id/smart_settings" leui:title="@string/leui_smart_settings" leui:fragment="com.letv.leui.settings.LeUISmartSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_schpwronoff_svg" leui:id="@id/power_settings" leui:title="@string/schedule_power_on_off_settings_title">
+            <intent android:targetPackage="com.letv.leui.schpwronoff" android:action="android.intent.action.MAIN" android:targetClass="com.letv.leui.schpwronoff.LeUIAlarmClock" />
+        </dashboard-tile>
+        <dashboard-tile leui:icon="@drawable/ic_single_hand_settings" leui:id="@id/leui_single_hand_mode_settings" leui:title="@string/leui_single_hand_mode_title" leui:fragment="com.letv.leui.settings.LeUISingleHandModeSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_applications_svg" leui:id="@id/application_settings" leui:title="@string/applications_settings" leui:fragment="com.android.settings.applications.ManageApplications" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_battery_svg" leui:id="@id/battery_settings" leui:title="@string/power_usage_summary_title" leui:fragment="com.android.settings.fuelgauge.PowerUsageSummary" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_storage_svg" leui:id="@id/storage_settings" leui:title="@string/storage_settings" leui:fragment="com.android.settings.deviceinfo.Memory" />
+        <dashboard-tile leui:icon="@drawable/privacy_settings_svg" leui:id="@id/privacy_settings" leui:title="@string/privacy_settings_factory_reset" leui:fragment="com.android.settings.MasterClear" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_accessibility_svg" leui:id="@id/accessibility_settings" leui:title="@string/accessibility_settings" leui:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+        <dashboard-tile leui:icon="@drawable/ic_print_svg" leui:id="@id/print_settings" leui:title="@string/print_settings" leui:fragment="com.android.settings.print.PrintSettingsFragment" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_development_svg" leui:id="@id/development_settings" leui:title="@string/development_settings_title" leui:fragment="com.android.settings.DevelopmentSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_about_svg" leui:id="@id/about_settings" leui:title="@string/about_settings" leui:fragment="com.android.settings.DeviceInfoSettings" />
+    </dashboard-category>
+</dashboard-categories>

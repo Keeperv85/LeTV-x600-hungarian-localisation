@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/album_art" android:background="@drawable/music_unknown_song" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_centerVertical="true" />
+    <TextView android:id="@id/track_count" android:layout_height="72.0dip" android:layout_centerVertical="true" style="@style/TrackListItemCountTextStyle" />
+    <RelativeLayout android:paddingLeft="12.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/track_count" android:layout_toRightOf="@id/album_art" android:layout_centerVertical="true">
+        <TextView android:id="@id/album_name" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="@dimen/list_view_primary_text_size" style="@style/TrackListItemPrimaryTextStyle" />
+        <TextView android:id="@id/artist_name" android:layout_below="@id/album_name" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="@dimen/list_view_secondary_text_size" style="@style/TrackListItemSubTextStyle" />
+        <TextView android:id="@id/release_date" android:layout_below="@id/artist_name" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="@dimen/list_view_secondary_text_size" style="@style/TrackListItemSubTextStyle" />
+    </RelativeLayout>
+</RelativeLayout>

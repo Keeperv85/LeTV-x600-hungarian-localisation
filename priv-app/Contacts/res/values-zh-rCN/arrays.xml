@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="number_opt">
+        <item>新建联系人</item>
+        <item>添加已有联系人</item>
+        <item>删除</item>
+        <item>置顶通话记录</item>
+        <item>加入黑名单</item>
+        <item>标记</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>诈骗</item>
+        <item>中介</item>
+        <item>推销</item>
+        <item>送餐</item>
+        <item>快递</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="markLables_for_yellopage">
+        <item>诈骗</item>
+        <item>中介</item>
+        <item>推销</item>
+        <item>送餐</item>
+        <item>快递</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>拦截电话和信息</item>
+        <item>拦截电话</item>
+        <item>拦截信息</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>组织</item>
+        <item>备注</item>
+    </string-array>
+</resources>

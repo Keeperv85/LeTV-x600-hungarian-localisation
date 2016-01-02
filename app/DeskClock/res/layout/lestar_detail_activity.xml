@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lestar_detail_container" android:background="@color/ringtone_square_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/media_detail_header_banner" android:layout_width="fill_parent" android:layout_height="@dimen/media_detail_header_banner_height" android:src="@drawable/subscribe_default_big" android:scaleType="centerCrop" />
+    <View android:id="@id/media_detail_header_banner_shadow" android:background="@color/media_detail_header_banner_shadow_color" android:layout_width="fill_parent" android:layout_height="@dimen/media_detail_header_banner_height" />
+    <com.android.deskclock.alarms.starclock.widget.CustomScrollView android:id="@id/lestar_detail_scrollview" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/lestar_detail_header" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/lestar_detail_info_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.android.deskclock.alarms.starclock.widget.RingtoneHotView android:orientation="vertical" android:id="@id/lestar_detail_ringtone_hot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.letv.leui.common.recommend.widget.LeRecommendViewGroup android:id="@id/lestar_detail_recommend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle" />
+                </LinearLayout>
+                <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/lestar_detail_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.letv.leui.widget.LeLoadingView android:layout_gravity="center" android:id="@id/lestar_detail_loading_view" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.android.deskclock.alarms.starclock.widget.CustomScrollView>
+</RelativeLayout>

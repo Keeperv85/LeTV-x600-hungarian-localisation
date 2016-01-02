@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <SwitchPreference android:persistent="false" android:title="@string/call_auto_record" android:key="button_auto_record" android:summaryOn="@string/open_auto_record" android:summaryOff="@string/close_auto_record" />
+    <PreferenceCategory android:title="@string/call_setcall_range" android:key="call_setcall_range">
+        <com.letv.leui.phone.RadioPreference android:persistent="false" android:title="@string/all_calls" android:key="all_calls" android:widgetLayout="@layout/leui_preference_widget_redio" android:defaultValue="true" />
+        <com.letv.leui.phone.RadioPreference android:persistent="false" android:title="@string/custom_contact" android:key="button_custom_contact" android:widgetLayout="@layout/leui_preference_widget_redio" />
+    </PreferenceCategory>
+    <SwitchPreference android:persistent="false" android:title="@string/strange_number" android:key="button_strange_number" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/add_from_the_mail" android:key="button_add_contact" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+</PreferenceScreen>

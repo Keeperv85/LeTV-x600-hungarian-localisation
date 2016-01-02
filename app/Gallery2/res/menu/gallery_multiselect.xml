@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_edit" android:visible="false" android:title="@string/edit" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/menu_delete" android:visible="false" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_share" android:visible="false" android:title="@string/share" android:showAsAction="ifRoom" android:actionProviderClass="android.widget.ShareActionProvider" />
+    <item android:id="@id/menu_crop" android:visible="false" android:title="@string/crop_action" android:showAsAction="never" />
+    <item android:id="@id/menu_trim" android:visible="false" android:title="@string/trim_action" android:showAsAction="never" />
+    <item android:id="@id/menu_mute" android:visible="false" android:title="@string/mute_action" android:showAsAction="never" />
+    <item android:id="@id/menu_set_as" android:visible="false" android:title="@string/set_as" android:showAsAction="never" />
+</menu>

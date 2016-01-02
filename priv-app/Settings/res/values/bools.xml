@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="has_dock_settings">false</bool>
+    <bool name="has_silent_mode">true</bool>
+    <bool name="has_powercontrol_widget">true</bool>
+    <bool name="config_additional_system_update_setting_enable">false</bool>
+    <bool name="auto_confirm_bluetooth_activation_dialog">false</bool>
+    <bool name="config_show_regulatory_info">false</bool>
+    <bool name="config_show_mobile_plan">true</bool>
+    <bool name="config_msid_enable">false</bool>
+    <bool name="config_allow_edit_carrier_enabled">false</bool>
+    <bool name="config_system_update_setting_enable">false</bool>
+    <bool name="config_build_number_setting_enable">true</bool>
+    <bool name="config_simple_dev_options_enable">false</bool>
+    <bool name="config_show_encrypted_enabled">false</bool>
+    <bool name="config_secretcode_enabled">true</bool>
+    <bool name="leui_config_show_NotificationLed">true</bool>
+    <bool name="leui_application_settings_show_contactsettings">false</bool>
+    <bool name="leui_main_settings_show_controlcenter">true</bool>
+    <bool name="config_show_notification_sensitive">false</bool>
+    <bool name="config_debug_display_mode_reboot">true</bool>
+    <bool name="config_show_leui_smart_settings">false</bool>
+    <bool name="config_debug_show_owerinfo_settings">false</bool>
+    <bool name="config_debug_show_color_mode">true</bool>
+    <bool name="config_debug_show_displaysettings">true</bool>
+    <bool name="config_debug_show_video_display_enhanced">true</bool>
+    <bool name="config_use_nuplayer_show">false</bool>
+    <bool name="config_screen_pinning_settings_show">false</bool>
+    <bool name="config_airplane_settings_show">true</bool>
+    <bool name="config_backstage_power_notification_support">false</bool>
+    <bool name="config_show_location_mode_settings">false</bool>
+    <bool name="leui_finger_print_support">false</bool>
+    <bool name="config_show_double_click_func_in_accessibility_settings">true</bool>
+    <bool name="auto_hide_keyboard_when_onpause">false</bool>
+    <bool name="tether">true</bool>
+    <bool name="auto_join_enable">false</bool>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:padding="@dimen/event_info_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/event_info_loading_msg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/event_info_progress_bar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:indeterminate="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/loading" android:layout_below="@id/event_info_progress_bar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0dip" android:gravity="center" android:id="@id/event_info_error_msg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/event_not_found" />
+    <LinearLayout android:orientation="vertical" android:id="@id/event_info_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:orientation="vertical" android:id="@id/event_info_scroll_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="17.0dip">
+                    <TextView android:textSize="18.0dip" android:textColor="@color/black" android:id="@id/title" android:layout_marginTop="19.0dip" android:textIsSelectable="true" android:fontFamily="@string/font_medium" style="@style/EventDetailContainer" />
+                    <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="18.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/where_container" android:layout_marginTop="20.0dip" style="@style/EventDetailContainer">
+                        <ImageView android:background="@drawable/event_info_where" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/where" style="@style/event_detail_text_no_singleline" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginTop="16.0dip" style="@style/EventDetailContainer">
+                        <ImageView android:background="@drawable/event_info_when" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/when_datetime" android:maxLines="2" style="@style/event_detail_text_no_singleline" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/owner_container" android:layout_marginTop="16.0dip" style="@style/EventDetailContainer">
+                        <ImageView android:background="@drawable/event_info_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/calendar_name" style="@style/event_detail_text" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/description_container" android:layout_marginTop="16.0dip" style="@style/EventDetailContainer">
+                        <ImageView android:background="@drawable/event_info_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <include android:id="@id/description" layout="@layout/expandable_textview" />
+                    </LinearLayout>
+                    <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="17.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/organizer_container" android:layout_marginTop="17.0dip" style="@style/EventDetailContainer">
+                        <ImageView android:background="@drawable/event_info_organizer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/organizer" style="@style/event_detail_text" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/attendees_container" android:layout_marginTop="16.0dip" style="@style/EventDetailContainer">
+                        <com.android.calendar.event.AttendeesView android:textColor="@color/day_up_item_color" android:orientation="vertical" android:id="@id/long_attendee_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/event_info_buttons_container" style="@style/EventDetailContainer">
+                        <Button android:enabled="false" android:textColor="@color/event_info_headline_color" android:id="@id/change_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_event_color_label" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+                        <Button android:enabled="false" android:textColor="@color/event_info_headline_color" android:id="@id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_label" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+                        <Button android:textColor="@color/event_info_headline_color" android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_label" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_marginTop="8.0dip" style="@style/EventDetailContainer" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/email_attendees_container" android:visibility="gone" style="@style/EventDetailContainer">
+                        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+                        <Button android:textSize="16.0sp" android:textColor="#ff777777" android:gravity="center_vertical" android:id="@id/email_attendees_button" android:background="?android:selectableItemBackground" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="0.0dip" android:text="@string/email_guests_label" android:drawableLeft="@drawable/event_info_mail_button" android:drawablePadding="8.0dip" android:textAllCaps="false" style="@style/TextAppearance.EditEvent_LabelSmall" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/launch_custom_app_container" android:visibility="gone" style="@style/EventDetailContainer">
+                        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+                        <Button android:textSize="16.0sp" android:textColor="#ff777777" android:gravity="center_vertical" android:id="@id/launch_custom_app_button" android:background="?android:selectableItemBackground" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="0.0dip" android:drawablePadding="8.0dip" android:textAllCaps="false" style="@style/TextAppearance.EditEvent_LabelSmall" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="24.0dip" android:layout_marginTop="17.0dip" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip">
+                    <include layout="@layout/reminder_item_include" />
+                </LinearLayout>
+                <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" />
+                <Button android:textSize="15.0dip" android:textColor="@color/delete_button_color" android:layout_gravity="center_horizontal" android:id="@id/delete_event" android:background="@drawable/button_click_bg" android:layout_width="328.0dip" android:layout_height="42.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" android:text="@string/delete_label" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/response_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <RadioGroup android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/response_value" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip">
+                <RadioButton android:id="@id/response_yes" android:text="@string/response_yes" android:drawableLeft="@drawable/response_button_yes" style="@style/event_info_radiobutton_style" />
+                <RadioButton android:id="@id/response_maybe" android:layout_marginLeft="69.0dip" android:text="@string/response_maybe" android:drawableLeft="@drawable/response_button_maybe" style="@style/event_info_radiobutton_style" />
+                <RadioButton android:id="@id/response_no" android:layout_marginLeft="69.0dip" android:text="@string/response_no" android:drawableLeft="@drawable/response_button_declined" style="@style/event_info_radiobutton_style" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

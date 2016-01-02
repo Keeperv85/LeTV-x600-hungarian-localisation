@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="?android:dividerVertical" android:showDividers="middle" android:dividerPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/action_search_cancel" style="@style/CustomActionButton">
+        <TextView android:text="@string/action_btn_cancel" style="@style/CustomActionButtonText" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/action_search_ok" style="@style/CustomActionButton">
+        <TextView android:text="@string/action_btn_ok" style="@style/CustomActionButtonText" />
+    </LinearLayout>
+</LinearLayout>

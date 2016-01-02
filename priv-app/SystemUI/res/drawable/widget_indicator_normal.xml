@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/widget_indicator_radius" />
+    <size android:height="@dimen/widget_indicator_size" android:width="@dimen/widget_indicator_size" />
+    <solid android:color="#66ffffff" />
+</shape>

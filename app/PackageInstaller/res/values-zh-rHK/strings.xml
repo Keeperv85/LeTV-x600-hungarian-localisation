@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">套裝軟件安裝程式</string>
+    <string name="next">下一項</string>
+    <string name="install">安裝</string>
+    <string name="done">完成</string>
+    <string name="security_settings_desc">允許取得此應用程式：</string>
+    <string name="cancel">取消</string>
+    <string name="unknown">未知</string>
+    <string name="install_done">應用程式安裝完成。</string>
+    <string name="install_confirm_question">要安裝此應用程式嗎？它將獲得以下權限：</string>
+    <string name="install_confirm_question_no_perms">您要安裝此應用程式嗎？此應用程式不需要任何特殊權限。</string>
+    <string name="install_confirm_question_update">您要安裝此應用程式的新版本嗎？您現有的資料不會遺失。更新後的應用程式將具備以下權限：</string>
+    <string name="install_confirm_question_update_system">您要安裝此內建應用程式的新版本嗎？您現有的資料不會遺失。更新後的應用程式將具備以下權限：</string>
+    <string name="install_confirm_question_update_no_perms">是否要為這一現有應用程式安裝更新？您現有的資料不會遺失，且安裝過程無需任何特殊權限。</string>
+    <string name="install_confirm_question_update_system_no_perms">是否要為這一內建應用程式安裝更新？您現有的資料不會遺失，且安裝過程無需任何特殊權限。</string>
+    <string name="install_failed">應用程式未安裝。</string>
+    <string name="install_failed_invalid_apk">該套裝軟件似乎已損壞。</string>
+    <string name="install_failed_inconsistent_certificates">已安裝了產生簽名衝突的同名套裝軟件。</string>
+    <string name="install_failed_older_sdk">該套裝軟件僅適用於更新版本的 Android。</string>
+    <string name="install_failed_cpu_abi_incompatible">此應用程式與您的手機不相容。</string>
+    <string name="install_failed_file_not_found">套裝軟件已被刪除，無法完成安裝。</string>
+    <string name="install_failed_verify_failed">該套裝軟件未通過驗證，無法安裝。</string>
+    <string name="install_failed_verify_timeout">嘗試驗證此套裝軟件時發生超時。請稍後嘗試重新安裝。</string>
+    <string name="install_failed_msg">無法在您的手機上安裝 “%1$s”。</string>
+    <string name="launch">開啟</string>
+    <string name="unknown_apps_dlg_title">禁止安裝</string>
+    <string name="unknown_apps_dlg_text">基於安全考慮，您的手機已設定為禁止安裝來源不明的應用程式。</string>
+    <string name="ok">確定</string>
+    <string name="settings">設定</string>
+    <string name="allow_source_dlg_title">新的應用程式來源</string>
+    <string name="allow_source_dlg_text">"%1$s 要求安裝其他應用程式。
+
+ 從現在起允許此操作嗎？"</string>
+    <string name="manage_applications">管理應用程式</string>
+    <string name="dlg_app_replacement_title">要取代該應用程式嗎？</string>
+    <string name="dlg_app_replacement_statement">"您要安裝的應用程式將取代另一應用程式。
+
+ 系統將儲存您以前的所有用戶資料。"</string>
+    <string name="dlg_sys_app_replacement_statement">"這是系統應用程式。
+
+ 系統將儲存您以前的所有用戶資料。"</string>
+    <string name="out_of_space_dlg_title">沒有儲存空間</string>
+    <string name="out_of_space_dlg_text">無法安裝 “%1$s”，請騰出一些儲存空間並重試。</string>
+    <string name="dlg_ok">確定</string>
+    <string name="app_not_found_dlg_title">未找到應用程式</string>
+    <string name="app_not_found_dlg_text">未在已安裝應用程式的清單中找到該應用程式。</string>
+    <string name="uninstall_application_title">卸載安裝應用程式</string>
+    <string name="uninstall_update_title">卸載更新</string>
+    <string name="uninstall_activity_text">%1$s 屬於以下應用程式：</string>
+    <string name="uninstall_application_text">要卸載此應用程式嗎？</string>
+    <string name="uninstall_application_text_all_users">是否要為 <b>「所有」</b> 用戶卸載此應用程式？系統將為裝置上的 <b>「所有」</b> 用戶刪除此應用程式及其資料。</string>
+    <string name="uninstall_application_text_user">您要為用戶 %1$s 卸載此應用程式嗎？</string>
+    <string name="uninstall_update_text">您要將此應用程式取代成出廠版本嗎？</string>
+    <string name="uninstalling">正在卸載...</string>
+    <string name="uninstall_done">卸載安裝完成。</string>
+    <string name="uninstall_failed">卸載安裝失敗。</string>
+    <string name="uninstall_failed_device_policy_manager">此套裝軟件是目前使用的裝置管理員，無法卸載。</string>
+    <string name="uninstall_blocked_profile_owner">這是您的 %1$s 設定檔所需的應用程式，因此無法卸載。</string>
+    <string name="uninstall_blocked_device_owner">這是您的裝置管理員要求必須安裝的應用程式，因此無法卸載。</string>
+    <string name="manage_device_administrators">管理裝置管理員</string>
+    <string name="uninstall_failed_msg">無法卸載 “%1$s”。</string>
+    <string name="Parse_error_dlg_title">分析錯誤</string>
+    <string name="Parse_error_dlg_text">分析套裝軟件時出現問題。</string>
+    <string name="newPerms">新權限</string>
+    <string name="allPerms">全部</string>
+    <string name="privacyPerms">私隱相關權限</string>
+    <string name="devicePerms">裝置相關權限</string>
+    <string name="no_new_perms">新版本不需要任何新的權限</string>
+    <string name="grant_confirm_question">要授予該應用程式授以下權限嗎？</string>
+    <string name="unknow_source">解除禁止</string>
+    <string name="relieve_Prohibition">解除禁止</string>
+    <string name="unknow_source_message">"由於安全原因，系統已禁止安裝非官方來源的應用程式。解除禁止限制將允許您從任何來源安裝應用程式，但您的手機安全和個人資料可能會受到威脅，您將承擔所有安全風險。
+您可透過“設定－>密碼安全“ 進行更改設定。"</string>
+    <string name="apk_uncompatible">該應用程式與已安裝的應用程式%1$s不相容，請卸載此應用程式或下載最新的版本後再次嘗試安裝。</string>
+    <string name="apk_unnormal">安裝套件異常導致安裝失敗，請重新下載。</string>
+    <string name="apk_Version_low">系統已安裝了較新版本的此應用程式，請下載更新的版本。</string>
+    <string name="apk_location_Incorrect">指定了不正確的安裝位置。</string>
+    <string name="apk_Unknown_error">由於一些未識別的錯誤，此次未能成功安裝，請嘗試下載最新的版本後進行安裝。</string>
+    <string name="apk_redownload">重新下載</string>
+    <string name="clear_space">清理垃圾</string>
+    <string name="parsing_failure">此 APK 檔不正確,無法正常打開</string>
+    <string name="other_permissions">其他權限</string>
+    <string name="app_version">版本 : %1$s</string>
+    <string name="low_compare_SDK">應用程式版本過舊，請下載最新版本的應用程式。</string>
+    <string name="update_system">更新系統</string>
+    <string name="install_failed_system_error">系統異常導致安裝失敗，建議升級系統到最新的版本。</string>
+    <string name="not_enough_storage_space">系統儲存空間不足，請清理空間之後重試。</string>
+    <string name="sdk_too_low">由於您的手機系統版本過舊導致安裝失敗，您可嘗試更新系統之後進行安裝。</string>
+    <string name="select_delete_apk">刪除安裝套件</string>
+    <string name="delete_apk_faile">安裝套件刪除失敗</string>
+    <string name="delete_apk_success">安裝套件刪除成功</string>
+    <string name="no_perms">應用程式沒有申請任何權限</string>
+    <string name="delete_apk_toast">已刪除「%1$s」安裝檔</string>
+    <string name="installing">已安裝  %1$d%%</string>
+    <string name="high_risk_permissions">高風險權限，(涉及安全、隐私，可能產生費用)</string>
+</resources>

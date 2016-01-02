@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_vertical" android:id="@id/ShopItemImage" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/image_local" android:background="@drawable/bg01" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/ShopItemTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:fontFamily="helve-neue-regular" />
+    <View android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ShopItemTuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/icon_20" />
+</LinearLayout>

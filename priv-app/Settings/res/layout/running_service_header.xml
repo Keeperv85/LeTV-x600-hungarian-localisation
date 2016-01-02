@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/service_process_header" layout="@*android:layout/le_preference_category" />
+    <View android:background="#ffdaddde" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@android:dimen/le_preference_padding_start" />
+</LinearLayout>

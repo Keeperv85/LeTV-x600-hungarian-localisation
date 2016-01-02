@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_title_settings" android:key="prefs_deskclock"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <SwitchPreference android:title="@string/pref_title_gesture" android:key="prefs_gesture" android:summary="@string/gesture_alarm_switch_summary" android:defaultValue="false" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/alarm_snooze_entries" android:layout="@android:layout/le_preference_list2" android:title="@string/alarm_snooze_title" android:key="prefs_snooze_time" android:defaultValue="@string/alarm_snooze_value_default" android:dialogTitle="@string/alarm_snooze_title" android:entryValues="@array/alarm_snooze_values" leui:leListPreferenceMode="MODE_BOTTOM_SHEET" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/volume_button_setting_entries" android:layout="@android:layout/le_preference_list2" android:title="@string/volume_button_setting_title" android:key="prefs_volume_button_setting" android:defaultValue="1" android:dialogTitle="@string/volume_button_setting_title" android:entryValues="@array/volume_button_setting_values" leui:leListPreferenceMode="MODE_BOTTOM_SHEET" />
+    <SwitchPreference android:title="@string/alarm_setting_title_poweroff" android:key="prefs_power_off" android:defaultValue="true" />
+</PreferenceScreen>

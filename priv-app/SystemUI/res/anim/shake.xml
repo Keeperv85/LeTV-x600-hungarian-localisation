@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:interpolator/accelerate_decelerate"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="80" android:startOffset="0" android:toXDelta="-105.0" />
+    <translate android:duration="80" android:startOffset="80" android:toXDelta="161.0" />
+    <translate android:duration="80" android:startOffset="160" android:toXDelta="-88.0" />
+    <translate android:duration="80" android:startOffset="240" android:toXDelta="52.0" />
+    <translate android:duration="80" android:startOffset="320" android:toXDelta="-31.0" />
+    <translate android:duration="80" android:startOffset="400" android:toXDelta="11.0" />
+</set>

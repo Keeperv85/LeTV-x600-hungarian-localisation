@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/item_marge_tiny" android:layout_marginStart="@dimen/item_marge_normal" android:layout_marginEnd="@dimen/item_marge_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/item_recomend_tv_music_index_front_size" android:textColor="@color/item_recommend_music_front_color1" android:id="@id/tv_music_index" android:layout_width="32.0dip" android:layout_height="@dimen/item_recommend_music_h" style="@style/LeTextStyle" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_music_box" android:background="@color/item_recommend_card_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/item_recommend_music_h" android:layout_marginStart="@dimen/item_recomend_margin_size">
+        <TextView android:textSize="@dimen/font_normal" android:textColor="@color/shallow_black" android:ellipsize="end" android:id="@id/tv_music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5.0dip" android:drawableEnd="@drawable/recommend_music_arrow" android:paddingStart="5.0dip" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey" android:ellipsize="end" android:id="@id/tv_music_album" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_recomend_front_margin_size" android:singleLine="true" android:layout_below="@id/tv_music_name" android:paddingStart="5.0dip" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="bottom|center" android:id="@id/dialpad" android:background="@color/dialpad_background_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_height" android:stretchColumns="0,2,4" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/one" android:focusable="true" android:clickable="true" style="@style/DialtactsDialpadButtonStyle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/dialpad_key_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/dialpad_key_number_text_style" />
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/dialpad_key_voicemail" android:layout_width="@dimen/dialpad_voicewidth" android:layout_height="@dimen/dialpad_voiceheight" android:src="@drawable/ic_dial_action_voice" />
+            </LinearLayout>
+        </com.android.phone.common.dialpad.DialpadKeyButton>
+        <include layout="@layout/dialpad_port_line" />
+        <include android:id="@id/two" layout="@layout/dialpad_key" />
+        <include layout="@layout/dialpad_port_line" />
+        <include android:id="@id/three" layout="@layout/dialpad_key" />
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:id="@id/four" layout="@layout/dialpad_key" />
+        <include layout="@layout/dialpad_port_line" />
+        <include android:id="@id/five" layout="@layout/dialpad_key" />
+        <include layout="@layout/dialpad_port_line" />
+        <include android:id="@id/six" layout="@layout/dialpad_key" />
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:id="@id/seven" layout="@layout/dialpad_key" />
+        <include layout="@layout/dialpad_port_line" />
+        <include android:id="@id/eight" layout="@layout/dialpad_key" />
+        <include layout="@layout/dialpad_port_line" />
+        <include android:id="@id/nine" layout="@layout/dialpad_key" />
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/star" android:background="@drawable/dialpad_item" android:focusable="true" android:clickable="true" style="@style/DialtactsDialpadButtonStyle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dialpad_key_star" android:layout_width="@dimen/dialpad_starpd_width" android:layout_height="@dimen/dialpad_starpd_height" android:src="@drawable/ic_dial_action_star" />
+                <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dialpad_key_comma" android:layout_width="@dimen/dialpad_voicewidth" android:layout_height="@dimen/dialpad_voiceheight" android:src="@drawable/dialpad_9_all" />
+            </LinearLayout>
+        </com.android.phone.common.dialpad.DialpadKeyButton>
+        <include layout="@layout/dialpad_port_line" />
+        <com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/zero" android:focusable="true" android:clickable="true" style="@style/DialtactsDialpadButtonStyle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/dialpad_key_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/dialpad_key_number_text_style" />
+                <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dialpad_key_plus" android:layout_width="@dimen/dialpad_voicewidth" android:layout_height="@dimen/dialpad_voiceheight" android:src="@drawable/plus" />
+            </LinearLayout>
+        </com.android.phone.common.dialpad.DialpadKeyButton>
+        <include layout="@layout/dialpad_port_line" />
+        <com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/pound" android:background="@drawable/dialpad_item" android:focusable="true" android:clickable="true" style="@style/DialtactsDialpadButtonStyle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/dialpad_key_pound" android:layout_width="@dimen/dialpad_starpd_width" android:layout_height="@dimen/dialpad_starpd_height" android:src="@drawable/ic_dial_action_hash" android:scaleType="center" />
+                <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dialpad_key_semicolon" android:layout_width="@dimen/dialpad_voicewidth" android:layout_height="@dimen/dialpad_voiceheight" android:src="@drawable/comma_semicolon_9" />
+            </LinearLayout>
+        </com.android.phone.common.dialpad.DialpadKeyButton>
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+</TableLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff518ef1" />
+    <size android:height="@dimen/bubble_textview_not_open_prompt_icon_size" android:width="@dimen/bubble_textview_not_open_prompt_icon_size" />
+</shape>

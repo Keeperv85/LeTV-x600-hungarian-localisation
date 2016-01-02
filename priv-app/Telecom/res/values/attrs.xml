@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dialpad_key_button_touch_tint" format="color" />
+    <attr name="resizing_text_min_size" format="dimension" />
+</resources>

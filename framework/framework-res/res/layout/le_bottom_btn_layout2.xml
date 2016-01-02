@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/le_bottom_layout2_root" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/le_buttom_layout2_divideine" android:background="#ffa6a7ae" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0dip" android:textColor="@color/le_bottom_btn_textcolor" android:gravity="center|left" android:id="@id/le_bottom_layout2_btn1" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0dip" android:textColor="@color/le_bottom_btn_textcolor" android:gravity="center|right" android:id="@id/le_bottom_layout2_btn2" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

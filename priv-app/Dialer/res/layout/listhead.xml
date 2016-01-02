@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listhead" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff747474" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@color/white" android:paddingLeft="16.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:text="@string/zidongdingwei" android:fontFamily="helve-neue-regular" />
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <LinearLayout android:id="@id/geocityll" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/geocity" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/beijing" android:fontFamily="helve-neue-regular" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff747474" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/getpos" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/getpos" />
+    </LinearLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff747474" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:text="@string/quanbuchengshi" android:fontFamily="helve-neue-regular" />
+</LinearLayout>
