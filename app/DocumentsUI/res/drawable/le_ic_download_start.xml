@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/le_statusbar_or_actionbar_color" android:pathData="M71.121,48.122l-4.242-4.242L51,59.759V10h-6v49.757L29.121,43.878l-4.242,4.242   l23.122,23.122L71.121,48.122z M9,80v6h78v-6H9z" />
+</vector>

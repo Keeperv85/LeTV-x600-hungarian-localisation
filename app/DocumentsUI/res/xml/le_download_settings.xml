@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@android:layout/le_preference_normal" android:title="@string/download_settings_tip_line_1" android:key="mobile_network_limit" />
+</PreferenceScreen>

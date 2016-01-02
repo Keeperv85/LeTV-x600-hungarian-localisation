@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="home" />
+    <item type="id" name="up" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="stack">false</item>
+    <item type="id" name="drawer_layout">false</item>
+    <item type="id" name="container_directory">false</item>
+    <item type="id" name="container_save">false</item>
+    <item type="id" name="drawer_roots">false</item>
+    <item type="id" name="roots_toolbar">false</item>
+    <item type="id" name="container_roots">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="grid">false</item>
+    <item type="id" name="icon_thumb">false</item>
+    <item type="id" name="icon_mime">false</item>
+    <item type="id" name="line1">false</item>
+    <item type="id" name="line2">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="size">false</item>
+    <item type="id" name="subdir">false</item>
+    <item type="id" name="setting_des">false</item>
+    <item type="id" name="download_limit_wheelview">false</item>
+    <item type="id" name="app_info_icon">false</item>
+    <item type="id" name="app_download_btn">false</item>
+    <item type="id" name="app_info_name">false</item>
+    <item type="id" name="app_info_fl">false</item>
+    <item type="id" name="app_info_desc_ly">false</item>
+    <item type="id" name="app_info_start_bar">false</item>
+    <item type="id" name="app_info_total_size">false</item>
+    <item type="id" name="app_info_down_ly">false</item>
+    <item type="id" name="app_info_down_current">false</item>
+    <item type="id" name="app_info_progressbar">false</item>
+    <item type="id" name="app_info_desc">false</item>
+    <item type="id" name="download_layout">false</item>
+    <item type="id" name="download_top_actionbar">false</item>
+    <item type="id" name="bottom_action_bar_lay">false</item>
+    <item type="id" name="download_list">false</item>
+    <item type="id" name="download_manager_blankview">false</item>
+    <item type="id" name="normal_title_lay">false</item>
+    <item type="id" name="setings_btn">false</item>
+    <item type="id" name="edit_btn">false</item>
+    <item type="id" name="edit_title_lay">false</item>
+    <item type="id" name="select_cancel_btn">false</item>
+    <item type="id" name="select_all_btn">false</item>
+    <item type="id" name="selected_item_nums">false</item>
+    <item type="id" name="download_item_rl">false</item>
+    <item type="id" name="middle_content_lay">false</item>
+    <item type="id" name="downloading_relative_lay">false</item>
+    <item type="id" name="download_and_pause">false</item>
+    <item type="id" name="downloading_show_part">false</item>
+    <item type="id" name="downloading_filesize_and_progress">false</item>
+    <item type="id" name="downloading_filename">false</item>
+    <item type="id" name="downloading_file_download_progressbar">false</item>
+    <item type="id" name="complete_relative_lay">false</item>
+    <item type="id" name="complete_data">false</item>
+    <item type="id" name="complete_filename">false</item>
+    <item type="id" name="complete_filesize">false</item>
+    <item type="id" name="listview_item_divider_short">false</item>
+    <item type="id" name="listview_item_divider_long">false</item>
+    <item type="id" name="download_title">false</item>
+    <item type="id" name="delate_linearlayout">false</item>
+    <item type="id" name="noneapp_context_view">false</item>
+    <item type="id" name="app_info_list">false</item>
+    <item type="id" name="noneapp_cancel_btn">false</item>
+    <item type="id" name="menu_select_all">false</item>
+    <item type="id" name="menu_not_select_all">false</item>
+    <item type="id" name="menu_create_dir">false</item>
+    <item type="id" name="menu_search">false</item>
+    <item type="id" name="menu_sort">false</item>
+    <item type="id" name="menu_sort_name">false</item>
+    <item type="id" name="menu_sort_date">false</item>
+    <item type="id" name="menu_sort_size">false</item>
+    <item type="id" name="menu_grid">false</item>
+    <item type="id" name="menu_list">false</item>
+    <item type="id" name="menu_advanced">false</item>
+    <item type="id" name="menu_file_size">false</item>
+    <item type="id" name="setting_detail">false</item>
+    <item type="id" name="menu_settings">false</item>
+    <item type="id" name="menu_open">false</item>
+    <item type="id" name="menu_share">false</item>
+    <item type="id" name="menu_delete">false</item>
+</resources>

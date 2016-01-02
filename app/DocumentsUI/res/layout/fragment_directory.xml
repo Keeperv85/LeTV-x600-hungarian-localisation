@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.documentsui.DirectoryView android:background="@color/material_grey_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty" style="@android:style/TextAppearance.Material.Subhead" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <GridView android:scrollbarStyle="outsideOverlay" android:id="@id/grid" android:paddingTop="@dimen/grid_padding_vert" android:paddingBottom="@dimen/grid_padding_vert" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:horizontalSpacing="@dimen/grid_item_padding" android:verticalSpacing="@dimen/grid_item_padding" android:paddingStart="@dimen/grid_padding_horiz" android:paddingEnd="@dimen/grid_padding_horiz" />
+</com.android.documentsui.DirectoryView>

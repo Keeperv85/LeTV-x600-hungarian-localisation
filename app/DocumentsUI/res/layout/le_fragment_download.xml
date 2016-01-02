@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/download_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <include android:id="@id/download_top_actionbar" android:visibility="gone" layout="@layout/le_fragment_download_top_actionbar" />
+    <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_action_bar_lay" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.letv.leui.widget.LeListView android:id="@id/download_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/le_transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/bottom_action_bar_lay" android:layout_below="@id/download_top_actionbar" android:fastScrollEnabled="true" />
+    <com.letv.leui.widget.LeBlankPage leui:icon="@android:drawable/le_blank_page_no_file" android:id="@id/download_manager_blankview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:message="@string/download_listview_empty" />
+</RelativeLayout>

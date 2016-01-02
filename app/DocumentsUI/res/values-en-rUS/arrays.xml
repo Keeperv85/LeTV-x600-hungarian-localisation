@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="download_settings_limit_string_items">
+        <item>No limit</item>
+        <item>20M</item>
+        <item>10M</item>
+        <item>5M</item>
+        <item>2M</item>
+        <item>1M</item>
+        <item>512K</item>
+        <item>Do not allow downloads</item>
+    </string-array>
+</resources>

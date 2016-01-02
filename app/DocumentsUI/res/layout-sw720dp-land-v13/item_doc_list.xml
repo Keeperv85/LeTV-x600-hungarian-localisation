@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/item_doc_list_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/list_item_height" android:paddingStart="@dimen/list_item_padding" android:paddingEnd="@dimen/list_item_padding">
+        <FrameLayout android:id="@android:id/icon" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:layout_marginStart="0.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:id="@id/icon_mime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+            <ImageView android:id="@id/icon_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textColor="?android:textColorPrimary" android:ellipsize="middle" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.5" android:textAlignment="viewStart" android:layout_marginEnd="12.0dip" />
+            <ImageView android:id="@android:id/icon1" android:layout_width="@dimen/root_icon_size" android:layout_height="@dimen/root_icon_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="8.0dip" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.25" android:textAlignment="viewStart" android:layout_marginEnd="12.0dip" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/size" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="70.0dip" android:singleLine="true" android:layout_weight="0.125" android:textAlignment="viewEnd" android:layout_marginEnd="12.0dip" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="70.0dip" android:singleLine="true" android:layout_weight="0.125" android:textAlignment="viewEnd" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

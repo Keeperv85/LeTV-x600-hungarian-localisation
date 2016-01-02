@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/APKTOOL_DUMMY_0062" android:key="advancedDevices" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/APKTOOL_DUMMY_0063" android:key="fileSize" android:defaultValue="false" />
+</PreferenceScreen>

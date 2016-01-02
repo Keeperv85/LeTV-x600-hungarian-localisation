@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/delate_linearlayout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/noneapp_context_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/none_app_context" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff606060" android:gravity="center" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/support_for_your_app" />
+        <ListView android:id="@id/app_info_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <Button android:textSize="16.0sp" android:textColor="#ff2095f2" android:id="@id/noneapp_cancel_btn" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
