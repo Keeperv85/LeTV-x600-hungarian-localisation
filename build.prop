@@ -33,8 +33,9 @@ ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.product.cpu.abilist32=armeabi-v7a,armeabi
 ro.product.cpu.abilist64=arm64-v8a
 ro.product.manufacturer=Letv
-ro.product.locale.language=zh
-ro.product.locale.region=CN
+ro.product.locale.language=hu
+ro.product.locale.region=Hu
+persist.sys.timezone=Europe/Budapest
 ro.wifi.channels=
 ro.board.platform=mt6795
 # ro.build.product is obsolete; use ro.product.device
