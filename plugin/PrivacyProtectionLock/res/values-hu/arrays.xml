@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="enable_mode_list">
+        <item>Előző beállítás használata</item>
+        <item>Új beállítások</item>
+    </string-array>
+    <string-array name="ppl_sms_template_list">
+        <item>A SIM kártyát valaki kicserélte, lehetséges, hogy a készüléket ellopták. Kérjük ne küldjön feloldó üzenetet erre a számra!</item>
+        <item>\#suoding#</item>
+        <item>Zárképernyő utasítás fogadva és aktiválva.</item>
+        <item>\#jiesuo#</item>
+        <item>A beérkező feloldó parancsát feldolgoztuk, a feloldás sikeres!</item>
+        <item>\#mima#</item>
+        <item>Lopásgátló pin kódja a következő: %s。</item>
+        <item>\#xiaohui#</item>
+        <item>A távvezérelt adat törlés aktiválva lett.</item>
+        <item>Az adatok törlése befejeződött.</item>
+        <item>"Beállítottam a készülékemen egy mobil lopásgátló szolgáltatást, amihez egy vész esetén használható kapcsolat száma szükséges. Erről a számról bármikor irányítható a telefonom a következő kódokkal:
+Feloldás： #suoding#
+Adatok törlése: #xiaohui#
+Zárkód lekérése: #mima#"</item>
+    </string-array>
+    <string-array name="ppl_sms_pattern_list">
+        <item>A SIM kártyát valaki kicserélte, lehetséges, hogy a készüléket ellopták. Kérjük ne küldjön feloldó üzenetet erre a számra!</item>
+        <item>\#suoding#</item>
+        <item>Zárképernyő utasítás fogadva és aktiválva.</item>
+        <item>\#jiesuo#</item>
+        <item>A beérkező feloldó parancsát feldolgoztuk, a feloldás sikeres!</item>
+        <item>\#mima#</item>
+        <item>Lopásgátló pin kódja a következő: %s。</item>
+        <item>\#xiaohui#</item>
+        <item>A távvezérelt adat törlés aktiválva lett.</item>
+        <item>Az adatok törlése befejeződött.</item>
+        <item>"Beállítottam a készülékemen egy mobil lopásgátló szolgáltatást, amihez egy vész esetén használható kapcsolat száma szükséges. Erről a számról bármikor irányítható a telefonom a következő kódokkal:
+Feloldás： #suoding#
+Adatok törlése: #xiaohui#
+Zárkód lekérése: #mima#"</item>
+    </string-array>
+</resources>

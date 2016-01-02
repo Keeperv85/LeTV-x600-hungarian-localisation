@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobil lopásgátló</string>
+    <string name="status_enabled">Be</string>
+    <string name="status_provisioned">Telefon lezárása vagy adatok törlése távolról</string>
+    <string name="status_unprovisioned">Telefon lezárása vagy adatok törlése távolról</string>
+    <string name="status_pending">Telefon lezárása vagy adatok törlése távolról</string>
+    <string name="status_control_panel_enabled">Lopásgátló bekapcsolva</string>
+    <string name="status_control_panel_disabled">Lopásgátló kikapcsolva</string>
+    <string name="checkbox_show_password">Jelszó mutatása</string>
+    <string name="checkbox_send_sms">Biztonsági mentés a távoli vezérlés parancsairól SMS-ben</string>
+    <string name="button_control_panel_change_password">Lopásgátló PIN kód cseréje</string>
+    <string name="button_control_panel_update_emergency_contacts">Biztonsági kapcsolat frissítése</string>
+    <string name="button_control_panel_view_instructions">Távoli vezérlés parancsainak megtekintése</string>
+    <string name="button_control_panel_disable">Lopásgátló kikapcsolása</string>
+    <string name="button_next">Következő</string>
+    <string name="button_confirm">Rendben</string>
+    <string name="button_finish">Rendben</string>
+    <string name="button_send_sms">Üzenet küldése</string>
+    <string name="button_add_contact_line">Biztonsági kapcsolat megadása</string>
+    <string name="title_access_lock">Lopásgátló PIN megadása</string>
+    <string name="title_setup_password">Lopásgátló bekapcsolása (1/3)</string>
+    <string name="title_setup_trusted_contact">Lopásgátló bekapcsolása (2/3)</string>
+    <string name="title_setup_send_manual">Lopásgátló bekapcsolása (3/3)</string>
+    <string name="title_view_instruction">Távoli vezérlés parancsainak megtekintése</string>
+    <string name="title_choose_enable_mode">Engedélyezve</string>
+    <string name="title_control_panel_contacts">Biztonsági kapcsolata</string>
+    <string name="title_choose_sim">SIM választása</string>
+    <string name="title_choose_number">Szám választása</string>
+    <string name="title_update_trusted_contact">Biztonsági kapcsolat frissítése</string>
+    <string name="title_change_password">Lopásgátló PIN kód cseréje</string>
+    <string name="summary_setup_password">Lopásgátló PIN megadása</string>
+    <string name="summary_setup_trusted_contact">Biztonsági kapcsolat megadása</string>
+    <string name="summary_update_trusted_contact">Biztonsági kapcsolat megadása</string>
+    <string name="summary_setup_send_manual">Távoli vezérlés parancsai</string>
+    <string name="summary_view_instruction">Távoli vezérlés parancsai</string>
+    <string name="description_disable_confirm">Ha kikapcsoljaa védelmet, nem lesz módja az adatok törlésére vagy a telefon zárolására tovább! Biztosan kikapcsolja?</string>
+    <string name="description_turnoff_airplane_mode_confirm">Az üzenet elküldése előtt ki kell kapcsolnia a repülőgépes módot. Folytatja?</string>
+    <string name="description_setup_password">Lopásgátló PIN szükséges minden alkalommal a lopásgátló beállítások megváltoztatásához</string>
+    <string name="description_setup_trusted_contact">"1. A biztonsági kapcsolat segítségével távoli parancsokat küldhet;
+2. Ha a sim kártyát kicserélik, értesítést fog küldeni a biztonsági kapcsolatok útján SMS-ben. Az SMS-es ebből áll: A készülék lopott lehet, vegye fel a kapcsolatot a küldővel."</string>
+    <string name="description_update_trusted_contact">"1. A biztonsági kapcsolat segítségével távoli parancsokat küldhet;
+2. Ha a sim kártyát kicserélik, értesítést fog küldeni a biztonsági kapcsolatok útján SMS-ben. Az SMS-es ebből áll: A készülék lopott lehet, vegye fel a kapcsolatot a küldővel."</string>
+    <string name="description_setup_send_manual">Ha elveszik a mobil akkor távoli üzenetekkel is irányíthatja a biztonsági kapcsolatok segítségével</string>
+    <string name="description_view_instruction">Ha elveszik a mobil akkor távoli üzenetekkel is irányíthatja a biztonsági kapcsolatok segítségével</string>
+    <string name="hint_setup_password_input_1">Kérem adja meg PIN-t (6-tól 12 számig)</string>
+    <string name="hint_setup_password_input_2">Kérem adja meg újra!</string>
+    <string name="hint_trusted_contact">Érdemes könnyen megjegyezhetőt választani</string>
+    <string name="hint_update_trusted_contact">Érdemes könnyen megjegyezhetőt választani</string>
+    <string name="content_setup_send_manual">&lt;p>1. Távoli készülék zár&lt;/p>&lt;p>Üzenet küldése &lt;font color=#33B5E5>#suoding#&lt;/font>&lt;/p>&lt;p>2. Távoli adatok törlése&lt;/p>&lt;p>Üzenet küldése &lt;font color=#33B5E5>#xiaohui#&lt;/font>&lt;/p>&lt;p>3. lopásgátló PIN visszakérése&lt;/p>&lt;p>Üzenet küldése &lt;font color=#33B5E5>#mima#&lt;/font>&lt;/p></string>
+    <string name="toast_passwords_do_not_match">A megadott két PIN nem egyezik.</string>
+    <string name="toast_password_is_incorrect">A jelszó helytelen</string>
+    <string name="toast_no_phone_number">Nem található telefonszám</string>
+    <string name="toast_no_sim">Nem található SIM</string>
+    <string name="toast_instruction_send_succeeded">A biztonsági mentés távvezérlő parancsok sikeresen elküldve.</string>
+    <string name="toast_instruction_send_failed">A biztonsági mentés távvezérlő parancsok küldése sikertelen.</string>
+    <string name="item_sim_n">SIM</string>
+    <string name="image_button_description_add">Kapcsolatok számának megadása</string>
+    <string name="image_button_description_delete">Törli ezt a számot</string>
+    <string name="image_description_logo">A Privacy Protection Lock logója</string>
+    <string name="ppl_permission_label">Hozzáférés a Privacy Protection Lock beállításaihoz</string>
+    <string name="ppl_permission_description">Hozzáférés kritikus beállításokhoz a Privacy Protection Managerben. Valószínűleg NEM jogosult erre.</string>
+    <string name="test_entry_launch">Indítás</string>
+    <string name="test_entry_status">Státusz</string>
+    <string name="test_entry_enabled">Engedélyez</string>
+    <string name="test_entry_provisioned">Felügyelt</string>
+    <string name="toast_sim_not_ready">A sim még nem áll készen, próbálja később.</string>
+</resources>
