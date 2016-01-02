@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaptivePortalLogin</string>
+    <string name="action_use_network">Hálózat használata jelen állapotában</string>
+    <string name="action_do_not_use_network">Ne használja ezt a hálózatot</string>
+    <string name="action_bar_label">Bejelentkezés a hálózatba</string>
+    <string name="action_cancle">Bezárás</string>
+</resources>
