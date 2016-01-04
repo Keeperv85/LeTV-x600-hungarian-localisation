@@ -5,11 +5,11 @@
     <RelativeLayout android:id="@id/leui_search_container" android:background="#fff0f7fa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
         <com.letv.leui.widget.LcSearchView android:id="@id/leui_timezone_search" android:layout_width="fill_parent" android:layout_height="wrap_content" leui:lcQueryHint="@string/leui_timezone_search_hint" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
     </RelativeLayout>
-    <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:layout_gravity="end" android:orientation="vertical" android:id="@id/blade" android:layout_width="@android:dimen/le_awv_toast_offset" android:layout_height="fill_parent" android:layout_below="@id/leui_search_container" android:layout_alignParentRight="true" />
+    <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:layout_gravity="end" android:orientation="vertical" android:id="@id/blade" android:layout_width="@android:dimen/le_awv_width" android:layout_height="fill_parent" android:layout_below="@id/leui_search_container" android:layout_alignParentRight="true" />
     <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/blade" android:layout_below="@id/leui_search_container" android:layout_alignParentLeft="true">
         <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressContainer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
             <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
-            <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/capital_on" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/loading" android:singleLine="true" />
         </LinearLayout>
         <FrameLayout android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />

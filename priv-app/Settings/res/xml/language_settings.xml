@@ -2,11 +2,11 @@
 <PreferenceScreen android:title="@string/language_keyboard_settings_title" android:key="language_keyboard_settings"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <PreferenceScreen android:layout="@android:layout/le_preference_list2" android:title="@string/phone_language" android:key="phone_language" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.android.settings.LocalePicker" />
+    <PreferenceScreen android:layout="@android:layout/le_preference_horizontal" android:title="@string/phone_language" android:key="phone_language" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.android.settings.LocalePicker" />
     <PreferenceScreen android:persistent="false" android:title="@string/spellcheckers_settings_title" android:key="spellcheckers_settings" settings:keywords="@string/keywords_spell_checker" />
     <PreferenceScreen android:title="@string/user_dict_settings_title" android:key="key_user_dictionary_settings" />
     <PreferenceCategory android:title="@string/keyboard_settings_category" android:key="keyboard_settings_category" settings:keywords="@string/keywords_keyboard_and_ime">
-        <PreferenceScreen android:layout="@android:layout/le_preference_list2" android:title="@string/current_input_method" android:key="current_input_method" android:widgetLayout="@layout/leui_widget_arrow" />
+        <PreferenceScreen android:layout="@android:layout/le_preference_horizontal" android:title="@string/current_input_method" android:key="current_input_method" android:widgetLayout="@layout/leui_widget_arrow" />
     </PreferenceCategory>
     <com.letv.leui.settings.widget.LeUISwitchAdapterCheckBoxPreference android:persistent="false" android:title="@string/show_quick_switch_ime" android:key="need_show_input_method_switch_notification" android:summary="@string/show_quick_switch_ime_summary" />
     <PreferenceCategory android:persistent="false" android:title="@string/builtin_keyboard_settings_title" android:key="hard_keyboard" />

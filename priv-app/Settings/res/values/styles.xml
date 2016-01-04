@@ -377,7 +377,7 @@
         <item name="android:rightTextViewTextColor">#ff2974ee</item>
         <item name="preferenceBackgroundColor">@color/bg_setupwizard</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
-        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_normal_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="setup_divider_color">@color/setup_divider_color_dark</item>
         <item name="wifi_signal_color">@color/setup_wizard_wifi_color_dark</item>
@@ -409,7 +409,7 @@
         <item name="android:colorAccent">@color/setup_wizard_color_accent_light</item>
         <item name="preferenceBackgroundColor">?android:colorBackground</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
-        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_normal_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
         <item name="ic_wps">@drawable/ic_wps_light</item>
         <item name="setup_divider_color">@color/setup_divider_color_light</item>
         <item name="wifi_signal_color">@color/setup_wizard_wifi_color_light</item>
@@ -419,7 +419,7 @@
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="android:colorAccent">@color/leui_blue</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
-        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_normal_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>
@@ -427,7 +427,7 @@
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="android:colorAccent">@color/leui_blue</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
-        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_normal_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
         <item name="ic_wps">@drawable/ic_wps_light</item>
         <item name="wifi_signal">@drawable/wifi_signal_light</item>
     </style>
@@ -458,7 +458,7 @@
         <item name="switchBarTheme">@style/Theme.SwitchBar.Settings</item>
         <item name="preferenceBackgroundColor">@drawable/leui_background_white</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
-        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_holo_light</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_holo_dark</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>

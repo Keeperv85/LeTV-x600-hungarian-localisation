@@ -11,15 +11,15 @@
         <Preference android:title="@string/leui_install_appdetails_showperms" android:key="preference_show_perms" android:widgetLayout="@layout/leui_widget_arrow" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/storage_label">
-        <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/total_size_label" android:key="total_size_text" />
-        <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/application_size_label" android:key="application_size_text" />
-        <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/external_code_size_label" android:key="external_code_size_text" />
-        <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/data_size_label" android:key="data_size_text" />
-        <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/external_data_size_label" android:key="external_data_size_text" />
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/total_size_label" android:key="total_size_text" />
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/application_size_label" android:key="application_size_text" />
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/external_code_size_label" android:key="external_code_size_text" />
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/data_size_label" android:key="data_size_text" />
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/external_data_size_label" android:key="external_data_size_text" />
     </PreferenceCategory>
     <com.letv.leui.settings.widget.LeUIInstalledAppDetailButtonPreference android:key="data_buttons_panel" settings:leuiLeftButtonText="@string/move_app" settings:leuiRightButtonText="@string/clear_user_data_text" settings:leuiLeftButtonVisible="true" settings:leuiRightButtonVisible="true" />
     <PreferenceCategory android:title="@string/cache_header_label">
-        <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/cache_size_label" android:key="cache_size_text" />
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/cache_size_label" android:key="cache_size_text" />
     </PreferenceCategory>
     <com.letv.leui.settings.widget.LeUIInstalledAppDetailButtonPreference android:key="clear_cache_button" settings:leuiRightButtonText="@string/clear_cache_btn_text" settings:leuiRightButtonVisible="true" />
     <PreferenceCategory android:title="@string/auto_launch_label" android:key="auto_launch_category">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="@string/battery_saver" android:key="battery_saver_mode"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/wifi_settings_title" android:key="leui_battery_wifi" android:summary="@string/print_feature_state_off" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/leui_install_appdetails_mobiledata" android:key="leui_battery_mobiledata" android:summary="@string/print_feature_state_off" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/bluetooth_settings_title" android:key="leui_battery_bluetooth" android:summary="@string/print_feature_state_off" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/person_tether_title" android:key="leui_battery_person_tether" android:summary="@string/print_feature_state_off" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="GPS" android:key="leui_battery_GPS" android:summary="@string/print_feature_state_off" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/vibrate_when_ringing_title" android:key="leui_battery_vibrate" android:summary="@string/print_feature_state_off" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/screen_timeout" android:key="leui_battery_screen_timeout" android:summary="@string/leui_battery_saver_mode_sleep" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/wifi_settings_title" android:key="leui_battery_wifi" android:summary="@string/print_feature_state_off" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/leui_install_appdetails_mobiledata" android:key="leui_battery_mobiledata" android:summary="@string/print_feature_state_off" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/bluetooth_settings_title" android:key="leui_battery_bluetooth" android:summary="@string/print_feature_state_off" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/person_tether_title" android:key="leui_battery_person_tether" android:summary="@string/print_feature_state_off" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="GPS" android:key="leui_battery_GPS" android:summary="@string/print_feature_state_off" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/vibrate_when_ringing_title" android:key="leui_battery_vibrate" android:summary="@string/print_feature_state_off" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/screen_timeout" android:key="leui_battery_screen_timeout" android:summary="@string/leui_battery_saver_mode_sleep" />
     <com.letv.leui.preference.LeListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:visibility="gone" android:title="@string/screen_timeout" android:key="screen_timeout" android:entryValues="@array/screen_timeout_values" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/leui_display_settings_brightness_section" android:key="leui_battery_brightness" android:summary="@string/leui_battery_saver_mode_bright" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/leui_display_settings_brightness_section" android:key="leui_battery_brightness" android:summary="@string/leui_battery_saver_mode_bright" />
 </PreferenceScreen>

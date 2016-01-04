@@ -8,7 +8,7 @@
     <CheckBoxPreference android:title="@string/zone_auto" android:key="auto_zone" android:summaryOn="@string/zone_auto_summaryOn" android:summaryOff="@string/zone_auto_summaryOff" />
     <Preference android:title="@string/date_time_set_date" android:key="date" android:summary="03/10/2008" android:dependency="auto_time_and_zone" />
     <Preference android:title="@string/date_time_set_time" android:key="time" android:summary="12:00am" android:dependency="auto_time_and_zone" />
-    <PreferenceScreen android:layout="@android:layout/le_preference_list2" android:title="@string/date_time_set_timezone" android:key="timezone" android:summary="GMT-8:00" android:widgetLayout="@layout/leui_widget_arrow" android:dependency="auto_time_and_zone" android:fragment="com.letv.leui.settings.zonepicker.LeUIZonePicker" />
+    <PreferenceScreen android:layout="@android:layout/le_preference_horizontal" android:title="@string/date_time_set_timezone" android:key="timezone" android:summary="GMT-8:00" android:widgetLayout="@layout/leui_widget_arrow" android:dependency="auto_time_and_zone" android:fragment="com.letv.leui.settings.zonepicker.LeUIZonePicker" />
     <com.letv.leui.settings.widget.LeUIDateTimePreference android:title="@string/date_time_set_time" android:key="leui_set_date_time" android:summary="03/10/2008 12:00am" android:widgetLayout="@layout/leui_widget_updown_arrow" android:dependency="auto_time_and_zone" settings:LeUIWidgetLayout="@layout/leui_date_picker_wheel_widget" />
     <com.letv.leui.preference.LeListPreference android:title="@string/date_time_date_format" android:key="date_format" />
 </PreferenceScreen>

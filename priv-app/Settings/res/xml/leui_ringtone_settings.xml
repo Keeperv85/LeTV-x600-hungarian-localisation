@@ -2,8 +2,8 @@
 <PreferenceScreen android:title="@string/sound_settings" android:key="sound_settings"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_call" android:key="ringtone" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_call" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_message" android:key="mms_ringtone" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_message" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_notification" android:key="notification_sound" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_notification" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ring_select_mail" android:key="mail_sound" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/ring_select_mail" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/ring_select_call" android:key="ringtone" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/ring_select_call" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/ring_select_message" android:key="mms_ringtone" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/ring_select_message" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/ring_select_notification" android:key="notification_sound" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/ring_select_notification" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/ring_select_mail" android:key="mail_sound" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/ring_select_mail" />
 </PreferenceScreen>

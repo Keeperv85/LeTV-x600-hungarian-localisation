@@ -2,9 +2,9 @@
 <PreferenceScreen android:persistent="false" android:orderingFromXml="true"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/sound_category_sound_title" android:key="general" />
-    <com.mediatek.audioprofile.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_alarm_mute" android:title="@string/alarm_volume_option_title" android:key="alarm_volume" />
-    <com.mediatek.audioprofile.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif_mute" android:title="@string/ring_volume_option_title" android:key="ring_volume" />
-    <com.mediatek.audioprofile.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif_mute" android:title="@string/notification_volume_option_title" android:key="notification_volume" />
+    <com.mediatek.audioprofile.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_alarm" android:title="@string/alarm_volume_option_title" android:key="alarm_volume" />
+    <com.mediatek.audioprofile.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif" android:title="@string/ring_volume_option_title" android:key="ring_volume" />
+    <com.mediatek.audioprofile.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif" android:title="@string/notification_volume_option_title" android:key="notification_volume" />
     <com.mediatek.audioprofile.DefaultRingtonePreference android:persistent="false" android:title="@string/voice_call_title" android:key="phone_ringtone" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
     <com.mediatek.audioprofile.DefaultRingtonePreference android:persistent="false" android:title="@string/video_call_title" android:key="video_call_ringtone" />
     <com.mediatek.audioprofile.DefaultRingtonePreference android:persistent="false" android:title="@string/sip_call_title" android:key="sip_call_ringtone" />

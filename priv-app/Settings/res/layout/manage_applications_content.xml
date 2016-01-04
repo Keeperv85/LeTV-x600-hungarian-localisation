@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.letv.leui.widget.LeScrollStripTabWidget android:id="@id/tabwidget" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@android:dimen/le_scroll_strip_tab_widget_text_size" android:layout_weight="0.0" />
+    <com.letv.leui.widget.LeScrollStripTabWidget android:id="@id/tabwidget" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@android:dimen/le_scroll_strip_tab_widget_height" android:layout_weight="0.0" />
     <com.letv.leui.settings.widget.LeUIViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
         <android.support.v4.view.PagerTabStrip android:textAppearance="@style/TextAppearance.PagerTabs" android:layout_gravity="top" android:id="@id/tabs" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </com.letv.leui.settings.widget.LeUIViewPager>

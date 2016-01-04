@@ -5,7 +5,7 @@
     <RelativeLayout android:id="@id/leui_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
         <com.letv.leui.widget.LcSearchView android:id="@id/leui_timezone_search" android:layout_width="fill_parent" android:layout_height="wrap_content" leui:lcQueryHint="@string/leui_timezone_search_hint" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
     </RelativeLayout>
-    <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:id="@id/blade" android:layout_width="@android:dimen/le_awv_toast_offset" android:layout_height="fill_parent" android:layout_below="@id/leui_search_container" android:layout_alignParentRight="true" />
+    <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:id="@id/blade" android:layout_width="@android:dimen/le_awv_width" android:layout_height="fill_parent" android:layout_below="@id/leui_search_container" android:layout_alignParentRight="true" />
     <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/blade" android:layout_below="@id/leui_search_container" android:layout_alignParentLeft="true">
         <FrameLayout android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <com.letv.leui.widget.PinnedHeaderListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />

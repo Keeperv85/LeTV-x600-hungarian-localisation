@@ -5,5 +5,5 @@
   xmlns:leui="http://schemas.android.com/apk/res/com.android.settings">
     <com.letv.leui.settings.widget.LeUIViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
     <FrameLayout android:id="@id/main_content" android:background="?preferenceBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.letv.leui.widget.LeScrollStripTabWidget android:id="@id/bottomTabWidget" android:background="@drawable/leui_action_bar_top_divider" android:layout_width="fill_parent" android:layout_height="@android:dimen/le_scroll_strip_tab_widget_text_size" />
+    <com.letv.leui.widget.LeScrollStripTabWidget android:id="@id/bottomTabWidget" android:background="@drawable/leui_action_bar_top_divider" android:layout_width="fill_parent" android:layout_height="@android:dimen/le_scroll_strip_tab_widget_height" />
 </LinearLayout>

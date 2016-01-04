@@ -2,7 +2,7 @@
 <PreferenceScreen android:title="@string/location_settings_title" android:key="location_settings" settings:keywords="@string/keywords_location"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <Preference android:layout="@android:layout/le_preference_list2" android:title="@string/location_mode_title" android:key="location_mode" android:summary="@string/location_mode_location_off_title" android:widgetLayout="@layout/leui_widget_arrow" settings:keywords="@string/keywords_location_mode" />
+    <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/location_mode_title" android:key="location_mode" android:summary="@string/location_mode_location_off_title" android:widgetLayout="@layout/leui_widget_arrow" settings:keywords="@string/keywords_location_mode" />
     <CheckBoxPreference android:title="@string/leui_location_settings_gps" android:key="location_mode_gps" android:summary="@string/leui_location_settings_gps_summary" settings:keywords="@string/keywords_location_mode" />
     <CheckBoxPreference android:title="@string/leui_location_settings_network_assit" android:key="location_mode_network_assit" settings:keywords="@string/keywords_location_mode" />
     <Preference android:title="@string/leui_gps_ops" android:key="location_switch_permisson" android:widgetLayout="@layout/leui_widget_arrow">
