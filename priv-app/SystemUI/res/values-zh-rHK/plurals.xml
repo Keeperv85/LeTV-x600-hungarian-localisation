@@ -13,15 +13,15 @@
         <item quantity="one">SIM PUK 碼不正確，您剩下 %d 次機會輸入。如果仍然輪入錯誤，SIM 將永久無法使用。</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code_leui">
-        <item quantity="other">"PIN 輸入錯誤 %1$d 次
-%2$d 次後將只能使用 PUK"</item>
-        <item quantity="one">"PIN 輸入錯誤 %1$d 次
-%2$d 次後將只能使用 PUK"</item>
+        <item quantity="other">"PIN 輸入錯誤 %%1$d 次
+%%2$d 次後將只能使用 PUK"</item>
+        <item quantity="one">"PIN 輸入錯誤 %%1$d 次
+%%2$d 次後將只能使用 PUK"</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code_leui">
-        <item quantity="other">"PUK 輸入錯誤 %1$d 次
-%2$d 次後 SIM 卡 %d 將被鎖"</item>
-        <item quantity="one">"PUK 輸入錯誤 %1$d 次
-%2$d 次後 SIM 卡 %d 將被鎖"</item>
+        <item quantity="other">"PUK 輸入錯誤 %%1$d 次
+%%2$d 次後 SIM 卡 %d 將被鎖"</item>
+        <item quantity="one">"PUK 輸入錯誤 %%1$d 次
+%%2$d 次後 SIM 卡 %d 將被鎖"</item>
     </plurals>
 </resources>

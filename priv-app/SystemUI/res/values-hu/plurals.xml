@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d recent apps in overview</item>
-        <item quantity="one">1 recent app in overview</item>
+        <item quantity="other">%d képernyő Áttekintés alatt</item>
+        <item quantity="one">1 képernyő Áttekintés alatt</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">SIM card PIN is incorrect. You can attempt %d more times.</item>
-        <item quantity="one">SIM card PIN is incorrect. You can attempt %d more times. If you fail again, please contact your carrier to unlock this device.</item>
+        <item quantity="other">Helytelen PIN kód a SIM kártyához; még %d próbálkozása van.</item>
+        <item quantity="one">Helytelen PIN kód a SIM kártyához; még %d próbálkozása van, mielőtt fel kellene vennie a kapcsolatot szolgáltatójával az eszköz feloldásához.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">SIM card PUK code is incorrect. You can attempt %d more times. If you fail again, your SIM card will be permanently locked.</item>
-        <item quantity="one">SIM card PUK code is incorrect. You can attempt %d more times. If you fail again, your SIM card will be permanently locked.</item>
+        <item quantity="other">Helytelen PUK kód a SIM kártyához; még %d próbálkozása van, mielőtt a SIM kártya végleg használhatatlan lesz.</item>
+        <item quantity="one">Helytelen PUK kód a SIM kártyához; még %d próbálkozása van, mielőtt a SIM kártya végleg használhatatlan lesz.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code_leui">
         <item quantity="other">PIN has been entered incorrectly %%1$d times. After more %%2$d failed attempts, only the PUK may be used.</item>
