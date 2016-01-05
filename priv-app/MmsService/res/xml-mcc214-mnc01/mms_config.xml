@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<mms_config version="2">
-    <bool name="enableGroupMms">false</bool>
-    <bool name="config_sms_force_7bit_encoding">true</bool>
-</mms_config>
