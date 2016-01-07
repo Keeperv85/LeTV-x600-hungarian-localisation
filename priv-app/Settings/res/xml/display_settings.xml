@@ -15,6 +15,9 @@
     <Preference android:title="@string/leui_display_mode_settings" android:key="leui_display_mode_settings" android:summary="@string/leui_display_mode_settings_desc" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.letv.leui.settings.displaymode.LeUIDisplayModeSettings" />
     <SwitchPreference android:persistent="false" android:title="@string/leui_video_display_enhanced_title" android:key="video_display_enhanced" android:summary="@string/leui_video_display_enhanced_summary" />
     <com.android.settings.WarnedListPreference android:entries="@array/entries_font_size" android:title="@string/title_font_size" android:key="font_size" android:dialogTitle="@string/dialog_title_font_size" android:entryValues="@array/entryvalues_font_size" settings:keywords="@string/keywords_display_font_size" />
+    <PreferenceScreen android:title="@string/nubia_fontchooser_title" android:key="nubia_font_chooser">
+        <intent android:targetPackage="com.hartec.fontchooser" android:action="android.intent.action.MAIN" android:targetClass="com.hartec.fontchooser.MainActivity" />
+    </PreferenceScreen>
     <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
     <PreferenceCategory android:title="@string/leui_display_settings_system_section" />
     <SwitchPreference android:persistent="false" android:title="@string/lift_to_wake_title" android:key="lift_to_wake" />

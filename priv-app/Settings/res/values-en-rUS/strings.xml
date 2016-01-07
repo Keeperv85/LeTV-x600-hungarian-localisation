@@ -1805,8 +1805,8 @@ Some apps may not work normally until updated by their developers."</string>
     <string name="accessibility_screen_magnification_summary">"When this function is enabled, you can zoom in and out by tapping the screen three times. 
 
 When zoomed in, you can: 
-"<li><ul>"Pan: Drag two or more fingers on the screen.
-"<li>Adjust zoom level: Spread or pinch two or more fingers.</li></ul></li>"
+"<ul><li>"Pan: Drag two or more fingers on the screen.
+"<li>Adjust zoom level: Spread or pinch two or more fingers.</li></li></ul>"
 
 You can also temporarily magnify the content you touch by tapping three times and holding. In this magnified state, you can drag your fingers to view different parts of the screen. Release your fingers to return to the previous state. 
 
@@ -3151,15 +3151,15 @@ Some computers don't support this feature. Please save your data before using it
     <string name="scan_to_connect_ap">Scan the QR code to connect to the wireless network</string>
     <string name="general_setting">general setting</string>
     <string name="connect_ap">Connect</string>
+    <string name="sim_pin_attempts">"
+Attempts left"</string>
+    <string name="sim_pin_enabled">PIN enabled</string>
+    <string name="sim_pin_disabled">PIN disabled</string>
     <string name="leui_master_clear_low_battery_warning_text">Battery is below 20%. Please charge and retry to restore to factory settings.</string>
     <string name="song_alias_title_one">Paradise</string>
     <string name="song_alias_title_two">Bubbles</string>
     <string name="song_alias_title_three">You Are My Sunshine</string>
     <string name="sim_pin_incorrect">SIM PIN incorrect</string>
-    <string name="sim_pin_attempts">"
-Attempts left"</string>
-    <string name="sim_pin_enabled">PIN enabled</string>
-    <string name="sim_pin_disabled">PIN disabled</string>
     <string name="usb_charging_title">Charge only</string>
     <string name="usb_charging_summary">Disable other USB functions to speed up charging and reduce power consumption</string>
     <string name="usb_sdcard_title">Mount SD card</string>

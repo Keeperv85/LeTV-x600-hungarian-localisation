@@ -99,7 +99,7 @@
     <string name="leui_userexp_title_summary">We will collect feedback on your use of this product in order to improve our products and customer service</string>
     <string name="leui_hardware_version_title">CPU</string>
     <string name="leui_hardware_version_summary">Quad-core 2.0 GHz</string>
-    <string name="leui_hardware_version_title_ct">硬件版本</string>
+    <string name="leui_hardware_version_title_ct">Hardware Version</string>
     <string name="leui_simstatus">SIM card status</string>
     <string name="leui_imeistatus">IMEI info</string>
     <string name="leui_device_phone_name_tips">When connecting to Wi-Fi, P2P or Bluetooth devices, people nearby will be able to see the name of your phone.</string>
@@ -323,15 +323,15 @@ http://xpage.g.scloud.letv.com/web/agree"</string>
     <string name="leui_longpress_virtualkey_recent_system_default_title">System default</string>
     <string name="leui_longpress_virtualkey_recent_system_default_summary">The default function is Menu</string>
     <string name="leui_double_apps_settings">Dual-app</string>
-    <string name="leui_weixin_apps_settings">微信小号</string>
-    <string name="leui_weixin_uninstall_warn">尚未安装微信，请在安装微信后开启小号功能</string>
-    <string name="leui_weixin_open_warn">微信小号已开启，请在桌面单击小号图标启动</string>
+    <string name="leui_weixin_apps_settings">Micro-channel trumpet</string>
+    <string name="leui_weixin_uninstall_warn">Not install micro letter, open trumpet function after installing the micro-letter</string>
+    <string name="leui_weixin_open_warn">Micro-channel trumpet is turned on, click the small icon on the desktop to start</string>
     <string name="leui_double_apps_warning">Allow you to log into two accounts in different versions of the same app installed</string>
     <string name="leui_battery_manager_settings">Power saving management</string>
     <string name="leui_wallpaper_and_theme_settings">Wallpaper and theme</string>
-    <string name="leui_superseatch_longpress_summary">密碼鎖屏下不支持此功能</string>
-    <string name="finger_print_message_error_repeate">請稍微移動手指，以便錄入不同位置的指紋</string>
-    <string name="leui_fingerprint_dirty_info">請增加按壓力度，確保指紋錄入清晰</string>
+    <string name="leui_superseatch_longpress_summary">Feature removed by BB72</string>
+    <string name="finger_print_message_error_repeate">Please move your finger slightly to different positions of the fingerprint input</string>
+    <string name="leui_fingerprint_dirty_info">Increase pressed efforts to ensure a clear fingerprint input</string>
     <string name="wifi_settings">Wi‑Fi</string>
     <string name="wifi_settings_title">Wi‑Fi</string>
     <string name="wifi_choose_network">Choose network</string>
@@ -1925,8 +1925,8 @@ Some apps may not work until updated by their developers."</string>
     <string name="accessibility_screen_magnification_summary">"When this feature is turned on, you can zoom in and out by triple-tapping the screen.
 
 While zoomed in, you can:
-"<li><ul>"Pan: Drag two or more fingers across the screen.
-"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></ul></li>"
+"<ul><li>"Pan: Drag two or more fingers across the screen.
+"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></li></ul>"
 
 You can also temporarily magnify what's under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
 
@@ -3336,4 +3336,5 @@ Some computers don't support this feature. Please save your data before using it
     <string name="connect_ap">Connect</string>
     <string name="sim_default_name">SIM%1$s</string>
     <string name="wifi_share_result">Scan result</string>
+    <string name="nubia_fontchooser_title">Change system font</string>
 </resources>

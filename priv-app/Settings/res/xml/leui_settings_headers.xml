@@ -29,7 +29,6 @@
             <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.controlcenter.settings.LeControlCenterSettingActivity" />
         </dashboard-tile>
         <dashboard-tile leui:icon="@drawable/ic_settings_personal" leui:id="@id/leui_personal_time_settings" leui:title="@string/personal_time_settings" leui:fragment="com.android.settings.notification.ZenModeSettings" />
-        <dashboard-tile leui:icon="@drawable/ic_double_apps" leui:id="@id/leui_double_apps_settings" leui:title="@string/leui_double_apps_settings" leui:fragment="com.letv.leui.settings.LeUIDoubleAppsSettings" />
     </dashboard-category>
     <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_personal">
         <dashboard-tile leui:icon="@drawable/ic_settings_letv_ecosystem_svg" leui:id="@id/leui_ecosystem_settings" leui:title="@string/leui_ecosystem_settings_title" leui:summary="@string/leui_ecosystem_settings_summary" />
@@ -43,11 +42,6 @@
         </dashboard-tile>
     </dashboard-category>
     <dashboard-category android:id="@id/other_section" android:title="@string/other_settings_section">
-        <dashboard-tile leui:icon="@drawable/ic_update_system_settings_svg" leui:id="@id/system_update_settings" leui:title="@string/leui_system_update_settings">
-            <intent android:targetPackage="com.letv.android.ota" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.ota.LeSystemUpgrade">
-                <extra android:name="expose" android:value="SystemSetting" />
-            </intent>
-        </dashboard-tile>
         <dashboard-tile leui:icon="@drawable/ic_settings_language_svg" leui:id="@id/language_settings" leui:title="@string/language_settings" leui:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
         <dashboard-tile leui:icon="@drawable/ic_settings_date_time_svg" leui:id="@id/date_time_settings" leui:title="@string/date_and_time_settings_title" leui:fragment="com.android.settings.DateTimeSettings" />
         <dashboard-tile leui:icon="@drawable/ic_settings_smart" leui:id="@id/smart_settings" leui:title="@string/leui_smart_settings" leui:fragment="com.letv.leui.settings.LeUISmartSettings" />
