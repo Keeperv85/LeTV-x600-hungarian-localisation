@@ -610,7 +610,7 @@ Próbálja újra %d másodperc múlva."</string>
     <string name="statusbar_permanent_disabled_sim_message">SIM kártya sérült</string>
     <string name="statusbar_sim_pin_locked_message">SIM kártya PIN kódja zárolva</string>
     <string name="statusbar_sim_puk_locked_message">SIM kártya PUK kódja zárolva</string>
-    <string name="statusbar_sim_message_default">Nincs szerviz</string>
+    <string name="statusbar_sim_message_default">Nincs szolgáltatás</string>
     <string name="statusbar_return_incall_dialing">Hívás</string>
     <string name="le_clear_btn_text">Mindent töröl</string>
     <string name="status_bar_recent_memory_info">%1$s a %3$s -ból elérhető</string>
@@ -627,7 +627,7 @@ drop-up clear"</string>
     <string name="kg_forgot_password_button_text">Elfelejtett jelszó</string>
     <string name="cancle">Mégse</string>
     <string name="reset_password">Feloldó jelszó nullázása</string>
-    <string name="cellphone_is_out_of_service">Nincs szerviz</string>
+    <string name="cellphone_is_out_of_service">Nincs szolgáltatás</string>
     <string name="sim_card_is_plugged_off">Nincs SIM kártya</string>
     <string name="single_hand_mode_on">Egykezes mód aktiválva</string>
     <string name="kg_login_network_unavailable">Nem lehet csatlakozni. Ellenőrizze a kapcsolatot, majd próbálja újra.</string>
