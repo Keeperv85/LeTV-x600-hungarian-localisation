@@ -2725,7 +2725,7 @@ Ez segít megóvni adatait, ha ellopják eszközét."</string>
     <string name="loading_zone_items">időzónák betöltése…</string>
     <string name="battery_waring_one_title">Töltöttség emlékeztető</string>
     <string name="battery_waring_one_context">Töltés fut a háttérben, ha nem, kérem állítsa le</string>
-    <string name="battery_stop_one">Alkalmazások leállítása/string>
+    <string name="battery_stop_one">Alkalmazások leállítása</string>
     <string name="battery_lookup_one">Keresés</string>
     <string name="battery_waring_more_title">%d alkalmazás fut rejtve a háttérben</string>
     <string name="battery_waring_two_context">Ha nem használja, kérem kapcsolja ki</string>
