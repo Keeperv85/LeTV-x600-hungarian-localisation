@@ -178,7 +178,7 @@
     <string name="sd_eject_usbstorage">USB-tár leválasztása</string>
     <string name="sd_eject_usbstorage_summary">A belső USB-tár leválasztása</string>
     <string name="sd_mount_usbstorage">Az USB-tár csatolása</string>
-    <string name="sd_insert_usb_summary">Helyezze be az USB-tárat</string>
+    <string name="sd_insert_usb_summary">Csatlakoztassa az USB-tárat</string>
     <string name="usb_ums_title">USB-tároló</string>
     <string name="usb_ums_summary">XP ajánlott. Lehetővé teszi a fájlok átvitelét a számítógép és az Android USB-tárolója között.</string>
     <string name="usb_charge_title">Csak töltés</string>
@@ -2849,12 +2849,11 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="wifi_add_another_network">Másik hálózat hozzáadása</string>
     <string name="wifi_static_ip">Statikus IP</string>
     <string name="wifi_manual_proxy">Manuális proxy</string>
-    <string name="wifi_secured_first_item">Secured with %1$s</string>
-    <string name="wifi_secured_second_item">, secured with %1$s</string>
+    <string name="wifi_secured_first_item">Biztonság: %1$s</string>
+    <string name="wifi_secured_second_item">, biztonság %1$s</string>
     <string name="wifi_close_unavailable_dialog">Bezárás</string>
     <string name="wifi_ok">Ok</string>
     <string name="wifi_input_password_left">Kérem írja be a jelszavát \"</string>
-    <string name="wifi_input_password_right">\"</string>
     <string name="wifi_failed_disconnect_message">Nem sikerült lecsatlakozni</string>
     <string name="wifi_advanced_shortcut_connect_title">Biztonságos csatlakozás</string>
     <string name="wifi_advanced_wps_connect_title">WPS csatlakozás</string>
@@ -2887,12 +2886,10 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="sim_card_yellow">Sárga</string>
     <string name="error_name_invalid">Ismeretlen névmező.</string>
     <string name="dual_sim_network_settings_title">Dual SIM és mobilhálózatok</string>
-    <string name="sim_tab_info">SIM%s</string>
     <string name="share_network">Megosztás</string>
     <string name="scan_to_connect_ap">Olvassa le a QR kódot, hogy csatlakozhasson</string>
     <string name="general_setting">Általános beállítások</string>
     <string name="connect_ap">Csatlakozás</string>
-    <string name="sim_default_name">SIM%1$s</string>
     <string name="wifi_share_result">Keresési eredmények</string>
     <string name="contacts_settings">Kapcsolatok</string>
     <string name="phone_settings">Hívások</string>
@@ -2911,7 +2908,7 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="notification_settings">Értesítések beállítása</string>
     <string name="privacyauth_settings">Engedélyek</string>
     <string name="personal_time_settings">Ne zavarjanak</string>
-    <string name="dualcard_settings">Dual SIM management</string>
+    <string name="dualcard_settings">Dual SIM kezelés</string>
     <string name="other_settings_section">Egyéb</string>
 <!--Add eUI stings-->
     <string name="leui_main_tab_system">Rendszerbeállítások</string>
@@ -2934,8 +2931,8 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="leui_sound_settings_ring">Csengőhangok</string>
     <string name="leui_letvaccount_backup_password_title">Jelszó mentése</string>
     <string name="leui_letvaccount_backup_password_summary">Ha elfelejti a képernyőzár jelszavát, akkor feloldhatja a LeTV fiókjába való belépéssel.</string>
-    <string name="leui_notification_import_toast_ok">“%s” Felülre rögzítve!</string>
-    <string name="leui_notification_import_toast_cancel">“%s” Rögzítése feloldva!</string>
+    <string name="leui_notification_import_toast_ok">“%s” felülre rögzítve!</string>
+    <string name="leui_notification_import_toast_cancel">“%s” rögzítése feloldva!</string>
     <string name="leui_notification_settings_all">Minden</string>
     <string name="leui_notification_settings_current">Jelenlegi képernyő</string>
     <string name="leui_notification_settings_none">Nincsenek alkalmazásértesítések</string>
@@ -3046,18 +3043,13 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="leui_toggle_adb_install_ask">Kérdezzen</string>
     <string name="leui_office_default_application">Dokumentumok</string>
     <string name="letv_cloud_settings">LeCloud</string>
-    <string name="leui_cpu_info" formatted="false">" %score %sGHz"</string>
-    <string name="leui_cpu_info_with_name" formatted="false">"%s  %score %sGHz"</string>
     <string name="leui_eye_verity_settings">Eye Verity Settings</string>
     <string name="leui_eui_s_version">%s(Stabil)</string>
     <string name="leui_eui_e_version">%s(Kísérleti)</string>
     <string name="leui_eui_d_version">%s(Fejlesztői)</string>
-    <string name="leui_cpu_info_qc_constant">Snapdragon 810 8 core 2.0 GHz</string>
-    <string name="leui_cpu_info_mtk_constant">Helio X10 8 core 2.0 GHz</string>
     <string name="leui_usb_default_operation">USB alapértelmezett</string>
     <string name="leui_video_settings">Video</string>
     <string name="leui_incall_settings">Bejövő hívás</string>
-    <string name="leui_cpu_info_name">Helio X10</string>
     <string name="leui_ota_update_flag">Új frissítés!!!</string>
     <string name="leui_file_cleanup_category">Terület felszabadítása</string>
     <string name="leui_large_file_cleanup">Nagy fájlok</string>
@@ -3094,27 +3086,22 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="leui_mobile_data_enabler_settings">Adatkapcsolati beállítások</string>
     <string name="leui_roaming_settings">Roaming beállítások</string>
     <string name="leui_na_sar_settings">SAR értékek</string>
-    <string name="leui_na_sar_settings_summary">1.5 W/kg</string>
-    <string name="leui_prefix_model_settings">Letv %s</string>
     <string name="leui_useragreement">Végfelhasználói szerződés</string>
     <string name="leui_privacypolicy">Személyi jogok</string>
-    <string name="leui_useragreement_hk">Hong Kong</string>
-    <string name="leui_useragreement_india">India</string>
     <string name="leui_useragreement_north_america">Dél-Amerika</string>
     <string name="leui_privacypolicy_oeversea_empty_description">"Nincs hálózati kapcsolat.
 Kérem csatlakozzon a hálózathoz és nyissa meg az alábbi címet a böngészőben:
 http://xpage.g.scloud.letv.com/web/agree"</string>
-    <string name="leui_privacypolicy_oeversea_http">http://xpage.g.scloud.letv.com/web/agree</string>
     <string name="leui_location_settings_gps">GPS</string>
     <string name="leui_location_settings_network_assit">Wi-Fi és mobilhálózatok használata a helymeghatározáshoz</string>
     <string name="leui_location_settings_gps_summary">Ha engedélyezi, a helyadatok pontosabbak lesznek, de nagyobb fogyasztással</string>
     <string name="leui_master_clear_confirm_letv">Zene alkalmazás alapértelmezéseinek visszaállítása, ehhez szükségünk lesz a fiókja jelszavára</string>
     <string name="leui_ecosystem_settings_title">A Le Ecosystem tartalmának engedélyezése</string>
-    <string name="leui_ecosystem_settings_summary">A Le Video, Live &amp; LeView engedélyezése</string>
+    <string name="leui_ecosystem_settings_summary">A Le Video, Live és LeView engedélyezése</string>
     <string name="leui_total_memory_title">Tárhely</string>
     <string name="leui_memory_info">Tárterület részletek</string>
     <string name="leui_memory_all_title">Minden</string>
-    <string name="leui_memory_all_summary" formatted="false">%s after storage formatted as %s</string>
+    <string name="leui_memory_all_summary" formatted="false">%s teljes %s formázott tárterület</string>
     <string name="leui_memory_in_use">Használt</string>
     <string name="leui_memory_avaliable">Elérhető</string>
     <string name="leui_memory_app_instaled">Telepített alkalmazások</string>
@@ -3146,15 +3133,9 @@ http://xpage.g.scloud.letv.com/web/agree"</string>
     <string name="leui_longpress_virtualkey_recent_system_default_title">Rendszer alapértelmezett</string>
     <string name="leui_longpress_virtualkey_recent_system_default_summary">Az alapértelmezett funkció a menü</string>
     <string name="leui_double_apps_settings">Dual-alkalmazás</string>
-    <string name="leui_weixin_apps_settings">微信小号</string>
-    <string name="leui_weixin_uninstall_warn">尚未安装微信，请在安装微信后开启小号功能</string>
-    <string name="leui_weixin_open_warn">微信小号已开启，请在桌面单击小号图标启动</string>
     <string name="leui_double_apps_warning">Allow you to log into two accounts in different versions of the same app installed</string>
-    <string name="leui_battery_manager_settings">Power saving management</string>
-    <string name="leui_wallpaper_and_theme_settings">Wallpaper and theme</string>
-    <string name="leui_superseatch_longpress_summary">密碼鎖屏下不支持此功能</string>
-    <string name="finger_print_message_error_repeate">請稍微移動手指，以便錄入不同位置的指紋</string>
-    <string name="leui_fingerprint_dirty_info">請增加按壓力度，確保指紋錄入清晰</string>
+    <string name="leui_battery_manager_settings">Engergiagazdálkodás</string>
+    <string name="leui_wallpaper_and_theme_settings">Hátterek és témák</string>
     <string name="leui_key_position_policy">Balkezes mód</string>
     <string name="leui_key_position_policy_summary">"A bal oldali virtuális gomb 'vissza' gomb lesz, a jobb virtuális gomb pedig 'multi-task'"</string>
     <string name="leui_data_usage_summary_title">Adathasználat</string>
