@@ -13,11 +13,11 @@
         <item quantity="one">SIM card PUK code is incorrect. You can attempt %d more times. If you fail again, your SIM card will be permanently locked.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code_leui">
-        <item quantity="other">PIN has been entered incorrectly %%1$d times. After more %%2$d failed attempts, only the PUK may be used.</item>
-        <item quantity="one">PIN has been entered incorrectly %%1$d time. After more %%2$d failed attempts, only the PUK may be used.</item>
+        <item quantity="other">PIN has been entered incorrectly %1$d times.After %2$d more attempts, you can only use the PUK code.</item>
+        <item quantity="one">PIN has been entered incorrectly %1$d time.After %2$d more attempts, you can only use the PUK code.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code_leui">
-        <item quantity="other">PUK has been entered incorrectly %%1$d times. After more %%2$d failed attempts, SIM card %d will be locked.</item>
-        <item quantity="one">PUK has been entered incorrectly %%1$d time. After more %%2$d failed attempts, SIM card %d will be locked.</item>
+        <item quantity="other">PUK code has been entered incorrectly %1$d times.After %2$d more failed attempts, SIM will be locked.</item>
+        <item quantity="one">PUK code has been entered incorrectly %1$d time.After %2$d more failed attempts, SIM will be locked.</item>
     </plurals>
 </resources>

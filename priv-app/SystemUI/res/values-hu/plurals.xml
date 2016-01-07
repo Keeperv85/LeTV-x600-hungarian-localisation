@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d képernyő Áttekintés alatt</item>
-        <item quantity="one">1 képernyő Áttekintés alatt</item>
+        <item quantity="other">%d képernyő áttekintés alatt</item>
+        <item quantity="one">1 képernyő áttekintés alatt</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
         <item quantity="other">Helytelen PIN kód a SIM kártyához; még %d próbálkozása van.</item>
@@ -13,11 +13,11 @@
         <item quantity="one">Helytelen PUK kód a SIM kártyához; még %d próbálkozása van, mielőtt a SIM kártya végleg használhatatlan lesz.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code_leui">
-        <item quantity="other">PIN has been entered incorrectly %%1$d times. After more %%2$d failed attempts, only the PUK may be used.</item>
-        <item quantity="one">PIN has been entered incorrectly %%1$d time. After more %%2$d failed attempts, only the PUK may be used.</item>
+        <item quantity="other">Az utóbbi %1$d megadott PIN kód hibás. A következő %2$d hibás próbálozás után, már csak a PUK kódot tudja használni.</item>
+        <item quantity="one">Az utóbbi %1$d megadott PIN kód hibás. A következő %2$d hibás próbálozás után, talán már csak a PUK kódot tudja használni.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code_leui">
-        <item quantity="other">PUK has been entered incorrectly %%1$d times. After more %%2$d failed attempts, SIM card %d will be locked.</item>
-        <item quantity="one">PUK has been entered incorrectly %%1$d time. After more %%2$d failed attempts, SIM card %d will be locked.</item>
+        <item quantity="other">SIM zárolva. Adja meg a PUK-kódot a folytatáshoz. %1$d kísérlete maradt mielőtt a SIM%2$d véglegesen tiltásra kerül. Vegye fel a kapcsolatot a mobilszolgáltatójával a részletekért!</item>
+        <item quantity="one">SIM zárolva. Adja meg a PUK-kódot a folytatáshoz. %1$d kísérlete maradt mielőtt a SIM%2$d véglegesen tiltásra kerül. Vegye fel a kapcsolatot a mobilszolgáltatójával a részletekért!</item>
     </plurals>
 </resources>
