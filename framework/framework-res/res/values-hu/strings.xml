@@ -1682,7 +1682,7 @@ A kilépéshez tartsa lenyomva a Home gombot.."</string>
     <string name="le_anr_application_process">Nem válaszol %1$s.</string>
     <string name="le_anr_activity_process">A %1$s folyamat nem válaszol.</string>
     <string name="le_anr_process">"%1$s folyamat nem válaszol."</string>
-    <string name="reboot">Újraindítás</string>>
+    <string name="reboot">Újraindítás</string>
     <string name="shutdow_btn">Kikapcsolás</string>
     <string name="shutdown_tip">"Minden nap egyre okosabban!"</string>
     <string name="shutdown_tip_2">A EUI minden nap egyre okosabb lesz!</string>
@@ -1690,7 +1690,7 @@ A kilépéshez tartsa lenyomva a Home gombot.."</string>
     <string name="reboot_tip">Miattad fejlődik minden nap!</string>
     <string name="reboot_btn_v2">Újraindítás</string>
     <string name="cancel_btn_v2">Mégsem</string>
-    <string name="locked_tip">a telefon zárolva van</string>
+    <string name="locked_tip">A telefon zárolva van</string>
     <string name="share_title">Megosztás vagy küldés</string>
     <string name="share_cancel">Mégsem</string>
     <string name="share_show_more">Több</string>
@@ -1871,13 +1871,16 @@ A kilépéshez tartsa lenyomva a Home gombot.."</string>
     <string name="permlab_read_phone_bind_key">“Hozzáférés a biztonsági kulcshoz”</string>
     <string name="permdesc_read_phone_bind_key">”Engedélyezi az alkalmazásoknak a a biztonsági kulcs használatát.“</string>
     <string name="le_licence_dialog_title">Nyilatkozatok és feltételek</string>
-    <string name="le_licence_dialog_content">Használni fogja a %1$s Letv által szolgáltatva, kérem olvassa el a %2$s. %3$s használat alatt?</string>
-    <string name="le_licence_dialog_permission_net">Engedélyezi a %1$s ,hogy hozzáférjen a hálózati információkhoz</string>
-    <string name="le_licence_dialog_permission_location_net">Engedélyezi a %1$s hogy hozzáférjen a helyadatokhoz és a hálózati információkhoz</string>
-    <string name="le_licence_dialog_permission_contacts_location_net">Engedélyezi a %1$s hogy hozzáférjen a névjegyekhez, helyadatokhoz és hálózati információkhoz</string>
-    <string name="le_licence_dialog_cb_text">Ne mutassa újra</string>
+    <string name="le_licence_dialog_content">Használni fogja a Letv %1$s szolgáltatást, kérem olvassa el a %2$s dokumentumot. %3$s használat alatt?</string>
+    <string name="le_licence_dialog_permission_net">Engedélyezi a %1$s számára, hogy hozzáférjen a hálózati információkhoz</string>
+    <string name="le_licence_dialog_permission_location_net">Engedélyezi a %1$s számára, hogy hozzáférjen a helyadatokhoz és a hálózati információkhoz</string>
+    <string name="le_licence_dialog_permission_contacts_location_net">Engedélyezi a %1$s számára, hogy hozzáférjen a névjegyekhez, helyadatokhoz és hálózati információkhoz</string>
+    <string name="le_licence_dialog_cb_text">Ne mutassa újra!</string>
     <string name="le_licence_dialog_btn_exit">Kilépés</string>
-    <string name="le_licence_dialog_btn_agree">Megértettem, folytatás</string>
+    <string name="le_licence_dialog_btn_agree">Megértettem, folytatás!</string>
+    <string name="le_licence_dialog_user">&lt;a href=http://xpage.scloud.letv.com/api/agree/user/en>Végfelhasználói szerződés&lt;/a></string>
+    <string name="le_licence_dialog_privacy">&lt;a href=http://xpage.scloud.letv.com/api/agree/privacy/en>Adatvédelmi megállapodás&lt;/a></string>
+    <string name="le_licence_dialog_user_privacy">&lt;a href=http://xpage.scloud.letv.com/api/agree/user/en>Végfelhasználói szerződés&lt;/a> és az &lt;a href=http://xpage.scloud.letv.com/api/agree/privacy/en>Adatvédelmi megállapodás&lt;/a></string>
     <string name="third_party_aerr_application">%1$s váratlanul véget ért.</string>
     <string name="third_party_aerr_process">%1$s folyamata váratlanul véget ért.</string>
     <string name="third_party_anr_activity_application">"%2$s nem válaszol.
