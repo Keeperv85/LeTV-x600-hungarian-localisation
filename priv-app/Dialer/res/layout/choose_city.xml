@@ -4,6 +4,6 @@
     <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="?android:actionBarSize" />
     <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
         <ListView android:layout_gravity="center" android:id="@id/country_lvcountry" android:paddingRight="38.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffdfdfdf" android:dividerHeight="1.0px" android:minHeight="?android:listPreferredItemHeight" />
-        <com.letv.leui.widget.AlphabetWavesView android:gravity="center_horizontal" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/listSideIndex" android:layout_width="@android:dimen/le_awv_toast_offset" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="7.0dip" />
+        <com.letv.leui.widget.AlphabetWavesView android:gravity="center_horizontal" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/listSideIndex" android:layout_width="@android:dimen/le_awv_width" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="7.0dip" />
     </FrameLayout>
 </LinearLayout>

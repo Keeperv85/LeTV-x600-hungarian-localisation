@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.letv.leui.widget.LeBubbleTitleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" app:bubbleText="@string/keypad_star_longpress_change_tip" app:bubbleTitleText="@string/keypad_star_longpress_change_tip_title" app:bubbleArrowDirection="4" app:relativePosition="20.000004%"
+<com.letv.leui.widget.LeBubbleTitleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" app:bubbleText="@string/keypad_star_longpress_change_tip" app:bubbleTitleText="@string/keypad_star_longpress_change_tip_title" app:bubbleArrowDirection="bottom" app:relativePosition="20.000004%"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/prv/res/android" />

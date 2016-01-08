@@ -9,7 +9,7 @@
     <include android:id="@id/account_filter_header_container" layout="@layout/account_filter_header" />
     <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
         <view android:id="@android:id/list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="?contact_browser_list_padding_left" android:layout_marginRight="?contact_browser_list_padding_right" android:layout_marginStart="?contact_browser_list_padding_left" android:layout_marginEnd="?contact_browser_list_padding_right" class="com.android.contacts.common.list.PinnedHeaderListView" />
-        <com.android.contacts.common.widget.AlphabetWavesView android:gravity="center_horizontal" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/listSideIndex" android:layout_width="@android:dimen/le_awv_toast_offset" android:layout_height="fill_parent" />
+        <com.android.contacts.common.widget.AlphabetWavesView android:gravity="center_horizontal" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/listSideIndex" android:layout_width="@android:dimen/le_awv_width" android:layout_height="fill_parent" />
         <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
     </FrameLayout>
 </LinearLayout>
