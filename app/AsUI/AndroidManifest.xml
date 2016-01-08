@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.atmos.daxappUI" platformBuildVersionCode="21" platformBuildVersionName="5.0-146">
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="false" android:xlargeScreens="true"/>
+    <compatible-screens>
+        <screen android:screenDensity="mdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="hdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="mdpi" android:screenSize="large"/>
+        <screen android:screenDensity="mdpi" android:screenSize="xlarge"/>
+    </compatible-screens>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <application android:hardwareAccelerated="true" android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.atmos.daxappCoreUI.DAXApplication" android:screenOrientation="landscape" android:supportsRtl="true" android:theme="@style/windowsStyle">
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name=".MainActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.atmos.LAUNCH_DS_APP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:finishOnTaskLaunch="true" android:label="@string/instore_app_name" android:name="com.atmos.instoredemoapp.DlbInStoreDemoPlayer" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.atmos.LAUNCH_DAX_INSTOREDEMO_APP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.atmos.daxappUI.DolbyHelpActivity"/>
+        <receiver android:name="com.atmos.daxappUI.DsProfileSettingBroadcast">
+            <intent-filter>
+                <action android:name="com.atmos.ds1appUI.SET_PROFILE_TYPE"/>
+                <action android:name="com.atmos.ds1appUI.SET_DS_STATE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.atmos.daxappUI.DsSetProfileServices">
+            <intent-filter>
+                <action android:name="com.atmos.SET_PROFILE_SERVICE"/>
+                <action android:name="com.atmos.ds1appUI.SET_DS_STATE"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|screenSize" android:exported="false" android:finishOnTaskLaunch="true" android:label="@string/app_name" android:name="com.atmos.daxappUI.ExploreDolbyAtmos" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="com.atmos.EXPLORE_DOLBY_ATMOS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

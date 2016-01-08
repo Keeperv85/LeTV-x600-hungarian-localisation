@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/subject_content" style="@style/LeComposeFieldRow"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:text="@string/le_subject" style="@style/LeComposeFieldLabel" />
-    <com.android.mail.compose.EnterSubject android:id="@id/subject" style="@style/LeComposeField.Subject" />
-    <ImageView android:layout_gravity="end|center" android:id="@id/add_attachments_control" android:paddingLeft="@dimen/le_compose_selectbutton_padding_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/le_ic_add_attachment_svg" android:paddingEnd="@dimen/le_email_content_padding_left" />
-</LinearLayout>

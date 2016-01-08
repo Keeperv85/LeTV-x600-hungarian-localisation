@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.mail.ui.cardMode.LeCardModeItemView android:id="@id/back" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textColor="@color/le_white" android:gravity="center" android:id="@id/toggle_unread" android:background="@color/le_swipe_mark_read_or_unread_button" android:layout_width="@dimen/le_conversation_list_item_right_swipe" android:layout_height="fill_parent" android:text="@string/le_conversation_list_item_mark_unread" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-    <ImageView android:id="@id/toggle_star" android:background="@color/le_swipe_star_button" android:layout_width="@dimen/le_conversation_list_item_left_swipe" android:layout_height="fill_parent" android:src="@drawable/le_ic_swipe_star_button_svg" android:scaleType="center" android:layout_centerVertical="true" android:layout_toStartOf="@id/delete" />
-    <ImageView android:id="@id/delete" android:background="@color/le_swipe_delete_button" android:layout_width="@dimen/le_conversation_list_item_left_swipe" android:layout_height="fill_parent" android:src="@drawable/le_ic_swipe_delete_button_svg" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-    <com.android.mail.ui.cardMode.LeCardModeItemFrontView android:id="@id/front" android:background="@drawable/list_selector_selected" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</com.android.mail.ui.cardMode.LeCardModeItemView>

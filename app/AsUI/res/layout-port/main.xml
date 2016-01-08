@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff001120" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/topbackground" android:layout_width="fill_parent" android:layout_height="160.0dip">
+            <FrameLayout android:orientation="vertical" android:id="@id/preseteditorcontainer" android:layout_width="wrap_content" android:layout_height="88.0dip" />
+            <View android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0sp" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <fragment android:name="com.atmos.daxappUI.FragProfilePresetEditor" android:id="@id/fragprofileeditor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <fragment android:name="com.atmos.daxappUI.FragProfilePresets" android:id="@id/fragprofilepresets" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/ltborder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <fragment android:name="com.atmos.daxappUI.FragGraphicVisualizer" android:id="@id/fraggraphicvisualizer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="#ff000e1a" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="32.0sp" android:layout_marginTop="20.0sp" android:layout_marginRight="48.0sp" />
+        <View android:background="@color/ltborder" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0sp" android:layout_marginRight="0.0sp" android:layout_marginBottom="26.0sp" />
+        <fragment android:name="com.atmos.daxappUI.FragSwitches" android:id="@id/fragswitches" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0sp" android:layout_marginRight="0.0sp" />
+        <RelativeLayout android:id="@id/copyrightBox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0sp">
+            <TextView android:textAppearance="@style/TextAppearanceCopyright" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0sp" android:layout_marginBottom="7.0sp" android:text="@string/copyright" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View android:background="@color/ltborder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0sp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/custom_btn_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textSize="16.0dip" android:textColor="@color/le_black" android:id="@id/custom_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-normal" />
-        <ImageView android:id="@id/custom_arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_pop_open_icon" />
-        <include layout="@layout/le_mail_actionbar_searchview_custom" />
-    </LinearLayout>
-</FrameLayout>

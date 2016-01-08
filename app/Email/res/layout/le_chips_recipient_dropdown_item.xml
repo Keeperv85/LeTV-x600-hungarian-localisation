@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:background="@drawable/le_chips_dropdown_background" android:layout_width="fill_parent" android:layout_height="@dimen/le_chip_dropdown_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@drawable/le_chips_dropdown_foreground" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="14.0dip" android:layout_marginEnd="0.0dip" style="@style/LeChipTitleStyle" />
-    <ImageView android:duplicateParentState="true" style="@style/LeChipDeleteIconStyle" />
-</LinearLayout>

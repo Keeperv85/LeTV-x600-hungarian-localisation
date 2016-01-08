@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/le_conversation_pager" />
-    <com.android.mail.ui.LeConversationViewBottomBar android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/conversation_pane_bottom_bar" android:background="@drawable/le_bar_bg_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

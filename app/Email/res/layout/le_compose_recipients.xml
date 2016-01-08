@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/to_content" style="@style/LeComposeFieldRow"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/to_label" android:minWidth="@dimen/le_compose_label_min_width" android:text="@string/to" android:contentDescription="@string/to" style="@style/LeComposeFieldLabel" />
-    <com.letv.commons.chip.LeRecipientEditTextView android:id="@id/to" android:descendantFocusability="afterDescendants" android:contentDescription="@string/to" style="@style/LeComposeField.Recipient" />
-    <ImageView android:id="@id/select_to" android:visibility="gone" style="@style/LeComposeFieldButton" />
-</LinearLayout>

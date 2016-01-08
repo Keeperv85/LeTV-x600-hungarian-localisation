@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginRight="16.0dip" android:soundEffectsEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="55.0sp" android:layout_height="55.0sp" android:layout_marginLeft="10.0sp" android:layout_marginTop="2.0sp" android:src="@drawable/icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:soundEffectsEnabled="false" />
+    <ImageView android:id="@id/revertButton" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/revert_profile" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:soundEffectsEnabled="false" />
+    <TextView android:textSize="@dimen/profile_title_text_size" android:gravity="center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:soundEffectsEnabled="false" />
+    <EditText android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/white" android:id="@id/nameEdit" android:background="@drawable/blueframe" android:visibility="gone" android:layout_width="192.0sp" android:layout_height="72.0sp" android:minHeight="61.0sp" android:layout_alignBaseline="@id/name" android:layout_alignLeft="@id/name" android:soundEffectsEnabled="false" android:inputType="textCapCharacters|textNoSuggestions" />
+</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="le_attachment_download_complete_tip">Attachment saved: %1$s</string>
-    <string name="permission_read_big_body_label">Read email content</string>
-    <string name="le_signature_default">Sent from my Superphone</string>
-</resources>

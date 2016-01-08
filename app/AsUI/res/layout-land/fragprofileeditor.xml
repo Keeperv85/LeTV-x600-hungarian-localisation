@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/presetLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_logo" android:scaleType="centerInside" android:layout_centerVertical="true" android:contentDescription="@string/dolbyDigitalPlus" />
+        <TextView android:textAppearance="@style/TextAppearanceLarge" android:textSize="32.0sp" android:id="@id/presetName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:maxWidth="230.0sp" android:text="@string/off" android:singleLine="true" android:layout_toRightOf="@id/presetLogo" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/revertButtonMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/revert_profile" android:layout_toRightOf="@id/presetName" android:layout_centerVertical="true" android:soundEffectsEnabled="false" />
+        <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/fragpower" />
+        <EditText android:textAppearance="?android:textAppearanceLarge" android:textSize="32.0sp" android:textStyle="normal" android:textColor="@color/white" android:id="@id/presetNameEdit" android:background="@drawable/blueframe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0sp" android:layout_marginLeft="18.0sp" android:layout_marginTop="3.0sp" android:layout_marginRight="18.0sp" android:layout_centerVertical="true" android:inputType="textCapCharacters|textNoSuggestions" />
+    </RelativeLayout>
+</LinearLayout>

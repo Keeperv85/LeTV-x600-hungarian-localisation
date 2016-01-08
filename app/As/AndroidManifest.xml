@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.atmos" platformBuildVersionCode="21" platformBuildVersionName="5.0-146">
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:xlargeScreens="true"/>
+    <compatible-screens>
+        <screen android:screenDensity="mdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="hdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="mdpi" android:screenSize="large"/>
+        <screen android:screenDensity="mdpi" android:screenSize="xlarge"/>
+    </compatible-screens>
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:persistent="true" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <service android:exported="true" android:name="com.atmos.service.DsService">
+            <intent-filter>
+                <action android:name="com.atmos.api.IDs"/>
+                <action android:name="com.atmos.service.DsService"/>
+                <action android:name="com.atmos.service.DsBooter"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:name="com.atmos.service.DsBooter" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.atmos.dax.api.TuningProvider" android:exported="true" android:name=".provider.DsTuningProvider" android:readPermission="com.atmos.provider.permission.Read" android:writePermission="com.atmos.provider.permission.Write"/>
+    </application>
+    <permission android:description="@string/permission_description_tuning" android:label="@string/permission_label_tuning" android:name="com.atmos.provider.permission.Read" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permission_description_tuning" android:label="@string/permission_label_tuning" android:name="com.atmos.provider.permission.Write" android:protectionLevel="dangerous"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+</manifest>

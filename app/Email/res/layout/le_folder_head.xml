@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.mail.ui.FolderListLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@android:id/list" android:background="@color/le_white" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@color/le_gray" android:dividerHeight="@dimen/le_divider_height" />
-</com.android.mail.ui.FolderListLayout>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.letv.leui.app.LeTopWidget android:layout_width="fill_parent" android:layout_height="fill_parent" leui:leftTextViewText="@android:string/cancel" leui:rightTextViewText="@string/send" leui:leTopWidgetBg="@color/le_bar_bg" leui:leftTextViewTextColor="@color/le_bar_button" leui:rightTextViewTextColor="@color/le_bar_button" leui:leftMode="onlyTitle" leui:rightMode="onlyTitle"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:leui="http://schemas.android.com/apk/prv/res/android" />

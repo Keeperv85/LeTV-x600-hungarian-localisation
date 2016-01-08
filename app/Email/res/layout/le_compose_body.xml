@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/body_wrapper" android:paddingEnd="@dimen/le_email_content_padding_left" style="@style/LeComposeFieldRow"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.mail.compose.BodyView android:id="@id/body" android:background="@null" android:hint="@string/body_hint" style="@style/LeComposeField.Body" />
-</RelativeLayout>

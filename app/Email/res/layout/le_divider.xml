@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<View android:orientation="vertical" android:id="@id/le_divider" android:background="@color/le_divider" android:layout_width="fill_parent" android:layout_height="@dimen/le_divider_height" android:layout_marginRight="@dimen/le_email_content_padding_left"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

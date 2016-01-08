@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0sp" android:layout_weight="1.0">
+        <include android:id="@id/verticalAxis" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0sp" android:layout_marginRight="4.0sp" android:layout_marginBottom="8.0sp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/vertical_axis" />
+        <FrameLayout android:id="@id/spectralVis" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="19.0sp" android:layout_toLeftOf="@id/verticalAxis" android:layout_alignParentTop="true">
+            <com.atmos.daxappUI.GraphicVisualiser android:id="@id/graphic_vis" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0sp" android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textAppearance="@style/TextAppearanceMedium" android:textSize="@dimen/profile_title_text_size" android:id="@id/equalizerLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intelligent_equalizer" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/qm_inteq" android:visibility="gone" android:layout_width="19.0sp" android:layout_height="21.0sp" android:layout_marginLeft="15.0sp" android:src="@drawable/sel_tooltip_qm" android:layout_toRightOf="@id/equalizerLabel" android:layout_alignBottom="@id/equalizerLabel" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/equalizerLabel" android:layout_alignParentLeft="true">
+                <TextView android:textAppearance="@style/TextAppearanceLargeBlue" android:textSize="@dimen/profile_title_text_size" android:id="@id/equalizerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/eqResetButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0sp" android:src="@drawable/revert_profile" android:layout_toRightOf="@id/equalizerName" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="400.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <GridView android:id="@id/equalizerListView" android:background="@drawable/profile_bg" android:scrollbars="none" android:layout_width="270.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0sp" android:listSelector="@android:color/transparent" android:numColumns="3" android:layout_alignLeft="@id/eqListFrame" android:layout_alignTop="@id/eqListFrame" android:isScrollContainer="false" />
+            <LinearLayout android:background="@drawable/profile_bg" android:layout_width="90.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/equalizerListView">
+                <ImageView android:id="@id/equalizerCustom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" style="@style/EqualizerCustomButton" />
+            </LinearLayout>
+            <ImageView android:id="@id/eqListFrame" android:visibility="gone" android:layout_width="600.0sp" android:layout_height="84.0sp" android:src="@drawable/eqlistframe_image" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

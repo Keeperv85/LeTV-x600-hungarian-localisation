@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="profile_title_text_size">12.0sp</dimen>
+    <dimen name="select_profile_titile_text_size">12.0sp</dimen>
+    <dimen name="help_tile_size">12.0sp</dimen>
+    <dimen name="help_text_size">12.0sp</dimen>
+</resources>

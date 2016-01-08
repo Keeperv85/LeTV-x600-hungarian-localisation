@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.mail.ui.LeSearchView android:gravity="center_vertical" android:id="@id/search" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" leui:textCursorDrawable="@drawable/le_shape_search_view_cursor_light" leui:lcQueryHint="@string/search_hint" leui:lcQueryTextColor="@color/le_black" leui:lcInputMarginLeft="0.0dip" leui:lcMatchColor="@color/le_bar_bg" leui:lcAlwaysShowCancel="true" leui:lcCursorColor="@color/le_bar_bg" leui:lcUnderlineColor="@color/le_bar_bg" style="@*android:style/Widget.LeuiCommon.SearchView.Light"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:leui="http://schemas.android.com/apk/prv/res/android" />
