@@ -599,6 +599,8 @@ Ez a beállítás minden felhasználót érint ezen a telefonon."</string>
     <string name="date_time_set_date_title">Dátum</string>
     <string name="date_time_set_date">Dátum beállítása</string>
     <string name="date_time_date_format_title">Dátum formátum</string>
+    <string name="date_time_date_format">Dátum formátum kiválasztása</string>
+    <string name="normal_date_format">Területi (%s)</string>
     <string name="zone_list_menu_sort_alphabetically">Rendezés név szerint</string>
     <string name="zone_list_menu_sort_by_timezone">Rendezés időzóna szerint</string>
     <string name="date_picker_title">Dátum</string>
@@ -3171,4 +3173,5 @@ Kérem válassza ki a megfelelő számítógépet.
 Néhány számítógép nem támogatja ezt a lehetőséget. Kérem mentse el az adatait használat előtt."</string>
     <string name="leui_usb_charging_pctype_item">Mac</string>
     <string name="leui_usb_charging_pctype_item1">Nem Mac</string>
+    <string name="nubia_fontchooser_title">Betűkészlet cseréje</string>
 </resources>
