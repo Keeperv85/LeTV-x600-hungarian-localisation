@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="app_icon_size">144.0px</dimen>
+    <dimen name="app_icon_size">164.0px</dimen>
     <dimen name="dynamic_grid_edge_margin">7.0dip</dimen>
     <dimen name="dynamic_grid_search_bar_max_width">500.0dip</dimen>
     <dimen name="dynamic_grid_search_bar_height">41.0dip</dimen>

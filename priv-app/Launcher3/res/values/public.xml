@@ -668,6 +668,57 @@
     <public type="string" name="folder_cling_title" id="0x7f0d008a" />
     <public type="string" name="folder_cling_create_folder" id="0x7f0d008b" />
     <public type="string" name="cling_dismiss" id="0x7f0d008c" />
+    <public type="string" name="help_url" id="0x7f0d00aa" />
+    <public type="string" name="dummy_custom_cling_error_message" id="0x7f0d00ab" />
+    <public type="string" name="wallpaper_instructions" id="0x7f0d00ac" />
+    <public type="string" name="pick_wallpaper" id="0x7f0d00ad" />
+    <public type="string" name="image_load_fail" id="0x7f0d00ae" />
+    <public type="string" name="wallpaper_load_fail" id="0x7f0d00af" />
+    <public type="string" name="wallpaper_accessibility_name" id="0x7f0d00b0" />
+    <public type="string" name="announce_selection" id="0x7f0d00b1" />
+    <public type="string" name="wallpaper_delete" id="0x7f0d00b2" />
+    <public type="string" name="pick_image" id="0x7f0d00b3" />
+    <public type="string" name="crop_wallpaper" id="0x7f0d00b4" />
+    <public type="string" name="album_name" id="0x7f0d00b5" />
+    <public type="string" name="app_name" id="0x7f0d00b6" />
+    <public type="string" name="album_subname" id="0x7f0d00b7" />
+    <public type="string" name="sarrs_title" id="0x7f0d00b8" />
+    <public type="string" name="sarrs_leso_slogan" id="0x7f0d00b9" />
+    <public type="string" name="sarrs_guess_you_like" id="0x7f0d00ba" />
+    <public type="string" name="sarrs_guess_you_like_second_line" id="0x7f0d00bb" />
+    <public type="string" name="sarrs_click_to_start" id="0x7f0d00bc" />
+    <public type="string" name="sarrs_first_interest_setting_title" id="0x7f0d00bd" />
+    <public type="string" name="sarrs_first_interest_setting_subtitle" id="0x7f0d00be" />
+    <public type="string" name="sarrs_first_interest_setting_start" id="0x7f0d00bf" />
+    <public type="string" name="sarrs_default_category_name" id="0x7f0d00c0" />
+    <public type="string" name="sarrs_not_login_text" id="0x7f0d00c1" />
+    <public type="string" name="sarrs_net_error_text" id="0x7f0d00c2" />
+    <public type="string" name="sarrs_empty_list_text" id="0x7f0d00c3" />
+    <public type="string" name="sarrs_login" id="0x7f0d00c4" />
+    <public type="string" name="sarrs_reload_request" id="0x7f0d00c5" />
+    <public type="string" name="sarrs_click_to_start_letv" id="0x7f0d00c6" />
+    <public type="string" name="sarrs_back" id="0x7f0d00c7" />
+    <public type="string" name="sarrs_top_toast_net_error" id="0x7f0d00c8" />
+    <public type="string" name="sarrs_top_toast_net_weak" id="0x7f0d00c9" />
+    <public type="string" name="sarrs_top_toast_load_more_success" id="0x7f0d00ca" />
+    <public type="string" name="sarrs_top_toast_load_no_data" id="0x7f0d00cb" />
+    <public type="string" name="sarrs_top_toast_load_busy" id="0x7f0d00cc" />
+    <public type="string" name="sarrs_top_toast_rank_data_success" id="0x7f0d00cd" />
+    <public type="string" name="sarrs_num_over_ten_thousand" id="0x7f0d00ce" />
+    <public type="string" name="sarrs_num_over_hundred_million" id="0x7f0d00cf" />
+    <public type="string" name="sarrs_revert" id="0x7f0d00d0" />
+    <public type="string" name="sarrs_main_title_settings" id="0x7f0d00d1" />
+    <public type="string" name="sarrs_recommand" id="0x7f0d00d2" />
+    <public type="string" name="nuzhan" id="0x7f0d00d3" />
+    <public type="string" name="letvonlymuisiclive" id="0x7f0d00d4" />
+    <public type="string" name="sarrs_album_main_title" id="0x7f0d00d5" />
+    <public type="string" name="sarrs_album_sub_title" id="0x7f0d00d6" />
+    <public type="string" name="sarrs_ptr_release_to_refresh_label" id="0x7f0d00d7" />
+    <public type="string" name="sarrs_ptr_last_update_label" id="0x7f0d00d8" />
+    <public type="string" name="sarrs_ptr_refreshing_label" id="0x7f0d00d9" />
+    <public type="string" name="sarrs_top_toast_new_rec_hint" id="0x7f0d00da" />
+    <public type="string" name="sarrs_hint_yesterday" id="0x7f0d00db" />
+    <public type="string" name="sarrs_scroll_to_top_by_double_click" id="0x7f0d00dc" />
     <public type="string" name="APKTOOL_DUMMY_0068" id="0x7f0d0068" />
     <public type="string" name="APKTOOL_DUMMY_008d" id="0x7f0d008d" />
     <public type="string" name="APKTOOL_DUMMY_008e" id="0x7f0d008e" />
@@ -890,4 +941,5 @@
     <public type="style" name="LeTextView.Shadow" id="0x7f0f000d" />
     <public type="style" name="LeTextView.WallpaperTheme" id="0x7f0f000e" />
     <public type="style" name="LeTextView.Shadow.OverviewPanelButton" id="0x7f0f000f" />
+    <public type="plurals" name="number_of_items_selected" id="0x7f100000" />
 </resources>
