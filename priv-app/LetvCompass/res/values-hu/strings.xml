@@ -7,7 +7,7 @@
     <string name="defalut_orientation_degree_symbol">o</string>
     <string name="calibrate_message">Mozgassa a készüléket az animációban megjelenített módon!</string>
     <string name="open_netorgps_get_position">Kapcsolja be a hálózati kapcsolatot, hogy elérhetőek legyenek a koordináták és a helyadatok</string>
-    <string name="open_net_get_address">Japcsolja be a hálózati kapcsolatot a helyadatok eléréséhez</string>
+    <string name="open_net_get_address">Kapcsolja be a hálózati kapcsolatot a helyadatok eléréséhez</string>
     <string name="low_accuracy_hint">Alacsony pontosság, kérem kerülje az interferenciát és kalibrálja az iránytűt</string>
     <string name="follow_refer_complete_calibrate">"Kérem kerülje a mágneses interferenciát 
  és kövesse az utasításokat az iránytű kalibrációjához"</string>
