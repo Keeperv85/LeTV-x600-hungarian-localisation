@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bussola</string>
+    <string name="defalut_orientation">Direzione</string>
+    <string name="defalut_orientation_degree">90</string>
+    <string name="format_coordinate" formatted="false">"%s %d° %d' %d\" %3s %d° %d' %d\""</string>
+    <string name="cancel">Annulla</string>
+    <string name="calibrate">Calibra</string>
+    <string name="defalut_orientation_degree_symbol">o</string>
+    <string name="orientation_0">0</string>
+    <string name="orientation_90">90</string>
+    <string name="orientation_180">180</string>
+    <string name="orientation_270">270</string>
+    <string name="calibrate_message">Inclinare il telefono in modo da effettuare una palla rossa lungo il cerchio</string>
+    <string name="open_netorgps_get_position">Attiva la connessione internet per ricevere informazioni sulle coordinate e posizione</string>
+    <string name="open_net_get_address">Attiva connessione di rete per ottenere la posizione</string>
+    <string name="low_accuracy_hint">Precisione dei dati non ottimale. Si prega di evitare interferenze e ricalibrare</string>
+    <string name="follow_refer_complete_calibrate">Fare riferimento alle istruzioni per completare la calibrazione della bussola</string>
+    <string name="open_gps_get_accurate">Attiva il GPS per una maggiore precisione delle coordinate</string>
+    <string name="acquiring_location">Acquisizione posizione</string>
+    <string name="format_coordinate_en" formatted="false">"%d° %d' %d\" %3s %d° %d' %d\" %3s"</string>
+    <string name="locating">Localizzazione</string>
+    <string name="wifi_locating">Localizzazione Wifi</string>
+    <string name="mobile_locating">Posizionamento attraverso la rete mobile</string>
+    <string name="no_network">Nessun servizio di rete</string>
+    <string name="address">Indirizzo</string>
+    <string name="opengps">Attiva GPS</string>
+    <string name="opennet">Attiva connessione dati</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/compass_lin" android:background="@color/compassview_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/orientation_relat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/linear_orientation_margin_top" android:layout_centerHorizontal="true">
+        <TextView android:textSize="43.0dip" android:gravity="top" android:id="@id/textview_orientation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/defalut_orientation" android:layout_centerHorizontal="true" android:fontFamily="helve-neue-light" />
+        <TextView android:textSize="40.0dip" android:gravity="center" android:id="@id/textview_orientation_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/defalut_orientation_degree" android:layout_below="@id/textview_orientation" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:fontFamily="helve-neue-thin" />
+        <ImageView android:id="@id/textview_orientation_degree_symbol" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/c_degree" android:layout_toRightOf="@id/textview_orientation_degree" android:layout_below="@id/textview_orientation" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fl_center_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/address_relat" android:layout_below="@id/orientation_relat">
+        <com.letv.android.compass.RotateView android:id="@id/id_rotateclockview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/rl_verify" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_verify" android:background="@drawable/verify_frame_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/address_relat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/address_relat_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0dip" android:gravity="center_horizontal" android:id="@id/textview_coordinate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_netorgps_get_position" android:layout_centerHorizontal="true" android:alpha="0.5" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/textview_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/open_gps_get_accurate" android:layout_below="@id/textview_coordinate" android:layout_centerHorizontal="true" android:alpha="0.5" android:fontFamily="sans-serif-light" />
+    </RelativeLayout>
+</RelativeLayout>

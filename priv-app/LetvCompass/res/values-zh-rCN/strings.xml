@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">指南针</string>
+    <string name="defalut_orientation">方向</string>
+    <string name="defalut_orientation_degree">90</string>
+    <string name="format_coordinate" formatted="false">"%s %d° %d' %d\" %3s %d° %d' %d\""</string>
+    <string name="cancel">取消</string>
+    <string name="calibrate">校准</string>
+    <string name="defalut_orientation_degree_symbol">o</string>
+    <string name="orientation_0">0</string>
+    <string name="orientation_90">90</string>
+    <string name="orientation_180">180</string>
+    <string name="orientation_270">270</string>
+    <string name="calibrate_message">倾斜手机使红球沿着圆圈滚动</string>
+    <string name="open_netorgps_get_position">开启网络获取经纬度和位置</string>
+    <string name="open_net_get_address">开启网络获取地址</string>
+    <string name="low_accuracy_hint">数据精度低请您远离磁场干扰源并重新校准</string>
+    <string name="follow_refer_complete_calibrate">"请您远离磁场干扰源
+并按图示完成指南针校准"</string>
+    <string name="open_gps_get_accurate">开启GPS获取更精确经纬度</string>
+    <string name="acquiring_location">位置获取中</string>
+    <string name="power_assistant_hint">无法获取位置,请关闭节电助手后重试</string>
+</resources>

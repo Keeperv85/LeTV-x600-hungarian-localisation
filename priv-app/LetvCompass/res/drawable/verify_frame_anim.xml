@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300" android:drawable="@drawable/compass_verify_01" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_02" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_03" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_04" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_05" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_06" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_07" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_08" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_09" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_10" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_11" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_12" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_13" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_14" />
+    <item android:duration="300" android:drawable="@drawable/compass_verify_15" />
+    <item android:duration="1300" android:drawable="@drawable/compass_verify_16" />
+</animation-list>

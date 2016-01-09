@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="orientation_eight">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="longitude_latitude" formatted="false">
+        <item>"%d° %d' %d\" E"</item>
+        <item>"%d° %d' %d\" O"</item>
+        <item>"%d° %d' %d\" N"</item>
+        <item>"%d° %d' %d\" S"</item>
+    </string-array>
+</resources>

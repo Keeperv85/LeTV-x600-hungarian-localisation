@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="orientation_eight">
+        <item>北</item>
+        <item>東北</item>
+        <item>東</item>
+        <item>東南</item>
+        <item>南</item>
+        <item>西南</item>
+        <item>西</item>
+        <item>西北</item>
+    </string-array>
+    <string-array name="longitude_latitude" formatted="false">
+        <item>"東經 %d° %d' %d\""</item>
+        <item>"西經 %d° %d' %d\""</item>
+        <item>"北緯 %d° %d' %d\""</item>
+        <item>"南緯 %d° %d' %d\""</item>
+    </string-array>
+</resources>

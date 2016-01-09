@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="compass_lin">false</item>
+    <item type="id" name="orientation_relat">false</item>
+    <item type="id" name="textview_orientation">false</item>
+    <item type="id" name="textview_orientation_degree">false</item>
+    <item type="id" name="textview_orientation_degree_symbol">false</item>
+    <item type="id" name="fl_center_view">false</item>
+    <item type="id" name="address_relat">false</item>
+    <item type="id" name="id_rotateclockview">false</item>
+    <item type="id" name="rl_verify">false</item>
+    <item type="id" name="iv_verify">false</item>
+    <item type="id" name="textview_coordinate">false</item>
+    <item type="id" name="textview_address">false</item>
+</resources>
