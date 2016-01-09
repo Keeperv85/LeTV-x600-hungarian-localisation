@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.mms.view.LeUiPhraseListItem android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/leui_edit_phrase_menu_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ff54555c" android:id="@id/leui_phrase" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <com.letv.leui.widget.LeCheckBox android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/select_check_box" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" leui:leBoxOnColor="@color/common_phrase_bottom_title_color"
+      xmlns:leui="http://schemas.android.com/apk/prv/res/android" />
+</com.letv.leui.mms.view.LeUiPhraseListItem>

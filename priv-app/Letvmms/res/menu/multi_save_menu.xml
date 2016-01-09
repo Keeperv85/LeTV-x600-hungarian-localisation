@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/selection_cancel" android:title="@string/cancel_mult_mode" android:showAsAction="always" />
+    <item android:id="@id/selection_done" android:title="@string/yes" android:showAsAction="always" />
+</menu>

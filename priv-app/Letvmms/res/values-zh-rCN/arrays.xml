@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="empty_subject_strings">
+        <item>无主题</item>
+    </string-array>
+    <string-array name="filter_message_list">
+        <item>全部信息</item>
+        <item>个人信息</item>
+        <item>通知信息</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>手机</item>
+        <item>SIM 卡</item>
+    </string-array>
+    <string-array name="pref_tablet_sms_save_location_choices">
+        <item>设备</item>
+        <item>SIM 卡</item>
+    </string-array>
+    <string-array name="more_action_message_list">
+        <item>详情</item>
+        <item>保存附件</item>
+        <item>保存到SIM卡</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 秒</item>
+        <item>2 秒</item>
+        <item>3 秒</item>
+        <item>4 秒</item>
+        <item>5 秒</item>
+        <item>6 秒</item>
+        <item>7 秒</item>
+        <item>8 秒</item>
+        <item>9 秒</item>
+        <item>10 秒</item>
+        <item>其他</item>
+    </string-array>
+</resources>

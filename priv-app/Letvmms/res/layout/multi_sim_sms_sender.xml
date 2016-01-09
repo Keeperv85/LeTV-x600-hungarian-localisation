@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/BtnSimOne" android:paddingLeft="24.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" android:drawableLeft="@drawable/ic_send_holo_light" android:layout_weight="1.0" android:soundEffectsEnabled="true" style="?android:attr/borderlessButtonStyle" />
+        <View android:background="#ffdcdcdc" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:id="@id/BtnSimTwo" android:paddingLeft="24.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" android:drawableLeft="@drawable/ic_send_holo_light" android:layout_weight="1.0" android:soundEffectsEnabled="true" style="?android:attr/borderlessButtonStyle" />
+        <View android:background="#ffdcdcdc" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:id="@id/BtnSimThree" android:paddingLeft="24.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" android:drawableLeft="@drawable/ic_send_holo_light" android:layout_weight="1.0" android:soundEffectsEnabled="true" style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

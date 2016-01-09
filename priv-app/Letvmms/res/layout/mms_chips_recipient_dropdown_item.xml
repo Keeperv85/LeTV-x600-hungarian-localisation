@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:id="@id/contactIcon" android:paddingLeft="@dimen/recipient_dropdown_item_icon_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.letv.leui.mms.view.LeUiContactBadge android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="@dimen/recipient_dropdown_item_icon_width" android:layout_height="@dimen/recipient_dropdown_item_icon_width" android:src="@drawable/ic_contact_picture" android:scaleType="centerCrop" android:cropToPadding="true" leui:corner_radius="@dimen/round_conner_radius" leui:round_background="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/recipient_dropdown_item_icon_padding_left" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="#ff38454f" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#ff919e99" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff919e99" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

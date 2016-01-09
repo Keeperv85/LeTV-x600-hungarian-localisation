@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/subjectLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="16.0sp" android:textColor="@color/edit_mms_text_color" android:textColorHint="@color/edit_mms_text_hint_color" android:id="@id/subject" android:background="@null" android:paddingBottom="8.0dip" android:nextFocusDown="@id/embedded_text_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/subject_hint" android:singleLine="true" android:capitalize="sentences" android:autoText="true" android:inputType="textFilter" android:textCursorDrawable="@drawable/leui_recipient_editor_cursor_color" />
+    <View android:id="@id/subjectBottomLine" android:background="@color/main_color_grey" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/subject" />
+</RelativeLayout>

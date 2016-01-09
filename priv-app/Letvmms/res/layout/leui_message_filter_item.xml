@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/spinner_item_text_color" android:id="@id/tv_item_filterName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentLeft="true" />
+    <com.letv.leui.widget.LeCheckBox android:id="@id/iv_item_icon" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" leui:leBoxArrowColorWithoutBorder="@color/main_color" leui:leBoxWithoutBorder="true" leui:leBoxIsTextOnRight="false" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_panel_main" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/main_color_grey" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <android.support.v4.view.ViewPager android:id="@id/attachments_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.letv.leui.mms.view.LevelControlLayout android:id="@id/share_panel_zone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rg_share_dot" android:background="@drawable/ipmsg_below_the_status_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip">
+        <RadioButton android:enabled="false" android:id="@id/rb_dot_first" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_margin="6.0dip" android:button="@drawable/radio_selector" />
+        <RadioButton android:enabled="false" android:id="@id/rb_dot_sec" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_margin="6.0dip" android:button="@drawable/radio_selector" />
+    </RadioGroup>
+</LinearLayout>

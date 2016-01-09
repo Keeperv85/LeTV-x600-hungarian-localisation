@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.mms.view.LeUiListItemBase android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/contactPhoto" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="fill_parent">
+        <com.letv.leui.mms.view.LeUiContactBadge android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" android:corner_radius="@dimen/round_conner_radius" android:border_width="1.0px" android:border_color="#19000000" android:round_background="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="10.0dip" android:textColor="@color/all_white_color" android:gravity="center" android:id="@id/unread" android:background="@drawable/leui_unread_count_bg" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/unreadDot" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:background="@drawable/leui_unread_count_bg" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="17.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:id="@id/check_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="12.0sp" android:textColor="#ff898b94" android:id="@id/intercept_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="5.0dip" />
+            <ImageView android:id="@id/attachment" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:src="@drawable/svg_conv_attachment" />
+            <view android:textSize="12.0sp" android:textColor="#ff898b94" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" class="com.letv.leui.mms.view.LeUiMmsCustomTextView" />
+            <com.letv.leui.widget.LeCheckBox leui:layout_gravity="center_vertical" leui:id="@id/check" leui:focusable="false" leui:visibility="gone" leui:clickable="false" leui:layout_width="wrap_content" leui:layout_height="wrap_content" leui:layout_marginRight="16.0dip" leui:leBoxOnColor="@color/lecheckbox_bg_color"
+              xmlns:leui="http://schemas.android.com/apk/prv/res/android" />
+        </LinearLayout>
+        <view android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="30.0dip" android:singleLine="true" android:layout_toLeftOf="@id/check_date" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" class="com.letv.leui.mms.view.LeUiMmsCustomTextView" />
+        <view android:textSize="12.0sp" android:textColor="#ff898b94" android:ellipsize="end" android:id="@id/subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="12.0dip" android:singleLine="true" android:layout_toLeftOf="@id/check" android:layout_below="@id/from" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" class="com.letv.leui.mms.view.LeUiMmsCustomTextView" />
+    </RelativeLayout>
+</com.letv.leui.mms.view.LeUiListItemBase>

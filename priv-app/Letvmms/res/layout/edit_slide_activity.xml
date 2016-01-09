@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.BasicSlideEditorView android:orientation="vertical" android:id="@id/slide_editor_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/image" android:background="#ffededed" android:layout_width="118.0dip" android:layout_height="118.0dip" android:src="@drawable/leui_ic_maps_new" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/audio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <ImageView android:layout_width="53.0dip" android:layout_height="53.0dip" android:src="@drawable/edit_slide_ic_mms_music" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="#ffededed" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="53.0dip" android:baselineAligned="false">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:ellipsize="none" android:layout_gravity="center_vertical" android:id="@id/audio_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:requiresFadingEdge="horizontal" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff747474" android:ellipsize="none" android:layout_gravity="center_vertical" android:id="@id/audio_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:requiresFadingEdge="horizontal" />
+                </LinearLayout>
+>
+</LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/drm_imagevideo_lock" android:paddingLeft="3.0dip" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/drm_audio_lock" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/controler" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <ImageButton android:id="@id/pre_slide_button" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_maps_back" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/next_slide_button" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_maps_next" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/preview_button" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_maps_preview" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/replace_image_button" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_maps_replace" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/remove_slide_button" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_maps_remove" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/more_operation" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_maps_more" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip">
+            <EditText android:textSize="16.0sp" android:textColor="#ff000000" android:textColorHint="#ffbcbcbc" android:id="@id/text_message" android:background="@drawable/leui_create_slideshow_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/type_to_compose_text_enter_to_send" android:maxLines="5" android:capitalize="sentences" android:autoText="true">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+</com.android.mms.ui.BasicSlideEditorView>

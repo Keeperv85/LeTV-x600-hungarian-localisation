@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.MmsPlayerActivityItem android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/slide_page" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="14.0dip">
+            <ImageView android:id="@id/page_divider1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/page_divider" android:layout_weight="1.0" style="@style/separator_style" />
+            <TextView android:textSize="10.0sp" android:textColor="#ff33b5e5" android:gravity="center_horizontal" android:id="@id/page_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+            <ImageView android:id="@id/page_divider2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/page_divider" android:layout_weight="1.0" style="@style/separator_style" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/audio" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/audio_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_mms_music" />
+            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@android:color/black" android:id="@id/audio_name" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@android:color/black" android:gravity="left" android:autoLink="all" android:linksClickable="true" android:id="@id/top_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@android:color/black" android:autoLink="all" android:linksClickable="true" android:id="@id/left_text" android:padding="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+                <ImageView android:id="@id/video_play_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_video_overlay" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@android:color/black" android:autoLink="all" android:linksClickable="true" android:id="@id/right_text" android:padding="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@android:color/black" android:gravity="left" android:autoLink="all" android:linksClickable="true" android:id="@id/bottom_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+</com.android.mms.ui.MmsPlayerActivityItem>

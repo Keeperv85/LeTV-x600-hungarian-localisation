@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_search" android:background="@color/half_black_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <FrameLayout android:id="@id/content_box" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
+    </FrameLayout>
+    <View android:id="@id/searchbackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/searching" android:background="@android:color/white" android:paddingTop="@dimen/mms_search_progress_frm_paddingTop" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight">
+        <ProgressBar android:id="@id/msg_status_view_sending" android:layout_width="@dimen/mms_search_progress_width" android:layout_height="@dimen/mms_search_progress_width" style="?android:attr/progressBarStyleLarge" />
+        <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_search_content" android:id="@id/msg_search_view_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/search_empty" />
+    </LinearLayout>
+</FrameLayout>

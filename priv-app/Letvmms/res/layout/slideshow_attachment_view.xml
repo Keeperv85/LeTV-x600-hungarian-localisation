@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.SlideshowAttachmentView android:orientation="horizontal" android:id="@id/slideshow_attachment_view" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/ll_slideshow" android:background="@color/sms_edit_attach_background" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <ImageView android:id="@id/play_slideshow_button" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_attach_slideshow" />
+        <FrameLayout android:layout_gravity="center" android:background="@android:drawable/picture_frame" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="180.0dip">
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/slideshow_image" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:textColor="@drawable/text_color_black" android:id="@id/slideshow_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageButton android:id="@id/play_slideshow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mms_play_btn" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textColor="@android:color/white" android:layout_gravity="center|right|top" android:id="@id/mms_size_indicator" android:background="@android:color/black" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <Button android:textColor="@android:color/black" android:id="@id/edit_slideshow_button" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/edit" style="?android:attr/buttonStyleSmall" />
+        <Button android:textColor="@android:color/black" android:id="@id/send_slideshow_button" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/send" style="?android:attr/buttonStyleSmall" />
+        <Button android:textColor="@android:color/black" android:id="@id/remove_slideshow_button" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/remove" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+</com.android.mms.ui.SlideshowAttachmentView>

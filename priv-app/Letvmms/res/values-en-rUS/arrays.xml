@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="empty_subject_strings">
+        <item>No subject</item>
+    </string-array>
+    <string-array name="filter_message_list">
+        <item>All messages</item>
+        <item>Personal messages</item>
+        <item>Notification messages</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>Phone</item>
+        <item>SIM card</item>
+    </string-array>
+    <string-array name="pref_tablet_sms_save_location_choices">
+        <item>device</item>
+        <item>SIM card</item>
+    </string-array>
+    <string-array name="more_action_message_list">
+        <item>Details</item>
+        <item>Save attachment</item>
+        <item>Save to SIM card</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+        <item>8 seconds</item>
+        <item>9 seconds</item>
+        <item>10 seconds</item>
+        <item>Other</item>
+    </string-array>
+</resources>

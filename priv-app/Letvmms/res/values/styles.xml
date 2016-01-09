@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#ff5c5cff</item>
+    </style>
+    <style name="TextAppearance.SearchResult" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="MmsTheme" parent="@android:style/Theme.Leui">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:actionBarStyle">@style/EmptyActionBar</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_top_btn_icon_cancel</item>
+        <item name="android:actionBarSize">@dimen/atcionbar_size</item>
+        <item name="android:alertDialogTheme">@android:style/Theme.Material.Light.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+        <item name="android:actionMenuTextColor">@color/main_color</item>
+        <item name="android:actionModeStyle">@style/MmsActionMode</item>
+        <item name="android:actionBarWidgetTheme">@style/HoloLightSelectMode</item>
+        <item name="android:colorAccent">@color/main_color</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+    </style>
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Leui">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:actionBarStyle">@style/EmptyActionBar</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_top_btn_icon_cancel</item>
+        <item name="android:actionBarSize">@dimen/atcionbar_size</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+        <item name="android:actionMenuTextAppearance">@style/textAppearanceMenu</item>
+        <item name="android:actionMenuTextColor">@color/main_color</item>
+        <item name="android:actionModeStyle">@style/MmsActionMode</item>
+        <item name="android:actionBarWidgetTheme">@style/HoloLightSelectMode</item>
+        <item name="android:colorAccent">@color/main_color</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="MmsHoloCMATheme" parent="@android:style/Theme.Leui">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:actionBarStyle">@style/EmptyActionBar</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_top_btn_icon_cancel</item>
+        <item name="android:actionBarSize">@dimen/atcionbar_cma_size</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+        <item name="android:actionMenuTextAppearance">@style/textAppearanceMenu</item>
+        <item name="android:actionMenuTextColor">@color/main_color</item>
+        <item name="android:actionModeStyle">@style/MmsActionMode</item>
+        <item name="android:colorAccent">@color/main_color</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="HoloLightSelectMode" parent="@android:style/Widget.Material.Light.ListPopupWindow">
+        <item name="android:popupBackground">@null</item>
+    </style>
+    <style name="TextAppearance.Material.Widget.ActionBar.Menu.Mms" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="EmptyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:titleTextStyle">@style/MmsActionBarTitleStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/textAppearanceMenu</item>
+    </style>
+    <style name="textAppearanceMenu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="MmsActionMode" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:actionModeBackground">@color/leui_status_bar_background</item>
+    </style>
+    <style name="actionModeStyle.Mms" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:background">@color/conversation_top_bar_background</item>
+        <item name="android:titleTextStyle">@style/NotificationSecondaryText</item>
+    </style>
+    <style name="MmsActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="TextShadowLight">
+        <item name="android:textColor">@color/solid_white</item>
+        <item name="android:shadowColor">@color/text_shadow_color_light</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="BannerTitleText" parent="@style/TextShadowLight">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="BannerContentText" parent="@style/TextShadowLight">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="suggest_contact">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff54555c</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/suggest_bgcolor</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="group_member_name_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff5a5a5a</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MmsActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="MmsSettingsTheme" parent="@android:style/Theme.Leui">
+        <item name="android:actionBarStyle">@style/EmptyActionBar</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_setting_top_btn_icon_cancel</item>
+        <item name="android:actionBarSize">@dimen/atcionbar_size</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_setting_top_btn_icon_reback</item>
+        <item name="android:actionMenuTextAppearance">@style/textAppearanceMenu</item>
+        <item name="android:actionMenuTextColor">#ff2395ee</item>
+        <item name="android:actionModeStyle">@style/ManageSimMsg</item>
+        <item name="android:colorAccent">#ff2395ee</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="ManageSimMsg" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:actionModeBackground">@color/leui_status_bar_background</item>
+    </style>
+    <style name="separator_style">
+        <item name="android:background">@drawable/ipmsg_chat_split_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0px</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="LeUIMmsHoloTheme" parent="@android:style/Theme.Leui" />
+    <style name="RecipientEditTextViewBase" parent="@android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/chip_height</item>
+        <item name="android:popupBackground">@null</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="RecipientEditTextView" parent="@style/RecipientEditTextViewBase">
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+    </style>
+    <style name="ChipAutocompleteWrapperStyle">
+        <item name="android:paddingLeft">@dimen/chip_wrapper_start_padding</item>
+        <item name="android:paddingTop">@dimen/chip_wrapper_top_padding</item>
+        <item name="android:paddingRight">@dimen/chip_wrapper_end_padding</item>
+        <item name="android:paddingBottom">@dimen/chip_wrapper_bottom_padding</item>
+    </style>
+    <style name="ChipAutocompleteDividerStyle">
+        <item name="android:background">@color/autocomplete_divider_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/chip_custom_divider_height</item>
+        <item name="android:layout_marginLeft">@dimen/chip_wrapper_start_padding</item>
+    </style>
+    <style name="ChipTextViewLayoutStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ChipTitleStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/chips_dropdown_title_text</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="ChipSubtitleStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/chips_dropdown_subtitle_text</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="ChipIconBaseStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:id">@android:id/icon</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="ChipStartIconStyle" parent="@style/ChipIconBaseStyle">
+        <item name="android:layout_marginRight">@dimen/chip_icon_margin_end</item>
+    </style>
+    <style name="ChipEndIconStyle" parent="@style/ChipIconBaseStyle">
+        <item name="android:layout_marginLeft">@dimen/chip_icon_margin_end</item>
+    </style>
+    <style name="ChipDeleteIconBaseStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:id">@android:id/icon1</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">36.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+    </style>
+    <style name="ChipDeleteIconStyle" parent="@style/ChipDeleteIconBaseStyle">
+        <item name="android:paddingLeft">8.0dip</item>
+    </style>
+</resources>

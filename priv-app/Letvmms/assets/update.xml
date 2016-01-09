@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateItems>
+	<updateItem>
+		<autoupdate>true</autoupdate>
+		<desc>default keyword</desc>
+		<date>1384871109</date>
+		<key>kSMSKeyword</key>
+		<version>1384871109</version>
+	</updateItem>
+	<updateItem>
+		<autoupdate>true</autoupdate>
+		<desc>client number</desc>
+		<date>1384871109</date>
+		<key>kClientNumber</key>
+		<version>1384871109</version>
+	</updateItem>
+	<updateItem>
+		<autoupdate>true</autoupdate>
+		<desc>common number</desc>
+		<date>1384871109</date>
+		<key>kOfficialTel</key>
+		<version>1384871109</version>
+	</updateItem>
+	<updateItem>
+		<autoupdate>true</autoupdate>
+		<desc>regex</desc>
+		<date>1384871109</date>
+		<key>kSMSRegex</key>
+		<version>1384871109</version>
+	</updateItem>
+	<updateItem>
+		<autoupdate>true</autoupdate>
+		<desc>local num Def</desc>
+		<date>1384871109</date>
+		<key>kNumberInfoDef</key>
+		<version>1384871109</version>
+	</updateItem>
+</updateItems>

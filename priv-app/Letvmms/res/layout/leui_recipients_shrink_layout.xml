@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/recipients_shrink_view" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/all_contact_number" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/all_contact_name" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="280.0dip" android:text="@string/recipients_acount" android:singleLine="true" android:layout_toLeftOf="@id/all_contact_number" android:layout_alignParentLeft="true" />
+</RelativeLayout>

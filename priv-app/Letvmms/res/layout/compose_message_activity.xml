@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.mms.view.HeightChangedLinearLayout android:orientation="vertical" android:id="@id/changed_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ViewStub android:id="@id/recipients_editor_stub" android:layout="@layout/recipients_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <view android:scrollbarAlwaysDrawVerticalTrack="false" android:scrollbarStyle="insideOverlay" android:id="@id/history" android:background="#fffcfcfd" android:paddingBottom="15.0dip" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:stackFromBottom="true" android:transcriptMode="normal" android:cacheColorHint="#00000000" android:layout_weight="1.0" android:smoothScrollbar="true" style="?android:attr/listViewWhiteStyle" class="com.android.mms.ui.MessageListView" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/sub_sim_selected_stub" android:layout="@layout/leui_sub_sim_selected_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/main_color_grey" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_panel" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageButton android:layout_gravity="bottom" android:id="@id/share_button" android:background="@null" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+                    <ScrollView android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/attachment_editor_scroll_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                    <ViewStub android:id="@id/schedulerTime_view_stub" android:layout="@layout/leui_scheduler_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" />
+                                    <ViewStub android:id="@id/subject_view_stub" android:layout="@layout/leui_subject_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" />
+                                    <view android:orientation="vertical" android:id="@id/attachment_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.mms.ui.AttachmentEditor">
+                                        <ViewStub android:id="@id/file_attachment_view_stub" android:layout="@layout/file_attachment_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" />
+                                        <ViewStub android:id="@id/image_attachment_view_stub" android:layout="@layout/image_attachment_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                        <ViewStub android:id="@id/video_attachment_view_stub" android:layout="@layout/video_attachment_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                        <ViewStub android:id="@id/audio_attachment_view_stub" android:layout="@layout/audio_attachment_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                        <ViewStub android:id="@id/slideshow_attachment_view_stub" android:layout="@layout/slideshow_attachment_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                    </view>
+                                    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                        <com.letv.leui.mms.view.EnhanceEditText android:textSize="16.0sp" android:textColor="@color/edit_mms_text_color" android:textColorHint="@color/edit_mms_text_hint_color" android:id="@id/embedded_text_editor" android:background="@null" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:scrollbars="none" android:nextFocusRight="@id/send_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/type_to_compose_text_enter_to_send" android:maxLength="2000" android:capitalize="sentences" android:autoText="true" android:lineSpacingExtra="3.0dip" android:inputType="textAutoCorrect|textCapSentences|textMultiLine|textShortMessage" android:imeOptions="actionDone|flagNoEnterAction" android:textCursorDrawable="@drawable/leui_recipient_editor_cursor_color" />
+                                        <TextView android:textSize="16.0sp" android:id="@id/sms_app_default_view" android:background="@null" android:paddingTop="8.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" />
+                                    </RelativeLayout>
+                                </LinearLayout>
+                                <RelativeLayout android:layout_gravity="bottom" android:id="@id/curSelectedSimlayout" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <ImageView android:layout_gravity="bottom" android:id="@id/curSelectedSimIcon" android:layout_width="wrap_content" android:layout_height="18.0dip" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                            <View android:id="@id/text_editor_underline" android:background="@color/main_color_grey" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                        </LinearLayout>
+                    </ScrollView>
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/button_with_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="8.0dip">
+                        <TextView android:textSize="12.0sp" android:textColor="#ffa6a7ae" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text_counter" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ffa6a7ae" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/send_button_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/pref_screen_mms" />
+                        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/send_button_sms" android:background="@drawable/leui_send_sms_bg" android:layout_width="44.0dip" android:layout_height="32.0dip" android:text="@string/send" />
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@id/bottom_bar" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.letv.leui.mms.view.SharePanel android:id="@id/share_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.letv.leui.mms.view.HeightChangedLinearLayout>
+    <com.letv.leui.mms.view.MmsQuickContactBadge android:id="@id/avatar" android:visibility="gone" android:layout_centerVertical="true" style="?android:attr/quickContactBadgeStyleWindowLarge" />
+    <include layout="@layout/leui_top_slide_content" />
+</merge>

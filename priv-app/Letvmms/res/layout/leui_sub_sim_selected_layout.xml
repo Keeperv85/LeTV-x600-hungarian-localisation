@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/sub_sim_selected_layout" android:background="#ffffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/main_color_grey" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.letv.leui.mms.view.LeUiSubItemView android:id="@id/sim1View" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:background="@color/main_color_grey" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <com.letv.leui.mms.view.LeUiSubItemView android:id="@id/sim2View" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

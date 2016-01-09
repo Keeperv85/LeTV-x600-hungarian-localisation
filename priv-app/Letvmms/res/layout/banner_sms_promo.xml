@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/banner_sms_promo" android:background="@drawable/app_default_setting_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/banner_sms_default_app_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_launcher_smsmms" android:minWidth="40.0dip" android:minHeight="40.0dip" android:importantForAccessibility="no" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="12.0dip">
+        <Button android:textSize="14.0sp" android:textColor="#ff747474" android:id="@id/app_default_set_button" android:background="#ffffffff" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/set" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="12.0dip" android:layout_toLeftOf="@id/app_default_set_button" android:layout_alignParentLeft="true">
+            <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/banner_sms_promo_single" android:paddingBottom="@dimen/banner_s_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/banner_sms_promo_title_initial" style="@style/BannerTitleText" />
+            <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/banner_sms_promo_title" android:paddingBottom="@dimen/banner_s_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/banner_sms_promo_title_initial" style="@style/BannerTitleText" />
+            <TextView android:textColor="#ff747474" android:gravity="center_vertical" android:id="@id/banner_sms_promo_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/banner_sms_promo_message" style="@style/BannerContentText" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

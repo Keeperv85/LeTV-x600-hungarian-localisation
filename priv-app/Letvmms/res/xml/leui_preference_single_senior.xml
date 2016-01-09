@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_system" android:key="pref_key_system_and_display">
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref_title_sim_mms" android:key="pref_key_manage_sim_messages" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
+        <com.letv.leui.mms.view.SmsCenterEditTextPreference android:singleLine="true" android:title="@string/pref_title_sms_center" android:key="pref_key_sms_service_center" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/pref_dialog_title_sms_center" />
+        <ListPreference android:entries="@array/pref_sms_save_location_choices" android:title="@string/sms_save_location" android:key="pref_key_sms_save_location" android:summary="@string/sms_save_location" android:defaultValue="Phone" android:dialogTitle="@string/sms_save_location" android:entryValues="@array/pref_sms_save_location_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_screen_mms" android:key="pref_key_mms">
+        <SwitchPreference android:title="@string/pref_title_mms_group_mms" android:key="pref_key_mms_group_mms" android:summary="@string/pref_summary_mms_group_mms" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_title_mms_auto_download" android:key="pref_key_mms_auto_retrieval" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/pref_title_mms_auto_download_roaming" android:key="pref_key_mms_retrieval_during_roaming" android:dependency="pref_key_mms_auto_retrieval" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_title_mms_delivery_report" android:key="pref_key_mms_delivery_reports" android:summary="@string/pref_summary_mms_delivery_report" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_title_mms_read_report" android:key="pref_key_mms_read_reports" android:summary="@string/pref_summary_mms_read_report" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_title_mms_auto_reply_read_reports" android:key="pref_key_mms_auto_reply_read_reports" android:summary="@string/pref_summary_mms_auto_reply_read_reports" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

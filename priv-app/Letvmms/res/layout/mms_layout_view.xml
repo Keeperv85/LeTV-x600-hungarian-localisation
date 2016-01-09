@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mms_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeQuickContactBadge android:id="@id/image_view" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="fitXY" android:adjustViewBounds="false" android:corner_radius="@dimen/round_conner_radius" android:round_background="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/play_slideshow_button" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mms_play_btn" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sub_sim_selected_layout" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/sim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.letv.leui.widget.LeTextView android:textSize="15.0sp" android:textColor="#ff54555c" android:gravity="center_vertical" android:id="@id/simName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/pref_screen_sms" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/cornerIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sim_selected_corner_icon" />
+</FrameLayout>

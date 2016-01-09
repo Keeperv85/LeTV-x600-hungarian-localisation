@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.ConversationListItem android:id="@id/back" android:tag="back" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|left" android:id="@id/markAsRead" android:background="@color/conversationlist_item_markread" android:layout_width="58.0dip" android:layout_height="fill_parent" android:layout_marginRight="58.0dip" android:text="@string/conver_item_mark_as_read" />
+    <ImageButton android:layout_gravity="center|right" android:id="@id/delete" android:background="@drawable/move_delete_select_holo" android:layout_width="58.0dip" android:layout_height="fill_parent" android:src="@drawable/svg_move_delete_normal" />
+    <include android:id="@id/front" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/leui_list_item_base" />
+</com.android.mms.ui.ConversationListItem>

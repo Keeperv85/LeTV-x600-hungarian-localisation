@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.VideoAttachmentView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/video_attachment_view" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_content" android:background="@color/sms_edit_attach_background" android:layout_width="50.0dip" android:layout_height="50.0dip">
+        <ImageView android:id="@id/video_thumbnail" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_attach_video" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/drm_lock" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/mms_size_indicator" android:background="#88000000" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textColor="@android:color/black" android:id="@id/view_video_button" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/view" style="?android:attr/buttonStyleSmall" />
+        <Button android:textColor="@android:color/black" android:id="@id/replace_video_button" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/replace" style="?android:attr/buttonStyleSmall" />
+        <Button android:textColor="@android:color/black" android:id="@id/remove_video_button" android:layout_width="100.0dip" android:layout_height="45.0dip" android:text="@string/remove" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+</com.android.mms.ui.VideoAttachmentView>

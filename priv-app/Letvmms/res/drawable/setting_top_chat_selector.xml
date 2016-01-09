@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <color android:color="@color/check_status_color" />
+    </item>
+    <item>
+        <color android:color="@color/top_chat_normal" />
+    </item>
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_title_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/filterNameLayout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="@color/black" android:ellipsize="none" android:id="@id/filterName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/custom_arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/svg_pop_open_icon" android:layout_toRightOf="@id/filterName" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.letv.leui.widget.LcSearchView android:id="@id/searchView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" searchview:lcQueryTextSize="15.0dip" searchview:lcInputMarginLeft="0.0dip" searchview:lcAlwaysShowCancel="true" searchview:lcCursorColor="@color/main_color" style="@*android:style/Widget.LeuiCommon.SearchView.Light" />
+</RelativeLayout>
