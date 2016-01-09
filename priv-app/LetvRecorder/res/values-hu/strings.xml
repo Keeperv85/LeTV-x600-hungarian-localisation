@@ -15,7 +15,7 @@
     <string name="cancel">Mégsem</string>
     <string name="back">Vissza</string>
     <string name="select_all">Mindent kiválaszt</string>
-    <string name="select_none">Kiválasztás megszűntetése</string>
+    <string name="select_none">Kiválasztás megszüntetése</string>
     <string name="play">Indítás</string>
     <string name="pause_play">Szünet</string>
     <string name="edit">Szerkesztés</string>
@@ -26,7 +26,7 @@
     <string name="rename">Átnevez</string>
     <string name="app_name">Felvevő</string>
     <string name="record_file_name_format">Recording-MMddyy-HH-mm-ss</string>
-    <string name="start_time_format">MM-dd-yyyy</string>
+    <string name="start_time_format">yyyy-MM-dd</string>
     <string name="yesterday">Tegnap</string>
     <string name="before_yesterday">Tegnapelőtt</string>
     <string name="few_days">Napokkal ezelőtt</string>
