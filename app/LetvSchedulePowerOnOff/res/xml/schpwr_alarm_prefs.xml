@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/schedule_power_on_off_set"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.letv.leui.schpwronoff">
+    <com.letv.leui.schpwronoff.widget.LeUIDateTimePreference android:persistent="false" android:title="@string/schedule_power_on_off_time" android:key="time" android:widgetLayout="@layout/leui_widget_updown_arrow" settings:LeUIWidgetLayout="@layout/leui_date_picker_wheel_widget" />
+    <com.letv.leui.schpwronoff.widget.LeUIRepeatePreference android:persistent="false" android:title="@string/schedule_power_on_off_repeat" android:key="setRepeat" android:widgetLayout="@layout/leui_widget_updown_arrow" settings:LeUIWidgetLayout="@layout/leui_toggle_preference_widget" />
+</PreferenceScreen>

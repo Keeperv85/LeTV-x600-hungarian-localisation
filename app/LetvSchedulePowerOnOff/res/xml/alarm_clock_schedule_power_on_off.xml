@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.letv.leui.schpwronoff">
+    <PreferenceCategory android:title="@string/power_on_category" android:key="powerOnCategory">
+        <SwitchPreference android:persistent="false" android:title="@string/boot_video" android:key="bootVideoSwitch" android:summary="@string/boot_video_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_off_category" android:key="powerOffCategory" />
+</PreferenceScreen>

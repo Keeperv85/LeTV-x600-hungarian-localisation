@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Power on is scheduled within 1 minute.</item>
+        <item>Power on is scheduled to happen after %1$s.</item>
+        <item>Power on is scheduled to happen after %2$s.</item>
+        <item>Power on is scheduled to happen after %1$s %2$s.</item>
+        <item>Power on is scheduled to happen after %3$s.</item>
+        <item>Power on is scheduled to happen after %1$s %3$s.</item>
+        <item>Power on is scheduled to happen after %2$s %3$s.</item>
+        <item>Power on is scheduled for %1$s (after %2$s %3$s).</item>
+        <item>Power off is scheduled within 1 minute.</item>
+        <item>Power off is scheduled to happen after %1$s.</item>
+        <item>Power off is scheduled to happen after %2$s.</item>
+        <item>Power off is scheduled to happen after %1$s %2$s.</item>
+        <item>Power off is scheduled to happen after %3$s.</item>
+        <item>Power off is scheduled to happen after %1$s %3$s.</item>
+        <item>Power off is scheduled to happen after %2$s %3$s.</item>
+        <item>Power off is scheduled for %1$s (after %2$s %3$s).</item>
+    </string-array>
+</resources>

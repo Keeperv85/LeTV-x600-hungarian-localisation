@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="schpwr_hour_label">:</string>
+    <string name="schpwr_minute_label" />
+    <string name="schedule_power_on_category">Power on by alarm</string>
+    <string name="schedule_power_off_category">Auto power off</string>
+    <string name="boot_video">Custom boot video</string>
+    <string name="boot_video_summary">Allow video playback upon booting</string>
+    <string name="power_on_category">Power on</string>
+    <string name="power_off_category">Power off</string>
+    <string name="leui_fire_schedule_switch">Schedule power on &amp; off</string>
+    <string name="leui_schedule_set_category">Time setting</string>
+    <string name="leui_schedule_power_on">Power on time</string>
+    <string name="leui_schedule_power_off">Power off time</string>
+    <string name="schedule_power_on_off_settings_title">Power on &amp; off settings</string>
+    <string name="schedule_power_on_off_time">Time</string>
+    <string name="schedule_power_on_off_repeat">Repeat</string>
+    <string name="schedule_power_on_off_set">Set power on/off schedule</string>
+    <string name="schedule_power_on_set">Power on by alarm</string>
+    <string name="schedule_power_off_set">Auto power off</string>
+    <string name="enable_schpwr">Enable</string>
+    <string name="disable_schpwr">Do not show</string>
+    <string name="day">1 day</string>
+    <string name="days">%s days</string>
+    <string name="hour">1 hour</string>
+    <string name="hours">%s hours</string>
+    <string name="minute">1 minute</string>
+    <string name="minutes">%s minutes</string>
+    <string name="every_day">Daily</string>
+    <string name="never">Never</string>
+    <string name="day_concat">", "</string>
+    <string name="done">Done</string>
+    <string name="revert">Restore</string>
+    <string name="schpwr_shutdown_message">Your device will turn off in %s seconds</string>
+    <string name="schpwr_shutdown_message_second">Your device will turn off in %s seconds</string>
+</resources>

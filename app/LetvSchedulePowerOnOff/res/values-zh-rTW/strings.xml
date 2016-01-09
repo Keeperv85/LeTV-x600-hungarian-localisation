@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="schpwr_hour_label">時</string>
+    <string name="schpwr_minute_label">分</string>
+    <string name="schedule_power_on_category">定時開機</string>
+    <string name="schedule_power_off_category">定時關機</string>
+    <string name="boot_video">個性化開機影片</string>
+    <string name="boot_video_summary">允許手機開機時播放影片</string>
+    <string name="power_on_category">開機</string>
+    <string name="power_off_category">關機</string>
+    <string name="leui_fire_schedule_switch">定時開關機</string>
+    <string name="leui_schedule_set_category">時間設定</string>
+    <string name="leui_schedule_power_on">開機時間</string>
+    <string name="leui_schedule_power_off">關機時間</string>
+    <string name="schedule_power_on_off_settings_title">開關機設定</string>
+    <string name="schedule_power_on_off_time">時間</string>
+    <string name="schedule_power_on_off_repeat">重複</string>
+    <string name="schedule_power_on_off_set">設定開關機排程</string>
+    <string name="schedule_power_on_set">定時開機</string>
+    <string name="schedule_power_off_set">定時關機</string>
+    <string name="enable_schpwr">啟用</string>
+    <string name="disable_schpwr">停用</string>
+    <string name="day">1 天</string>
+    <string name="days">" %s 天"</string>
+    <string name="hour">1 小時</string>
+    <string name="hours">%s 小時</string>
+    <string name="minute">1 分鐘</string>
+    <string name="minutes">" %s 分鐘"</string>
+    <string name="every_day">每天</string>
+    <string name="never">永不</string>
+    <string name="day_concat">"、 "</string>
+    <string name="done">完成</string>
+    <string name="revert">復原</string>
+    <string name="schpwr_shutdown_message">您的設備將于 %s 秒後關機</string>
+    <string name="schpwr_shutdown_message_second">您的設備將于 %s 秒後關機</string>
+</resources>

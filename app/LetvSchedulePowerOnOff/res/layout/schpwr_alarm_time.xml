@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_content_padding_start">
+        <ImageView android:layout_gravity="center" android:id="@id/power_on_off" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" />
+    </LinearLayout>
+    <com.letv.leui.schpwronoff.DigitalClock android:gravity="center_vertical" android:orientation="vertical" android:id="@id/digitalClock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="27.0sp" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="4.0dip">
+                <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/am" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="0.5" />
+                <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="9.0sp" android:id="@id/daysOfWeek" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.letv.leui.schpwronoff.DigitalClock>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@android:dimen/le_preference_content_padding_start">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/alarmButton" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:layout_gravity="end" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/arrowContainer" layout="@layout/leui_widget_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>已将此定时开机设为 1 分钟内启动。</item>
+        <item>已将此定时开机设为 %1$s后启动。</item>
+        <item>已将此定时开机设为 %2$s后启动。</item>
+        <item>已将此定时开机设为 %1$s %2$s后启动。</item>
+        <item>已将此定时开机设为 %3$s后启动。</item>
+        <item>已将此定时开机设为 %1$s %3$s后启动。</item>
+        <item>已将此定时开机设为 %2$s %3$s后启动。</item>
+        <item>已将此定时开机设为 %1$s, %2$s %3$s后启动。</item>
+        <item>已将此定时关机设为 1 分钟内启动。</item>
+        <item>已将此定时关机设为 %1$s后启动。</item>
+        <item>已将此定时关机设为 %2$s后启动。</item>
+        <item>已将此定时关机设为 %1$s %2$s后启动。</item>
+        <item>已将此定时关机设为 %3$s后启动。</item>
+        <item>已将此定时关机设为 %1$s %3$s后启动。</item>
+        <item>已将此定时关机设为 %2$s %3$s后启动。</item>
+        <item>已将此定时关机设为 %1$s, %2$s %3$s后启动。</item>
+    </string-array>
+</resources>

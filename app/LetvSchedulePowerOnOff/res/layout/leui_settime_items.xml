@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/leui_on_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end" android:layout_marginEnd="@android:dimen/le_preference_content_padding_start">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/leui_on_time_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/leui_schedule_power_on" android:singleLine="true" android:requiresFadingEdge="horizontal" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+        <include layout="@layout/leui_divider" />
+    </LinearLayout>
+    <com.letv.leui.schpwronoff.widget.LeTimePicker android:layout_gravity="center_horizontal" android:id="@id/leui_on_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+        <include layout="@layout/leui_divider" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/leui_on_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end" android:layout_marginEnd="@android:dimen/le_preference_content_padding_start">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/leui_off_time_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/leui_schedule_power_off" android:singleLine="true" android:requiresFadingEdge="horizontal" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+        <include layout="@layout/leui_divider" />
+    </LinearLayout>
+    <com.letv.leui.schpwronoff.widget.LeTimePicker android:layout_gravity="center_horizontal" android:id="@id/leui_off_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/le_preference_padding_start">
+        <include layout="@layout/leui_divider" />
+    </LinearLayout>
+</LinearLayout>

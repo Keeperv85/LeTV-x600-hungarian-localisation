@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ampm_off">#ffe0e0e0</color>
+    <color name="ampm_on">#ff404040</color>
+    <color name="leui_status_bar_background">#fff6f6f7</color>
+    <color name="leui_activity_background">#ffffffff</color>
+    <color name="leui_blue">#ff2395ee</color>
+    <color name="leui_toggle_button">#ff2395ee</color>
+    <color name="leui_reback_color">#ff2395ee</color>
+    <color name="leui_actionbar_bottomline_color">#ffa6a7ae</color>
+</resources>

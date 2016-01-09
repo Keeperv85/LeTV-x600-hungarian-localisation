@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>從現在起，電源開關已被設定為少於1分鐘開始</item>
+        <item>從現在起，電源開啟已被設定為 %1$s開始</item>
+        <item>從現在起，電源開啟已被設定為 %2$s開始</item>
+        <item>從現在起，電源開啟已被設定為 %1$s 且 %2$s開始</item>
+        <item>從現在起，電源開啟已被設定為%3$s 開始</item>
+        <item>從現在起，電源開啟已被設定為 %1$s 且 %3$s開始</item>
+        <item>從現在起，電源開啟已被設定為 %2$s 且 %3$s開始</item>
+        <item>從現在起，電源開啟已被設定為 %1$s，%2$s，且 %3$s開始</item>
+        <item>您的裝置在1分鐘以內關閉</item>
+        <item>您的裝置在 %1$s後關閉</item>
+        <item>您的裝置在 %2$s後關閉</item>
+        <item>您的裝置在 %1$s 且 %2$s後關閉</item>
+        <item>您的裝置在 %3$s後關閉</item>
+        <item>您的裝置在 %1$s 且 %3$s後關閉</item>
+        <item>您的裝置在%2$s 且 %3$s後關閉</item>
+        <item>您的裝置在 %1$s, %2$s, 且 %3$s後關閉</item>
+    </string-array>
+</resources>

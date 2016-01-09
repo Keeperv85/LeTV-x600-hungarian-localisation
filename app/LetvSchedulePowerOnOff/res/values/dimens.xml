@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_size">56.0dip</dimen>
+    <dimen name="settings_side_margin">0.0dip</dimen>
+    <dimen name="time_picker_item_margin">28.0dip</dimen>
+    <dimen name="weekday_picker_item_margin_right">10.0dip</dimen>
+    <dimen name="weekday_picker_stroke_width">2.0px</dimen>
+</resources>

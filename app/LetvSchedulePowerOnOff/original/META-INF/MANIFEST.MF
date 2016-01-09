@@ -1,0 +1,156 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: res/layout/leui_time_picker_widget.xml
+SHA1-Digest: 9MMXMhAUg3jQzpTM0hSYy3Raf7k=
+
+Name: res/drawable-xhdpi-v4/updown_arrow.png
+SHA1-Digest: jp4Px6prv+wqDuyM/GfpwmFbFU4=
+
+Name: res/drawable/leui_action_bar_divider.9.png
+SHA1-Digest: j41EuDvgaIsVRSFFDzfuXPjC8xs=
+
+Name: res/drawable-xxxhdpi-v4/leui_action_bar_divider.9.png
+SHA1-Digest: j41EuDvgaIsVRSFFDzfuXPjC8xs=
+
+Name: res/drawable/weekday_item_normal.xml
+SHA1-Digest: XFERbu9vaCn7iYqxywqlctA6Sk8=
+
+Name: res/layout/leui_widget_arrow.xml
+SHA1-Digest: py7Z0rSxvK7ez/TIKMFZv+mlOmE=
+
+Name: res/layout/leui_settime_items.xml
+SHA1-Digest: A7SeLQi/SBozCZQgxD4PkvXxDws=
+
+Name: res/drawable-mdpi-v4/ic_settings_schpwron.png
+SHA1-Digest: hDki/a3MUtrYbZHX7AaCOzkHeqI=
+
+Name: res/xml/set_alarms.xml
+SHA1-Digest: Zw+IghRurT/OAMX3aFYYrFLm5s0=
+
+Name: res/drawable-xhdpi-v4/ic_settings_schpwroff.png
+SHA1-Digest: HcEmVzw0G2lgpliD2UGL+uNFAHs=
+
+Name: res/drawable/updown_arrow.png
+SHA1-Digest: R/iFIECyWNHq3GjgQkSAtaUj/9Y=
+
+Name: res/layout/leui_schpwronoff_preference.xml
+SHA1-Digest: Hxz7f2H5unLniuxRUeFIGUafoTc=
+
+Name: res/layout/leui_divider.xml
+SHA1-Digest: JTlQ4V6CxFCERV0vcgBjPFssm1M=
+
+Name: res/layout/leui_toggle_group_widget.xml
+SHA1-Digest: H0zX6AcGAKy1AG4tS0w0Ms0Ykr4=
+
+Name: res/drawable-hdpi-v4/ic_settings_schpwron.png
+SHA1-Digest: 5M+5ygsecwNBxgp1D0te+zY2nks=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_schpwroff.png
+SHA1-Digest: fhdpAfqoyAYSfDcXkXY+/iUfsCY=
+
+Name: res/layout/leui_fire_switch_item.xml
+SHA1-Digest: u3ccna6vOHSyEXolLZV24zTNRaY=
+
+Name: res/xml/leui_schpwronoff_fragment.xml
+SHA1-Digest: xS+1Pn5wTB1WTMHkV2vbxWA5+Bk=
+
+Name: res/drawable-xxxhdpi-v4/updown_arrow.png
+SHA1-Digest: jp4Px6prv+wqDuyM/GfpwmFbFU4=
+
+Name: res/layout/leui_widget_updown_arrow.xml
+SHA1-Digest: oPtOrq1xXtkHiwBCsUL25acGSnI=
+
+Name: res/layout/switch_bar.xml
+SHA1-Digest: ZqRT3DU0djcTo5fVuYP+Qpgc7gE=
+
+Name: res/drawable-xxxhdpi-v4/ic_settings_schpwron.png
+SHA1-Digest: QoivP9zn9f6k15W7Kh0vvglP4KM=
+
+Name: resources.arsc
+SHA1-Digest: 0MN4EJDvBpkCPygMi6js/hdceMI=
+
+Name: res/layout/leui_toggle_preference_widget.xml
+SHA1-Digest: AaQUjCW6WlrhyUsBFn7r3vmmqTs=
+
+Name: AndroidManifest.xml
+SHA1-Digest: ra4O+h2sppEoWlnWZSCWID6jpxs=
+
+Name: res/layout/schpwr_off.xml
+SHA1-Digest: V1eVSHR4j1GBb2BFY6wdPt3zoCY=
+
+Name: res/layout/leui_toggle_button_item.xml
+SHA1-Digest: 5CTT0PlY9n9I2Y8YiqNXPRobEGE=
+
+Name: res/drawable/weekday_item_selected.xml
+SHA1-Digest: D3yO5JMlrlnPUy623RpqnrnPGfk=
+
+Name: res/drawable-xxhdpi-v4/updown_arrow.png
+SHA1-Digest: jp4Px6prv+wqDuyM/GfpwmFbFU4=
+
+Name: res/drawable-xhdpi-v4/ic_settings_schpwron.png
+SHA1-Digest: 4doNi/PNJ83+YVuQ+gG0d9cY6Ak=
+
+Name: res/layout/schpwr_context_menu_header.xml
+SHA1-Digest: 4nZTfnCRK742IjJnamwt0VA7RXs=
+
+Name: res/xml/alarm_clock_schedule_power_on_off.xml
+SHA1-Digest: PKu67T8Zunagf3yWIwpyWB2JldY=
+
+Name: res/layout/leui_date_picker_wheel_widget.xml
+SHA1-Digest: 0hYNL9Sw9kkIz4PTafEMFtCZ1lE=
+
+Name: res/drawable/leui_date_time_wheel_bg.xml
+SHA1-Digest: B4v2/sT9irMk+jgS29ydbaaXEng=
+
+Name: res/drawable/leui_background_white.9.png
+SHA1-Digest: JbN8V4DoY5ayPIZIhlHUmu+khxQ=
+
+Name: res/drawable-xxxhdpi-v4/ic_settings_schpwroff.png
+SHA1-Digest: Z2lqlUr6zEDsQsM8z1d8MmeeYIo=
+
+Name: res/drawable-mdpi-v4/updown_arrow.png
+SHA1-Digest: jp4Px6prv+wqDuyM/GfpwmFbFU4=
+
+Name: res/drawable-hdpi-v4/ic_settings_schpwroff.png
+SHA1-Digest: 1iNAmdi1orAI3Avx230Ux4wE0SY=
+
+Name: res/drawable-hdpi-v4/updown_arrow.png
+SHA1-Digest: jp4Px6prv+wqDuyM/GfpwmFbFU4=
+
+Name: res/layout/leui_updown_preference.xml
+SHA1-Digest: S1rX6TuwCVPvs1OHfpD33UzTcz0=
+
+Name: res/layout/schpwr_alarm_time_preference.xml
+SHA1-Digest: +clxc4wPQ3mvBSL5SNlV/EV/2UI=
+
+Name: res/drawable/weekday_item_bg.xml
+SHA1-Digest: cKhtHYh1IVP97kogElyioxozY7U=
+
+Name: classes.dex
+SHA1-Digest: sKjRbcVmSmYtWxC6+PLR9vB/7vc=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_schpwron.png
+SHA1-Digest: IqhoWrDerx3vfPIOSg3tVPq6Y80=
+
+Name: res/xml/schpwr_alarm_prefs.xml
+SHA1-Digest: 21iu16mioCfen5XMqJMlc3pASUQ=
+
+Name: res/drawable-mdpi-v4/ic_settings_schpwroff.png
+SHA1-Digest: yatfa0OTIKuPa1nhFsBQ1bCkA2s=
+
+Name: res/layout/schpwr_alarm_time.xml
+SHA1-Digest: 3DZFLa0K43GebkxoIuQ3eg+MzbU=
+
+Name: res/drawable-xxxhdpi-v4/leui_background_white.9.png
+SHA1-Digest: JbN8V4DoY5ayPIZIhlHUmu+khxQ=
+
+Name: res/menu/schpwr_context_menu.xml
+SHA1-Digest: HNwgDg0n+Y+pJq5YvjPCa41sZ5c=
+
+Name: res/layout/schpwr_alarm_clock.xml
+SHA1-Digest: fYuooTNWOFiNLoWIGzUWhGES4+U=
+
+Name: res/layout/preference_list_fragment.xml
+SHA1-Digest: A9TAPtC+HMJpJPeW/ekdSkUeToQ=
+

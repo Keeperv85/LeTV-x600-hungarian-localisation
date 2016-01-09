@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.leui.schpwronoff" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <application android:label="@string/schedule_power_on_off_settings_title" android:supportsRtl="true" android:taskAffinity="" android:theme="@style/Theme.Settings" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation" android:label="@string/schedule_power_on_off_settings_title" android:name="com.letv.leui.schpwronoff.LeUIAlarmClock" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.letv.leui.schpwronoff.SCHEDULE_POWER_ON_OFF_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/schedule_power_on_off_set" android:name="com.letv.leui.schpwronoff.SetAlarms" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.settings.SET_ALARM"/>
+                <category android:name="android.intent.category.VOICE_LAUNCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/leui_fire_schedule_switch" android:name="com.letv.leui.schpwronoff.LeUISetTimes" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.settings.SET_ALARM"/>
+                <category android:name="android.intent.category.VOICE_LAUNCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.letv.leui.schpwronoff" android:name="com.letv.leui.schpwronoff.AlarmProvider"/>
+        <receiver android:name="com.letv.leui.schpwronoff.SchPwrOnReceiver">
+            <intent-filter>
+                <action android:name="com.android.settings.schpwronoff.PWR_ON_ALERT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.letv.leui.schpwronoff.SchPwrOffReceiver">
+            <intent-filter>
+                <action android:name="com.android.settings.schpwronoff.PWR_OFF_ALERT"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN_IPO"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.letv.leui.schpwronoff.AlarmReceiverService"/>
+        <receiver android:name="com.letv.leui.schpwronoff.AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.LAUNCH_POWEROFF_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.letv.leui.schpwronoff.ShutdownActivity" android:screenOrientation="portrait" android:theme="@android:style/leLicenceDialogTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LeAlertActivity" android:theme="@android:style/leLicenceDialogTheme"/>
+    </application>
+</manifest>

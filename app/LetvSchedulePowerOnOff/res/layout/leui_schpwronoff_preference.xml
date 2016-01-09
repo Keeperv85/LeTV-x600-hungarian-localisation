@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@android:dimen/le_preference_padding_start" android:paddingEnd="@android:dimen/le_preference_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.letv.leui.schpwronoff.DigitalClock android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/digitalClockOn" android:paddingTop="@android:dimen/le_preference_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/powerOnTypeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:paddingEnd="8.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:layout_gravity="center_vertical" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_marginStart="@android:dimen/le_preference_content_padding_start">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/am" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.letv.leui.schpwronoff.DigitalClock>
+        <com.letv.leui.schpwronoff.DigitalClock android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/digitalClockOff" android:paddingTop="@android:dimen/le_preference_padding_top" android:paddingBottom="@android:dimen/le_preference_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/powerOnTypeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:paddingEnd="8.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                <LinearLayout android:layout_gravity="center_vertical" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_marginStart="@android:dimen/le_preference_content_padding_start">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/am" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.letv.leui.schpwronoff.DigitalClock>
+    </LinearLayout>
+    <include layout="@layout/leui_widget_arrow" />
+</LinearLayout>

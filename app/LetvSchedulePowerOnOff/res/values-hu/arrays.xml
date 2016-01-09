@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>This power on is set for less than 1 minute from now.</item>
+        <item>This power on is set for %1$s from now.</item>
+        <item>This power on is set for %2$s from now.</item>
+        <item>This power on is set for %1$s and %2$s from now.</item>
+        <item>This power on is set for %3$s from now.</item>
+        <item>This power on is set for %1$s and %3$s from now.</item>
+        <item>This power on is set for %2$s and %3$s from now.</item>
+        <item>This power on is set for %1$s, %2$s, and %3$s from now.</item>
+        <item>This power off is set for less than 1 minute from now.</item>
+        <item>This power off is set for %1$s from now.</item>
+        <item>This power off is set for %2$s from now.</item>
+        <item>This power off is set for %1$s and %2$s from now.</item>
+        <item>This power off is set for %3$s from now.</item>
+        <item>This power off is set for %1$s and %3$s from now.</item>
+        <item>This power off is set for %2$s and %3$s from now.</item>
+        <item>This power off is set for %1$s, %2$s, and %3$s from now.</item>
+    </string-array>
+</resources>
