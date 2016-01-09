@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scene_entries">
+        <item>录人声</item>
+        <item>录音乐</item>
+    </string-array>
+    <string-array name="scene_entries_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="audio_qulity_entries">
+        <item>高等品质</item>
+        <item>中等品质</item>
+        <item>低等品质</item>
+    </string-array>
+    <string-array name="audio_qulity_entries_des">
+        <item>高等品质保存为acc格式</item>
+        <item>中等品质保存为acc格式</item>
+        <item>低等品质保存为amr格式</item>
+    </string-array>
+    <string-array name="audio_qulity_value">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/actionBarBackground" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/actionBarLine" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:id="@id/back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_alignParentLeft="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rec_back" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/actionBarActionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/select_cancel" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/actionBarActionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/actionBarTitleColor" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/select_mode" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/actionBarActionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/select_all" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/actionBarActionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_all" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

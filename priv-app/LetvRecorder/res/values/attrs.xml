@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="timeColor" format="color" />
+    <attr name="timeSize" format="dimension" />
+    <attr name="ruleDrawable" format="reference" />
+    <attr name="ruleHight" format="dimension" />
+    <attr name="bottomLineMarginBottom" format="dimension" />
+    <attr name="midLineColor" format="color" />
+    <attr name="soundWaveColor" format="color" />
+    <attr name="timeLineWidth" format="dimension" />
+    <attr name="timePreLength" format="dimension" />
+    <attr name="timeTextOffset" format="dimension" />
+    <attr name="recordViewStyle" format="reference" />
+</resources>

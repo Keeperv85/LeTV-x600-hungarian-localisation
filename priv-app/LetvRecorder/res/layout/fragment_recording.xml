@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/actionBarBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/timePart" android:background="@color/actionBarBackground" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/default_bottom_line_margin" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/update_name" android:background="?android:selectableItemBackground" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/record_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/ic_rec_recording_rename" android:fontFamily="hans-sans-light" />
+        </LinearLayout>
+        <TextView android:textSize="40.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/record_time" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:fontFamily="sans-serif-thin" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/timePart" android:layout_alignParentTop="true">
+        <com.letv.android.recorder.widget.RecordingView android:id="@id/recording_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:timeSize="8.0sp" app:timeTextOffset="6.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/record_pause_mask" android:background="@color/actionBarPauseColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rec_record_pause_mask" />
+            <TextView android:textSize="@dimen/textSizeSmall" android:textColor="#ffffffff" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/record_paused" android:fontFamily="hans-sans" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

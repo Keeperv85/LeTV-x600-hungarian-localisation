@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="select_item_xliff">
+        <item quantity="other">已選取 %d 個</item>
+        <item quantity="one">已選取 %d 個</item>
+    </plurals>
+    <plurals name="delete_record_dialog_title">
+        <item quantity="other">刪除 %d 個錄音檔</item>
+        <item quantity="one">刪除 %d 個錄音檔</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="list_divider">#4cbdbdbd</item>
+    <item type="drawable" name="default_rule">@drawable/ic_rec_time_rule</item>
+</resources>

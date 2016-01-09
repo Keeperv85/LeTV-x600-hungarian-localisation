@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/empty_part" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="152.0dip">
+        <RelativeLayout android:background="@color/actionBarBackground" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="@dimen/activity_bottom" android:layout_marginTop="20.0dip">
+            <TextView android:enabled="false" android:textSize="@dimen/textSizeMedium" android:textColor="#ffb4b9bd" android:id="@id/current_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+            <TextView android:enabled="false" android:textSize="@dimen/textSizeMedium" android:textColor="#ffb4b9bd" android:id="@id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/shareBtn" android:background="@drawable/ic_small_circle_play_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctrl_margin" android:src="@drawable/play_share_selector" android:scaleType="center" android:tint="@color/buttom_red" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/playBtn" android:background="@drawable/ic_big_circle_play_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/editBtn" android:background="@drawable/ic_small_circle_play_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ctrl_margin" android:src="@drawable/play_edit_selector" android:scaleType="center" android:tint="@color/buttom_red" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.letv.android.recorder.widget.RecorderSeekBar android:id="@id/play_seekbar" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    </FrameLayout>
+</LinearLayout>

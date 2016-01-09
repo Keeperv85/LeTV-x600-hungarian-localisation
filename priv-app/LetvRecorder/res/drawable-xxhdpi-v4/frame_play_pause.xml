@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00000" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00001" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00002" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00003" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00004" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00005" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00006" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00007" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00008" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00009" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00010" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00011" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00012" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00013" />
+    <item android:duration="10" android:drawable="@drawable/ic_play_pause_00014" />
+</animation-list>

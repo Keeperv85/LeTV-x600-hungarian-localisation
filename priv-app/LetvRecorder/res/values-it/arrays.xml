@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scene_entries">
+        <item>Registra voce</item>
+        <item>Registra musica</item>
+    </string-array>
+    <string-array name="audio_qulity_entries">
+        <item>Alta</item>
+        <item>Standard</item>
+        <item>Bassa</item>
+    </string-array>
+    <string-array name="audio_qulity_entries_des">
+        <item>Alta qualità salvata come ACC</item>
+        <item>Standard qualità salvata come ACC</item>
+        <item>Bassa qualità salvata come AMR</item>
+    </string-array>
+</resources>

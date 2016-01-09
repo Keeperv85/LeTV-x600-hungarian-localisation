@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="select_item_xliff">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+    </plurals>
+    <plurals name="delete_record_dialog_title">
+        <item quantity="other">Delete %d recordings</item>
+        <item quantity="one">Delete %d recording</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/recordVF" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rec_no_record" android:tint="@color/no_record_text_color" />
+        <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/no_record_text_color" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_recorder" android:includeFontPadding="false" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.letv.leui.widget.LeListView android:id="@id/record_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="@drawable/list_divider" android:dividerHeight="1.0px" android:footerDividersEnabled="true" leui:leSwipeMode="left" leui:leSwipeActionLeft="reveal" leui:leSwipeOffsetLeft="56.0dip" leui:leSwipeAnimationTime="200" leui:leSwipeCloseAllItemsWhenMoveList="true" leui:leSwipeFrontView="@id/front" leui:leSwipeBackView="@id/back" leui:leListViewMode="leSwipe" />
+    </RelativeLayout>
+    <include layout="@layout/fragment_recording" />
+</ViewFlipper>

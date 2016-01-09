@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/screen_widget_title" android:key="screen_widget" android:summary="@string/screen_widget_summary" android:defaultValue="true" />
+    <com.letv.leui.preference.LeListPreference android:entries="@array/scene_entries" android:title="@string/scene_title" android:key="scene_mode" android:entryValues="@array/scene_entries_value" />
+</PreferenceScreen>

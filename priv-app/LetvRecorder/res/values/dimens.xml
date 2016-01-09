@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="activity_bottom">132.0dip</dimen>
+    <dimen name="textSizeLage">16.0sp</dimen>
+    <dimen name="textSizeMedium">14.0sp</dimen>
+    <dimen name="textSizeSmall">12.0sp</dimen>
+    <dimen name="playInfoHight">100.0dip</dimen>
+    <dimen name="record_item_height">56.0dip</dimen>
+    <dimen name="actionbar_font">18.0sp</dimen>
+    <dimen name="ctrl_margin">55.0dip</dimen>
+    <dimen name="record_item_padding_left">16.0dip</dimen>
+    <dimen name="record_item_padding_right">16.0dip</dimen>
+    <dimen name="record_item_divider_padding_left">16.0dip</dimen>
+    <dimen name="record_item_divider_padding_right">0.0dip</dimen>
+    <dimen name="ThumbTextSize">14.0dip</dimen>
+    <dimen name="ThumbTextOffset">9.0dip</dimen>
+    <dimen name="flagTextSize">8.0dip</dimen>
+    <dimen name="default_time_size">12.0sp</dimen>
+    <dimen name="default_rule_hight">56.0dip</dimen>
+    <dimen name="default_bottom_line_margin">78.0dip</dimen>
+</resources>
