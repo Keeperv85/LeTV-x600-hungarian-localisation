@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Compass</string>
-    <string name="defalut_orientation">Orientation</string>
-    <string name="cancel">Cancel</string>
-    <string name="calibrate">calibrate</string>
+    <string name="app_name">Iránytű</string>
+    <string name="defalut_orientation">Orientáció</string>
+    <string name="cancel">Mégsem</string>
+    <string name="calibrate">Kalibrálás</string>
     <string name="defalut_orientation_degree_symbol">o</string>
-    <string name="calibrate_message">Tilt the phone to make the red ball move around the circle</string>
-    <string name="open_netorgps_get_position">Turn on the network connection to get coordinates and location info</string>
-    <string name="open_net_get_address">Turn on network connection to get location</string>
-    <string name="low_accuracy_hint">Low data accuracy please avoid interference and recalibrate</string>
-    <string name="follow_refer_complete_calibrate">"Please avoid magnetic interference 
- and refer to instructions to complete compass calibration"</string>
-    <string name="open_gps_get_accurate">Turn on GPS to get accurate coordinates</string>
-    <string name="acquiring_location">Acquiring location</string>
-    <string name="power_assistant_hint">Unable to acquire location,please try again after closing the power saving assistant</string>
+    <string name="calibrate_message">Mozgassa a készüléket az animációban megjelenített módon!</string>
+    <string name="open_netorgps_get_position">Kapcsolja be a hálózati kapcsolatot, hogy elérhetőek legyenek a koordináták és a helyadatok</string>
+    <string name="open_net_get_address">Japcsolja be a hálózati kapcsolatot a helyadatok eléréséhez</string>
+    <string name="low_accuracy_hint">Alacsony pontosság, kérem kerülje az interferenciát és kalibrálja az iránytűt</string>
+    <string name="follow_refer_complete_calibrate">"Kérem kerülje a mágneses interferenciát 
+ és kövesse az utasításokat az iránytű kalibrációjához"</string>
+    <string name="open_gps_get_accurate">Kapcsolja be a GPS-t a pontos koordináták eléréséhez</string>
+    <string name="acquiring_location">Helyadatok lekérése</string>
+    <string name="power_assistant_hint">Nem tudjuk elérni a helyadatokat, kérem próbálja újra az akkumulátorkímélő mód kikapcsolása után.</string>
 </resources>
