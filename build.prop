@@ -6,9 +6,9 @@ ro.letv.release.date=
 ro.letv.eui=5.5
 ro.letv.release.version=5.5.009S
 ro.product.letv_model=Letv X600
-ro.product.letv_name=乐1
+ro.product.letv_name=Le1
 ro.build.id=ABXCNOP5500912251S
-ro.build.display.id=ABXCNOP5500912251S release-keys
+ro.build.display.id=ABXCNOP5500912251S release-keys_ByKeeperv85(pingdigital.hu)
 ro.build.version.incremental=21
 ro.build.version.sdk=21
 ro.build.version.codename=REL
@@ -22,7 +22,7 @@ ro.build.host=ubuntu
 ro.build.tags=release-keys
 ro.product.model=x600
 ro.product.brand=Letv
-ro.product.name=乐视超级手机1
+ro.product.name=Le1
 ro.product.device=x600
 ro.product.board=
 ro.build.model=x600
@@ -33,16 +33,15 @@ ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.product.cpu.abilist32=armeabi-v7a,armeabi
 ro.product.cpu.abilist64=arm64-v8a
 ro.product.manufacturer=Letv
-ro.product.locale.language=hu
-ro.product.locale.region=Hu
-persist.sys.timezone=Europe/Budapest
+ro.product.locale.language=en
+ro.product.locale.region=US
 ro.wifi.channels=
 ro.board.platform=mt6795
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=x600
 # Do not try to parse description, fingerprint, or thumbprint
 ro.build.description=full_x600-user 5.0.2 ABXCNOP5500912251S 21 release-keys
-ro.build.fingerprint=Letv/乐视超级手机1/x600:5.0.2/ABXCNOP5500912251S/21:user/release-keys
+ro.build.fingerprint=Letv/Le1/x600:5.0.2/ABXCNOP5500912251S/21:user/release-keys
 ro.build.characteristics=nosdcard
 # end build properties
 #
