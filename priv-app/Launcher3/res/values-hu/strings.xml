@@ -18,7 +18,7 @@
     <string name="rename_folder_label">Mappa neve</string>
     <string name="rename_folder_title">Mappa átnevezése</string>
     <string name="rename_action">OK</string>
-    <string name="cancel_action">Mégse</string>
+    <string name="cancel_action">Mégsem</string>
     <string name="menu_item_add_item">Hozzáadás a kezdőképernyőhöz</string>
     <string name="group_applications">Alkalmazások</string>
     <string name="group_shortcuts">Parancsikonok</string>
@@ -106,7 +106,7 @@
     <string name="apps_customize_widgets_scroll_format">Widget: Page %1$d of %2$d</string>
     <string name="uninstall_info_app">\"%1$s\" törlése</string>
     <string name="uninstall_info_warning">Minden adat eltávolításra kerül, ha törli az alkalmazást</string>
-    <string name="uninstall_button_cancel">Mégse</string>
+    <string name="uninstall_button_cancel">Mégsem</string>
     <string name="uninstall_button_confirm">Töröl</string>
     <string name="uninstall_failed">Eltávolítás sikertelen</string>
     <string name="system_tools_folder_name">Eszközök</string>
