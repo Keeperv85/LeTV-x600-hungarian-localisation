@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="scene_entries">
-        <item>Voice recording</item>
-        <item>Music recording</item>
+        <item>Hangfelvétel</item>
+        <item>Zene felvétel</item>
     </string-array>
     <string-array name="audio_qulity_entries">
-        <item>High quality</item>
-        <item>Standard quality</item>
-        <item>Low quality</item>
+        <item>Magas minőség</item>
+        <item>Standard minőség</item>
+        <item>Alacsony minőség</item>
     </string-array>
     <string-array name="audio_qulity_entries_des">
-        <item>High quality recordings will be saved in acc format</item>
-        <item>Standard quality recordings will be saved in acc format</item>
-        <item>Low quality recordings will be saved in amr format</item>
+        <item>A magas minőségű felvételek acc formátumban lesznek mentve</item>
+        <item>A standard minőségű felvételek acc formátumban lesznek mentve</item>
+        <item>Az alacsony minőségű felvételek amr formátumban lesznek mentve</item>
     </string-array>
 </resources>
