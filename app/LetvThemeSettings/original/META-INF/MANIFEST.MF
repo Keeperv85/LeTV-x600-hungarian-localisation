@@ -1,0 +1,126 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: res/layout/letv_theme_display_grid_item.xml
+SHA1-Digest: d2vOkX7gdVqZuEYfkQlENY1KZW8=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_settings.png
+SHA1-Digest: lirgZA1HXpi/JByufgqvq8TrPIc=
+
+Name: res/drawable/letv_delete_icon.xml
+SHA1-Digest: 2SSwczlfayvGSUM25r4kIR1uKQs=
+
+Name: res/drawable/letv_download_icon.xml
+SHA1-Digest: f+DJU+TJEk4UOfx2pFVpMrqgON8=
+
+Name: res/drawable-xxhdpi-v4/noble_lady.png
+SHA1-Digest: ihPtD2VA3eTUIBdqEhspLcbRKwo=
+
+Name: res/drawable-xxhdpi-v4/eui_tv.png
+SHA1-Digest: gaKUHENlHy2jTlHqR8MJRDsjX/k=
+
+Name: res/drawable-xxxhdpi-v4/miyue.png
+SHA1-Digest: Ifj6MpcmTJ4F6k8op2pWs5OcFBs=
+
+Name: resources.arsc
+SHA1-Digest: dlHIDm0YveevMQafybQfv3Lrg/Y=
+
+Name: res/drawable-xxxhdpi-v4/elegant.png
+SHA1-Digest: uUhGpCdP1OjJ5XjPgVAGsNd74As=
+
+Name: res/drawable-xxxhdpi-v4/gorgeous.png
+SHA1-Digest: DtUQ8ocskKFs8Vp0sjFK216cKv4=
+
+Name: res/drawable/letv_progressbar_bg.xml
+SHA1-Digest: lyIAdTf8oYtN3KJyHrWP8MwB7iw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: DnwqUdj2eIwhsQ4QeigX3iWS0dw=
+
+Name: res/drawable-xxhdpi-v4/gorgeous.png
+SHA1-Digest: 3V55HXHmGJOFt6dsAb8KTdFi0gA=
+
+Name: res/drawable-xxhdpi-v4/leui_action_bar_divider.9.png
+SHA1-Digest: j41EuDvgaIsVRSFFDzfuXPjC8xs=
+
+Name: res/drawable-xxhdpi-v4/yike.png
+SHA1-Digest: bpzf005XgKRgQ6eNRLig75+Uugw=
+
+Name: res/drawable-xxhdpi-v4/flat.png
+SHA1-Digest: tyyDceuKicjnugUf+HVBUaoEjrU=
+
+Name: res/drawable/letv_using_icon.xml
+SHA1-Digest: vKiyqQLaghXGBGcBFd0R0spB8qo=
+
+Name: res/drawable/le_top_btn_icon_reback.xml
+SHA1-Digest: e06CrFG6vc3NxD7dBVlF1Ai7W0M=
+
+Name: res/drawable/letv_selector_title_bg.xml
+SHA1-Digest: uXhCzVGBUX/MZIu4jHvUSJva3XI=
+
+Name: res/drawable-xxhdpi-v4/eui.png
+SHA1-Digest: DC7YRXN4bxZWFfdQomTXeFFQWBo=
+
+Name: res/xml/leui_theme_online_preferences.xml
+SHA1-Digest: kj+eVeu1gyoh5z8s7Z0z9ldRdDs=
+
+Name: res/drawable-xxxhdpi-v4/yike.png
+SHA1-Digest: 1f+dfUfagmZyQMlE/UKhE+rCDPY=
+
+Name: res/drawable-xxhdpi-v4/multicolored.png
+SHA1-Digest: C5r5ObmbKr40ZM2yhNc8sr7hDdU=
+
+Name: classes.dex
+SHA1-Digest: djqfD5Invo3pxVJiiX2qKXHsCK0=
+
+Name: res/drawable-xxxhdpi-v4/elegant_lady.png
+SHA1-Digest: srWUUdo+Kvz2bj4JXgkCPBhkUCY=
+
+Name: res/drawable-xxxhdpi-v4/eui_tv.png
+SHA1-Digest: aaZqLYZNkTh+FKTXTeqtaz5lTr4=
+
+Name: res/drawable-xxxhdpi-v4/multicolored.png
+SHA1-Digest: l0wX+rHeRxsUnRyZj5NkTN//uq8=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_settings.png
+SHA1-Digest: Y+YMzpiIIFsYgPYG8VjeCnObkLY=
+
+Name: res/drawable-xxhdpi-v4/elegant.png
+SHA1-Digest: 9cFyX6UmeBDNn8QKQHExvCTx5wM=
+
+Name: res/drawable-xxhdpi-v4/miyue.png
+SHA1-Digest: zuikGhKJErX4d/8dVZXlMirSfGE=
+
+Name: res/xml/leui_theme_preferences.xml
+SHA1-Digest: NyECSZYpgn4+eFgEKRKNNXgTh5s=
+
+Name: res/drawable-xxxhdpi-v4/thin.png
+SHA1-Digest: 2OpZ5XbdBBTVZz74oqiYwpovNlI=
+
+Name: res/drawable-xxxhdpi-v4/flat.png
+SHA1-Digest: zmWOkM0gKXRMkkquiJJHS1QM5tE=
+
+Name: res/drawable-xxhdpi-v4/thin.png
+SHA1-Digest: UsPS82fSDk5+ETYod9jduPe356Y=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: d7tArmXR2A3c7F3N8Qn/nPefimY=
+
+Name: res/drawable-xxxhdpi-v4/noble_lady.png
+SHA1-Digest: 1Y+Co3ITkTUzVpFCq2mZY2zCCNE=
+
+Name: res/layout/letv_theme_gridview_preference.xml
+SHA1-Digest: YE9FaoJfs4MIHIYfIe/8kQzK2L8=
+
+Name: res/drawable-xxhdpi-v4/romantic_lady.png
+SHA1-Digest: gA4HX56NjpmwOdg7bKIMRX7m6pM=
+
+Name: res/drawable-xxhdpi-v4/elegant_lady.png
+SHA1-Digest: AY4yuKkHpGSvMuohUCZnyPFg2JM=
+
+Name: res/drawable-xxxhdpi-v4/eui.png
+SHA1-Digest: yTK4tM73cV+TPdvPgH2/huS1tm0=
+
+Name: res/drawable-xxxhdpi-v4/romantic_lady.png
+SHA1-Digest: wVJdj+COUWKijnp4TByIa7+Hg6E=
+

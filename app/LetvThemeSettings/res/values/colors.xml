@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="le_statusbar_color">#fffafafa</color>
+    <color name="title_bg_normal">#66000000</color>
+    <color name="title_bg_press">#1affffff</color>
+    <color name="record_list_actionbar_color">#ffa6a7ae</color>
+</resources>

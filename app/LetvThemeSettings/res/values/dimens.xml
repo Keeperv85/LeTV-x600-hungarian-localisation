@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wallpaperThumbnailWidth">108.0dip</dimen>
+    <dimen name="wallpaperThumbnailHeight">192.0dip</dimen>
+    <dimen name="wallpaperpicker_bottom_height">46.0dip</dimen>
+    <dimen name="more_wallpaper_title_marginLeft">12.0dip</dimen>
+    <dimen name="other_wallpaper_name_height">35.0dip</dimen>
+</resources>

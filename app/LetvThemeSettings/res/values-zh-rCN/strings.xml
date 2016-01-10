@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">壁纸和主题</string>
+    <string name="system_wallpaper">系统壁纸</string>
+    <string name="local_theme">本地主题</string>
+    <string name="online_theme">在线主题</string>
+    <string name="eui">EUI</string>
+    <string name="elegant_lady">优雅俪人</string>
+    <string name="gorgeous">华丽</string>
+    <string name="noble_lady">智慧女神</string>
+    <string name="romantic_lady">浪漫可人</string>
+    <string name="thin">蝉翼</string>
+    <string name="flat">极简</string>
+    <string name="multicolored">斑斓</string>
+    <string name="eui_tv">eUI TV</string>
+    <string name="elegant">睿智儒雅</string>
+    <string name="miyue">芈月传</string>
+    <string name="yike">逸客</string>
+    <string name="state_wifi_network">正在使用Wifi网络</string>
+    <string name="state_mobile_network">正在使用移动网络</string>
+    <string name="state_no_network">无网络连接</string>
+    <string name="state_network_timeout">网络连接超时，请检查网络</string>
+    <string name="success_download">下载成功</string>
+    <string name="cancal_download">取消下载，再次点击继续下载</string>
+    <string name="set_theme_success">设置主题成功</string>
+    <string name="set_theme_fail">设置主题失败</string>
+    <string name="theme_has_downloaded">此主题已下载</string>
+    <string name="make_sure_delete_theme">确定删除该主题包？</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+</resources>

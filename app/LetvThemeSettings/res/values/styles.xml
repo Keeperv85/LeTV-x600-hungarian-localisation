@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ThemeSettings" parent="@android:style/Theme.Leui" />
+    <style name="Theme.ThemeSettings.App" parent="@style/Theme.ThemeSettings">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/actionbar_style</item>
+        <item name="android:homeAsUpIndicator">@android:drawable/le_top_btn_icon_reback</item>
+        <item name="android:statusBarColor">@color/le_statusbar_color</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+    </style>
+    <style name="ListViewStyle" parent="@android:style/Widget.Leui.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+    </style>
+    <style name="Theme.ThemeSettings.App.ActionBarOverlay" parent="@style/Theme.ThemeSettings">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/actionbar_def_style</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="actionbar_def_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">useLogo</item>
+    </style>
+    <style name="grid_item_title_text">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#f4ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

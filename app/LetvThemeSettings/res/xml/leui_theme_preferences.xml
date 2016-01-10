@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="leui_preference_theme_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/system_wallpaper" android:key="leui_system_wallpaper">
+        <intent android:targetPackage="com.letv.android.wallpaper" android:action="android.intent.action.MAIN" android:targetClass="com.letv.android.wallpaper.WallpaperSettingsActivity" />
+    </Preference>
+    <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/online_theme" android:key="leui_online_theme" android:fragment="com.letv.android.themesettings.OnlineThemeFragment" />
+    <PreferenceCategory android:title="@string/local_theme">
+        <com.letv.android.themesettings.LocalThemePreference android:key="leui_location_theme" />
+    </PreferenceCategory>
+</PreferenceScreen>

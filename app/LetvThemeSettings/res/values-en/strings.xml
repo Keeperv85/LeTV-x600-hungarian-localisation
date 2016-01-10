@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Wallpaper &amp; theme</string>
+    <string name="system_wallpaper">System wallpapers</string>
+    <string name="local_theme">Local themes</string>
+    <string name="online_theme">Online themes</string>
+    <string name="eui">EUI</string>
+    <string name="elegant_lady">Elegant lady</string>
+    <string name="gorgeous">Gorgeous</string>
+    <string name="noble_lady">Noble lady</string>
+    <string name="romantic_lady">Romantic lady</string>
+    <string name="thin">Thin</string>
+    <string name="flat">Simple</string>
+    <string name="multicolored">Colorful</string>
+    <string name="eui_tv">EUI TV</string>
+    <string name="elegant">Elegant</string>
+    <string name="miyue">Miyue</string>
+    <string name="yike">Yike</string>
+    <string name="state_wifi_network">Using Wi-Fi Network</string>
+    <string name="state_mobile_network">You are using a cellular network and data usage charges will be incurred.</string>
+    <string name="state_no_network">No network connection</string>
+    <string name="state_network_timeout">Network connection timed out. Please check your network settings.</string>
+    <string name="success_download">Downloaded</string>
+    <string name="cancal_download">Download is paused. Please press again to continue downloading.</string>
+    <string name="set_theme_success">Theme set successfully</string>
+    <string name="set_theme_fail">Failed to set theme</string>
+    <string name="theme_has_downloaded">This theme has been downloaded</string>
+    <string name="make_sure_delete_theme">Confirm to delete this theme?</string>
+    <string name="yes">Delete</string>
+    <string name="no">Cancel</string>
+</resources>

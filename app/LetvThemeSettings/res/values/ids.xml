@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="container">false</item>
+    <item type="id" name="displayImageView">false</item>
+    <item type="id" name="title_bottom_layout">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="progressNum">false</item>
+    <item type="id" name="progressbar">false</item>
+    <item type="id" name="gridview">false</item>
+</resources>

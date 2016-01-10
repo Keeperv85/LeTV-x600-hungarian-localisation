@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Wallpaper &amp; theme</string>
+    <string name="system_wallpaper">System wallpaper</string>
+    <string name="local_theme">Local themes</string>
+    <string name="online_theme">Online themes</string>
+    <string name="eui">EUI</string>
+    <string name="elegant_lady">Elegant lady</string>
+    <string name="gorgeous">Gorgeous</string>
+    <string name="noble_lady">Noble lady</string>
+    <string name="romantic_lady">Romantic lady</string>
+    <string name="thin">Thin</string>
+    <string name="flat">Simple</string>
+    <string name="multicolored">Colorful</string>
+    <string name="eui_tv">EUI TV</string>
+    <string name="elegant">睿智儒雅</string>
+    <string name="miyue">芈月传</string>
+    <string name="yike">逸客</string>
+    <string name="state_wifi_network">You are using a Wi-Fi network</string>
+    <string name="state_mobile_network">You are using a cellular network</string>
+    <string name="state_no_network">No network connection</string>
+    <string name="state_network_timeout">Network connection timed out. Please check your connection.</string>
+    <string name="success_download">Downloaded</string>
+    <string name="cancal_download">Cancel download, tap again to resume</string>
+    <string name="set_theme_success">Theme successfully set</string>
+    <string name="set_theme_fail">Failed to set theme</string>
+    <string name="theme_has_downloaded">This theme has been downloaded</string>
+    <string name="make_sure_delete_theme">Delete this theme?</string>
+    <string name="yes">Confirm</string>
+    <string name="no">Cancel</string>
+</resources>
