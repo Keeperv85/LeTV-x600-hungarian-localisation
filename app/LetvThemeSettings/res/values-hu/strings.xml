@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="application_name">Háttér és; téma</string>
-    <string name="system_wallpaper">Rendszer háttérkép</string>
+    <string name="application_name">Háttér és téma</string>
+    <string name="system_wallpaper">Rendszerháttérkép</string>
     <string name="local_theme">Helyi témák</string>
     <string name="online_theme">Online témák</string>
     <string name="eui">EUI</string>
@@ -12,18 +12,14 @@
     <string name="thin">Vékony</string>
     <string name="flat">Egyszerű</string>
     <string name="multicolored">Színes</string>
-    <string name="eui_tv">EUI TV</string>
-    <string name="elegant">睿智儒雅</string>
-    <string name="miyue">芈月传</string>
-    <string name="yike">逸客</string>
     <string name="state_wifi_network">Ön Wi-fi hálózatot használ</string>
     <string name="state_mobile_network">Ön adatkapcsolatot használ</string>
     <string name="state_no_network">Nincs hálózati kapcsolat</string>
-    <string name="state_network_timeout">Hálózati időtúllépés. Kérem ellenőrizze a kapcsolatot.</string>
+    <string name="state_network_timeout">Hálózati időtúllépés. Kérem ellenőrizze a kapcsolatot!</string>
     <string name="success_download">Letöltve</string>
-    <string name="cancal_download">Letöltés megszakítása, érintse meg a folytatáshoz</string>
-    <string name="set_theme_success">Téma sikeresen beállítva</string>
-    <string name="set_theme_fail">Téma beállítása sikertelen</string>
+    <string name="cancal_download">Letöltés megszakítása, érintse meg a folytatáshoz!</string>
+    <string name="set_theme_success">A téma sikeresen beállítva!</string>
+    <string name="set_theme_fail">A téma beállítása sikertelen!</string>
     <string name="theme_has_downloaded">A téma sikeresen letöltve</string>
     <string name="make_sure_delete_theme">Törli a témát?</string>
     <string name="yes">Igen</string>
