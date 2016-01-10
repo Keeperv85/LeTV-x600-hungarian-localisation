@@ -33,8 +33,8 @@ ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.product.cpu.abilist32=armeabi-v7a,armeabi
 ro.product.cpu.abilist64=arm64-v8a
 ro.product.manufacturer=Letv
-ro.product.locale.language=en
-ro.product.locale.region=US
+ro.product.locale.language=hu
+ro.product.locale.region=HU
 ro.wifi.channels=
 ro.board.platform=mt6795
 # ro.build.product is obsolete; use ro.product.device
@@ -266,3 +266,4 @@ dalvik.vm.isa.arm64.features=default
 dalvik.vm.isa.arm.features=default
 net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.setupwizard.mode=DISABLED
