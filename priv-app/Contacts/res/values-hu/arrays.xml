@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="number_opt">
+        <item>New contact</item>
+        <item>Add to contact</item>
+        <item>Delete</item>
+        <item>Sticky call log</item>
+        <item>Add to black list</item>
+        <item>Label</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>Scammer</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Delivery</item>
+        <item>Mail</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="markLables_for_yellopage">
+        <item>Scammer</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Delivery</item>
+        <item>Express</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>Block calls and message</item>
+        <item>Block calls</item>
+        <item>Block message</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Szervezet</item>
+        <item>Jegyzet</item>
+    </string-array>
+</resources>
