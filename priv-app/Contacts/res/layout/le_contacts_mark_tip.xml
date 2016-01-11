@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.letv.leui.widget.LeBubbleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" app:bubbleText="@string/le_contacts_mark_tip_content" app:bubbleArrowDirection="4" app:relativePosition="50.0%"
+<com.letv.leui.widget.LeBubbleTextView android:layout_width="wrap_content" android:layout_height="wrap_content" app:bubbleText="@string/le_contacts_mark_tip_content" app:bubbleArrowDirection="bottom" app:relativePosition="50.0%"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/prv/res/android" />

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.letv.leui.widget.LeBlankPage leui:icon="@android:drawable/le_blank_page_no_msg" android:id="@id/le_blankpage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" leui:message="@string/listFoundAllContactsZero" leui:primaryText="@string/contacts_unavailable_create_contact" leui:secondText="@string/contacts_unavailable_add_account" leui:thirdText="@string/contacts_unavailable_import_contacts"
+<com.letv.leui.widget.LeBlankPage leui:icon="@android:drawable/le_blank_page_no_login" android:id="@id/le_blankpage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" leui:message="@string/listFoundAllContactsZero" leui:primaryText="@string/contacts_unavailable_create_contact" leui:secondText="@string/contacts_unavailable_add_account" leui:thirdText="@string/contacts_unavailable_import_contacts"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android" />
