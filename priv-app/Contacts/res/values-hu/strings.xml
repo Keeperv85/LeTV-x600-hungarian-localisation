@@ -333,13 +333,6 @@ Befejezetlen: %d"</string>
     <string name="dialog_phone_call_prohibited_message">Call incomplete</string>
     <string name="from_account_format">%1$s</string>
     <string name="recently_added_contacts">Recently added contacts</string>
-    <string name="cancel_export_confirmation_title">Cancel vCard export</string>
-    <string name="searching_vcard_title">Searching vCard</string>
-    <string name="menu_all_contacts">All contacts</string>
-    <string name="cancel_import_confirmation_title">Cancel vCard import</string>
-    <string name="search_bar_hint">Search contacts</string>
-    <string name="delete_group_dialog_title">Delete group</string>
-    <string name="cancel_confirmation_dialog_title">Discard changes</string>
     <string name="all_contacts_empty">No contacts.</string>
     <string name="cancel_export_confirmation_title">vCard exportálásának megszakítása</string>
     <string name="searching_vcard_title">vCard keresése</string>
