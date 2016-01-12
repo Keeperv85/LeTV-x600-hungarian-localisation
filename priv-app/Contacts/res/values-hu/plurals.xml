@@ -5,39 +5,39 @@
         <item quantity="one">1 hívásnapló</item>
     </plurals>
     <plurals name="searchFoundContacts">
-        <item quantity="other">%d találat</item>
+        <item quantity="other">%1$d találat</item>
         <item quantity="one">1 találat</item>
     </plurals>
     <plurals name="listTotalAllContacts">
-        <item quantity="other">%d névjegy</item>
+        <item quantity="other">%1$d névjegy</item>
         <item quantity="one">1 névjegy</item>
     </plurals>
     <plurals name="rington_count">
-        <item quantity="other">Ring %s sounds</item>
-        <item quantity="one">Ring 1 sound</item>
+        <item quantity="other">%s csengőhang</item>
+        <item quantity="one">1 csengőhang</item>
     </plurals>
     <plurals name="contactsDeleteTip">
-        <item quantity="other">Are you sure to delete %s contacts</item>
-        <item quantity="one">Are you sure to delete 1 contact</item>
+        <item quantity="other">Biztosan törli ezt a(z) %s kapcsolatot?</item>
+        <item quantity="one">Biztosan törli ezt az 1 kapcsolatot?</item>
     </plurals>
     <plurals name="addContactsForGroupTip">
-        <item quantity="other">Are you sure to move %s contacts to this group</item>
-        <item quantity="one">Are you sure to move 1 contact to this group</item>
+        <item quantity="other">Biztosan átmozgatja ezt a(z) %s kapcsolatot a csoportba?</item>
+        <item quantity="one">Biztosan átmozgatja ezt az 1 kapcsolatot a csoportba?</item>
     </plurals>
     <plurals name="selectedContact">
-        <item quantity="other">%d selected</item>
-        <item quantity="one">1 selected</item>
+        <item quantity="other">%1$d kiválasztva</item>
+        <item quantity="one">1 kiválasztva</item>
     </plurals>
     <plurals name="import_from_vcard_success">
-        <item quantity="other">Contacts imported success</item>
-        <item quantity="one">Contact imported success</item>
+        <item quantity="other">Kapcsolatok importálása sikeres</item>
+        <item quantity="one">Kapcsolat importálása sikeres</item>
     </plurals>
     <plurals name="listTotalPhoneContacts">
-        <item quantity="other">%d contacts with phone numbers</item>
-        <item quantity="one">1 contact with phone number</item>
+        <item quantity="other">%1$d kapcsolat telefonszámmal</item>
+        <item quantity="one">1 kapcsolat telefonszámmal</item>
     </plurals>
     <plurals name="listFoundAllContacts">
-        <item quantity="other">%d találat</item>
+        <item quantity="other">%1$d találat</item>
         <item quantity="one">1 találat</item>
     </plurals>
     <plurals name="merge_info">
