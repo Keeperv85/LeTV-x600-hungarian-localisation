@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:id="@id/radio" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Standard" android:singleLine="true" />
+                <RadioButton android:id="@id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Elegant (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Baumans (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Persia (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Rosemary (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Ubuntu (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="AnkeSans (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Choco cooky (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Xpressive (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Amaranth (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Diamante (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Simpson (Letv x500)" android:singleLine="true" />
+                <RadioButton android:id="@id/text13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Short Hand (Letv x500)" android:singleLine="true" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:ellipsize="end" android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply" android:singleLine="true" />
+        <Button android:ellipsize="end" android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reboot" android:singleLine="true" />
+        <Button android:ellipsize="end" android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Close" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>
