@@ -383,7 +383,7 @@ Utolsó kísérlet: %s."</string>
     <string name="menu_email">Email küldése</string>
     <string name="pref_title_sms_store">Preferált tárhely</string>
     <string name="pref_title_sms_store_sim1">SIM1 tárhely</string>
-    <string name="pref_title_sms_store_sim2">SIM2 tűrhely</string>
+    <string name="pref_title_sms_store_sim2">SIM2 tárhely</string>
     <string name="pref_sms_store_phone">Telefon</string>
     <string name="pref_sms_store_sim">SIM</string>
     <string name="pref_sim_card_full_save_to_phone">SIM kártya megtelt, az új üzenetek a készüléken lesznek mentve.</string>
@@ -397,7 +397,7 @@ Utolsó kísérlet: %s."</string>
     <string name="count_mult_mode_others">Kiválasztva %1$d elem</string>
     <string name="recovery_message_prompt_info">Recovery %1$s count messages?</string>
     <string name="restore_to_messages">Visszaállítás</string>
-    <string name="delete_message_prompt_info">Biztosan törli a kijelölt üzneteket?</string>
+    <string name="delete_message_prompt_info">Biztosan törli a kijelölt üzeneteket?</string>
     <string name="all_mult_mode">Minden kiválasztva</string>
     <string name="un_select_mult_mode">Kiválasztás megszüntetése</string>
     <string name="long_press_menu_copy">Másol</string>
@@ -461,14 +461,14 @@ Utolsó kísérlet: %s."</string>
     <string name="menu_add_exist_contact">Meglévő névjegyhez adás</string>
     <string name="menu_create_contact">Névjegy létrehozása</string>
     <string name="display_all_messages">Mutasson minden üzenetet</string>
-    <string name="display_special_sim_message">SIM card%1$s üzeneteinek megjelenítése</string>
+    <string name="display_special_sim_message">SIM%1$s kártya üzeneteinek megjelenítése</string>
     <string name="cancel_mult_mode">Mégse</string>
     <string name="no_more_block">Blokkolás megszüntetése</string>
     <string name="no_block_prompt_info">Megszünteti az üzenetek blokkolását erről a telefonszámról és visszaállítja az üzeneteket?</string>
     <string name="select_mult_mode">Mindet kiválaszt</string>
     <string name="shrink">Fel</string>
     <string name="attach_timer">Időzít</string>
-    <string name="attach_media">Media</string>
+    <string name="attach_media">Média</string>
     <string name="attach_vcard">Névjegy</string>
     <string name="attach_subject">Tárgy</string>
     <string name="previous_time">Ennyi idő telt el</string>
