@@ -602,11 +602,11 @@ Utolsó kísérlet: %s."</string>
     <string name="pref_screen_remind_and_notify">Emlékeztető és értesítés</string>
     <string name="pref_title_others_settings">Egyebek</string>
     <string name="pref_title_spam_msg_block">Spam szűrés</string>
-    <string name="pref_summary_spam_msg_block">Automatically intercept users reports and marketing, advertising, harassing messages</string>
-    <string name="pref_title_display">Display</string>
-    <string name="pref_title_system">System</string>
-    <string name="sim_off">SIM off</string>
-    <string name="switch_app_setting">Switch</string>
+    <string name="pref_summary_spam_msg_block">Automatikusan blokkolja a jelentett reklám- és zavaró üzeneteket.</string>
+    <string name="pref_title_display">Megjelenítés</string>
+    <string name="pref_title_system">Rendszer</string>
+    <string name="sim_off">SIM kikapcsolva</string>
+    <string name="switch_app_setting">Váltás</string>
     <string name="restore_system_app_sms">The Messaging application will switch to the system and restore input function</string>
     <string name="restore_when_click">The input function is disable,click here to restore it</string>
     <string name="restore">Restore</string>
