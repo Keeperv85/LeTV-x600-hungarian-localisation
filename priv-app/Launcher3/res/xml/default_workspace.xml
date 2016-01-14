@@ -11,19 +11,11 @@
     <favorite launcher:packageName="com.letv.android.client" launcher:screen="1" launcher:x="2" launcher:y="3" />
     <favorite launcher:packageName="com.lesports.glivesports" launcher:screen="1" launcher:x="3" launcher:y="3" />
     <favorite launcher:packageName="com.letv.android.filemanager" launcher:screen="1" launcher:x="0" launcher:y="4" />
-    <favorite launcher:packageName="com.letv.app.appstore" launcher:screen="1" launcher:x="1" launcher:y="4" />
-    <favorite launcher:packageName="com.android.gallery3d" launcher:screen="1" launcher:x="2" launcher:y="4" />
-    <favorite launcher:packageName="com.android.settings" launcher:screen="1" launcher:x="3" launcher:y="4" />
-    <favorite launcher:packageName="com.letv.games" launcher:screen="2" launcher:x="0" launcher:y="0" />
+    <favorite launcher:packageName="com.android.gallery3d" launcher:screen="1" launcher:x="1" launcher:y="4" />
+    <favorite launcher:packageName="com.android.settings" launcher:screen="1" launcher:x="2" launcher:y="4" />
     <favorite launcher:packageName="com.letv.android.supermanager" launcher:screen="2" launcher:x="1" launcher:y="0" />
     <favorite launcher:packageName="com.letv.android.bugreporter" launcher:screen="2" launcher:x="2" launcher:y="0" />
-    <favorite launcher:packageName="com.letv.android.ota" launcher:screen="2" launcher:x="3" launcher:y="0" />
-    <favorite launcher:packageName="com.letv.letvshop" launcher:screen="2" launcher:x="0" launcher:y="1" />
-    <favorite launcher:packageName="com.letv.android.note" launcher:screen="2" launcher:x="1" launcher:y="1" />
-    <favorite launcher:packageName="com.letv.bbs" launcher:screen="2" launcher:x="2" launcher:y="1" />
-    <favorite launcher:packageName="cn.wps.moffice_eng" launcher:screen="2" launcher:x="3" launcher:y="1" />
-    <favorite launcher:packageName="com.sina.weibo" launcher:screen="2" launcher:x="0" launcher:y="2" />
-    <favorite launcher:packageName="com.baidu.BaiduMap" launcher:screen="2" launcher:x="1" launcher:y="2" />
+    <favorite launcher:packageName="com.letv.android.note" launcher:screen="1" launcher:x="3" launcher:y="4" />
     <favorite launcher:packageName="com.letv.android.account" launcher:screen="2" launcher:x="2" launcher:y="2" />
     <folder launcher:screen="2" launcher:x="3" launcher:y="2" launcher:title="@string/system_tools_folder_name">
         <favorite launcher:packageName="com.android.videoplayer" />
