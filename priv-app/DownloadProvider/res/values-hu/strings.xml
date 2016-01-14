@@ -50,7 +50,7 @@
     <string name="download_running_percent">Folyamatban, %d%%</string>
     <string name="download_notification_pause">Szünetel</string>
     <string name="download_file_save_toast">fájl mentése：%1$s</string>
-    <string name="download_pause_notification_tip">%1$s befejetze a letöltést</string>
+    <string name="download_pause_notification_tip">%1$s befejezte a letöltést</string>
     <string name="download_storage_insufficient_dialog_content">Sikertelen letöltés. Kérem szabadítson fel tárhelyet és próbálja újra!</string>
     <string name="download_storage_insufficient_dialog_negative_button">Mégsem</string>
     <string name="download_storage_insufficient_dialog_positive_button">Törlés</string>
