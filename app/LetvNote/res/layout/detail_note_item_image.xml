@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.android.note.notespic.DetailNoteImageLayout android:gravity="center" android:id="@id/detail_note_image_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/detail_note_image_content" android:background="@drawable/detail_note_image_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_image_padding_top" android:layout_marginBottom="16.0dip">
+        <ImageView android:id="@id/detail_note_image" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:minHeight="400.0dip" />
+    </RelativeLayout>
+</com.letv.android.note.notespic.DetailNoteImageLayout>

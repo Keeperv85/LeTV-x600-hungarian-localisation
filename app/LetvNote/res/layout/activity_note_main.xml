@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.SlidingMenu android:id="@id/slidingmenu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/top_divider" android:background="@color/notebook_top_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="?android:actionBarSize" />
+</FrameLayout>

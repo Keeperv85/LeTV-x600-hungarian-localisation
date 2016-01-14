@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popup_window_list">
+        <item>Rinomina</item>
+        <item>Cancella</item>
+    </string-array>
+    <string-array name="share_bottom_list">
+        <item>Condividi come testo</item>
+        <item>Condividi come immagine</item>
+    </string-array>
+    <string-array name="remend_bottom_list">
+        <item>Copia sul desktop</item>
+        <item>Promemoria</item>
+    </string-array>
+</resources>

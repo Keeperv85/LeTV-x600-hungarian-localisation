@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popup_window_list">
+        <item>重命名</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="share_bottom_list">
+        <item>以文字形式分享</item>
+        <item>以图片形式分享</item>
+        <item>贴到桌面</item>
+    </string-array>
+    <string-array name="add_picture_list">
+        <item>拍照</item>
+        <item>从图库添加</item>
+    </string-array>
+    <string-array name="edit_picture_list">
+        <item>编辑图片</item>
+        <item>删除图片</item>
+    </string-array>
+</resources>

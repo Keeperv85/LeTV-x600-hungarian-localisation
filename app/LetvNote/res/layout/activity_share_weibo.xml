@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sv_edit" android:background="@color/note_background" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="@dimen/share_weibo_text" android:textColor="@color/note_edittext" android:gravity="top" android:id="@id/share_edit" android:background="@android:color/transparent" android:padding="@dimen/share_weibo_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/share_weibo_hint" android:cursorVisible="true" android:minLines="3" android:includeFontPadding="false" android:lineSpacingMultiplier="1.0" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/share_weibo_text" android:paddingRight="@dimen/share_weibo_text" android:paddingBottom="@dimen/share_weibo_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/share_image" android:layout_width="@dimen/share_weibo_image_width" android:layout_height="@dimen/share_weibo_image_width" android:layout_marginRight="@dimen/share_weibo_image_margin_text" android:adjustViewBounds="true" />
+            <TextView android:textSize="@dimen/share_weibo_text_limit" android:layout_gravity="bottom" android:id="@id/text_limit_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

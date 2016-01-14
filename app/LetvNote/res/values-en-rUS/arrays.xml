@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popup_window_list">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="share_bottom_list">
+        <item>Share as text</item>
+        <item>Share as picture</item>
+        <item>Stick to desktop</item>
+    </string-array>
+    <string-array name="add_picture_list">
+        <item>Take photo</item>
+        <item>Add from gallery</item>
+    </string-array>
+    <string-array name="edit_picture_list">
+        <item>Edit picture</item>
+        <item>Delete picture</item>
+    </string-array>
+</resources>

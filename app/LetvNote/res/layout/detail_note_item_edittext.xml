@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/detail_note_editor_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.android.note.NoteEditText android:textSize="@dimen/note_edittext" android:textColor="@color/note_edittext" android:textColorHighlight="#80f5bf2d" android:gravity="top" android:id="@id/detail_note_editor" android:background="@android:color/transparent" android:paddingLeft="@dimen/note_edit_content_padding" android:paddingRight="@dimen/note_edit_content_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="true" android:includeFontPadding="false" android:lineSpacingMultiplier="1.5" android:leLinkColor="@color/main" android:leUrlHightlightColor="@color/main" android:leEnableSectionSelect="true" android:leCursorColor="@color/main" android:leFixCursorHeightToTextHeight="true" android:leLinkType="phone|email|url" />
+</RelativeLayout>

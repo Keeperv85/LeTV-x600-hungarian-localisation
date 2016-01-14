@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.android.note.ui.ResizeLayout android:id="@id/root_layout" android:background="@color/note_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <fragment android:name="com.letv.android.note.NoteListFragment" android:id="@id/note_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:background="@color/bottomwidget_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/content_masker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="#4cb4b9bd" />
+        <ImageView android:id="@id/search_masker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="#88000000" />
+    </com.letv.android.note.ui.ResizeLayout>
+    <FrameLayout android:layout_gravity="start" android:id="@id/left_layout" android:background="@color/slidingmenu_background" android:layout_width="@dimen/drawer_width" android:layout_height="fill_parent">
+        <fragment android:id="@id/fragment_sliding_menu_editor" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.letv.android.note.notebook.SlidingMenuEditorFragment" />
+        <fragment android:id="@id/fragment_sliding_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.letv.android.note.notebook.SlidingMenuFragment" />
+    </FrameLayout>
+</android.support.v4.widget.DrawerLayout>

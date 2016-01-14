@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_minute">
+        <item quantity="other">%1$d 分钟后提醒</item>
+        <item quantity="one">1分钟后提醒</item>
+    </plurals>
+</resources>

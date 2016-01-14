@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/slidingmenu_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/fragment_sliding_menu_editor" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.letv.android.note.notebook.SlidingMenuEditorFragment" />
+    <fragment android:id="@id/fragment_sliding_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.letv.android.note.notebook.SlidingMenuFragment" />
+</FrameLayout>

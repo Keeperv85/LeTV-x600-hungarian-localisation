@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeBlankPage android:icon="@drawable/blank_page_svg" android:id="@id/empty_list_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/note_listview_empty" android:isShowInputMethed="true" />
+    <com.letv.leui.widget.LeListView android:id="@id/note_list_fragment" android:paddingBottom="48.0dip" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="@color/divider_color" android:dividerHeight="1.0px" android:leSwipeMode="left" android:leSwipeActionLeft="reveal" android:leSwipeOffsetLeft="64.0dip" android:leSwipeCloseAllItemsWhenMoveList="true" android:leSwipeFrontView="@id/front" android:leSwipeBackView="@id/back" android:leListViewMode="leSwipe" />
+    <include layout="@layout/delete_loading_view" />
+</FrameLayout>

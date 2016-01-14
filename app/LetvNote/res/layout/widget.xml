@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/layout_widget" android:background="@drawable/widget_background" android:layout_width="145.0dip" android:layout_height="188.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/widget_note_size" android:textColor="@color/widget_text_color" android:ellipsize="end" android:id="@id/txtContent" android:paddingTop="@dimen/widget_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_no_content" android:maxLines="6" android:lineSpacingExtra="9.0dip" android:paddingStart="@dimen/widget_padding_left_or_right" android:paddingEnd="@dimen/widget_padding_left_or_right" />
+    <LinearLayout android:gravity="center|right" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/widget_bottom_background" android:layout_width="fill_parent" android:layout_height="@dimen/widget_bottom_height">
+        <TextView android:textSize="@dimen/widget_date_size" android:textColor="@android:color/white" android:id="@id/txtDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/widget_padding_left_or_right" />
+    </LinearLayout>
+</FrameLayout>

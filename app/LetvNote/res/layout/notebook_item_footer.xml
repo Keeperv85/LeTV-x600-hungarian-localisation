@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/addNotebookView" android:paddingLeft="@dimen/notebooks_margin_edge" android:layout_width="wrap_content" android:layout_height="@dimen/notebook_item_height" android:minHeight="@dimen/notebook_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add" />
+    <TextView android:textSize="@dimen/notebook_text" android:textColor="@color/add_notebook" android:paddingLeft="@dimen/notebooks_text_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_note_books" />
+</LinearLayout>

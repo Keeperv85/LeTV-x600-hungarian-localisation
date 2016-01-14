@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="home" />
+    <item type="id" name="up" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="alarm_content">false</item>
+    <item type="id" name="alarm_date_time_wheel">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="time_label">false</item>
+    <item type="id" name="bottom_widget">false</item>
+    <item type="id" name="root_layout">false</item>
+    <item type="id" name="note_edit_container">false</item>
+    <item type="id" name="note_edit_add_image">false</item>
+    <item type="id" name="note_list">false</item>
+    <item type="id" name="content_masker">false</item>
+    <item type="id" name="search_masker">false</item>
+    <item type="id" name="slidingmenu">false</item>
+    <item type="id" name="top_divider">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="share_image">false</item>
+    <item type="id" name="sv_edit">false</item>
+    <item type="id" name="share_edit">false</item>
+    <item type="id" name="text_limit_tv">false</item>
+    <item type="id" name="load_background_view">false</item>
+    <item type="id" name="llv">false</item>
+    <item type="id" name="delete_note">false</item>
+    <item type="id" name="note_modified_time">false</item>
+    <item type="id" name="detail_note_editor_layout">false</item>
+    <item type="id" name="detail_note_editor">false</item>
+    <item type="id" name="detail_note_image_layout">false</item>
+    <item type="id" name="detail_note_image_content">false</item>
+    <item type="id" name="detail_note_image">false</item>
+    <item type="id" name="notebook_edit">false</item>
+    <item type="id" name="drawer_layout">false</item>
+    <item type="id" name="left_layout">false</item>
+    <item type="id" name="fragment_sliding_menu_editor">false</item>
+    <item type="id" name="fragment_sliding_menu">false</item>
+    <item type="id" name="note_edit">false</item>
+    <item type="id" name="LoadingView">false</item>
+    <item type="id" name="note_edit_list">false</item>
+    <item type="id" name="empty_list_view">false</item>
+    <item type="id" name="note_list_fragment">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="front">false</item>
+    <item type="id" name="notebookList_container">false</item>
+    <item type="id" name="notebookList">false</item>
+    <item type="id" name="keyguard_alert_cover">false</item>
+    <item type="id" name="keyguard_alert_activity">false</item>
+    <item type="id" name="keyguard_alert_cancel">false</item>
+    <item type="id" name="keyguard_alert_info_container">false</item>
+    <item type="id" name="keyguard_alert_triangle">false</item>
+    <item type="id" name="keyguard_alert_label">false</item>
+    <item type="id" name="NotebookHeader">false</item>
+    <item type="id" name="delete">false</item>
+    <item type="id" name="alarm_view">false</item>
+    <item type="id" name="note_content">false</item>
+    <item type="id" name="picture_view">false</item>
+    <item type="id" name="note_time">false</item>
+    <item type="id" name="checkbox_delete">false</item>
+    <item type="id" name="modifyView">false</item>
+    <item type="id" name="count">false</item>
+    <item type="id" name="editView">false</item>
+    <item type="id" name="choose">false</item>
+    <item type="id" name="addNotebookView">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="notebook_name">false</item>
+    <item type="id" name="search_view">false</item>
+    <item type="id" name="layout_widget">false</item>
+    <item type="id" name="txtContent">false</item>
+    <item type="id" name="txtDate">false</item>
+    <item type="id" name="menu_alarm">false</item>
+    <item type="id" name="menu_meeting">false</item>
+    <item type="id" name="menu_email">false</item>
+    <item type="id" name="menu_next">false</item>
+    <item type="id" name="menu_search">false</item>
+    <item type="id" name="menu_done">false</item>
+    <item type="id" name="menu_send">false</item>
+    <item type="id" name="menu_select">false</item>
+    <item type="id" name="menu_delete">false</item>
+    <item type="id" name="note_add_and_search">false</item>
+    <item type="id" name="menu_add">false</item>
+    <item type="id" name="notebook_cancel_and_save">false</item>
+    <item type="id" name="menu_cancel">false</item>
+    <item type="id" name="menu_save">false</item>
+</resources>

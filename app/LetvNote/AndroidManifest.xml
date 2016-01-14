@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.note" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-10">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher_note" android:label="@string/app_name" android:name=".NoteApplication" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.letv.android.note.NoteListActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_note_edit" android:launchMode="singleTask" android:name="com.letv.android.note.NoteEditActivity" android:parentActivityName="com.letv.android.note.NoteListActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.letv.note.NoteListActivity"/>
+            <intent-filter>
+                <action android:name="com.letv.android.note.ACTION_CREATE_NOTE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:hardwareAccelerated="false" android:name="com.letv.android.note.SharePictureActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay">
+            <intent-filter>
+                <action android:name="com.letv.android.note.ACTION_SHARE_PICTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.note.alarm.AlarmActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:name=".alarm.KeyguardAlertActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/KeyguardAlertTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".weibo.NoteSkipActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="com.letv.android.note.ACTION_SHARE_PICTURE_TO_WEIBO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".weibo.NoteShareActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <service android:name="com.letv.android.note.NoteSaveService1"/>
+        <provider android:authorities="com.leui.provider.NotePad" android:exported="true" android:name="com.letv.android.note.NotePadProvider">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <receiver android:name=".AccountsChangedReceiver">
+            <intent-filter>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT"/>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT_SAVE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".widget.NoteWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+        <receiver android:name=".widget.NoteWidgetProvider$UpdateWidgetReciver">
+            <intent-filter>
+                <action android:name="com.letv.android.note.action.WIDGET_UPDATE"/>
+                <action android:name="com.letv.android.note.action.WIDGET_DELETE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name=".widget.WidgetUpdateService"/>
+        <service android:exported="false" android:name=".alarm.AlarmService"/>
+        <receiver android:name=".alarm.AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="com.letv.android.note.action.SET_ALARM"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="note_image_attch" android:exported="false" android:grantUriPermissions="true" android:multiprocess="true" android:name=".notespic.ImageAttachProvider"/>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.android.launcher3.permission.INSTALL_WIDGET"/>
+    <uses-permission android:name="com.android.launcher3.permission.UNINSTALL_WIDGET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+</manifest>

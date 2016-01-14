@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/note_add_and_search" android:visible="true">
+        <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/menu_add" android:title="@string/menu_add" android:showAsAction="always" />
+        <item android:icon="@android:drawable/ic_menu_search" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="always" />
+    </group>
+    <group android:id="@id/notebook_cancel_and_save" android:visible="false">
+        <item android:id="@id/menu_cancel" android:title="@string/menu_cancel" android:showAsAction="always" />
+        <item android:id="@id/menu_save" android:title="@string/menu_save" android:showAsAction="always" />
+    </group>
+</menu>

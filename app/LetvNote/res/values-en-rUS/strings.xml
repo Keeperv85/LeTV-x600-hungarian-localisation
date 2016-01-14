@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="title_note_edit">Edit note</string>
+    <string name="title_notebook_edit">Edit notebook</string>
+    <string name="menu_add">Create new</string>
+    <string name="menu_done">Done</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_search">Search</string>
+    <string name="groupsLabel">Notebook</string>
+    <string name="add_note_books">Create new notebook</string>
+    <string name="all_notebooks_title">All notebooks</string>
+    <string name="edit">Select</string>
+    <string name="menu_save">Done</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="note_list">List</string>
+    <string name="delete_note">Delete current note</string>
+    <string name="delete_notebook">Delete notebook</string>
+    <string name="delete_notebook_title">Deleting note clip \"%s\" will not delete the notes in it</string>
+    <string name="toast_remind">System has auto saved due to inactivity.</string>
+    <string name="delete_cancel">Cancel</string>
+    <string name="delete_all_choose">Select all</string>
+    <string name="delete_all_no_choose">Deselect all</string>
+    <string name="delete_title">Tap to select</string>
+    <string name="count_mult_mode">%1$d selected</string>
+    <string name="delete_one_note_label">Delete note</string>
+    <string name="delete_note_label">Delete %1$d notes</string>
+    <string name="title_search_tip">Search notes</string>
+    <string name="notebook_exit_toast">This name is already in use</string>
+    <string name="share_content">Text exceeds 140 characters by %1$d characters. Please produce long post to share to Weibo.</string>
+    <string name="share_done">Produce long Weibo</string>
+    <string name="share_toast">Saved to Gallery</string>
+    <string name="sdcard_toast">SD card not found</string>
+    <string name="share_false_toast">Failed to share</string>
+    <string name="more_picture_toast">Photo limit reached, unable to add more pictures</string>
+    <string name="note_search_listview_empty">No search results</string>
+    <string name="note_listview_empty">No notes</string>
+    <string name="default_note_u1">Tip: Long press the list to select and delete single or multiple notes. Swipe left to delete single notes.</string>
+    <string name="default_note_u2">Tip: Swipe from the left edge towards the right to quickly access the menu list. There you can easily browse categorized notes.</string>
+    <string name="default_note_u3">Tip: Notes can be shared on Twitter. Notes with over 140 characters can be shared as long posts.</string>
+    <string name="default_note_u4">Tip: You can create new notes while accessing other notes.</string>
+    <string name="move_to_selection_dialog_title">Select notebook</string>
+    <string name="add_notebook_dialog_title">Enter notebook name</string>
+    <string name="add_notebook_dialog_done">OK</string>
+    <string name="account_login_content">Notes can be synced with your Letv account. Back up your notes to the cloud to prevent loss. Enable syncing now?</string>
+    <string name="account_login">Log in and enable</string>
+    <string name="account_not_login">Not now</string>
+    <string name="share_note_title">Share</string>
+    <string name="share_actionbar_title">Preview picture</string>
+    <string name="share_from">From</string>
+    <string name="share_source_text">Le Superphone</string>
+    <string name="share_tolarge_bottom_title">Note content length exceeds the limit</string>
+    <string name="share_tolarge_bottom_content">Unable to continue as the length of note content exceeds 5000 characters.</string>
+    <string name="send_widget_toast">Stuck to desktop</string>
+    <string name="cancel_send_widget_toast">The note has been unstuck</string>
+    <string name="remend_send_widget">Stick to desktop</string>
+    <string name="remend_cancel_send_widget">Remove from desktop</string>
+    <string name="widget_no_content">Relevant content does not exist. Tap to create a new one.</string>
+    <string name="remend_alarm">Timed reminder</string>
+    <string name="remend_note_title">remind</string>
+    <string name="alarm_time_up_toast">This time has already passed.</string>
+    <string name="alarm_time_up_bottomsheet_title">Notes reminder</string>
+    <string name="alarm_time_up_bottomsheet_confirm">Open note</string>
+    <string name="alarm_time_up_bottomsheet_cancel">Dismiss</string>
+    <string name="keyguard_alert_snooze_tip">Tap to dismiss</string>
+    <string name="remend_time_title">%s</string>
+    <string name="delete_alarm_label">Delete current reminder</string>
+    <string name="empty_no_alarm_toast">You cannot set a reminder for blank notes</string>
+    <string name="event_detail">Event details</string>
+    <string name="add_picture_title">Add picture</string>
+    <string name="edit_picture_title">Edit picture</string>
+    <string name="image_note">Picture memo</string>
+    <string name="database_upgrade_dialog_title">Sync compatibility issue</string>
+    <string name="database_upgrade_dialog_content">The latest version of Notes now allows you to insert pictures. There may be compatibility issues when syncing with versions older than V5.5.OO7s. If you have multiple Superphones, it is recommended you update all of them to the latest system version before syncing.</string>
+    <string name="database_upgrade_dialog_done">Got it</string>
+    <string name="image_format_not_support">Unsupported image format, unable to add</string>
+    <string name="pattern_detail_today" formatted="false">Reminder set for %H:%M</string>
+    <string name="pattern_detail_today_12" formatted="false">Reminder set for %I:%M %p</string>
+    <string name="pattern_detail_tomorrow" formatted="false">Reminder set for tomorrow at %H:%M</string>
+    <string name="pattern_detail_tomorrow_12" formatted="false">Reminder set for tomorrow at %I:%M %p</string>
+    <string name="pattern_month_day" formatted="false">Reminder set for %-m/%-e</string>
+    <string name="note_tolarge_bottom_title">Unable to add the content</string>
+    <string name="note_tolarge_bottom_content">This operation will make the note exceed maximum length limit</string>
+    <string name="notebook_tolarge_bottom_content">This operation will make the note clip exceed maximum length limit</string>
+    <string name="share_weibo_send">Send</string>
+    <string name="share_weibo_hint">Write something</string>
+    <string name="send_success_toast">Sent</string>
+    <string name="send_fail_toast">Sending Failed</string>
+    <string name="send_weibo_exceed">Length cannot exceed 140 characters</string>
+    <string name="sinaweibo_share_default_text">Share image</string>
+    <string name="share_exceed_140_long_weibo_share">Content exceed 140 words ,share by long weibo</string>
+    <string name="still_text_share">Share as text</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.widget.LcSearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" searchview:lcQueryHint="@string/title_search_tip" searchview:lcQueryTextSize="15.0dip" searchview:lcInputMarginLeft="0.0dip" searchview:lcAlwaysShowCancel="true" searchview:lcCursorColor="@color/main" searchview:lcUnderlineColor="@color/main" style="@*android:style/Widget.LeuiCommon.SearchView.Light"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android" />

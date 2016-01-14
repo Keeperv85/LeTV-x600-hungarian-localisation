@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/note_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <ScrollView android:id="@id/scrollView" android:background="@color/note_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/note_time_layout_height">
+                <TextView android:textSize="@dimen/note_edittext_time" android:textColor="@color/time" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/note_modified_time" android:paddingLeft="@dimen/note_edit_content_padding" android:paddingRight="@dimen/note_edit_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </FrameLayout>
+            <com.letv.android.note.NoteEditText android:textSize="@dimen/note_edittext" android:textColor="@color/note_edittext" android:textColorHighlight="#80f5bf2d" android:gravity="top" android:id="@id/note_edit" android:background="@android:color/transparent" android:paddingLeft="@dimen/note_edit_content_padding" android:paddingTop="@dimen/note_time_layout_height" android:paddingRight="@dimen/note_edit_content_padding" android:paddingBottom="?android:actionBarSize" android:layout_width="fill_parent" android:layout_height="fill_parent" android:includeFontPadding="false" android:lineSpacingMultiplier="1.5" android:leLinkColor="@color/main" android:leUrlHightlightColor="@color/main" android:leEnableSectionSelect="true" android:leCursorColor="@color/main" android:leFixCursorHeightToTextHeight="true" android:leLinkType="phone|email|url" style="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/LoadingView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.letv.leui.widget.LeLoadingView android:id="@id/llv" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/back" android:tag="back" android:background="@color/note_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageButton android:layout_gravity="center|right" android:id="@id/delete" android:background="@color/delete_button_background" android:layout_width="64.0dip" android:layout_height="fill_parent" android:src="@drawable/le_swipe_delete_svg" />
+    <FrameLayout android:gravity="center_vertical" android:id="@id/front" android:tag="front" android:background="@drawable/list_selector_selected" android:paddingLeft="@dimen/notes_list_margin_edge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/alarm_view" android:background="@drawable/note_list_alarm" android:visibility="gone" android:layout_width="@dimen/list_image_view_width" android:layout_height="@dimen/list_image_view_width" android:layout_marginRight="@dimen/list_image_view_margin" />
+            <TextView android:textSize="@dimen/note_item_content_size" android:textColor="@color/note_list_content" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/note_content" android:paddingTop="@dimen/detail_notes_padding_top" android:paddingBottom="@dimen/detail_notes_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="221.0dip" android:singleLine="true" />
+            <ImageView android:id="@id/picture_view" android:background="@drawable/note_list_picture" android:visibility="gone" android:layout_width="@dimen/list_image_view_width" android:layout_height="@dimen/list_image_view_width" android:layout_marginLeft="@dimen/list_image_view_margin" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="30.0dip">
+            <TextView android:textSize="@dimen/note_item_time_size" android:textColor="@color/note_list_time" android:layout_gravity="center_vertical" android:id="@id/note_time" android:paddingRight="@dimen/notes_list_margin_edge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.letv.leui.widget.LeCheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox_delete" android:paddingRight="10.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16.0dip" leui:leBoxOnColor="@color/main" leui:leBoxIsTextOnRight="false" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
