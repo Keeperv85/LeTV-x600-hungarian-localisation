@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="max_input_alert">Legfeljebb 100 karakter áll rendelkezésre</string>
+    <string name="max_digits_alert">A maximum számjegyek száma (10) túllépve</string>
+    <string name="app_name">Számológép</string>
+    <string name="error_nan">Nem egy szám</string>
+    <string name="error_syntax">Hiba</string>
+    <string name="dec_point">.</string>
+    <string name="digit_0">0</string>
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+    <string name="fun_cos">cos</string>
+    <string name="fun_ln">ln</string>
+    <string name="fun_log">log</string>
+    <string name="fun_sin">sin</string>
+    <string name="fun_tan">tan</string>
+    <string name="clr">clr</string>
+    <string name="del">del</string>
+    <string name="desc_const_e">Euler-féle szám</string>
+    <string name="desc_const_pi">pi</string>
+    <string name="desc_dec_point">pont </string>
+    <string name="desc_lparen">nyitó zárójel</string>
+    <string name="desc_rparen">berekesztő zárójel</string>
+    <string name="desc_fun_cos">koszinusz</string>
+    <string name="desc_fun_ln">természetes logaritmus</string>
+    <string name="desc_fun_log">logaritmus</string>
+    <string name="desc_fun_sin">szinusz</string>
+    <string name="desc_fun_tan">tangens</string>
+    <string name="desc_op_add">plusz</string>
+    <string name="desc_op_div">osztás</string>
+    <string name="desc_op_fact">faktoriális</string>
+    <string name="desc_op_mul">szorzás</string>
+    <string name="desc_op_pow">hatvány</string>
+    <string name="desc_op_sqrt">négyzetgyök</string>
+    <string name="desc_op_sub">mínusz</string>
+    <string name="desc_clr">törlés</string>
+    <string name="desc_del">törlés</string>
+    <string name="desc_eq">egyenlő</string>
+</resources>
