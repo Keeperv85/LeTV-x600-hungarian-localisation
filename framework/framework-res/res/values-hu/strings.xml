@@ -1918,4 +1918,6 @@ Be szeretné zárni?"</string>
     <string name="le_choose_wechat_cancel">Mégsem</string>
     <string name="application_info_label">Alkalmazásinformációk</string>
     <string name="headset_plugin_unsupported">A fejhallgatója nem kompatibilis a készülékkel. Kérem próbáljon meg egy másikat!</string>
+    <string name="anti_inadvertently_mode">Zsebre vágva?</string>
+    <string name="anti_inadvertently_mode_warning">A feloldáshoz kérem ne takarja a készülék tetejét!</string>
 </resources>
