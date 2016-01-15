@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_mode_done">Kész</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_search">Keresés</string>
     <string name="abc_searchview_description_query">Search query</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_submit">Submit query</string>
@@ -15,32 +15,32 @@
     <string name="abc_activity_chooser_view_see_all">See all</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="app_name">Notes</string>
-    <string name="title_note_edit">Edit note</string>
-    <string name="title_notebook_edit">Edit notebook</string>
-    <string name="menu_add">Create new</string>
-    <string name="menu_done">Complete</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_search">Search</string>
-    <string name="groupsLabel">Notebook</string>
-    <string name="add_note_books">Create new notebook</string>
-    <string name="all_notebooks_title">All notes</string>
-    <string name="edit">Select</string>
-    <string name="menu_save">Complete</string>
-    <string name="menu_cancel">Cancel</string>
-    <string name="note_list">List</string>
-    <string name="delete_note">Delete current note</string>
-    <string name="delete_notebook">Delete notebook</string>
+    <string name="app_name">Jegyzetek</string>
+    <string name="title_note_edit">Jegyzet szerkesztése</string>
+    <string name="title_notebook_edit">Jegyzettömb szerkesztése</string>
+    <string name="menu_add">Új létrehozása</string>
+    <string name="menu_done">Kész</string>
+    <string name="menu_delete">Törlés</string>
+    <string name="menu_search">Keresés</string>
+    <string name="groupsLabel">Jegyzetfüzet</string>
+    <string name="add_note_books">Új jegyzettömb létrehozása</string>
+    <string name="all_notebooks_title">Összes jegyzet</string>
+    <string name="edit">Kiválasztás</string>
+    <string name="menu_save">Kész</string>
+    <string name="menu_cancel">Mégsem</string>
+    <string name="note_list">Lista</string>
+    <string name="delete_note">Aktuális jegyzet törlése</string>
+    <string name="delete_notebook">Jegyzettömb törlése</string>
     <string name="delete_notebook_title">Deleting note clip \"%s\" will not delete the notes in it</string>
     <string name="toast_remind">System has auto saved due to inactivity.</string>
-    <string name="delete_cancel">Cancel</string>
-    <string name="delete_all_choose">Select all</string>
-    <string name="delete_all_no_choose">Deselect all</string>
-    <string name="delete_title">Tap to select</string>
-    <string name="count_mult_mode">%1$d selected</string>
-    <string name="delete_one_note_label">Delete note</string>
-    <string name="delete_note_label">Delete %1$d notes</string>
-    <string name="title_search_tip">Search notes</string>
+    <string name="delete_cancel">Mégsem</string>
+    <string name="delete_all_choose">Összes kiválasztása</string>
+    <string name="delete_all_no_choose">Kiválasztások törlése</string>
+    <string name="delete_title">Érintse meg a kiválasztáshoz</string>
+    <string name="count_mult_mode">%1$d kiválasztva</string>
+    <string name="delete_one_note_label">Jegyzet törlése</string>
+    <string name="delete_note_label">%1$d jegyzetek törlése</string>
+    <string name="title_search_tip">Jegyzet keresése</string>
     <string name="notebook_exit_toast">This name is already in use</string>
     <string name="share_content">Text exceeds 140 characters by %1$d characters. Please use long post to share to Weibo.</string>
     <string name="share_done">Use long Weibo</string>
@@ -49,7 +49,7 @@
     <string name="share_false_toast">Share fail</string>
     <string name="more_picture_toast">Photo limit reached, unable to add more pictures</string>
     <string name="note_search_listview_empty">No search results</string>
-    <string name="note_listview_empty">No notes</string>
+    <string name="note_listview_empty">Nincs jegyzet</string>
     <string name="drawer_open">drawerOpen</string>
     <string name="drawer_close">drawerClose</string>
     <string name="default_note_u1">Tip: Long press the list to select and delete single or multiple notes. Swipe left on a note to delete it.</string>
@@ -85,29 +85,29 @@
     <string name="keyguard_alert_time_format_24_hours">kkmm</string>
     <string name="keyguard_alert_snooze_tip">Tap to dismiss</string>
     <string name="remend_time_title">%s</string>
-    <string name="delete_alarm_label">Delete current reminder</string>
-    <string name="empty_no_alarm_toast">You cannot set a reminder for blank notes</string>
+    <string name="delete_alarm_label">A emlékeztető törlése</string>
+    <string name="empty_no_alarm_toast">Üres jegyzethet nem tud emlékeztetőt hozzáadni!</string>
     <string name="event_detail">Event details</string>
-    <string name="add_picture_title">Add picture</string>
-    <string name="edit_picture_title">Edit picture</string>
+    <string name="add_picture_title">Kép hozzáadása</string>
+    <string name="edit_picture_title">Kép szerkesztése</string>
     <string name="image_note">Picture memo</string>
     <string name="database_upgrade_dialog_title">Sync compatibility issue</string>
     <string name="database_upgrade_dialog_content">The latest version of Notes now allows you to insert pictures. There may be compatibility issues when syncing with versions older than V5.5.OO7s. If you have multiple Superphones, it is recommended you update all of them to the latest system version before syncing.</string>
     <string name="database_upgrade_dialog_done">Got it</string>
     <string name="image_format_not_support">Unsupported image format, unable to add</string>
-    <string name="pattern_detail_today" formatted="false">Reminder set for %H:%M</string>
-    <string name="pattern_detail_today_12" formatted="false">Reminder set for %I:%M %p</string>
-    <string name="pattern_detail_tomorrow" formatted="false">Reminder set for tomorrow at %H:%M</string>
-    <string name="pattern_detail_tomorrow_12" formatted="false">Reminder set for tomorrow at %I:%M %p</string>
-    <string name="pattern_month_day" formatted="false">Reminder set for %-m/%-e</string>
+    <string name="pattern_detail_today" formatted="false">Emlékeztető: %H:%M</string>
+    <string name="pattern_detail_today_12" formatted="false">Emlékeztető: %I:%M %p</string>
+    <string name="pattern_detail_tomorrow" formatted="false">Emlékeztető: holnap at %H:%M</string>
+    <string name="pattern_detail_tomorrow_12" formatted="false">Emlékeztető: holnap at %I:%M %p</string>
+    <string name="pattern_month_day" formatted="false">Emlékeztető: %-m/%-e</string>
     <string name="note_tolarge_bottom_title">Unable to add the content</string>
     <string name="note_tolarge_bottom_content">This operation will make the note exceed maximum length limit</string>
     <string name="notebook_tolarge_bottom_content">This operation will make the note clip exceed maximum length limit</string>
     <string name="delete_note_makesure_title">This memo is associated with a calendar event. Delete this memo?</string>
     <string name="delete_note_view_calendar_event">View associated events</string>
-    <string name="delete_note_delete_calendar_event">Delete</string>
+    <string name="delete_note_delete_calendar_event">Törlés</string>
     <string name="delete_note_cancel_calendar_event">Keep</string>
-    <string name="share_weibo_send">Send</string>
+    <string name="share_weibo_send">Küldés</string>
     <string name="share_weibo_hint">Write something</string>
     <string name="send_success_toast">Sent</string>
     <string name="send_fail_toast">Sending Failed</string>

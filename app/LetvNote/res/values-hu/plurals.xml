@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alarm_minute">
-        <item quantity="other">Reminder set for %1$d minutes</item>
-        <item quantity="one">Reminder set for 1 minute</item>
+        <item quantity="other">Emlékeztető %1$d perc múlva</item>
+        <item quantity="one">Emlékeztető 1 perc múlva</item>
     </plurals>
 </resources>

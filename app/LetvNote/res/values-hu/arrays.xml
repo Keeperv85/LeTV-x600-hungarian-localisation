@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="popup_window_list">
-        <item>Rename</item>
-        <item>Delete</item>
+        <item>Átnevez</item>
+        <item>Törlés</item>
     </string-array>
     <string-array name="share_bottom_list">
-        <item>Share in text</item>
-        <item>Share in picture</item>
-        <item>Stick to desktop</item>
+        <item>Megosztás szövegként</item>
+        <item>Megosztás képként</item>
+        <item>Rögzítés a kezdőképernyőre</item>
     </string-array>
     <string-array name="add_picture_list">
-        <item>Take photo</item>
-        <item>Add from gallery</item>
+        <item>Fotó készítése</item>
+        <item>Választás a galériából</item>
     </string-array>
     <string-array name="edit_picture_list">
-        <item>Edit picture</item>
-        <item>Delete picture</item>
+        <item>Kép szerkesztése</item>
+        <item>Kép törlése</item>
     </string-array>
 </resources>
