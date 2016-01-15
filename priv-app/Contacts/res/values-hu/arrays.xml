@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="number_opt">
-        <item>New contact</item>
-        <item>Add to contact</item>
-        <item>Delete</item>
-        <item>Sticky call log</item>
-        <item>Add to black list</item>
-        <item>Label</item>
+        <item>Új kapcsolat</item>
+        <item>Hozzáadás a kapcsolathoz</item>
+        <item>Törlés</item>
+        <item>Emlékeztető hívásnapló</item>
+        <item>Hozzáadás a fekete listához</item>
+        <item>Címke</item>
     </string-array>
     <string-array name="markLables">
-        <item>Scammer</item>
-        <item>Agent</item>
+        <item>Szélhámos</item>
+        <item>Ügynök</item>
         <item>Marketing</item>
-        <item>Delivery</item>
+        <item>Beszállító</item>
         <item>Mail</item>
-        <item>Custom</item>
+        <item>Egyéb</item>
     </string-array>
     <string-array name="markLables_for_yellopage">
-        <item>Scammer</item>
-        <item>Agent</item>
+        <item>Szélhámos</item>
+        <item>Ügynök</item>
         <item>Marketing</item>
-        <item>Delivery</item>
-        <item>Express</item>
-        <item>Custom</item>
+        <item>Beszállító</item>
+        <item>Mail</item>
+        <item>Egyéb</item>
     </string-array>
     <string-array name="blackItmes">
-        <item>Block calls and message</item>
-        <item>Block calls</item>
-        <item>Block message</item>
+        <item>Hívások és üzenetek tiltása</item>
+        <item>Hívások tiltása</item>
+        <item>Üzenetek tiltása</item>
     </string-array>
     <string-array name="otherLabels">
         <item>Szervezet</item>
