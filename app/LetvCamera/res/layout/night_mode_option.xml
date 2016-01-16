@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.NightModeOptionLayout android:id="@id/night_mode_option_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/night_mode_layout" android:background="#59000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/night_option" android:background="@drawable/night_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="@drawable/mode_text_color" android:gravity="center" android:id="@id/night_auto" android:background="@drawable/night_background_suboption" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/night_mode_auto" android:layout_alignParentLeft="true" />
+            <TextView android:textColor="@drawable/mode_text_color" android:gravity="center" android:id="@id/night_quarter" android:background="@drawable/night_background_suboption" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/night_mode_quarter" android:layout_toRightOf="@id/night_auto" />
+            <TextView android:textColor="@drawable/mode_text_color" android:gravity="center" android:id="@id/night_half" android:background="@drawable/night_background_suboption" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/night_mode_half" android:layout_toRightOf="@id/night_quarter" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.android.camera.ui.NightModeOptionLayout>

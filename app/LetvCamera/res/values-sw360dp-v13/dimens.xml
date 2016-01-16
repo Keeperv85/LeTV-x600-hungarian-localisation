@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="capture_margin_top">16.0dip</dimen>
+    <dimen name="widget_bottom_height">102.33328dip</dimen>
+    <dimen name="widget_shutter_height">53.666595dip</dimen>
+    <dimen name="widget_shutter_margin_bottom">8.666595dip</dimen>
+    <dimen name="widget_icon_height">38.198883dip</dimen>
+    <dimen name="widget_icon_margin_bottom">19.333282dip</dimen>
+    <dimen name="widget_icon_margin_left">17.63028dip</dimen>
+    <dimen name="widget_mode_text_width">50.2222dip</dimen>
+    <dimen name="widget_mode_height">24.666687dip</dimen>
+    <dimen name="widget_mode_margin_bottom">71.55548dip</dimen>
+    <dimen name="widget_mode_top_margin_top">1.0dip</dimen>
+    <dimen name="widget_mode_panel_margin_top">2.9332886dip</dimen>
+</resources>

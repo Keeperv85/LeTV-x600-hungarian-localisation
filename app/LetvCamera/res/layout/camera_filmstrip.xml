@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/camera_layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blur_image_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/preview_content_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/switch_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <ImageView android:id="@id/blur_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <include layout="@layout/camera" />
+</RelativeLayout>

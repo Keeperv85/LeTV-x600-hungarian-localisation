@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.SubModeLayout android:id="@id/sub_photo_mode_layout" android:background="#00ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sub_mode" android:background="#59000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:id="@id/mode_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hint" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/sub_mode_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mode_hint">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hdr" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.camera.ui.RotateImageView android:gravity="center" android:id="@id/hdr_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hdr_image" />
+                <TextView android:textSize="13.0sp" android:textColor="#a6ffffff" android:gravity="center" android:id="@id/hdr_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_camera_hdrmode_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/night" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.camera.ui.RotateImageView android:gravity="center" android:id="@id/night_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/night_image" />
+                <TextView android:textSize="13.0sp" android:textColor="#a6ffffff" android:gravity="center" android:id="@id/night_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_camera_nightmode_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/square" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.camera.ui.RotateImageView android:gravity="center" android:id="@id/square_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/square_image" />
+                <TextView android:textSize="13.0sp" android:textColor="#a6ffffff" android:gravity="center" android:id="@id/square_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_camera_square_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/beauty" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.camera.ui.RotateImageView android:gravity="center" android:id="@id/beauty_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_image" />
+                <TextView android:textSize="13.0sp" android:textColor="#a6ffffff" android:gravity="center" android:id="@id/beauty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_camera_beauty_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/scn" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.camera.ui.RotateImageView android:gravity="center" android:id="@id/scn_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scene_image" />
+                <TextView android:textSize="13.0sp" android:textColor="#a6ffffff" android:gravity="center" android:id="@id/scn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_camera_scene_title" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>>
+</com.android.camera.ui.SubModeLayout>

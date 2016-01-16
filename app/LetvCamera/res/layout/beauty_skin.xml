@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.BeautyItemView android:id="@id/beauty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.2" />
+    <FrameLayout android:id="@id/beauty_item_container" android:background="@drawable/beauty_item_view_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/none_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/none_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_point" />
+                <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/none_level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/none_level_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_level_none" />
+                </com.android.camera.ui.RotateLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/first_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/first_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_point" />
+                <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/first_level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/first_level_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_level_first" />
+                </com.android.camera.ui.RotateLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/second_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/second_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_point" />
+                <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/second_level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/second_level_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_level_second" />
+                </com.android.camera.ui.RotateLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/third_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/third_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_point" />
+                <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/third_level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/third_level_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_level_third" />
+                </com.android.camera.ui.RotateLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/forth_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/forth_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_point" />
+                <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/forth_level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/forth_level_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_level_forth" />
+                </com.android.camera.ui.RotateLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fifth_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/fifth_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_point" />
+                <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/fifth_level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/fifth_level_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_level_fifth" />
+                </com.android.camera.ui.RotateLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/level_selected_container" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/beauty_level_selected_bg" />
+            <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/level_txt_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/beauty_level_size" android:textColor="@color/beauty_level_txt_color" android:gravity="center" android:layout_gravity="center" android:id="@id/level_txt" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </com.android.camera.ui.RotateLayout>
+        </FrameLayout>
+    </FrameLayout>
+</com.android.camera.ui.BeautyItemView>

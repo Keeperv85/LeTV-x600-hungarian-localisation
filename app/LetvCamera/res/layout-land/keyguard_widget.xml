@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/camera_controls" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="@dimen/widget_bottom_height" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_icon_height" android:layout_height="@dimen/widget_icon_height" android:layout_marginLeft="@dimen/widget_icon_margin_left" android:layout_marginBottom="@dimen/widget_icon_margin_bottom" android:src="@drawable/thumb_frame" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="@string/switch_photo_filmstrip" />
+        <RelativeLayout android:background="@drawable/letv_shutter_button_background" android:layout_width="@dimen/widget_shutter_height" android:layout_height="@dimen/widget_shutter_height" android:layout_marginBottom="@dimen/widget_shutter_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:focusable="true" android:layout_width="@dimen/widget_shutter_height" android:layout_height="@dimen/widget_shutter_height" android:src="@drawable/letv_shutter_button" android:scaleType="fitXY" android:contentDescription="@string/accessibility_shutter_button" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center|right|top" android:layout_width="@dimen/widget_icon_height" android:layout_height="@dimen/widget_icon_height" android:layout_marginRight="@dimen/widget_icon_margin_left" android:layout_marginBottom="@dimen/widget_icon_margin_bottom" android:src="@drawable/camera_filter" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/switch_photo_filmstrip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_glass_control_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_mode_margin_bottom" android:layout_alignParentBottom="true">
+        <ImageView android:gravity="center" android:id="@id/mode_top" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_mode_top_margin_top" android:src="@drawable/ic_page_number" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/mode_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_mode_panel_margin_top" android:layout_below="@id/mode_top">
+            <TextView android:textColor="@color/mode_text_color" android:id="@id/mode_photo" android:text="@string/mode_panel_item_photo" android:layout_centerInParent="true" style="@style/ModeTextViewWidget" />
+            <TextView android:id="@id/mode_video" android:text="@string/mode_panel_item_video" android:layout_toLeftOf="@id/mode_photo" style="@style/ModeTextViewWidget" />
+            <TextView android:id="@id/mode_slow_motion" android:text="@string/mode_panel_item_slow_video" android:layout_toLeftOf="@id/mode_video" style="@style/ModeTextViewWidget" />
+            <TextView android:id="@id/mode_pano" android:text="@string/mode_panel_item_panorama" android:layout_toRightOf="@id/mode_photo" style="@style/ModeTextViewWidget" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

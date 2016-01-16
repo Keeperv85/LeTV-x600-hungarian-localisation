@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.CameraControlContainer android:id="@id/camera_controls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/shutter_button_background" android:background="@drawable/letv_shutter_button_background" android:layout_width="@dimen/shutter_btn_height" android:layout_height="@dimen/shutter_btn_height" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+        <com.android.camera.ShutterButton android:layout_gravity="bottom|center" android:id="@id/shutter_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/shutter_btn_height" android:layout_height="@dimen/shutter_btn_height" android:src="@drawable/letv_shutter_button" android:scaleType="fitXY" android:contentDescription="@string/accessibility_shutter_button" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/preview_thumb" android:visibility="invisible" android:layout_width="@dimen/capture_size" android:layout_height="@dimen/capture_size" android:scaleType="centerInside" android:contentDescription="@string/switch_photo_filmstrip" />
+</com.android.camera.ui.CameraControlContainer>

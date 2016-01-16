@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_alter_border" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/holo_blue_bright" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/tmplimited_hint" />
+    <View android:background="@color/sleep_alert_dialog_stroke_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
+    <Button android:textSize="16.0sp" android:textColor="@color/sleep_alert_dialog_btn_text_color" android:gravity="center" android:id="@id/dialog_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tmplimited_dialog_btn_text" />
+</LinearLayout>

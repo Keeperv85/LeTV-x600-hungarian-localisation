@@ -1,0 +1,21 @@
+version: 2.0.2
+apkFileName: LetvCamera.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '17'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '20002100'
+  versionName: 2.0.002 (21-00)
+sharedLibrary: false
+unknownFiles:
+  R.java.d: '8'
+doNotCompress:
+- resources.arsc
+- assets/wakeup.cfg
+- res/raw/burst_shutter.WAV

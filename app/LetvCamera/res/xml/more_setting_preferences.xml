@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_parent_title" android:key="camera_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_general_settings" android:key="general_setting">
+        <ListPreference android:entries="@array/pref_camera_picturesize_entries" android:title="@string/pref_title_resolution_quality" android:key="pref_camera_picturesize_key" android:entryValues="@array/pref_camera_picturesize_entryvalues" />
+        <SwitchPreference android:title="@string/pref_title_record_location" android:key="pref_camera_recordlocation_key" />
+        <ListPreference android:entries="@array/pref_camera_iso_entries" android:title="@string/pref_title_iso" android:key="pref_camera_iso_key" android:entryValues="@array/pref_camera_iso_entryvalues" />
+        <ListPreference android:entries="@array/pref_camera_whitebalance_entries" android:title="@string/pref_title_whitebalance" android:key="pref_camera_whitebalance_key" android:entryValues="@array/pref_camera_whitebalance_entryvalues" />
+        <ListPreference android:entries="@array/pref_camera_scenemode_entries" android:title="@string/pref_title_scenemode" android:key="pref_camera_scenemode_key" android:entryValues="@array/pref_camera_scenemode_entryvalues" />
+    </PreferenceCategory>
+</PreferenceScreen>

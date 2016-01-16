@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.RotateLayout android:id="@id/meter_hint_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/meter_hint_container" android:background="@drawable/quit_scene_mode_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/meter_hint_txt_margin" android:layout_marginRight="@dimen/meter_hint_txt_margin" android:text="@string/focus_meter_divider_hint" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.android.camera.ui.RotateLayout>

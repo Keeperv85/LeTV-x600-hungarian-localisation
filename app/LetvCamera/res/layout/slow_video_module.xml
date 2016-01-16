@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_border" android:background="@drawable/ic_snapshot_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.RenderOverlay android:id="@id/render_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.RotateLayout android:layout_gravity="right" android:id="@id/recording_time_rect" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include android:id="@id/labels" layout="@layout/viewfinder_labels_video" />
+    </com.android.camera.ui.RotateLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.SubSettingSeekBarPrefPopup android:id="@id/seek" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/setting_layout" android:background="@drawable/grid_item_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/seekbar_icon_title" android:layout_width="@dimen/seekbar_icon_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/seekbar_icon_margin_left" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/seekbar_title_size" android:id="@id/setting_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/seekbar_title_margin_left" android:layout_toRightOf="@id/seekbar_icon_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.android.camera.ui.NumberSeekBar android:id="@id/setting_level_seek_bar" android:layout_marginLeft="@dimen/seekbar_progress_margin_left" android:layout_marginRight="@dimen/seekbar_progress_margin_right" android:layout_toRightOf="@id/setting_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/NumberProgressBar_Default" />
+    </RelativeLayout>
+</com.android.camera.ui.SubSettingSeekBarPrefPopup>

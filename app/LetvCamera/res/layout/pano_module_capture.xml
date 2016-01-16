@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/panorama_capture_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pano_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/pano_preview_bg_container" android:background="@drawable/middle_preview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/pano_preview_bg" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@color/control_background" android:alpha="0.5" />
+        </FrameLayout>
+        <ImageView android:id="@id/pano_left" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/pano_right" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <com.android.camera.ui.SmallPanoPreView android:id="@id/pano_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/pano_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_centerHorizontal="true" />
+</RelativeLayout>

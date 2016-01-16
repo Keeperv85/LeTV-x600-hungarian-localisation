@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_top" android:layout_width="fill_parent" android:layout_height="@dimen/control_top_height" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateImageView android:id="@id/camera_setting_btn" android:layout_width="@dimen/camera_control_icon_size" android:layout_height="@dimen/camera_control_icon_size" android:layout_marginLeft="@dimen/control_top_margin_left_right" android:layout_marginTop="@dimen/control_top_margin_top" android:src="@drawable/camera_setting_btn" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.android.camera.ui.RotateImageView android:id="@id/camera_flash_btn" android:layout_width="@dimen/camera_control_icon_size" android:layout_height="@dimen/camera_control_icon_size" android:layout_marginTop="@dimen/control_top_margin_top" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.android.camera.ui.RotateImageView android:id="@id/camera_switch_btn" android:layout_width="@dimen/camera_control_icon_size" android:layout_height="@dimen/camera_control_icon_size" android:layout_marginTop="@dimen/control_top_margin_top" android:layout_marginRight="@dimen/control_top_margin_left_right" android:src="@drawable/camera_switch_btn" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

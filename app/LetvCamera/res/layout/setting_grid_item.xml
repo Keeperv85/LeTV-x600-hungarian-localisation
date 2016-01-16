@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/setting_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/setting_item_icon" android:layout_width="@dimen/setting_gird_item_icon_width" android:layout_height="@dimen/setting_gird_item_icon_height" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <TextView android:textSize="@dimen/seekbar_title_size" android:textColor="@color/white" android:gravity="center" android:id="@id/setting_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <TextView android:textSize="@dimen/setting_grid_text_size" android:textColor="@color/mode_text_color" android:gravity="center" android:id="@id/setting_item_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

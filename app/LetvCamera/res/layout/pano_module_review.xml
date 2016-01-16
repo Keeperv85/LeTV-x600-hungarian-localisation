@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pano_review_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/pano_review_rendering" android:layout_weight="1.0" style="@style/PanoViewHorizontalBar" />
+    <ImageView android:id="@id/pano_reviewarea" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="@integer/SRI_pano_layout_weight" />
+    <FrameLayout android:id="@id/pano_review_control" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/PanoViewHorizontalBar">
+        <include layout="@layout/pano_review_control" />
+    </FrameLayout>
+</LinearLayout>

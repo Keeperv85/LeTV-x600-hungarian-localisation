@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.CameraRootView android:id="@id/camera_app_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/square" />
+    <FrameLayout android:id="@id/mount_point" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.CameraControlView android:id="@id/camera_controls" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/control_top_layout" />
+        <include android:id="@id/control_bottom" layout="@layout/control_bottom_layout" />
+        <include layout="@layout/mode_switcher" />
+    </com.android.camera.ui.CameraControlView>
+    <ImageView android:id="@id/touch_cover" android:background="#00ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.camera.ui.CameraRootView>

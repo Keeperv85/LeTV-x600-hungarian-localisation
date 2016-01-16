@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_controls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateImageView android:id="@id/capture" android:visibility="gone" android:layout_width="@dimen/camera_control_icon_size" android:layout_height="@dimen/camera_control_icon_size" android:src="@drawable/uec_video_screen_capture" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <com.android.camera.PauseButton android:id="@id/pause" android:visibility="gone" android:layout_width="@dimen/camera_control_icon_size" android:layout_height="@dimen/camera_control_icon_size" android:src="@drawable/btn_pause_recording" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

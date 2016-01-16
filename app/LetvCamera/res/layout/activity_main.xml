@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/preview_content_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/switch_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <com.letv.litecamera.focus.ui.RenderOverlay android:id="@id/render_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.letv.litecamera.coverui.MutexImageView android:id="@id/flash_button" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/letv_camera_flash_auto" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.letv.litecamera.coverui.MutexImageView android:id="@id/switch_button" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/camera_switch_btn" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.letv.litecamera.coverui.MutexImageView android:id="@id/shutter_button" android:background="@drawable/shutter_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.letv.litecamera.coverui.MutexImageView android:id="@id/switch_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.letv.litecamera.coverui.MutexImageView android:id="@id/show_cover" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_alignParentTop="true" />
+    <include layout="@layout/bottom_review_layout" />
+    <com.letv.litecamera.coverui.CoverImageView android:id="@id/touch_cover" android:background="#00ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

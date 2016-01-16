@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ModeSwitchLayout android:id="@id/mode_switch" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_glass_control_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@id/mode_top" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hint" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/mode_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mode_top">
+            <com.android.camera.ui.SwitchModeTextView android:id="@id/mode_photo" android:text="@string/mode_panel_item_photo" android:layout_centerInParent="true" style="@style/ModeTextView" />
+            <TextView android:id="@id/mode_video" android:text="@string/mode_panel_item_video" android:layout_toLeftOf="@id/mode_photo" style="@style/ModeTextView" />
+            <TextView android:id="@id/mode_slow_motion" android:text="@string/mode_panel_item_slow_video" android:layout_toLeftOf="@id/mode_video" style="@style/ModeTextView" />
+            <TextView android:id="@id/mode_pano" android:text="@string/mode_panel_item_panorama" android:layout_toRightOf="@id/mode_photo" style="@style/ModeTextView" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.android.camera.ui.ModeSwitchLayout>

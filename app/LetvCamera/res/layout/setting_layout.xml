@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/all_setting_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/setting_grid_pref_popup" />
+    <include layout="@layout/sub_setting_seekbar_pref_popup" />
+    <include layout="@layout/sub_setting_grid_pref_popup" />
+</RelativeLayout>

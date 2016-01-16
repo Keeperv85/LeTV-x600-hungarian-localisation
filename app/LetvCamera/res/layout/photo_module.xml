@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/photo_module" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateLayout android:id="@id/count_down_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/count_down_to_capture" />
+    </com.android.camera.ui.RotateLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.ui.FaceView android:id="@id/face_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/review_image" android:background="@android:color/black" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <com.android.camera.ui.RenderOverlay android:id="@id/render_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

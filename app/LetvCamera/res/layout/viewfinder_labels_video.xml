@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:gravity="center" android:layout_gravity="right" android:id="@id/recording_time" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="3.0dip" android:drawableLeft="@drawable/letv_video_recording_indicator" android:drawablePadding="5.0dip" android:alpha="0.0" style="@style/OnViewfinderLabel" />
+    <TextView android:id="@id/time_lapse_label" android:text="@string/time_lapse_title" android:alpha="0.0" style="@style/OnViewfinderLabel" />
+    <TextView android:textSize="17.0sp" android:layout_gravity="right" android:id="@id/recording_size" android:layout_marginTop="3.0dip" android:layout_marginBottom="6.0dip" android:alpha="0.0" style="@style/OnViewfinderLabel" />
+</LinearLayout>

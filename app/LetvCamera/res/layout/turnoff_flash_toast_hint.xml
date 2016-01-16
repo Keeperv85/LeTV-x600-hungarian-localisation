@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.RotateLayout android:id="@id/turnoff_flash_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/turnoff_flash_hint_container" android:background="@drawable/quit_scene_mode_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/hint_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textSize="14.0sp" android:id="@id/keep_on_btn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keep_on" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.android.camera.ui.RotateLayout>

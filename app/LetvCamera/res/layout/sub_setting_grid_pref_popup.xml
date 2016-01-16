@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.SubSettingGridPrefPopup android:id="@id/sub_setting" android:visibility="gone" style="@style/SettingPopupWindow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/grid_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera.ui.SettingGridView android:gravity="center" android:id="@id/subSettingGrid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchMode="columnWidth" android:numColumns="2" />
+    </LinearLayout>
+</com.android.camera.ui.SubSettingGridPrefPopup>

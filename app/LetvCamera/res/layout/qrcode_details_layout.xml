@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/qrcode_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/qrcode_details_title" android:background="#ff253541" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_btn_shutter_retake" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="center" android:id="@id/qrcode_type" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/scan_info" />
+    </RelativeLayout>
+    <TextView android:id="@id/qrcode_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip" android:layout_above="@id/qrcode_action" android:layout_below="@id/qrcode_details_title" />
+    <TextView android:gravity="center" android:id="@id/qrcode_action" android:background="#ff253541" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/copy" android:layout_alignParentBottom="true" />
+</RelativeLayout>

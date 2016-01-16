@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.RotateLayout android:id="@id/camera_alert_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/alert_dialog_area" android:background="@drawable/alert_dialog_background" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/alert_dialog_titlePanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="start|center" android:id="@id/alert_dialog_icon" android:paddingLeft="@dimen/camera_alert_dialog_padding_left" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                <TextView android:textSize="20.0sp" android:textColor="@android:color/background_dark" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/alert_dialog_title" android:paddingLeft="@dimen/camera_alert_dialog_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/alert_dialog_contentPanel" android:layout_width="320.0dip" android:layout_height="wrap_content" android:minHeight="60.0dip">
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/alert_dialog_progress" android:padding="@dimen/camera_alert_dialog_padding_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/alert_dialog_progress" />
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="start|center" android:layout_gravity="center" android:id="@id/alert_dialog_message" android:paddingLeft="@dimen/camera_alert_dialog_padding_left" android:paddingRight="@dimen/camera_alert_dialog_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" />
+            </LinearLayout>
+            <TextView android:id="@id/dialog_divider" android:background="@color/camera_alert_dialog_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/camera_alert_dialog_divider" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/alert_button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                <TextView android:id="@id/alert_dialog_button_negative" style="@style/CameraAlertDialogButton" />
+                <TextView android:background="@color/camera_alert_dialog_divider_color" android:layout_width="@dimen/camera_alert_dialog_divider" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alert_dialog_button_neutral" style="@style/CameraAlertDialogButton" />
+                <TextView android:id="@id/neutral_button_divider" android:background="@color/camera_alert_dialog_divider_color" android:layout_width="@dimen/camera_alert_dialog_divider" android:layout_height="fill_parent" />
+                <TextView android:id="@id/alert_dialog_button_positive" style="@style/CameraAlertDialogButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.camera.ui.RotateLayout>
