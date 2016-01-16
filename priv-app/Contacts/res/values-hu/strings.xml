@@ -213,7 +213,7 @@ Nincs kész: %d"</string>
     <string name="file_already_on_sd_card">A fájl már az SD-kártyán van.</string>
     <string name="send_file_sms_error">A fájl nem osztható meg SMS-ben. Használjon MMS-t.</string>
     <string name="user_profile_cannot_sd_card">A tartalom nem osztható meg ezzel a módszerrel.</string>
-    <string name="error_save_usim_anr_save_failure">USIM card memory is full. Unable to store additional number.</string>
+    <string name="error_save_usim_anr_save_failure">A SIM memóriája megtelt. Nem tud több számot hozzáadni.</string>
     <string name="error_save_usim_contact_email_lost">Az e-mail cím mentése nem sikerült, mert az USIM e-mail tárolója megtelt.</string>
     <string name="error_import_usim_contact_email_lost" formatted="false">"A hibát oka, hogy az USIM tárolója megtelt e-maillel
 Kész: %d
@@ -647,8 +647,8 @@ Ok: „%s”"</string>
     <string name="description_clear_search">Keresés törlése</string>
     <string name="search_font_family">sans-serif</string>
     <string name="settings_contact_display_options_title">Névjegy megjelenítési lehetőségei</string>
-    <string name="savegroup">Saving</string>
-    <string name="account_type_lable">%s Contacts</string>
+    <string name="savegroup">Mentés</string>
+    <string name="account_type_lable">%s kapcoslat</string>
     <string name="listTotalPhoneContactsZero">Nincsenek telefonszámot is tartalmazó névjegyek</string>
     <string name="readOnlyContactWarning">Írásvédett fiókból nem törölhet névjegyet, de saját címtárában elrejtheti azokat.</string>
     <string name="readOnlyContactDeleteConfirmation">Ez a névjegy több fiókból is tartalmaz adatokat. Az írásvédett fiókokból származó adatok nem jelennek meg a Címtárban, de nem kerülnek törlésre.</string>
@@ -667,7 +667,7 @@ Ok: „%s”"</string>
     <string name="outting_not_turned">Sikertelen</string>
     <string name="missed_calls">Nem fogadott</string>
     <string name="incoming_call">Kimenő</string>
-    <string name="outting_call">Bejövö</string>
+    <string name="outting_call">Bejövő</string>
     <string name="input_nothing_toast">A mező nem lehet üres</string>
     <string name="contacts_unavailable_create_contact">Új névjegy létrehozása</string>
     <string name="contacts_unavailable_add_account">Jelentkezzen be fiókjába</string>
