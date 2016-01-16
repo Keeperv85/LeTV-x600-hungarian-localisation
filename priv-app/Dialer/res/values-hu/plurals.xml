@@ -9,35 +9,35 @@
         <item quantity="one">1 találat</item>
     </plurals>
     <plurals name="listTotalAllContacts">
-        <item quantity="other">%d contacts</item>
-        <item quantity="one">1 contact</item>
+        <item quantity="other">%d kapcsolat</item>
+        <item quantity="one">1 kapcsolat</item>
     </plurals>
     <plurals name="rington_count">
         <item quantity="other">Ring %s times</item>
         <item quantity="one">Ring 1 time</item>
     </plurals>
     <plurals name="contactsDeleteTip">
-        <item quantity="other">Are you sure to delete %s contacts</item>
-        <item quantity="one">Are you sure to delete 1 contact</item>
+        <item quantity="other">Biztosan töröl %s kapcsolatot?</item>
+        <item quantity="one">Biztosan törli a kapcsolatot?</item>
     </plurals>
     <plurals name="addContactsForGroupTip">
         <item quantity="other">Are you sure to move %s contacts to this group</item>
         <item quantity="one">Are you sure to move 1 contact to this group</item>
     </plurals>
     <plurals name="selectedContact">
-        <item quantity="other">%d contacts selected</item>
-        <item quantity="one">1 contact selected</item>
+        <item quantity="other">%d kapcsolat kiválasztva</item>
+        <item quantity="one">1 kapcsolat kiválasztva</item>
     </plurals>
     <plurals name="import_from_vcard_success">
-        <item quantity="other">Contacts imported success</item>
-        <item quantity="one">Contact imported success</item>
+        <item quantity="other">A kapcsolatok importálása sikeres</item>
+        <item quantity="one">A kapcsolat importálása sikeres</item>
     </plurals>
     <plurals name="notification_voicemail_title">
         <item quantity="other">%1$d hangüzenet</item>
         <item quantity="one">Hangposta</item>
     </plurals>
     <plurals name="count_mult_mode">
-        <item quantity="other">%d contacts selected</item>
-        <item quantity="one">1 contact selected</item>
+        <item quantity="other">%d kapcsolat kiválasztva</item>
+        <item quantity="one">1 kapcsolat kiválasztva</item>
     </plurals>
 </resources>
