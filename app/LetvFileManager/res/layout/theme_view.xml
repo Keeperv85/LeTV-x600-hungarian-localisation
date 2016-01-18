@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.android.filemanager.ui.preferences.ThemeView android:layout_width="1.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/primary_text_appearance" android:ellipsize="end" android:gravity="center" android:id="@id/theme_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="@style/primary_text_appearance_nohighlight" android:ellipsize="end" android:gravity="center" android:id="@id/theme_author" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/theme_name" />
+    <TextView android:textAppearance="@style/secondary_text_appearance" android:ellipsize="end" android:gravity="center" android:id="@id/theme_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:layout_alignParentBottom="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/theme_preview" android:padding="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_above="@id/theme_desc" android:layout_below="@id/theme_author" android:contentDescription="@null" />
+</com.letv.android.filemanager.ui.preferences.ThemeView>

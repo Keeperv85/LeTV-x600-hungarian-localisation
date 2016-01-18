@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tb_configuration" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/default_inverse_buttom_width" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+        <com.letv.android.filemanager.ui.widgets.ButtonItem android:id="@id/ab_sort_mode" android:layout_width="@dimen/default_buttom_width" android:layout_height="fill_parent" android:src="@drawable/ic_holo_light_sort_alphabetically" android:onClick="onActionBarItemClick" android:contentDescription="@string/actionbar_button_sort_mode_cd" />
+        <com.letv.android.filemanager.ui.widgets.ButtonItem android:id="@id/ab_layout_mode" android:layout_width="@dimen/default_buttom_width" android:layout_height="fill_parent" android:src="@drawable/ic_holo_light_layout" android:onClick="onActionBarItemClick" android:contentDescription="@string/actionbar_button_layout_mode_cd" />
+        <com.letv.android.filemanager.ui.widgets.ButtonItem android:id="@id/ab_view_options" android:layout_width="@dimen/default_buttom_width" android:layout_height="fill_parent" android:src="@drawable/ic_holo_light_view" android:onClick="onActionBarItemClick" android:contentDescription="@string/actionbar_button_other_view_options_cd" />
+    </LinearLayout>
+    <com.letv.android.filemanager.ui.widgets.ButtonItem android:id="@id/ab_close" android:layout_width="@dimen/default_buttom_width" android:layout_height="fill_parent" android:src="@drawable/ic_holo_light_expander_close" android:layout_alignParentRight="true" android:onClick="onActionBarItemClick" android:contentDescription="@null" />
+</RelativeLayout>

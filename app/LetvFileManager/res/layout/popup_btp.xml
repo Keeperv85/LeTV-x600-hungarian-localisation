@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/default_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/search_back_to_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginTop="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin" android:layout_marginBottom="@dimen/extra_large_margin" android:text="@string/search_btp" />
+</LinearLayout>

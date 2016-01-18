@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d vouergidse</item>
+        <item quantity="one">1 vouergids</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d lêers</item>
+        <item quantity="one">1 lêer</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d items gevind</item>
+        <item quantity="one">1 item gevind</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d vouergids geselekteer.</item>
+        <item quantity="one">1 vouergids geselekteer.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d lêers geselekteer.</item>
+        <item quantity="one">1 lêer geselekteer.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d klasör</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d dosya</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%1$d dosya bulundu</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d klasör seçildi.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d dosya seçildi.</item>
+    </plurals>
+</resources>

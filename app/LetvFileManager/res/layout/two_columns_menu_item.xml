@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/primary_text_appearance_nohighlight" android:gravity="center|left" android:id="@id/two_columns_menu1_item_text" android:background="@drawable/holo_selector" android:paddingLeft="@dimen/extra_large_margin" android:paddingTop="@dimen/default_margin" android:paddingRight="@dimen/extra_large_margin" android:paddingBottom="@dimen/default_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+    <include layout="@layout/horizontal_divider" />
+    <TextView android:textAppearance="@style/primary_text_appearance_nohighlight" android:gravity="center|left" android:id="@id/two_columns_menu2_item_text" android:background="@drawable/holo_selector" android:paddingLeft="@dimen/extra_large_margin" android:paddingTop="@dimen/default_margin" android:paddingRight="@dimen/extra_large_margin" android:paddingBottom="@dimen/default_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

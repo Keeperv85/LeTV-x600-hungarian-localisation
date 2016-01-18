@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:id="@id/unfile_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unkonw_file" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/nufile_txt_btn" android:padding="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:text="@string/open_by_txt" />
+            </LinearLayout>
+            <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+            <LinearLayout android:orientation="vertical" android:id="@id/nufile_audio_btn" android:padding="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:text="@string/open_by_audio" />
+            </LinearLayout>
+            <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+            <LinearLayout android:orientation="vertical" android:id="@id/nufile_vedio_btn" android:padding="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:text="@string/open_by_vedio" />
+            </LinearLayout>
+            <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+            <LinearLayout android:orientation="vertical" android:id="@id/nufile_img_btn" android:padding="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:text="@string/open_by_img" />
+            </LinearLayout>
+            <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+            <Button android:id="@id/unfile_concel_btn" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/concel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.widget.LeBlankPage leui:icon="@drawable/empty_file_icon" android:id="@id/le_empty_page" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:message="@string/file_empty_msg"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android" />

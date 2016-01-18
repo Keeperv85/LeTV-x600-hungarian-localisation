@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d folderów</item>
+        <item quantity="one">%1$d folder</item>
+        <item quantity="few">%1$d foldery</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d plików</item>
+        <item quantity="one">%1$d plik</item>
+        <item quantity="few">%1$d pliki</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d pozycji znaleziono</item>
+        <item quantity="one">%1$d pozycja znaleziona</item>
+        <item quantity="few">%1$d pozycje znaleziono</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d zaznaczonych folderów.</item>
+        <item quantity="one">%1$d zaznaczony folder.</item>
+        <item quantity="few">%1$d zaznaczone foldery.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d zaznaczonych plików.</item>
+        <item quantity="one">%1$d zaznaczony plik.</item>
+        <item quantity="few">%1$d zaznaczone pliki.</item>
+    </plurals>
+</resources>

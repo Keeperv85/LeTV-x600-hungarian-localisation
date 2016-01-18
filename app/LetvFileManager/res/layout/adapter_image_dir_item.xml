@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/holo_list_selector_deselected" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/le_dimen_size_8" android:paddingRight="@dimen/le_dimen_size_8" android:paddingBottom="@dimen/le_dimen_size_24" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/the_first_line" android:background="@color/le_image_view_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+        <TextView android:id="@id/the_second_line" android:background="@color/le_image_view_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="6.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+            <FrameLayout android:id="@id/navigation_view_item_fl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.letv.android.filemanager.ui.widgets.FixedSizeImageView android:id="@id/navigation_view_item_icon" android:background="@color/le_category_pressed_color" android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@null" android:scaleType="centerCrop" android:contentDescription="@null" />
+                <ImageView android:background="@drawable/le_img_boder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <ImageView android:id="@id/navigation_view_icon_mc" android:background="@drawable/navigation_imagedir_time_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignBottom="@id/navigation_view_item_fl" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/le_text_size_10" android:textColor="#e6ffffff" android:id="@id/navigation_view_item_mdf_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_dimen_size_4" android:layout_marginBottom="@dimen/le_dimen_size_4" android:text="@string/app_name" android:layout_alignBottom="@id/navigation_view_item_fl" android:layout_alignParentLeft="true" />
+            <com.letv.leui.widget.LeCheckBox android:id="@id/navigation_view_item_check" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_dimen_size_4" android:layout_marginRight="@dimen/le_dimen_size_4" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" leui:leBoxOnColor="@color/le_filemanager_color" leui:leBoxIsTextOnRight="false" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_dimen_size_10" android:layout_below="@id/navigation_view_item_fl">
+                <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_item_name_color" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/navigation_view_item_name" android:layout_width="0.0dip" android:layout_height="@dimen/le_dimen_size_24" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/le_text_size_12" android:textColor="#ff747474" android:gravity="center|right" android:id="@id/navigation_view_item_size" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/navigation_view_item_select_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/image_selected_bg" android:scaleType="centerCrop" android:contentDescription="@null" />
+</FrameLayout>

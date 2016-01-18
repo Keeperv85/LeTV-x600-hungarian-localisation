@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:padding="@dimen/extra_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@android:id/widget_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:enabled="false" android:id="@id/theme_button" android:layout_width="wrap_content" android:layout_height="@dimen/default_row_height" android:layout_marginTop="@dimen/default_margin" android:text="@string/pref_themes_set_theme" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.letv.android.filemanager.ui.preferences.ThemeRoulette android:id="@id/theme_roulette" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/theme_button" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/theme_waiting" android:visibility="gone" android:layout_width="@dimen/default_row_height" android:layout_height="@dimen/default_row_height" android:indeterminate="true" android:indeterminateOnly="true" android:layout_above="@id/theme_button" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+</RelativeLayout>

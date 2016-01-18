@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:filemanager="http://schemas.android.com/apk/res/com.letv.android.filemanager">
+    <com.letv.android.filemanager.ui.widgets.BreadcrumbView android:id="@id/breadcrumb_view" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin" />
+    <include layout="@layout/vertical_divider" />
+    <com.letv.android.filemanager.ui.widgets.NavigationView android:id="@id/navigation_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/extra_margin" android:layout_marginRight="@dimen/extra_margin" android:layout_weight="1.0" filemanager:navigation="pickable" />
+</LinearLayout>

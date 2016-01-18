@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/pref_syntax_sh_use_theme_default" android:key="cm_filemanager_editor_sh_use_theme_default" android:summary="@string/pref_syntax_sh_use_theme_default_desc" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/pref_editor_sh_item_category" android:key="editor_sh_items_category">
+        <Preference android:persistent="false" android:key="ash_reset_color_scheme" android:summary="@string/ash_reset_color_scheme" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_text" android:key="ash_text" android:defaultValue="@color/ash_text_color" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_assignment" android:key="ash_assignment" android:defaultValue="@color/ash_assignment_color" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_singleline_comment" android:key="ash_singleline_comment" android:defaultValue="@color/ash_singleline_comment_color" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_multiline_comment" android:key="ash_multiline_comment" android:defaultValue="@color/ash_multiline_comment_color" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_keyword" android:key="ash_keyword" android:defaultValue="@color/ash_keyword_color" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_quoted_string" android:key="ash_quoted_string" android:defaultValue="@color/ash_quoted_string_color" />
+        <com.letv.android.filemanager.ui.preferences.ColorPickerPreference android:persistent="false" android:title="@string/ash_variable" android:key="ash_variable" android:defaultValue="@color/ash_variable_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

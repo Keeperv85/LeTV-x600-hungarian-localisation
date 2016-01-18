@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/holo_list_selector_deselected" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/history_item_icon" android:padding="8.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="2.0dip" android:src="@null" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/primary_text_appearance" android:ellipsize="end" android:id="@id/history_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/secondary_text_appearance" android:ellipsize="middle" android:id="@id/history_item_directory" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/primary_text_appearance" android:textStyle="normal" android:layout_gravity="center_vertical" android:id="@id/history_item_position" android:paddingRight="@dimen/extra_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_margin" android:singleLine="true" />
+</LinearLayout>

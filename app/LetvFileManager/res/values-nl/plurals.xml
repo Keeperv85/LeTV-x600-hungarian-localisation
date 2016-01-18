@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d mappen</item>
+        <item quantity="one">1 map</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d bestanden</item>
+        <item quantity="one">1 bestand</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d items gevonden</item>
+        <item quantity="one">1 item gevonden</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d mappen geselecteerd.</item>
+        <item quantity="one">1 map geselecteerd.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d bestanden geselecteerd.</item>
+        <item quantity="one">1 bestand geselecteerd.</item>
+    </plurals>
+</resources>

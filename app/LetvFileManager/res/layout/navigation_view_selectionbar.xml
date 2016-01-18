@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.android.filemanager.ui.widgets.ButtonItem android:id="@id/ab_selection_done" android:layout_width="@dimen/small_buttom_width" android:layout_height="@dimen/small_buttom_width" android:src="@drawable/ic_holo_light_accept" android:scaleType="fitCenter" android:height="@dimen/smallest_buttom_width" android:width="@dimen/smallest_buttom_width" android:onClick="onActionBarItemClick" android:contentDescription="@string/actionbar_button_selection_done_cd" />
+    <include android:layout_marginRight="@dimen/default_margin" layout="@layout/horizontal_divider" />
+    <TextView android:textAppearance="@style/secondary_text_appearance" android:ellipsize="end" android:gravity="center|left" android:id="@id/navigation_status_selection_label" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" android:text="@null" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

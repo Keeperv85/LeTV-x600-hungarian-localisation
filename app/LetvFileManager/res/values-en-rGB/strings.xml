@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_disk_usage_warning_level_summary">Display a different colour in disk usage widgets when they reach %1$s percent of free disk space</string>
+    <string name="pref_editor_behaviour_category">Behaviour</string>
+    <string name="pref_syntax_highlight_color_scheme">Colour scheme</string>
+    <string name="pref_syntax_highlight_color_scheme_desc">Tap to select the syntax highlight colour scheme</string>
+    <string name="color_picker_color">Colour:</string>
+    <string name="ash_reset_color_scheme">Tap to restore the default theme colour scheme</string>
+</resources>

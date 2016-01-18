@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/search_item" android:background="@drawable/holo_list_selector_deselected" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/search_item_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@null" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/extra_margin" android:layout_toRightOf="@id/search_item_icon" android:layout_alignParentRight="true">
+        <TextView android:textAppearance="@style/primary_text_appearance_nohighlight" android:id="@id/search_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_margin" android:layout_marginTop="@dimen/default_margin" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_margin" android:layout_marginBottom="@dimen/default_margin" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <com.letv.android.filemanager.ui.widgets.RelevanceView android:layout_gravity="center|left" android:id="@id/search_item_relevance" android:layout_width="@dimen/relevance_item_width" android:layout_height="@dimen/relevance_item_height" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+            <TextView android:textAppearance="@style/secondary_text_appearance" android:layout_gravity="center|left" android:id="@id/search_item_parent_dir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

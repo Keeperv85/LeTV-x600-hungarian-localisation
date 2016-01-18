@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/le_dimen_size_54"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/popup_simple_iconview" android:layout_width="@dimen/le_dimen_size_28" android:layout_height="@dimen/le_dimen_size_28" android:layout_marginLeft="@dimen/le_dimen_size_20" android:src="@drawable/ic_fso_folder" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/checkable_selector" android:id="@id/popup_simple_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_dimen_size_8" android:layout_marginRight="@dimen/le_dimen_size_8" android:singleLine="true" android:layout_toRightOf="@id/popup_simple_iconview" android:layout_centerVertical="true" />
+</RelativeLayout>

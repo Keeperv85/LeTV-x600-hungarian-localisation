@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_search_bottom_icon" android:id="@id/category_search_menu" android:orderInCategory="1" android:title="@string/menu_search" android:showAsAction="ifRoom" />
+</menu>

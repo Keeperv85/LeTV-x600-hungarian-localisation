@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <gradient android:startColor="@color/item_select_bg" android:endColor="@color/item_select_bg" android:centerColor="@color/item_select_bg" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="2.0dip" />
+                <gradient android:startColor="@color/default_btn_color" android:endColor="@color/default_btn_color" android:centerColor="@color/default_btn_color" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

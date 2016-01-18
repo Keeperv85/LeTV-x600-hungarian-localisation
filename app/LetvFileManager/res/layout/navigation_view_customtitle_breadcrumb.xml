@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tb_breadcrumb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.android.filemanager.ui.widgets.ButtonItem android:id="@id/ab_configuration" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_holo_light_expander_open" android:layout_alignParentRight="true" android:onClick="onActionBarItemClick" android:contentDescription="@null" style="@style/breadcrumb_actionbar_buttom" />
+    <com.letv.android.filemanager.ui.widgets.BreadcrumbView android:id="@id/breadcrumb_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ab_configuration" />
+</RelativeLayout>

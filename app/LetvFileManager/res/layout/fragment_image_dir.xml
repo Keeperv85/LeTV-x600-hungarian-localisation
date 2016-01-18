@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/navigation_bottom_widget" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/navigation_bottom_widget">
+        <GridView android:id="@id/navigation_view_layout" android:background="@color/default_background" android:paddingTop="14.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:numColumns="3" />
+        <LinearLayout android:id="@id/navigation_search_layout" android:background="#3d253137" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.letv.android.filemanager.ui.pinnedselectionlistview.PinnedSectionListView android:scrollbarStyle="outsideOverlay" android:id="@id/navigation_search_listview" android:background="@color/default_background" android:visibility="gone" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" />
+        </LinearLayout>
+        <com.letv.leui.widget.LeBlankPage leui:icon="@drawable/empty_file_icon" android:id="@id/le_blank_page" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:message="@string/le_category_empty" />
+        <include layout="@layout/inc_content_cover" />
+    </FrameLayout>
+</RelativeLayout>

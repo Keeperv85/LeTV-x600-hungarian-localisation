@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/extra_large_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/execution_script_name_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/execution_console_script_name_label" />
+        <TextView android:textAppearance="@style/secondary_text_appearance" android:ellipsize="end" android:gravity="center|left" android:id="@id/execution_script_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@null" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/execution_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/execution_console_script_execution_time_label" />
+        <TextView android:textAppearance="@style/secondary_text_appearance" android:ellipsize="end" android:gravity="center|left" android:id="@id/execution_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@null" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/execution_exitcode_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/execution_console_script_exitcode_label" />
+        <TextView android:textAppearance="@style/secondary_text_appearance" android:ellipsize="end" android:gravity="center|left" android:id="@id/execution_exitcode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@null" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/console_height" android:layout_margin="@dimen/default_margin" android:fillViewport="true" android:fadeScrollbars="false">
+        <TextView android:textAppearance="@style/console_text_appearance" android:id="@id/execution_output" android:background="@color/console_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@null" android:singleLine="false" />
+    </ScrollView>
+</LinearLayout>

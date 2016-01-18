@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:prv1="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ScrollView android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/category_ly_one" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/category_audio" style="@style/CategoryButtonStyle">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/image_audio" android:background="@drawable/audio_icon_bg" android:src="@drawable/audio_icon" style="@style/CategoryButtonIconStyle" />
+                        <TextView android:id="@id/category_audio_name" android:text="@string/music_name" style="@style/CategoryButtonTextStyle" />
+                        <TextView android:id="@id/category_audio_count" android:text="@string/default_file_item" style="@style/CategoryButtonCountStyle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/category_video" style="@style/CategoryButtonStyle">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/image_video" android:background="@drawable/vedio_icon_bg" android:src="@drawable/vedio_icon" style="@style/CategoryButtonIconStyle" />
+                        <TextView android:id="@id/category_vedio_name" android:text="@string/video_name" style="@style/CategoryButtonTextStyle" />
+                        <TextView android:id="@id/category_video_count" android:text="@string/default_file_item" style="@style/CategoryButtonCountStyle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/category_image" style="@style/CategoryButtonStyle">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/image_image" android:background="@drawable/image_icon_bg" android:src="@drawable/image_icon" style="@style/CategoryButtonIconStyle" />
+                        <TextView android:id="@id/category_image_name" android:text="@string/image_type" style="@style/CategoryButtonTextStyle" />
+                        <TextView android:id="@id/category_picture_count" android:text="@string/default_file_item" style="@style/CategoryButtonCountStyle" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/category_ly_two" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/category_document" style="@style/CategoryButtonStyle">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/image_document" android:background="@drawable/document_icon_bg" android:src="@drawable/document_icon" android:contentDescription="@string/document" style="@style/CategoryButtonIconStyle" />
+                        <TextView android:id="@id/category_document_name" android:text="@string/document" style="@style/CategoryButtonTextStyle" />
+                        <TextView android:id="@id/category_document_count" android:text="@string/default_file_item" style="@style/CategoryButtonCountStyle" />
+                    </LinearLayout>
+                    <View android:id="@id/document_mc" android:background="#81ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/category_compress" style="@style/CategoryButtonStyle">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/image_compress" android:background="@drawable/compress_icon_bg" android:src="@drawable/compress_icon" style="@style/CategoryButtonIconStyle" />
+                        <TextView android:id="@id/category_compress_name" android:text="@string/compress_type" style="@style/CategoryButtonTextStyle" />
+                        <TextView android:id="@id/category_zip_count" android:text="@string/default_file_item" style="@style/CategoryButtonCountStyle" />
+                    </LinearLayout>
+                    <View android:id="@id/compress_mc" android:background="#81ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/category_app" style="@style/CategoryButtonStyle">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:id="@id/image_app" android:background="@drawable/apk_icon_bg" android:src="@drawable/apk_icon" style="@style/CategoryButtonIconStyle" />
+                        <TextView android:id="@id/category_app_name" android:text="@string/app_type" style="@style/CategoryButtonTextStyle" />
+                        <TextView android:id="@id/category_app_count" android:text="@string/default_file_item" style="@style/CategoryButtonCountStyle" />
+                    </LinearLayout>
+                    <View android:id="@id/app_mc" android:background="#81ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+            <TextView android:textSize="@dimen/le_text_size_14" android:textColor="#ff747474" android:paddingLeft="@dimen/le_dimen_size_16" android:paddingTop="@dimen/le_dimen_size_26" android:paddingBottom="@dimen/le_dimen_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_title" />
+            <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/le_dimen_size_16" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/mobile_storage" android:background="@drawable/category_btn_background" android:paddingLeft="@dimen/le_dimen_size_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/image_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/file_icon_phone" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/le_text_size_16" android:textColor="#ff000000" android:id="@id/mobile_storage_name" android:paddingLeft="@dimen/le_dimen_size_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_dimen_size_18" android:layout_marginBottom="@dimen/le_dimen_size_11" android:text="@string/mobile_st" android:layout_toRightOf="@id/image_mobile" />
+                    <ImageView android:id="@id/mobile_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le_dimen_size_14" android:layout_marginRight="@dimen/le_dimen_size_16" android:src="@drawable/ic_right_arrow_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/le_text_size_13" android:textColor="#ff747474" android:gravity="center" android:id="@id/mobile_keyong" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/le_dimen_size_18" android:layout_marginBottom="@dimen/le_dimen_size_11" android:layout_toLeftOf="@id/mobile_right_icon" android:layout_above="@id/mobile_category_bar" />
+                    <com.letv.android.filemanager.ui.widgets.CategoryBar android:id="@id/mobile_category_bar" android:layout_width="fill_parent" android:layout_height="3.5dip" android:layout_marginLeft="@dimen/le_dimen_size_12" android:layout_marginBottom="@dimen/le_dimen_size_18" android:layout_toLeftOf="@id/mobile_right_icon" android:layout_below="@id/mobile_storage_name" android:layout_alignLeft="@id/mobile_storage_name" />
+                </RelativeLayout>
+                <View android:id="@id/storage_mc" android:background="#81ffffff" android:paddingTop="1.0px" android:paddingBottom="1.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/expand_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:background="@color/le_action_slide_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginLeft="@dimen/le_dimen_size_16" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/navigation_search_layout" android:background="#3d253137" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/navigation_search_listview" android:background="@color/default_background" android:visibility="gone" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" />
+        <com.letv.leui.widget.LeBlankPage leui:icon="@drawable/search_empty_icon" android:id="@id/le_blank_page" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:message="@string/le_searching_msg" />
+    </FrameLayout>
+</FrameLayout>

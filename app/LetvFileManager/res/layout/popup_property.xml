@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:id="@id/property_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:background="@color/default_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/extra_large_margin" android:paddingRight="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:id="@id/property_type" android:layout_width="fill_parent" android:layout_height="@dimen/small_row_height" />
+            <TextView android:gravity="center_vertical" android:id="@id/property_local" android:layout_width="fill_parent" android:layout_height="@dimen/small_row_height" />
+            <TextView android:gravity="center_vertical" android:id="@id/property_size" android:layout_width="fill_parent" android:layout_height="@dimen/small_row_height" />
+            <TextView android:gravity="center_vertical" android:id="@id/property_time" android:layout_width="fill_parent" android:layout_height="@dimen/small_row_height" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:background="@color/default_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <Button android:id="@id/property_confirm_btn" android:background="@color/action_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/confirm_btn" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

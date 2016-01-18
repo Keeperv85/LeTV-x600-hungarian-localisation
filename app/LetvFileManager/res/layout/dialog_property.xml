@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dialog_padding_size" android:paddingRight="@dimen/dialog_padding_size" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:gravity="center_vertical" android:id="@id/property_type" android:paddingTop="@dimen/le_dimen_size_8" android:paddingBottom="@dimen/le_dimen_size_8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:gravity="center_vertical" android:id="@id/property_local" android:paddingTop="@dimen/le_dimen_size_8" android:paddingBottom="@dimen/le_dimen_size_8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:gravity="center_vertical" android:id="@id/property_size" android:paddingTop="@dimen/le_dimen_size_8" android:paddingBottom="@dimen/le_dimen_size_8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:gravity="center_vertical" android:id="@id/property_time" android:paddingTop="@dimen/le_dimen_size_8" android:paddingBottom="@dimen/le_dimen_size_8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

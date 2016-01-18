@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d mappar</item>
+        <item quantity="one">1 mapp</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d filer</item>
+        <item quantity="one">1 fil</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d föremål funna</item>
+        <item quantity="one">1 föremål funnet</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d mappar valda.</item>
+        <item quantity="one">1 mapp vald.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d filer valda.</item>
+        <item quantity="one">1 fil vald.</item>
+    </plurals>
+</resources>

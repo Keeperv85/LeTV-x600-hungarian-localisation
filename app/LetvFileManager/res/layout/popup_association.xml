@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/association_title" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/extra_large_margin" android:paddingRight="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <GridView android:gravity="center" android:id="@id/associations_gridview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/default_margin" android:stretchMode="columnWidth" android:numColumns="@integer/associations_items_per_row" />
+            <CheckBox android:textSize="@dimen/le_text_size_16" android:id="@id/associations_remember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_margin" android:layout_marginTop="@dimen/extra_margin" android:text="@string/associations_dialog_remember" />
+            <TextView android:id="@id/associations_setting_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_margin" android:layout_marginTop="@dimen/extra_margin" android:text="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="11.0dip">
+            <Button android:id="@id/associations_concel_btn" android:background="@drawable/icon_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

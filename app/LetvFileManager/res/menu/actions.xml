@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/mnu_actions_global">
+        <item android:id="@id/mnu_actions_properties_current_folder" android:title="@string/actions_menu_properties_current_folder" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_refresh" android:title="@string/actions_menu_refresh" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_new_directory" android:title="@string/actions_menu_new_directory" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_new_file" android:title="@string/actions_menu_new_file" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_select_all" android:title="@string/actions_menu_select_all" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_deselect_all" android:title="@string/actions_menu_deselect_all" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_paste_selection" android:title="@string/actions_menu_paste_selection" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_move_selection" android:title="@string/actions_menu_move_selection" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_delete_selection" android:title="@string/actions_menu_delete_selection" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_compress_selection" android:title="@string/actions_menu_compress_selection" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_create_link_global" android:title="@string/actions_menu_create_link" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_send_selection" android:title="@string/actions_menu_send_selection" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_add_to_bookmarks_current_folder" android:title="@string/actions_menu_add_to_bookmarks" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_add_shortcut_current_folder" android:title="@string/actions_menu_add_shortcut" android:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@id/mnu_actions_fso">
+        <item android:id="@id/mnu_actions_properties" android:title="@string/actions_menu_properties" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_select" android:title="@string/actions_menu_select" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_deselect" android:title="@string/actions_menu_deselect" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_open" android:title="@string/actions_menu_open" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_open_with" android:title="@string/actions_menu_open_with" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_delete" android:title="@string/actions_menu_delete" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_rename" android:title="@string/actions_menu_rename" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_compress" android:title="@string/actions_menu_compress" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_extract" android:title="@string/actions_menu_extract" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_create_copy" android:title="@string/actions_menu_create_copy" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_create_link" android:title="@string/actions_menu_create_link" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_execute" android:title="@string/actions_menu_execute" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_send" android:title="@string/actions_menu_send" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_add_to_bookmarks" android:title="@string/actions_menu_add_to_bookmarks" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_add_shortcut" android:title="@string/actions_menu_add_shortcut" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_compute_checksum" android:title="@string/actions_menu_compute_checksum" android:showAsAction="ifRoom" />
+        <item android:id="@id/mnu_actions_open_parent_folder" android:title="@string/actions_menu_open_parent_folder" android:showAsAction="ifRoom" />
+    </group>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="start" android:id="@id/drawer" android:background="@android:color/background_light" android:layout_width="240.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/bookmarks_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmarks" style="@style/drawer_header" />
+        <ProgressBar android:id="@id/bookmarks_loading" android:visibility="gone" android:layout_width="@dimen/default_row_height" android:layout_height="@dimen/default_row_height" android:indeterminate="true" android:indeterminateOnly="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bookmarks_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_margin" />
+        <TextView android:id="@id/history_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/history" style="@style/drawer_header" />
+        <TextView android:id="@id/history_empty" android:paddingLeft="@dimen/extra_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msgs_history_empty" style="@style/secondary_text_appearance" />
+        <LinearLayout android:orientation="vertical" android:id="@id/history_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_margin" />
+    </LinearLayout>
+</ScrollView>

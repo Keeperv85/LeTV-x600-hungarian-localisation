@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/action_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:leui="http://schemas.android.com/apk/res-auto"
+  xmlns:haha="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.app.LeTopWidget android:id="@id/navigation_top_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" haha:leTopWidgetBg="@color/action_bg" />
+    <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

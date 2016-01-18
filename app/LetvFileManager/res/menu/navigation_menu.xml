@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_search_bottom_icon" android:id="@id/category_search_menu" android:orderInCategory="1" android:title="@string/menu_search" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_mkdir_icon" android:id="@id/category_mkdir_menu" android:orderInCategory="1" android:title="@string/newfile" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_sort_icon" android:id="@id/category_sort_menu" android:orderInCategory="1" android:title="@string/sort" android:showAsAction="ifRoom" />
+</menu>

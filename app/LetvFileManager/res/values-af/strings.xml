@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lêer-verkenner</string>
+    <string name="app_description">"'n letv Lêerverkenner."</string>
+    <string name="size_bytes">G</string>
+    <string name="size_kilobytes">kG</string>
+    <string name="size_megabytes">MG</string>
+    <string name="size_gigabytes">GG</string>
+    <string name="datetime_format_order">%1$s %2$s</string>
+    <string name="device_blockdevice">Bloktoestel</string>
+    <string name="device_characterdevice">Karaktertoestel</string>
+    <string name="device_namedpipe">Named pipe</string>
+    <string name="device_domainsocket">Domain socket</string>
+    <string name="mount_point_readonly">LA</string>
+    <string name="mount_point_readwrite">LS</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="all">Alles</string>
+    <string name="overwrite">Oorskryf</string>
+    <string name="select">Kies</string>
+    <string name="root_directory_name">"&lt;'Root' vouergids>"</string>
+    <string name="search_result_name">Soek: %1$s</string>
+    <string name="loading_message">Laai…</string>
+    <string name="cancelled_message">Gekanseleer.</string>
+    <string name="error_message">Fout.</string>
+    <string name="copy_text_cd">Raak om teks te kopieer na knipbord</string>
+    <string name="copy_text_msg">Teks gekopieer na die knipbord</string>
+    <string name="warning_title">Pasop</string>
+    <string name="error_title">Fout gevind</string>
+    <string name="confirm_operation">Bevestig werking</string>
+    <string name="confirm_overwrite">Bevestig oorskrywing</string>
+    <string name="confirm_deletion">Bevestig verwydering</string>
+    <string name="msgs_change_to_prompt_access_mode_title">Bevestig verandering</string>
+    <string name="msgs_change_to_prompt_access_mode_msg">"Kry nie 'root' toegang nie. Verander na die veilige modus.
+
+Dien hierdie verandering toe?"</string>
+    <string name="msgs_cant_create_console">Kon nie die nodige regte kry om te funksioneer nie.</string>
+    <string name="msgs_privileged_console_alloc_failed">"Kry nie 'root' toegang nie. Het verander na veilige modus."</string>
+    <string name="msgs_settings_save_failure">Die instelling kan nie toegepas of gestoor word nie.</string>
+    <string name="msgs_settings_invalid_initial_directory">"Die aanvanklike vouergids\"%1$s\" is ongeldig. Verander na 'root' vouergids."</string>
+    <string name="msgs_success">Die aksie was suksesvol voltooi.</string>
+    <string name="msgs_unknown">"'n Fout het voorgekom. Die aksie was onsuksesvol."</string>
+    <string name="msgs_insufficient_permissions">"Hierdie aksie vereis verhoogde regte. Probeer 'root' toegang."</string>
+    <string name="msgs_file_not_found">Die lêer of vouergids was nie gevind nie.</string>
+    <string name="msgs_command_not_found">"Die werking se opdrag is nie gevind nie of het 'n ongeldige definisie."</string>
+    <string name="msgs_io_failed">Lees/skryf mislukking.</string>
+    <string name="msgs_operation_timeout">Die werking se toelaatbare tyd het verstreek.</string>
+    <string name="msgs_operation_failure">Die werking het misluk.</string>
+    <string name="msgs_console_alloc_failure">"'n interne fout het voorgekom."</string>
+    <string name="msgs_operation_can_not_be_cancelled">Die werking kan nie gekanselleer word nie.</string>
+    <string name="msgs_read_only_filesystem">Die lêerstelsel is slegs leesbaar. Probeer om die lêerstelsel as lees-en-skryf aan te heg.</string>
+    <string name="msgs_illegal_argument">Onwettige argument. Aktivering het misluk.</string>
+    <string name="msgs_unresolved_inconsistencies">Die werking word nie toegelaat nie want dit skep teenstrydighede.</string>
+    <string name="msgs_operation_not_allowed_in_current_directory">"Die operasie word nie toegelaat in die huidige vouergids nie.
+
+Bestemmings vouergids kan nie 'n sub-vouergids van bron of dieselfde as die bron wees nie."</string>
+    <string name="msgs_push_again_to_exit">Raak weer om te beeindig.</string>
+    <string name="msgs_not_registered_app">Daar is geen program geregistreer om die tipe lêer oop te maak nie.</string>
+    <string name="msgs_overwrite_files">"Sommige van die lêers bestaan reeds in die teiken vouergids.
+
+Oorskryf??"</string>
+    <string name="msgs_action_association_failed">Die geassosieerde program aksie het misluk.</string>
+    <string name="advise_insufficient_permissions">"Die werking vereis verhoogde regte.
+
+Verander na 'root' toegang?"</string>
+    <string name="parent_dir">Ouer-vouergids</string>
+    <string name="external_storage">Eksterne berging</string>
+    <string name="usb_storage">USB-berging</string>
+    <string name="actionbar_button_filesystem_cd">Lêerstelsel inligting</string>
+    <string name="actionbar_button_sort_mode_cd">Sorteermetode</string>
+    <string name="actionbar_button_layout_mode_cd">Uitlegmetode</string>
+    <string name="actionbar_button_other_view_options_cd">Ander wysopsies</string>
+    <string name="actionbar_button_selection_done_cd">Klaar</string>
+    <string name="actionbar_button_actions_cd">Aksies</string>
+    <string name="actionbar_button_history_cd">Geskiedenis</string>
+    <string name="actionbar_button_bookmarks_cd">Boekmerke</string>
+    <string name="actionbar_button_search_cd">Soek</string>
+    <string name="actionbar_button_overflow_cd">Meer opsies</string>
+    <string name="actionbar_button_storage_cd">Skyf volumes</string>
+    <string name="actionbar_button_save_cd">Stoor</string>
+    <string name="sort_by_name_asc">Met naam ▲</string>
+    <string name="sort_by_name_desc">Met naam ▼</string>
+    <string name="sort_by_date_asc">Met datum ▲</string>
+    <string name="sort_by_date_desc">Met datum ▼</string>
+    <string name="layout_icons">Ikone</string>
+    <string name="layout_simple">Eenvoudig</string>
+    <string name="layout_details">Besonderhede</string>
+    <string name="cm_filemanager_show_dirs_first">Wys vouergidse eerste</string>
+    <string name="cm_filemanager_show_hidden">Wys versteekte vouers</string>
+    <string name="cm_filemanager_show_system">Wys stelsel vouers</string>
+    <string name="cm_filemanager_show_symlinks">Wys simboliese koppelings</string>
+    <string name="filesystem_info_warning_title">Geen inligting</string>
+    <string name="filesystem_info_warning_msg">Daar is geen inligting beskikbaar vir die lêerstelsel nie.</string>
+    <string name="filesystem_info_cant_be_mounted_msg">Die lêerstelsel kan nie geheg/ontheg word nie.</string>
+    <string name="filesystem_info_mount_not_allowed_msg">"Lêerstelsel hegging word nie toegelaat in die veilige modus nie. Raak om toegang na 'root' modus te verander."</string>
+    <string name="filesystem_info_mount_failed_msg">Die lêerstelsel hegging het misluk. Sommige lêerstelsels, soos SD-kaarte, kan nie geheg/ontheg word nie aangesien hulle leesalleen lêerstelsels is.</string>
+    <string name="filesystem_info_dialog_title">Lêerstelsel inligting</string>
+    <string name="filesystem_info_dialog_tab_info">Inligting</string>
+    <string name="filesystem_info_dialog_tab_disk_usage">Bergingspasie</string>
+    <string name="filesystem_info_dialog_status">Status:</string>
+    <string name="filesystem_info_dialog_mount_point">Aanheggingspunt:</string>
+    <string name="filesystem_info_dialog_device">Toestel:</string>
+    <string name="filesystem_info_dialog_type">Tipe:</string>
+    <string name="filesystem_info_dialog_options">Opsies:</string>
+    <string name="filesystem_info_dialog_dump_pass">Stort/Slaag:</string>
+    <string name="filesystem_info_dialog_total_disk_usage">Totaal:</string>
+    <string name="filesystem_info_dialog_used_disk_usage">Gebruik:</string>
+    <string name="filesystem_info_dialog_free_disk_usage">Vry:</string>
+    <string name="fso_properties_permissions_not_allowed_msg">"Regte veranderinge word nie toegelaat in die veilige modus nie. Raak om toegang na 'root' modus te verander."</string>
+    <string name="fso_properties_failed_to_change_owner_msg">"Die verandering van die eienaar aksie het misluk.
+
+ Vir sekuriteit redes laat sommige lêerstelsels, soos SD-kaarte, dit toe nie."</string>
+    <string name="fso_properties_failed_to_change_group_msg">"Die verandering van die groep aksie het misluk.
+
+ Vir sekuriteit redes laat sommige lêerstelsels, soos SD-kaarte, dit toe nie."</string>
+    <string name="fso_properties_failed_to_change_permission_msg">"Die verandering van regte het misluk.
+
+ Vir sekuriteits redes laat sommige lêerstelsels, soos SD-kaarte, nie die verandering toe nie."</string>
+    <string name="fso_properties_dialog_title">Eienskappe</string>
+    <string name="fso_properties_dialog_tab_info">Inligting</string>
+    <string name="fso_properties_dialog_tab_permissions">Toestemmings</string>
+    <string name="fso_properties_dialog_name">Naam:</string>
+    <string name="fso_properties_dialog_parent">Ouer:</string>
+    <string name="fso_properties_dialog_type">Tipe:</string>
+    <string name="fso_properties_dialog_category">Kategorie:</string>
+    <string name="fso_properties_dialog_link">Skakel:</string>
+    <string name="fso_properties_dialog_size">Grootte:</string>
+    <string name="fso_properties_dialog_contains">Bevat:</string>
+    <string name="fso_properties_dialog_last_accessed_date">Verkry op:</string>
+    <string name="fso_properties_dialog_last_modified_date">Gewysig:</string>
+    <string name="fso_properties_dialog_last_changed_date">Verander:</string>
+    <string name="fso_properties_dialog_owner">Eienaar:</string>
+    <string name="fso_properties_dialog_group">Groepe:</string>
+    <string name="fso_properties_dialog_others">Ander:</string>
+    <string name="fso_properties_dialog_include_in_media_scan">Slaan mediaskandering oor:</string>
+    <string name="fso_failed_to_allow_media_scan">Kon nie mediaskandering toe laat nie</string>
+    <string name="fso_failed_to_prevent_media_scan">Kon nie verhoed dat mediaskandering begin nie</string>
+    <string name="fso_delete_nomedia_dir_title">Verwyder .nomedia vouergids</string>
+    <string name="fso_delete_nomedia_dir_body">"Hierdie vouergids bevat 'n nomedia vouer.
+
+Wil jy dit en al die inhoud daarvan verwyder?"</string>
+    <string name="fso_delete_nomedia_non_empty_title">Verwyder .nomedia vouer</string>
+    <string name="fso_delete_nomedia_non_empty_body">"Hierdie vouergids bevat 'n nie-leë .nomedia lêer
+
+Wil jy dit verwyder?"</string>
+    <string name="history">Vorige items</string>
+    <string name="msgs_history_empty">Vorige items is leeg.</string>
+    <string name="msgs_history_unknown">Die vorige item is onbekend.</string>
+    <string name="search">Soek resultate</string>
+    <string name="search_hint">Tik you soektog</string>
+    <string name="search_voice_hint">Sê jou soektog</string>
+    <string name="search_error_msg">"'n Fout het voorgekom tydens die soektog. Geen resultate is gevind nie."</string>
+    <string name="search_no_results_msg">Geen resultate is gevind nie.</string>
+    <string name="search_found_items_in_directory">%1$s in %2$s</string>
+    <string name="search_terms">&lt;b>Terme:&lt;/b> %1$s</string>
+    <string name="search_few_characters_title">Bevestig soektog</string>
+    <string name="search_few_characters_msg">"Sommige van van die soekterme is baie kort. Die operasie kan baie lank duur en intensief wees op stelsel bronne.
+
+Wil jy voortgaan?"</string>
+    <string name="searching">Wag asseblief…</string>
+    <string name="searching_action_label">Besig om te soek</string>
+    <string name="picker_title">"Kies 'n lêer"</string>
+    <string name="directory_picker_title">"Kies 'n vouergids"</string>
+    <string name="editor">Notaboek</string>
+    <string name="editor_invalid_file_msg">Ongeldige lêer.</string>
+    <string name="editor_file_not_found_msg">Lêer nie gevind nie.</string>
+    <string name="editor_file_exceed_size_msg">Die lêer is te groot om op die toestel oop gemaak te word.</string>
+    <string name="editor_dirty_ask_title">Bevestig terminasie</string>
+    <string name="editor_dirty_ask_msg">"Daar is ongestoorde veranderinge
+
+Termineer sonder om te stoor?"</string>
+    <string name="editor_successfully_saved">Die lêer is suksesvol gestoor.</string>
+    <string name="editor_read_only_mode">Die lêer was geopen in leesalleen modus.</string>
+    <string name="dumping_message">"Genereer 'n hex storting…"</string>
+    <string name="displaying_message">Vertoon…</string>
+    <string name="bookmarks">Boekmerke</string>
+    <string name="bookmarks_home">Tuis</string>
+    <string name="bookmarks_root_folder">"'root' vouergids"</string>
+    <string name="bookmarks_system_folder">Stelsel vouergids</string>
+    <string name="bookmarks_button_config_cd">Stoor die aanvanklike vouergids.</string>
+    <string name="bookmarks_button_remove_bookmark_cd">Verwyder boekmerk</string>
+    <string name="bookmarks_msgs_add_success">Die boekmerk was bygevoeg.</string>
+    <string name="initial_directory_dialog_title">Aanvanklike vouergids</string>
+    <string name="initial_directory_label">Kies die aanvanklike vouergids:</string>
+    <string name="initial_directory_relative_msg">Relatiewe paaie word nie toegelaat nie.</string>
+    <string name="initial_directory_error_msg">Fout met die stoor van die aanvanklike vouergids.</string>
+    <string name="menu_history">Vorige items</string>
+    <string name="menu_bookmarks">Boekmerke</string>
+    <string name="menu_search">Soek na</string>
+    <string name="menu_settings">Instellings</string>
+    <string name="menu_clear_history">Verwyder alle geskiedenis</string>
+    <string name="menu_no_suggestions">Geen voorstelle</string>
+    <string name="menu_word_wrap">Woord oorvloei</string>
+    <string name="menu_syntax_highlight">Sintaks beklemtoning</string>
+    <string name="create_copy_regexp">%1$s - kopieer%2$s</string>
+    <string name="create_new_compress_file_regexp">%1$s - nuut%2$s</string>
+    <string name="waiting_dialog_msg">Besig…</string>
+    <string name="waiting_dialog_copying_title">Kopiëring…</string>
+    <string name="waiting_dialog_copying_msg">&lt;b>Van&lt;/b> %1$s&lt;br/> &lt;b>Na&lt;/b> %2$s</string>
+    <string name="waiting_dialog_moving_title">Skuif…</string>
+    <string name="waiting_dialog_moving_msg">&lt;b>From&lt;/b> %1$s&lt;br/> &lt;b>To&lt;/b> %2$s</string>
+    <string name="waiting_dialog_deleting_title">Verwyder…</string>
+    <string name="waiting_dialog_deleting_msg">&lt;b>Lêer&lt;/b> %1$s</string>
+    <string name="waiting_dialog_extracting_title">Onttrek…</string>
+    <string name="waiting_dialog_extracting_msg">&lt;b>Lêer&lt;/b> %1$s</string>
+    <string name="waiting_dialog_compressing_title">Verklein…</string>
+    <string name="waiting_dialog_compressing_msg">&lt;b>Lêer&lt;/b> %1$s</string>
+    <string name="waiting_dialog_analizing_msg">&lt;b>Ontleding van…&lt;/b></string>
+    <string name="msgs_extracting_success">Die onttrek aksie was suksesvol afgehandel. Die data was onttrek %1$s.</string>
+    <string name="msgs_compressing_success">Die verklein aksie was suksesvol afgehandel. Die data is saamgepers tot %1$s.</string>
+    <string name="actions_dialog_title">Aksies</string>
+    <string name="actions_menu_properties_current_folder">Eienskappe</string>
+    <string name="actions_menu_refresh">Herlaai</string>
+    <string name="actions_menu_new_directory">Nuwe vouergids</string>
+    <string name="actions_menu_new_file">Nuwe lêer</string>
+    <string name="actions_menu_select_all">Kies alles</string>
+    <string name="actions_menu_deselect_all">Deselekteer alles</string>
+    <string name="actions_menu_select">Kies</string>
+    <string name="actions_menu_deselect">Deselekteer</string>
+    <string name="actions_menu_paste_selection">Plaas</string>
+    <string name="actions_menu_move_selection">Skuif</string>
+    <string name="actions_menu_delete_selection">Verwyder</string>
+    <string name="actions_menu_compress_selection">Verklein</string>
+    <string name="actions_menu_create_link">Skep skakel</string>
+    <string name="actions_menu_open">Maak oop</string>
+    <string name="actions_menu_open_with">Maak oop met</string>
+    <string name="actions_menu_execute">Voer uit</string>
+    <string name="actions_menu_send">Stuur</string>
+    <string name="actions_menu_send_selection">Stuur</string>
+    <string name="actions_menu_compress">Verklein</string>
+    <string name="actions_menu_extract">Onttrek</string>
+    <string name="actions_menu_delete">Verwyder</string>
+    <string name="actions_menu_rename">Hernoem</string>
+    <string name="actions_menu_create_copy">"Maak 'n kopie"</string>
+    <string name="actions_menu_properties">Eienskappe</string>
+    <string name="actions_menu_add_to_bookmarks">Voeg by boekmerke</string>
+    <string name="actions_menu_add_shortcut">Voeg kortpad</string>
+    <string name="actions_menu_open_parent_folder">Maak vouer oop</string>
+    <string name="actions_menu_compute_checksum">Bereken kontrolesom</string>
+    <string name="actions_ask_undone_operation_msg">Hierdie aksie kan nie teruggestel word nie. Wil jy voortgaan?</string>
+    <string name="input_name_dialog_label">Naam:</string>
+    <string name="input_name_dialog_message_empty_name">Die naam kan nie leeg wees nie.</string>
+    <string name="input_name_dialog_message_invalid_path_name">"Ongeldige naam. Die karakters '%1$s' word nie toegelaat nie."</string>
+    <string name="input_name_dialog_message_invalid_name">"Ongeldige naam. Die karakter '.' en '..' word nie toegelaat nie."</string>
+    <string name="input_name_dialog_message_name_exists">Die naam bestaan alreeds.</string>
+    <string name="associations_dialog_title">Assosiasies</string>
+    <string name="associations_dialog_remember">Onthou keuse</string>
+    <string name="associations_dialog_openwith_title">Maak oop met</string>
+    <string name="associations_dialog_openwith_action">Maak oop</string>
+    <string name="associations_dialog_sendwith_title">Stuur met</string>
+    <string name="associations_dialog_sendwith_action">Stuur</string>
+    <string name="inline_autocomplete_tab_nothing_to_complete_msg">Niks om te voltooi nie.</string>
+    <string name="execution_console_title">Konsole</string>
+    <string name="execution_console_script_name_label">Script:</string>
+    <string name="execution_console_script_execution_time_label">Tyd:</string>
+    <string name="execution_console_script_exitcode_label">Terminasie kode:</string>
+    <string name="execution_console_script_execution_time_text">%1$s sek.</string>
+    <string name="compute_checksum_title">Bereken kontrolesom</string>
+    <string name="compute_checksum_filename_label">Lêer:</string>
+    <string name="compute_checksum_computing_checksum_msg">Bewerk kontrolesom…</string>
+    <string name="mime_folder">Mime vouergids</string>
+    <string name="mime_symlink">Simboliese skakel</string>
+    <string name="mime_unknown">Onbekend</string>
+    <string name="filetime_format_mode_system">Stelsel-gedefinieerd</string>
+    <string name="filetime_format_mode_locale">Land-gedefinieerd</string>
+    <string name="filetime_format_mode_ddMMyyyy_HHmmss">dd/mm/yyyy hh:mm:ss</string>
+    <string name="filetime_format_mode_MMddyyyy_HHmmss">mm/dd/yyyy hh:mm:ss</string>
+    <string name="filetime_format_mode_yyyyMMdd_HHmmss">yyyy-mm-dd hh:mm:ss</string>
+    <string name="selection_folders_and_files">%1$s en %2$s geselekteer.</string>
+    <string name="category_system">STELSEL</string>
+    <string name="category_app">PROGRAM</string>
+    <string name="category_binary">BINÊRE</string>
+    <string name="category_text">TEKS</string>
+    <string name="category_document">DOKUMENT</string>
+    <string name="category_ebook">EBOEK</string>
+    <string name="category_mail">POS</string>
+    <string name="category_compress">VERKLEIN</string>
+    <string name="category_exec">UITVOERBAAR</string>
+    <string name="category_database">DATABASIS</string>
+    <string name="category_font">LETTER TIPE</string>
+    <string name="category_image">BEELD</string>
+    <string name="category_audio">OUDIO</string>
+    <string name="category_video">VIDEO</string>
+    <string name="category_security">SEKURITEIT</string>
+    <string name="compression_mode_title">Verkleinings metode</string>
+    <string name="shortcut_failed_msg">Kon nie van die loodskortpad gebruik maak nie.</string>
+    <string name="shortcut_creation_success_msg">Loodskortpad suksesvol geskep.</string>
+    <string name="shortcut_creation_failed_msg">Loodskortpad kon nie geskep word nie.</string>
+    <string name="pref">Instellings</string>
+    <string name="pref_general">Algemeen</string>
+    <string name="pref_search">Soek opsies</string>
+    <string name="pref_editor">Redigeerder opsies</string>
+    <string name="pref_themes">Temas</string>
+    <string name="pref_about">Aangaande</string>
+    <string name="pref_about_summary">"Lêer-verkenner v%1$s 
+Kopiereg © 2013 Die letv Projek"</string>
+    <string name="pref_general_behaviour_category">Algemeen</string>
+    <string name="pref_case_sensitive_sort">Gebruik letter-sensitiewe sortering</string>
+    <string name="pref_case_sensitive_sort_summary">Oorweeg letter-sensitiewe navigasie en sortering van soek resultate</string>
+    <string name="pref_filetime_format_mode">Datum/tyd formaat</string>
+    <string name="pref_disk_usage_warning_level">Bergingspasie waarskuwing</string>
+    <string name="pref_disk_usage_warning_level_summary">"Vertoon 'n ander kleur op die berging legstuk wanneer dit %1$s persent bergingspasie bereik"</string>
+    <string name="pref_compute_folder_statistics">Bereken vouergids statistieke</string>
+    <string name="pref_compute_folder_statistics_on">Waarskuwing! Die berekening van vouergids statistieke kan lank vat en stelsel bronne uitput</string>
+    <string name="pref_display_thumbs">Voorskou</string>
+    <string name="pref_display_thumbs_summary">"Wys 'n voorbeeld prent vir programme, musiek lêers, foto's en video's."</string>
+    <string name="pref_use_flinger">Gebruik gly-gebare</string>
+    <string name="pref_use_flinger_summary">Gebruik gly links-na-regs gebaar om lêers of vouersgidse te verwyder.</string>
+    <string name="pref_general_advanced_settings_category">Gevorderd</string>
+    <string name="pref_access_mode">Toegangsmodus</string>
+    <string name="pref_access_mode_safe">Veilige modus</string>
+    <string name="pref_access_mode_safe_summary">"Veilige modus
+
+Die program is aktief sonder regte en die enigste toeganklike lêerstelsels is skyf volumes (SD-kaart en USB-berging)"</string>
+    <string name="pref_access_mode_prompt">Vra Gebruiker modus</string>
+    <string name="pref_access_mode_prompt_summary">"Vra Gebruiker modus
+
+Die program is aktief met volle toegang tot die lêerstelsel, maar sal vra vir toestemming voor die uitvoering van enige gevorderde aksies"</string>
+    <string name="pref_access_mode_root">"'Root' modus"</string>
+    <string name="pref_access_mode_root_summary">"'Root' modus
+
+Waarskuwing! Hierdie modus kan die toestel breek. Dit is jou verantwoordelikheid om te verseker dat die operasies veilig is"</string>
+    <string name="pref_restrict_secondary_users_access_title">Beperk gebruikers toegang</string>
+    <string name="pref_restrict_secondary_users_access_summary">Beperk toegang tot die hele stelsel na sekondêre gebruikers</string>
+    <string name="pref_search_results_category">Uitslae</string>
+    <string name="pref_show_relevance_widget">Wys verwante legstuk</string>
+    <string name="pref_highlight_terms">Beklemtoon soekterme</string>
+    <string name="pref_sort_search_results_mode">Sorteer resultate</string>
+    <string name="pref_sort_search_results_mode_none">Geen sortering</string>
+    <string name="pref_sort_search_results_mode_name">Volgens naam</string>
+    <string name="pref_sort_search_results_mode_relevance">Volgens bruikbaarheid</string>
+    <string name="pref_search_privacity_category">Privaat</string>
+    <string name="pref_save_search_terms">Stoor soekterme</string>
+    <string name="pref_save_search_terms_on">Soekterme sal gestoor en gebruik word as voorstelle in die toekoms</string>
+    <string name="pref_save_search_terms_off">Soekterme sal nie gestoor word nie</string>
+    <string name="pref_remove_saved_search_terms">Vee soekterme uit</string>
+    <string name="pref_remove_saved_search_terms_summary">Raak om al die gestoorde soekterme uit te vee</string>
+    <string name="pref_remove_saved_search_terms_msg">Alle gestoorde soekterme is uitgevee.</string>
+    <string name="pref_editor_behaviour_category">Gedrag</string>
+    <string name="pref_no_suggestions">Geen voorstelle</string>
+    <string name="pref_no_suggestions_desc">"Moet nie woordeboek items voorstel tydens verandering van 'n lêer nie"</string>
+    <string name="pref_word_wrap">Woord oorvloei</string>
+    <string name="pref_hexdump">"'Hexdump' binêre lêers"</string>
+    <string name="pref_hexdump_desc">"Met die opening van 'n binêre lêer, genereer 'n 'hexdump' van die lêer en maak dit oop in die 'hex-viewer'."</string>
+    <string name="pref_editor_syntax_highlight_category">Sintaks beklemtoning</string>
+    <string name="pref_syntax_highlight">Sintaks beklemtoon</string>
+    <string name="pref_syntax_highlight_desc">"Beklemtoon die sintaks van die lêer wat vertoon word in die redigeerder (slegs wanneer 'n sintaks beklemtoning verwerker beskikbaar is vir die tipe lêer)"</string>
+    <string name="pref_syntax_highlight_color_scheme">Kleur skema</string>
+    <string name="pref_syntax_highlight_color_scheme_desc">Tik om die sintaks beklemtonings kleur skema te kies</string>
+    <string name="pref_syntax_sh_use_theme_default">Gebruik standaard tema</string>
+    <string name="pref_syntax_sh_use_theme_default_desc">Gebruik die standaard sintaks beklemtoning vir die huidige tema</string>
+    <string name="pref_editor_sh_item_category">Items</string>
+    <string name="pref_themes_selection_category">Temas</string>
+    <string name="pref_themes_set_theme">Pas tema aan</string>
+    <string name="pref_themes_no_preview">Geen voorskou beskikbaar nie.</string>
+    <string name="pref_themes_confirmation">Tema suksesvol toegepas.</string>
+    <string name="pref_themes_not_found">Die tema kon nie gevind word nie.</string>
+    <string name="pref_debug_traces">Meld ontfoutings inligting aan</string>
+    <string name="theme_default_name">Ligte Tema</string>
+    <string name="theme_default_description">"'n ligte tema vir letv Lêer-verkenner"</string>
+    <string name="themes_author">letv</string>
+    <string name="drawer_open">Maak navigasie laai oop</string>
+    <string name="drawer_close">Sluit navigasie laai</string>
+    <string name="color_picker_alpha_slider_text">Deursigtigheid</string>
+    <string name="color_picker_current_text">Huidige:</string>
+    <string name="color_picker_new_text">Nuut:</string>
+    <string name="color_picker_color">Kleur:</string>
+    <string name="ash_reset_color_scheme">Tik om die standaard kleur skema te herstel</string>
+    <string name="ash_text">Teks</string>
+    <string name="ash_assignment">Opdrag</string>
+    <string name="ash_singleline_comment">Enkel-lyn kommentaar</string>
+    <string name="ash_multiline_comment">Multi-lyn kommentaar</string>
+    <string name="ash_keyword">Sleutelwoord</string>
+    <string name="ash_quoted_string">Aangehaalde teks</string>
+    <string name="ash_variable">Veranderlike</string>
+    <string name="security_warning_extract">"Waarskuwing!
+
+ Gebruik van 'n argiefvouer met 'n relatiewe of absolute pad kan lei tot skade aan die toestel deur die oorskryf van stelsel vouers.
+
+ Wil jy voortgaan?"</string>
+    <string name="changelog_title">Veranderinge</string>
+    <string name="welcome_title">Welkom</string>
+    <string name="welcome_msg">"Welkom by die letv Lêer-verkenner. 
+
+Met hierdie program kan jy die lêerstelsel verken en moontlik die toestel beskadig. Om dit te voorkom, sal die program begin in 'n veilige, lae-bevoorregte modus. 
+
+U kan toegang tot 'n gevorderde, volbevoorregte modus verkry deur instellings. Dit is jou verantwoordelikheid om te verseker dat enige aksie wat gedoen word nie die stelsel beskadig nie. 
+
+Die letv span."</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/dialog_padding_size" android:paddingRight="@dimen/dialog_padding_size" android:layout_width="fill_parent" android:layout_height="@dimen/le_dimen_size_56"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textSize="@dimen/le_text_size_16" android:textColor="#ff000000" android:id="@id/adapter_more_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" leui:leCJKTextWeight="normal" />
+</RelativeLayout>

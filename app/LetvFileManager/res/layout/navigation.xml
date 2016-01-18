@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.android.filemanager.ui.widgets.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:filemanager="http://schemas.android.com/apk/res/com.letv.android.filemanager">
+    <LinearLayout android:orientation="vertical" android:id="@id/navigation_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.letv.android.filemanager.ui.widgets.NavigationView android:id="@id/navigation_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" filemanager:navigation="browsable" />
+        <com.letv.android.filemanager.ui.widgets.SelectionView android:id="@id/navigation_selectionbar" android:background="@drawable/bg_holo_selectionbar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/small_row_height" />
+        <include layout="@layout/navigation_view_statusbar" />
+    </LinearLayout>
+    <include layout="@layout/navigation_drawer" />
+</com.letv.android.filemanager.ui.widgets.DrawerLayout>

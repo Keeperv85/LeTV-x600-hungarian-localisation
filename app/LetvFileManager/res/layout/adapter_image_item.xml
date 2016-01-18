@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/holo_list_selector_deselected" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/navigation_view_item_fl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.android.filemanager.ui.widgets.FixedSizeImageView android:id="@id/navigation_view_item_icon" android:background="@color/le_category_pressed_color" android:layout_width="fill_parent" android:layout_height="100.0dip" android:src="@null" android:scaleType="centerCrop" android:contentDescription="@null" />
+            <ImageView android:background="@drawable/le_img_boder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.letv.leui.widget.LeCheckBox android:id="@id/navigation_view_item_check" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_dimen_size_4" android:layout_marginRight="@dimen/le_dimen_size_4" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" leui:leBoxOnColor="@color/le_filemanager_color" leui:leBoxIsTextOnRight="false" />
+    </RelativeLayout>
+</FrameLayout>

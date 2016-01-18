@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandList
+  xmlns="http://schemas.android.com/apk/res/com.letv.android.filemanager">
+    <startcode commandId="startcode" commandPath="/system/xbin/echo -n %1$s0%2$s ; " />
+    <exitcode commandId="exitcode" commandPath=" ; /system/xbin/echo -n %1$s$?%2$s" />
+    <command commandId="bash" commandPath="/system/bin/sh" commandArgs="" />
+    <command commandId="su" commandPath="/system/xbin/su" commandArgs="" />
+    <command commandId="groups" commandPath="/system/xbin/groups" commandArgs="" />
+    <command commandId="id" commandPath="/system/bin/id" commandArgs="-Gn" />
+    <command commandId="mount" commandPath="/system/bin/mount" commandArgs="-o %1$s,remount -t %2$s %3$s" />
+    <command commandId="mountpointinfo" commandPath="/system/bin/mount" commandArgs="" />
+    <command commandId="ls" commandPath="/system/bin/ls" commandArgs="%1$s 1> /dev/null &amp;&amp; /system/xbin/stat -t %1$s.* %1$s* 2> /dev/null" />
+    <command commandId="fileinfo" commandPath="/system/xbin/stat" commandArgs="-t %1$s" />
+    <command commandId="find" commandPath="/system/xbin/find" commandArgs="%1$s \\( -name %2$s -o -name %3$s -o -name %4$s -o -name %5$s -o -name %6$s \\) -exec /system/xbin/stat -t {} 2>&amp;1 \\;" />
+    <command commandId="quickfoldersearch" commandPath="/system/bin/ls" commandArgs="-aFd %1$s.* %1$s* 2> /dev/null | /system/xbin/grep -e '^d' -e '^ld' | /system/xbin/cut -d&quot; &quot; -f2-" />
+    <command commandId="readlink" commandPath="/system/bin/ls" commandArgs="%1$s 1> /dev/null &amp;&amp; /system/xbin/stat -tL %1$s 2>&amp;1" />
+    <command commandId="chmod" commandPath="/system/bin/chmod" commandArgs="%1$s %2$s" />
+    <command commandId="chown" commandPath="/system/bin/chown" commandArgs="%1$s.%2$s %3$s" />
+    <command commandId="cp" commandPath="/system/xbin/cp" commandArgs="-af %1$s %2$s" />
+    <command commandId="link" commandPath="/system/bin/ln" commandArgs="-s %1$s %2$s" />
+    <command commandId="mkdir" commandPath="/system/bin/mkdir" commandArgs="-p %1$s" />
+    <command commandId="mv" commandPath="/system/bin/mv" commandArgs="%1$s %2$s || ( /system/xbin/cp -af %1$s %2$s &amp;&amp; /system/bin/rm -R %1$s )" />
+    <command commandId="rm" commandPath="/system/bin/rm" commandArgs="%1$s" />
+    <command commandId="rmdir" commandPath="/system/bin/rm" commandArgs="-R %1$s" />
+    <command commandId="diskusage" commandPath="/system/bin/df" commandArgs="%1$s" />
+    <command commandId="diskusageall" commandPath="/system/bin/df" commandArgs="" />
+    <command commandId="folderusage" commandPath="/system/xbin/busybox" commandArgs="ls -alR %1$s 2> /dev/null" />
+    <command commandId="read" commandPath="/system/bin/cat" commandArgs="%1$s" />
+    <command commandId="touch" commandPath="/system/xbin/echo" commandArgs="-n '' >> %1$s" />
+    <command commandId="write" commandPath="/system/bin/dd" commandArgs="bs=4k of=%1$s" />
+    <command commandId="exec" commandPath="/system/bin/sh" commandArgs="%1$s" />
+    <command commandId="dirname" commandPath="/system/xbin/dirname" commandArgs="%1$s" />
+    <command commandId="echo" commandPath="/system/xbin/echo" commandArgs="%1$s" />
+    <command commandId="checksum" commandPath="/system/xbin/md5sum" commandArgs="%1$s &amp;&amp; /system/xbin/sha1sum %1$s" />
+    <command commandId="pid_shell" commandPath="/system/xbin/echo" commandArgs="$$" />
+    <command commandId="pid_shell_cmds" commandPath="/system/bin/ps" commandArgs="| /system/xbin/grep -w %1$s | /system/xbin/awk '{print $2}' | /system/xbin/grep -v -w %1$s" />
+    <command commandId="pid_cmd" commandPath="/system/bin/ps" commandArgs="| /system/xbin/grep %1$s | /system/xbin/grep -w %2$s | /system/xbin/awk '{print $2}'" />
+    <command commandId="sendsignal" commandPath="/system/bin/kill" commandArgs="-%1$s %2$s" />
+    <command commandId="terminate" commandPath="/system/bin/kill" commandArgs="%1$s" />
+    <command commandId="tar" commandPath="/system/xbin/tar" commandArgs="-C%1$s -%2$scvf %3$s [@]" />
+    <command commandId="gzip" commandPath="/system/bin/gzip" commandArgs="%1$s" />
+    <command commandId="bzip" commandPath="/system/xbin/bzip2" commandArgs="-f %1$s" />
+    <command commandId="zip" commandPath="cd" commandArgs="%1$s &amp;&amp; ( /system/xbin/zip -9 -r -y %2$s [@] || cd /)" />
+    <command commandId="untar" commandPath="/system/bin/mkdir" commandArgs="-p %2$s &amp;&amp; /system/xbin/tar -C %2$s -%1$sxvf %3$s" />
+    <command commandId="unzip" commandPath="/system/bin/mkdir" commandArgs="-p %1$s &amp;&amp; /system/xbin/unzip -o %2$s -d %1$s" />
+    <command commandId="gunzip" commandPath="/system/xbin/gunzip" commandArgs="-f %1$s" />
+    <command commandId="bunzip" commandPath="/system/xbin/bunzip2" commandArgs="-f %1$s" />
+    <command commandId="unlzma" commandPath="/system/xbin/unlzma" commandArgs="-f %1$s" />
+    <command commandId="uncompress" commandPath="/system/xbin/uncompress" commandArgs="-f %1$s" />
+    <command commandId="unxz" commandPath="/system/xbin/unxz" commandArgs="-f %1$s" />
+    <command commandId="unrar" commandPath="/system/xbin/unrar" commandArgs="x -ry -c- -cfg- -kb -p- -o+ %2$s %1$s" />
+</CommandList>

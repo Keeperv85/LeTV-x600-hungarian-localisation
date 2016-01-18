@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d pastas</item>
+        <item quantity="one">%1$d pasta</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d ficheiros</item>
+        <item quantity="one">%1$d ficheiro</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d items encontrados</item>
+        <item quantity="one">%1$d item encontrado</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d pastas selecionadas.</item>
+        <item quantity="one">%1$d pasta selecionada.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d ficheiros selecionados.</item>
+        <item quantity="one">%1$d ficheiro selecionado.</item>
+    </plurals>
+</resources>

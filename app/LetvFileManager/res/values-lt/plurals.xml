@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d aplankų</item>
+        <item quantity="one">%1$d aplankas</item>
+        <item quantity="few">%1$d aplankai</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d failų</item>
+        <item quantity="one">%1$d failas</item>
+        <item quantity="few">%1$d failai</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">Rasta %d elementų</item>
+        <item quantity="one">Rastas %d elementas</item>
+        <item quantity="few">Rasti %d elementai</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">Pažymėta %1$d aplankų</item>
+        <item quantity="one">Pažymėtas %1$d aplankas</item>
+        <item quantity="few">Pažymėti %1$d aplankai</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">Pažymėta %1$d failų</item>
+        <item quantity="one">Pažymėtas %1$d failas</item>
+        <item quantity="few">Pažymėti %1$d failai</item>
+    </plurals>
+</resources>

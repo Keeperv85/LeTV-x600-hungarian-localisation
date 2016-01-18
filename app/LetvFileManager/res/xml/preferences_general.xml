@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_general_behaviour_category" android:key="general_behaviour">
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_case_sensitive_sort" android:key="cm_filemanager_case_sensitive_sort" android:summary="@string/pref_case_sensitive_sort_summary" android:defaultValue="false" />
+        <ListPreference android:persistent="true" android:entries="@array/filetime_format_mode_labels" android:title="@string/pref_filetime_format_mode" android:key="cm_filemanager_filetime_format_mode" android:defaultValue="1" android:entryValues="@array/filetime_format_mode_values" />
+        <ListPreference android:persistent="true" android:entries="@array/disk_usage_warning_level_labels" android:title="@string/pref_disk_usage_warning_level" android:key="cm_filemanager_disk_usage_warning_level" android:defaultValue="95" android:entryValues="@array/disk_usage_warning_level_values" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_compute_folder_statistics" android:key="cm_filemanager_compute_folder_statistics" android:defaultValue="false" android:summaryOn="@string/pref_compute_folder_statistics_on" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_display_thumbs" android:key="cm_filemanager_show_thumbs" android:summary="@string/pref_display_thumbs_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_use_flinger" android:key="cm_filemanager_use_flinger" android:summary="@string/pref_use_flinger_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_general_advanced_settings_category" android:key="general_advanced_settings">
+        <ListPreference android:persistent="true" android:entries="@array/access_mode_labels" android:title="@string/pref_access_mode" android:key="cm_filemanager_access_mode" android:defaultValue="0" android:entryValues="@array/access_mode_values" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/pref_restrict_secondary_users_access_title" android:key="cm_filemanager_restrict_secondary_users_access" android:summary="@string/pref_restrict_secondary_users_access_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_debug_traces" android:key="cm_filemanager_show_debug_traces" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

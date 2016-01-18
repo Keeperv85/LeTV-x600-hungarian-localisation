@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">1 cartella</item>
+        <item quantity="one">%1$d cartella</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">1 elemento trovato</item>
+        <item quantity="one">%1$d elemento trovato</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d cartelle selezionate.</item>
+        <item quantity="one">%1$d cartella selezionata.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d file selezionati.</item>
+        <item quantity="one">%1$d file selezionato.</item>
+    </plurals>
+</resources>

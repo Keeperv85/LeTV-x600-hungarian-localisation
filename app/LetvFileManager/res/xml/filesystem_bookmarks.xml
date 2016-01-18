@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bookmarks
+  xmlns="http://schemas.android.com/apk/res/com.letv.android.filemanager">
+    <bookmark name="@string/bookmarks_root_folder" directory="@string/root_dir" />
+    <bookmark name="@string/bookmarks_system_folder" directory="@string/system_dir" />
+</Bookmarks>

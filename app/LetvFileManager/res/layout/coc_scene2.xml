@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/action_bg" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/popup_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_mkdir_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/popup_right_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="18.0dip" android:textColor="#ff9d9d9d" android:id="@id/pop_select_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_mdf_dir" />
+    </LinearLayout>
+    <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

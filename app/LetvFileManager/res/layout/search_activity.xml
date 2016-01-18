@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <ListView android:id="@id/search_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" />
+    <com.letv.leui.widget.LeBlankPage leui:icon="@drawable/search_empty_icon" android:id="@id/le_blank_page" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:message="@string/le_searching_msg" />
+</FrameLayout>

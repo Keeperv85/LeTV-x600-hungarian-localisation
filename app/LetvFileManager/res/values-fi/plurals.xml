@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d kansiota</item>
+        <item quantity="one">%1$d kansio</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d tiedostoa</item>
+        <item quantity="one">%1$d tiedosto</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d kohdetta löytyi</item>
+        <item quantity="one">%1$d kohde löytyi</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d kansiota valittu.</item>
+        <item quantity="one">%1$d kansio valittu.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d tiedostoa valittu.</item>
+        <item quantity="one">%1$d tiedosto valittu.</item>
+    </plurals>
+</resources>

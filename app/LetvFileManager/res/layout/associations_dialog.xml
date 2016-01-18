@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/associations_gridview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/default_margin" android:stretchMode="columnWidth" android:numColumns="@integer/associations_items_per_row" />
+    <CheckBox android:textAppearance="@style/secondary_text_appearance" android:id="@id/associations_remember" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_margin" android:text="@string/associations_dialog_remember" />
+</LinearLayout>

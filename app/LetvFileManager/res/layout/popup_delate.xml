@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/delate_linearlayout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/extra_large_margin" android:paddingTop="@dimen/default_row_height" android:paddingRight="@dimen/extra_large_margin" android:paddingBottom="@dimen/default_row_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/delate_context_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:background="@color/default_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <Button android:id="@id/delate_concel_btn" android:background="@color/action_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:background="@color/default_black" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <Button android:id="@id/delate_confirm_btn" android:background="@color/action_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

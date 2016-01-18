@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition android:fromScene="@layout/coc_scene2" android:toScene="@layout/coc_scene1" android:transition="@transition/coc_tran_left_in" />
+    <transition android:fromScene="@layout/coc_scene1" android:toScene="@layout/coc_scene2" android:transition="@transition/coc_tran_left_out" />
+</transitionManager>

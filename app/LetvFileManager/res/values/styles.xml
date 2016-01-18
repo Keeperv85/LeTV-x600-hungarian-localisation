@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FileManager.Theme.Holo.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/default_background</item>
+        <item name="android:actionBarStyle">@style/FileManager.Widget.ActionBar.White</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Leui" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:actionBarStyle">@style/actionbar_def_style</item>
+        <item name="android:actionDropDownStyle">@style/filemanageDropStyle</item>
+        <item name="android:actionModeBackground">@color/action_bg</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_cancel_icon</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:actionModeStyle">@style/LeFileManagerActionModeTheme</item>
+        <item name="android:statusBarColor">@color/action_bg</item>
+        <item name="android:leStatusBarIconColor">@color/default_black</item>
+    </style>
+    <style name="MainTheme" parent="@style/AppTheme">
+        <item name="android:actionBarStyle">@style/actionbar_main_style</item>
+    </style>
+    <style name="SlideTheme" parent="@style/AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="actionbar_main_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/action_bg</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+    </style>
+    <style name="MenuTextStyle">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/le_action_bar_color</item>
+    </style>
+    <style name="filemanageDropStyle" parent="@android:style/Widget.DeviceDefault.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@color/action_bg</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:popupElevation">1.0dip</item>
+    </style>
+    <style name="filemanagerActionModePopup" parent="@android:style/Widget.DeviceDefault.Light.PopupWindow.ActionMode">
+        <item name="android:popupBackground">@drawable/time_header_bg</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:popupElevation">1.0dip</item>
+    </style>
+    <style name="LeFileManagerActionModeTheme" parent="@android:style/Widget.Holo.Light.ActionMode">
+        <item name="android:background">@color/action_bg</item>
+        <item name="android:titleTextStyle">@style/FileManagerActionModeTitleStyle</item>
+    </style>
+    <style name="FileManagerActionModeTitleStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/default_black</item>
+    </style>
+    <style name="actionbar_def_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/action_bg</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+    </style>
+    <style name="actionbar_title_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="FileManager.Theme.Holo" parent="@android:style/Theme.Holo" />
+    <style name="FileManager.Theme.Holo.Light.Overlay" parent="@style/FileManager.Theme.Holo.Light">
+        <item name="android:windowBackground">@color/black_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="FileManager.Theme.Holo.Overlay" parent="@style/FileManager.Theme.Holo">
+        <item name="android:windowBackground">@color/black_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="FileManager.Widget.ActionBar.White" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/default_background</item>
+        <item name="android:titleTextStyle">@style/primary_text_appearance</item>
+        <item name="android:backgroundStacked">@color/default_background</item>
+        <item name="android:backgroundSplit">@color/default_background</item>
+    </style>
+    <style name="title_text_appearance">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_transparent</item>
+    </style>
+    <style name="primary_text_appearance">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_transparent</item>
+    </style>
+    <style name="primary_text_appearance_nohighlight" parent="@style/primary_text_appearance">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="secondary_text_appearance">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black_transparent</item>
+    </style>
+    <style name="hexeditor_text_appearance">
+        <item name="android:textSize">@dimen/hexeditor_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black_transparent</item>
+    </style>
+    <style name="console_text_appearance">
+        <item name="android:textSize">@dimen/console_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/console_fg</item>
+    </style>
+    <style name="dialog_title_text_appearance">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+    <style name="breadcrumb_elemement">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="breadcrumb_item" parent="@style/breadcrumb_elemement">
+        <item name="android:textAppearance">@style/primary_text_appearance</item>
+        <item name="android:paddingLeft">@dimen/breadcrumb_item_margin_space</item>
+        <item name="android:paddingRight">@dimen/breadcrumb_item_margin_space</item>
+        <item name="android:minWidth">@dimen/breadcrumb_item_min_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="breadcrumb_actionbar_buttom">
+        <item name="android:paddingLeft">@dimen/extra_margin</item>
+        <item name="android:paddingRight">@dimen/default_margin</item>
+    </style>
+    <style name="navigation_grid">
+        <item name="android:horizontalSpacing">@dimen/default_horizontal_grid_spacing</item>
+        <item name="android:verticalSpacing">@dimen/default_vertical_grid_spacing</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:numColumns">@integer/default_grid_columns</item>
+    </style>
+    <style name="horizontal_divider">
+        <item name="android:background">@color/divider_color_light</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+    </style>
+    <style name="vertical_divider">
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+    </style>
+    <style name="drawer_header">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_transparent</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="anim_popup">
+        <item name="android:windowEnterAnimation">@anim/translate_to_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/translate_to_bottom_out</item>
+    </style>
+    <style name="anim_top_in_out">
+        <item name="android:windowEnterAnimation">@anim/translate_to_top_in</item>
+        <item name="android:windowExitAnimation">@anim/translate_to_top_out</item>
+    </style>
+    <style name="NumberProgressBar_Default">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ff3498db</item>
+        <item name="progress_reached_bar_height">3.0dip</item>
+        <item name="progress_unreached_bar_height">1.5dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ff3498db</item>
+    </style>
+    <style name="NumberProgressBar_Passing_Green">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ff70a800</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ff70a800</item>
+    </style>
+    <style name="NumberProgressBar_Beauty_Red">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ffff3d7f</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ffff3d7f</item>
+    </style>
+    <style name="NumberProgressBar_Warning_Red">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ffe74c3c</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ffe74c3c</item>
+    </style>
+    <style name="NumberProgressBar_Relax_Blue">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ff6dbcdb</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ff6dbcdb</item>
+    </style>
+    <style name="NumberProgressBar_Grace_Yellow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ffffc73b</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ffffc73b</item>
+    </style>
+    <style name="NumberProgressBar_Funny_Orange">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ffff530d</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ffff530d</item>
+    </style>
+    <style name="NumberProgressBar_Twinkle_Night">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress">0</item>
+        <item name="max">100</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+        <item name="progress_reached_color">#ffecf0f1</item>
+        <item name="progress_reached_bar_height">1.5dip</item>
+        <item name="progress_unreached_bar_height">0.75dip</item>
+        <item name="progress_text_size">10.0sp</item>
+        <item name="progress_text_color">#ffecf0f1</item>
+    </style>
+    <style name="CategoryButtonStyle">
+        <item name="android:background">@drawable/category_btn_background</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="CategoryButtonIconStyle">
+        <item name="android:layout_width">60.0dip</item>
+        <item name="android:layout_height">60.0dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="CategoryButtonTextStyle">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+    </style>
+    <style name="CategoryButtonCountStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff747474</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+    </style>
+    <style name="leRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxWidth">12.0dip</item>
+        <item name="android:maxHeight">10.0dip</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:minWidth">12.0dip</item>
+        <item name="android:minHeight">10.0dip</item>
+    </style>
+</resources>

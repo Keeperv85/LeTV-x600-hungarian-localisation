@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">ෆෝල්ඩර %1$d</item>
+        <item quantity="one">%1$d ෆෝල්ඩරයයි</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">ගොනු %1$d</item>
+        <item quantity="one">%1$d ගොනුවයි</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">අයිතම %d සොයාගැනුණි</item>
+        <item quantity="one">%1$d අයිතමයක් සොයාගැනුණි</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">ෆෝල්ඩර %1$d තෝරාගැනුණි.</item>
+        <item quantity="one">%1$d ෆෝල්ඩරයක් තෝරාගැනුණි.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">ගොනු %1$d තෝරාගැනුණි.</item>
+        <item quantity="one">%1$d ගොනුවක් තෝරාගැනුණි.</item>
+    </plurals>
+</resources>

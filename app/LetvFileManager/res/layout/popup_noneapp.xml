@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/delate_linearlayout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="@dimen/le_text_size_16" android:textColor="#ff000000" android:gravity="center" android:id="@id/noneapp_context_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/support_for_your_app" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+        <ListView android:id="@id/app_info_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <Button android:textSize="@dimen/le_text_size_16" android:textColor="#ff000000" android:id="@id/noneapp_concel_btn" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/concel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

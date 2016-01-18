@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/actionbar_zhong" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/le_dimen_size_16" android:textColor="@color/le_title_txt_color" android:gravity="center" android:id="@id/navigation_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mobile_st" android:singleLine="true" android:fontFamily="hans-sans-medium" />
+    <ImageView android:gravity="center_vertical" android:id="@id/navigation_title_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/le_dimen_size_6" />
+</LinearLayout>

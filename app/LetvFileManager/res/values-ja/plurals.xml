@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d個のフォルダ</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d個のファイル</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d個のアイテムが見つかりました</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d個のフォルダを選択しています。</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d個のファイルを選択しています。</item>
+    </plurals>
+</resources>

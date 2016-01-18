@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="commandId" format="string" />
+    <attr name="commandPath" format="string" />
+    <attr name="commandArgs" format="string" />
+    <attr name="name" format="string" />
+    <attr name="directory" format="string" />
+    <attr name="navigation" format="integer">
+        <enum name="browsable" value="0" />
+        <enum name="pickable" value="1" />
+    </attr>
+    <attr name="progress" format="integer" />
+    <attr name="max" format="integer" />
+    <attr name="progress_unreached_color" format="color" />
+    <attr name="progress_reached_color" format="color" />
+    <attr name="progress_reached_bar_height" format="dimension" />
+    <attr name="progress_unreached_bar_height" format="dimension" />
+    <attr name="progress_text_size" format="dimension" />
+    <attr name="progress_text_color" format="color" />
+    <attr name="progress_text_offset" format="dimension" />
+    <attr name="progress_text_visibility">
+        <enum name="invisible" value="1" />
+        <enum name="visible" value="0" />
+    </attr>
+    <attr name="numberProgressBarStyle" format="reference" />
+    <attr name="ptrRefreshableViewBackground" format="reference|color" />
+    <attr name="ptrHeaderBackground" format="reference|color" />
+    <attr name="ptrHeaderTextColor" format="reference|color" />
+    <attr name="ptrHeaderSubTextColor" format="reference|color" />
+    <attr name="ptrMode">
+        <flag name="both" value="0x00000003" />
+        <flag name="disabled" value="0x00000000" />
+        <flag name="manualOnly" value="0x00000004" />
+        <flag name="pullDownFromTop" value="0x00000001" />
+        <flag name="pullFromEnd" value="0x00000002" />
+        <flag name="pullFromStart" value="0x00000001" />
+        <flag name="pullUpFromBottom" value="0x00000002" />
+    </attr>
+    <attr name="ptrShowIndicator" format="reference|boolean" />
+    <attr name="ptrDrawable" format="reference" />
+    <attr name="ptrDrawableStart" format="reference" />
+    <attr name="ptrDrawableEnd" format="reference" />
+    <attr name="ptrOverScroll" format="reference|boolean" />
+    <attr name="ptrHeaderTextAppearance" format="reference" />
+    <attr name="ptrSubHeaderTextAppearance" format="reference" />
+    <attr name="ptrAnimationStyle">
+        <flag name="flip" value="0x00000001" />
+        <flag name="rotate" value="0x00000000" />
+    </attr>
+    <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+    <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+    <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+    <attr name="ptrAdapterViewBackground" format="reference|color" />
+    <attr name="ptrDrawableTop" format="reference" />
+    <attr name="ptrDrawableBottom" format="reference" />
+</resources>

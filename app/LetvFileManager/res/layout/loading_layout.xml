@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loading_layout" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/le_text_size_15" android:textColor="#ffcccccc" android:id="@id/activity_empty_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloading_btn_label" android:layout_centerInParent="true" />
+</RelativeLayout>

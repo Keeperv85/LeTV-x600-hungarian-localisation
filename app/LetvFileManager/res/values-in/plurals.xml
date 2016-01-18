@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d folder</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d file</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d item ditemukan</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d folder terpilih.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d file terpilih.</item>
+    </plurals>
+</resources>

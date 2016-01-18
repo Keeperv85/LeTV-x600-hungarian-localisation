@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d carpetes</item>
+        <item quantity="one">1 carpeta</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d ficheros</item>
+        <item quantity="one">1 ficheru</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d elementos alcontraos</item>
+        <item quantity="one">1 elementu alcontráu</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d carpetes esbillaes.</item>
+        <item quantity="one">1 carpeta esbillada.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d ficheros esbillaos.</item>
+        <item quantity="one">1 ficheru esbilláu.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_title" />
+        </LinearLayout>
+        <TextView android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/default_margin" android:layout_marginRight="@dimen/default_margin" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <GridView android:gravity="center" android:id="@id/share_gridview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/default_margin" android:stretchMode="columnWidth" android:numColumns="@integer/associations_items_per_row" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height" android:layout_marginBottom="11.0dip">
+            <Button android:id="@id/share_concel_btn" android:background="@color/action_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/primary_text_appearance" android:textStyle="normal" android:gravity="center|left" android:id="@id/input_name_dialog_label" android:layout_width="wrap_content" android:layout_height="@dimen/default_row_height" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin" android:text="@string/initial_directory_label" />
+    <EditText android:textSize="@dimen/primary_text_size" android:textStyle="normal" android:id="@id/input_name_dialog_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin" android:layout_marginBottom="@dimen/extra_large_margin" android:ems="@integer/default_edit_text_ems" android:scrollHorizontally="true" android:selectAllOnFocus="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone|flagNoFullscreen">
+        <requestFocus />
+    </EditText>
+    <TextView android:textAppearance="@style/secondary_text_appearance" android:textSize="@dimen/note_text_size" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/input_name_dialog_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin" android:text="@null" android:singleLine="false" android:drawableLeft="@drawable/ic_holo_light_fs_warning" android:drawablePadding="@dimen/default_margin" android:contentDescription="@null" />
+</LinearLayout>

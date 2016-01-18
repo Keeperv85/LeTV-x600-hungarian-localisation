@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.android.filemanager.ui.widgets.NavigationCustomTitleView android:id="@id/navigation_title_flipper" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:animateFirstView="true">
+        <include layout="@layout/navigation_view_customtitle_breadcrumb" />
+        <include layout="@layout/navigation_view_customtitle_configuration" />
+    </com.letv.android.filemanager.ui.widgets.NavigationCustomTitleView>
+    <LinearLayout android:id="@id/navigation_title_landscape_holder" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

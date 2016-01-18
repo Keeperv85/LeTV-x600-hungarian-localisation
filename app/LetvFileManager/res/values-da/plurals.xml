@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">1 mappe</item>
+        <item quantity="one">0 mapper</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">1 fil</item>
+        <item quantity="one">0 filer</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">1 element fundet</item>
+        <item quantity="one">Ingen elementer fundet</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d mapper valgt.</item>
+        <item quantity="one">1 mappe valgt.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d filer valgt.</item>
+        <item quantity="one">1 fil valgt.</item>
+    </plurals>
+</resources>

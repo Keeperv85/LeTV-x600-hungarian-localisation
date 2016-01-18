@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d папок</item>
+        <item quantity="one">%1$d папка</item>
+        <item quantity="few">%1$d папки</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d файлів</item>
+        <item quantity="one">%1$d файл</item>
+        <item quantity="few">%1$d файли</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d об’єктів знайдено</item>
+        <item quantity="one">%1$d об’єкт знайдено</item>
+        <item quantity="few">%1$d об’єкти знайдено</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d папок вибрано.</item>
+        <item quantity="one">%1$d папка вибрано.</item>
+        <item quantity="few">%1$d папки вибрано.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d файлів вибрано.</item>
+        <item quantity="one">%1$d файл вибрано.</item>
+        <item quantity="few">%1$d файли вибрано.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/holo_list_selector_deselected" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bookmarks_item_icon" android:padding="8.0dip" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:src="@null" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/primary_text_appearance" android:id="@id/bookmarks_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/secondary_text_appearance" android:id="@id/bookmarks_item_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <com.letv.android.filemanager.ui.widgets.NonFocusableButtonItem android:gravity="center" android:id="@id/bookmarks_item_action" android:layout_width="@dimen/default_buttom_width" android:layout_height="fill_parent" android:src="@null" android:contentDescription="@null" />
+</LinearLayout>

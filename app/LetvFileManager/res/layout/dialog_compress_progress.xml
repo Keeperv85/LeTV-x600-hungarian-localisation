@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dialog_padding_size" android:paddingTop="@dimen/dialog_padding_size" android:paddingRight="@dimen/dialog_padding_size" android:paddingBottom="@dimen/dialog_padding_size" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:leui="http://schemas.android.com/apk/res-auto"
+  xmlns:prv="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/le_dimen_size_27">
+        <TextView android:textSize="@dimen/le_text_size_15" android:textColor="@color/le_item_size_color" android:id="@id/dialog_progress_persent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/le_text_size_18" android:textColor="@color/le_dialog_title_color" android:id="@id/dialog_progress_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/dialog_progress_persent" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.letv.leui.widget.LeProgressBar android:id="@id/dialog_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le_dimen_size_18" android:layout_marginBottom="@dimen/le_dimen_size_18" android:indeterminateOnly="false" prv:le_progress_color="@color/default_btn_color" prv:le_type="horizontal" />
+</LinearLayout>

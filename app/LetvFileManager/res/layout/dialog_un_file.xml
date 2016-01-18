@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dialog_padding_size" android:paddingTop="@dimen/le_dimen_size_4" android:paddingRight="@dimen/dialog_padding_size" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_marginTop="@dimen/le_dimen_size_16" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/nufile_txt_btn" android:paddingTop="@dimen/extra_large_margin" android:paddingBottom="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_by_txt" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/nufile_audio_btn" android:paddingTop="@dimen/extra_large_margin" android:paddingBottom="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_by_audio" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/nufile_vedio_btn" android:paddingTop="@dimen/extra_large_margin" android:paddingBottom="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_by_vedio" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/nufile_img_btn" android:paddingTop="@dimen/extra_large_margin" android:paddingBottom="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/le_text_size_14" android:textColor="@color/le_dialog_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_by_img" />
+        </LinearLayout>
+        <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" />
+    </LinearLayout>
+</LinearLayout>

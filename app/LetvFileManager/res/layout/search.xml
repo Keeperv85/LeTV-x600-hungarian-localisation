@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/primary_text_appearance_nohighlight" android:textSize="@dimen/title_text_size" android:gravity="center" android:id="@id/search_empty_msg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/extra_margin" android:text="@string/search_no_results_msg" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/search_waiting" android:visibility="gone" android:layout_width="@dimen/default_row_height" android:layout_height="@dimen/default_row_height" android:indeterminate="true" android:indeterminateOnly="true" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/search_status" android:background="@drawable/bg_holo_statusbar" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="@style/primary_text_appearance" android:id="@id/search_status_found_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_margin" android:layout_marginTop="@dimen/default_margin" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="@style/secondary_text_appearance" android:id="@id/search_status_query_terms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_margin" android:layout_marginBottom="@dimen/default_margin" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.letv.android.filemanager.ui.widgets.FlingerListView android:id="@id/search_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/search_status" />
+</RelativeLayout>

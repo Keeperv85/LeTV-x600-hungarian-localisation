@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/filesystem_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/filesystem_info_dialog_tabhost" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center" android:id="@id/filesystem_info_dialog_tab_info" android:background="@drawable/holo_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/filesystem_info_dialog_tab_info" android:layout_weight="1.0" android:textAllCaps="true" />
+            <include android:id="@id/filesystem_info_dialog_tab_divider1" layout="@layout/horizontal_divider" />
+            <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center" android:id="@id/filesystem_info_dialog_tab_disk_usage" android:background="@drawable/holo_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/filesystem_info_dialog_tab_disk_usage" android:layout_weight="1.0" android:textAllCaps="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/filesystem_info_dialog_tab_divider2" layout="@layout/vertical_divider" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/filesystem_tab_info" android:paddingTop="@dimen/default_margin" android:paddingBottom="@dimen/extra_large_margin" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/filesystem_tabs">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="1">
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_status_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_status" />
+                <Switch android:layout_gravity="left" android:id="@id/filesystem_info_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:textOn="@string/mount_point_readwrite" android:textOff="@string/mount_point_readonly" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_mount_point_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_mount_point" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_mount_point" android:paddingRight="@dimen/double_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:singleLine="false" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_device_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_device" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_device" android:paddingRight="@dimen/double_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:singleLine="false" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left|top" android:id="@id/filesystem_info_type_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_type" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_type" android:paddingRight="@dimen/double_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:singleLine="false" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_options_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_options" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_options" android:paddingRight="@dimen/double_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:maxLines="5" android:singleLine="false" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_dump_pass_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_dump_pass" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_dump_pass" android:paddingRight="@dimen/double_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:singleLine="false" />
+            </TableRow>
+            <TextView android:textAppearance="@style/secondary_text_appearance" android:textSize="@dimen/note_text_size" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/filesystem_info_msg" android:background="@drawable/holo_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin" android:text="@string/filesystem_info_mount_not_allowed_msg" android:singleLine="false" android:drawableLeft="@drawable/ic_holo_light_fs_warning" android:drawablePadding="@dimen/default_margin" android:contentDescription="@null" />
+        </TableLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/filesystem_tab_diskusage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/filesystem_tabs">
+        <com.letv.android.filemanager.ui.widgets.DiskUsageGraph android:id="@id/filesystem_disk_usage_graph" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_large_margin" android:layout_weight="0.3" />
+        <TableLayout android:layout_gravity="center|left" android:paddingTop="@dimen/default_margin" android:paddingBottom="@dimen/extra_large_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:shrinkColumns="1" android:layout_weight="0.7">
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_total_disk_usage_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_total_disk_usage" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_total_disk_usage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_used_disk_usage_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_used_disk_usage" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_used_disk_usage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" />
+            </TableRow>
+            <TableRow android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+                <TextView android:textAppearance="@style/primary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_free_disk_usage_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" android:text="@string/filesystem_info_dialog_free_disk_usage" />
+                <TextView android:textAppearance="@style/secondary_text_appearance" android:gravity="center|left" android:id="@id/filesystem_info_free_disk_usage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

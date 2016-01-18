@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d папок</item>
+        <item quantity="one">%1$d папка</item>
+        <item quantity="few">%1$d папки</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d файлов</item>
+        <item quantity="one">%1$d файл</item>
+        <item quantity="few">%1$d файла</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">Найдено %d объектов</item>
+        <item quantity="one">Найден %d объект</item>
+        <item quantity="few">Найдено %d объекта</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">Выделено %1$d папок</item>
+        <item quantity="one">Выделена %1$d папка</item>
+        <item quantity="few">Выделено %1$d папки</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">Выделено %1$d файлов</item>
+        <item quantity="one">Выделен %1$d файл</item>
+        <item quantity="few">Выделено %1$d файла</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_inner" android:paddingTop="@dimen/header_footer_top_bottom_padding" android:paddingBottom="@dimen/header_footer_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:id="@id/top_bar_sort" android:background="@drawable/ic_fso_type_app" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/top_bar_search" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

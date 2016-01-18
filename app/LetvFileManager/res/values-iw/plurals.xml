@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d תקיות</item>
+        <item quantity="one">תקייה %1$d</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d קבצים</item>
+        <item quantity="one">קובץ %1$d</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d איברים נמצאו</item>
+        <item quantity="one">איבר %1$d נמצא</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">נבחרו %1$d תקיות.</item>
+        <item quantity="one">נבחרה תיקייה %1$d.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">נבחרו %1$d קבצים.</item>
+        <item quantity="one">נבחר קובץ %1$d.</item>
+    </plurals>
+</resources>

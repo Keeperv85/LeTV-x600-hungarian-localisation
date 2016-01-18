@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <TextView android:id="@id/zip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zip_title" />
+        </LinearLayout>
+        <TextView android:background="@color/default_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="@dimen/extra_large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/zip_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:background="@color/default_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height">
+            <Button android:id="@id/zip_concel_btn" android:background="@color/action_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+            <TextView android:background="@color/default_black" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <Button android:id="@id/zip_confirm_btn" android:background="@color/action_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/confirm_btn" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

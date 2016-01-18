@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d složek</item>
+        <item quantity="one">1 složka</item>
+        <item quantity="few">%1$d složky</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d souborů</item>
+        <item quantity="one">1 soubor</item>
+        <item quantity="few">%1$d soubory</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">Nalezeno %d položek</item>
+        <item quantity="one">Nalezena 1 položka</item>
+        <item quantity="few">Nalezeny %d položky</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d složek vybráno.</item>
+        <item quantity="one">1 složka vybrána.</item>
+        <item quantity="few">%1$d složky vybrány.</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d souborů vybráno.</item>
+        <item quantity="one">1 soubor vybrán.</item>
+        <item quantity="few">%1$d soubory vybrány.</item>
+    </plurals>
+</resources>

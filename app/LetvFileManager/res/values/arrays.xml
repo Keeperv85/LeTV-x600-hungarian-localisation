@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cm_filemanager_sort_mode">
+        <item>@string/sort_by_name_asc</item>
+        <item>@string/sort_by_date_asc</item>
+        <item>@string/sort_by_size_asc</item>
+        <item>@string/sort_by_type_asc</item>
+    </string-array>
+    <string-array name=" category_filemanager_sort_mode">
+        <item>@string/sort_by_name_asc</item>
+        <item>@string/sort_by_date_asc</item>
+        <item>@string/sort_by_size_asc</item>
+        <item>@string/sort_by_type_asc</item>
+    </string-array>
+    <string-array name=" dirimage_filemanager_sort_mode">
+        <item>@string/sort_by_name_asc</item>
+        <item>@string/sort_by_date_asc</item>
+    </string-array>
+    <string-array name="cm_filemanager_layout_mode">
+        <item>@string/layout_icons</item>
+        <item>@string/layout_simple</item>
+        <item>@string/layout_details</item>
+    </string-array>
+    <string-array name="filetime_format_mode_labels">
+        <item>@string/filetime_format_mode_system</item>
+        <item>@string/filetime_format_mode_locale</item>
+        <item>@string/filetime_format_mode_ddMMyyyy_HHmmss</item>
+        <item>@string/filetime_format_mode_MMddyyyy_HHmmss</item>
+        <item>@string/filetime_format_mode_yyyyMMdd_HHmmss</item>
+    </string-array>
+    <string-array name="filetime_format_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="disk_usage_warning_level_labels">
+        <item>75%</item>
+        <item>90%</item>
+        <item>95%</item>
+        <item>98%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="disk_usage_warning_level_values">
+        <item>75</item>
+        <item>90</item>
+        <item>95</item>
+        <item>98</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="access_mode_labels">
+        <item>@string/pref_access_mode_safe</item>
+        <item>@string/pref_access_mode_prompt</item>
+        <item>@string/pref_access_mode_root</item>
+    </string-array>
+    <string-array name="access_mode_summaries">
+        <item>@string/pref_access_mode_safe_summary</item>
+        <item>@string/pref_access_mode_prompt_summary</item>
+        <item>@string/pref_access_mode_root_summary</item>
+    </string-array>
+    <string-array name="access_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sort_search_results_mode_labels">
+        <item>@string/pref_sort_search_results_mode_none</item>
+        <item>@string/pref_sort_search_results_mode_name</item>
+        <item>@string/pref_sort_search_results_mode_relevance</item>
+    </string-array>
+    <string-array name="sort_search_results_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="compression_modes_labels">
+        <item>@string/compression_mode_tar</item>
+        <item>@string/compression_mode_tar_gzip</item>
+        <item>@string/compression_mode_tar_gzip2</item>
+        <item>@string/compression_mode_tar_bzip</item>
+        <item>@string/compression_mode_gzip</item>
+        <item>@string/compression_mode_bzip</item>
+        <item>@string/compression_mode_zip</item>
+    </string-array>
+    <string-array name="sort_list_str">
+        <item>@string/sort_by_filename</item>
+        <item>@string/sort_by_time</item>
+    </string-array>
+</resources>

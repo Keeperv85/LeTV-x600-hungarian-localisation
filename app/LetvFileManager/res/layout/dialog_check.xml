@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="false" android:indeterminateDrawable="@drawable/progress_drawable" />
+    <TextView android:gravity="center|left" android:id="@id/dialog_title_text" android:layout_width="fill_parent" android:layout_height="@dimen/default_row_height" android:layout_marginLeft="@dimen/extra_margin" android:layout_marginRight="@dimen/extra_margin" android:text="@string/le_file_check" />
+</LinearLayout>

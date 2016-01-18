@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_editor_behaviour_category" android:key="editor_behaviour">
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_no_suggestions" android:key="cm_filemanager_editor_no_suggestions" android:summary="@string/pref_no_suggestions_desc" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_word_wrap" android:key="cm_filemanager_editor_word_wrap" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_hexdump" android:key="cm_filemanager_editor_hexdump" android:summary="@string/pref_hexdump_desc" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_editor_syntax_highlight_category" android:key="editor_syntax_highlight">
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_syntax_highlight" android:key="cm_filemanager_editor_syntax_highlight" android:summary="@string/pref_syntax_highlight_desc" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/pref_syntax_highlight_color_scheme" android:key="cm_filemanager_editor_sh_color_scheme" android:summary="@string/pref_syntax_highlight_color_scheme_desc" android:dependency="cm_filemanager_editor_syntax_highlight" android:fragment="com.letv.android.filemanager.activities.preferences.EditorSHColorSchemePreferenceFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

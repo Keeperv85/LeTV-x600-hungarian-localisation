@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/actionbar_right" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/le_dimen_size_16" android:textColor="#ff525e66" android:gravity="center" android:id="@id/actionbar_checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/edit" />
+    <TextView android:textSize="@dimen/le_dimen_size_16" android:textColor="@color/default_btn_color" android:gravity="center" android:id="@id/actionbar_se_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/select_all" />
+    <TextView android:textSize="@dimen/le_dimen_size_16" android:textColor="#ff525e66" android:gravity="center" android:id="@id/actionbar_mk_dir" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/concel" />
+</LinearLayout>
