@@ -549,10 +549,10 @@
     </string-array>
     <string-array name="timer_alert_text">
         <item>Az idő lejárt!</item>
-        <item>Timer %s has finished</item>
+        <item>A %s idő lejárt</item>
     </string-array>
     <string-array name="notification_timer_title">
         <item>Időzítő</item>
-        <item>Timer %s</item>
+        <item>Időzítő %s</item>
     </string-array>
 </resources>
