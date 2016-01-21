@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fee">
+        <item>CNY 10 (sold at CNY 9.5)</item>
+        <item>CNY 30 (sold at CNY 29.5)</item>
+        <item>CNY 50 (sold at CNY 49.5)</item>
+        <item>CNY 100 (sold at CNY 99.5)</item>
+        <item>CNY 200 (sold at CNY 109.5)</item>
+    </string-array>
+    <string-array name="cards">
+        <item>View phone balances for SIM1 and SIM2</item>
+        <item>Only view phone balance for SIM1</item>
+        <item>Only view phone balance for SIM2</item>
+    </string-array>
+    <string-array name="flows">
+        <item>View data balance for card 1 and card 2</item>
+        <item>Only view data balance for card 1</item>
+        <item>Only view data balance for card 2</item>
+    </string-array>
+    <string-array name="card1">
+        <item>Query the balance of card 1 only</item>
+    </string-array>
+    <string-array name="card2">
+        <item>Query the balance of card 2 only</item>
+    </string-array>
+    <string-array name="city">
+        <item>Peking</item>
+        <item>Shanghai</item>
+        <item>Tianjin</item>
+        <item>Chongqing</item>
+        <item>Harbin</item>
+        <item>Qiqihar</item>
+        <item>Jixi</item>
+        <item>Hegang</item>
+        <item>Shuangyashan</item>
+        <item>Daqing</item>
+        <item>Yichun</item>
+        <item>Jiamusi</item>
+        <item>Qitaihe</item>
+        <item>Mudanjiang</item>
+        <item>Heihe</item>
+        <item>Suihua</item>
+        <item>"Daxing'anling Region"</item>
+        <item>Changchun</item>
+        <item>Jilin</item>
+        <item>Siping</item>
+        <item>Liaoyuan</item>
+        <item>Tonghua</item>
+        <item>Baishan</item>
+        <item>Songyuan</item>
+        <item>Baicheng</item>
+        <item>Yanbian Korean Autonomous Prefecture</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+        <item>Anshan</item>
+        <item>Fushun</item>
+        <item>Benxi</item>
+        <item>Dandong</item>
+        <item>Jinzhou</item>
+        <item>Yingkou</item>
+        <item>Fuxin</item>
+        <item>Liaoyang</item>
+        <item>Panjin</item>
+        <item>Tieling</item>
+        <item>Chaoyang</item>
+        <item>Huludao</item>
+        <item>"Jin'an"</item>
+        <item>Qingdao</item>
+        <item>Zibo</item>
+        <item>Zaozhuang</item>
+        <item>Dongying</item>
+        <item>Yantai</item>
+        <item>Weifang</item>
+        <item>Jining</item>
+        <item>Taian</item>
+        <item>Weihai</item>
+        <item>Rizhao</item>
+        <item>Laiwu</item>
+        <item>Linyi</item>
+        <item>Dezhou</item>
+        <item>Liaocheng</item>
+        <item>Binzhou</item>
+        <item>Heze</item>
+        <item>Taiyuan</item>
+        <item>Datong</item>
+        <item>Yangquan</item>
+        <item>Changzhi</item>
+        <item>Jincheng</item>
+        <item>Shuozhou</item>
+        <item>Jinzhong</item>
+        <item>Yuncheng</item>
+        <item>Xinzhou</item>
+        <item>Linfen</item>
+        <item>Luliang</item>
+        <item>"Xi'an"</item>
+        <item>Tongchuan</item>
+        <item>Baoji</item>
+        <item>Xianyang</item>
+        <item>Weinan</item>
+        <item>"Yan'an"</item>
+        <item>Hanzhong</item>
+        <item>Yulin</item>
+        <item>Ankang</item>
+        <item>Shangluo</item>
+        <item>Shijiazhuang</item>
+        <item>Tangshan</item>
+        <item>Qinhuangdao</item>
+        <item>Handan</item>
+        <item>Xingtai</item>
+        <item>Baoding</item>
+        <item>Zhangjiakou</item>
+        <item>Chengde</item>
+        <item>Cangzhou</item>
+        <item>Langfang</item>
+        <item>Hengshui</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Luoyang</item>
+        <item>Pingdingshan</item>
+        <item>Anyang</item>
+        <item>Hebi</item>
+        <item>Xinxiang</item>
+        <item>Jiaozuo</item>
+        <item>Jiyuan</item>
+        <item>Puyang</item>
+        <item>Xuchang</item>
+        <item>Luohe</item>
+        <item>Sanmenxia</item>
+        <item>Nanyang</item>
+        <item>Shangqiu</item>
+        <item>Xinyang</item>
+        <item>Zhoukou</item>
+        <item>Zhumadian</item>
+        <item>Wuhan</item>
+        <item>Huangshi</item>
+        <item>Shiyan</item>
+        <item>Yichang</item>
+        <item>Xiangfan</item>
+        <item>Ezhou</item>
+        <item>Jingmen</item>
+        <item>Xiaogan</item>
+        <item>Jingzhou</item>
+        <item>Huanggang</item>
+        <item>Xianning</item>
+        <item>Suizhou</item>
+        <item>Enshi Tujia and Miao Autonomous Prefecture</item>
+        <item>Xiantao</item>
+        <item>Qianjiang</item>
+        <item>Tianmen</item>
+        <item>Shennongjia Forest Region</item>
+        <item>Changsha</item>
+        <item>Zhuzhou</item>
+        <item>Xiangtan</item>
+        <item>Hengyang</item>
+        <item>Shaoyang</item>
+        <item>Yueyang</item>
+        <item>Changde</item>
+        <item>Zhangjiajie</item>
+        <item>Yiyang</item>
+        <item>Chenzhou</item>
+        <item>Yongzhou</item>
+        <item>Huaihua</item>
+        <item>Loudi</item>
+        <item>Xiangxi Tujia and Miao Autonomous Prefecture</item>
+        <item>Haikou</item>
+        <item>Sanya</item>
+        <item>Wuzhishan</item>
+        <item>Qionghai</item>
+        <item>Danzhou</item>
+        <item>Wenchang</item>
+        <item>Wanning</item>
+        <item>Dongfang</item>
+        <item>"Ding'an"</item>
+        <item>Tunchang</item>
+        <item>Chengmai</item>
+        <item>Lingao</item>
+        <item>Baisha Li Autonomous County</item>
+        <item>Changjiang Li Autonomous County</item>
+        <item>Ledong Li Autonomous County</item>
+        <item>Lingshui County</item>
+        <item>Baoting Li and Miao Autonomous County</item>
+        <item>Qiongzhong Li and Miao Autonomous County</item>
+        <item>Nanjing</item>
+        <item>Wuxi</item>
+        <item>Xuzhou</item>
+        <item>Changzhou</item>
+        <item>Suzhou</item>
+        <item>Nantong</item>
+        <item>Lianyungang</item>
+        <item>"Huai'an"</item>
+        <item>Yancheng</item>
+        <item>Yangzhou</item>
+        <item>Zhenjiang</item>
+        <item>Taizhou</item>
+        <item>Suqian</item>
+        <item>Nanchang</item>
+        <item>Jingdezhen</item>
+        <item>Pingxiang</item>
+        <item>Jiujiang</item>
+        <item>Xinyu</item>
+        <item>Yingtan</item>
+        <item>Ganzhou</item>
+        <item>"Ji'an"</item>
+        <item>Yichun</item>
+        <item>Fuzhou</item>
+        <item>Shangrao</item>
+        <item>Guangzhou</item>
+        <item>Shaoguan</item>
+        <item>Shenzhen</item>
+        <item>Zhuhai</item>
+        <item>Shantou</item>
+        <item>Foshan</item>
+        <item>Jiangmen</item>
+        <item>Zhanjiang</item>
+        <item>Maoming</item>
+        <item>Zhaoqing</item>
+        <item>Huizhou</item>
+        <item>Meizhou</item>
+        <item>Shanwei</item>
+        <item>Heyuan</item>
+        <item>Yangjiang</item>
+        <item>Qingyuan</item>
+        <item>Dongguan</item>
+        <item>Zhongshan</item>
+        <item>Chaozhou</item>
+        <item>Jieyang</item>
+        <item>Yunfu</item>
+        <item>Nanning</item>
+        <item>Liuzhou</item>
+        <item>Guilin</item>
+        <item>Wuzhou</item>
+        <item>Beihai</item>
+        <item>Fangchenggang</item>
+        <item>Qinzhou</item>
+        <item>Guigang</item>
+        <item>Yulin</item>
+        <item>Baise</item>
+        <item>Hezhou</item>
+        <item>Hechi</item>
+        <item>Laibin</item>
+        <item>Chongzuo</item>
+        <item>Kunming</item>
+        <item>Qujing</item>
+        <item>Yuxi</item>
+        <item>Baoshan</item>
+        <item>Zhaotong</item>
+        <item>Lijiang</item>
+        <item>Simao</item>
+        <item>Lincang</item>
+        <item>Chuxiong Yi Autonomous Prefecture</item>
+        <item>Honghe Hani and Yi Autonomous Prefecture</item>
+        <item>Wenshan Zhuang and Miao Autonomous Prefecture</item>
+        <item>Xishuangbanna Dai Autonomous Prefecture</item>
+        <item>Dali Bai Autonomous Prefecture</item>
+        <item>Dehong Dai and Jingpo Autonomous Prefecture</item>
+        <item>Nujiang Lisu Autonomous Prefecture</item>
+        <item>Diqing Tibetan Autonomous Prefecture</item>
+        <item>Guiyang</item>
+        <item>Liupanshui</item>
+        <item>Zunyi</item>
+        <item>Anshun</item>
+        <item>Tongren Region</item>
+        <item>"Qianxi'nan Buyi and Miao Autonomous Prefecture"</item>
+        <item>Bijie Region</item>
+        <item>Qiandongnan Miao and Dong Autonomous Prefecture</item>
+        <item>Qiannan Buyi and Miao Autonomous Prefecture</item>
+        <item>Chengdu</item>
+        <item>Zigong</item>
+        <item>Panzhihua</item>
+        <item>Luzhou</item>
+        <item>Deyang</item>
+        <item>Mianyang</item>
+        <item>Guangyuan</item>
+        <item>Suining</item>
+        <item>Neijiang</item>
+        <item>Leshan</item>
+        <item>Nanchong</item>
+        <item>Meishan</item>
+        <item>Yibin</item>
+        <item>"Guang'an"</item>
+        <item>Dazhou</item>
+        <item>"Ya'an"</item>
+        <item>Bazhong</item>
+        <item>Ziyang</item>
+        <item>Aba Tibetan and Qiang Autonomous Prefecture</item>
+        <item>Ganzi Tibetan Autonomous Prefecture</item>
+        <item>Liangshan Yi Autonomous Prefecture</item>
+        <item>Hohhot</item>
+        <item>Baotou</item>
+        <item>Wuhai</item>
+        <item>Chifeng</item>
+        <item>Tongliao</item>
+        <item>Erdos</item>
+        <item>Hulunbeier</item>
+        <item>Bayannur</item>
+        <item>Ulanchap</item>
+        <item>Xinganmeng</item>
+        <item>Xilin Gol League</item>
+        <item>Alxa League</item>
+        <item>Yinchuan</item>
+        <item>Shizuishan</item>
+        <item>Wuzhong</item>
+        <item>Guyuan</item>
+        <item>Zhongwei</item>
+        <item>Lanzhou</item>
+        <item>Jiayuguan</item>
+        <item>Jinchang</item>
+        <item>Baiyin</item>
+        <item>Tianshui</item>
+        <item>Wuwei</item>
+        <item>Zhangye</item>
+        <item>Pingliang</item>
+        <item>Jiuquan</item>
+        <item>Qingyang</item>
+        <item>Dingxi</item>
+        <item>Longnan</item>
+        <item>Linxia Hui Autonomous Prefecture</item>
+        <item>Gannan Tibetan Autonomous Prefecture</item>
+        <item>Xining</item>
+        <item>Haidong Region</item>
+        <item>Haibei Tibetan Autonomous Prefecture</item>
+        <item>Huangnan Tibetan Autonomous Prefecture</item>
+        <item>Hainan Tibetan Autonomous Prefecture</item>
+        <item>Golog Tibetan Autonomous Prefecture</item>
+        <item>Yushu Tibetan Autonomous Prefecture</item>
+        <item>Haixi Mongolian-Tibetan Autonomous Prefecture</item>
+        <item>Lhasa</item>
+        <item>Qamdo Region</item>
+        <item>Shannan Region</item>
+        <item>Xigaze Region</item>
+        <item>Nagqu Region</item>
+        <item>Ali Region</item>
+        <item>Nyingchi Region</item>
+        <item>Urumqi</item>
+        <item>Karamay</item>
+        <item>Turpan Region</item>
+        <item>Hami Region</item>
+        <item>Changji Hui Autonomous Prefecture</item>
+        <item>Boertala Mongolian Autonomous Prefecture</item>
+        <item>Bayingolin Mongol Autonomous Prefecture</item>
+        <item>Aksu Region</item>
+        <item>Kizilsu Kirghiz Autonomous Prefecture</item>
+        <item>Kashi Region</item>
+        <item>Hotan Region</item>
+        <item>Ili Kazak Autonomous Prefecture</item>
+        <item>Tacheng Region</item>
+        <item>Altay Region</item>
+        <item>Shihezi</item>
+        <item>Alar</item>
+        <item>Tumxuk</item>
+        <item>Wujiaqu</item>
+        <item>Hefei</item>
+        <item>Wuhu</item>
+        <item>Bengbu</item>
+        <item>Huainan</item>
+        <item>"Ma'anshan"</item>
+        <item>Huaibei</item>
+        <item>Tongling</item>
+        <item>Anqing</item>
+        <item>Huangshan</item>
+        <item>Chuzhou</item>
+        <item>Fuyang</item>
+        <item>Suzhou</item>
+        <item>Chaohu</item>
+        <item>"Lu'an"</item>
+        <item>Bozhou</item>
+        <item>Chizhou</item>
+        <item>Xuancheng</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Wenzhou</item>
+        <item>Jiaxing</item>
+        <item>Huzhou</item>
+        <item>Shaoxing</item>
+        <item>Jinhua</item>
+        <item>Quzhou</item>
+        <item>Zhoushan</item>
+        <item>Taizhou</item>
+        <item>Lishui</item>
+        <item>Fuzhou</item>
+        <item>Xiamen</item>
+        <item>Putian</item>
+        <item>Sanming</item>
+        <item>Quanzhou</item>
+        <item>Zhangzhou</item>
+        <item>Nanping</item>
+        <item>Longyan</item>
+        <item>Ningde</item>
+        <item>Taipei</item>
+        <item>Kaohsiung</item>
+        <item>Keelung</item>
+        <item>Taichung</item>
+        <item>Tainan</item>
+        <item>Hsinchu</item>
+        <item>Chiayi</item>
+        <item>Hong Kong</item>
+        <item>Makaó</item>
+    </string-array>
+    <string-array name="number_opt">
+        <item>Kapcsolat létrehozása</item>
+        <item>Hozzáadás meglévő kapcsolathoz</item>
+        <item>Törlés</item>
+        <item>Hívásnapló elejére</item>
+        <item>Hozzáadás a feketelistához</item>
+        <item>Megjelölés</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>Csaló</item>
+        <item>Ügynök</item>
+        <item>Marketing</item>
+        <item>Beszállító</item>
+        <item>Fuvar</item>
+        <item>Egyéb</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>Hívások és üzenetek blokkolása</item>
+        <item>Hívások blokkolása</item>
+        <item>Üzenetek blokkolása</item>
+    </string-array>
+    <string-array name="filterOperator">
+        <item>Összes hívás</item>
+        <item>Nem fogadott hívások</item>
+        <item>SIM1 hívások</item>
+        <item>SIM2 hívások</item>
+    </string-array>
+    <string-array name="filter_calllog_list">
+        <item>Összes</item>
+        <item>Nem fogadott</item>
+        <item>SIM1 hívások</item>
+        <item>SIM2 hívások</item>
+    </string-array>
+</resources>
