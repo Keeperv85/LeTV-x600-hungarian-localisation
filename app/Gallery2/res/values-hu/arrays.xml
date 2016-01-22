@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="proxy_error">
+        <item>A gépmező nem lehet üres</item>
+        <item>A port mező nem lehet üres</item>
+        <item>Érvénytelen gép</item>
+        <item>Érvénytelen port</item>
+    </string-array>
+    <string-array name="text_font">
+        <item>Alapértelmezett</item>
+        <item>Fekete-fehér</item>
+        <item>Sans Serif</item>
+        <item>Serif</item>
+    </string-array>
+</resources>
