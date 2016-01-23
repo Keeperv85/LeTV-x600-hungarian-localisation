@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Értesítés</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Ébresztő</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Soha</item>
+        <item>Az eseménykor</item>
+        <item>5 perccel előbb</item>
+        <item>10 perccel előbb</item>
+        <item>30 perccel előbb</item>
+        <item>1 órával előbb</item>
+        <item>2 órával előbb</item>
+        <item>1 nappal előbb</item>
+        <item>2 nappal előbb</item>
+        <item>1 héttel előbb</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Soha</item>
+        <item>Az eseménykor</item>
+        <item>5 perccel előbb</item>
+        <item>10 perccel előbb</item>
+        <item>30 perccel előbb</item>
+        <item>1 órával előbb</item>
+        <item>2 órával előbb</item>
+        <item>1 nappal előbb</item>
+        <item>2 nappal előbb</item>
+        <item>1 héttel előbb</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Helyi alapértelmezett</item>
+        <item>Szombat</item>
+        <item>Vasárnap</item>
+        <item>Hétfő</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Elfoglalt</item>
+        <item>Elérhető</item>
+        <item>Kísérleti</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Alapértelmezett</item>
+        <item>Privát</item>
+        <item>Nyilvános</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>első</item>
+        <item>másodperc</item>
+        <item>harmadik</item>
+        <item>negyedik</item>
+        <item>utolsó</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Nincs válasz</item>
+        <item>Igen</item>
+        <item>Lehet</item>
+        <item>Nem</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Csak a jelenlegi esemény</item>
+        <item>A jelen és a jövőbeli események</item>
+        <item>Összes esemény</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>A jelenlegi és a további események</item>
+        <item>Összes esemény</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Csak a jelen esemény</item>
+        <item>A sorozat összes eseményére</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Nap</item>
+        <item>Hét</item>
+        <item>Hónap</item>
+        <item>Napló</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Csak elutasítás esetén</item>
+        <item>Elutasítás/nem válaszolás esetén</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>ISMÉTLÉS NAPONTA</item>
+        <item>ISMÉTLÉS HETENTE</item>
+        <item>ISMÉTLÉS HAVONTA</item>
+        <item>ISMÉTLÉS ÉVENTE</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>minden első vasárnapon</item>
+        <item>minden második vasárnapon</item>
+        <item>minden harmadik vasárnapon</item>
+        <item>minden negyedik vasárnapon</item>
+        <item>minden utolsó vasárnapon</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>minden első hétfőn</item>
+        <item>minden második hétfőn</item>
+        <item>minden harmadik hétfőn</item>
+        <item>minden negyedik hétfőn</item>
+        <item>minden utolsó hétfőn</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>minden első kedden</item>
+        <item>minden második kedden</item>
+        <item>minden harmadik kedden</item>
+        <item>minden negyedik kedden</item>
+        <item>minden utolsó kedden</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>minden első szerdán</item>
+        <item>minden második szerdán</item>
+        <item>minden harmadik szerdán</item>
+        <item>minden negyedik szerdán</item>
+        <item>minden utolsó szerdán</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>minden első csütörtökön</item>
+        <item>minden második csütörtökön</item>
+        <item>minden harmadik csütörtökön</item>
+        <item>minden negyedik csütörtökön</item>
+        <item>minden utolsó csütörtökön</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>minden első pénteken</item>
+        <item>minden második pénteken</item>
+        <item>minden harmadik pénteken</item>
+        <item>minden negyedik pénteken</item>
+        <item>minden utolsó pénteken</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>minden első szombaton</item>
+        <item>minden második szombaton</item>
+        <item>minden harmadik szombaton</item>
+        <item>minden negyedik szombaton</item>
+        <item>minden utolsó szombaton</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Csak pár percet késik.</item>
+        <item>Legyen ott körülbelül 10 perc alatt.</item>
+        <item>Kezdjék el nélkülem.</item>
+        <item>Sajnálom, nem érek oda. Kénytelenek leszünk átütemezni.</item>
+    </string-array>
+    <string-array name="timezone_rename_labels">
+        <item>Ausztrál középidő – NT</item>
+        <item>Ausztrál középidő – SA</item>
+        <item>Kelet-ausztráliai idő – QLD</item>
+        <item>Kelet-ausztráliai idő – NSW</item>
+        <item>Hegyvidéki – Dawson Creek</item>
+        <item>Középidő – Saskatchewan</item>
+        <item>Keleti idő – Atikokan</item>
+        <item>Atlanti-óceániai idő – Québec</item>
+        <item>Aleuti-szigeteki idő – Hawaii</item>
+        <item>Aleuti-szigeteki idő – Alaszka</item>
+        <item>Csendes-óceáni idő – Metlakatla</item>
+        <item>Hegyvidéki időzóna – Arizona</item>
+        <item>Csendes-óceáni – Baja California</item>
+        <item>Hegyvidéki – Chihuahua</item>
+        <item>Középidő – Tamaulipas</item>
+        <item>Hegyvidéki – Sonora</item>
+        <item>Kelet-afrikai idő</item>
+        <item>Atlanti-óceáni idő</item>
+        <item>Atlanti-óceáni idő</item>
+        <item>Kelet-európai idő</item>
+        <item>Kalinyingrádi idő</item>
+        <item>Amazonas – Rondônia</item>
+        <item>Brazíliaváros – Pará</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>Sint Maarten</item>
+        <item>Holland Karib-térség</item>
+        <item>Curaçao</item>
+        <item>Dél-Szudán</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>soha</item>
+        <item>ezen a napon (9:00)</item>
+        <item>1 nappal előbb (9:00)</item>
+        <item>2 nappal előbb (9:00)</item>
+        <item>1 héttel előbb (9:00)</item>
+    </string-array>
+    <string-array name="day_of_weekly">
+        <item>Minden vasárnap</item>
+        <item>Minden hétfő</item>
+        <item>Minden kedd</item>
+        <item>Minden szerda</item>
+        <item>Minden csütörtök</item>
+        <item>Minden péntek</item>
+        <item>Minden szombat</item>
+    </string-array>
+    <string-array name="rrule_type">
+        <item>Egyszeri esemény</item>
+        <item>Minden nap</item>
+        <item>Munkanapokon (Hétfő-Péntek)</item>
+        <item></item>
+        <item>Minden hónapban</item>
+        <item>Minden hónapban</item>
+        <item>Minden évben</item>
+    </string-array>
+    <string-array name="lunar_rrule_type">
+        <item>Egyszeri esemény</item>
+        <item>Minden holdhónapban</item>
+        <item>Minden holdévben</item>
+    </string-array>
+    <string-array name="dropdown_list">
+        <item>Összes esemény</item>
+        <item>Saját események</item>
+        <item>Meghívások</item>
+    </string-array>
+    <string-array name="recently_tab_names">
+        <item>Dinamikus áttekintés</item>
+        <item>Dinamikus előnézet</item>
+    </string-array>
+    <string-array name="event_types">
+        <item>Ismeretlen</item>
+        <item>Sport</item>
+        <item>Utazás</item>
+        <item>Szülinap</item>
+        <item>Művészfilm</item>
+        <item>TV műsor</item>
+        <item>Animáció</item>
+        <item>Film</item>
+        <item>Szórakoztató produkció</item>
+        <item>LeTV film</item>
+        <item>Koncert</item>
+    </string-array>
+    <string-array name="game_states">
+        <item>Nincs elkezdve</item>
+        <item>Folyamatban</item>
+        <item>Befejezve</item>
+    </string-array>
+    <string-array name="chineseten">
+        <item>Első</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="gan">
+        <item>Jia</item>
+        <item>Yi</item>
+        <item>Bing</item>
+        <item>Ding</item>
+        <item>Wu</item>
+        <item>Ji</item>
+        <item>Geng</item>
+        <item>Xin</item>
+        <item>Ren</item>
+        <item>Gui</item>
+    </string-array>
+    <string-array name="lunar_festival">
+        <item>Layue 29 Chinese New Year’s Eve</item>
+        <item>Layue 30 Chinese New Year’s Eve</item>
+        <item>Zhengyue 1 Spring Festival</item>
+        <item>2/2 Longtaitou Festival</item>
+        <item>Zhengyue 15 Lantern Festival</item>
+        <item>5/5 Dragon Boat Festival</item>
+        <item>7/7 Qixi Festival</item>
+        <item>7/15 Ghost Festival</item>
+        <item>8/15 Middle Autumn Festival</item>
+        <item>9/9 Double Ninth Festival</item>
+        <item>Layue 8 Laba Festival</item>
+        <item>Layue 23 Preliminary Eve</item>
+    </string-array>
+    <string-array name="animals">
+        <item>Patkány</item>
+        <item>Ökör</item>
+        <item>Tigris</item>
+        <item>Nyúl</item>
+        <item>Sárkány</item>
+        <item>Kígyó</item>
+        <item>Ló</item>
+        <item>Kecske</item>
+        <item>Majom</item>
+        <item>Kakas</item>
+        <item>Kutya</item>
+        <item>Disznó</item>
+    </string-array>
+    <string-array name="chinesenumber">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Már</item>
+        <item>Ápr</item>
+        <item>May</item>
+        <item>Jún</item>
+        <item>Júl</item>
+        <item>Aug</item>
+        <item>Szep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="lunar_month_name">
+        <item>Zhengyue</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>Dongyue</item>
+        <item>Layue</item>
+    </string-array>
+    <string-array name="zhi">
+        <item>Zi</item>
+        <item>Chou</item>
+        <item>Yin</item>
+        <item>Mao</item>
+        <item>Chen</item>
+        <item>Si</item>
+        <item>Wu</item>
+        <item>Wei</item>
+        <item>Shen</item>
+        <item>You</item>
+        <item>Xu</item>
+        <item>Hai</item>
+    </string-array>
+    <string-array name="no_call_array">
+        <item>Add phone</item>
+        <item>Call directly</item>
+    </string-array>
+    <string-array name="no_sms_array">
+        <item>Add phone</item>
+        <item>Send directly</item>
+    </string-array>
+    <string-array name="msg_option">
+        <item>Send SMS now</item>
+        <item>Set to send it later</item>
+    </string-array>
+    <string-array name="reminder_birthday_minutes_label">
+        <item>Remind two days in advance and on the exact date</item>
+        <item>Remind one week in advance and on the exact date</item>
+        <item>Remind on the exact date</item>
+        <item>Nincs emlékeztető</item>
+    </string-array>
+    <string-array name="live_event_types">
+        <item>Live sports</item>
+        <item>Live entertainment</item>
+        <item>Live music</item>
+        <item>Other live broadcasts</item>
+        <item>Documentary</item>
+        <item>Movie</item>
+    </string-array>
+    <string-array name="timezone_rename_ids">
+        <item>Australia/Darwin</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Sydney</item>
+        <item>America/Dawson_Creek</item>
+        <item>America/Regina</item>
+        <item>America/Atikokan</item>
+        <item>America/Blanc-Sablon</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Adak</item>
+        <item>America/Metlakatla</item>
+        <item>America/Phoenix</item>
+        <item>America/Tijuana</item>
+        <item>America/Ojinaga</item>
+        <item>America/Matamoros</item>
+        <item>America/Hermosillo</item>
+        <item>Africa/Juba</item>
+        <item>America/Kralendijk</item>
+        <item>America/Lower_Princes</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Kaliningrad</item>
+        <item>America/Porto_Velho</item>
+        <item>America/Belem</item>
+    </string-array>
+</resources>
