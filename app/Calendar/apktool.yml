@@ -11,7 +11,7 @@ packageInfo:
   forced-package-id: '127'
 versionInfo:
   versionCode: '21'
-  versionName: 5.0.2-21
+  versionName: 5.0.2-10
 sharedLibrary: false
 unknownFiles:
   com/letv/tracker/agnes/agnes.properties: '8'
