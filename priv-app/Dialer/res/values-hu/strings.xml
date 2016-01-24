@@ -1232,9 +1232,9 @@ kevés a hely"</string>
     <string name="audio">Hangszóró</string>
     <string name="more_audio">Bluetooth</string>
     <string name="dialpad">Tárcsázó</string>
-    <string name="up_answering_down_decline">Swipe up to answer,Swipe down to decline</string>
+    <string name="up_answering_down_decline">Húzza felfelé a válaszhoz vagy lefelé az elutasításhoz!</string>
     <string name="conference_child_count">%1$d kapcsolat</string>
-    <string name="call_redial_time">Redialing %1$d times</string>
+    <string name="call_redial_time">%1$d múlva újratárcsáz</string>
     <string name="yellowpage_remark">Remark</string>
     <string name="recent_select_account">Recent used</string>
     <string name="incall_multi_contacts_or_str">vagy</string>
