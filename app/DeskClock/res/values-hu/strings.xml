@@ -173,62 +173,62 @@ szót a szundításhoz vagy az ébresztő leállításához."</string>
     <string name="select_year">Válassza ki az évet</string>
     <string name="item_is_selected">%1$s kiválasztva</string>
     <string name="deleted_key">A(z) %1$s érték törölve</string>
-    <string name="mobile_network_warning_dialog">Watching via 2G/3G/4G will incur data fees</string>
-    <string name="playing_under_mobile_network">You are using a 2G/3G/4G connection</string>
-    <string name="player_network_none">No network found. Please check your connection and try again.</string>
-    <string name="player_network_change_to_wifi">You are using a WiFi connection</string>
+    <string name="mobile_network_warning_dialog">A 2G/3G/4G használata egyéb költségekkel járhat</string>
+    <string name="playing_under_mobile_network">Ön 2G/3G/4G kapcsolatot használ</string>
+    <string name="player_network_none">Nincs hálózat. Kérjük ellenőrizze a kapcsolatát, majd próbálja újra.</string>
+    <string name="player_network_change_to_wifi">Ön Wifi hálózatot használ</string>
     <string name="cancel_play">Stop</string>
     <string name="player_refresh_and_retry">Frissítés</string>
     <string name="continue_play">Újra</string>
     <string name="player_complain">"Lag
 Complain"</string>
     <string name="play_in_pip">Kicsi</string>
-    <string name="use_headset_to_enjoy">Use headphones to enjoy more realistic sound</string>
-    <string name="play_cinema_sound">Cinema sound</string>
-    <string name="cinema_sound_enabled">"Cinema sound is enabled
-Enjoy surround sound"</string>
-    <string name="cinema_sound_enabling">Enabling cinema sound for you...</string>
-    <string name="three_d_enabling">Enabling 3D for you...</string>
-    <string name="three_d_enabled_without_helmet">"The 3D effect is enabled
-Use MHL mode to watch 3D video"</string>
-    <string name="three_d_enabled_with_helmet">"The 3D effect is enabled
-Transmit the video to MHL mode to watch it"</string>
-    <string name="cinema_sound_enabled_no_headset">"Cinema sound is enabled
-Use headphones to enjoy a more realistic sound"</string>
+    <string name="use_headset_to_enjoy">Használja a fülhallgatóját a valósághűbb hangzáshoz</string>
+    <string name="play_cinema_sound">Mozi hangzás</string>
+    <string name="cinema_sound_enabled">"Mozi hangzás bekapcsolva
+Élvezze a térhangzást"</string>
+    <string name="cinema_sound_enabling">Mozi hangzás aktiválása...</string>
+    <string name="three_d_enabling">3D aktiválása...</string>
+    <string name="three_d_enabled_without_helmet">"A 3D effekt aktiválva van
+Használja az MHL módot a 3D video megtekintéséhez"</string>
+    <string name="three_d_enabled_with_helmet">"A 3D effekt aktiválva van
+Video közvetítése MHL módba a megtekintéshez"</string>
+    <string name="cinema_sound_enabled_no_headset">"Mozi hangzás aktiválva
+Használja a fülhallgatóját a valósághűbb hangzáshoz"</string>
     <string name="play_3d">3D</string>
     <string name="push_to_tv">Cast</string>
     <string name="cache_video">Cache</string>
     <string name="select_video">Album</string>
     <string name="program_list">Program lista</string>
     <string name="default_play_loading">Betöltés, kérem várjon...</string>
-    <string name="play_soon">To play</string>
-    <string name="continue_previous_play">You stopped at %2$s on %1$s. Resume playback...</string>
-    <string name="common_play_error">"Video can't be played. Please refresh and retry"</string>
-    <string name="common_request_error">Failed to request the broadcast address. Please refresh and retry</string>
-    <string name="play_list_end">Video playback complete</string>
-    <string name="exit_player">Quit playing</string>
-    <string name="select_chanel">Select channel</string>
-    <string name="stream_switching">Switching resolution...</string>
+    <string name="play_soon">Lejátszás hamarosan</string>
+    <string name="continue_previous_play">Legutóbb megállítva: %2$s on %1$s. Lejátszás folytatása...</string>
+    <string name="common_play_error">"A videót nem lehet lejátszani. Kérem frissítsen és próbálja újra"</string>
+    <string name="common_request_error">Nem sikerült a cím lekérése. Kérem frissítsen és próbálja újra</string>
+    <string name="play_list_end">Video sikeresen lejátszva</string>
+    <string name="exit_player">Kilépés</string>
+    <string name="select_chanel">Válasszon csatornát</string>
+    <string name="stream_switching">Felbontás váltása...</string>
     <string name="stream_switch_done">"Already switched to &lt;font color='#00a0c9'>%s&lt;/font>"</string>
-    <string name="cinema_sound_enabling_adjusted">The current resolution does not support perfect Dolby sound. Switching to another resolution for you...</string>
-    <string name="three_d_disabling">Disabling 3D for you...</string>
-    <string name="cinema_sound_disabling">Disabling cinema sound...</string>
-    <string name="low_level_not_support_cinema">Switching the resolution...%1$s does not support the Dolby sound.</string>
-    <string name="low_level_not_support_cinema_general">Switching the resolution for you...This option does not support Dolby sound.</string>
-    <string name="play_cinema_sound_enabled">Cinema sound is enabled</string>
-    <string name="play_cinema_sound_disabled">Cinema sound is disabled</string>
-    <string name="push_to_super_tv">Push to Super TV</string>
-    <string name="download_to_super_tv">Cache to Super TV</string>
-    <string name="to_be_continue">Coming soon</string>
+    <string name="cinema_sound_enabling_adjusted">A jelenlegi felbontás nem támogatja a legjobb Dolby hangot. Másik felbontásra váltunk...</string>
+    <string name="three_d_disabling">3D letiltása...</string>
+    <string name="cinema_sound_disabling">Mozi hangzás letiltása...</string>
+    <string name="low_level_not_support_cinema">Felbontás váltása...%1$s nem támogatja a Dolby hangot.</string>
+    <string name="low_level_not_support_cinema_general">Felbontás átváltása Önnek...Ez az opció nem támogatja a Dolby hangot.</string>
+    <string name="play_cinema_sound_enabled">Mozi hangzás aktiválva</string>
+    <string name="play_cinema_sound_disabled">Mozi hangzás kikapcsolva</string>
+    <string name="push_to_super_tv">Super TV-re küldés</string>
+    <string name="download_to_super_tv">Gyorsítótárazás a Super TV-re</string>
+    <string name="to_be_continue">Hamarosan</string>
     <string name="player_time_distinguish">/</string>
     <string name="stubborn_complain_success">"Submitted. (%1$s)
  Processing now"</string>
     <string name="stubborn_complain_fake">"Submitted. 
  Processing now"</string>
-    <string name="dlna_no_message">You need to install Le Superphone remote control to use this function.</string>
-    <string name="str_shutdown_dlna">Stop cast</string>
-    <string name="content_dlna">"Playing on %s
- You may use your phone as a remote control."</string>
+    <string name="dlna_no_message">Önnek telepítenie kell Le Superphone távirányítot ehhez a funkcióhoz.</string>
+    <string name="str_shutdown_dlna">Megállít</string>
+    <string name="content_dlna">"Lejátszás %s
+ A telefonját használhatja távirányítóként."</string>
     <string name="action_settings">Beállítások</string>
     <string name="recommend_label_more">Több</string>
     <string name="recommend_item_more">Több mutatása</string>
@@ -363,12 +363,12 @@ Use headphones to enjoy a more realistic sound"</string>
     <string name="star_empty_hint_offline">Nincs elérhető kapcsolat. Kérem ellenőrizze a hálózati beállításokat.</string>
     <string name="star_empty_hint_offline_primary">Mobile adat</string>
     <string name="star_empty_hint_offline_secondary">Wi-Fi</string>
-    <string name="star_media_mobile_warning">Currently in the data network, select the star clock will generate cost, do you want to continue?</string>
+    <string name="star_media_mobile_warning">Jelenleg adatkapcsolatot használ, a csillag-óra használata költségekkel járhat, folytatja?</string>
     <string name="star_media_mobile_warning_disable_show">Emlékezzen a döntésre</string>
     <string name="star_media_mobile_warning_confirm">Igen</string>
     <string name="star_media_mobile_warning_cancel">Mégsem</string>
     <string name="alarm_setting_label_default">Alarm</string>
-    <string name="gesture_alarm_switch_summary">Close by sliding palm on the top of the phone</string>
+    <string name="gesture_alarm_switch_summary">Bezárás csúsztatással a készülék felső sávján</string>
     <string name="ringtone_alias_title_one">Neon</string>
     <string name="ringtone_alias_title_two">Bouncing</string>
     <string name="ringtone_alias_title_three">Lily</string>
@@ -384,22 +384,22 @@ Use headphones to enjoy a more realistic sound"</string>
     <string name="alarm_settings_repeat_dialog_btn_cancel">Mégsem</string>
     <string name="alarm_settings_repeat_dialog_titile">Ismétlés</string>
     <string name="alarm_settings_repeat_custom_dialog_titile">Ismétlés napjai</string>
-    <string name="alarm_star_wake_up_count">Woke up %1$s people</string>
-    <string name="free_flow_sheet_remember_text">Do not show the prompt again</string>
-    <string name="free_flow_sheet_unopen_btn1">Activate now</string>
-    <string name="free_flow_sheet_cancel_btn">Got it</string>
-    <string name="free_flow_sheet_open_title">Traffic-free services</string>
+    <string name="alarm_star_wake_up_count">Felébresztett %1$s embert</string>
+    <string name="free_flow_sheet_remember_text">Ne mutassa még egyszer</string>
+    <string name="free_flow_sheet_unopen_btn1">Aktiválás most</string>
+    <string name="free_flow_sheet_cancel_btn">Értettem</string>
+    <string name="free_flow_sheet_open_title">Adatforgalom-mentes szolgáltatások</string>
     <string name="free_flow_sheet_answers">Read&lt;a href=\"%1$s\">Common problems &lt;/a></string>
-    <string name="recommend_star_btn">Want to add more stars?</string>
-    <string name="recommend_star_dialog_title">"Put in a star's name"</string>
+    <string name="recommend_star_btn">Szeretne több csillagot hozzáadni?</string>
+    <string name="recommend_star_dialog_title">"Írja be egy csillag nevét"</string>
     <string name="recommend_star_dialog_cancel">Mégsem</string>
     <string name="recommend_star_dialog_ok">Küldés</string>
     <string name="recommend_star_success_toast">Send successfully, we will enrich resources as soon as possible!</string>
     <string name="le_timer_keyguard_alert_title">Az időzítő lejárt!</string>
     <string name="le_timer_keyguard_alert_ok">Ok</string>
-    <string name="tip_under_mobile_network_and_open_freeflow">Using Free flow</string>
-    <string name="tip_under_mobile_network_and_unopen_freeflow">You are using mobile network, will consume cost</string>
-    <string name="tip_under_mobile_network_confirm_btn">Use mobile network</string>
+    <string name="tip_under_mobile_network_and_open_freeflow">Free flow használata</string>
+    <string name="tip_under_mobile_network_and_unopen_freeflow">Ön adatkapcsolatot használ, költségekkel járhat</string>
+    <string name="tip_under_mobile_network_confirm_btn">Adatkapcsolat használata</string>
     <string name="tip_under_mobile_network_for_starlist">Choose star under mobile network, will download resource and will consume cost</string>
     <string name="actionbar_lestar">Frissítés található</string>
     <string name="ringtone_square_title">Ringtone plaza</string>
@@ -413,32 +413,32 @@ Use headphones to enjoy a more realistic sound"</string>
     <string name="star_detail_category_ringtone">Csengőhang</string>
     <string name="lestar_error_network_unavailable">Nincs hálózati kapcsolat.</string>
     <string name="lestar_error_network_error">Nincs hálózati kapcsolat</string>
-    <string name="lestar_hint_set_mobile">Mobile adat</string>
+    <string name="lestar_hint_set_mobile">Mobil adat</string>
     <string name="lestar_hint_set_wifi">Wi-Fi beállítása</string>
     <string name="lestar_hint_retry">Érintse meg az újrapróbáláshoz</string>
     <string name="recommend_star_failed_toast">Sikertelen küldés, kérem próbálja később.</string>
-    <string name="lestar_media_preview_no_network">No connection. Please connect to a network and try again.</string>
-    <string name="lestar_media_op_set_as_ringtone">Download and set as ringtone</string>
-    <string name="lestar_media_op_set_as_ringtone_exist">Set as ringtone</string>
-    <string name="lestar_media_op_set_as_ringtone_disabled">Successfully set as ringtone</string>
-    <string name="lestar_media_op_set_as_ringtone_no_connection">Operation failed. Please check network settings.</string>
+    <string name="lestar_media_preview_no_network">Nincs kapcsolat. Kérem csatlakozzon hálózathoz és próbálja újra.</string>
+    <string name="lestar_media_op_set_as_ringtone">Letöltés és beállítás csengőhangként</string>
+    <string name="lestar_media_op_set_as_ringtone_exist">Beállítás csengőhangként</string>
+    <string name="lestar_media_op_set_as_ringtone_disabled">Csengőhang sikeresen beállítva</string>
+    <string name="lestar_media_op_set_as_ringtone_no_connection">A művelet sikertelen. Kérjük ellenőrizze a hálózatot.</string>
     <string name="lestar_media_op_set_as_favorites">Kedvencek</string>
     <string name="lestar_media_op_unset_as_favorites">Eltávolítás a kedvencekből</string>
-    <string name="lestar_media_op_set_as_favorites_tip">Added to favorites. You can check your favorite ringtones and set ringtones</string>
-    <string name="lestar_media_op_set_as_favorites_failed_tip">Unable to add to favorites. Please retry.</string>
-    <string name="lestar_media_select_favorites_failed_tip">Add ringtone to favorites and try again later</string>
+    <string name="lestar_media_op_set_as_favorites_tip">Hozzáadva a kedvencekhez. Meg tudja tekinteni a kedvenc csengéseit és beállítani őket</string>
+    <string name="lestar_media_op_set_as_favorites_failed_tip">Nem sikerült a kedvencekhez adás, kérem próbálja újra.</string>
+    <string name="lestar_media_select_favorites_failed_tip">Adja a kedvencekhez és próbálja meg később</string>
     <string name="lestar_media_op_cancel">Mégsem</string>
-    <string name="le_ringtone_collect_title">My collection</string>
-    <string name="le_ringtone_collect_random">Random ringtone</string>
-    <string name="le_ringtone_collect_random_describe">Random play ringtone in my collection after open</string>
+    <string name="le_ringtone_collect_title">Saját gyűjtemény</string>
+    <string name="le_ringtone_collect_random">Véletlenszerű hang</string>
+    <string name="le_ringtone_collect_random_describe">Véletlenszerű lejátszás a saját hangok közül</string>
     <string name="ringtone_use">Csengőhang kiválasztása</string>
-    <string name="ringtone_collect">Collect ringtone</string>
-    <string name="ringtone_collect_cancel">Cancel collect</string>
-    <string name="choose_clock_set_ringtone">Select an alarm to set as your ringtone</string>
-    <string name="choose_clock_please_add_first">You have not set an alarm, please add an alarm or add the ringtone to favorites for later setting</string>
+    <string name="ringtone_collect">Csengőhang begyűjtése</string>
+    <string name="ringtone_collect_cancel">Mégsem</string>
+    <string name="choose_clock_set_ringtone">Válasszon egy ébresztést a csengőhanghoz</string>
+    <string name="choose_clock_please_add_first">Önnek nincs ébresztés beállítva, kérem állítson be ébresztőt vagy adja később a csengőhangot a kedvencekhez</string>
     <string name="choose_clock_add">Új riasztás</string>
-    <string name="choose_clock_store_for_later_add">Add ringtone to favorites for adding later</string>
-    <string name="choose_clock_store_for_later_set">Add ringtone to favorites for setting later</string>
+    <string name="choose_clock_store_for_later_add">Kedvencekhez adva a későbbi hozzáadáshoz</string>
+    <string name="choose_clock_store_for_later_set">Kedvencekhez adva a későbbi beállításhoz</string>
     <string name="choose_clock_ok">Megerősítés</string>
     <string name="le_alarm_label_limit_max_toast">Elérte a maximálisan megadható szöveghosszt!</string>
 </resources>
