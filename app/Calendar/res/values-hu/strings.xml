@@ -216,7 +216,7 @@
     <string name="color_swatch_description">%1$d. szín</string>
     <string name="color_swatch_description_selected">%1$d. szín kiválasztva</string>
     <string name="action_label">Tovább</string>
-    <string name="action_settings">Beállíátsok</string>
+    <string name="action_settings">Beállítások</string>
     <string name="recommend_label_more">Több</string>
     <string name="recommend_item_more">Több megtekintése</string>
     <string name="recommend_calendar_buy">Megvásárol</string>
@@ -363,7 +363,7 @@
     <string name="has_updated">Frissítve</string>
     <string name="click_to_play">Érintse meg a lejátszáshoz</string>
     <string name="agenda_place">Hol</string>
-    <string name="related_video">Kapcsolódó videok</string>
+    <string name="related_video">Kapcsolódó videók</string>
     <string name="last_game_socre">Legutóbbi eredmény</string>
     <string name="team_status_away">(Away)</string>
     <string name="team_status_home">(Home)</string>
@@ -373,7 +373,7 @@
     <string name="fens_label">Rajongók</string>
     <string name="action_share">Megosztás</string>
     <string name="action_home">Home</string>
-    <string name="from_label">From:</string>
+    <string name="from_label">Innen:</string>
     <string name="action_to_today">Ma</string>
     <string name="action_to_agenda">Lista</string>
     <string name="action_to_rss">Feliratkozás</string>
@@ -424,14 +424,14 @@
     <string name="done">Vissza</string>
     <string name="all_schedule">Összes napirend</string>
     <string name="event_item_expand">Minden elem megtekintése</string>
-    <string name="event_item_shrink">Elemek zsugordítása</string>
+    <string name="event_item_shrink">Elemek zsugorítása</string>
     <string name="sports_app_not_found">Sport alkalmazás nem található</string>
     <string name="guide_page_ok">Kész</string>
     <string name="guide_page_selected">Követés</string>
     <string name="guide_page_more">Több</string>
     <string name="guide_change">Frissítés</string>
     <string name="tv_first_play_time">Premier időpontja</string>
-    <string name="tv_first_play_channel">Premiert sugárzó csatornat</string>
+    <string name="tv_first_play_channel">Premiert sugárzó csatorna</string>
     <string name="preferences_default_alldayreminder_default">-1</string>
     <string name="preferences_default_alldayreminder_title">egész napos események</string>
     <string name="preferences_to_default_reminder_title">Emlékeztető alapbeállítások</string>
