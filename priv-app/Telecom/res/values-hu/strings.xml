@@ -117,7 +117,7 @@ Be feltételesen"</string>
     <string name="mt_code_forwarded_cf_busy">Foglalt hívás továbbítva</string>
     <string name="mt_code_forwarded_cf_no_reply">Hívástovábbítás, ha nincs válasz</string>
     <string name="mt_code_forwarded_cf_not_reachable">Hívástovábbítás, ha nem elérhető</string>
-    <string name="reset_response_sms">reset response sms</string>
+    <string name="reset_response_sms">alapértelmezett elutasító sms-ek</string>
     <string name="voice_record_guide_cancel_button_text">Mégsem</string>
     <string name="voice_record_guide_setting_button">Automatikus hívásrögzítés beállítása</string>
     <string name="voice_record_guide_setting_messege">Beállítható automatikus hívás rögzítése, amely lehetővé teszi, hogy rögzítse és mentse hívásait </string>
