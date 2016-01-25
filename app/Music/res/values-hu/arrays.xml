@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Film és TV sorozatok</item>
+        <item>Entertainment News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Popular Music</item>
+        <item>Music Album</item>
+        <item>Relevant Artist</item>
+        <item>Related Weibo</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="player">
+        <item>Film és TV sorozatok</item>
+        <item>Sports News</item>
+        <item>Ajánlott háttérképek</item>
+        <item>Nincs</item>
+        <item>Music Album</item>
+        <item>Nincs</item>
+        <item>Related Weibo</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Film &amp; TV Series</item>
+        <item>Entertainment News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Original Music</item>
+        <item>Nincs</item>
+        <item>Relevant Artist</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+    </string-array>
+    <string-array name="team">
+        <item>Film &amp; TV Series</item>
+        <item>Relevant News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Relevant Music</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+    </string-array>
+    <string-array name="brand">
+        <item>Nincs</item>
+        <item>Brand News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Brand Music</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="region">
+        <item>Nincs</item>
+        <item>Relevant Video</item>
+        <item>Recommended Wallpaper</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+        <item>Nincs</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>Felkapott</item>
+        <item>Korhű</item>
+        <item>Ismeretlen</item>
+        <item>Nincs besorolva</item>
+        <item>Elfogyott</item>
+        <item>Késő</item>
+        <item>Mégsem</item>
+        <item>Jóváhagyott</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>Válogatott</item>
+        <item>Ajánlott</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>Kínai</item>
+        <item>Nyugati</item>
+        <item>Koreai</item>
+        <item>Japán</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>Számok</item>
+        <item>Albumok</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>Új</item>
+        <item>Populáris</item>
+        <item>Eredeti</item>
+        <item>Hirdetések</item>
+        <item>Korea MNUT</item>
+        <item>Japan Oricon lista</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>By earliest creation time</item>
+        <item>By latest creation time</item>
+        <item>By initials</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>Átnevezés</item>
+        <item>Törlés</item>
+    </string-array>
+    <string-array name="album_detail_header_menu">
+        <item>Megosztás</item>
+        <item>Kedvencek</item>
+        <item>Hozzáadás</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>Automatikus választás</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>Xiami listák</item>
+        <item>Nemzetközi listák</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>Populáris</item>
+        <item>Új</item>
+        <item>Eredeti</item>
+        <item>Demók</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>Szóló</item>
+        <item>Előadó</item>
+        <item>Album</item>
+        <item>MV</item>
+        <item>Helyi</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>Kínai férfi előadók</item>
+        <item>Kínai női előadók</item>
+        <item>Kínai csapatok</item>
+        <item>Nyugati férfi előadók</item>
+        <item>Nyugati női előadók</item>
+        <item>Nyugati csapatok</item>
+        <item>Japán férfi előadók</item>
+        <item>Japán női előadók</item>
+        <item>Japán csapatok</item>
+        <item>Koreai férfi előadók</item>
+        <item>Koreai női előadók</item>
+        <item>Koreai csapatok</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>Nincs találat</item>
+        <item>Nincs szöveg</item>
+        <item>Nincs zene</item>
+        <item>Nincs felvétel</item>
+        <item>Nincs üzenet</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 hét</item>
+        <item>2 hét</item>
+        <item>3 hét</item>
+        <item>4 hét</item>
+        <item>5 hét</item>
+        <item>6 hét</item>
+        <item>7 hét</item>
+        <item>8 hét</item>
+        <item>9 hét</item>
+        <item>10 hét</item>
+        <item>11 hét</item>
+        <item>12 hét</item>
+    </string-array>
+</resources>

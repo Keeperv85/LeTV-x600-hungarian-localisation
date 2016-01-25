@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">%d dal</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d album</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d dal törölve.</item>
+        <item quantity="one">1 dal törölve.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d dal hozzáadása a listához.</item>
+        <item quantity="one">1 dal hozzáadása a listához.</item>
+    </plurals>
+</resources>
