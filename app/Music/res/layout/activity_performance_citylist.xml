@@ -5,7 +5,7 @@
   xmlns:music="http://schemas.android.com/apk/res/com.android.music">
     <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
         <com.letv.leui.widget.PinnedHeaderListView android:id="@id/album_detail_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:orientation="vertical" android:id="@id/alphabetWavesView_search_artist_region_reference" android:layout_width="@android:dimen/le_awv_toast_offset" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <com.letv.leui.widget.AlphabetWavesView android:gravity="right" android:orientation="vertical" android:id="@id/alphabetWavesView_search_artist_region_reference" android:layout_width="@android:dimen/le_awv_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
     </RelativeLayout>
     <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="default_tip" />
 </FrameLayout>

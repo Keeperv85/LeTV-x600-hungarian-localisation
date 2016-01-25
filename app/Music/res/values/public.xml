@@ -2877,6 +2877,16 @@
     <public type="string" name="streamloadingtext" id="0x7f0b01fb" />
     <public type="string" name="widget_initial_text" id="0x7f0b01fc" />
     <public type="string" name="albumsongseparator" id="0x7f0b01fd" />
+    <public type="string" name="new_Brano_hot" id="0x7f0b01fe" />
+    <public type="string" name="hot_Brani" id="0x7f0b01ff" />
+    <public type="string" name="local_music_tab_Brano" id="0x7f0b0200" />
+    <public type="string" name="local_music_add_Brani" id="0x7f0b0201" />
+    <public type="string" name="dialog_search_lyrics_Brano_hint" id="0x7f0b0202" />
+    <public type="string" name="error_Brano_name_empty" id="0x7f0b0203" />
+    <public type="string" name="download_Brani_quality" id="0x7f0b0204" />
+    <public type="string" name="album_and_Brano_num" id="0x7f0b0205" />
+    <public type="string" name="oneBrano" id="0x7f0b0206" />
+    <public type="string" name="albumBranieparator" id="0x7f0b0207" />
     <public type="style" name="detailplay_full_top_textview" id="0x7f0c0000" />
     <public type="style" name="letv_text_13_ffffffff" id="0x7f0c0001" />
     <public type="style" name="letv_text_17_blue_white" id="0x7f0c0002" />

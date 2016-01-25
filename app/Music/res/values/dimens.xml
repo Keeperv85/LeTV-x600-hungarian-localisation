@@ -330,7 +330,7 @@
     <dimen name="font_big">14.0sp</dimen>
     <dimen name="font_normal">12.0sp</dimen>
     <dimen name="font_small">10.0sp</dimen>
-    <item type="dimen" name="le_scroll_strip_tab_widget_height">@android:dimen/le_scroll_strip_tab_widget_text_size</item>
+    <item type="dimen" name="le_scroll_strip_tab_widget_height">@android:dimen/le_scroll_strip_tab_widget_height</item>
     <dimen name="le_scroll_trip_height">3.0dip</dimen>
     <dimen name="count_down_text_width">60.0dip</dimen>
     <dimen name="count_down_dot_15m">59.0dip</dimen>

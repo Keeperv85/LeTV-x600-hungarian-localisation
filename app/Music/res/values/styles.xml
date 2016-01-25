@@ -172,7 +172,7 @@
     <style name="TopScrollStripTabWidget">
         <item name="android:background">@color/main_content_background_color</item>
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">@android:dimen/le_scroll_strip_tab_widget_text_size</item>
+        <item name="android:layout_height">@android:dimen/le_scroll_strip_tab_widget_height</item>
     </style>
     <style name="TrackListItemPrimaryTextStyle">
         <item name="android:textSize">@dimen/list_view_primary_text_size</item>

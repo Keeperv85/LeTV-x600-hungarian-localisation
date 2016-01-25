@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Film e Dramas</item>
+        <item>Intrattenimento Notizie</item>
+        <item>Sfondi</item>
+        <item>Singoli Di Successo</item>
+        <item>Album Musicali</item>
+        <item>Artisti Collegati</item>
+        <item>Tweets Correlati</item>
+        <item>Siti Web Correlati</item>
+    </string-array>
+    <string-array name="player">
+        <item>Film e Dramas</item>
+        <item>Sports Notizie</item>
+        <item>Sfondi</item>
+        <item>Nessuno</item>
+        <item>Album Musicali</item>
+        <item>Nessuno</item>
+        <item>Tweets Correlati</item>
+        <item>Siti Web Correlati</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Film e Dramas</item>
+        <item>Intrattenimento Notizie</item>
+        <item>Sfondi</item>
+        <item>Colonne sonore</item>
+        <item>Nessuno</item>
+        <item>Artisti Collegati</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+    </string-array>
+    <string-array name="team">
+        <item>Film e Dramas</item>
+        <item>Notizie Rilevanti</item>
+        <item>Sfondi</item>
+        <item>Musica correlata</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+    </string-array>
+    <string-array name="brand">
+        <item>Nessuno</item>
+        <item>Brand News</item>
+        <item>Wallpapers</item>
+        <item>Label music</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Siti Web Correlati</item>
+    </string-array>
+    <string-array name="region">
+        <item>Nessuno</item>
+        <item>Video Correlati</item>
+        <item>Sfondi</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+        <item>Nessuno</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>Hot</item>
+        <item>Prevendita</item>
+        <item>Invalido</item>
+        <item>In Attesa</item>
+        <item>Sold out</item>
+        <item>Posticipato</item>
+        <item>Annullato</item>
+        <item>Accettato</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>Scelti della Redazione</item>
+        <item>Raccomandati</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>Chinese</item>
+        <item>Western</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>Brani</item>
+        <item>Albums</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>New</item>
+        <item>Popular</item>
+        <item>Original</item>
+        <item>Billboard</item>
+        <item>MNUT</item>
+        <item>Oricon</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>Ordina per data (prima i vecchi)</item>
+        <item>Ordina per data (prima i più nuovi)</item>
+        <item>Ordina alfabeticam.</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>Rinomina</item>
+        <item>Elimina</item>
+    </string-array>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="album_detail_header_menu">
+        <item>Condividi</item>
+        <item>Preferiti</item>
+        <item>Aggiungi a</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>Auto Seleziona</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>LeTV Classifiche</item>
+        <item>Classifiche Internazionali</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>Hot</item>
+        <item>New</item>
+        <item>Original</item>
+        <item>Demo</item>
+    </string-array>
+    <string-array name="array_rank_types_world_media">
+        <item>Hito Chinese</item>
+        <item>Hong Kong Gold</item>
+        <item>UK Singles</item>
+        <item>Billboard</item>
+        <item>ORICON</item>
+        <item>MNET</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>Single</item>
+        <item>Artista</item>
+        <item>Album</item>
+        <item>MV</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>Artisti Maschili Cinesi</item>
+        <item>Aritisti Femminili Cinesi</item>
+        <item>Gruppi Cinesi</item>
+        <item>Artisti Maschili Occidentali</item>
+        <item>Aritisti Femminili Occidentali</item>
+        <item>Gruppi Occidentali</item>
+        <item>Artisti Maschili Giapponesi</item>
+        <item>Aritisti Femminili Giapponesi</item>
+        <item>Gruppi Giapponesi</item>
+        <item>Artisti Maschili Koreani</item>
+        <item>Aritisti Femminili Koreani</item>
+        <item>Gruppi Koreani</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>Nessun risultato trovato</item>
+        <item>Nessun Testo trovato</item>
+        <item>Nessun brano trovato</item>
+        <item>Nessun record trovato</item>
+        <item>Nessuna informazione sottoscritta</item>
+    </string-array>
+    <string-array name="blank_page_failure_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>Settimana 1</item>
+        <item>Settimana 2</item>
+        <item>Settimana 3</item>
+        <item>Settimana 4</item>
+        <item>Settimana 5</item>
+        <item>Settimana 6</item>
+        <item>Settimana 7</item>
+        <item>Settimana 8</item>
+        <item>Settimana 9</item>
+        <item>Settimana 10</item>
+        <item>Settimana 11</item>
+        <item>Settimana 12</item>
+    </string-array>
+</resources>

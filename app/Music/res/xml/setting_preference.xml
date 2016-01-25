@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android">
     <android.preference.PreferenceCategory android:title="@string/accout_relative">
-        <android.preference.Preference android:title="@string/accout_set" android:key="key_account_set" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+        <android.preference.Preference android:title="@string/accout_set" android:key="key_account_set" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
     </android.preference.PreferenceCategory>
     <android.preference.PreferenceCategory android:title="@string/download_set">
         <android.preference.SwitchPreference android:title="@string/listen_and_download" android:key="key_listen_and_download" android:summary="@string/listen_and_download_summary" />
