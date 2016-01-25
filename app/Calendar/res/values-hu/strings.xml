@@ -241,9 +241,9 @@
     <string name="bt_group_week">Hét</string>
     <string name="bt_group_month">Hónap</string>
     <string name="bt_group_year">Év</string>
-    <string name="week_label">Hé</string>
-    <string name="month_label">Hó</string>
-    <string name="year_label">Év</string>
+    <string name="week_label">Heti</string>
+    <string name="month_label">Havi</string>
+    <string name="year_label">Éves</string>
     <string name="new_event">Év</string>
     <string name="add_event">Esemény hozzáadása</string>
     <string name="edit_event">Esemény szerkesztés</string>
@@ -486,7 +486,7 @@
     <string name="scorpio">Scorpio</string>
     <string name="sagittarius">Sagittarius</string>
     <string name="capricorn">Capricorn</string>
-    <string name="hint_search_event">Search calendar</string>
+    <string name="hint_search_event">Nap keresése</string>
     <string name="hint_search_tag">Search subscription</string>
     <string name="msg_none_recently">Resources to be updated soon, click to see more previews</string>
     <string name="msg_none_recently_star">Star resources to be updated soon, click to see more</string>
