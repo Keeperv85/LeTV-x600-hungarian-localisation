@@ -65,7 +65,7 @@
     <string name="no_calendars_found">Esemény hozzáadása előtt adjon hozzá legalább egy Naptárfiókot a készülékhez, és tegye láthatóvá a naptárat. Érintse meg a \"Fiók hozzáadása\" lehetőséget fiók hozzáadásához (ha épp most adott hozzá egy fiókot, akkor várja meg a szinkronizálás végét, majd próbálkozzon újra). Vagy érintse meg a Mégse lehetőséget, és bizonyosodjon meg, hogy legalább egy naptár látható.</string>
     <string name="create_an_account_desc">"A Naptár jobban működik egy Google Fiókkal.
 
-• Bármilyen bőngészőből elérheti
+• Bármilyen böngészőből elérheti
 • Biztonsági másolatot készíthet programjairól."</string>
     <string name="add_account">Fiók hozzáadása</string>
     <string name="view_event_calendar_label">Naptár:</string>
@@ -305,7 +305,7 @@
     <string name="lable_res_update">Forrás frissítés emlékeztető</string>
     <string name="lable_result_reminder">Eredmény emlékeztető</string>
     <string name="reminder_summary">Emlékezteti Önt, ha a játék indul</string>
-    <string name="tv_play_reminder_summary">Emlkéezteti Önt, ha a csatorna online</string>
+    <string name="tv_play_reminder_summary">Emlékezteti Önt, ha a csatorna online</string>
     <string name="res_online_summary">Emlékezteti Önt, ha a forrás elérhető</string>
     <string name="res_update_summary">Emlékezteti Önt, ha a forrás frissült</string>
     <string name="result_reminder_summary">Engedélyezze, hogy emlékeztetve legyen az eredményről.</string>
@@ -336,7 +336,7 @@
     <string name="set_mobile_net">Mobilhálózat beállítása</string>
     <string name="set_wifi_net">Wi-Fi beállítása</string>
     <string name="search_history">Keresési előzmények</string>
-    <string name="notify_come">Emlkéztető: %s</string>
+    <string name="notify_come">Emlékeztető: %s</string>
     <string name="no_account">Adjon hozzá egy fiókot</string>
     <string name="delete_repeat_event_title">Ez egy ismétlődő esemény</string>
     <string name="local_account">Helyi fiók</string>
@@ -365,14 +365,14 @@
     <string name="agenda_place">Hol</string>
     <string name="related_video">Kapcsolódó videók</string>
     <string name="last_game_socre">Legutóbbi eredmény</string>
-    <string name="team_status_away">(Away)</string>
-    <string name="team_status_home">(Home)</string>
+    <string name="team_status_away">(Távol)</string>
+    <string name="team_status_home">(Otthon)</string>
     <string name="game_reminder">Játék emlékeztető</string>
     <string name="game_reminder_content">Emlékezteti, mielőtt a játék kezdődik</string>
     <string name="friend_label">Barátok</string>
     <string name="fens_label">Rajongók</string>
     <string name="action_share">Megosztás</string>
-    <string name="action_home">Home</string>
+    <string name="action_home">Otthon</string>
     <string name="from_label">Innen:</string>
     <string name="action_to_today">Ma</string>
     <string name="action_to_agenda">Lista</string>
@@ -382,7 +382,7 @@
     <string name="my_subscribe_label">Érdeklődéseim</string>
     <string name="birthday_label">Születésnap</string>
     <string name="music_label">Élő foglalás</string>
-    <string name="from_subscribe_label">From your subscription to “%s”</string>
+    <string name="from_subscribe_label">Feliratkozásai “%s”</string>
     <string name="from_sports_app">Sport alkalmazás</string>
     <string name="from_music_app">Zene alkalmazás</string>
     <string name="from_superlive_app">SuperLive alkalmazás</string>
@@ -438,7 +438,7 @@
     <string name="preferences_attend_notification_setting">Esemény rögzítése az értesítési sávra</string>
     <string name="watch_channel_info">További tartalmak megtekintése itt: %s</string>
     <string name="channel_default_name">Jelenlegi csatorna</string>
-    <string name="tv_default_name">This program</string>
+    <string name="tv_default_name">Ez a program</string>
     <string name="watch_live_info">A csatorna információinak megtekintése</string>
     <string name="letv_not_updated">Program not updated yet. You can:</string>
     <string name="channel_not_start">Program not started yet. You can:</string>
@@ -454,11 +454,11 @@
     <string name="event_source_live">Letv Live</string>
     <string name="event_source_letv">Letv Videó</string>
     <string name="event_source_net">Internet videó</string>
-    <string name="event_edit_data_format">MM/dd/yyyy</string>
+    <string name="event_edit_data_format">yyyy/MM/dd</string>
     <string name="day_event_watch_more">Nézzen több vicces naptárat</string>
-    <string name="life_info">Élet info</string>
+    <string name="life_info">Élet infó</string>
     <string name="send_blessings">Jókívánság küldése</string>
-    <string name="send_surprised">Meglepestés előkészítése</string>
+    <string name="send_surprised">Meglepetés előkészítése</string>
     <string name="set_reminder">Emlékeztető beállítások</string>
     <string name="call">Hívás kezdeményezése</string>
     <string name="sms">SMS küldése</string>
@@ -491,7 +491,7 @@
     <string name="msg_none_recently">A források hamarosan frissülnek, kattintson a többi előnézethez</string>
     <string name="msg_none_recently_star">Csillag források hamarosan frissülnek, kattintson a többiért</string>
     <string name="msg_none_recently_sport">A szezon hamarosan indul, kattintson az ütemterv megtekintéséhez</string>
-    <string name="msg_login_reminder">A naptár támogatja LeCloud szervízt. A szinkronizálás engedélyezése adatvesztéssel járhat a naptárban. Bekapcsolja most?</string>
+    <string name="msg_login_reminder">A naptár támogatja LeCloud szervizt. A szinkronizálás engedélyezésével megelőzheti az adatvesztést a naptárban. Bekapcsolja most?</string>
     <string name="bt_login_and_open">Belépés és engedélyezés</string>
     <string name="music_event_res">Letv zene</string>
     <string name="no_recently">Nincs dinamikus előnézet. Ennek az okai</string>
