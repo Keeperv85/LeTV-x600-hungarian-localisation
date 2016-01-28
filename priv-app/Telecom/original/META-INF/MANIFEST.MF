@@ -11,7 +11,7 @@ Name: res/drawable/dial_call_button_normal.xml
 SHA1-Digest: heyxbtUqNft2SKOCeEfxgZlcPkE=
 
 Name: res/layout/dialpad_view.xml
-SHA1-Digest: Efplff5RZCk7S3tRtMmYslYbH6Y=
+SHA1-Digest: Orjdi0Sk36FK5wYSHz4SHpNP7qs=
 
 Name: res/anim/leui_incallui_open_enter.xml
 SHA1-Digest: ALXbAd4yiquDOblnW/Cmy5MAitE=
@@ -89,7 +89,7 @@ Name: res/drawable-mdpi-v4/ic_launcher_sip_call.png
 SHA1-Digest: x5nNrpbyZUY1/ckbBsshVfDRqbI=
 
 Name: resources.arsc
-SHA1-Digest: vg9xo27TtSQP/lKgI/5IuPWnbww=
+SHA1-Digest: QHyTn4jFdKuAfC5yBBSmVBzj9JI=
 
 Name: res/drawable/btn_selected_focused.xml
 SHA1-Digest: 5SD62+IhgbINEqrlwSGvy1e6J+o=
@@ -98,7 +98,7 @@ Name: res/layout-land/dialpad_key_one.xml
 SHA1-Digest: klpOSJpmH6VYJ8/sW5GpyaL+s6Q=
 
 Name: AndroidManifest.xml
-SHA1-Digest: vlLGxouT20cyLFLQ2nyBGrFBJJQ=
+SHA1-Digest: SACMraJU6XaZzdX7w2Y700LErgs=
 
 Name: res/layout-land/dialpad_key_star.xml
 SHA1-Digest: ARmWlluMJZTi3hZezpu2u9IHdSI=
@@ -149,13 +149,16 @@ Name: res/drawable/btn_unselected_focused.xml
 SHA1-Digest: qMpl5Ltqc8AU0Bmv4FNu6ao/7YQ=
 
 Name: classes.dex
-SHA1-Digest: DgNLmLTz0s0wXQfjUWOt3J8+QT4=
+SHA1-Digest: /hIA5G7pvcVskWITngl6wlmHlHg=
 
 Name: res/layout-land/dialpad_key_zero.xml
 SHA1-Digest: EKNgNOpTTcr5ykT5WzJqQmCtbfY=
 
 Name: res/drawable/leui_dialpad_star.xml
 SHA1-Digest: ziuzxxykrYGLE/1L4ocFxj5F5O4=
+
+Name: res/drawable-xxhdpi-v4/leui_stat_sys_hdaudio.xml
+SHA1-Digest: jx7jILBR32UlXAfIOxOVKoYVFnw=
 
 Name: res/drawable-mdpi-v4/ic_settings_white_24dp.png
 SHA1-Digest: gf55Qjus6zhGASafmeccvs9muYQ=
@@ -164,7 +167,7 @@ Name: res/drawable-ldrtl-mdpi-v4/stat_sys_phone_call.png
 SHA1-Digest: tpD99SRmfGwAuiXsu76MPQWnAAo=
 
 Name: res/drawable-xxhdpi-v4/leui_stat_sys_speakerphone.xml
-SHA1-Digest: AiLR55VooipTNNqt6tGnSyZI0XQ=
+SHA1-Digest: qSEIx+RWD/hfIMQDeaSWrmysS4k=
 
 Name: res/drawable/dial_call_button_background.xml
 SHA1-Digest: vB5jWvxS7PWSLWmWvtnMcVXu5nM=

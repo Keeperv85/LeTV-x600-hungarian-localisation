@@ -51,4 +51,5 @@
     <dimen name="dialpad_button_layout_textsize">42.0px</dimen>
     <dimen name="dialpad_button_layout_marginright">40.0px</dimen>
     <dimen name="notification_icon_size">64.0dip</dimen>
+    <dimen name="leui_stat_sys_hdaudio_icon_size">14.0dip</dimen>
 </resources>

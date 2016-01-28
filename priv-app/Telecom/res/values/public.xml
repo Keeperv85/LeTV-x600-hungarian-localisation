@@ -17,8 +17,8 @@
     <public type="drawable" name="leui_emergency_pond" id="0x7f020016" />
     <public type="drawable" name="leui_emergency_star" id="0x7f020017" />
     <public type="drawable" name="leui_ic_dialpad_delete" id="0x7f020018" />
-    <public type="drawable" name="overflow_menu" id="0x7f02001b" />
-    <public type="drawable" name="phone_selected" id="0x7f02001c" />
+    <public type="drawable" name="overflow_menu" id="0x7f02001c" />
+    <public type="drawable" name="phone_selected" id="0x7f02001d" />
     <public type="drawable" name="fab_green" id="0x7f020009" />
     <public type="drawable" name="ic_arrow_back_24dp" id="0x7f02000a" />
     <public type="drawable" name="ic_dialpad_delete" id="0x7f02000d" />
@@ -27,13 +27,14 @@
     <public type="drawable" name="ic_overflow_menu" id="0x7f020010" />
     <public type="drawable" name="ic_settings_white_24dp" id="0x7f020011" />
     <public type="drawable" name="ic_text_holo_dark" id="0x7f020012" />
-    <public type="drawable" name="stat_sys_phone_call" id="0x7f02001f" />
+    <public type="drawable" name="stat_sys_phone_call" id="0x7f020020" />
     <public type="drawable" name="ic_card_phone" id="0x7f02000c" />
     <public type="drawable" name="leui_action_bar_divider" id="0x7f020013" />
     <public type="drawable" name="leui_stat_notify_call_mute" id="0x7f020019" />
-    <public type="drawable" name="leui_stat_sys_speakerphone" id="0x7f02001a" />
-    <public type="drawable" name="small_stat_notify_missed_call_icon" id="0x7f02001d" />
-    <public type="drawable" name="stat_notify_missed_call_icon" id="0x7f02001e" />
+    <public type="drawable" name="leui_stat_sys_hdaudio" id="0x7f02001a" />
+    <public type="drawable" name="leui_stat_sys_speakerphone" id="0x7f02001b" />
+    <public type="drawable" name="small_stat_notify_missed_call_icon" id="0x7f02001e" />
+    <public type="drawable" name="stat_notify_missed_call_icon" id="0x7f02001f" />
     <public type="mipmap" name="ic_launcher_phone" id="0x7f030000" />
     <public type="mipmap" name="leui_ic_launcher_phone" id="0x7f030001" />
     <public type="mipmap" name="leui_via_sms_reset" id="0x7f030002" />
@@ -143,6 +144,7 @@
     <public type="dimen" name="dialpad_button_layout_textsize" id="0x7f0b0030" />
     <public type="dimen" name="dialpad_button_layout_marginright" id="0x7f0b0031" />
     <public type="dimen" name="notification_icon_size" id="0x7f0b0036" />
+    <public type="dimen" name="leui_stat_sys_hdaudio_icon_size" id="0x7f0b0037" />
     <public type="dimen" name="dialpad_key_margin_right" id="0x7f0b0032" />
     <public type="dimen" name="dialpad_key_one_margin_right" id="0x7f0b0033" />
     <public type="dimen" name="dialpad_key_text_width" id="0x7f0b0034" />

@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: 7Si7jR/MX4eTiliMbbzravqjd3w=
+SHA1-Digest-Manifest: JG53mrla3HQGt7RrDdWS5CH15OM=
 
 Name: res/drawable/btn_selected.xml
 SHA1-Digest-Manifest: dut4GaGWKHnjjS10M09P2FYQNu4=
@@ -15,7 +15,7 @@ Name: res/anim/leui_incallui_open_enter.xml
 SHA1-Digest-Manifest: Sp6167cCDmV6daOQKaxIIrSDxiM=
 
 Name: res/layout/dialpad_view.xml
-SHA1-Digest-Manifest: oymz5wF99oK1OiAjowmECY3P1k4=
+SHA1-Digest-Manifest: eRqN2CGz2EQ0W3WsYLfEM89iB8A=
 
 Name: res/drawable-xxhdpi-v4/ic_dialpad_voicemail.png
 SHA1-Digest-Manifest: Y/FRgCw9EQOgSCcuk+jVACMPpZY=
@@ -90,7 +90,7 @@ Name: res/drawable-mdpi-v4/ic_launcher_sip_call.png
 SHA1-Digest-Manifest: Xln7JtJMHOp+jy2F/kBPOKk/QPQ=
 
 Name: resources.arsc
-SHA1-Digest-Manifest: hmDzOJEyF1Rb+cMQcqiS7RQ1zfA=
+SHA1-Digest-Manifest: IREMQ0ShJRW2k6H3ZKbL9nENeoY=
 
 Name: res/layout-land/dialpad_key_one.xml
 SHA1-Digest-Manifest: 1rqf5LdkjnDK5FP12X6fLP1Rjb8=
@@ -99,7 +99,7 @@ Name: res/drawable/btn_selected_focused.xml
 SHA1-Digest-Manifest: 83geOllyUi2nFk11Laoe+tNe3is=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: yJNGpuxgCFizJPZJbaDKDK22KY4=
+SHA1-Digest-Manifest: Xb/SL1JA+ZEptacGJqVCDW0Sl24=
 
 Name: res/layout-land/dialpad_key_star.xml
 SHA1-Digest-Manifest: d8tmA7pX7kx7baS62xvnq2foBbY=
@@ -150,13 +150,16 @@ Name: res/drawable/btn_unselected_focused.xml
 SHA1-Digest-Manifest: fZWWWf3ud4h9SIN03qacofCF9wE=
 
 Name: classes.dex
-SHA1-Digest-Manifest: Gm8VcrqRi881czr1+Qbn7R2jiy0=
+SHA1-Digest-Manifest: jAd2h7xS1zmSEh8HrwrZUw9gWpg=
 
 Name: res/layout-land/dialpad_key_zero.xml
 SHA1-Digest-Manifest: FF7E4OUz0OBjp/cJCMQI9EQrQ+s=
 
 Name: res/drawable/leui_dialpad_star.xml
 SHA1-Digest-Manifest: VP3jwS/P/xPD2Bg8nKqQ7Zzud7Q=
+
+Name: res/drawable-xxhdpi-v4/leui_stat_sys_hdaudio.xml
+SHA1-Digest-Manifest: dcksy3TeklnS0gy3yQj4VWlhf+k=
 
 Name: res/drawable-mdpi-v4/ic_settings_white_24dp.png
 SHA1-Digest-Manifest: SlgH25SLjzjxz/24ZNVeGcprpb0=
@@ -165,7 +168,7 @@ Name: res/drawable-ldrtl-mdpi-v4/stat_sys_phone_call.png
 SHA1-Digest-Manifest: 5utgSmHnyndCMMB7mmIF0dMemlQ=
 
 Name: res/drawable-xxhdpi-v4/leui_stat_sys_speakerphone.xml
-SHA1-Digest-Manifest: /KheUGLq/r6uPko2wwGfFsP7Dcw=
+SHA1-Digest-Manifest: 0mb6/46dgWAgNep28UGwUwwsWTU=
 
 Name: res/drawable/dial_call_button_background.xml
 SHA1-Digest-Manifest: 5J798vweUn6p7UBq3qBtBFlR54o=
