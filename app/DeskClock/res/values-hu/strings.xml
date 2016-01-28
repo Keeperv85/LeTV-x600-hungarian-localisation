@@ -60,6 +60,7 @@ szót a szundításhoz vagy az ébresztő leállításához."</string>
     <string name="alarm_notify_text">Szundi, vagy riasztás bezárása.</string>
     <string name="alarm_notify_snooze_label">%s (szundiban)</string>
     <string name="alarm_notify_snooze_text">Riasztás ideje: %s. Érintse meg a visszavonáshoz.</string>
+    <string name="volume_button_setting_dialog_title">Hangerőgombok</string>
     <string name="volume_button_setting_title">Hangerőgombok</string>
     <string name="volume_button_dialog_title">A gomb hatása</string>
     <string name="default_ringtone_setting_title">Az alapértelmezett csengőhang beállítása</string>
@@ -441,4 +442,7 @@ Használja a fülhallgatóját a valósághűbb hangzáshoz"</string>
     <string name="choose_clock_store_for_later_set">Kedvencekhez adva a későbbi beállításhoz</string>
     <string name="choose_clock_ok">Megerősítés</string>
     <string name="le_alarm_label_limit_max_toast">Elérte a maximálisan megadható szöveghosszt!</string>
+    <string name="le_keyguard_alert_snooze_tip">szundi</string>
+    <string name="le_keyguard_alert_slide_tip">húzza felfelé a kikapcsoláshoz</string>
+    <string name="le_deskclock_licence_title">licenc</string>
 </resources>
