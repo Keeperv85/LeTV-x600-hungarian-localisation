@@ -245,7 +245,7 @@
     <string name="leui_smart_sound_name">Super Voice</string>
     <string name="mute_key_silent">Turn off the mute key to adjust volume</string>
     <string name="leui_safe_volume_title">Continuing to increase the volume may damage your hearing</string>
-    <string name="leui_safe_volume_continue">Next</string>
+    <string name="leui_safe_volume_continue">Continue</string>
     <string name="leui_safe_volume_cancle">Cancel</string>
     <string name="le_dialpad_select_sim_card">Select SIM card</string>
     <string name="le_dialpad_select_sim_card_cancel">Cancel</string>
@@ -254,9 +254,9 @@
     <string name="permlab_read_phone_bind_key">Access to machine-card binding KEY</string>
     <string name="permdesc_read_phone_bind_key">"Allow access to machine-card binding KEY. "</string>
     <string name="le_licence_dialog_title">Terms &amp; Conditions</string>
-    <string name="le_licence_dialog_content">You will use the %1$s provided by Letv. Please read the %2$s. %3$s is required. Do you agree?</string>
+    <string name="le_licence_dialog_content">You are about to use the %1$s provided by Letv. Please read the %2$s. %3$s is required. Do you agree?</string>
     <string name="le_licence_dialog_permission_net">Connect to the network</string>
-    <string name="le_licence_dialog_permission_location_net">Use your location information and connect to the network</string>
+    <string name="le_licence_dialog_permission_location_net">Your location information and an internet connection</string>
     <string name="le_licence_dialog_permission_contacts_location_net">Read your contacts, use your location information and connect to the network</string>
     <string name="le_licence_dialog_cb_text">Do not show again</string>
     <string name="le_licence_dialog_btn_exit">Exit</string>
@@ -294,5 +294,10 @@
     <string name="restrict_data_app_title">%s is blocked to use cellular data</string>
     <string name="restrict_data_app_body">Tap to change this permission</string>
     <string name="le_recipient_edit_imeActionLabel">Confirm</string>
+    <string name="le_wechat">WeChat</string>
+    <string name="le_wechat_small_account">WeChat small account</string>
+    <string name="le_choose_wechat_account">Select wechat account</string>
+    <string name="le_choose_wechat_cancel">Cancel</string>
     <string name="application_info_label">App details</string>
+    <string name="zenmode_default_name">晚安</string>
 </resources>

@@ -168,4 +168,7 @@
     <integer name="global_action_bottombar_ring_begin_angle">-90</integer>
     <integer name="le_dial_float_button_view_anim_duration">500</integer>
     <integer name="config_notificationsBatteryLowChargingARGB">0xffff9900</integer>
+    <integer name="leui_long_press_home_behaviour_mid_default">11</integer>
+    <integer name="leui_long_press_back_behaviour_right_default">1</integer>
+    <integer name="leui_long_press_recent_behaviour_left_default">-1</integer>
 </resources>

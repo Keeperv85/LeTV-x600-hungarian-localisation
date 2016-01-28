@@ -2178,16 +2178,12 @@
         <enum name="white" value="-1" />
         <enum name="yellow" value="-256" />
     </attr>
-    <attr name="leBlurGamma" format="reference|float" />
-    <attr name="leBlurContrastBoost" format="reference|float" />
-    <attr name="leBlurBlendColor1" format="reference|color" />
-    <attr name="leBlurBlendColor2" format="reference|color" />
-    <attr name="leBlurBlendMode1">
-        <enum name="overlay" value="3" />
-    </attr>
-    <attr name="leBlurBlendMode2">
-        <enum name="normal" value="0" />
-    </attr>
+    <attr name="leBlurLumaContrast" format="reference|float" />
+    <attr name="leBlurLumaBrightness" format="reference|float" />
+    <attr name="leBlurChromaContrast" format="reference|float" />
+    <attr name="leBlurBlendColor" format="reference|color" />
+    <attr name="leBlurPreset" format="reference|string" />
+    <item type="attr" name="private_resource_pad42">padding</item>
     <item type="attr" name="private_resource_pad41">padding</item>
     <item type="attr" name="private_resource_pad40">padding</item>
     <item type="attr" name="private_resource_pad39">padding</item>

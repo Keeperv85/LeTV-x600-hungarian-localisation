@@ -260,6 +260,12 @@
         <item>新建聯繫人</item>
         <item>添加到已有聯繫人</item>
     </string-array>
+    <string-array name="le_url_phone_list_with_exists_contact">
+        <item>撥打電話</item>
+        <item>傳送短訊</item>
+        <item>複製號碼</item>
+        <item>檢視聯絡人：%s</item>
+    </string-array>
     <string-array name="le_url_email_list">
         <item>複製郵箱</item>
         <item>發送郵件</item>

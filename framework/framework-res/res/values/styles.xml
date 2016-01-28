@@ -5906,11 +5906,9 @@
     </style>
     <style name="Widget.Leui" parent="@style/Widget.DeviceDefault.Light" />
     <style name="Widget.Leui.TextView" parent="@style/Widget.DeviceDefault.Light.TextView">
-        <item name="includeFontPadding">false</item>
         <item name="fontFamily">helve-neue</item>
     </style>
     <style name="Widget.Leui.EditText" parent="@style/Widget.DeviceDefault.Light.EditText">
-        <item name="includeFontPadding">false</item>
         <item name="fontFamily">helve-neue</item>
     </style>
     <style name="Widget.Leui.EditText.Multiline" parent="@style/Widget.Leui.EditText">
@@ -5966,7 +5964,6 @@
     </style>
     <style name="Widget.Leui.TextView.SpinnerItem" parent="@style/Widget.DeviceDefault.Light.TextView.SpinnerItem">
         <item name="textAppearance">@style/TextAppearance.Leui.Widget.TextView.SpinnerItem</item>
-        <item name="includeFontPadding">false</item>
         <item name="paddingStart">0.0dip</item>
         <item name="paddingEnd">0.0dip</item>
     </style>
@@ -5974,7 +5971,6 @@
     <style name="Widget.Leui.DropDownItem.Spinner" parent="@style/Widget.DeviceDefault.Light.DropDownItem.Spinner">
         <item name="textAppearance">@style/TextAppearance.Leui.Widget.TextView.SpinnerDropdownItem</item>
         <item name="gravity">center_vertical</item>
-        <item name="includeFontPadding">false</item>
         <item name="paddingStart">16.0dip</item>
         <item name="paddingEnd">16.0dip</item>
     </style>

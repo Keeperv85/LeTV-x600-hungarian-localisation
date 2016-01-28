@@ -3,9 +3,9 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:id="@id/real_content" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
         <View android:id="@id/view1" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/display_less_five" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/display_less_five" android:layout_width="fill_parent" android:layout_height="wrap_content" />
         <View android:id="@id/specail_devider" android:background="#ffececec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/specail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/specail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
         <LinearLayout android:orientation="horizontal" android:id="@id/awalys_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
             <com.letv.leui.widget.LeCheckBox android:gravity="center_vertical" android:id="@id/checkbox_awalys" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/le_share_default_select_tips" android:leBoxInnerPadding="10.0dip" />
         </LinearLayout>

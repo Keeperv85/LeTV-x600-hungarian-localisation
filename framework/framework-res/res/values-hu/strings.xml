@@ -815,7 +815,7 @@
     <string name="keyguard_password_enter_pin_password_code">Feloldáshoz írja be a PIN kódot</string>
     <string name="keyguard_password_wrong_pin_code">Helytelen PIN kód.</string>
     <string name="keyguard_label_text">A feloldáshoz nyomja meg a Menü, majd a 0 gombot.</string>
-    <string name="emergency_call_dialog_number_for_display">Segélyhívó szám</string>
+    <string name="emergency_call_dialog_number_for_display">Segélyhívás</string>
     <string name="lockscreen_carrier_default">Nincs szolgáltatás.</string>
     <string name="lockscreen_screen_locked">A képernyő le van zárva.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">A feloldáshoz vagy segélyhívás kezdeményezéséhez nyomja meg a Menü gombot.</string>
@@ -1920,4 +1920,9 @@ Be szeretné zárni?"</string>
     <string name="headset_plugin_unsupported">A fejhallgatója nem kompatibilis a készülékkel. Kérem próbáljon meg egy másikat!</string>
     <string name="anti_inadvertently_mode">Zsebre vágva?</string>
     <string name="anti_inadvertently_mode_warning">A feloldáshoz kérem ne takarja a készülék tetejét!</string>
+    <string name="leui_ic_emergency_police_number">Segélyhívás</string>
+    <string name="leui_ic_emergency_fire_number">Segélyhívás</string>
+    <string name="leui_ic_emergency_emergency_number">Segélyhívás</string>
+    <string name="leui_ic_emergency_red_cross_number">Segélyhívás</string>
+    <string name="leui_ic_emergency_traffic_number">Segélyhívás</string>
 </resources>

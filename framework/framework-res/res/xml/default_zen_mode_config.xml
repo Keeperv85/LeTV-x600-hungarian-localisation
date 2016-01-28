@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <zen version="1">
-    <allow calls="false" messages="false" />
-    <sleep startHour="22" startMin="0" endHour="7" endMin="0" />
+    <allow calls="false" messages="false" events="false" from="0" />
+    <sleep mode="days:2,3,4,5,6" startHour="23" startMin="0" endHour="7" endMin="0" />
+    <controls enabled="false" />
 </zen>

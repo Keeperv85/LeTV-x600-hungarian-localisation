@@ -878,7 +878,7 @@
     <string name="keyguard_password_enter_pin_password_code">Type PIN to unlock</string>
     <string name="keyguard_password_wrong_pin_code">Incorrect PIN code.</string>
     <string name="keyguard_label_text">To unlock, press Menu then 0.</string>
-    <string name="emergency_call_dialog_number_for_display">Emergency number</string>
+    <string name="emergency_call_dialog_number_for_display">Emergency Call</string>
     <string name="lockscreen_carrier_default">No service</string>
     <string name="lockscreen_screen_locked">Screen locked.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Press Menu to unlock or place emergency call.</string>
@@ -1713,8 +1713,9 @@ To unpin, touch and hold Home."</string>
 Battery saver turns off automatically when your device is charging."</string>
     <string name="downtime_condition_summary">Until your downtime ends at %1$s</string>
     <string name="zen_mode_forever">Indefinitely</string>
-    <string name="config_voiceAssistPackageName">com.google.android.googlequicksearchbox</string>
-    <string name="config_voiceAssistClassName">com.google.android.googlequicksearchbox.VoiceSearchActivity</string>
+-    <string name="config_voiceAssistPackageName">com.google.android.googlequicksearchbox</string>
+-    <string name="config_voiceAssistClassName">com.google.android.googlequicksearchbox.VoiceSearchActivity</string>
+>
     <string name="leui_reset_path">/sys/bus/i2c/devices/2-004b/touch/reset</string>
     <string name="leui_touch_wakeup_path">/sys/bus/i2c/devices/2-004b/touch/</string>
     <string name="Shades">Neon</string>
@@ -2023,8 +2024,10 @@ Battery saver turns off automatically when your device is charging."</string>
     <string name="permdesc_read_phone_bind_key">”Allows applications to access security KEY.“</string>
     <string name="le_licence_dialog_title">Statements and terms</string>
     <string name="le_licence_dialog_content">You will be using %1$s provided by Letv, please read the %2$s. %3$s during use?</string>
+    <string name="le_licence_dialog_content_without_agreement">您将使用乐视提供的%1$s，在使用过程中需要%2$s，您是否同意？</string>
     <string name="le_licence_dialog_permission_net">Allow %1$s to access your network information</string>
     <string name="le_licence_dialog_permission_location_net">Allow %1$s to access your location and network information</string>
+    <string name="le_licence_dialog_permission_contacts_net">读取联系人并联网</string>
     <string name="le_licence_dialog_permission_contacts_location_net">Allow %1$s to access your contacts, location and network information</string>
     <string name="le_licence_dialog_cb_text">Do not show again</string>
     <string name="le_licence_dialog_btn_exit">Exit</string>
@@ -2071,5 +2074,11 @@ Do you want to close it?"</string>
     <string name="le_choose_wechat_account">Select wechat account</string>
     <string name="le_choose_wechat_cancel">Cancel</string>
     <string name="application_info_label">App details</string>
+    <string name="leui_ic_emergency_police_number">Emergency Call</string>
+    <string name="leui_ic_emergency_fire_number">Emergency Call</string>
+    <string name="leui_ic_emergency_emergency_number">Emergency Call</string>
+    <string name="leui_ic_emergency_red_cross_number">Emergency Call</string>
+    <string name="leui_ic_emergency_traffic_number">Emergency Call</string>
+    <string name="zenmode_default_name">晚安</string>
     <string name="headset_plugin_unsupported">Your earphones are not compatible with the Phone. Please try another one</string>
 </resources>
