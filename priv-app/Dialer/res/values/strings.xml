@@ -198,21 +198,57 @@
     <string name="taidixiong">Teddy Bear</string>
     <string name="jiaruheimingdan">Add to blacklist</string>
     <string name="yichuheimingdan">Remove from blacklist</string>
-    <string name="fujinmendian">附近门店</string>
-    <string name="zuijinhetuijian">最近和推荐</string>
-    <string name="all">全部</string>
-    <string name="bendifuwu">本地服务</string>
-    <string name="wodeguanzhu">我的关注</string>
-    <string name="chailvchuxing">差旅出行</string>
-    <string name="qingchujilu">清除记录</string>
-    <string name="guanfangwangzhan">官方网站</string>
-    <string name="guanfangweibo">官方微博</string>
-    <string name="guanzhu">关注</string>
+    <string name="fujinmendian">Nearby stores</string>
+    <string name="zuijinhetuijian">Recent and recommended</string>
+    <string name="all">All</string>
+    <string name="shouhoufuwu">After-sales service</string>
+    <string name="bendifuwu">Local services</string>
+    <string name="wodeguanzhu">My follows</string>
+    <string name="firm_name">企业名称</string>
+    <string name="chailvchuxing">Travels</string>
+    <string name="qingchujilu">Clear log</string>
+    <string name="bizhituijian">Popular wallpapers</string>
+    <string name="guanfangwangzhan">Official Website</string>
+    <string name="guanfangweibo">Official Weibo</string>
+    <string name="gexingdingzhi">Customization</string>
+    <string name="guanzhu">Follow</string>
+    <string name="pinpaidaiyanren">Brand ambassador</string>
     <string name="shenghuojiazheng">生活娱乐</string>
-    <string name="yichulanjie">确定要把%s移除黑名单，并不再拦截其电话和信息</string>
-    <string name="server_args_exception">参数异常</string>
-    <string name="no_record">无记录</string>
+    <string name="xinjian">New</string>
+    <string name="yichulanjie">Remove %s from blacklist and stop blocking its messages and calls</string>
+    <string name="xiangguanshipin">Related videos</string>
+    <string name="qingchusuoyoujilu">Clear all records</string>
+    <string name="server_args_exception">Parameter error</string>
+    <string name="no_record">No record</string>
     <string name="from_eui">EUI</string>
+    <string name="address_demo">Lei Shing Hong Plaza, No. 8, Wangjing Street</string>
+    <string name="baoxian">Insurances</string>
+    <string name="baoyang">Servicing</string>
+    <string name="beijingshi">Beijing</string>
+    <string name="benchi">Benz</string>
+    <string name="benchiguanggao">Benz ads</string>
+    <string name="chaxunkuaijian">Track package</string>
+    <string name="daojiafuwu">Home service</string>
+    <string name="dianhua">Phone</string>
+    <string name="fuzequyu">Region responsible</string>
+    <string name="haoma">133333333</string>
+    <string name="jiagebiaozhun">Price standard</string>
+    <string name="jianyi">Suggestion</string>
+    <string name="kuaidiyuan">Deliveryman Wang Wei</string>
+    <string name="nongyeyinhang">Agricultural Bank of China</string>
+    <string name="ririshunwuliu">RRS logistics</string>
+    <string name="shangmenqujian">Pickup</string>
+    <string name="shoujihaoma">13514444444</string>
+    <string name="suijiaosuidao">Available on demand</string>
+    <string name="time">19:42 yesterday</string>
+    <string name="tonghuashichang">1 min 65 sec</string>
+    <string name="tousu">Complaints</string>
+    <string name="wangshanggouche">Once vehicle purchase</string>
+    <string name="weijinwupin">Prohibited items</string>
+    <string name="weixiu">Servicing</string>
+    <string name="zhaoshangyinhang">China Merchants Bank</string>
+    <string name="zhinengguanli">Smart management of apps</string>
+    <string name="zixun">News</string>
     <string name="dialpad_0_number">0</string>
     <string name="dialpad_1_number">1</string>
     <string name="dialpad_2_number">2</string>
@@ -278,7 +314,6 @@
     <string name="help_url_people_main" />
     <string name="help_url_people_add" />
     <string name="help_url_people_edit" />
-    <string name="menu_select_all">Select all</string>
     <string name="profile_header">*</string>
     <string name="menu_print">Print</string>
     <string name="printContact">Print contact method</string>
@@ -531,6 +566,7 @@ Incomplete: %d"</string>
     <string name="sim4">SIM4</string>
     <string name="err_icc_no_phone_book">This SIM card is unable to store contacts</string>
     <string name="titleJoinContactDataWith">Join contacts</string>
+    <string name="menu_select_all">Select all</string>
     <string name="list_filter_custom">Custom</string>
     <string name="add_contact_dlg_message_fmt">Add \"%s\" to contacts?</string>
     <string name="locale_change_in_progress">Contact list is being updated to reflect the change of language.</string>
@@ -566,13 +602,13 @@ To add a contact to your list of favorites:
     <string name="dialog_phone_call_prohibited_message">Call not sent</string>
     <string name="from_account_format" />
     <string name="recently_added_contacts">Recently added contacts</string>
-    <string name="cancel_export_confirmation_title">Cancel vCard export</string>
     <string name="searching_vcard_title">Searching vCard</string>
-    <string name="menu_all_contacts">All contacts</string>
     <string name="cancel_import_confirmation_title">Cancel vCard import</string>
+    <string name="cancel_export_confirmation_title">Cancel vCard export</string>
+    <string name="menu_all_contacts">All contacts</string>
     <string name="search_bar_hint">Search contacts</string>
-    <string name="delete_group_dialog_title">Delete group</string>
     <string name="cancel_confirmation_dialog_title">Discard changes</string>
+    <string name="delete_group_dialog_title">Delete group</string>
     <string name="all_contacts_empty">You have no contacts.</string>
     <string name="account_phone">Only saved on phone, not synced</string>
     <string name="import_from_sdcard">Import from storage device</string>
@@ -635,7 +671,6 @@ To add a contact to your list of favorites:
     <string name="calllog_delete_tip">Delete call log</string>
     <string name="selectAll">Select all</string>
     <string name="delete_all_no_choose">Deselect all</string>
-    <string name="contactPickerActivityTitle">Select contact</string>
     <string name="number_dialog_cancle">Cancel</string>
     <string name="number_mark_unfamiliar">Mark as unknown number</string>
     <string name="number_type_bilk">Scammer</string>
@@ -645,7 +680,6 @@ To add a contact to your list of favorites:
     <string name="number_type_express">Mail</string>
     <string name="number_type_custom">Custom</string>
     <string name="label_number">Number</string>
-    <string name="addContactsForGroupTip">Add contacts to this group</string>
     <string name="import_vcard">Import vCard files from storage device</string>
     <string name="is_delete_group">"Delete '%s'?"</string>
     <string name="is_delete_group_hint">Note: Contacts will not be deleted</string>
@@ -736,6 +770,8 @@ To add a contact to your list of favorites:
     <string name="organizationLabelsGroup">Organization</string>
     <string name="relationLabelsGroup">Relationship</string>
     <string name="eventLabelsGroup">Birthday</string>
+    <string name="lunarEventLabelsGroup">Lunar Birthday</string>
+    <string name="anniversaryEventLabelsGroup">Anniversary</string>
     <string name="sms">Text message</string>
     <string name="postal_address">Address</string>
     <string name="ghostData_company">Company</string>
@@ -893,6 +929,10 @@ Reason: \"%s\""</string>
     <string name="quickcontact_delete_calllog">Delete call history</string>
     <string name="too_length">Maximum text limitation exceeded</string>
     <string name="contactsDeletedFail">Delete contacts failed</string>
+    <string name="add_one_contact_to_group_tip">Move contact to this group</string>
+    <string name="add_contacts_to_group_tip">Move %s contacts to this group</string>
+    <string name="add_to_group_interrupt_tip">Interrupt current operation</string>
+    <string name="add_to_group_done_success_tip">contacts added</string>
     <string name="number_dialog_delete">Delete</string>
     <string name="deleting_groups">Deleting</string>
     <string name="incoming_rejected">Rejected</string>
@@ -932,6 +972,8 @@ Reason: \"%s\""</string>
     <string name="menu_create_groups">Create new group</string>
     <string name="menu_operation_list_groups">Group operation</string>
     <string name="dialog_create_group_account">Choose save location</string>
+    <string name="contact_editor_bottom_sheet_cancel">Cancel</string>
+    <string name="local_account_add_contact_label">LocalDevice</string>
     <string name="description_search_button">search</string>
     <string name="phoneAppLabel">Phone</string>
     <string name="inCallLabel">InCallUI</string>
@@ -1157,10 +1199,9 @@ Reason: \"%s\""</string>
     <string name="unfamiliar_contact">Unfamiliar contact</string>
     <string name="empty_sim_name">SIM card slot %1$d</string>
     <string name="sim_selected_dialog_title">Select SIM card</string>
-    <string name="contact_list_loading">Loading…</string>
     <string name="error_contact_tip">Must be a contact to view details</string>
-    <string name="add_2sec_pause">Add 2-sec pause</string>
     <string name="recentCalls_empty">Your call log is empty.</string>
+    <string name="add_2sec_pause">Add 2-sec pause</string>
     <string name="config_prohibited_phone_number_regexp" />
     <string name="applicationLabel">Dialer</string>
     <string name="digits_hint_text">Enter number or search by name</string>
@@ -1255,6 +1296,7 @@ Reason: \"%s\""</string>
     <string name="callDetailsDurationFormat" formatted="false">%s mins %s secs</string>
     <string name="dialog_voicemail_not_ready_message">To set up Voicemail, go to Settings > App settings > Call Settings.</string>
     <string name="dialog_voicemail_airplane_mode_message">To call voicemail, first turn off Airplane mode.</string>
+    <string name="contact_list_loading">Loading…</string>
     <string name="imei">IMEI</string>
     <string name="meid">MEID</string>
     <string name="imeiandmeid">IMEI &amp; MEID</string>
@@ -1268,6 +1310,7 @@ Reason: \"%s\""</string>
     <string name="recentMissed_empty">You have no recent missed calls.</string>
     <string name="recentSim1_empty">You have no recent SIM1 calls.</string>
     <string name="recentSim2_empty">You have no recent SIM2 calls.</string>
+    <string name="recentVideoCall_empty">You have no recent video calls.</string>
     <string name="recentVoicemails_empty">You have no recent voicemails.</string>
     <string name="show_favorites_only">Show favorites only</string>
     <string name="call_log_activity_title">History</string>
@@ -1287,7 +1330,9 @@ Reason: \"%s\""</string>
     <string name="speed_dial_empty">"Speed dial is one touch dialing
 for favorites and numbers
  you call frequently."</string>
-    <string name="no_favorites">Your stared and most frequent contacts will appear here. Start calling contacts whenever you’re ready!</string>
+    <string name="no_favorites">"Your stared and most frequent
+contacts will appear here.
+Start calling contacts whenever you’re ready!"</string>
     <string name="contact_tooltip">Tap image to see all numbers or press and hold to reorder</string>
     <string name="description_dismiss">Dismiss</string>
     <string name="remove_contact">Remove</string>
@@ -1296,6 +1341,10 @@ for favorites and numbers
     <string name="call_log_action_video_call">VIDEO CALL</string>
     <string name="call_log_action_voicemail">LISTEN</string>
     <string name="call_log_action_details">DETAILS</string>
+    <string name="call_log_list_video">Video</string>
+    <string name="call_log_list_voice">Voice</string>
+    <string name="smart_search_list_free_call">Free network call</string>
+    <string name="smart_search_list_common_call">Common call</string>
     <string name="description_incoming_missed_call">Missed call from %1$s, %2$s, %3$s.</string>
     <string name="description_incoming_answered_call">Answered call from %1$s, %2$s, %3$s.</string>
     <string name="description_outgoing_call">Call to %1$s, %2$s, %3$s.</string>
@@ -1368,4 +1417,5 @@ for favorites and numbers
     <string name="keypad_star_longpress_change_tip">Press and hold here to switch keyboards</string>
     <string name="keypad_star_longpress_change_tip_title">Switch keyboards</string>
     <string name="keypad_search_handle_tip_title">Search contacts</string>
+    <string name="speed_dial_number_too_long">Max number limitation exceeded.</string>
 </resources>

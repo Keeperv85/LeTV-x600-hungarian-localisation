@@ -1300,7 +1300,7 @@
     <style name="call_log_ringcount_textstyle">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#ff747474</item>
+        <item name="android:textColor">#ff898b94</item>
         <item name="android:gravity">center</item>
         <item name="android:fontFamily">helve-neue-regular</item>
     </style>
@@ -1314,7 +1314,7 @@
     <style name="call_log_labelname_text_style">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#ff54555c</item>
+        <item name="android:textColor">#ff898b94</item>
         <item name="android:gravity">center</item>
         <item name="android:fontFamily">helve-neue-regular</item>
     </style>
@@ -1322,13 +1322,13 @@
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">#ff000000</item>
-        <item name="android:gravity">center</item>
+        <item name="android:gravity">center|left</item>
         <item name="android:fontFamily">helve-neue-regular</item>
     </style>
     <style name="search_call_log_secondary_text_style">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#ff272727</item>
+        <item name="android:textColor">#ff000000</item>
         <item name="android:gravity">center</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
@@ -1344,6 +1344,7 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
         <item name="android:fontFamily">helve-neue-regular</item>
     </style>
     <style name="dialpad_key_number_text_style">

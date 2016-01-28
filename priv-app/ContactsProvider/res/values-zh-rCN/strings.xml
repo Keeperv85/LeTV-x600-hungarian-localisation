@@ -21,4 +21,5 @@
     <string name="debug_dump_email_subject">随附通讯录数据库</string>
     <string name="debug_dump_email_body">附件是我的通讯录数据库，其中包含我所有的联系人信息，因此请谨慎处理。</string>
     <string name="missing_name">（无姓名）</string>
+    <string name="contact_event_title" formatted="false">%1s的%2s</string>
 </resources>

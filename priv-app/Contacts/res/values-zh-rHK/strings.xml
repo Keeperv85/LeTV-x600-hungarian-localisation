@@ -37,7 +37,6 @@
     <string name="incall_error_missing_voicemail_number">如要設定留言信箱，請移至 “設置”>“應用設置”>“通話設置”。</string>
     <string name="emergency_title">緊急撥號</string>
     <string name="pressed_button_text">返回</string>
-    <string name="menu_select_all">全選</string>
     <string name="menu_print">列印</string>
     <string name="printContact">列印聯絡人方式</string>
     <string name="no_way_to_print">沒有可列印聯絡人的應用程式</string>
@@ -46,13 +45,10 @@
     <string name="recentCalls_delete">刪除</string>
     <string name="menu_selectAll">全選</string>
     <string name="menu_clearAll">取消全選</string>
-    <string name="sim1">SIM1</string>
-    <string name="sim2">SIM2</string>
     <string name="all_resources">所有資源</string>
     <string name="choose_resources_header">選擇資源</string>
     <string name="all_tab_label1">全部</string>
     <string name="call_log_item_count">(#g#)</string>
-    <string name="call_indicator_3g">3G</string>
     <string name="call_sipcall">互聯網通話</string>
     <string name="call_pin_dialog_title">選擇 SIM 卡</string>
     <string name="call_people">聯絡人</string>
@@ -284,6 +280,7 @@
     <string name="share_too_large">數據過多，請減少選擇項目後再試</string>
     <string name="err_icc_no_phone_book">此SIM卡無法儲存聯絡人</string>
     <string name="titleJoinContactDataWith">合併聯絡人</string>
+    <string name="menu_select_all">全選</string>
     <string name="list_filter_custom">自訂</string>
     <string name="add_contact_dlg_message_fmt">要將「%s」加到通訊錄嗎？</string>
     <string name="locale_change_in_progress">正在更新聯絡人名單，以反映語言變更。</string>
@@ -308,13 +305,13 @@
     <string name="dialog_phone_call_prohibited_message">未傳送通話</string>
     <string name="from_account_format">\#g#</string>
     <string name="recently_added_contacts">最近添加联系人</string>
-    <string name="cancel_export_confirmation_title">取消匯出 vCard</string>
     <string name="searching_vcard_title">正在搜尋 VCard</string>
-    <string name="menu_all_contacts">所有聯絡人</string>
     <string name="cancel_import_confirmation_title">取消匯入 vCard</string>
+    <string name="cancel_export_confirmation_title">取消匯出 vCard</string>
+    <string name="menu_all_contacts">所有聯絡人</string>
     <string name="search_bar_hint">搜尋聯絡人</string>
-    <string name="delete_group_dialog_title">刪除群組</string>
     <string name="cancel_confirmation_dialog_title">捨棄變更</string>
+    <string name="delete_group_dialog_title">刪除群組</string>
     <string name="all_contacts_empty">您沒有聯絡人。</string>
     <string name="account_phone">只限手機，不會保持同步</string>
     <string name="import_from_sdcard">從儲存裝置匯入</string>
@@ -378,8 +375,6 @@
     <string name="calllog_delete_tip">刪除記錄嗎？</string>
     <string name="selectAll">全選</string>
     <string name="delete_all_no_choose">取消全選</string>
-    <string name="contactPickerActivityTitle">請按一下選擇</string>
-    <string name="selectedContact">已選擇%1$d聯絡人</string>
     <string name="number_dialog_cancle">取消</string>
     <string name="number_mark_unfamiliar">標記陌生號碼</string>
     <string name="number_type_bilk">詐騙</string>
@@ -389,7 +384,6 @@
     <string name="number_type_express">速遞</string>
     <string name="number_type_custom">自訂</string>
     <string name="label_number">備註號碼</string>
-    <string name="addContactsForGroupTip">確定要新增 個聯絡人到該群組</string>
     <string name="import_vcard">匯入儲存裝置上的 vCard 文件</string>
     <string name="is_delete_group">刪除群組</string>
     <string name="is_delete_group_hint">提示:不會刪除其聯絡人</string>
@@ -479,6 +473,8 @@
     <string name="organizationLabelsGroup">機構</string>
     <string name="relationLabelsGroup">關係</string>
     <string name="eventLabelsGroup">生日</string>
+    <string name="lunarEventLabelsGroup">農曆生日</string>
+    <string name="anniversaryEventLabelsGroup">週年紀念日</string>
     <string name="sms">傳送短訊</string>
     <string name="postal_address">地址</string>
     <string name="ghostData_company">公司</string>
@@ -630,6 +626,10 @@
     <string name="quickcontact_delete_calllog">刪除通話記錄</string>
     <string name="too_length">超过最大长度限制</string>
     <string name="contactsDeletedFail">刪除聯絡人失敗</string>
+    <string name="add_one_contact_to_group_tip">新增聯絡人到該群組</string>
+    <string name="add_contacts_to_group_tip">新增 %s 個聯絡人到該群組</string>
+    <string name="add_to_group_interrupt_tip">中斷當前操作</string>
+    <string name="add_to_group_done_success_tip">聯絡人添加成功</string>
     <string name="number_dialog_delete">刪除</string>
     <string name="deleting_groups">刪除中</string>
     <string name="incoming_rejected">已掛斷</string>
@@ -672,6 +672,8 @@
     <string name="menu_create_groups">新建羣組</string>
     <string name="menu_operation_list_groups">羣組操作</string>
     <string name="dialog_create_group_account">羣組存儲帳號</string>
+    <string name="contact_editor_bottom_sheet_cancel">取消</string>
+    <string name="local_account_add_contact_label">未同步帳戶</string>
     <string name="applicationLabel">通訊錄</string>
     <string name="confirm">確定</string>
     <string name="continue_exe">继续</string>
@@ -687,9 +689,11 @@
     <string name="shortcutMessageContact">私人訊息</string>
     <string name="export_sim_export_contact_to_sim">匯出聯絡人到 SIM 卡</string>
     <string name="shortcutActivityTitle">選擇聯絡人捷徑</string>
+    <string name="delete_one_contact_label">刪除聯絡人</string>
     <string name="delete_contact_label">刪除 %1$d個聯絡人</string>
     <string name="callShortcutActivityTitle">選擇撥打號碼</string>
     <string name="messageShortcutActivityTitle">選擇傳訊號碼</string>
+    <string name="contactPickerActivityTitle">請按一下選擇</string>
     <string name="header_entry_contact_list_adapter_header_title">建立新聯絡人</string>
     <string name="starredList">已加星號</string>
     <string name="frequentList">常用聯絡人</string>
@@ -756,6 +760,11 @@
     <string name="quickcontact_transparent_view_description">按一下即可返回上一個畫面</string>
     <string name="quickcontact_add_phone_number">新增電話號碼</string>
     <string name="quickcontact_add_email">新增電郵</string>
+    <string name="quickcontact_hometime">HomeTime</string>
+    <string name="quickcontact_hometime_select_title">選擇一個號碼撥打HomeTime</string>
+    <string name="quickcontact_hometime_dial_title">撥打 %s</string>
+    <string name="quickcontact_hometime_video">HomeTime視像通話</string>
+    <string name="quickcontact_hometime_voice">HomeTime免費網絡電話</string>
     <string name="missing_app">找不到可以處理這個操作的應用程式。</string>
     <string name="menu_add_contact">加入通訊錄</string>
     <string name="dialog_new_group_account">選擇帳戶以建立群組</string>
@@ -895,8 +904,8 @@
     <string name="contact_edit_prompt_msg_edit">继续编辑</string>
     <string name="contact_edit_prompt_msg_discard">放弃修改</string>
     <string name="le_contacts_mark_tip_content">標記陌生號碼</string>
+    <string name="zenmode_list_title">编辑联系人</string>
     <string name="aggregation_suggestion_join_dialog_title">合併聯絡人</string>
     <string name="aggregation_suggestion_edit_dialog_title">編輯所選聯絡人</string>
     <string name="contactsDeleteTip">確定要刪除%s個聯絡人</string>
-    <string name="local_account_add_contact_label">未同步帳戶</string>
 </resources>

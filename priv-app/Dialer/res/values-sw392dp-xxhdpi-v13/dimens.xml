@@ -23,9 +23,8 @@
     <dimen name="dialicon_bg_paddingtop">24.0px</dimen>
     <dimen name="dialicon_bg_paddingbottom">24.0px</dimen>
     <dimen name="call_log_empty_marginbottom">800.0px</dimen>
-    <dimen name="iv_showcall1_marginleft">54.0px</dimen>
-    <dimen name="show_call_1_text_margitnleft">12.0px</dimen>
-    <dimen name="show_call_1_text_margitnright">54.0px</dimen>
+    <dimen name="show_call_1_text_drawable_padding">12.0px</dimen>
+    <dimen name="show_call_1_text_margin_hori">54.0px</dimen>
     <item type="dimen" name="callcard_base_height">782</item>
     <item type="dimen" name="photo_anim_delta_height">308</item>
     <item type="dimen" name="primary_baseInfo_lastY">456</item>

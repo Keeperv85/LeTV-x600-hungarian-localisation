@@ -16,14 +16,6 @@
         <item quantity="other">確定要刪除%s個聯繫人嗎？</item>
         <item quantity="one">確定要刪除1個聯繫人嗎？</item>
     </plurals>
-    <plurals name="addContactsForGroupTip">
-        <item quantity="other">確定要添加%s個聯繫人到該羣組嗎？</item>
-        <item quantity="one">確定要添加1個聯繫人到該羣組嗎？</item>
-    </plurals>
-    <plurals name="selectedContact">
-        <item quantity="other">已選擇%d個聯繫人</item>
-        <item quantity="one">已選擇1個聯繫人</item>
-    </plurals>
     <plurals name="import_from_vcard_success">
         <item quantity="other">聯繫人導入成功</item>
         <item quantity="one">聯繫人導入成功</item>
@@ -36,7 +28,7 @@
         <item quantity="other">已選擇%d項</item>
         <item quantity="one">已選擇1項</item>
     </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_0006">false</item>
+    <item type="plurals" name="APKTOOL_DUMMY_0007">false</item>
     <item type="plurals" name="APKTOOL_DUMMY_0008">false</item>
-    <item type="plurals" name="APKTOOL_DUMMY_0009">false</item>
-    <item type="plurals" name="APKTOOL_DUMMY_000a">false</item>
 </resources>

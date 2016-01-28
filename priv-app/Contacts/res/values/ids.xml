@@ -169,9 +169,12 @@
     <item type="id" name="save_menu_item">false</item>
     <item type="id" name="emptytextview">false</item>
     <item type="id" name="delete_button_container">false</item>
+    <item type="id" name="ll_label">false</item>
+    <item type="id" name="title_textview">false</item>
+    <item type="id" name="edit_type_more">false</item>
     <item type="id" name="devider">false</item>
-    <item type="id" name="header">false</item>
     <item type="id" name="thurs_header_ll">false</item>
+    <item type="id" name="header">false</item>
     <item type="id" name="sub_header_ll">false</item>
     <item type="id" name="icon_sub_header">false</item>
     <item type="id" name="sub_header">false</item>

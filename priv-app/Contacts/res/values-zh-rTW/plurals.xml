@@ -16,17 +16,13 @@
         <item quantity="other">確定要刪除%s個聯繫人嗎？</item>
         <item quantity="one">確定要刪除1個聯繫人嗎？</item>
     </plurals>
-    <plurals name="addContactsForGroupTip">
-        <item quantity="other">確定要添加%s個聯繫人到該羣組嗎？</item>
-        <item quantity="one">確定要添加1個聯繫人到該羣組嗎？</item>
+    <plurals name="import_from_vcard_success">
+        <item quantity="other">聯繫人導入成功</item>
+        <item quantity="one">聯繫人導入成功</item>
     </plurals>
     <plurals name="selectedContact">
         <item quantity="other">已選擇%d項</item>
         <item quantity="one">已選擇1項</item>
-    </plurals>
-    <plurals name="import_from_vcard_success">
-        <item quantity="other">聯繫人導入成功</item>
-        <item quantity="one">聯繫人導入成功</item>
     </plurals>
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">%d 位有電話號碼的聯絡人</item>

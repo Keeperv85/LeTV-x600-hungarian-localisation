@@ -227,7 +227,6 @@
     <string name="incall_error_missing_voicemail_number">如要設定語音信箱，請前往 “設置”>“應用設置”>“通話設置”。</string>
     <string name="emergency_title">緊急撥號</string>
     <string name="pressed_button_text">返回</string>
-    <string name="menu_select_all">選擇全部</string>
     <string name="menu_print">列印</string>
     <string name="printContact">列印連絡人方式</string>
     <string name="no_way_to_print">無可列印連絡人的應用程式</string>
@@ -236,13 +235,10 @@
     <string name="recentCalls_delete">刪除</string>
     <string name="menu_selectAll">全選</string>
     <string name="menu_clearAll">取消全選</string>
-    <string name="sim1">SIM1</string>
-    <string name="sim2">SIM2</string>
     <string name="all_resources">所有資源</string>
     <string name="choose_resources_header">選擇資源</string>
     <string name="all_tab_label1">全部</string>
     <string name="call_log_item_count">(%1$d)</string>
-    <string name="call_indicator_3g">3G</string>
     <string name="call_sipcall">網際網路通話</string>
     <string name="call_pin_dialog_title">選擇 SIM 卡</string>
     <string name="call_people">連絡人</string>
@@ -474,6 +470,7 @@
     <string name="share_too_large">資料量過大，請減少選擇項目後再試</string>
     <string name="err_icc_no_phone_book">此SIM卡無法儲存連絡人</string>
     <string name="titleJoinContactDataWith">合併聯絡人</string>
+    <string name="menu_select_all">選擇全部</string>
     <string name="list_filter_custom">自訂</string>
     <string name="add_contact_dlg_message_fmt">要將「%s」加到通訊錄嗎？</string>
     <string name="locale_change_in_progress">“正在更新聯絡人清單，以反映語言的變更。”</string>
@@ -508,13 +505,13 @@
     <string name="dialog_phone_call_prohibited_message">無法撥號</string>
     <string name="from_account_format">%1$s</string>
     <string name="recently_added_contacts">最近添加联系人</string>
-    <string name="cancel_export_confirmation_title">取消匯出 vCard</string>
     <string name="searching_vcard_title">正在搜尋 VCard</string>
-    <string name="menu_all_contacts">所有聯絡人</string>
     <string name="cancel_import_confirmation_title">取消匯入 vCard</string>
+    <string name="cancel_export_confirmation_title">取消匯出 vCard</string>
+    <string name="menu_all_contacts">所有聯絡人</string>
     <string name="search_bar_hint">搜尋聯絡人</string>
-    <string name="delete_group_dialog_title">刪除群組</string>
     <string name="cancel_confirmation_dialog_title">捨棄變更</string>
+    <string name="delete_group_dialog_title">刪除群組</string>
     <string name="all_contacts_empty">您沒有聯絡人。</string>
     <string name="account_phone">僅儲存在手機中 (不同步處理)</string>
     <string name="import_from_sdcard">從儲存裝置匯入</string>
@@ -577,7 +574,6 @@
     <string name="calllog_delete_tip">刪除記錄嗎？</string>
     <string name="selectAll">全選</string>
     <string name="delete_all_no_choose">取消全選</string>
-    <string name="contactPickerActivityTitle">選擇連絡人</string>
     <string name="number_dialog_cancle">取消</string>
     <string name="number_mark_unfamiliar">標記陌生號碼</string>
     <string name="number_type_bilk">詐騙</string>
@@ -587,7 +583,6 @@
     <string name="number_type_express">快遞</string>
     <string name="number_type_custom">自訂</string>
     <string name="label_number">備註號碼</string>
-    <string name="addContactsForGroupTip">確定要新增 %s 個連絡人到該群組</string>
     <string name="import_vcard">匯入儲存裝置上的 vCard 文件</string>
     <string name="is_delete_group">刪除群組 %s？</string>
     <string name="is_delete_group_hint">提示： 並不會刪除連絡人本身</string>
@@ -677,6 +672,8 @@
     <string name="organizationLabelsGroup">機構</string>
     <string name="relationLabelsGroup">關係</string>
     <string name="eventLabelsGroup">生日</string>
+    <string name="lunarEventLabelsGroup">農曆生日</string>
+    <string name="anniversaryEventLabelsGroup">週年紀念日</string>
     <string name="sms">簡訊</string>
     <string name="postal_address">地址</string>
     <string name="ghostData_company">公司</string>
@@ -825,6 +822,10 @@
     <string name="quickcontact_delete_calllog">刪除通話記錄</string>
     <string name="too_length">超过最大长度限制</string>
     <string name="contactsDeletedFail">刪除連絡人失敗</string>
+    <string name="add_one_contact_to_group_tip">添加聯繫人到該羣組</string>
+    <string name="add_contacts_to_group_tip">添加 %s 個聯繫人到該羣組</string>
+    <string name="add_to_group_interrupt_tip">中斷當前操作</string>
+    <string name="add_to_group_done_success_tip">聯繫人添加成功</string>
     <string name="number_dialog_delete">刪除</string>
     <string name="deleting_groups">删除中</string>
     <string name="incoming_rejected">拒接</string>
@@ -860,6 +861,8 @@
     <string name="menu_create_groups">新建群組</string>
     <string name="menu_operation_list_groups">群組操作</string>
     <string name="dialog_create_group_account">群組存儲帳號</string>
+    <string name="contact_editor_bottom_sheet_cancel">取消</string>
+    <string name="local_account_add_contact_label">未同步帳戶</string>
     <string name="description_search_button">搜尋</string>
     <string name="phoneAppLabel">電話</string>
     <string name="onHold">通話保留</string>
@@ -1075,10 +1078,9 @@
     <string name="unfamiliar_contact">陌生連絡人</string>
     <string name="empty_sim_name">SIM 卡槽 %1$d</string>
     <string name="sim_selected_dialog_title">選擇 SIM 卡</string>
-    <string name="contact_list_loading">載入中…</string>
     <string name="error_contact_tip">非連絡人，無法查看詳細資料</string>
-    <string name="add_2sec_pause">暫停時間延長 2 秒</string>
     <string name="recentCalls_empty">無通話紀錄。</string>
+    <string name="add_2sec_pause">暫停時間延長 2 秒</string>
     <string name="applicationLabel">撥號</string>
     <string name="digits_hint_text">輸入號碼或姓名拼音</string>
     <string name="launcherActivityLabel">電話</string>
@@ -1172,6 +1174,7 @@
     <string name="callDetailsDurationFormat" formatted="false">%s 分 %s 秒</string>
     <string name="dialog_voicemail_not_ready_message">如要設定語音信箱，請前往 “設置”>“應用設置”>“通話設置”。</string>
     <string name="dialog_voicemail_airplane_mode_message">如要聽語音留言，請先關閉飛行模式。</string>
+    <string name="contact_list_loading">載入中…</string>
     <string name="imei">IMEI</string>
     <string name="meid">MEID</string>
     <string name="imeiandmeid">IMEI &amp; MEID</string>
@@ -1183,6 +1186,7 @@
     <string name="recentMissed_empty">最近沒有未接來電。</string>
     <string name="recentSim1_empty">SIM1無通話記錄</string>
     <string name="recentSim2_empty">SIM2無通話記錄</string>
+    <string name="recentVideoCall_empty">無視訊通話記錄</string>
     <string name="recentVoicemails_empty">最近沒有語音留言。</string>
     <string name="show_favorites_only">只顯示我的收藏</string>
     <string name="call_log_activity_title">通話紀錄</string>
@@ -1213,6 +1217,10 @@
     <string name="call_log_action_video_call">視訊通話</string>
     <string name="call_log_action_voicemail">聽取</string>
     <string name="call_log_action_details">詳細資料</string>
+    <string name="call_log_list_video">視訊</string>
+    <string name="call_log_list_voice">語音</string>
+    <string name="smart_search_list_free_call">免費網絡電話</string>
+    <string name="smart_search_list_common_call">普通電話</string>
     <string name="description_incoming_missed_call">未接來電，來自「%1$s」，%2$s，%3$s。</string>
     <string name="description_incoming_answered_call">已接來電，來自「%1$s」，%2$s，%3$s。</string>
     <string name="description_outgoing_call">撥號給「%1$s」，%2$s，%3$s。</string>
@@ -1256,12 +1264,8 @@
     <string name="keypad_search_handle_tip_title">搜索联系人</string>
     <string name="aggregation_suggestion_join_dialog_title">合併聯絡人</string>
     <string name="aggregation_suggestion_edit_dialog_title">編輯所選聯絡人</string>
-    <string name="local_account_add_contact_label">未同步帳戶</string>
+    <string name="contactsDeleteTip">確定要刪除 %s 個連絡人</string>
     <string name="add_voicemail_number">新增語音信箱號碼</string>
-    <item type="string" name="APKTOOL_DUMMY_03b7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03b8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03ba">false</item>
     <item type="string" name="APKTOOL_DUMMY_03bb">false</item>
     <item type="string" name="APKTOOL_DUMMY_03bc">false</item>
     <item type="string" name="APKTOOL_DUMMY_03bd">false</item>
@@ -1526,19 +1530,19 @@
     <item type="string" name="APKTOOL_DUMMY_04c0">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c1">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_04c3">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c4">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c5">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04c7">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c8">false</item>
     <item type="string" name="APKTOOL_DUMMY_04c9">false</item>
     <item type="string" name="APKTOOL_DUMMY_04ca">false</item>
     <item type="string" name="APKTOOL_DUMMY_04cb">false</item>
     <item type="string" name="APKTOOL_DUMMY_04cc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_058d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_058e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_058f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0590">false</item>
+    <item type="string" name="APKTOOL_DUMMY_04cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_04ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_04cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_04d0">false</item>
     <item type="string" name="APKTOOL_DUMMY_0591">false</item>
     <item type="string" name="APKTOOL_DUMMY_0592">false</item>
     <item type="string" name="APKTOOL_DUMMY_0593">false</item>
@@ -1546,10 +1550,10 @@
     <item type="string" name="APKTOOL_DUMMY_0595">false</item>
     <item type="string" name="APKTOOL_DUMMY_0596">false</item>
     <item type="string" name="APKTOOL_DUMMY_0597">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0598">false</item>
     <item type="string" name="APKTOOL_DUMMY_0599">false</item>
     <item type="string" name="APKTOOL_DUMMY_059a">false</item>
     <item type="string" name="APKTOOL_DUMMY_059b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_059c">false</item>
     <item type="string" name="APKTOOL_DUMMY_059d">false</item>
     <item type="string" name="APKTOOL_DUMMY_059e">false</item>
     <item type="string" name="APKTOOL_DUMMY_059f">false</item>
@@ -1771,11 +1775,11 @@
     <item type="string" name="APKTOOL_DUMMY_0677">false</item>
     <item type="string" name="APKTOOL_DUMMY_0678">false</item>
     <item type="string" name="APKTOOL_DUMMY_0679">false</item>
+    <item type="string" name="APKTOOL_DUMMY_067a">false</item>
     <item type="string" name="APKTOOL_DUMMY_067b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_067c">false</item>
     <item type="string" name="APKTOOL_DUMMY_067d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_067e">false</item>
     <item type="string" name="APKTOOL_DUMMY_067f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0680">false</item>
     <item type="string" name="APKTOOL_DUMMY_0681">false</item>
     <item type="string" name="APKTOOL_DUMMY_0682">false</item>
     <item type="string" name="APKTOOL_DUMMY_0683">false</item>
@@ -1913,13 +1917,17 @@
     <item type="string" name="APKTOOL_DUMMY_0707">false</item>
     <item type="string" name="APKTOOL_DUMMY_0708">false</item>
     <item type="string" name="APKTOOL_DUMMY_0709">false</item>
+    <item type="string" name="APKTOOL_DUMMY_070a">false</item>
     <item type="string" name="APKTOOL_DUMMY_070b">false</item>
     <item type="string" name="APKTOOL_DUMMY_070c">false</item>
     <item type="string" name="APKTOOL_DUMMY_070d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_070e">false</item>
     <item type="string" name="APKTOOL_DUMMY_070f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_07fd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_07fe">false</item>
-    <item type="string" name="APKTOOL_DUMMY_07ff">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0800">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0710">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0711">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0712">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0713">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0807">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0808">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0809">false</item>
+    <item type="string" name="APKTOOL_DUMMY_080a">false</item>
 </resources>

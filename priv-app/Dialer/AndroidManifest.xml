@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" coreApp="true" package="com.android.dialer" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" coreApp="true" package="com.android.dialer" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <uses-permission android:name="android.permission.DEVICE_POWER"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -44,6 +44,7 @@
     <uses-permission android:name="android.permission.WRITE_SMS"/>
     <uses-permission android:name="android.permission.READ_SPEED_DIAL"/>
     <uses-permission android:name="android.permission.WRITE_SPEED_DIAL"/>
+    <uses-permission android:name="com.stv.android.videochat.permission.VOIP_CALL"/>
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
     <application android:backupAgent="com.android.dialer.DialerBackupAgent" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_phone" android:label="@string/applicationLabel" android:name="DialerApplication" android:supportsRtl="true" android:theme="@android:style/Theme.Leui">
@@ -190,7 +191,7 @@
         <service android:exported="true" android:name="com.android.contacts.common.ContactSaveService"/>
         <receiver android:name="com.android.contacts.common.location.CountryDetector$LocationChangedReceiver"/>
         <service android:exported="false" android:name="com.android.contacts.common.location.UpdateCountryService"/>
-        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation" android:excludeFromRecents="true" android:exported="false" android:label="@string/phoneAppLabel" android:launchMode="singleInstance" android:name="com.android.incallui.InCallActivity" android:process="com.android.incallui" android:screenOrientation="portrait" android:taskAffinity="android.task.incallui" android:theme="@style/Theme.InCallScreen"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/phoneAppLabel" android:launchMode="singleInstance" android:name="com.android.incallui.InCallActivity" android:process="com.android.incallui" android:screenOrientation="portrait" android:taskAffinity="android.task.incallui" android:theme="@style/Theme.InCallScreen"/>
         <receiver android:exported="false" android:name="com.android.incallui.InCallApp$NotificationBroadcastReceiver" android:process="com.android.incallui">
             <intent-filter>
                 <action android:name="com.android.incallui.ACTION_HANG_UP_ONGOING_CALL"/>

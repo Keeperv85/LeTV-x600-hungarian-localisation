@@ -200,7 +200,7 @@
     <color name="incall_call_banner_background_color">@color/incall_background_color</color>
     <color name="incall_call_banner_background_incoming_start_color">@color/dialer_theme_color</color>
     <color name="incall_call_banner_background_incoming_end_color">#ff001628</color>
-    <color name="incall_call_banner_text_color">#ffffffff</color>
+    <color name="incall_call_banner_text_color">#ccffffff</color>
     <color name="incall_call_photo_incoming_background">#ffffffff</color>
     <color name="incall_call_photo_incall_background">#500c538e</color>
     <color name="incall_call_banner_subtext_color">#99ffffff</color>

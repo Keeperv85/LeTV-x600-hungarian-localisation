@@ -299,7 +299,7 @@
     <dimen name="button_add_filed_drawablePadding">8.0dip</dimen>
     <dimen name="button_add_filed_marginBottom">32.0dip</dimen>
     <dimen name="editor_spinner_end_padding_workaround">24.0dip</dimen>
-    <dimen name="editor_typelabel_width">80.0dip</dimen>
+    <dimen name="editor_typelabel_width">61.0dip</dimen>
     <dimen name="editor_typelabel_paddingringht">15.0dip</dimen>
     <dimen name="editor_kindetype_group_ringtone_paddingleft">34.0dip</dimen>
     <dimen name="expanding_entry_card_marginStartEnd">0.0dip</dimen>

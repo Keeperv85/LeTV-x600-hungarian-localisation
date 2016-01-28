@@ -1,103 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/dialpad_26" android:background="@color/dialpad_background_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_height"
+<TableLayout android:layout_gravity="bottom|center" android:id="@id/dialpad_26" android:background="@color/dialpad_background_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_height" android:layoutDirection="ltr"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TableLayout android:layout_gravity="bottom|center" android:id="@id/dialpad" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
-        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/one_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/two_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/three_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/four_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/five_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/six_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/seven_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/eight_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/nine_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/zero_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-        </TableRow>
-        <include layout="@layout/dialpad_land_line" />
-        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/q_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/w_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/e_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/r_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/t_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/y_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/u_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/i_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/o_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/p_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-        </TableRow>
-        <include layout="@layout/dialpad_land_line" />
-        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/a_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/s_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/d_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/f_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/g_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/h_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/j_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/k_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/l_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-        </TableRow>
-        <include layout="@layout/dialpad_land_line" />
-        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <include layout="@layout/dialpad_port_line" />
-            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/star_26_ll" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26">
-                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/star_26" android:layout_width="40.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_dial_action_star_all" android:includeFontPadding="false" />
-                <ImageView android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="10.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/dialpad_26_all" />
-            </LinearLayout>
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/z_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/x_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/c_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/v_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/b_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/n_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <TextView android:gravity="center" android:id="@id/m_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
-            <include layout="@layout/dialpad_port_line" />
-            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/pound_26_ll" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26">
-                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/pound_26" android:layout_width="40.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_dial_action_hash_all" android:includeFontPadding="false" />
-                <ImageView android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="10.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/plus_26" android:includeFontPadding="false" />
-            </LinearLayout>
-        </TableRow>
-        <include layout="@layout/dialpad_land_line" />
-    </TableLayout>
-</LinearLayout>
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/one_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/two_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/three_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/four_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/five_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/six_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/seven_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/eight_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/nine_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/zero_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/q_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/w_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/e_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/r_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/t_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/y_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/u_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/i_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/o_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/p_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/a_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/s_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/d_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/f_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/g_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/h_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/j_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/k_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/l_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/dialpad_port_line" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/star_26_ll" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/star_26" android:layout_width="40.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_dial_action_star_all" android:includeFontPadding="false" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="10.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/dialpad_26_all" />
+        </LinearLayout>
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/z_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/x_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/c_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/v_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/b_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/n_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <TextView android:gravity="center" android:id="@id/m_26" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/DialtactsDialpadButtonStyle26" />
+        <include layout="@layout/dialpad_port_line" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/pound_26_ll" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.5" style="@style/DialtactsDialpadButtonStyle26">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/pound_26" android:layout_width="40.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_dial_action_hash_all" android:includeFontPadding="false" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="10.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/plus_26" android:includeFontPadding="false" />
+        </LinearLayout>
+    </TableRow>
+    <include layout="@layout/dialpad_land_line" />
+</TableLayout>

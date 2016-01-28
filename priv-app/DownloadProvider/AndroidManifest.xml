@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.media" package="com.android.providers.downloads" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.media" package="com.android.providers.downloads" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <permission android:description="@string/permdesc_downloadManager" android:label="@string/permlab_downloadManager" android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" android:protectionLevel="signatureOrSystem"/>
     <permission android:description="@string/permdesc_downloadManagerAdvanced" android:label="@string/permlab_downloadManagerAdvanced" android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED" android:protectionLevel="signatureOrSystem"/>
     <permission android:description="@string/permdesc_downloadCompletedIntent" android:label="@string/permlab_downloadCompletedIntent" android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" android:protectionLevel="signature"/>

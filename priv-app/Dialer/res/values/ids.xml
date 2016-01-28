@@ -125,7 +125,7 @@
     <item type="id" name="bottom_widget">false</item>
     <item type="id" name="rq_container">false</item>
     <item type="id" name="search_city_txt">false</item>
-    <item type="id" name="table_business">false</item>
+    <item type="id" name="grid_margin_bottom">false</item>
     <item type="id" name="sousuojilu_layout">false</item>
     <item type="id" name="clear_record">false</item>
     <item type="id" name="all_contacts_frame">false</item>
@@ -192,6 +192,7 @@
     <item type="id" name="callConferenceCallIcon">false</item>
     <item type="id" name="callPhoto">false</item>
     <item type="id" name="callName">false</item>
+    <item type="id" name="callRemarkSpace">false</item>
     <item type="id" name="callRemark">false</item>
     <item type="id" name="labelAndNumber">false</item>
     <item type="id" name="callAccountLabel">false</item>
@@ -213,21 +214,21 @@
     <item type="id" name="add">false</item>
     <item type="id" name="primary_action_view">false</item>
     <item type="id" name="secondary_action_icon">false</item>
-    <item type="id" name="opt_button">false</item>
+    <item type="id" name="first_info_section">false</item>
     <item type="id" name="name">false</item>
     <item type="id" name="miss_count">false</item>
     <item type="id" name="label_name_splitter">false</item>
     <item type="id" name="labelname">false</item>
+    <item type="id" name="second_info_section">false</item>
+    <item type="id" name="videoVoiceCallText">false</item>
+    <item type="id" name="sim_id_type">false</item>
     <item type="id" name="labelnumberText">false</item>
     <item type="id" name="label">false</item>
     <item type="id" name="rington_count">false</item>
     <item type="id" name="call_type_icons">false</item>
-    <item type="id" name="sim_id_type">false</item>
     <item type="id" name="call_count_and_date">false</item>
     <item type="id" name="checkbox_delete">false</item>
     <item type="id" name="action_icon">false</item>
-    <item type="id" name="call_log_header">false</item>
-    <item type="id" name="link_stub">false</item>
     <item type="id" name="call_log_action_container">false</item>
     <item type="id" name="call_log_entry_actions_ll">false</item>
     <item type="id" name="call_back_action">false</item>
@@ -474,15 +475,14 @@
     <item type="id" name="choice_t9key_ll">false</item>
     <item type="id" name="choice_26key_ll">false</item>
     <item type="id" name="text">false</item>
-    <item type="id" name="digits_container">false</item>
     <item type="id" name="pad_edit_text_upline">false</item>
+    <item type="id" name="digits_container">false</item>
     <item type="id" name="digits">false</item>
-    <item type="id" name="overflow_menu">false</item>
     <item type="id" name="deleteButton">false</item>
     <item type="id" name="numberBelongLocation">false</item>
-    <item type="id" name="digits_container_cover">false</item>
+    <item type="id" name="dialpad_stub">false</item>
+    <item type="id" name="dialpad_26_stub">false</item>
     <item type="id" name="show_call_1">false</item>
-    <item type="id" name="iv_showcall1">false</item>
     <item type="id" name="show_call_1_text">false</item>
     <item type="id" name="show_call_divider">false</item>
     <item type="id" name="show_call_2">false</item>
@@ -593,6 +593,7 @@
     <item type="id" name="scrollView1">false</item>
     <item type="id" name="msg">false</item>
     <item type="id" name="button">false</item>
+    <item type="id" name="table_business">false</item>
     <item type="id" name="meishi_layout">false</item>
     <item type="id" name="jiudian_layout">false</item>
     <item type="id" name="shenghuo_layout">false</item>
@@ -666,6 +667,7 @@
     <item type="id" name="phoneNumber">false</item>
     <item type="id" name="phoneLocation">false</item>
     <item type="id" name="phoneConferenceChildCount">false</item>
+    <item type="id" name="callTypeIndicator">false</item>
     <item type="id" name="callStateLabel">false</item>
     <item type="id" name="yellowProvideResource">false</item>
     <item type="id" name="callStateButton">false</item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.shared" package="com.android.contacts" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.shared" package="com.android.contacts" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <original-package android:name="com.android.contacts"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -24,6 +24,7 @@
     <uses-permission android:name="android.permission.READ_SMS"/>
     <uses-permission android:name="android.permission.READ_CALENDAR"/>
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.stv.android.videochat.permission.VOIP_CALL"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
@@ -131,7 +132,7 @@
         </activity>
         <activity android:name=".preference.LeAccountsContactsPreferenceActivity" android:theme="@style/ContactsPreferencesTheme"/>
         <activity android:exported="true" android:label="@string/exp_imp_contacts" android:name=".preference.ImportExportPreferenceActivity" android:screenOrientation="portrait" android:theme="@style/ContactsPreferencesTheme"/>
-        <activity android:exported="true" android:launchMode="singleTask" android:name=".activities.DeleteContactsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name=".activities.DeleteContactsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:label="@string/activity_title_contacts_filter" android:name=".common.list.AccountFilterActivity" android:theme="@style/ContactListFilterTheme"/>
         <activity android:label="@string/custom_list_filter" android:name=".common.list.CustomContactListFilterActivity" android:theme="@style/ContactListFilterTheme"/>
         <activity android:label="@string/scan_result_activity_title" android:name=".qrcode.ScanResultActivity" android:theme="@style/ContactListFilterTheme">
@@ -158,7 +159,7 @@
                 <data android:mimeType="vnd.android.cursor.item/contact"/>
                 <data android:mimeType="vnd.android.cursor.item/person"/>
             </intent-filter>
-            <intent-filter android:label="@string/APKTOOL_DUMMY_03a0">
+            <intent-filter android:label="@string/APKTOOL_DUMMY_03ac">
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="vnd.android.cursor.item/person"/>
@@ -270,6 +271,10 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW_BLACK_LIST_SMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_TYPE_ZENMODE_LIST"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

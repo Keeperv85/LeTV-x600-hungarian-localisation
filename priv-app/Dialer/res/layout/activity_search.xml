@@ -21,36 +21,6 @@
         <View searchview:background="#fff6f6f7" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
         <ScrollView searchview:id="@id/MySearchScroll" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content">
             <LinearLayout searchview:orientation="vertical" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content">
-                <LinearLayout searchview:orientation="vertical" searchview:visibility="gone" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content">
-                    <LinearLayout searchview:gravity="center_vertical" searchview:id="@id/item_title" searchview:layout_width="fill_parent" searchview:layout_height="36.0dip">
-                        <TextView searchview:textSize="14.0sp" searchview:textColor="@color/font_color" searchview:paddingLeft="6.0dip" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="16.0dip" searchview:text="@string/tuijian" searchview:layout_weight="1.0" searchview:fontFamily="helve-neue-regular" />
-                    </LinearLayout>
-                    <View searchview:background="#ffc6c7cb" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
-                    <TableLayout searchview:id="@id/table_business" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content" searchview:layout_marginLeft="16.0dip" searchview:layout_marginRight="16.0dip" searchview:layout_marginBottom="18.0dip">
-                        <TableRow searchview:layout_width="fill_parent" searchview:layout_height="wrap_content" searchview:layout_marginTop="18.0dip">
-                            <LinearLayout searchview:gravity="center|left" searchview:orientation="horizontal" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_weight="1.0">
-                                <ImageView searchview:background="@drawable/firm_img" searchview:layout_width="40.0dip" searchview:layout_height="40.0dip" searchview:layout_marginLeft="22.0dip" />
-                                <TextView searchview:textSize="16.0sp" searchview:textColor="@color/font_color" searchview:layout_gravity="center_vertical" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="12.0dip" searchview:text="@string/nongyeyinhang" searchview:fontFamily="helve-neue-regular" />
-                            </LinearLayout>
-                            <LinearLayout searchview:gravity="center_vertical" searchview:orientation="horizontal" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_weight="1.0">
-                                <ImageView searchview:background="@drawable/firm_img" searchview:layout_width="40.0dip" searchview:layout_height="40.0dip" searchview:layout_marginLeft="22.0dip" />
-                                <TextView searchview:textSize="16.0sp" searchview:textColor="@color/font_color" searchview:layout_gravity="center_vertical" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="12.0dip" searchview:text="@string/zhaoshangyinhang" searchview:fontFamily="helve-neue-regular" />
-                            </LinearLayout>
-                        </TableRow>
-                        <TableRow searchview:layout_width="fill_parent" searchview:layout_height="wrap_content" searchview:layout_marginTop="18.0dip">
-                            <LinearLayout searchview:gravity="center_vertical" searchview:orientation="horizontal" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_weight="1.0">
-                                <ImageView searchview:background="@drawable/firm_img" searchview:layout_width="40.0dip" searchview:layout_height="40.0dip" searchview:layout_marginLeft="22.0dip" />
-                                <TextView searchview:textSize="16.0sp" searchview:textColor="@color/font_color" searchview:layout_gravity="center_vertical" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="12.0dip" searchview:text="@string/nongyeyinhang" searchview:fontFamily="helve-neue-regular" />
-                            </LinearLayout>
-                            <LinearLayout searchview:gravity="center_vertical" searchview:orientation="horizontal" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_weight="1.0">
-                                <ImageView searchview:background="@drawable/firm_img" searchview:layout_width="40.0dip" searchview:layout_height="40.0dip" searchview:layout_marginLeft="22.0dip" />
-                                <TextView searchview:textSize="16.0sp" searchview:textColor="@color/font_color" searchview:layout_gravity="center_vertical" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="12.0dip" searchview:text="@string/zhaoshangyinhang" searchview:fontFamily="helve-neue-regular" />
-                            </LinearLayout>
-                        </TableRow>
-                    </TableLayout>
-                    <View searchview:background="#fff6f6f7" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
-                    <View searchview:background="@color/main_bg" searchview:layout_width="fill_parent" searchview:layout_height="16.0dip" />
-                </LinearLayout>
                 <LinearLayout searchview:orientation="vertical" searchview:id="@id/recommend_layout" searchview:visibility="gone" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content">
                     <LinearLayout searchview:gravity="center_vertical" searchview:id="@id/item_title" searchview:layout_width="fill_parent" searchview:layout_height="36.0dip">
                         <TextView searchview:textSize="14.0sp" searchview:textColor="@color/font_color" searchview:paddingLeft="6.0dip" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="16.0dip" searchview:text="@string/tuijian" searchview:layout_weight="1.0" searchview:fontFamily="helve-neue-regular" />
@@ -58,14 +28,13 @@
                     <View searchview:background="#ffc6c7cb" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
                     <com.letv.android.letvyellowpage.view.MyGridView searchview:id="@id/recommend_grid_view" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content" searchview:layout_marginTop="18.0dip" searchview:layout_marginRight="16.0dip" searchview:layout_marginBottom="18.0dip" searchview:verticalSpacing="18.0dip" searchview:numColumns="2" />
                     <View searchview:background="#ffc6c7cb" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
-                    <View searchview:background="@color/main_bg" searchview:layout_width="fill_parent" searchview:layout_height="16.0dip" />
+                    <View searchview:id="@id/grid_margin_bottom" searchview:background="@color/main_bg" searchview:layout_width="fill_parent" searchview:layout_height="16.0dip" />
                 </LinearLayout>
-                <View searchview:background="#fff6f6f7" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
-                <LinearLayout searchview:orientation="horizontal" searchview:id="@id/sousuojilu_layout" searchview:layout_width="fill_parent" searchview:layout_height="36.0dip">
-                    <TextView searchview:textSize="14.0sp" searchview:textColor="#ff000000" searchview:layout_gravity="center_vertical" searchview:id="@id/tv_zuijinjilu" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="16.0dip" searchview:text="@string/sousuojilu" searchview:layout_weight="1.0" searchview:fontFamily="helve-neue-regular" />
-                    <TextView searchview:textSize="12.0sp" searchview:textColor="#ff898b94" searchview:gravity="center_vertical" searchview:layout_gravity="center_vertical" searchview:id="@id/clear_record" searchview:paddingLeft="16.0dip" searchview:paddingRight="16.0dip" searchview:layout_width="wrap_content" searchview:layout_height="fill_parent" searchview:text="@string/qingchu" searchview:fontFamily="helve-neue-regular" />
-                </LinearLayout>
-                <View searchview:background="#fff6f6f7" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" />
+                <RelativeLayout searchview:orientation="horizontal" searchview:id="@id/sousuojilu_layout" searchview:layout_width="fill_parent" searchview:layout_height="36.0dip">
+                    <TextView searchview:textSize="14.0sp" searchview:textColor="#ff000000" searchview:layout_gravity="center_vertical" searchview:id="@id/tv_zuijinjilu" searchview:layout_width="wrap_content" searchview:layout_height="wrap_content" searchview:layout_marginLeft="16.0dip" searchview:text="@string/sousuojilu" searchview:layout_weight="1.0" searchview:layout_centerVertical="true" searchview:fontFamily="helve-neue-regular" />
+                    <TextView searchview:textSize="12.0sp" searchview:textColor="#ff898b94" searchview:gravity="center_vertical" searchview:layout_gravity="center_vertical" searchview:id="@id/clear_record" searchview:paddingLeft="16.0dip" searchview:paddingRight="16.0dip" searchview:layout_width="wrap_content" searchview:layout_height="fill_parent" searchview:text="@string/qingchu" searchview:layout_alignParentRight="true" searchview:layout_centerVertical="true" searchview:fontFamily="helve-neue-regular" />
+                    <View searchview:background="#fff6f6f7" searchview:layout_width="fill_parent" searchview:layout_height="1.0px" searchview:layout_alignParentBottom="true" />
+                </RelativeLayout>
                 <com.letv.android.letvyellowpage.view.MyListView searchview:id="@id/ShopListView" searchview:paddingRight="0.0dip" searchview:layout_width="fill_parent" searchview:layout_height="wrap_content" searchview:drawSelectorOnTop="true" searchview:divider="#fff2f2f2" searchview:dividerHeight="1.0px" searchview:minHeight="?android:listPreferredItemHeight" searchview:footerDividersEnabled="true" />
                 <TextView searchview:textSize="15.0sp" searchview:textColor="#ff2095f2" searchview:gravity="center" searchview:id="@id/clickmore" searchview:visibility="gone" searchview:layout_width="fill_parent" searchview:layout_height="50.0dip" searchview:text="@string/djgengduo" searchview:fontFamily="helve-neue-regular" />
             </LinearLayout>

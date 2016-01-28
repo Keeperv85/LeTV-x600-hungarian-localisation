@@ -15,7 +15,7 @@
         <SwitchPreference android:title="@string/show_sim1_contacts_label" android:key="show_sim1_contacts" />
         <SwitchPreference android:title="@string/show_sim2_contacts_label" android:key="show_sim2_contacts" />
     </PreferenceCategory>
-    <PreferenceScreen android:persistent="false" android:title="@string/show_contacts_by_accounts_title" android:key="show_contacts_by_accounts_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+    <PreferenceScreen android:persistent="false" android:title="@string/show_contacts_by_accounts_title" android:key="show_contacts_by_accounts_key" android:widgetLayout="@android:layout/le_preference_widget_arrow">
         <intent android:targetPackage="com.android.contacts" android:targetClass="com.android.contacts.preference.LeAccountsContactsPreferenceActivity" />
     </PreferenceScreen>
     <PreferenceCategory android:persistent="false" android:title="@string/other_preference_label" android:key="other_key">

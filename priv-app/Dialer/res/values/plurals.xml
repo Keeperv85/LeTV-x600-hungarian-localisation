@@ -20,14 +20,6 @@
         <item quantity="other">Are you sure to delete %s contacts</item>
         <item quantity="one">Are you sure to delete 1 contact</item>
     </plurals>
-    <plurals name="addContactsForGroupTip">
-        <item quantity="other">Are you sure to move %s contacts to this group</item>
-        <item quantity="one">Are you sure to move 1 contact to this group</item>
-    </plurals>
-    <plurals name="selectedContact">
-        <item quantity="other">%d contacts selected</item>
-        <item quantity="one">1 contact selected</item>
-    </plurals>
     <plurals name="import_from_vcard_success">
         <item quantity="other">Contacts imported success</item>
         <item quantity="one">Contact imported success</item>

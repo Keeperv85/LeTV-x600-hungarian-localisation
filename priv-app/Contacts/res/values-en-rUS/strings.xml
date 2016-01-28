@@ -37,7 +37,6 @@
     <string name="incall_error_missing_voicemail_number">To set up voicemail, go to Settings> Apps settings> Call settings.</string>
     <string name="emergency_title">Emergency call</string>
     <string name="pressed_button_text">Back</string>
-    <string name="menu_select_all">Select all</string>
     <string name="menu_print">Print</string>
     <string name="printContact">Print contact method</string>
     <string name="no_way_to_print">No app available to print contacts</string>
@@ -46,13 +45,10 @@
     <string name="recentCalls_delete">Delete</string>
     <string name="menu_selectAll">Select all</string>
     <string name="menu_clearAll">Deselect all</string>
-    <string name="sim1">SIM1</string>
-    <string name="sim2">SIM2</string>
     <string name="all_resources">All resources</string>
     <string name="choose_resources_header">Select resources</string>
     <string name="all_tab_label1">All</string>
     <string name="call_log_item_count">(%1$d)</string>
-    <string name="call_indicator_3g">3G</string>
     <string name="call_sipcall">VoIP call</string>
     <string name="call_pin_dialog_title">Select SIM card</string>
     <string name="call_people">Contact</string>
@@ -283,6 +279,7 @@ Incomplete: %d"</string>
     <string name="share_too_large">Too much data. Please select less and try again</string>
     <string name="err_icc_no_phone_book">This SIM card cannot store contacts</string>
     <string name="titleJoinContactDataWith">Merge contacts</string>
+    <string name="menu_select_all">Select all</string>
     <string name="list_filter_custom">Custom</string>
     <string name="add_contact_dlg_message_fmt">Add %s contacts?</string>
     <string name="locale_change_in_progress">Language changed, refreshing contacts.</string>
@@ -316,13 +313,14 @@ To add contacts to your favorites, take the following steps:
     <string name="contact_import_export_tips">Importing/exporting contacts. Unable to complete this action</string>
     <string name="dialog_phone_call_prohibited_message">Call incomplete</string>
     <string name="from_account_format">%1$s</string>
-    <string name="cancel_export_confirmation_title">Cancel vCard export</string>
+    <string name="recently_added_contacts">Recently added contacts</string>
     <string name="searching_vcard_title">Searching vCard</string>
-    <string name="menu_all_contacts">All contacts</string>
     <string name="cancel_import_confirmation_title">Cancel vCard import</string>
+    <string name="cancel_export_confirmation_title">Cancel vCard export</string>
+    <string name="menu_all_contacts">All contacts</string>
     <string name="search_bar_hint">Search contacts</string>
-    <string name="delete_group_dialog_title">Delete group</string>
     <string name="cancel_confirmation_dialog_title">Discard changes</string>
+    <string name="delete_group_dialog_title">Delete group</string>
     <string name="all_contacts_empty">No contacts.</string>
     <string name="account_phone">Only saved on phone, not synced</string>
     <string name="import_from_sdcard">Import from storage device</string>
@@ -386,8 +384,6 @@ To add contacts to your favorites, take the following steps:
     <string name="calllog_delete_tip">Clear history</string>
     <string name="selectAll">Select all</string>
     <string name="delete_all_no_choose">Deselect all</string>
-    <string name="contactPickerActivityTitle">Tap to select</string>
-    <string name="selectedContact">%1$d Contacts selected</string>
     <string name="number_dialog_cancle">Cancel</string>
     <string name="number_mark_unfamiliar">Mark as unknown number</string>
     <string name="number_type_bilk">Scammer</string>
@@ -397,7 +393,6 @@ To add contacts to your favorites, take the following steps:
     <string name="number_type_express">Express</string>
     <string name="number_type_custom">Custom</string>
     <string name="label_number">Number</string>
-    <string name="addContactsForGroupTip">Add %s contacts to this group</string>
     <string name="import_vcard">Import vCard files from storage device</string>
     <string name="is_delete_group">"Delete '%s'?"</string>
     <string name="is_delete_group_hint">Note: Contacts will not be deleted</string>
@@ -462,7 +457,7 @@ To add contacts to your favorites, take the following steps:
     <string name="listSearchContactsZero">No search results</string>
     <string name="description_quick_contact_for">"%1$s's speed dial image"</string>
     <string name="missing_name">(no name)</string>
-    <string name="unknow_contact">Stranger</string>
+    <string name="unknow_contact">Unknown</string>
     <string name="favoritesFrequentCalled">Frequently called</string>
     <string name="favoritesFrequentContacted">Frequent contacts</string>
     <string name="description_view_contact_detail">View contacts</string>
@@ -487,6 +482,8 @@ To add contacts to your favorites, take the following steps:
     <string name="organizationLabelsGroup">Company or organization</string>
     <string name="relationLabelsGroup">Relation</string>
     <string name="eventLabelsGroup">Birthday</string>
+    <string name="lunarEventLabelsGroup">Lunar Birthday</string>
+    <string name="anniversaryEventLabelsGroup">Anniversary</string>
     <string name="sms">Send SMS</string>
     <string name="postal_address">Address</string>
     <string name="ghostData_company">Company</string>
@@ -638,6 +635,10 @@ Reason: %s"</string>
     <string name="quickcontact_delete_calllog">Delete call history</string>
     <string name="too_length">Maximum text limitation exceeded</string>
     <string name="contactsDeletedFail">Delete contacts failed</string>
+    <string name="add_one_contact_to_group_tip">Add contact to this group</string>
+    <string name="add_contacts_to_group_tip">Add %s contacts to this group</string>
+    <string name="add_to_group_interrupt_tip">Interrupt current operation</string>
+    <string name="add_to_group_done_success_tip">contacts added</string>
     <string name="number_dialog_delete">Delete</string>
     <string name="deleting_groups">Deleting</string>
     <string name="incoming_rejected">Ended</string>
@@ -679,7 +680,10 @@ Please select one of the following options:"</string>
     <string name="tips_read_only_contact">Read-only contact, not editable</string>
     <string name="group_all_contacts">All contacts</string>
     <string name="menu_create_groups">Create new group</string>
+    <string name="menu_operation_list_groups">Group operation</string>
     <string name="dialog_create_group_account">Choose save location</string>
+    <string name="contact_editor_bottom_sheet_cancel">Cancel</string>
+    <string name="local_account_add_contact_label">LocalDevice</string>
     <string name="applicationLabel">Contacts</string>
     <string name="confirm">OK</string>
     <string name="continue_exe">Next</string>
@@ -695,9 +699,11 @@ Please select one of the following options:"</string>
     <string name="shortcutMessageContact">Send SMS</string>
     <string name="export_sim_export_contact_to_sim">Export contacts to SIM card</string>
     <string name="shortcutActivityTitle">Select contact shortcut</string>
+    <string name="delete_one_contact_label">Delete contact</string>
     <string name="delete_contact_label">Delete %1$d contacts</string>
     <string name="callShortcutActivityTitle">Select a number to call</string>
     <string name="messageShortcutActivityTitle">Select a number to send SMS to</string>
+    <string name="contactPickerActivityTitle">Tap to select</string>
     <string name="header_entry_contact_list_adapter_header_title">Create new contact</string>
     <string name="starredList">Starred</string>
     <string name="frequentList">Frequent</string>
@@ -899,8 +905,9 @@ Please select one of the following options:"</string>
     <string name="contact_edit_prompt_msg_title">Contact info incompleted, discard changes?</string>
     <string name="contact_edit_prompt_msg_edit">Continue Edit</string>
     <string name="contact_edit_prompt_msg_discard">Discard</string>
+    <string name="le_contacts_mark_tip_content">Mark as</string>
     <string name="aggregation_suggestion_join_dialog_title">Merge contacts</string>
     <string name="aggregation_suggestion_edit_dialog_title">Edit selected contact</string>
-    <string name="local_account_add_contact_label">LocalDevice</string>
+    <string name="contactsDeleteTip">Delete %s contacts</string>
     <string name="create_group_item_label">Create group</string>
 </resources>

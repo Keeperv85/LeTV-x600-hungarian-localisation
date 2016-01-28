@@ -349,6 +349,9 @@
     <dimen name="phone_conference_count_margin_left">24.0px</dimen>
     <dimen name="phone_conference_count_text_size">48.0px</dimen>
     <dimen name="call_status_margin_top">24.0px</dimen>
+    <dimen name="call_type_indicator_width">42.0px</dimen>
+    <dimen name="call_type_indicator_height">42.0px</dimen>
+    <dimen name="call_type_indicator_margin_right">18.0px</dimen>
     <dimen name="call_yellow_page_info_width">42.0px</dimen>
     <dimen name="call_yellow_page_info_height">42.0px</dimen>
     <dimen name="call_yellow_page_info_margin_left">18.0px</dimen>
@@ -536,6 +539,7 @@
     <dimen name="call_log_empty_marginbottom">800.0px</dimen>
     <dimen name="call_log_empty">15.0sp</dimen>
     <dimen name="call_log_call_action_size">32.0dip</dimen>
+    <dimen name="call_log_sim_id_type_icon_margin_right">3.0dip</dimen>
     <dimen name="call_log_icon_margin_right">6.0dip</dimen>
     <dimen name="call_log_inner_margin">13.0dip</dimen>
     <dimen name="call_log_outer_margin">8.0dip</dimen>
@@ -599,9 +603,8 @@
     <dimen name="call_log_expanded_translation_z">2.0dip</dimen>
     <dimen name="call_log_day_group_padding_top">15.0dip</dimen>
     <dimen name="call_log_day_group_padding_bottom">9.0dip</dimen>
-    <dimen name="iv_showcall1_marginleft">54.0px</dimen>
-    <dimen name="show_call_1_text_margitnleft">12.0px</dimen>
-    <dimen name="show_call_1_text_margitnright">54.0px</dimen>
+    <dimen name="show_call_1_text_drawable_padding">12.0px</dimen>
+    <dimen name="show_call_1_text_margin_hori">54.0px</dimen>
     <dimen name="shadow_length">10.0dip</dimen>
     <dimen name="preference_padding_top">16.0dip</dimen>
     <dimen name="preference_padding_bottom">16.0dip</dimen>

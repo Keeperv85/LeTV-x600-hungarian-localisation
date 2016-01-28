@@ -21,4 +21,5 @@
     <string name="debug_dump_email_subject">Contacts Db attached</string>
     <string name="debug_dump_email_body">Attached is my contacts database with all my contacts information. Handle with care.</string>
     <string name="missing_name">(No name)</string>
+    <string name="contact_event_title" formatted="false">"%1s's %2s"</string>
 </resources>

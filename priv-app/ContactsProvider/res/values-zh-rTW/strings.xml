@@ -21,6 +21,7 @@
     <string name="debug_dump_email_subject">內含聯絡人資料庫附件</string>
     <string name="debug_dump_email_body">附件是我的聯絡人資料庫，其中包含我所有的聯絡人資訊，請謹慎處理。</string>
     <string name="missing_name">(無姓名)</string>
-    <item type="string" name="APKTOOL_DUMMY_0015">false</item>
+    <string name="contact_event_title" formatted="false">%1s的%2s</string>
     <item type="string" name="APKTOOL_DUMMY_0016">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0017">false</item>
 </resources>

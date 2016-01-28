@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<view android:background="#fffefefe" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.dialer.calllog.CallLogListItemView"
+<view android:background="#fffefefe" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.dialer.calllog.CallLogListItemView"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/primary_action_view" android:background="?android:selectableItemBackground" android:nextFocusRight="@id/secondary_action_icon" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/primary_action_view" android:background="?android:selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:nextFocusRight="@id/secondary_action_icon" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
-            <ImageView android:id="@id/opt_button" android:padding="@dimen/call_log_list_secondary_icon_padding" android:focusable="true" android:nextFocusRight="@id/primary_action_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_add_round" android:scaleType="centerInside" android:layout_alignParentStart="true" />
             <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
                 <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/call_log_icon_margin" style="@style/call_log_secondary_text_style" />
                 <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
@@ -12,8 +11,8 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/secondary_action_icon" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/secondary_action_icon" android:layout_width="wrap_content" android:layout_height="fill_parent">
             <ImageView android:id="@id/action_icon" android:paddingLeft="50.0dip" android:paddingRight="@dimen/call_log_list_secondary_icon_padding" android:nextFocusLeft="@id/primary_action_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:src="@drawable/calllog_item_right_arrow" />
-        </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 </view>

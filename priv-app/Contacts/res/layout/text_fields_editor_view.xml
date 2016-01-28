@@ -3,11 +3,13 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
         <include android:id="@id/delete_button_container" android:visibility="invisible" layout="@layout/edit_delete_button" />
-        <Spinner android:textColor="@color/spinner_textcolor" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/spinner" android:background="@drawable/le_spinner_bg" android:paddingLeft="@dimen/spinner_padding_left" android:visibility="gone" android:layout_width="@dimen/spinner_width" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_label" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/medium_text_size" android:textColor="@color/spinner_textcolor" android:gravity="center|left" android:id="@id/title_textview" android:paddingRight="@dimen/spinner_padding_left" android:layout_width="@dimen/editor_typelabel_width" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/edit_type_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_type_more" />
+        </LinearLayout>
         <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/content_marginleft">
             <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/editors" android:background="@drawable/divider_dbdbdb" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
             <View android:id="@id/anchor_view" android:background="@color/anchor_view_background" android:layout_width="fill_parent" android:layout_height="1.0px" />
         </LinearLayout>
-        <include android:id="@id/expansion_view_container" android:visibility="gone" layout="@layout/edit_expansion_view" />
     </LinearLayout>
 </com.android.contacts.editor.TextFieldsEditorView>

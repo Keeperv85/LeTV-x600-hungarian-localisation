@@ -26,7 +26,7 @@ Name: res/drawable-mdpi-v4/ic_dialpad_delete.png
 SHA1-Digest: KScI9lnpkI7cXBUA2ZvyKQKLv0g=
 
 Name: res/layout/group_account_header_horizontal.xml
-SHA1-Digest: ezi4Pc8OqTmmfCriPdluLUvDPLU=
+SHA1-Digest: 9oyPGSaXc1gJml9K8Kbccagh/d4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/98_en
 SHA1-Digest: qhENcM6Ieiv0F5fMr85nW2JJn68=
@@ -62,7 +62,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1870_en
 SHA1-Digest: +h2IcjB8dQO2wkCGS9ZX5R0eA+E=
 
 Name: res/layout/group_member_item.xml
-SHA1-Digest: 03trSSph9gBNk0o3NF0HWPDcWPU=
+SHA1-Digest: Td2VV9BO8vS8hZyrQ4+HA+gXmBo=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/243_en
 SHA1-Digest: smm26w9swyXFvBsc7z3QOnryvGg=
@@ -71,7 +71,7 @@ Name: res/layout/people_navigation_item.xml
 SHA1-Digest: s+5A9x/IumXJQEJ1y+J7aRxpEoY=
 
 Name: res/layout/dialtacts_activity_layout.xml
-SHA1-Digest: D77G+3ouQ8m/IDeYLietbBfUAGI=
+SHA1-Digest: QUWAGo8JeaACwKKPAdWFeeh72H0=
 
 Name: res/drawable-xxhdpi-v4/le_ic_type_mail.png
 SHA1-Digest: sKDdG7sG118eHaX+qK3xM/TAcig=
@@ -93,10 +93,10 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1438_en
 SHA1-Digest: 3/klHfuwoCxpYiyx0c6GWAx/ZRc=
 
 Name: res/drawable/ic_scroll_handle_default.xml
-SHA1-Digest: 9AsWqE3CO4XPzmsremD+O7dKZz0=
+SHA1-Digest: 2PIrJenPf4Kl7z0CrMsbMugobBU=
 
 Name: res/layout/add_group_menu_item.xml
-SHA1-Digest: 1XTwNa0WqHN+tBUFdhSInFFHrv8=
+SHA1-Digest: JcwMTyR9szAL7rDkX9kwc0ZaHU8=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1437_en
 SHA1-Digest: oBvPzdQsn0G0kgdyXJMAwk2aNoo=
@@ -126,7 +126,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1985_en
 SHA1-Digest: XkuvETIuR9gVvqriQEXg8rtbu0w=
 
 Name: res/layout/shadow.xml
-SHA1-Digest: b+4f9p7LdJkSCZ3YTGKemAYwZ+U=
+SHA1-Digest: nNWC+IlBNF57A2N22+9WsKrZga4=
 
 Name: res/layout/contact_list_card.xml
 SHA1-Digest: tmbvCmjgZb+Fg/c3Gzfq+773MFk=
@@ -154,10 +154,10 @@ Name: res/drawable-hdpi-v4/fab_green.png
 SHA1-Digest: FiIonE9RGqRddZebU2nM22xviTI=
 
 Name: res/layout/raw_contact_readonly_editor_view.xml
-SHA1-Digest: fNFbQlqtGojalBjKeKITyq2TkJs=
+SHA1-Digest: XXUOn/rHFY/QqzyiuLV4k7mvVlQ=
 
 Name: res/menu/search_menu.xml
-SHA1-Digest: VpcM81GPUg8ZIgvswYSNfr6HmH0=
+SHA1-Digest: lj2LugmdC6B2XKiHTk/vN4pNx9I=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1236_en
 SHA1-Digest: PLze/xHAQpkqiMTKeoxXBWjZu9o=
@@ -169,19 +169,19 @@ Name: res/drawable-hdpi-v4/ic_menu_overflow_lt.png
 SHA1-Digest: wMOAlbLsvGW0wSqE0liDLHxy6ys=
 
 Name: res/layout-land/group_source_button.xml
-SHA1-Digest: RrWPs1l5L3+agZCcpQ5j4I1bH4I=
+SHA1-Digest: IeGCaYghCcAWa+a5RTaKByoEvgA=
 
 Name: res/drawable-ldrtl-sw600dp-mdpi-v13/list_activated_holo.9.png
 SHA1-Digest: RVavTxYTdsD2Wan7idBXuOiJthw=
 
 Name: res/layout/actionbar_export_contact_to_sim.xml
-SHA1-Digest: 4MPy8Tdii7jLkQfOewtpIMrekRg=
+SHA1-Digest: 3aiAOTN7uLqmv84l8XmDafaVmQs=
 
 Name: res/drawable-xhdpi-v4/ic_arrow_back_24dp.png
 SHA1-Digest: fib30hvY1A+s5G5/YG1FDOgU5dA=
 
 Name: res/drawable/le_ic_clear_up.xml
-SHA1-Digest: Iv1bBdDvKYLhCitQERlxzFxoSXc=
+SHA1-Digest: gViX53yiT0Zcutcg5ew/Bmwvgig=
 
 Name: res/layout/empty_listviews.xml
 SHA1-Digest: kZccDVtRfiq/I6M2eGaSzUVU9EQ=
@@ -211,13 +211,13 @@ Name: res/drawable-xhdpi-v4/list_activated_holo.9.png
 SHA1-Digest: C4a5xmVEzcIJxede0Urh0qZwCmg=
 
 Name: res/layout/group_editor_autocomplete_view.xml
-SHA1-Digest: 71h3ls3RDq66gTs/cZC9Hksc8RM=
+SHA1-Digest: 6gZsqH4MWpAOkot/ogBbf2qAMj0=
 
 Name: res/layout/search_bar_expanded.xml
-SHA1-Digest: cJVLyqkrGHKksBgrFGxnKVN0ejQ=
+SHA1-Digest: DH/Qt4Aebexe2KIAI0KKsUJhLsY=
 
 Name: res/layout/organization_editor_view_switcher.xml
-SHA1-Digest: 6MLQzY7BXHO+tA/BcqmiCvwoI5c=
+SHA1-Digest: kcJVb5H6E67dTUK8+9V4vsuCKl4=
 
 Name: res/drawable-hdpi-v4/spinner_default_holo_dark.9.png
 SHA1-Digest: J0fMFQWqDRAjcuk6U/GDtla1Z5s=
@@ -252,7 +252,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1604_en
 SHA1-Digest: q69UhqxNwrAOaYw5Z2u0mZzYKUc=
 
 Name: res/layout/quickcontact_activity.xml
-SHA1-Digest: K44Z/KQVpBi6fIi74XBPFvR63Dg=
+SHA1-Digest: yT8gLNcJc10cDTk6QskmXlQ/sDI=
 
 Name: res/drawable/quickcontact_qrcode_icon.xml
 SHA1-Digest: 91b2dIokHFfM3JOI3Ura53lGp1E=
@@ -288,13 +288,13 @@ Name: res/drawable-xxhdpi-v4/ic_overflow_menu.png
 SHA1-Digest: Wm0u4E+wgKrxw75D6d6OvPPJmM4=
 
 Name: res/layout/item_read_only_field.xml
-SHA1-Digest: ZRWfC4Pnq35WiZvjecA135ZlTvw=
+SHA1-Digest: 8xyCxBGBkn6LWbxVkNVwDNz4bko=
 
 Name: res/anim/dialpad_slide_in_left.xml
 SHA1-Digest: F+x8jUCaHpqt9xpVZ+pE8cLZLBU=
 
 Name: res/layout-sw600dp-v13/contact_editor_fragment.xml
-SHA1-Digest: NzBVAoryZDTWb1o5OjhTS1fRRm8=
+SHA1-Digest: 3JqAnNI9lQiy4970/tDXnU9jTm8=
 
 Name: res/drawable-ldrtl-hdpi-v4/ic_groups_holo_dark.png
 SHA1-Digest: 62JCVLamU9BwPTqz2FVe69kHTcY=
@@ -312,7 +312,7 @@ Name: res/drawable-xxhdpi-v4/person_white_540dp.png
 SHA1-Digest: BSjjr8TvpJwbWeSEwaX4bVhIB6o=
 
 Name: res/drawable/calllog_le_ic_sim_null.xml
-SHA1-Digest: 4EtMrDjItQbEGyBFSM/sFhQSht0=
+SHA1-Digest: Trq4JdkkPFxuTgqEMQ1Y1WgFZz4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/260_en
 SHA1-Digest: NVAZxVNncdXZgXfyw2JWb0o5GiE=
@@ -340,7 +340,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/41_fr
 SHA1-Digest: bL5BEQ4AC2q4EIVBLZNDQWdYJlY=
 
 Name: res/layout/edit_delete_button.xml
-SHA1-Digest: QbfVmX8d38lO2M+kKkW+td456k0=
+SHA1-Digest: WmCF+JN7EjcdHG3cr0waOT+3bvs=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/222_fr
 SHA1-Digest: s9UlNcEs49UpokM9k4clls5eO+k=
@@ -361,7 +361,7 @@ Name: res/drawable-xxhdpi-v4/ic_menu_group_dk.png
 SHA1-Digest: 9c1+Xbd4LiMaju7FTiiaouT/UJQ=
 
 Name: res/layout/edit_add_field.xml
-SHA1-Digest: CqbwcOBVztFA2BH1EKAcJ7KCCxg=
+SHA1-Digest: 73I4cJ/XM+AR56zo2t996AY3KGY=
 
 Name: res/drawable-xxhdpi-v4/le_ic_back.png
 SHA1-Digest: OC/JZ3lsBioCDB8EFLf5FaF0aHE=
@@ -427,7 +427,7 @@ Name: res/drawable-xxhdpi-v4/ic_hangout_video_24dp.png
 SHA1-Digest: cR/NdBI/79lILp+iGryZms1VXlo=
 
 Name: res/layout/quickcontact_title_placeholder.xml
-SHA1-Digest: H6bwX0aO7xywASelw73PvTGR3SQ=
+SHA1-Digest: oXfZPjKbgXThZdyBUHVPZpTxCa0=
 
 Name: res/drawable-ldrtl-hdpi-v4/ic_contacts_holo_dark.png
 SHA1-Digest: TfBSlAINZNIna9JQ0OR9//iD2XY=
@@ -442,20 +442,23 @@ Name: com/google/i18n/phonenumbers/geocoding/data/252_en
 SHA1-Digest: aOYosvWmPD3bWe9rtK74uPkiawc=
 
 Name: res/drawable/ic_tab_starred.xml
-SHA1-Digest: s2Mh9G8/Gi4bVZtjNMr9FaaQHvs=
+SHA1-Digest: bB23qO0CDtsKxjGErChyfrVnzi0=
 
 Name: res/drawable-xxxhdpi-v4/logo_quick_contacts_mail_color_44in48dp.
  png
 SHA1-Digest: ZziyTEkN8FJNE/9P2rboZSvQsvM=
 
 Name: res/layout/external_group_editor_view.xml
-SHA1-Digest: 74XzQJib6wNK0Zm1nb6VrwOk6FU=
+SHA1-Digest: VTG8I8jH+pzCDXUix+Lh3fgX40M=
 
 Name: res/mipmap-xhdpi-v4/ic_contacts_clr_48cv_44dp.png
 SHA1-Digest: diTtHwMq+X0tk/k+tdENvaWT1sc=
 
+Name: res/anim/push_bottom_out.xml
+SHA1-Digest: YtaLXlXuQOdV/SN968xKSy6cX7Q=
+
 Name: res/drawable/ic_share.xml
-SHA1-Digest: kfhfNQHS4JB6h/KNBLsPqkMPf5Q=
+SHA1-Digest: U9TfDh9KeMzrbMV2HQURR3WX+xQ=
 
 Name: res/anim/dialpad_slide_in_right.xml
 SHA1-Digest: 1rp+otxwFQgTafotSt/yUNnkEig=
@@ -479,13 +482,13 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1407_en
 SHA1-Digest: l9jwb0ER9Sb1/bXaiCINrmQo73c=
 
 Name: res/layout/quickcontact_expanding_entry_card_button.xml
-SHA1-Digest: PdJ0fC3xP4beuVLZVmdECMj7UME=
+SHA1-Digest: 2W6dc7ctxhtJH2eHbIG7UAr+eT4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/421_en
 SHA1-Digest: ouqGZjoc3jpwxurAuhzeoj9Zmto=
 
 Name: res/layout/dialpad_key_star.xml
-SHA1-Digest: QOgJgYxzjrfJGEm6ca84gCMwcpE=
+SHA1-Digest: Z7LD93dCE0Msnb/hANOuLIL6AnE=
 
 Name: res/drawable-xhdpi-v4/ic_voicemail_avatar.png
 SHA1-Digest: /zl7i8WJ0xBr6NwDf7P4MqDH/eM=
@@ -522,7 +525,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/48_pl
 SHA1-Digest: K2OXzD+7ArLaaCBFnGO0lf6x1hU=
 
 Name: res/menu/group_source.xml
-SHA1-Digest: atfrmIVDXlP2NQ93kj3EVNHD8H0=
+SHA1-Digest: wjOQedshtbpGUEyWeGgP9w4hwGc=
 
 Name: res/layout-sw600dp-land-v13/dialpad_key_zero.xml
 SHA1-Digest: g95G5h1IRvYSDZqjQVkVWW8aEiI=
@@ -549,7 +552,7 @@ Name: res/drawable-hdpi-v4/list_pressed_holo_light.9.png
 SHA1-Digest: 8fFdZoyOA0FyEP0K/a0QnLk0bbE=
 
 Name: res/layout/group_account_header_vertical.xml
-SHA1-Digest: n9RTm0AGdhkRSVCsM7HYqG2m+lQ=
+SHA1-Digest: T4PEMmw+UVQJeC2b2/q+wbrIq0w=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1708_en
 SHA1-Digest: 9u4elvTikluP8kp44ff5R7ghH4Y=
@@ -606,7 +609,7 @@ Name: res/drawable-xhdpi-v4/list_section_divider_holo_custom.9.png
 SHA1-Digest: 4prFh0Z3SsfRrk7djyz6AWPkbLI=
 
 Name: res/layout/split_aggregate_list_item.xml
-SHA1-Digest: 7B78biid5Vf3UugXYqT+lWvq8Mo=
+SHA1-Digest: zML2PEJeetsIF7PjqkjzroEtyIo=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/244_pt
 SHA1-Digest: OJmGae1oGXD41JEEez+67wYRRQg=
@@ -654,7 +657,7 @@ Name: res/drawable-ldrtl-mdpi-v4/panel_content.9.png
 SHA1-Digest: Y3DwEi0XU4t2RVSIKjHKVQR+GCQ=
 
 Name: res/layout/leui_dialpad_key_star.xml
-SHA1-Digest: uyRxo+6IFPgIMQ5LZzMJMyPBv9A=
+SHA1-Digest: Nk49wtUayquvxFlCnYK8CFVQOAg=
 
 Name: res/drawable-mdpi-v4/ic_menu_star_holo_light.png
 SHA1-Digest: TkuOjilJ+MB74u9ybBhBRIncKlc=
@@ -665,6 +668,9 @@ SHA1-Digest: brOIHBgKf41hCOKRgYwmTDBsQYI=
 Name: com/google/i18n/phonenumbers/geocoding/data/1947_en
 SHA1-Digest: DTfFYiVpjde3MKAFm7PqOAVWeQE=
 
+Name: res/drawable/details_le_ic_sim_two.xml
+SHA1-Digest: xygJMQzbbTbqV+LAjSFZkMtUA50=
+
 Name: res/drawable-xxhdpi-v4/ic_menu_star_lt.png
 SHA1-Digest: 2FV8ckJNXVt5A2AISq1ABCYJxcM=
 
@@ -672,7 +678,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1724_en
 SHA1-Digest: T6lRhFYWZxFvT22wyYxV4PQ//eo=
 
 Name: res/menu/quickcontact.xml
-SHA1-Digest: 3sNRkZQZF5z5Tm102t09+IEyb2M=
+SHA1-Digest: 2XESZ5R6LQFJRPGG8I6O1WOjkGM=
 
 Name: res/layout/contact_tile_starred_quick_contact.xml
 SHA1-Digest: /FdWjaxbYACbfD0Y1Uuwqk50qLo=
@@ -681,7 +687,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1337_en
 SHA1-Digest: GOG0LKqyQbS4PkkKhxAVIkL+m0Q=
 
 Name: res/layout/actionbar_remove_blacknumber_contact_title.xml
-SHA1-Digest: 2PBY05w0rJQdkwM8zKFnfU/JKuw=
+SHA1-Digest: gcLsj6nQjcoNasXZ2qTbkUPx+g4=
 
 Name: res/drawable-xxhdpi-v4/ic_contacts_holo_dark.png
 SHA1-Digest: tyAzZsI0aN9eH5teAmsLgWJkKOU=
@@ -693,16 +699,19 @@ Name: res/drawable-xhdpi-v4/ic_business_white_120dp.png
 SHA1-Digest: UfuPD9rrCUql7WQ3l+kX9f93QfU=
 
 Name: res/layout/editor_custom_action_bar.xml
-SHA1-Digest: 0tmMAk5Vc0vwilaAPrZpFDWZqOA=
+SHA1-Digest: viPuWj6TagVri+dmjqbju5SOf0I=
 
 Name: res/layout/people_activity_tabs_lands.xml
-SHA1-Digest: 6zDLUIHE8skHejBw5EnIJsvLX24=
+SHA1-Digest: pYaI+Mf0u9csHI5Xv1vwrSmhUU4=
 
 Name: res/layout/le_contact_black_item.xml
-SHA1-Digest: beF/VPUnR8IMLe4kxKrFPB/mvCM=
+SHA1-Digest: WEEdw12O2fIVkK/o6394EUV5tcc=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/57_en
 SHA1-Digest: WbC90vxaqk6OOaXL0D+CEc23OrA=
+
+Name: res/drawable/ic_quickcontact_hometime.xml
+SHA1-Digest: 9jLctiE9IY9DCmlCJPhrbtHSsXs=
 
 Name: res/xml/file_paths.xml
 SHA1-Digest: ZvqOx0OnSiDUhL0EeiPpVf5rl6o=
@@ -711,7 +720,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1316_en
 SHA1-Digest: PfpB3npu+EvVuFWVRXpRE//nKms=
 
 Name: res/layout/user_profile_header.xml
-SHA1-Digest: kObFgKoz7IHcoIWAdEZSJw+mU+8=
+SHA1-Digest: Oz4ca9WtW0xS74kEcLrrFqehLCM=
 
 Name: res/drawable/le_ic_contact_edit_normal.xml
 SHA1-Digest: KFr4/Mp2kUOy2mDYpePOmIQgPtQ=
@@ -720,7 +729,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1312_en
 SHA1-Digest: sNT9o7jo7YRAnS4FCoGY1Ef3Nds=
 
 Name: res/layout/group_member_suggestion.xml
-SHA1-Digest: DvG/fs+GzwqFETYX/TCSAGiFMbw=
+SHA1-Digest: ttmsfMYDDhflwuvQcY1IKHAS5W8=
 
 Name: res/layout/aggregation_suggestions.xml
 SHA1-Digest: qh4LK30H9p+7poQdN8imlosMk1M=
@@ -735,7 +744,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/233_en
 SHA1-Digest: 1047fXIsCJ301eZh8FG01SHy/KU=
 
 Name: res/layout/leui_dialpad_key_zero.xml
-SHA1-Digest: K5TNjUqYSD4UCbyYuCKek+PJuxQ=
+SHA1-Digest: grp85EaSryRUYZmuK6xvRN/g8Sw=
 
 Name: res/layout/contact_picker.xml
 SHA1-Digest: Nd3EbjQTVonC0IX39H4LzlDcD8s=
@@ -759,7 +768,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1504_en
 SHA1-Digest: E294Ka0F5GZ8GJz97hYuQtqhOy0=
 
 Name: res/layout/group_editor_view.xml
-SHA1-Digest: 8ngBkgwjtyA18GSWuoRB9AFMk5g=
+SHA1-Digest: +5MFvt0Z7+7mG5jAiRixIZqQUmE=
 
 Name: res/drawable-xxhdpi-v4/ic_add_to_circles_black_24.png
 SHA1-Digest: nJ7IzB6UXC6uwDoxgNrMI9551y8=
@@ -768,13 +777,13 @@ Name: res/drawable/le_ic_dial_phone.xml
 SHA1-Digest: PtMtwk8o/BvcUK8wtjsghwylK8c=
 
 Name: res/layout/group_detail_fragment_empty_view.xml
-SHA1-Digest: lvUewtsPi+SX4Gtg7xp31liVGhw=
+SHA1-Digest: pkrn0n0CObTjjSYWi3K7LHTbmyo=
 
 Name: res/layout/group_list_opt_layout.xml
-SHA1-Digest: cy8c+1w6G+6zzSgOkznInck5d08=
+SHA1-Digest: 7nS39ZLqjvtSdE2dNch0jUA3GDs=
 
 Name: res/menu/menu_item_search.xml
-SHA1-Digest: jrtLuRM9n7tVK+JVmxfBhqQA8p0=
+SHA1-Digest: z21VDuFFRGm370UJDAawBq08yzM=
 
 Name: res/drawable-hdpi-v4/ic_dialpad_voicemail.png
 SHA1-Digest: 35Z0YAnAtZzL2z8GtQFrFfyLhts=
@@ -841,22 +850,22 @@ Name: com/google/i18n/phonenumbers/geocoding/data/31_nl
 SHA1-Digest: 1HJAHOayMB2pVTgz+p1I/nq5XCE=
 
 Name: res/layout/structured_name_editor_view.xml
-SHA1-Digest: hbJeK42+vi2K4W/gUnzxxwO8DOs=
+SHA1-Digest: 66HVgH+6m1jraW1Jr9lxbMO3XhQ=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1425_en
 SHA1-Digest: KslA0NOgbVhxWbzN6up4vJst8dU=
 
 Name: res/layout-sw600dp-v13/group_editor_view.xml
-SHA1-Digest: Rhj8F/fae6Cvj4CwYjkAW4X5nX8=
+SHA1-Digest: DP+jbSO3y5m6XsuyIX0lQUAAEqc=
 
 Name: res/drawable/ic_back_arrow.xml
-SHA1-Digest: YaoFHmAK/JCXwoabrOuNEzGp8uk=
+SHA1-Digest: 6oSc2VxnkwsvGyBDAXzU9eQmG3o=
 
 Name: res/drawable/ic_tab_all.xml
-SHA1-Digest: Yfbd7gSJbteb2fIk5CcIg2gqvuU=
+SHA1-Digest: y6nJbl7A96blXVwth4A8KRK+EKE=
 
 Name: res/layout/external_group_member_item.xml
-SHA1-Digest: Vf+74PUjnTJ0jxaLK1fefBicwQk=
+SHA1-Digest: clj23O3YJswQrlC+LfZArkdXtxM=
 
 Name: res/layout/aggregation_suggestions_item.xml
 SHA1-Digest: Z25Ined4cM1MAaxeR2OdxQgG828=
@@ -904,7 +913,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1417_en
 SHA1-Digest: pVa6U9etNC+Xwt+5NedJGRkDwWk=
 
 Name: res/layout/join_contact_picker_list_content.xml
-SHA1-Digest: LecDNDeYsCdnc5PpeL/Dpo+yk7M=
+SHA1-Digest: 10uV51Mg6unHwt5G9Z04/HBNIak=
 
 Name: res/drawable-xxhdpi-v4/ic_create_24dp.png
 SHA1-Digest: DyzhD9rdEILjAwela1uQtIpvVNQ=
@@ -941,7 +950,7 @@ Name: res/drawable-xxhdpi-v4/sim_indicator_purple.png
 SHA1-Digest: oy21053sVQF6iN4oV9WlUlqwrBo=
 
 Name: res/drawable/calllog_le_ic_sim_one.xml
-SHA1-Digest: hHZOnH+pCLM6LKpDqh1jK3407Ok=
+SHA1-Digest: YS7VmwMa22NRkUVslQzRZh3mtsY=
 
 Name: res/drawable/ic_group_account_icon_local_device.xml
 SHA1-Digest: TCNQPXgwlV75AXKHMzdZ3hmiQ7w=
@@ -965,7 +974,7 @@ Name: res/drawable/gray_action_bar_background.xml
 SHA1-Digest: JBOiGnWEvIdcBa6LdomXfmTfKDg=
 
 Name: res/layout/item_kind_section.xml
-SHA1-Digest: t3mOMobMfEP7qkclNYSlZulzWYY=
+SHA1-Digest: EoWrPAPMBqj6WvPgUYCUDyIxp04=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/256_en
 SHA1-Digest: Hq7QEwoTpK0Cwik4RNtYQULKXIs=
@@ -1047,7 +1056,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/216_en
 SHA1-Digest: zpHC1mbDZkd8lKHFPoPg7IoRxKc=
 
 Name: res/layout/create_or_edit_actionbar.xml
-SHA1-Digest: tmC8dpTI3dsMSeRbp73MJeZTjBk=
+SHA1-Digest: IwvcW9j/g3+gU+jpzT8THi7nzgU=
 
 Name: res/drawable/sim_card_two.xml
 SHA1-Digest: JRWv+vlw5dF1M8vBIo2S/6iP3CA=
@@ -1056,7 +1065,7 @@ Name: res/drawable/leui_emergency_pond.xml
 SHA1-Digest: zDKOz8U694aYD2RR51//RE07YV0=
 
 Name: res/layout/menu_lable_dialog.xml
-SHA1-Digest: IxPRxvtPToWHCOR7ZVXzpUXq28o=
+SHA1-Digest: eEYngsCU+/Zng3XGKllslk6v2sc=
 
 Name: res/drawable-hdpi-v4/ic_person_add_24dp.png
 SHA1-Digest: iQfVG97sExm10FrMmMtJfVkg7Z4=
@@ -1083,7 +1092,7 @@ Name: res/drawable-xhdpi-v4/sym_action_audiochat_holo_light.png
 SHA1-Digest: kwt+VGJ+ACYJHOE9K6IHEjI4poY=
 
 Name: res/layout/dialpad_key_pound.xml
-SHA1-Digest: qtCsDDfzEYKbJ71yQ2HOpJzNJ40=
+SHA1-Digest: sWXw/yl1TOB4dmWANbbpD4XSZ5o=
 
 Name: res/drawable-xhdpi-v4/panel_content.9.png
 SHA1-Digest: 7YVFAXvizMBRDTrEzjBEobds20M=
@@ -1122,7 +1131,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1720_en
 SHA1-Digest: 1DHQyCGbd6S708vttVGY2g8943k=
 
 Name: res/layout/confirm_add_detail_activity.xml
-SHA1-Digest: FresRTXvNrM9frN2STip1k9fYYU=
+SHA1-Digest: JdKZLqMbtqgwdWPyWmEUhmbfxo0=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1571_en
 SHA1-Digest: C4fAL3ADshC5hxEt1e3cOZ4e+Ew=
@@ -1149,10 +1158,10 @@ Name: res/drawable-xhdpi-v4/fab_blue.png
 SHA1-Digest: HqNYVR6PCUanbOQpOmCrC1FSJtM=
 
 Name: res/layout/actionbar_delete_contact_title.xml
-SHA1-Digest: 4MPy8Tdii7jLkQfOewtpIMrekRg=
+SHA1-Digest: 3aiAOTN7uLqmv84l8XmDafaVmQs=
 
 Name: res/menu/edit_group.xml
-SHA1-Digest: cMMGdSuvyvGGB7Qqh1I6rmGS5YM=
+SHA1-Digest: mBN3wQoou1oliqxsBplKZnXVB9c=
 
 Name: res/drawable-xxhdpi-v4/le_ic_sms.png
 SHA1-Digest: bBsVr61ESwA99+b+/BilazV75bc=
@@ -1161,17 +1170,17 @@ Name: com/google/i18n/phonenumbers/geocoding/data/39_it
 SHA1-Digest: I0HjTX1rRuSyBJq/xrHSScw6SWw=
 
 Name: res/layout/qrcode_dialog_content.xml
-SHA1-Digest: Tjiw/xPpO3ajp9Y0dkQxG9EyGFo=
+SHA1-Digest: CQqzwq4kNcOIDIxbQnmdy/JyMVc=
 
 Name: res/drawable-ldrtl-mdpi-v4/quickcontact_badge_overlay_normal_lig
  ht.9.png
 SHA1-Digest: lTn4C8RUY5yWxbib/ObSZzUusac=
 
 Name: res/drawable/phone_selected.xml
-SHA1-Digest: HEUFfUH7JS9r6vMK5HZl8FwnbTE=
+SHA1-Digest: 2pO4atpStUiwaY0qfgYxXjdoDbM=
 
 Name: res/xml/preference_headers.xml
-SHA1-Digest: uT2IRzroqFC7fQ8ZLV2EAf9EPgw=
+SHA1-Digest: CBqHIfOZdLW1zwdJ3z9R4qk0+0M=
 
 Name: res/drawable-xhdpi-v4/list_focused_holo.9.png
 SHA1-Digest: gaifYo4GDQTn1ernGyqbKWQBXOA=
@@ -1180,7 +1189,7 @@ Name: res/layout/account_filter_header.xml
 SHA1-Digest: vtGfNRgAYEah+ScYjSjx6hhAn+Y=
 
 Name: res/layout/fragment_test.xml
-SHA1-Digest: Jj+J388RllUv6Huyihr+AkoQRAA=
+SHA1-Digest: C6ivvK2FrqU5HSY4FlX6Y/Ma+mg=
 
 Name: res/drawable-mdpi-v4/ic_menu_overflow_lt.png
 SHA1-Digest: iqRqf6gpT7TJ72glt7zuxlAFTLk=
@@ -1209,11 +1218,14 @@ SHA1-Digest: SLAaDl1xTkussc9ZjfqQV1TH5/4=
 Name: res/drawable-xxhdpi-v4/le_ic_number_custom.png
 SHA1-Digest: qxstKclIU1jlT/jCQiessC7uDg4=
 
+Name: res/drawable/details_le_ic_sim_null.xml
+SHA1-Digest: 0a1RLC7mhcju8mFpdlvL6EsVSu8=
+
 Name: com/google/i18n/phonenumbers/geocoding/data/1423_en
 SHA1-Digest: cAcSYZcNu/oV7hDjI9GHcRUNfW4=
 
 Name: res/layout/group_browse_list_account_header.xml
-SHA1-Digest: jte5/RmSEmvCE9hMgWpY0JzKesw=
+SHA1-Digest: YOPM+X/J/pSK9S229GUOIx1yBys=
 
 Name: res/layout/contact_editor_activity.xml
 SHA1-Digest: /t4F//pfVnIKCU+KWma6DNBlNJk=
@@ -1239,6 +1251,9 @@ SHA1-Digest: h5TkYHcsFSR/ZwSAmbYgiIQLkSY=
 
 Name: res/drawable-xhdpi-v4/ic_dialpad_delete.png
 SHA1-Digest: qHX/vlDm2eP4+Ok3cEkdITpEMDM=
+
+Name: res/drawable/ic_quickcontact_video_free.xml
+SHA1-Digest: jAZ32LhcGWnfyS/iFNYwC0qpgM8=
 
 Name: res/drawable/background_holo_light.xml
 SHA1-Digest: U+ikFobyd3YW1Q0Eqb2Bb1pYY7Q=
@@ -1268,10 +1283,10 @@ Name: res/drawable-xxhdpi-v4/le_ic_type_relationship.png
 SHA1-Digest: ajrZ9pRotB/gq3GSEBuCEpe1iLs=
 
 Name: res/layout-land/dialpad_key_one.xml
-SHA1-Digest: moOiraQQozpnZXNAieGKbAE75Ss=
+SHA1-Digest: 7Qrl8qsNmyoAcpBL9zz0mC9ibZ0=
 
 Name: AndroidManifest.xml
-SHA1-Digest: ODCBeOCDOoQr+YWoO9ZEBQInhhM=
+SHA1-Digest: 63KjlnRDYTcqnTbZeXtPuHPaDgI=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1617_en
 SHA1-Digest: lqT7V1OElaGnchAC99AVAjGXySw=
@@ -1331,6 +1346,9 @@ SHA1-Digest: fvoJXa5/mG84PV47FutU1gLVkMw=
 Name: res/drawable-mdpi-v4/ic_settings_white_24dp.png
 SHA1-Digest: gf55Qjus6zhGASafmeccvs9muYQ=
 
+Name: res/drawable/call_log_list_voice.xml
+SHA1-Digest: T+mOe6L0G6niTJt08aFyYzLPc1s=
+
 Name: com/google/i18n/phonenumbers/geocoding/data/1918_en
 SHA1-Digest: B1vTQ0kRnEcG3BNS4VJBesseQGA=
 
@@ -1350,7 +1368,7 @@ Name: res/layout/edit_expansion_view.xml
 SHA1-Digest: zlMt1ezo2ElGqTmLm97WbsYhnKc=
 
 Name: res/layout/item_ringtone.xml
-SHA1-Digest: sYy3GU/8XTLo/OSaviF8XaChM+c=
+SHA1-Digest: Ei2mp2cqMX21wJ+wp9VTXDRxHeM=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1641_en
 SHA1-Digest: LVYF52FyTTr6n1rybIf+HSbpQ7Y=
@@ -1373,11 +1391,11 @@ SHA1-Digest: gaifYo4GDQTn1ernGyqbKWQBXOA=
 Name: res/drawable-xxhdpi-v4/le_ic_search_dk.png
 SHA1-Digest: lVgPZU1DlWVMusnWnwu/A31ayhc=
 
-Name: res/drawable-hdpi-v4/list_activated_holo.9.png
-SHA1-Digest: KQunCQh0E4bP0utgN0cHdQr9OwA=
-
 Name: res/drawable/le_ic_search.xml
 SHA1-Digest: 9iHSgfwmh5aqMeae/VU70u2gZTI=
+
+Name: res/drawable-hdpi-v4/list_activated_holo.9.png
+SHA1-Digest: KQunCQh0E4bP0utgN0cHdQr9OwA=
 
 Name: res/drawable-hdpi-v4/ic_star_outline_24dp.png
 SHA1-Digest: YBRy0EsQEG7e/NSDuS0tbMFymxc=
@@ -1389,13 +1407,13 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1404_en
 SHA1-Digest: kA43QvUKr0FwVdURyZMdKVglIZo=
 
 Name: res/layout/slidingmenurow.xml
-SHA1-Digest: 31cjBoc793GHKa/nxS9CX3ROdlY=
+SHA1-Digest: s2a7h14uBIJgfwDWLx+BIZwqVng=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/225_en
 SHA1-Digest: p0MZDyBwACge22VYdBhRKZCX074=
 
 Name: res/layout/le_contacts_mark_tip.xml
-SHA1-Digest: JlxdnwYL2iKwM93Op2OLUddf140=
+SHA1-Digest: AlrK84q2SpwWZLONSNCNleGAOEQ=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/263_en
 SHA1-Digest: AdXeBeXfY33omTQMd9gQn6RZNOc=
@@ -1407,7 +1425,7 @@ Name: res/drawable-xhdpi-v4/ic_add_contact_holo_light.png
 SHA1-Digest: QU9VfJ/qGChcM568gyTM5e/OxsE=
 
 Name: res/drawable/ic_search_add_contact.xml
-SHA1-Digest: VzKq3YqGRNIeVL+u3XuBl3jOvEU=
+SHA1-Digest: 6EV2reJOD6jvK5+kwoQrFNhRaqk=
 
 Name: res/drawable/ic_quickcontact_website.xml
 SHA1-Digest: ubuDnkd/jpV+kooaHcC9bzpDi+c=
@@ -1453,7 +1471,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/43_en
 SHA1-Digest: r6z3RqeZ2nak9ydN1x9IaxVWEx0=
 
 Name: res/layout/quickcontact_title.xml
-SHA1-Digest: 7nxHgTexC5ujRSfVCzDP7wUJOTo=
+SHA1-Digest: faSN54a0kuGzjj6mZD9+SVqaNSA=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
  to_84
@@ -1463,7 +1481,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1769_en
 SHA1-Digest: x8xT4C6LrKyaudPgOBCwIg8Rru4=
 
 Name: res/layout/le_ext_number_list_item.xml
-SHA1-Digest: iJen4mwkn24JPmoVFR6QMHHbD8Y=
+SHA1-Digest: 195JiAqxY75ctucO3TZqVN1Rq2Y=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1631_en
 SHA1-Digest: PDFmGRv8mQJnGwJ1T83mb00Wi+s=
@@ -1472,10 +1490,10 @@ Name: res/drawable-mdpi-v4/ic_voicemail_avatar.png
 SHA1-Digest: VpRZRrrSIvy/eHEZ6VRMp2kj8OU=
 
 Name: res/layout/group_browse_list_fragment.xml
-SHA1-Digest: VrWOT29vQ1cDEHLcuOFR8PF5aIo=
+SHA1-Digest: V6UuYFfRjbgx2zlBMiQ6sJdaSrs=
 
 Name: res/layout/vcard_viewer_list_item.xml
-SHA1-Digest: iZWfn8+hVavrumk2I40KndZlhf4=
+SHA1-Digest: l5Pxryb/GosqLR6opRGqOLrSgLU=
 
 Name: res/mipmap-xxxhdpi-v4/ic_launcher_contacts.png
 SHA1-Digest: UojTWRSletfgWma5LoS633j8tK0=
@@ -1494,13 +1512,13 @@ Name: res/drawable-xhdpi-v4/mtk_contact_account_phone.png
 SHA1-Digest: N35tQJG2p2lItAZ9NumxnXYTJzg=
 
 Name: res/menu/contact_setting_menu.xml
-SHA1-Digest: 4/J9bvikhiiixiU+p93qRFd557Q=
+SHA1-Digest: u9/qjeyE4i8pr93Q0iGXShlCVs4=
 
 Name: res/drawable-hdpi-v4/mtk_ic_contact_account_usim.png
 SHA1-Digest: 5OS/j7P70ONiNM2x3/+8funQq3o=
 
 Name: res/drawable/ab_dropdown_navigation_item_background_focused.xml
-SHA1-Digest: ChOxzV5uyPOC+CHEPXnlNojpe44=
+SHA1-Digest: nVg/D8WuOsK9uceTjgP7UcaXhHg=
 
 Name: res/drawable-xxhdpi-v4/ic_card_phone.png
 SHA1-Digest: g2SdCBkUAVtwrJCnS+SrO3N6X+A=
@@ -1509,7 +1527,7 @@ Name: res/drawable-xxhdpi-v4/ic_done_wht_24dp.png
 SHA1-Digest: Su3Hd6LVyrm9sDDwqpTomrYKGaI=
 
 Name: res/layout/qrcode_scan_result_content.xml
-SHA1-Digest: 1rIudCpjjdaJ02aMxEDYMXVxlA0=
+SHA1-Digest: AoB+K/9uS/JACowzpxuMNGM7hd0=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1873_en
 SHA1-Digest: wLBBRL4ZOGd1tw0mPHltwkTFRGw=
@@ -1553,13 +1571,16 @@ Name: res/anim/dialpad_slide_in_bottom.xml
 SHA1-Digest: bqetEGEakH/ovbkXiOScPUC6PTk=
 
 Name: res/layout/vcf_file_select_bottomsheet.xml
-SHA1-Digest: 9OOxQx5FgOZ7qrkYNvg41qbosDc=
+SHA1-Digest: pmpZkrI2vsaqNraBT57dJbbL2Ig=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1812_en
 SHA1-Digest: 67O8tDj0ks5M/sPS1CmxNQ2sfek=
 
 Name: res/drawable-hdpi-v4/ic_add_group_holo_dark.png
 SHA1-Digest: EhO6ksNIDsISKfdpNrAicWlJPOA=
+
+Name: res/drawable/details_le_ic_sim_one.xml
+SHA1-Digest: l0Po0UH8YnPQMXPE0tnhl3ZRdv8=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1505_en
 SHA1-Digest: X8pC9oh7CcnQuOo7CK0eIXM7LuQ=
@@ -1629,7 +1650,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1713_en
 SHA1-Digest: ON8iSNsUBCRSgcyw3sqsevSXb6I=
 
 Name: res/layout/group_membership_list_item.xml
-SHA1-Digest: /A2tQQn5J8cuwVfCDpbvPglckhE=
+SHA1-Digest: nzQNhQj3shybc9/zjUJfBImWaeQ=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1239_en
 SHA1-Digest: h/qAcPTN5824Vl8KA+WIIddwJ9U=
@@ -1748,7 +1769,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
 SHA1-Digest: aHXhcJ44Nq+1uITpH9udVnAuQjI=
 
 Name: res/layout/famliy_name_layout.xml
-SHA1-Digest: wrXDx6W9n9b8nM8KWFEV322h0Zg=
+SHA1-Digest: Q0exJkdO1sKgcsjHSN0YS0yALtY=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1515_en
 SHA1-Digest: NYVj9804pTfCo8SZkDnpo5D4TGg=
@@ -1765,8 +1786,11 @@ SHA1-Digest: VdpmnPoD+1j+Vy7QGtzqqH2cUfY=
 Name: res/layout/custom_contact_list_filter_account.xml
 SHA1-Digest: Bykgt18McSU+V5HkuvwUrMa7sDU=
 
+Name: res/drawable/call_log_list_video.xml
+SHA1-Digest: W6fh2AzG13JQFxO9j9TxQVt5DQw=
+
 Name: res/drawable/ab_dropdown_navigation_item_background.xml
-SHA1-Digest: pRMygi9cMgoB1V+bcdxuUX2glG0=
+SHA1-Digest: DvkEPNH+32M1hcZX+MommEJlkGw=
 
 Name: res/layout/select_dialog_item.xml
 SHA1-Digest: G8BE/bKIrKtjuFo0bW89hhAYS8w=
@@ -1781,7 +1805,7 @@ Name: res/drawable-xxhdpi-v4/ic_menu_overflow_lt.png
 SHA1-Digest: x1plt8/R13/hH5a9WVUZihXLsMA=
 
 Name: res/layout/le_select_sim_card.xml
-SHA1-Digest: l4yW/oKJ07B7tlqKzaNE4N7XMOA=
+SHA1-Digest: sMdk+bigufJHj1kH7EB/23yO+Bs=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1503_en
 SHA1-Digest: 8MPnlzPzkfyNPjq54eai0ApSd1M=
@@ -1837,7 +1861,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1917_en
 SHA1-Digest: SM0wo8ncp2yAAhhqlrLrjN9Ni78=
 
 Name: res/layout/leui_dialpad_view.xml
-SHA1-Digest: a5ZLICbGn+MFyLZtvBqrIfvpE+E=
+SHA1-Digest: 5FwrA+G6+e62KSUo9/PGUn0SZ8A=
 
 Name: res/layout/custom_action_bar.xml
 SHA1-Digest: xfX4Etfia28OzJxZEoyWminvOLA=
@@ -1865,7 +1889,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1639_en
 SHA1-Digest: 0100OcD9qxrFTut0qtinkgxqDyw=
 
 Name: res/drawable/fastscroll_thumb.xml
-SHA1-Digest: Qqqw31SMunP6xS5Uz5709AUo/Sw=
+SHA1-Digest: mZuK8T2373ODOM2tHmgbj9UZnuY=
 
 Name: res/drawable-xxxhdpi-v4/ic_videocam.png
 SHA1-Digest: g8vnyIt1SMFgswqn8PNFhRHjZLY=
@@ -1875,6 +1899,9 @@ SHA1-Digest: k9qhl7OICxt8jK429kRZY20l474=
 
 Name: res/drawable-hdpi-v4/ic_menu_back.png
 SHA1-Digest: 8+D6XJuryoTxnKhWFn7ejhDI3SQ=
+
+Name: res/drawable/ic_quickcontact_voice.xml
+SHA1-Digest: Ck4NBMQT/d7dIzljFmyR/ILVlA0=
 
 Name: res/drawable-xxxhdpi-v4/fab_green.png
 SHA1-Digest: vFWjBGcN7wsod1ARnbZbf49gn9U=
@@ -1896,7 +1923,7 @@ Name: res/drawable-xxhdpi-v4/badge_action_call.png
 SHA1-Digest: /alq+0Np7qFFKz3/OXYvNE/+5LM=
 
 Name: res/layout/item_group_membership.xml
-SHA1-Digest: 4ZFg9pDGVH2it4BmcsKkNo9v7V4=
+SHA1-Digest: /zlg0Elu7fZTtTkfOAocY48O170=
 
 Name: res/drawable-mdpi-v4/panel_message.9.png
 SHA1-Digest: QPRjimILIOPeCIbCY7pMHNvaCH8=
@@ -1923,10 +1950,10 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1785_en
 SHA1-Digest: ZWUauZQdzGdhiF5hhKX+mDicAz4=
 
 Name: res/layout/leui_dialpad.xml
-SHA1-Digest: /p/JaMctCe8/xRYOqVx1H35bC0k=
+SHA1-Digest: UI5EhypJQi7GECDShhQzXo9rP/Q=
 
 Name: res/layout/group_list_item.xml
-SHA1-Digest: Bh/t1HgA9+ZZPT71Sj5z2Wh8loE=
+SHA1-Digest: LIoJSt/UC1ID0HsQZShPsL1iZNs=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/82_ko
 SHA1-Digest: 0JuOfMESGM4cjx9ETi1isPBbmQ4=
@@ -1977,7 +2004,7 @@ Name: res/drawable-xxhdpi-v4/le_ic_delete.png
 SHA1-Digest: sFJApqbbqOkF4dWWbBb+Q03nVqA=
 
 Name: res/layout/group_sliding_menu.xml
-SHA1-Digest: c2zUWiORovfF2kxOvDEkAnP4fUw=
+SHA1-Digest: 8JSnhfwFvJRGCDrir30q4aY2Q+Q=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
  to_679
@@ -1993,7 +2020,7 @@ Name: res/drawable-xxhdpi-v4/ic_arrow_back_24dp.png
 SHA1-Digest: PKTy/w9tW/X7yp00dxnFshZNQYA=
 
 Name: res/drawable/ic_black_list_add.xml
-SHA1-Digest: 1wRa2SeQU7zWVPvtl6+3k3bAdAE=
+SHA1-Digest: wTBhuG4QAeolho+rc0kYkpEpVlE=
 
 Name: res/drawable-xhdpi-v4/badge_action_call.png
 SHA1-Digest: LhyrhJ8LtzkyWFNPshgVd/C5GK4=
@@ -2047,10 +2074,10 @@ Name: res/drawable-xxhdpi-v4/le_ic_remove.png
 SHA1-Digest: mEMDmrWX3YR00vffK7i3vbBirko=
 
 Name: res/drawable/group_list_item_background.xml
-SHA1-Digest: Ya3xZIDpAnP/sPBQ+RLUD8h8/sk=
+SHA1-Digest: GFQB+MWaHkK3xBi3SvoPVBA4tzE=
 
 Name: res/drawable/ic_scroll_handle_pressed.xml
-SHA1-Digest: AB5iAHvbcQ2Fudcn+St1f2x79v0=
+SHA1-Digest: 24AWCGEVTXtBTL87+TKAo4SNhKQ=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZW
 SHA1-Digest: 51aBF8wKvdCTFZ2SFN4UtA2DJCA=
@@ -2083,13 +2110,13 @@ Name: res/drawable-xxxhdpi-v4/ic_google_plus_24dp.png
 SHA1-Digest: OYcZlV8ImkuouZZGD+OQdz7thno=
 
 Name: res/layout/qrcode_scan_result_item.xml
-SHA1-Digest: b4cX1idDC7eLAV7FGUIM2CeAwFE=
+SHA1-Digest: dtfpoASrqTuaMC4ZzS9z5gUC4Uk=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1701_en
 SHA1-Digest: LbjUwp83ZsZPHyDBT5rh124/6vw=
 
 Name: res/layout/expanding_entry_card_view.xml
-SHA1-Digest: cD1wTL5vcARTU+oBz4ZXNWoTeko=
+SHA1-Digest: kxQWXZEet9uAQbAUuLGaC47/Qug=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/84_vi
 SHA1-Digest: V13gwVf29c5NWH9Sbbndlw6u6VE=
@@ -2101,7 +2128,7 @@ Name: res/drawable-ldrtl-mdpi-v4/ic_menu_settings_holo_light.png
 SHA1-Digest: bgtPP23JNlQqZ4MQa/UNrvyyFDc=
 
 Name: res/layout/group_list_sliding_menu_fragment.xml
-SHA1-Digest: k8gG8coEDhZ15FxoMUVltX7txUo=
+SHA1-Digest: 20vQBJK8/FahkJAbmY+x+SxYObI=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WS
 SHA1-Digest: WEt+4epzNo4d8ROnBGfRpvsLQHA=
@@ -2251,7 +2278,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TN
 SHA1-Digest: FED4CTFMsRktTSDFVozGKFfgHC8=
 
 Name: res/layout-sw600dp-v13/group_detail_fragment.xml
-SHA1-Digest: f3GcqURD8XoWuuinsUNKKvCBqTs=
+SHA1-Digest: UR8sBgWYYBeNxYtFJUsXz/8qF+k=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TM
 SHA1-Digest: wRKs89xVZ3eszAjOGyW6biIB59k=
@@ -2281,7 +2308,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TD
 SHA1-Digest: fXGWbLcwO2uUDV3/v65+7z+ydSI=
 
 Name: res/layout/group_name_dialog.xml
-SHA1-Digest: rzz5rULWCHx8bxnxWldJVoj9s6I=
+SHA1-Digest: spLqDikuEwtO4g4CAdKU3kyduTA=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TJ
 SHA1-Digest: sVzKUygsCtLduYavdSUOyP+Jafw=
@@ -2296,7 +2323,7 @@ Name: res/drawable/le_ic_share_normal.xml
 SHA1-Digest: h54Mvdp2WS2t2ZeWY6520YhuziE=
 
 Name: res/layout/le_ext_number_activity.xml
-SHA1-Digest: d5t64CQjM9NIsXcfEfsbknj2pjE=
+SHA1-Digest: VnGNpXFkbQZGTqgqLFfTTAys4yk=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TC
 SHA1-Digest: h+VNblfdfvL08K4jtRyzB1SniKE=
@@ -2320,7 +2347,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SX
 SHA1-Digest: qPJl1K9ZBaGHWAbdxiA1XFP1nhQ=
 
 Name: res/layout/phonetic_name_editor_view.xml
-SHA1-Digest: 8b1+d7yJM/pXMmNbYfwVRAD/ncQ=
+SHA1-Digest: RvkyYodokyFSw8zRBhutkBYgtjY=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SY
 SHA1-Digest: pxJxXcMSf7F47SEwPXqXfT7Of9g=
@@ -2389,7 +2416,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SA
 SHA1-Digest: zoDNln75fh0N0Ttw6vg2HgSRXhM=
 
 Name: res/layout-land/group_editor_view.xml
-SHA1-Digest: 9+8lXl36WRP//8lC6OaEVELX+fY=
+SHA1-Digest: jLCorHLW+TbDWsMvONpujKbWHf0=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SB
 SHA1-Digest: G5enlJKOGZ6RLc3mjmZs+0Vwfl4=
@@ -2458,7 +2485,7 @@ Name: res/drawable-mdpi-v4/btn_star_off_normal_holo_light.png
 SHA1-Digest: YkVJfHCIxe64BC+tSFnIb9Dsq3k=
 
 Name: res/layout/leui_dialpad_key_pound.xml
-SHA1-Digest: F06wLzoZxIB+TVJqjbTgaZpZ8rY=
+SHA1-Digest: GTrp3lABaGh2xhg4R6/KYdnm0t8=
 
 Name: res/drawable-mdpi-v4/ic_menu_back.png
 SHA1-Digest: +rm0uF7WTrKGwtukPN/tbB7tiiw=
@@ -2542,7 +2569,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RE
 SHA1-Digest: lN4hO/zfjPGWlxlXPt1nQG4QJZ0=
 
 Name: res/layout/name_edit_expansion_view.xml
-SHA1-Digest: uAfHrIFKI8ozjQ4A1h8qHXMvJ3k=
+SHA1-Digest: EsAhmoW0lrcjPcv+OdiDPJbKUEc=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PR
 SHA1-Digest: ff7WU4GqkjoPRUAuysmgqkwvTfA=
@@ -2587,7 +2614,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SO
 SHA1-Digest: EBlXHf1Dehuo/JIdgSP11oxmOQ0=
 
 Name: res/layout/vcard_viewer_activity.xml
-SHA1-Digest: XOjCPw49eJ84/kL8bUOenn/LRvk=
+SHA1-Digest: 1WYbFugURwpkXze7NBxmQMeGKPw=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SM
 SHA1-Digest: Sy0eWRdE16v7G2ETphVPHohO/Dc=
@@ -2638,7 +2665,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SE
 SHA1-Digest: QqHkLRiaSLu3NucAuEVUw5mtXCU=
 
 Name: res/xml/le_preference_display_options.xml
-SHA1-Digest: JV9vaaqENOhr4KNVwvkO0mUZ2Ew=
+SHA1-Digest: kxl/V0e5sxv+IAzkVB0GMlvZFEM=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RS
 SHA1-Digest: fceCOonAoNK2vZg1X3HFpazjNwQ=
@@ -2744,7 +2771,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TA
 SHA1-Digest: zxdsRgGax6ubk8hnD3UU1Ruk808=
 
 Name: res/drawable/ic_contact_edit.xml
-SHA1-Digest: 65S4yhWBGBC0A+PGkoBZmjqZlkM=
+SHA1-Digest: Qzsd3srlCQukjHpzIBh8blclN4k=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NO
 SHA1-Digest: 4pXt4EiTPr+hwwPOVd0QWX6XN3g=
@@ -2789,7 +2816,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MA
 SHA1-Digest: sP8aiUoFfUnDvMa4cZ+KjOpWvJY=
 
 Name: res/layout/contact_black_containt.xml
-SHA1-Digest: 78DO/3u/DZboraUAikX1aduxHpo=
+SHA1-Digest: vnz1eunetSuiqU+U16HahZ0TkLc=
 
 Name: res/drawable-mdpi-v4/ic_contacts_holo_dark.png
 SHA1-Digest: XyCTsFZOBskZvbEIPi5NUDhU+RA=
@@ -2804,7 +2831,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ML
 SHA1-Digest: +YIOrG20mY4pRKZoLogFQUq6H0k=
 
 Name: res/layout/item_photo_editor.xml
-SHA1-Digest: boi21gTJ8EanAp7KhFtK3p2TeRU=
+SHA1-Digest: CXi5uVI9JgD97oQ+LaHvHYb5ovU=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UG
 SHA1-Digest: Tt02M7oBF8WlqiFD0pC/ZT5K/iY=
@@ -2907,7 +2934,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NA
 SHA1-Digest: ksP1xoD4l0e5tfRUCRGKbZTe20w=
 
 Name: res/layout/search_action_bar.xml
-SHA1-Digest: jOTTofYvI7jvl1+6XhrwXXVO5B4=
+SHA1-Digest: /avyaVA1CfninGo8h6Tytxx269c=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LK
 SHA1-Digest: pDTco4adQ7wN+APo7X+8lL8fNGE=
@@ -3077,7 +3104,7 @@ Name: res/drawable-hdpi-v4/quickcontact_badge_overlay_pressed_light.9.
 SHA1-Digest: Y8NQTsxXx/lFW2Ml243E2sUftEM=
 
 Name: res/xml/searchable.xml
-SHA1-Digest: p0V8Tqtc3SSyYK/7715Rb28zEWc=
+SHA1-Digest: 2ZBwF0m8OIXh5CG0Drsg0BkxzkI=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KM
 SHA1-Digest: riY4/v0MIgCE8l9iMpTLN8m5tOs=
@@ -3116,7 +3143,7 @@ Name: res/drawable-hdpi-v4/ic_menu_star_dk.png
 SHA1-Digest: +qvrmt8QeEdY1DpkSmEB9lIxPKU=
 
 Name: res/layout/search_header.xml
-SHA1-Digest: TCS9a0netCg4QVYd0ExlDbZs7a4=
+SHA1-Digest: mJ8vogs6B7C5owoo2+W7mpjW/Pk=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PK
 SHA1-Digest: EqclcGKUyiFNOza8voFlG0QGi+U=
@@ -3179,7 +3206,7 @@ Name: res/drawable-xhdpi-v4/ic_menu_group_dk.png
 SHA1-Digest: gseZdPDSLOK6zItHnHws5HP/XYc=
 
 Name: res/menu/edit_contact.xml
-SHA1-Digest: 6w0f+G6bJhXmQq1eRI3stHqkYZ4=
+SHA1-Digest: +K7yDe/XQNXhWqNvckzTP569Yb4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1657_en
 SHA1-Digest: papfkGR3YH5tUbzRSabOHrtpK64=
@@ -3230,16 +3257,16 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PW
 SHA1-Digest: phVp2GMskybPur1giJmEDXf4+mk=
 
 Name: res/drawable/ic_contact_add.xml
-SHA1-Digest: cBwLb2VfH2XhiXP40ofwH4Ylq8w=
+SHA1-Digest: N/VYNmJilCV8GmisyYTEDV2YfvA=
 
 Name: res/layout/group_account_list_item.xml
-SHA1-Digest: 86FYUbp5zjWT+LcuBdB67KYYEq8=
+SHA1-Digest: S2GKCjXKd4OG0h44T4xHUyKCryw=
 
 Name: res/drawable-mdpi-v4/logo_quick_contacts_mail_color_44in48dp.png
 SHA1-Digest: 0EI5+7kvH+y0sA6EjBw2PfuvS4c=
 
 Name: res/layout/save_actionbar.xml
-SHA1-Digest: jUXssfWim+OgatarkhGzaol9Ybk=
+SHA1-Digest: g+boo+9nNziSTCtyLmo4q/0ujvo=
 
 Name: res/drawable-xxhdpi-v4/ic_contact_picture_holo_light.png
 SHA1-Digest: AlDOZ/5S65SI3GelSy313YBElEA=
@@ -3249,6 +3276,9 @@ SHA1-Digest: s5xC5tbgFQQ9co+DLYaDXpeb5Yo=
 
 Name: res/layout/directory_header.xml
 SHA1-Digest: TNT8f5K5pK6BohuoJerNTvibEsc=
+
+Name: res/drawable/details_call_log_list_voice.xml
+SHA1-Digest: RLZkMtUsyENfH/f2IudpMwQ9yp4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1269_en
 SHA1-Digest: 4M6+sN4rLpwagYaLFc9pP7h8v5s=
@@ -3294,7 +3324,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1940_en
 SHA1-Digest: nZboa2PKIgLWQjVychTciR5rXMQ=
 
 Name: res/drawable/list_selector_background_transition_holo_light.xml
-SHA1-Digest: i5JjYwXTeVOastVPp/eBXfTSdak=
+SHA1-Digest: lAWsKW7CbHsjTOuu68uKGmoJAU0=
 
 Name: res/drawable-hdpi-v4/ic_ab_search.png
 SHA1-Digest: CFcOQXSpTjRMtzjmQzg7uumkmqQ=
@@ -3361,7 +3391,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1809_en
 SHA1-Digest: r/8coiuFTWroLBQW3OWXPHCIeCU=
 
 Name: res/layout-sw600dp-land-v13/group_browse_list_account_header.xml
-SHA1-Digest: jte5/RmSEmvCE9hMgWpY0JzKesw=
+SHA1-Digest: YOPM+X/J/pSK9S229GUOIx1yBys=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1702_en
 SHA1-Digest: 7OgDnVAaODvEUp5DBMNVOlrPEuQ=
@@ -3373,7 +3403,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1902_en
 SHA1-Digest: g8bc0nP0vW8LAqycjc5vkvXgY1s=
 
 Name: res/xml/preference_display_options.xml
-SHA1-Digest: uYvX3RPMUnlyRFwKgxFrlZACNUQ=
+SHA1-Digest: T9a8s2Ntyd8b4+KsB2zsmaJf+pU=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1409_en
 SHA1-Digest: ZmsxvDAnZtnl+p3N6uSEbRmcl7o=
@@ -3382,7 +3412,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1951_en
 SHA1-Digest: WsU2ufYbd4TgvNyrc0OxJpQpP+c=
 
 Name: res/menu/star.xml
-SHA1-Digest: xm7U0KpIRcV9xGpgValEsKra7qw=
+SHA1-Digest: gq75BXoD6vYXWcKOWxIj6WIF3Og=
 
 Name: res/drawable/notify_status_import_export_contact_loading_largeic
  on.xml
@@ -3392,7 +3422,7 @@ Name: res/drawable-mdpi-v4/ic_create_24dp.png
 SHA1-Digest: dZ4QlvTuvm1W9GvuqiVmAvGLfak=
 
 Name: res/layout/contact_list_content_with_sliding_menu.xml
-SHA1-Digest: YuPKP+8up0eOXIZ8pnpPioHW9Yg=
+SHA1-Digest: aZVwW6z7Nw6C6NuY6uOBEOLkLyU=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/251_en
 SHA1-Digest: hg1+2mV7yjw6nKiIujSdOjQkK8A=
@@ -3404,7 +3434,7 @@ Name: res/drawable-xxhdpi-v4/ab_solid_custom_blue_inverse_holo.9.png
 SHA1-Digest: D9xEMqpP4G6MkeEgKDwQAl83kYU=
 
 Name: res/layout/contact_mark_label_item.xml
-SHA1-Digest: KyhH7FTQrdypRTL2Lvb4Gf2t+LM=
+SHA1-Digest: bwNBqiJPbFTNnaQGxMCVaCYqGN0=
 
 Name: res/drawable-ldrtl-xhdpi-v4/quickcontact_badge_overlay_normal_li
  ght.9.png
@@ -3420,7 +3450,7 @@ Name: res/drawable-xxxhdpi-v4/ic_overflow_menu.png
 SHA1-Digest: Wm0u4E+wgKrxw75D6d6OvPPJmM4=
 
 Name: res/layout/text_fields_editor_view.xml
-SHA1-Digest: VJuuj1qqwqk5TKhOE6YNMx2SZyg=
+SHA1-Digest: DrZ4oHlLRpiqjTQC5aSskETmTM4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1339_en
 SHA1-Digest: 6Yx/7TaoV3I+Z5Z795kTTO+HZZM=
@@ -3446,8 +3476,11 @@ SHA1-Digest: 9yPZ/2JeGWK5lleN3LtAd3QxJBQ=
 Name: res/drawable-hdpi-v4/account_spinner_icon.png
 SHA1-Digest: 6lXcjxW2uHtkpmLZiVBNCWaGRN4=
 
+Name: res/drawable/details_call_log_list_video.xml
+SHA1-Digest: 7uOe6aQ1w+W2+7pJ3tTv+Uf0Cuk=
+
 Name: res/layout/le_bottomsheet_listview_title.xml
-SHA1-Digest: emaJgLMpLOoYWhazHQWFSTPxq34=
+SHA1-Digest: XJeDq7Z7SGKleENK9QVwBqyYp40=
 
 Name: res/drawable/action_bar_item_focused.xml
 SHA1-Digest: +vYJE4G/1khhRcfJZlT4s/3pJNk=
@@ -3462,7 +3495,7 @@ Name: res/drawable-xxhdpi-v4/ic_dialpad_delete.png
 SHA1-Digest: Y0SA8rcTNdHcmcM/LyJuY3QSXb0=
 
 Name: res/layout/user_profile_button.xml
-SHA1-Digest: g2ouKPhKbWb+7NVMUcN+MKwe2n0=
+SHA1-Digest: bj11X87OsVjz51mFt7/GMzPNYWE=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1732_en
 SHA1-Digest: lXXIY0SB/cjJviMKKxx6HxxmDhY=
@@ -3477,7 +3510,7 @@ Name: res/drawable/dial_call_button_normal.xml
 SHA1-Digest: heyxbtUqNft2SKOCeEfxgZlcPkE=
 
 Name: res/layout/people_activity.xml
-SHA1-Digest: e3jv0DdihxMqdHb9TVgXTPJQP0g=
+SHA1-Digest: 9yWfCyVSi4IrC0IHdwpvAYP5l8Y=
 
 Name: res/layout/contact_detail_separator_entry_view.xml
 SHA1-Digest: cbpaEAapbxQQSnvnxRDmJySw+8E=
@@ -3486,7 +3519,7 @@ Name: res/drawable-mdpi-v4/ic_ab_search.png
 SHA1-Digest: j07kIdtjpQh2acnFkpjxs4q+/fQ=
 
 Name: res/drawable/frame_thumbnail_contact_widget_holo.xml
-SHA1-Digest: q00wxfCEnzYkwTo7bj8QwA0vy+s=
+SHA1-Digest: AnjmCzdk4E+kbgVdZUJJMlSzfQM=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1323_en
 SHA1-Digest: UCgwhdVi+iGf34D4A63K5d044Z0=
@@ -3522,7 +3555,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/355_en
 SHA1-Digest: CZF6zW/bgGZbRIQIbOlyE8O3IAY=
 
 Name: res/layout-sw600dp-v13/external_group_editor_view.xml
-SHA1-Digest: +GKJbhn1LLyk0ZS6R6byxJnkRBI=
+SHA1-Digest: /Plfzkt/pDWxGg1rm9c4//gDBN4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1213_en
 SHA1-Digest: uAS+hb8XcuTNgeT9HHqVWhgAPC8=
@@ -3561,7 +3594,7 @@ Name: res/drawable-xxhdpi-v4/expanding_entry_card_expand_white_24.png
 SHA1-Digest: siUzKa5Px5KvWXJ83+vt7LUF90c=
 
 Name: res/layout-sw600dp-v13/group_browse_list_account_header.xml
-SHA1-Digest: vkHlcUCYDgavJokHFn9RO4gE1nU=
+SHA1-Digest: PHwQwre3SBjXbpcvaRl4NZwFGt0=
 
 Name: res/drawable-ldrtl-hdpi-v4/ic_text_holo_light.png
 SHA1-Digest: /dwBne4mpHFdTnMy6s8tbOCbp8E=
@@ -3586,6 +3619,9 @@ SHA1-Digest: erKwFG/yGChfsySKpr1rSiJYiU8=
 
 Name: res/drawable/action_bar_item_pressed.xml
 SHA1-Digest: +vYJE4G/1khhRcfJZlT4s/3pJNk=
+
+Name: res/drawable/details_ic_outgoing_arrow.xml
+SHA1-Digest: HIzzj5gfWkxVOEsjtlKTu6Dg7qA=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1937_en
 SHA1-Digest: MAvmEUBNKFgAA29enhKxpRAkJhE=
@@ -3697,7 +3733,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1518_en
 SHA1-Digest: rGfeizNgPJO8SlcfHSfsLdtiboE=
 
 Name: res/layout/leui_dialpad_key.xml
-SHA1-Digest: hbOPifdR+qc1+o4W+bTi2tm9jMw=
+SHA1-Digest: vnHc4Vy+ZUluThPuFh01jFJYovU=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1225_en
 SHA1-Digest: JkIdzkJQdM0GIGnCijOL3lvKrfI=
@@ -3714,7 +3750,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
 SHA1-Digest: 2JnA+oMJ+vJKy4hQpTtSxQVpZ5Q=
 
 Name: res/layout/event_field_editor_view.xml
-SHA1-Digest: Kolir/QtIN0kc7YA4ricBdyEjUI=
+SHA1-Digest: rSLIKLgJ7NsoEApqGqt24UZm1Jg=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZA
 SHA1-Digest: I29bUQkgyXligJyPjjZSktYPO2E=
@@ -3748,7 +3784,7 @@ Name: res/drawable-xhdpi-v4/ic_menu_remove_field_holo_light.png
 SHA1-Digest: acH0X6FrO9DwREx55Bd9nvdTiRM=
 
 Name: res/layout/raw_contact_editor_view.xml
-SHA1-Digest: xKr65AVUY0cpNJrJznX+CUnl8WE=
+SHA1-Digest: OwzAECRJeQVbUImXetHMG+oMBOY=
 
 Name: res/drawable-xxhdpi-v4/ic_business_white_120dp.png
 SHA1-Digest: Ux0Vehwlg5FjcfrEuzKIa7WhkZ8=
@@ -3759,6 +3795,9 @@ SHA1-Digest: 2KBzSMmX9/SlxDosTFR6Ca6sgwY=
 Name: res/drawable-xxxhdpi-v4/ic_scroll_handle.png
 SHA1-Digest: ZCgJxu97U053BY/fmX5CDcFMyR8=
 
+Name: res/anim/push_top_in.xml
+SHA1-Digest: U8UTLGwP+titmen+UsL+KXz63ng=
+
 Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
  to_855
 SHA1-Digest: COUdI62w67El5HnnJocGdX/mrQU=
@@ -3767,13 +3806,13 @@ Name: res/drawable-xxhdpi-v4/list_activated_holo.9.png
 SHA1-Digest: DE2YGdaq8AELvz7KYKb94gCRldg=
 
 Name: res/layout/people_activity_toolbar.xml
-SHA1-Digest: i8HzMQOVJ4Rw95v+3lnDOdTO1VY=
+SHA1-Digest: OCQSYzFOxUqz4HDtPKio+RWLPoo=
 
 Name: res/drawable-ldrtl-mdpi-v4/list_title_holo.9.png
 SHA1-Digest: jRZ1tUJAgTV2r7QCZTZTZFhflnk=
 
 Name: res/layout/dialpad_view.xml
-SHA1-Digest: +5y2domAbbkTN0hmNDyWIpczd6g=
+SHA1-Digest: m7v1oTlZv7zxfiuO+Ir9zq+svU4=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1216_en
 SHA1-Digest: 0+neAfdhM0WJgInyJ7F8VSb+VaM=
@@ -3782,19 +3821,19 @@ Name: com/google/i18n/phonenumbers/geocoding/data/352_fr
 SHA1-Digest: 7K4mSM9PgzlBiOJqIlrX9fPCfUs=
 
 Name: res/layout/floating_action_button.xml
-SHA1-Digest: lclSRpRIJFO3eH3fckmPhYoI2+k=
+SHA1-Digest: ueREYVSuVieQOZ+xWFhKv1aa3XI=
 
 Name: res/drawable-xhdpi-v4/ic_menu_person_lt.png
 SHA1-Digest: myS2qFxQndZZbYxPs43VyPqC2AE=
 
 Name: res/layout/group_list_header.xml
-SHA1-Digest: cba+bM10Y9jH9V3Qc6AsS0t2dho=
+SHA1-Digest: 8RB3wJ2dIq/3KZTi2rmwGGfhSyU=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1418_en
 SHA1-Digest: 6c3dyk5lM+brd2NhwhotDhGcJTY=
 
 Name: res/layout/leui_top_slide_content.xml
-SHA1-Digest: n2Duudcy8ck9clABoRsMZypk0CE=
+SHA1-Digest: R9FNdFmcPICi9MXGKbBLU/0nAzU=
 
 Name: res/mipmap-hdpi-v4/ic_launcher_contacts.png
 SHA1-Digest: jxhlkEG3cvJ/PIpleMgkar8ki0c=
@@ -3848,16 +3887,16 @@ Name: res/drawable-xhdpi-v4/person_white_540dp.png
 SHA1-Digest: tonBV/Xgmof/4QfOWywuBCgQ34M=
 
 Name: res/drawable/callog_le_ic_sim_two.xml
-SHA1-Digest: VDpE4SIyFyojcchLQCNHsHb6ZZU=
+SHA1-Digest: /8vzgaEjhKFOSy7VbKSFHLOjCxs=
 
 Name: res/layout-sw720dp-v13/group_browse_list_account_header.xml
-SHA1-Digest: jte5/RmSEmvCE9hMgWpY0JzKesw=
+SHA1-Digest: YOPM+X/J/pSK9S229GUOIx1yBys=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/372_en
 SHA1-Digest: AggzEO4rOpSLRrYc+ex3yn6QNxk=
 
 Name: res/layout/le_ext_number_actionbar.xml
-SHA1-Digest: sKhtaJEqsEB4Z+5zvNFe9ikl07U=
+SHA1-Digest: 7BN3jjrgCfx8UX53oK86ZJj6aYg=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/62_en
 SHA1-Digest: wZLUuRWE33dHlO1kLJVP/nI01Co=
@@ -3890,16 +3929,16 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1530_en
 SHA1-Digest: sFXQmXdUoC7FDtnDKHX/dHvVjOo=
 
 Name: res/drawable/dial_call_button_background.xml
-SHA1-Digest: t6boFU+n6lqXDfJU3EXdkBMu5h0=
+SHA1-Digest: QRHJE/CUfNxfSS3rN2fjUIncMV4=
 
 Name: res/layout/date_picker.xml
-SHA1-Digest: BlDaT8PzW+01UlPo1lwjoFds0U0=
+SHA1-Digest: +QdVxkIuB08rApmUbbO/C/HzsIc=
 
 Name: res/drawable-xxhdpi-v4/blank_page.png
 SHA1-Digest: PWgyBvcDCYXCecBRj9mZbnL7oq0=
 
 Name: res/layout-sw600dp-v13/text_fields_editor_view.xml
-SHA1-Digest: 9nplF6cq/9taYrYkwxpcKGsNtFs=
+SHA1-Digest: W6+T4uWDIdHsSnELp3cuspWAivE=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1978_en
 SHA1-Digest: c/z0yZaFLIhUe88MMBMN0LxDr6U=
@@ -3913,6 +3952,9 @@ SHA1-Digest: WtyEeSZo6y4JBAU/b7+t9Zo9jLw=
 Name: com/google/i18n/phonenumbers/geocoding/data/1574_en
 SHA1-Digest: Pf4B1Dc27h7sHGqapr2K2CMUGws=
 
+Name: res/drawable/edit_type_more.xml
+SHA1-Digest: XLCK14VhqbBMREVKrTuAHkeVmsk=
+
 Name: com/google/i18n/phonenumbers/geocoding/data/1816_en
 SHA1-Digest: Z28Bh1VU8nig6xMTllrGLwLXuvI=
 
@@ -3923,7 +3965,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/239_en
 SHA1-Digest: j3tHTkniT2yU2fVPGjJa2ZehNik=
 
 Name: res/layout/leui_dialpad_key_one.xml
-SHA1-Digest: mjvBaSOycKm+FmMGE9Yj6R25aAg=
+SHA1-Digest: EhY00ureYS55R4dfRge9Y9SNmlI=
 
 Name: res/drawable/sd_remove_delete.xml
 SHA1-Digest: aqVfkil5Z396jc97baKWqM/iWHw=
@@ -3935,7 +3977,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1774_en
 SHA1-Digest: uvnPeEHn0fVt9pK8nDASvrWcbEo=
 
 Name: res/layout/leui_widget_arrow.xml
-SHA1-Digest: Qi/i641h4AxuC0afuT78pejTysA=
+SHA1-Digest: 2rkouaXMr2P0WJYv68CGsz2BdOQ=
 
 Name: res/drawable-xhdpi-v4/btn_star_off_normal_holo_light.png
 SHA1-Digest: iK1chrqlmd6WvUv99cXhyfm5l/U=
@@ -3956,13 +3998,13 @@ Name: res/drawable-xhdpi-v4/ic_star_24dp.png
 SHA1-Digest: +IUkbynqrYuuAiTzb4ku50HamfM=
 
 Name: res/layout-sw600dp-v13/group_source_button.xml
-SHA1-Digest: YJVMhZWw3huHDYgewzphpfsJicg=
+SHA1-Digest: nl/r0BWFnAaBoeObMI4VcidxzbI=
 
 Name: res/drawable-xhdpi-v4/ic_hangout_video_24dp.png
 SHA1-Digest: FLODhP/7KAK2zmbbIgAAqwDS6us=
 
 Name: res/layout/contacts_unavailable_fragment_content.xml
-SHA1-Digest: Z5ObmGHvTUhXPta5ix7u3qRnn2w=
+SHA1-Digest: 589AIqI/A+wzwbmLnBhmMS5Mwgg=
 
 Name: res/drawable-mdpi-v4/ic_menu_expander_maximized_holo_light.png
 SHA1-Digest: HovY8EpCcoU5TmQE8gobxMWOCTM=
@@ -3992,7 +4034,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1308_en
 SHA1-Digest: TUSOt8YQbo/4GqbkGjSRfSphuIc=
 
 Name: res/drawable/list_item_activated_background.xml
-SHA1-Digest: vnkcK0DCwq88VBBtnHyWRQPEqPA=
+SHA1-Digest: mH9klW6EgdhsDbhwEQXvsvW1UBQ=
 
 Name: res/drawable-xxhdpi-v4/le_ic_type_rington.png
 SHA1-Digest: JgVIjaUTU1mmaXxTpJeoaE2iT5I=
@@ -4034,16 +4076,16 @@ Name: res/drawable-xxhdpi-v4/mtk_contact_account_phone.png
 SHA1-Digest: FCV/SbHCXPCPpB5AqksNBRhhyJQ=
 
 Name: res/drawable/ab_dropdown_navigation_item_background_pressed.xml
-SHA1-Digest: w+umphC+6NL6VFYppRqz1+1A2g0=
-
-Name: com/google/i18n/phonenumbers/geocoding/data/1734_en
-SHA1-Digest: ALOsAWbWkIgHD+YeJf9mje4CCBM=
+SHA1-Digest: z0BtUxwaptUJz+T+WLspwgfpeQ4=
 
 Name: res/drawable/le_ic_send_text.xml
 SHA1-Digest: NjK31hJUGQjy8F5nZDxpbPbrY2E=
 
+Name: com/google/i18n/phonenumbers/geocoding/data/1734_en
+SHA1-Digest: ALOsAWbWkIgHD+YeJf9mje4CCBM=
+
 Name: res/layout-land/people_activity_toolbar.xml
-SHA1-Digest: N1yfQjD1xg0+fi1PkMxWUvjUFhk=
+SHA1-Digest: fOvg3BuEiaBFI4nZHtJeXGPjjfc=
 
 Name: res/layout/date_picker_dialog.xml
 SHA1-Digest: bQHE8sLe+PRDGopau8RuqnSBKlA=
@@ -4067,7 +4109,7 @@ Name: res/layout/contact_tile_frequent.xml
 SHA1-Digest: z8/vHvS0LEhOh+22K3vCAgcwkaE=
 
 Name: res/layout/group_editor_activity.xml
-SHA1-Digest: QkkdvbdrZmry5eBHU1Y59WDU8CM=
+SHA1-Digest: Tw1Ecr0F7gZUO+VFyPi5eXMzUtY=
 
 Name: res/layout-land/dialpad_key.xml
 SHA1-Digest: gR633hiD5D8cT+jxLEHtQxsuGuA=
@@ -4076,7 +4118,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1703_en
 SHA1-Digest: 28YnqUHUltRldiCF8AF5bHvusb4=
 
 Name: res/layout/sliding_menu.xml
-SHA1-Digest: 53HbotqR9Ptq0heF2QECbCEOAd8=
+SHA1-Digest: d+L3pRvkuUkKvtlIxemVxQCZc/I=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/358_en
 SHA1-Digest: DgcBeOrZkWj91hLx/u6KDG1rPGk=
@@ -4094,7 +4136,7 @@ Name: res/drawable-hdpi-v4/ic_menu_group_lt.png
 SHA1-Digest: wn2/bbQS2Y21+V2+ooGPE1Qu+8s=
 
 Name: res/layout/note_text_fields_editor_view.xml
-SHA1-Digest: ribhK+W/HH9eV8s2SRGPMfYeaRU=
+SHA1-Digest: VAURHTqxByYs/RCeDO02RERZm30=
 
 Name: res/drawable-xxhdpi-v4/ic_dialer_sip_black_24dp.png
 SHA1-Digest: K98zgH5tcxwTY9ISXOvrpsynu/4=
@@ -4103,7 +4145,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/373_ro
 SHA1-Digest: JKtE0QKAA6f1gNbV7lnXN0wrFGY=
 
 Name: res/layout/textview.xml
-SHA1-Digest: 5V01QdZrkVUyZPyv+kbICneJsXA=
+SHA1-Digest: 1XfjZJO5XtywsfY5GLw6aFYiqSg=
 
 Name: res/drawable-ldrtl-hdpi-v4/list_focused_holo.9.png
 SHA1-Digest: zeOpPZulJWZhxdQlv2TcHkJ00Cw=
@@ -4136,7 +4178,7 @@ Name: res/drawable/quickcontact_header_photo.xml
 SHA1-Digest: OSgXlM2oWnDIxjl1w5xxH3SpGD0=
 
 Name: res/layout/quickcontact_content.xml
-SHA1-Digest: AM7S+ZzmfLcwOeEwTuMhUTDxAWQ=
+SHA1-Digest: Qp+tFVQOgEbrsWjv7qbdBuA65oY=
 
 Name: res/drawable-mdpi-v4/ic_done_wht_24dp.png
 SHA1-Digest: HbnNpASWtYls3tiy+cYwEccXfNk=
@@ -4151,7 +4193,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/228_es
 SHA1-Digest: Z0D3NmYVGomDhpmnwNEDoluYN3c=
 
 Name: classes.dex
-SHA1-Digest: 9UwIyPmcEys4XJHCzG9b1h6nYfc=
+SHA1-Digest: +SZ2QmSB/cCPjwo1UnnR2qTnWMQ=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1914_en
 SHA1-Digest: wU1cxne2E98QmCRvvzfa8Sy6dKY=
@@ -4166,7 +4208,7 @@ Name: res/drawable-hdpi-v4/ic_voicemail_avatar.png
 SHA1-Digest: PwxZUCN86WPvfGagErJKImLVyjA=
 
 Name: res/layout/floating_dial_view.xml
-SHA1-Digest: 4rC4jUw0cyiCLno6KEPrKQ+6cpk=
+SHA1-Digest: I8Q+E69fHAWw+oKN7CcAG494fYE=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1214_en
 SHA1-Digest: pxZKAjLGvSnRh86nWiV1GJ7s7gw=
@@ -4190,7 +4232,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/7_ru
 SHA1-Digest: 8imvSFCOfU0y6jnbIjCf6x77Cz8=
 
 Name: res/layout/recipient_layout.xml
-SHA1-Digest: IvQr3TSvgHusTSkW+oCmhcd+V80=
+SHA1-Digest: DjdlK2JeENYVtfFVO4HYH+85Foo=
 
 Name: res/layout/dialpad_key.xml
 SHA1-Digest: CbbQBl5hUJHU5lUoxwtTXwB/Ix8=
@@ -4235,7 +4277,7 @@ Name: res/drawable-xhdpi-v4/ic_contacts_holo_dark.png
 SHA1-Digest: beTqPCdLV+AsL3P9xbSPCuKNDvo=
 
 Name: res/layout-sw600dp-land-v13/dialpad_key_one.xml
-SHA1-Digest: dROo8E7bPss+9TLt+PcbTbb87dk=
+SHA1-Digest: 30P/9kGfKsV33B6uxms0pEre91Y=
 
 Name: res/drawable-xxhdpi-v4/le_ic_number_bilk.png
 SHA1-Digest: nbWr4usLVFn2UogA5J6IRJ6TwiQ=
@@ -4295,7 +4337,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EH
 SHA1-Digest: +KAelbDxTopdKY8tZcrGeGOy6/E=
 
 Name: res/layout/group_browse_list_item.xml
-SHA1-Digest: O3tAjrV3e9cSmFdwYxvTD9Q/Kss=
+SHA1-Digest: gSbsv5FvoJ28/HryD4DzzOXqL0M=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LT
 SHA1-Digest: 9zEJajp/2WPawy2bxkvAbcMAcGY=
@@ -4359,7 +4401,7 @@ Name: res/drawable-ldrtl-mdpi-v4/ic_groups_holo_dark.png
 SHA1-Digest: OIQ6f42sD7WkpuJNVtcFGn+hwHY=
 
 Name: res/layout/tab_content.xml
-SHA1-Digest: raSNLPz0TesKLs6M5Id+8ViQHA0=
+SHA1-Digest: Y2645l175MYG7J6i/DLM1m+Zf0w=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1567_en
 SHA1-Digest: 2B5eVecqGK57sjglQTtGoKOUBj8=
@@ -4497,7 +4539,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GH
 SHA1-Digest: 7tyVPL7CR8hqZrZL8J42Zb4f9Vs=
 
 Name: res/drawable/ic_person_add_tinted_24dp.xml
-SHA1-Digest: t4szy7ySITvDR2Bsi6pxO0K/quw=
+SHA1-Digest: MvLkJ8hD2IA3JGnXTVeMvPHyaZw=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JP
 SHA1-Digest: 5/7NCOY3UtgQlRvayyiDCPSsAD8=
@@ -4553,11 +4595,11 @@ SHA1-Digest: heXqps0pH3Uu2kwbehkOYdvxgtc=
 Name: com/google/i18n/phonenumbers/geocoding/data/1715_en
 SHA1-Digest: 3/NFcquAYtOAndaOpzHrAkgEz/M=
 
-Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IN
-SHA1-Digest: s+hEQPw6j4uTWEqVSpaRFJKJHIk=
-
 Name: res/drawable/le_ic_dial_phone1.xml
 SHA1-Digest: LZugkIrzvQirCuzxzBEbWwLz75w=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IN
+SHA1-Digest: s+hEQPw6j4uTWEqVSpaRFJKJHIk=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IM
 SHA1-Digest: rzZujVGPgGiwBibfVR3e97DmYhY=
@@ -4599,7 +4641,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IO
 SHA1-Digest: LCU2bG18IExWKOFnWvywd+yyXN8=
 
 Name: res/layout/quickcontact_header.xml
-SHA1-Digest: TRarqX0BRqeDOEXJHK2jULNKQ14=
+SHA1-Digest: pYfpjLjJFeVJosod0bM/5KLJkT8=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/224_en
 SHA1-Digest: fFQA6RCpmnlyMr0eS8a6E2FVH3M=
@@ -4656,7 +4698,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HU
 SHA1-Digest: YJettoieguYp7wAATQcKZniwN38=
 
 Name: res/layout/sliding_menu_layout.xml
-SHA1-Digest: YR+alFvllGRZlSaoa2BjXWn+jDk=
+SHA1-Digest: d/8aLkuCah/d31l/40C/RCaj3pM=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AI
 SHA1-Digest: 27Y8YvEVm8dFdgLgQmCAkFcqBPM=
@@ -4680,7 +4722,7 @@ Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AO
 SHA1-Digest: 2p80j0O5NxrtyBlDTtd4AZMnXuE=
 
 Name: res/layout/list_section.xml
-SHA1-Digest: o4tDWOypaHd1dw074bl2dXXo+xw=
+SHA1-Digest: sJThuTiHpMqVOuwOObQvFi6RQPA=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1830_en
 SHA1-Digest: PtGhhhjE4K6u4Y9DbuTjhwmnWTo=
@@ -4806,7 +4848,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1888_en
 SHA1-Digest: h363p3lGGKpghuY6saZaRmvU35Q=
 
 Name: res/layout/create_new_contact.xml
-SHA1-Digest: w5a3cKGUIrMaXWayeX76a04u7RM=
+SHA1-Digest: 6mGg4wAZhQ2rcCeBkruPxfr4cA0=
 
 Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AU
 SHA1-Digest: EilomLb4KFVrkUSLAF8j40YiZ7E=
@@ -5012,7 +5054,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1763_en
 SHA1-Digest: QOPcqABTljRl4JER43+336ZDfWU=
 
 Name: res/layout/expanding_entry_card_item.xml
-SHA1-Digest: 10kLz0KPqCTjV1EJQM0nSpCkZT4=
+SHA1-Digest: pknD/dIEnRzowvwzXSWWWxuj/Sk=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ET
 SHA1-Digest: ZgHaxsiotkHOcLboOBdAmEcPbSU=
@@ -5036,13 +5078,13 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DE
 SHA1-Digest: IrQ17DBtpjsdH6hr07ZNNMWTQjY=
 
 Name: res/layout/group_detail_fragment.xml
-SHA1-Digest: 16n4WsfYcpIqjG8lnXOhZTcwPnc=
+SHA1-Digest: EB5PF32QGnq/DAk025+GHDXI4HQ=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/371_en
 SHA1-Digest: WBvskG8UwsxG/l3KV4n/4SgGvlY=
 
 Name: res/menu/edit_group_save.xml
-SHA1-Digest: 9MQbl9wrxx68Ozj4bsEVxo52gdM=
+SHA1-Digest: d6q03MSwCPBVXBoTswPKhxrpjNs=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DM
 SHA1-Digest: oYpfMM+VLHotoNXuW6U6yMp75BQ=
@@ -5082,7 +5124,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CY
 SHA1-Digest: jDnqEUSgx6Werj9xL6K7MNfZGZU=
 
 Name: res/layout/vcf_file_select_list_item.xml
-SHA1-Digest: qFQxpi5c6i2HEAlxTEKlkdO9eO0=
+SHA1-Digest: 7GJV6cpfvxFdgrs4iCTzVesBiYs=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CZ
 SHA1-Digest: xx5oz1l40WoFgtXw5Zv13SzDDXU=
@@ -5148,7 +5190,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CO
 SHA1-Digest: g9wwJ58gwpo7lQcA7gXsCvEO3dk=
 
 Name: res/layout/letv_contacts_unavailable_fragment.xml
-SHA1-Digest: gW/pNG1rIi8OldcSB0NpUA6FRvw=
+SHA1-Digest: Wia9H6iXs7Eo4y+WZePXO+mVeGY=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1864_en
 SHA1-Digest: ih3UkZLuOcSr/2Nt40V5qmZMPuk=
@@ -5175,10 +5217,10 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BQ
 SHA1-Digest: l/O/YwXNQfrAK+3iAFAuunSAKBE=
 
 Name: res/drawable/ic_tab_groups.xml
-SHA1-Digest: X9YC1wtdkf90or1yyCyb8mmrnhA=
+SHA1-Digest: yJm2IInMAh8TzZMYa0ZbPyeSUII=
 
 Name: resources.arsc
-SHA1-Digest: pgsHmqdM6ygZ+Bgu9+ySOG6Q4TE=
+SHA1-Digest: daVOxk83/hqpwWUTG0wdADq45i4=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BZ
 SHA1-Digest: bZ0DVTWtAaor7LTbuyteUblHZqE=
@@ -5214,7 +5256,7 @@ Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BD
 SHA1-Digest: iwJxUqftwPkFVu3CMDT4/at62ao=
 
 Name: res/layout/photoselection_activity.xml
-SHA1-Digest: xTjVryUYW2TNVU/uniYy7FFuqwA=
+SHA1-Digest: lBGLwyZvPRxFU/sEZ9vF3RA+B4g=
 
 Name: com/google/i18n/phonenumbers/geocoding/data/1507_en
 SHA1-Digest: 9iYPwv7nJOxE0GWIIjHxkbnmyE0=
@@ -5301,7 +5343,7 @@ Name: res/drawable/sim_icon_2.xml
 SHA1-Digest: orgDflP2ZK5c4c/AvYT8ELz1Drk=
 
 Name: res/layout/family_name_text.xml
-SHA1-Digest: +GR90SgyJF0Q98SGq2BnT+IUN74=
+SHA1-Digest: vbcLr9SjnzVuwMmHbbzF4PyRwqQ=
 
 Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AZ
 SHA1-Digest: CJrPQMosQCfPKIYPRW1Dd8pUTj8=
@@ -5343,7 +5385,7 @@ Name: res/drawable-xhdpi-v4/panel_message.9.png
 SHA1-Digest: LYddjFNhZ1BJhxfXHLrfI77Nr6E=
 
 Name: res/layout-sw600dp-v13/group_editor_activity.xml
-SHA1-Digest: RAZGQio68Y9Pwq183RyvYQPNjx8=
+SHA1-Digest: BENkXPg5y9UEEk94zF+bwTfrDLE=
 
 Name: res/drawable-xxxhdpi-v4/logo_quick_contacts_dialer_color_44in48d
  p.png
@@ -5381,10 +5423,10 @@ Name: com/google/i18n/phonenumbers/geocoding/data/1775_en
 SHA1-Digest: 53Yq0YveVtBDcsZ83ZALSlqpGvk=
 
 Name: res/drawable/floating_action_button.xml
-SHA1-Digest: kI/kmlu6vAk3y2VNmqAwGJyG01I=
+SHA1-Digest: 4HXiX2vLxBot1amDjnJzCjs3RN8=
 
 Name: res/layout/group_source_button.xml
-SHA1-Digest: 5Cv8Aq6jBLosAWPUcn4VIHvhLPc=
+SHA1-Digest: JUQQyem0qmJeG5zGKMuX4Gt0gzU=
 
 Name: res/drawable-xhdpi-v4/ic_done_wht_24dp.png
 SHA1-Digest: zdHFh8esecMHVpRVCNyGT74hjF8=
@@ -5402,7 +5444,7 @@ Name: com/google/i18n/phonenumbers/geocoding/data/27_en
 SHA1-Digest: kSmLWLPmDiI3vJ4Qs+EaktqPGe0=
 
 Name: res/menu/view_contact.xml
-SHA1-Digest: OjBWAL6Y6qUFKYCiUdNumCFx7/U=
+SHA1-Digest: PrGX+jhDJhy2Yhps+tBSI9VuWyM=
 
 Name: res/drawable-mdpi-v4/ic_star_outline_24dp.png
 SHA1-Digest: fxt2MhE+idnbjSDdl5EE6+JIixU=
@@ -5417,7 +5459,7 @@ Name: res/layout/contact_detail_add_connection_entry_view.xml
 SHA1-Digest: vkJysmGpSYxYu7tkuSscTOpAZJ8=
 
 Name: res/menu/people_options.xml
-SHA1-Digest: TR5JdEtMzvwr9HWrkMzur7v5qlw=
+SHA1-Digest: BYzHNnrklG4fil4uYcfU2EJhjj0=
 
 Name: res/drawable-mdpi-v4/ic_hangout_24dp.png
 SHA1-Digest: r69KIcVGOnYdBY/XsFTgEburvUk=
@@ -5429,7 +5471,7 @@ Name: res/drawable/swip_delete.xml
 SHA1-Digest: 7ONq2VrbJHKFLzR1ca6Ds9t9Sf4=
 
 Name: res/drawable/ic_contact_mark.xml
-SHA1-Digest: lNCva0rjxUZvQmwxB8Vo4FA9JMk=
+SHA1-Digest: UquI+9v8B3I5yMboJhAMi0ZX0z0=
 
 Name: res/drawable-hdpi-v4/ic_call_voicemail_holo_dark.png
 SHA1-Digest: s/7VSZKnFk9E+SYMqa0iUJ2XZr8=
@@ -5447,13 +5489,13 @@ Name: res/drawable-xxhdpi-v4/btn_star_on_normal_holo_light.png
 SHA1-Digest: E730xxUKo2/PllnSrIe2f5WvNYQ=
 
 Name: res/layout/group_detail_activity.xml
-SHA1-Digest: 22bZl+FN7IFtJ0r7TiMSZqVRXCY=
+SHA1-Digest: kdD92Ru4KU2AWUg8GFL9uQFMoL8=
 
 Name: res/drawable-xxhdpi-v4/generic_business_white_540dp.png
 SHA1-Digest: N1i4eEybFlM8knKGsLNa5stuK7s=
 
 Name: res/menu/view_group.xml
-SHA1-Digest: 9m05DWAtcqT4+C1scamiwJW2ERM=
+SHA1-Digest: 8TIuGL7c+2DhMAncooyVFqNCo4s=
 
 Name: res/drawable-xhdpi-v4/ic_close_dk.png
 SHA1-Digest: /yvsWO2LIIW3i/De0wccZkRDxXU=

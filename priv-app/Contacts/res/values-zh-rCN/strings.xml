@@ -42,7 +42,6 @@
     <string name="leui_ic_emergency_emergency_number">急救电话</string>
     <string name="leui_ic_emergency_red_cross_number">红十字会</string>
     <string name="leui_ic_emergency_traffic_number">交通报警</string>
-    <string name="menu_select_all">全选</string>
     <string name="menu_print">打印</string>
     <string name="printContact">打印联系人方式</string>
     <string name="no_way_to_print">无可用打印联系人的应用程序</string>
@@ -51,13 +50,10 @@
     <string name="recentCalls_delete">删除</string>
     <string name="menu_selectAll">全选</string>
     <string name="menu_clearAll">全不选</string>
-    <string name="sim1">SIM1</string>
-    <string name="sim2">SIM2</string>
     <string name="all_resources">所有资源</string>
     <string name="choose_resources_header">选择资源</string>
     <string name="all_tab_label1">全部</string>
     <string name="call_log_item_count">(%1$d)</string>
-    <string name="call_indicator_3g">3G</string>
     <string name="call_sipcall">互联网通话</string>
     <string name="call_pin_dialog_title">选择 SIM 卡</string>
     <string name="call_people">联系人</string>
@@ -289,6 +285,7 @@
     <string name="share_too_large">数据量过大，请减少选择项再试</string>
     <string name="err_icc_no_phone_book">此SIM卡无法存储联系人</string>
     <string name="titleJoinContactDataWith">合并联系人</string>
+    <string name="menu_select_all">全选</string>
     <string name="list_filter_custom">自定义</string>
     <string name="add_contact_dlg_message_fmt">添加“%s”个联系人？</string>
     <string name="locale_change_in_progress">正在更新联系人列表，以反映语言的变更。</string>
@@ -323,13 +320,13 @@
     <string name="dialog_phone_call_prohibited_message">通话未发送</string>
     <string name="from_account_format">%1$s</string>
     <string name="recently_added_contacts">最近添加联系人</string>
-    <string name="cancel_export_confirmation_title">取消导出 vCard</string>
     <string name="searching_vcard_title">正在搜索 vCard</string>
-    <string name="menu_all_contacts">所有联系人</string>
     <string name="cancel_import_confirmation_title">取消导入 vCard</string>
+    <string name="cancel_export_confirmation_title">取消导出 vCard</string>
+    <string name="menu_all_contacts">所有联系人</string>
     <string name="search_bar_hint">搜索联系人</string>
-    <string name="delete_group_dialog_title">删除群组</string>
     <string name="cancel_confirmation_dialog_title">舍弃更改</string>
+    <string name="delete_group_dialog_title">删除群组</string>
     <string name="all_contacts_empty">您没有联系人。</string>
     <string name="account_phone">仅保存在手机中，不同步</string>
     <string name="import_from_sdcard">从存储设备导入</string>
@@ -393,8 +390,6 @@
     <string name="calllog_delete_tip">删除记录</string>
     <string name="selectAll">全选</string>
     <string name="delete_all_no_choose">全不选</string>
-    <string name="contactPickerActivityTitle">请点击选择</string>
-    <string name="selectedContact">已选择 %1$d 联系人</string>
     <string name="number_dialog_cancle">取消</string>
     <string name="number_mark_unfamiliar">标记陌生号码</string>
     <string name="number_type_bilk">诈骗</string>
@@ -404,7 +399,6 @@
     <string name="number_type_express">快递</string>
     <string name="number_type_custom">自定义</string>
     <string name="label_number">备注号码</string>
-    <string name="addContactsForGroupTip">确定要添加%s个联系人到该群组</string>
     <string name="import_vcard">导入存储设备上的vCard文件</string>
     <string name="is_delete_group">删除群组 %s？</string>
     <string name="is_delete_group_hint">提示：不会删除联系人本身。</string>
@@ -494,6 +488,8 @@
     <string name="organizationLabelsGroup">公司或组织</string>
     <string name="relationLabelsGroup">关系</string>
     <string name="eventLabelsGroup">生日</string>
+    <string name="lunarEventLabelsGroup">农历生日</string>
+    <string name="anniversaryEventLabelsGroup">周年纪念日</string>
     <string name="sms">发送短信</string>
     <string name="postal_address">地址</string>
     <string name="ghostData_company">公司</string>
@@ -645,6 +641,10 @@
     <string name="quickcontact_delete_calllog">删除通话记录</string>
     <string name="too_length">超过最大长度限制</string>
     <string name="contactsDeletedFail">联系人删除失败</string>
+    <string name="add_one_contact_to_group_tip">添加联系人到该群组</string>
+    <string name="add_contacts_to_group_tip">添加 %s 个联系人到该群组</string>
+    <string name="add_to_group_interrupt_tip">中断当前操作</string>
+    <string name="add_to_group_done_success_tip">联系人添加成功</string>
     <string name="number_dialog_delete">删除</string>
     <string name="deleting_groups">删除中</string>
     <string name="incoming_rejected">已挂断</string>
@@ -688,6 +688,8 @@
     <string name="menu_create_groups">新建群组</string>
     <string name="menu_operation_list_groups">群组操作</string>
     <string name="dialog_create_group_account">群组存储帐号</string>
+    <string name="contact_editor_bottom_sheet_cancel">取消</string>
+    <string name="local_account_add_contact_label">本机</string>
     <string name="applicationLabel">联系人</string>
     <string name="confirm">确定</string>
     <string name="continue_exe">继续</string>
@@ -703,9 +705,11 @@
     <string name="shortcutMessageContact">直接发送短信</string>
     <string name="export_sim_export_contact_to_sim">导出联系人到SIM卡</string>
     <string name="shortcutActivityTitle">选择联系人快捷方式</string>
+    <string name="delete_one_contact_label">删除联系人</string>
     <string name="delete_contact_label">删除 %1$d 个联系人</string>
     <string name="callShortcutActivityTitle">选择一个可直接拨号的号码</string>
     <string name="messageShortcutActivityTitle">选择一个可直接向其发送短信的号码</string>
+    <string name="contactPickerActivityTitle">请点击选择</string>
     <string name="header_entry_contact_list_adapter_header_title">新建联系人</string>
     <string name="starredList">已标记</string>
     <string name="frequentList">经常联系</string>
@@ -772,6 +776,11 @@
     <string name="quickcontact_transparent_view_description">点击即可返回上一屏幕</string>
     <string name="quickcontact_add_phone_number">添加电话号码</string>
     <string name="quickcontact_add_email">添加电子邮件地址</string>
+    <string name="quickcontact_hometime">HomeTime</string>
+    <string name="quickcontact_hometime_select_title">选择一个号码拨打HomeTime</string>
+    <string name="quickcontact_hometime_dial_title">拨打 %s</string>
+    <string name="quickcontact_hometime_video">HomeTime视频通话</string>
+    <string name="quickcontact_hometime_voice">HomeTime免费网络电话</string>
     <string name="missing_app">未找到可处理此操作的应用。</string>
     <string name="menu_add_contact">添加到通讯录</string>
     <string name="dialog_new_group_account">要在哪个帐户下创建群组？</string>
@@ -911,7 +920,7 @@
     <string name="contact_edit_prompt_msg_edit">继续编辑</string>
     <string name="contact_edit_prompt_msg_discard">放弃修改</string>
     <string name="le_contacts_mark_tip_content">标记陌生号码</string>
+    <string name="zenmode_list_title">编辑联系人</string>
     <string name="aggregation_suggestion_join_dialog_title">合并联系人</string>
     <string name="aggregation_suggestion_edit_dialog_title">编辑所选联系人</string>
-    <string name="local_account_add_contact_label">本机</string>
 </resources>
