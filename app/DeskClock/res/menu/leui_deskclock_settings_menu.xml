@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/action_application_detail" android:title="@string/menu_application_detail" android:alphabeticShortcut="f" android:showAsAction="always|withText" />
+    <item android:id="@id/action_application_detail" android:title="@android:string/application_info_label" android:alphabeticShortcut="f" android:showAsAction="always|withText" />
 </menu>

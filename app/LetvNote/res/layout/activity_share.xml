@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:id="@id/scrollView" android:background="@color/share_picture_background" android:padding="@dimen/share_picture_padding" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/share_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
-</ScrollView>
+<com.letv.android.note.ui.ResizeLayout leui:id="@id/root_layout" leui:layout_width="fill_parent" leui:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.LeBlankPage leui:icon="@android:drawable/le_blank_page_no_pic" android1:id="@id/bp_blank" leui:layout_width="fill_parent" leui:layout_height="fill_parent" />
+    <ScrollView leui:id="@id/scrollView" leui:background="@color/share_picture_background" leui:scrollbars="none" leui:clipChildren="false" leui:clipToPadding="false" leui:layout_width="fill_parent" leui:layout_height="fill_parent" android1:layout_above="@id/bottom_widget">
+        <ImageView leui:id="@id/share_image" leui:layout_width="fill_parent" leui:layout_height="wrap_content" leui:adjustViewBounds="true" />
+    </ScrollView>
+    <com.letv.leui.widget.LeBottomWidget leui:orientation="horizontal" leui:id="@id/bottom_widget" leui:background="@color/bottomwidget_background" leui:layout_width="fill_parent" leui:layout_height="wrap_content" leui:layout_alignParentBottom="true" />
+</com.letv.android.note.ui.ResizeLayout>

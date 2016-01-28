@@ -10,6 +10,10 @@ sdkInfo:
 packageInfo:
   forced-package-id: '127'
 versionInfo:
-  versionCode: '2'
-  versionName: '2.0'
+  versionCode: '3'
+  versionName: '2.1'
 sharedLibrary: false
+unknownFiles:
+  com/letv/tracker/agnes/agnes.properties: '8'
+doNotCompress:
+- resources.arsc

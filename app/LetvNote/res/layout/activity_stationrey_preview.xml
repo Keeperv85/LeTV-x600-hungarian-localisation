@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout leui:orientation="vertical" android1:background="#ffffffff" leui:layout_width="fill_parent" leui:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <ImageView leui:id="@id/iv_preview" leui:layout_width="fill_parent" leui:layout_height="fill_parent" leui:layout_marginLeft="16.0dip" leui:layout_marginTop="16.0dip" leui:layout_marginRight="16.0dip" leui:layout_marginBottom="16.0dip" leui:scaleType="fitCenter" android1:layout_above="@id/layout_bottom" leui:layout_centerHorizontal="true" />
+    <RelativeLayout android1:id="@id/layout_progress" android1:background="#ffffffff" android1:visibility="gone" leui:layout_width="fill_parent" leui:layout_height="48.0dip" android1:layout_above="@id/layout_bottom">
+        <View leui:id="@id/le_buttom_layout1_divideine" leui:background="#ffc6c7cb" leui:layout_width="fill_parent" leui:layout_height="1.0px" leui:layout_alignParentTop="true" />
+        <com.letv.leui.widget.LeProgressBar leui:id="@id/pb_downprogress" android1:paddingLeft="24.0dip" android1:paddingRight="24.0dip" android1:visibility="visible" leui:layout_width="fill_parent" leui:layout_height="3.0dip" leui:max="100" leui:progress="0" leui:indeterminateOnly="false" leui:layout_centerInParent="true" leui:le_progress_loading_color="#5abcbcbc" leui:le_type="horizontal" />
+    </RelativeLayout>
+    <RelativeLayout android1:id="@id/layout_bottom" android1:background="#ffffffff" leui:layout_width="fill_parent" leui:layout_height="48.0dip" leui:layout_alignParentBottom="true">
+        <View leui:id="@id/le_buttom_layout1_divideine" leui:background="#ffc6c7cb" leui:layout_width="fill_parent" leui:layout_height="1.0px" leui:layout_alignParentTop="true" />
+        <TextView leui:textSize="15.0dip" leui:textColor="#ffdb8c00" leui:gravity="center" leui:id="@id/btn_use_it" android1:layout_width="100.0dip" android1:layout_height="35.0dip" leui:text="@string/use_it_just_now" leui:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

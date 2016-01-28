@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/stationery_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/stationery_item_delete" android:paddingLeft="@dimen/stationery_item_delete_padding" android:paddingRight="@dimen/stationery_item_delete_padding" android:visibility="gone" android:layout_width="@dimen/stationery_item_delete_size" android:layout_height="@dimen/stationery_item_delete_size" android:src="@drawable/ic_delete" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/stationery_item_sort" android:paddingLeft="@dimen/stationery_item_sort_padding" android:paddingRight="@dimen/stationery_item_sort_padding" android:visibility="gone" android:layout_width="@dimen/stationery_item_sort_size" android:layout_height="@dimen/stationery_item_sort_size" android:src="@drawable/ic_sort" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/stationery_content" android:paddingLeft="@dimen/thumb_item_left_padding" android:paddingRight="@dimen/thumb_item_left_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/stationery_item_sort" android:layout_toRightOf="@id/stationery_item_delete">
+        <ImageView android:id="@id/iv_image" android:layout_width="@dimen/thumb_item_width" android:layout_height="@dimen/thumb_item_height" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/note_item_content_size" android:textColor="@color/stationery_item_text_color" android:id="@id/tv_name" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thumb_item_right_padding" android:layout_toRightOf="@id/iv_image" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/arrow_right_svg" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

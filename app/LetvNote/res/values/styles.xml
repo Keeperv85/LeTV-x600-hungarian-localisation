@@ -993,4 +993,9 @@
         <item name="android:textColor">@color/widget_text_color</item>
         <item name="android:leTextWeight">medium</item>
     </style>
+    <style name="grid_item_title_text">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
 </resources>

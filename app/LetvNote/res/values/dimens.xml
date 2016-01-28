@@ -111,4 +111,18 @@
     <dimen name="share_weibo_image_margin_text">8.0dip</dimen>
     <dimen name="share_weibo_image_width">100.0dip</dimen>
     <dimen name="share_weibo_text_limit">20.0dip</dimen>
+    <dimen name="share_stationery_horizontal_list_height">225.0dip</dimen>
+    <dimen name="stationery_item_delete_size">37.0dip</dimen>
+    <dimen name="stationery_item_delete_padding">8.0dip</dimen>
+    <dimen name="stationery_item_sort_size">34.0dip</dimen>
+    <dimen name="stationery_item_sort_padding">8.0dip</dimen>
+    <dimen name="thumb_item_left_padding">16.0dip</dimen>
+    <dimen name="thumb_item_width">60.0dip</dimen>
+    <dimen name="thumb_item_height">90.0dip</dimen>
+    <dimen name="thumb_item_right_padding">12.0dip</dimen>
+    <dimen name="stationery_item_height">118.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="cursorWidth">2.0dip</dimen>
+    <dimen name="stationery_list_item_dialog">126.0dip</dimen>
 </resources>

@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
         <TextView android:textSize="14.0sp" android:textColor="@color/setting_item_text_normal" android:gravity="center" android:id="@id/beauty_level_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-        <com.android.camera.ui.RotateImageView android:id="@id/speech_tips_view" android:paddingBottom="@dimen/speech_tip_margin_btm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/speech_tip_margin_right" android:src="@drawable/letv_camera_speech_tips" android:layout_alignParentRight="true" />
+        <com.android.camera.ui.RotateImageView android:id="@id/speech_tips_view" android:paddingBottom="@dimen/speech_tip_margin_btm" android:visibility="gone" android:layout_width="@dimen/camera_control_icon_size" android:layout_height="@dimen/camera_control_icon_size" android:layout_marginRight="@dimen/speech_tip_margin_right" android:src="@drawable/letv_camera_speech_tips" android:layout_alignParentRight="true" />
     </RelativeLayout>
     <include layout="@layout/beauty_skin" />
 </LinearLayout>

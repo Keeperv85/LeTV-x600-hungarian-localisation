@@ -163,11 +163,16 @@
     <item type="id" name="blank">false</item>
     <item type="id" name="keyguard_alert_media">false</item>
     <item type="id" name="keyguard_alert_cover">false</item>
-    <item type="id" name="keyguard_alert_activity">false</item>
-    <item type="id" name="keyguard_alert_snooze">false</item>
-    <item type="id" name="keyguard_alert_info_container">false</item>
-    <item type="id" name="keyguard_alert_triangle">false</item>
+    <item type="id" name="bottom_bar">false</item>
+    <item type="id" name="keyguard_alert_slider_to_shut_down_layout">false</item>
+    <item type="id" name="circle_layout">false</item>
+    <item type="id" name="circle_wave_1">false</item>
+    <item type="id" name="circle_wave_2">false</item>
+    <item type="id" name="snooze_iv">false</item>
+    <item type="id" name="time_layout">false</item>
+    <item type="id" name="snooze_tip">false</item>
     <item type="id" name="keyguard_alert_label">false</item>
+    <item type="id" name="slide_up_to_shutdown">false</item>
     <item type="id" name="labelBox">false</item>
     <item type="id" name="cancelButton">false</item>
     <item type="id" name="setButton">false</item>
@@ -185,6 +190,15 @@
     <item type="id" name="alarm_repeat_custom_item">false</item>
     <item type="id" name="alarm_repeat_custom_title">false</item>
     <item type="id" name="alarm_repeat_custom_check">false</item>
+    <item type="id" name="linear_layout">false</item>
+    <item type="id" name="alarm_setting_time_picker">false</item>
+    <item type="id" name="alarm_setting_repeat">false</item>
+    <item type="id" name="alarm_setting_ringtone">false</item>
+    <item type="id" name="alarm_setting_label">false</item>
+    <item type="id" name="alarm_setting_snooze">false</item>
+    <item type="id" name="alarm_setting_vibrate">false</item>
+    <item type="id" name="edit">false</item>
+    <item type="id" name="switchBtn">false</item>
     <item type="id" name="recommend_star_edit">false</item>
     <item type="id" name="free_flow_decribe">false</item>
     <item type="id" name="free_flow_answer">false</item>
@@ -440,7 +454,6 @@
     <item type="id" name="timer_plus_one">false</item>
     <item type="id" name="timer_stop">false</item>
     <item type="id" name="timer_delete">false</item>
-    <item type="id" name="edit">false</item>
     <item type="id" name="tv_label_name">false</item>
     <item type="id" name="vs_content">false</item>
     <item type="id" name="rl_label_action_box">false</item>

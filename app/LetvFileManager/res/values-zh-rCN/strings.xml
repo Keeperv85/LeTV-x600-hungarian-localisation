@@ -546,4 +546,7 @@ letv 团队.
     <string name="contain_folder_name">文件夹已存在，请重新命名</string>
     <string name="le_installed">已安装</string>
     <string name="le_un_installed">未安装</string>
+    <string name="le_unzip_to_mobile">解压至根目录</string>
+    <string name="le_imgdir_des">%1$s\u0009%2$s</string>
+    <string name="unzip_passwoed_exception">密码不正确</string>
 </resources>

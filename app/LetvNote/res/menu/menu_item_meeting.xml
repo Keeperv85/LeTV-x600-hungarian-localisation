@@ -2,5 +2,6 @@
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:icon="@drawable/enter_calendar_svg" android:id="@id/menu_meeting" android:visible="false" android:title="@string/event_detail" android:showAsAction="always" />
-    <item android:icon="@drawable/enter_mail_svg" android:id="@id/menu_email" android:visible="false" android:title="email" android:showAsAction="always" />
+    <item android:icon="@drawable/enter_mail_svg" android:id="@id/menu_email" android:visible="false" android:title="@string/open_email" android:showAsAction="always" />
+    <item android:id="@id/menu_preview" android:visible="false" android:title="@string/preview_stationery" android:showAsAction="always" />
 </menu>

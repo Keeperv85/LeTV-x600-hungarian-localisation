@@ -546,4 +546,5 @@
     <string name="contain_folder_name">Folder already exists. Please enter a new name.</string>
     <string name="le_installed">Installed</string>
     <string name="le_un_installed">UnInstalled</string>
+    <string name="unzip_passwoed_exception">incorrect password</string>
 </resources>

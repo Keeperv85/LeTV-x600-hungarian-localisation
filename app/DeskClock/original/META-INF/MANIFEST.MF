@@ -8,19 +8,19 @@ Name: res/drawable-xhdpi-v4/ic_label_small.png
 SHA1-Digest: GNBLrCz0FElj9tgK3ie74dBNBRs=
 
 Name: res/drawable/action_bar_menu_edit_normal.xml
-SHA1-Digest: IJs8P2tcZ6hmWn7QPFqhVkqIM8s=
+SHA1-Digest: /O7TDatOOA945irH1+HFRXnQQeM=
 
 Name: res/drawable-xhdpi-v4/btn_check_off_pressed_holo_dark_red.png
 SHA1-Digest: xHaGw/+Dm+YIwUIBa2xrHT6U4Wc=
 
 Name: res/layout/custom_ring_clock_choose_layout.xml
-SHA1-Digest: AqtXhe/Z7swO3prTrLFW5whWqNY=
+SHA1-Digest: ezZS2eorHODttWtjlMVZzhYSyOg=
 
 Name: res/drawable-hdpi-v4/ic_location.png
 SHA1-Digest: xXScFdrhS7aAaiwJJ9GqKV1+wxw=
 
 Name: res/layout/alarm_alert_tab_title.xml
-SHA1-Digest: B/GHBU5K/IuhTGdNIbPXb7Ce3EU=
+SHA1-Digest: VWuvuLZ3TWIAkvTEA/eJWDln0M4=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_solomon_islands.png
 SHA1-Digest: icOjIutwdkXzUFnAGyl/ceutN/c=
@@ -32,7 +32,7 @@ Name: res/layout/city_list_header.xml
 SHA1-Digest: qU6kbxM5aqzIU/BFz/3lZgW3doA=
 
 Name: res/layout/world_clock_item.xml
-SHA1-Digest: kY3Jv8Tewxq1ZjERlR4lcO0Vg58=
+SHA1-Digest: ji66bqDExsNLjB3mv51z/WPaoD4=
 
 Name: res/drawable-mdpi-v4/ic_clock_brightness.png
 SHA1-Digest: C68dGeHlywaX9NnA5Uy4s232v6A=
@@ -53,7 +53,7 @@ Name: res/drawable-hdpi-v4/ic_lapalternate_pressed.png
 SHA1-Digest: PC6vdSFdqNgYrRx+pKPIysuSi80=
 
 Name: res/layout/lestar_ringtone_hot.xml
-SHA1-Digest: WPmYsXQzN9rraossP0+cebtBqzM=
+SHA1-Digest: /4jMLWAlPTJDh7IRrLKvqJ331AI=
 
 Name: res/drawable-sw600dp-xxhdpi-v13/clock_analog_dial.png
 SHA1-Digest: se95llAW43XBNOnpO2rkta363h4=
@@ -83,7 +83,7 @@ Name: res/drawable-xhdpi-v4/ic_notify_start.png
 SHA1-Digest: Oy48TJsD/VnZk0PU6N7ljXCUHl0=
 
 Name: res/layout/lestar_medias_list.xml
-SHA1-Digest: IW/29dgVsbPNphdeAWlZTVVpKPU=
+SHA1-Digest: DtBfkqWbKVK5fpHHQBtrTJCIstk=
 
 Name: res/drawable-mdpi-v4/stat_notify_timer.png
 SHA1-Digest: g5jAkVpmQOj+oe63NM/D/eylCcU=
@@ -98,7 +98,7 @@ Name: res/drawable-xhdpi-v4/ic_diamond_red.png
 SHA1-Digest: rpvAonb+ej+hV1Ib0Hh7qdkfo/w=
 
 Name: res/layout/star_list_item.xml
-SHA1-Digest: 3v7/oIzjiHsYOcTlmK/djlQJ+A8=
+SHA1-Digest: JTGF6RIaXhMsytGEiW/r7UTOGaI=
 
 Name: res/drawable/btn_white_txt_play_selecter.xml
 SHA1-Digest: vH3WGRm2yW0W8YyYPRZc09r9LK4=
@@ -110,7 +110,7 @@ Name: res/drawable-sw600dp-mdpi-v13/clock_analog_hour.png
 SHA1-Digest: VpCgvBPWxGqaF30xLn/qj+6yS68=
 
 Name: res/drawable/ic_tab_stopwatch_normal.xml
-SHA1-Digest: N1NojoQreg7pn7E6Wfs6KZfZ+u4=
+SHA1-Digest: VEyYTWWoDu0QHwevgTNHrL/j0/A=
 
 Name: res/drawable-sw600dp-mdpi-v13/ic_share_pressed.png
 SHA1-Digest: D/ARpHwN1U4T5hs81YnL3ovDZGE=
@@ -134,7 +134,7 @@ Name: res/anim/deskclock_fade_in.xml
 SHA1-Digest: NjrZVyBZY1RPyClLoDPIRMjPoSo=
 
 Name: res/layout/actionmode_custom.xml
-SHA1-Digest: fvGSApGJcFlakm7vilIILzxxHfw=
+SHA1-Digest: gTDJ1NBVmmBZ5GiR8Kch7EJZt2w=
 
 Name: res/drawable-sw600dp-xxhdpi-v13/ic_alarm_small.png
 SHA1-Digest: zOoqgZpHtlwKMwk/ICoSkA+amAw=
@@ -158,11 +158,11 @@ SHA1-Digest: kg6MHv6PRyYUsqDY0Eckhp9iS44=
 Name: res/drawable-xhdpi-v4/ic_tab_timer.png
 SHA1-Digest: 8ln7lvcsjVW67008b+uVDeJSuN8=
 
-Name: res/drawable-nodpi-v4/appwidget_analog_clock_preview.png
-SHA1-Digest: s+duxXxCQibQ8MWNWBwDNLr2FtI=
-
 Name: res/drawable-mdpi-v4/ic_notify_stop.png
 SHA1-Digest: GuaehLT7S3q7er73M9V4WMNE5Zs=
+
+Name: res/drawable-nodpi-v4/appwidget_analog_clock_preview.png
+SHA1-Digest: s+duxXxCQibQ8MWNWBwDNLr2FtI=
 
 Name: res/drawable-hdpi-v4/fastscroll_label_left_holo_dark.9.png
 SHA1-Digest: RMXJ2g18L3nSIl3kYjL9GDCVcEo=
@@ -193,7 +193,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_micronesia_federated_states_of.pn
 SHA1-Digest: eL5gkirfB7thD+VuJfk2zRk2/po=
 
 Name: res/layout/snooze_length_picker.xml
-SHA1-Digest: ohlD8qyCh75VhYCNDjLtGEEW0u4=
+SHA1-Digest: KcyMd+9jTTiWvZror28u5urpMLk=
 
 Name: res/drawable-mdpi-v4/ic_start_disabled.png
 SHA1-Digest: m+YREysetYbI4eKuL98wZT9GnWQ=
@@ -229,13 +229,13 @@ Name: res/drawable-mdpi-v4/ic_location.png
 SHA1-Digest: 77+OvRRv0neEasJC1id2c1WNINI=
 
 Name: res/layout/lestar_category.xml
-SHA1-Digest: loFF63975V9PZqPkuJZbgeccwgw=
+SHA1-Digest: 44gJMeBqMQZ+3kt65wdMyFK/zbo=
 
 Name: res/drawable-hdpi-v4/btn_check_on_focused_holo_dark_red.png
 SHA1-Digest: 0RcGUHBsiKpvHWakopCyKA26qbU=
 
 Name: res/layout/lestar_favorites.xml
-SHA1-Digest: dsI1pOGr4VuuvaNrm8ZjwUYK8Dw=
+SHA1-Digest: YqX1Ayvenba1K1/De3UyzxTegAQ=
 
 Name: res/drawable-hdpi-v4/ic_menu_done_holo_dark.png
 SHA1-Digest: DUWnQP6ezu2PlEgkscEcRcGiGD0=
@@ -250,7 +250,7 @@ Name: res/drawable-mdpi-v4/ic_tab_clock.png
 SHA1-Digest: Z3xx0ilnt4l8BYVsuwBkpvAGXqo=
 
 Name: res/layout/lestar_star_item.xml
-SHA1-Digest: x46A8DVGO1IXxegdBFQK7spOI34=
+SHA1-Digest: /LrOR+TkAq70JtSDbZgtITHHSx0=
 
 Name: res/drawable-xxhdpi-v4/streamcode_vip.png
 SHA1-Digest: D2R5Ay2JD9BjdcRWMTu+zCnf0sI=
@@ -272,7 +272,7 @@ Name: res/drawable-xxhdpi-v4/player_3d_cinemasound_btn_bg_pressed.9.pn
 SHA1-Digest: PzK9LWxA4B/ZbOhuJ0btGEjpGyM=
 
 Name: res/xml/alarm_repeat_settings.xml
-SHA1-Digest: QIPJQc/czmOAJtK6wLHsvNvRiTY=
+SHA1-Digest: CTAwJfvUV3g+/20bP9OBQwzLpgI=
 
 Name: res/drawable-xxhdpi-v4/ic_media_selected.png
 SHA1-Digest: O/BV4scQ+6JxSepTH0fdFmP/3qA=
@@ -287,7 +287,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_peru.png
 SHA1-Digest: ineuTJsb3tvwyCvTF655/stSykI=
 
 Name: res/layout/widget_clock_4x2_middle.xml
-SHA1-Digest: B5VuOpAyF5XjTPK/roD3FhThtF4=
+SHA1-Digest: rIXkU14TcmB5J7Wjbt2h2M60l3c=
 
 Name: res/drawable-xhdpi-v4/ic_share_pressed.png
 SHA1-Digest: 7coNbWHD8is7JU8OEJkh3sBByZI=
@@ -311,7 +311,7 @@ Name: res/drawable-hdpi-v4/ic_lockscreen_alarm.png
 SHA1-Digest: eoEzGxp38vK2oIxWeGzQmB4/Wgc=
 
 Name: res/drawable/media_subscribe_bg.xml
-SHA1-Digest: 38lWZsUlYHgeAQU/xvuzHpZrf+0=
+SHA1-Digest: sq2wlfv8o+JVC2yOgQynxjCAQT4=
 
 Name: res/drawable-mdpi-v4/ic_reset_pressed.png
 SHA1-Digest: 1hMtiWgduBOV1uB0yEaPaCwOoOQ=
@@ -320,7 +320,7 @@ Name: res/drawable-hdpi-v4/stat_notify_timer.png
 SHA1-Digest: kSRoExCZMfRYbxiTbr3z1RMCUnE=
 
 Name: res/drawable/ic_media_unset_favorites.xml
-SHA1-Digest: yrssg1h57GqPqFar4qESkFwU3vE=
+SHA1-Digest: gdA0bBJbZUoR2Mjo0gfS/KAxkg8=
 
 Name: res/drawable-xxhdpi-v4/player_function_btn_bg_disabled.9.png
 SHA1-Digest: ufPfgYnouE5CIZM1TYaJvBxYHmM=
@@ -341,7 +341,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_french_polynesia.png
 SHA1-Digest: KqiUWrGVLzIawriFjJ8Dxzy4I6o=
 
 Name: res/layout/lestar_wanted_dialog.xml
-SHA1-Digest: s/cO5+nZlZgpV0TA9Y9VSbd9w6M=
+SHA1-Digest: mpeVH6xXBhaKuX4gO8XVhmOPOmk=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_northern_mariana_islands.png
 SHA1-Digest: vycRczlXVFHjrG8OaQHaWQfgXTk=
@@ -365,7 +365,7 @@ Name: res/drawable-mdpi-v4/ic_clock_strip_alarm.png
 SHA1-Digest: pRoPf2TJRrdKAeIJXeIhKngDoog=
 
 Name: res/drawable/player_function_btn_bg_selector.xml
-SHA1-Digest: hWuVsWK9vumne0GVR7Ugv9s9+MA=
+SHA1-Digest: JQG1eLXkx5phCzo67UeQAPKrIzk=
 
 Name: res/drawable/ic_delete.xml
 SHA1-Digest: vFLv2ThdgcSjq0LLQQqtjhXiNi4=
@@ -374,16 +374,16 @@ Name: res/drawable-mdpi-v4/btn_alarm_pressed.9.png
 SHA1-Digest: RzUSo2B4PNRx7N9gBFk1Gqqg3Bs=
 
 Name: res/drawable/music_playing_animation1.xml
-SHA1-Digest: sbrEWvh0aIpjM3lQAy88p1sRFD4=
+SHA1-Digest: sXDu+KjRTaT8bB5dlMbNNS2X/P8=
 
 Name: res/drawable/stopwatch_lap_divider.xml
 SHA1-Digest: hu5qvC14IOTspebg+LEW3z45Tn0=
 
-Name: res/drawable-hdpi-v4/btn_play_pressed.png
-SHA1-Digest: nfPbQZw8rSv1zPzCg1lHbhXRlrI=
-
 Name: res/drawable-hdpi-v4/btn_pause_normal.png
 SHA1-Digest: H29n7+2wMKDIYJdBNBajDYqNfjM=
+
+Name: res/drawable-hdpi-v4/btn_play_pressed.png
+SHA1-Digest: nfPbQZw8rSv1zPzCg1lHbhXRlrI=
 
 Name: res/drawable-xhdpi-v4/ab_hairline.9.png
 SHA1-Digest: KLcHnSVWaRwJvXi408uIfxIC+pE=
@@ -401,7 +401,7 @@ Name: res/drawable-xhdpi-v4/btn_check_on_pressed_holo_dark_red.png
 SHA1-Digest: worOqeevft8qAl9/i6rPOUWJc+0=
 
 Name: res/layout/star_media_item.xml
-SHA1-Digest: Qm2tAGHH1ZLqkEWbt+YHjwQodiI=
+SHA1-Digest: c3drZP+UK6i7iaS/PPMhAaWX0II=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_united_arad_emirates.png
 SHA1-Digest: UB+2AF5TCNGxBGOqyTPj9N03q5A=
@@ -425,7 +425,7 @@ Name: res/drawable-xhdpi-v4/clock_analog_hour.png
 SHA1-Digest: Hf0Ejfz4GOce4/Hu02qnBg3J0KM=
 
 Name: res/menu/set_alarm_context.xml
-SHA1-Digest: Ds2DBJUX59e56ZHLQXz1gYnDmqw=
+SHA1-Digest: SBadNN20cAke3CgMaLHVaOBiG1o=
 
 Name: res/drawable/popup_shape.xml
 SHA1-Digest: TSGAve22Lh1N6bgdhHVR4wqF2GE=
@@ -450,16 +450,16 @@ Name: res/drawable/le_statusbar_miss_alarm_icon.xml
 SHA1-Digest: RSmEgB4ydgSykIU7Tzm/HY8POxQ=
 
 Name: res/drawable/le_ic_square_enter_new.xml
-SHA1-Digest: t7aHSza/gfn3/JUCi5AJevNmPB0=
+SHA1-Digest: 3ItPVu+FUKAzUv7vJBMPA4xmZ4k=
 
 Name: res/drawable-hdpi-v4/player_loading_icon.png
 SHA1-Digest: bm/trww1fsuV1jSZWRCFtmpMQgs=
 
 Name: res/layout/item_recommend_weibo.xml
-SHA1-Digest: z0S0PD6TarqwRxMmoB+Ipi30pqQ=
+SHA1-Digest: /wUa0Edu2Oz24Q5FEC0stHlgPqg=
 
 Name: res/menu/alarm_fragment_menu.xml
-SHA1-Digest: mxpKVahqdEAb/j8tNnlGp+NDurk=
+SHA1-Digest: hKXEYn8Ck8t0C0ZyLJRwyCjawkE=
 
 Name: res/drawable-hdpi-v4/volume_gesture_2.png
 SHA1-Digest: AQq3975SvWgLWzep4qHz0LBAmdA=
@@ -487,6 +487,9 @@ SHA1-Digest: iLxSm4d1lTDqrdlt/84EawPknXA=
 
 Name: res/drawable-hdpi-v4/volume_btn_0_normal.png
 SHA1-Digest: V0R2jhL1CpKv2idt5lZlo9ZPhxo=
+
+Name: res/animator/le_keyguard_circle_scale.xml
+SHA1-Digest: 03617OIHeRW5/U34IpN55eWQLyA=
 
 Name: res/drawable/timer_right_btn_paused.xml
 SHA1-Digest: DWq114iO7S+fV8l0vjIjJzCHuFE=
@@ -525,7 +528,7 @@ Name: res/drawable-xxhdpi-v4/volume_btn_1_normal.png
 SHA1-Digest: /L6OWJ5DENg1+qMvMWFRXNel5Ts=
 
 Name: res/layout/widget_clock_4x2_right.xml
-SHA1-Digest: q+j0wWSrj5vyS6BnQf3yQWmGe3w=
+SHA1-Digest: 478o2zPZU5kIA3xAy4YLQKnN7Dc=
 
 Name: res/drawable-mdpi-v4/ic_stop_normal.png
 SHA1-Digest: GuaehLT7S3q7er73M9V4WMNE5Zs=
@@ -542,8 +545,12 @@ SHA1-Digest: l/v2pEyWxlGSvHlScz1Gn0rw2c0=
 Name: res/drawable-xhdpi-v4/list_activated_holo.9.png
 SHA1-Digest: C4a5xmVEzcIJxede0Urh0qZwCmg=
 
+Name: res/drawable-sw411dp-xxxhdpi-v13/le_keguard_center_circle_press.
+ xml
+SHA1-Digest: dTRxI5IPwfGf4+dhBqz+IT86DPs=
+
 Name: res/drawable/weekday_item_bg.xml
-SHA1-Digest: g9B/cyoAeQitMPf6dQ6VgA/0jRA=
+SHA1-Digest: cbo0FSM05TNkJJjM+26uZSBL3hU=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_saint_french_guiana.png
 SHA1-Digest: LgNcBFLiTXWvV8eILv5ftxmEaRA=
@@ -581,8 +588,14 @@ SHA1-Digest: gonpsB0xr0JE8YruHgppHF3CTN4=
 Name: res/drawable-xxhdpi-v4/ic_flag_papua_new_guinea.png
 SHA1-Digest: mf36aq0lNyBqEz7sV4yzlaow4D8=
 
+Name: res/animator/le_rebound_animator.xml
+SHA1-Digest: FQBNE4B2qK66XqRzK2EQJ1Xy59A=
+
 Name: res/drawable-xxhdpi-v4/stat_notify_alarm_snooze.xml
 SHA1-Digest: sjnB2UXayqwU1Nv448yk+1YV29c=
+
+Name: res/anim/le_keyguard_circle_wave_anim.xml
+SHA1-Digest: nxo2M4wUKhSqJDnOsvBNh3voy9I=
 
 Name: res/drawable-xxhdpi-v4/ic_lap_pressed.png
 SHA1-Digest: 64o1t4iaHEEWlLD8JY5TCFGetfk=
@@ -612,7 +625,7 @@ Name: res/drawable-xhdpi-v4/ic_backspace_pressed.png
 SHA1-Digest: dad71NDN2Ys/3YZ0b1I315Tc7M4=
 
 Name: res/layout/overlay_dlna.xml
-SHA1-Digest: hXT4oUgXvQExE/eddzzXb6DLQ8M=
+SHA1-Digest: 1cpDJlG+X+nKACNUccIAnHwB8bc=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_netherlands.png
 SHA1-Digest: 9TBm1dv35rwje3tPLoTVkZ7n+fk=
@@ -630,7 +643,7 @@ Name: res/drawable-mdpi-v4/ic_label_normal.png
 SHA1-Digest: 3406cdiMWElUbqt0i3EN1i/wI9s=
 
 Name: res/layout/player_tips_layout.xml
-SHA1-Digest: GI5ONnXUEABxjACFv9dobMvoz5M=
+SHA1-Digest: d+sXH8Ef489Ga+dXLw9UA3c3fs4=
 
 Name: res/drawable-sw600dp-mdpi-v13/ic_reset_normal.png
 SHA1-Digest: MP4++AnNugOF2vv49zlpHCeic1U=
@@ -669,7 +682,7 @@ Name: res/drawable-sw600dp-xhdpi-v13/ic_plusone_normal.png
 SHA1-Digest: h2Mn4NcA5DDdVJilPJnr7zvqAFw=
 
 Name: res/layout/widget_clock_4x2.xml
-SHA1-Digest: ZrVxh53P3YkGv5Z29z4trwakEGg=
+SHA1-Digest: jd8raEld+PDMWoI78ShZQqGf9bs=
 
 Name: res/drawable-xhdpi-v4/ic_alarm_small.png
 SHA1-Digest: Ynl9fhToPV1xPyRkgZg8zR1ZWbE=
@@ -705,10 +718,10 @@ Name: res/anim/activity_close_out_anim.xml
 SHA1-Digest: xOxh7Iys23tgQ1OMhR21o+QbE2w=
 
 Name: res/layout/custom_alert_title.xml
-SHA1-Digest: iRlSpOapysTcPO9A4HVzek4h3Kg=
+SHA1-Digest: GdA61VYQShcF8uuEMFiRbG1w1vk=
 
 Name: res/layout/player_control_panel_upper.xml
-SHA1-Digest: hLS8TvpEk2eAyRMsAIousmpDxOo=
+SHA1-Digest: WCChddh6XvjLoQhoFxvN32gJ8L0=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_slovakia.png
 SHA1-Digest: u39NgBbC5mHrfJ+MJOaU+YwKObs=
@@ -723,10 +736,10 @@ Name: res/drawable/alarm_setting_divider.xml
 SHA1-Digest: Xn/AKC8wm7LHRPoya2hy+P1wBxk=
 
 Name: res/layout/world_clock_list_item.xml
-SHA1-Digest: oAZPkhy3qfh4HDK0yNrbB1Czu6g=
+SHA1-Digest: vdSFCyuKEjQuygBf/V7ZWLX1G0c=
 
 Name: res/layout/alarm_time.xml
-SHA1-Digest: VEKvQXdmZbcKGb1aAEovu3G/nSs=
+SHA1-Digest: IdtxTkyce2JcvGHrYgOmk4Pqo8M=
 
 Name: res/drawable-hdpi-v4/battery_1.png
 SHA1-Digest: mG/UPLc1i831Rm0CrlMxb4ru36E=
@@ -738,7 +751,7 @@ Name: res/drawable-land/header_bg.xml
 SHA1-Digest: d3ZEhuqtUphNEgW5oapwkT0VvCU=
 
 Name: res/layout-sw600dp-land-v13/alarm_clock.xml
-SHA1-Digest: ZOIqWZ1mypsmIOhq0qgwbpYGDos=
+SHA1-Digest: M1F2pDIdAFqSvk28E3k43wN8Uyc=
 
 Name: res/drawable-sw600dp-mdpi-v13/ic_delete_normal.png
 SHA1-Digest: gJSMDzvkef/P0GpZSpiaEwS8mDo=
@@ -766,7 +779,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_maldives.png
 SHA1-Digest: LqZLhE4D52W7lrbBbghskqi1SJI=
 
 Name: res/drawable/ic_widget_clock_dot_white_bg.xml
-SHA1-Digest: MykVGPhUBdlIO51+KhBjd5YEWlI=
+SHA1-Digest: hjwZC3B3mD2oC91QnTdwm4OY3UI=
 
 Name: res/drawable-xxhdpi-v4/ic_delete_pressed.png
 SHA1-Digest: ksBsbgaPyARZCmRlAWOg9wFYrtA=
@@ -778,7 +791,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_nepal.png
 SHA1-Digest: jXbqOaBhojcHvbmb4EQLbstYnp8=
 
 Name: res/drawable/ic_tab_timer_normal.xml
-SHA1-Digest: R/azwpshXm83Dh5CjFLeCsa5RTw=
+SHA1-Digest: OUyfu71qcqbL/7ep+FHS8pU7ikA=
 
 Name: res/drawable-mdpi-v4/ic_clock_add_alarm.png
 SHA1-Digest: mHXnIFSZNpAo9O1NuSfvoaluuYg=
@@ -808,7 +821,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_uganda.png
 SHA1-Digest: sdGA0Do41OfC9Wny50/T+Dtq+Lk=
 
 Name: res/layout/ringtone_banner_pager.xml
-SHA1-Digest: +opcxBNz/eFfpadvvMQYOKFklX4=
+SHA1-Digest: 6TI77rxH8Pu1SkLM9HkVkkA4Hew=
 
 Name: res/drawable-xxhdpi-v4/btn_check_off_holo_light_red.png
 SHA1-Digest: gFf0s2rO3SD379N+lRS6NEGE5SM=
@@ -823,7 +836,7 @@ Name: res/drawable-sw600dp-xhdpi-v13/ic_plusone_pressed.png
 SHA1-Digest: 3TRk3ANK9eJQQlB7A81P+30hTJs=
 
 Name: res/layout/search_action_bar.xml
-SHA1-Digest: uGMovdt4olihQ8eltyY8hmR2piY=
+SHA1-Digest: ouassZG/WV61eyI+JCoUuyvDN4g=
 
 Name: res/layout/item_recommend_hot_product.xml
 SHA1-Digest: R5Rl8a4jwIqww8bhwCYOxk3VM/o=
@@ -841,7 +854,7 @@ Name: res/drawable-xxhdpi-v4/ic_start_normal.png
 SHA1-Digest: weWPz6SNYCV46mje/JnKFie5J1c=
 
 Name: res/layout/le_timer_keyguard_alert.xml
-SHA1-Digest: nQNmOVYMpIQqaiLCO98dARedyJc=
+SHA1-Digest: GdPeZJ9wc6C/jEsi925i9OQKCrU=
 
 Name: res/drawable-xxhdpi-v4/ic_plusone_disabled.png
 SHA1-Digest: 6yW1LBMsMMvK9XcEFit7kHYw4Ds=
@@ -850,7 +863,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_venezuela.png
 SHA1-Digest: coot5LQDt+Q3JszwQaP8dfU0+2g=
 
 Name: res/drawable/toggle_underline.xml
-SHA1-Digest: cs3Hg8NUgstbKg6gzU6+1C8oVJM=
+SHA1-Digest: zj+ke4qqtm6weY6xtRl3gen4+bY=
 
 Name: res/drawable-hdpi-v4/ic_clock_strip_alarm.png
 SHA1-Digest: d5qy+BcqyDq8QvYAx3acs7YgfAY=
@@ -859,7 +872,7 @@ Name: res/layout/activity_main2.xml
 SHA1-Digest: IbCyeL0Iwnk6p5tRgeg6pXsos3c=
 
 Name: res/xml/digital_clock_widget_middle.xml
-SHA1-Digest: 7SXa3xUuYofyuOPksT3sFwjUSxU=
+SHA1-Digest: YO+8lzHKbJpbtVJ+5KuoonDNtWM=
 
 Name: res/drawable-mdpi-v4/alarm_alert_fullscreen_bg.9.png
 SHA1-Digest: q5t8DqotVgdd0l1PeZwRDavEwAE=
@@ -895,7 +908,7 @@ Name: res/drawable-xhdpi-v4/ic_indicator_off.png
 SHA1-Digest: pSx9OFrFI3sd//L7h9mGZj6ziSQ=
 
 Name: res/layout/stopwatch_notif_collapsed.xml
-SHA1-Digest: XAUuewxiIUAfYjWVw57wamSo77s=
+SHA1-Digest: Ng55QhNelOPnJFkJEmDEWty8w0c=
 
 Name: res/drawable-mdpi-v4/ic_lapalternate.png
 SHA1-Digest: iYUmNi9ZAbPA9SelnGGZLhkLNCQ=
@@ -940,25 +953,25 @@ Name: res/drawable-xhdpi-v4/ic_tab_stopwatch.png
 SHA1-Digest: umGjZltlII8ZVLdHqnRizL3+fiM=
 
 Name: res/layout/time_picker_preference.xml
-SHA1-Digest: iw5NXk71E7qpCRJQsMR0j/LjXKQ=
+SHA1-Digest: BgdQogBLrqHvEboesNZqja/AU+M=
 
 Name: res/drawable-xhdpi-v4/btn_in_call_round_pressed.png
 SHA1-Digest: wk+YnY0fyl9j9wLXZoXSK1+e6BU=
 
 Name: res/layout/lestar_category_header.xml
-SHA1-Digest: 4ciHleh+Pn1HzJgHaDhzxsTGgXw=
+SHA1-Digest: siDGb8lYe1QgikdFCARbfhqHRoc=
 
 Name: res/drawable-mdpi-v4/ic_lockscreen_handle_pressed.png
 SHA1-Digest: ei0GoidsQfiT2lFlN73kAKYy0F8=
 
 Name: res/color/deskclock_tab_indicator_title_textcolor.xml
-SHA1-Digest: RMWKsf8t3BO6kmvZkeuUeIt+1GE=
+SHA1-Digest: SbQfL3McTkUYde51ZTlRrYF47CE=
 
 Name: res/drawable-xhdpi-v4/ic_delete_pressed.png
 SHA1-Digest: ifA52g2G5+RBjnpM5p1LyBxtU+I=
 
 Name: res/layout/alarm_fragment.xml
-SHA1-Digest: QUKmTxlXtXtVntZvYxNFr6T8XlY=
+SHA1-Digest: tXCnTIKvaqswisui7XdWS1xmtwE=
 
 Name: res/drawable/player_adjust_volume_seekbar_progress.xml
 SHA1-Digest: 24bH0SkvN3zZasMq/e7KQLXcKeQ=
@@ -979,7 +992,7 @@ Name: res/drawable-hdpi-v4/btn_in_call_round_selected.png
 SHA1-Digest: OuxZKIKYw5iMnct+blWaJ+iX3h4=
 
 Name: res/layout/timer_h_mm_ss_view.xml
-SHA1-Digest: DlbdQgWbhw7A0NACD+5+0gjKzD4=
+SHA1-Digest: rjgMMMtkSDRzs4zp1UyYAouORH4=
 
 Name: res/drawable-sw600dp-xhdpi-v13/ic_noalarms.png
 SHA1-Digest: Y73kGfWKZiphQBxJI3/Z7gL0qfE=
@@ -1018,10 +1031,10 @@ Name: res/mipmap-hdpi-v4/ic_widget_analog_clock.png
 SHA1-Digest: Ia4gp7xm7oEBcj8Of8fKywQxmo4=
 
 Name: res/drawable/music_playing_animation8.xml
-SHA1-Digest: 3yj4AX7bX/eBTYuszU2ltDgUo4s=
+SHA1-Digest: NBjs+WXBpJxjH3gdlZTlxqjdjK8=
 
 Name: res/layout/star_list_fragment.xml
-SHA1-Digest: +yZFE3/Zhr+ROOJ60xEMkNibi7E=
+SHA1-Digest: PuS6WU8iYnYbHWfcbrPdQzDuChw=
 
 Name: res/drawable-hdpi-v4/btn_check_off_disabled_holo_dark_red.png
 SHA1-Digest: 6dM/Duk/b3/Pf6QytjctllFJpxM=
@@ -1033,7 +1046,7 @@ Name: res/drawable-xxhdpi-v4/player_function_btn_bg_normal.9.png
 SHA1-Digest: P2ywXPFKGZMMg22oMimFFUZbkOI=
 
 Name: res/layout/custom_ring_item.xml
-SHA1-Digest: eDqboAw40dN/hGdEXnxB9B4GM58=
+SHA1-Digest: TU6DKwARqIHmxX6e9JgHR3WQaAY=
 
 Name: res/drawable/ic_plusone.xml
 SHA1-Digest: J7CHOPvNohxHr1F/y/jcTmmUkp8=
@@ -1042,7 +1055,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_iraq.png
 SHA1-Digest: R6r3rDm0VkBk+Ph1vDVPmYOP/os=
 
 Name: res/color/le_radio_preference_checked_title_color.xml
-SHA1-Digest: hZp8yw8a4l4JheaUXfy7WS4i/Vo=
+SHA1-Digest: VvmltHn6Vs5+vHgVNv6kqUTT6cA=
 
 Name: res/drawable-sw600dp-hdpi-v13/ic_noalarms.png
 SHA1-Digest: 3f9PePVVkYnUjYT56lxRreoEdVE=
@@ -1060,6 +1073,9 @@ Name: res/drawable-xxhdpi-v4/ic_flag_congo_democratic_republic_of_the.
  png
 SHA1-Digest: Jilca2aYDl3tVv+CBVEUu02TIXo=
 
+Name: res/drawable-xxhdpi-v4/le_keguard_slide_shut_down_icon.png
+SHA1-Digest: CrSr99AdjDCPJvFevZATrglfI9o=
+
 Name: res/drawable-mdpi-v4/ic_lap_normal.png
 SHA1-Digest: hBhVENlzQ0cMq4p21KvRSnRFwbo=
 
@@ -1070,7 +1086,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_kenya.png
 SHA1-Digest: Ttt0q9b7kKQjNZJ6VD4Xg643IfU=
 
 Name: res/layout/player_controlpanel_center_progress.xml
-SHA1-Digest: dVpvu10iEyIEglJhnFAo1Oa8BuQ=
+SHA1-Digest: O8btVsyGLmsyqek2siPqnPn8LaU=
 
 Name: res/drawable/incall_round_button.xml
 SHA1-Digest: zkbCsfIM5ZyKiEZsybD+Ob6tZV0=
@@ -1085,7 +1101,7 @@ Name: res/anim/dim_instant.xml
 SHA1-Digest: pl7Wxk+HI9oYGh+TVDb0jh+FMg8=
 
 Name: res/layout/view_recommend.xml
-SHA1-Digest: CQ14gOeS5Q2IooD+8Y4YVOnxKEs=
+SHA1-Digest: O8Xiy26lDMSUO0rmbG3PGNvtO8M=
 
 Name: res/drawable-xhdpi-v4/ic_clock_add_alarm_selected.png
 SHA1-Digest: WRcMKCzHStS3Yq5wQuJVlf9hZO0=
@@ -1094,7 +1110,7 @@ Name: res/drawable-hdpi-v4/ic_menu_clock_face.png
 SHA1-Digest: HF/I4WWYbxHAu3Hbsufp9asJbBk=
 
 Name: res/layout/set_alarm_action_bar.xml
-SHA1-Digest: 75THjLfdmgVfxoufYa27HcnAenw=
+SHA1-Digest: mLIgnXP8Ez9Bwjl2BJYeuWpQxsU=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_philippines.png
 SHA1-Digest: E1jDr2ypaphQ9OaLocVYTKpmfI0=
@@ -1139,19 +1155,19 @@ Name: res/drawable-hdpi-v4/player_dlna_task.png
 SHA1-Digest: 02LWnHpSuwMwA7fk3hC7l4zKyvo=
 
 Name: res/drawable/music_buffering.xml
-SHA1-Digest: FARvh6k+E9Qve1zNHb+IsBw5HbA=
+SHA1-Digest: 13YzryasYKzScC/cqF/wH/nCcPo=
 
 Name: res/drawable-mdpi-v4/ic_menu_desk_clock.png
 SHA1-Digest: 2QOawo5HN1nk91yt81amI/PVY5c=
 
 Name: res/xml/alarm_snooze_settings.xml
-SHA1-Digest: ysaZeGA5/SJAlWU13s9qROvm00o=
+SHA1-Digest: QGhBQE9yS4ONXbjZ1WUhQW51zCk=
 
 Name: res/anim/undim_instant.xml
 SHA1-Digest: QH9U1kmyjEhBDdGtBaRDL3nrmE0=
 
 Name: res/xml/timer_reminder_settings.xml
-SHA1-Digest: 1UXUK/sBLnkMAMNQ6S51u1Eumrs=
+SHA1-Digest: o9IPQfeFsimv3bbypsCji9mBizg=
 
 Name: res/drawable/timer_right_btn_stop.xml
 SHA1-Digest: OFWw9HaZ7iz0ziFqGVBcUY0DZw0=
@@ -1160,7 +1176,7 @@ Name: res/drawable-xxhdpi-v4/subscribe_default_big.png
 SHA1-Digest: WlfcRp6jc03xM5g0tTRfSZXKtdk=
 
 Name: res/drawable/music_playing_icon_animation.xml
-SHA1-Digest: EThYmUp/0vE5oAdrQ1QDjkYsaX8=
+SHA1-Digest: ydvAWTSk+TRntBQ2SWKaYHCYi5w=
 
 Name: res/drawable-sw600dp-xxhdpi-v13/ic_plusone_disabled.png
 SHA1-Digest: 4MHOJH8lZuUqA95/JBu6Tn8k4Ok=
@@ -1178,7 +1194,7 @@ Name: res/raw/in_call_alarm.ogg
 SHA1-Digest: h/yxjAGYwFu7hk6fuC+OyL1QG18=
 
 Name: res/layout/star_detail_activity.xml
-SHA1-Digest: k3DUE9eDsDIFIxm2oTrcm3nG39Y=
+SHA1-Digest: K9egKKK7JCQcyd5MqBl++SNbrE4=
 
 Name: res/drawable/item_background.xml
 SHA1-Digest: PdSPk5cPiK5yMEd/NMhVW+4EOgA=
@@ -1196,7 +1212,7 @@ Name: res/drawable/player_little_tip_close_btn_selector.xml
 SHA1-Digest: XdgpePsGeqD8eHBAmYfq+56/HHM=
 
 Name: res/layout/player_control_panel_bottom.xml
-SHA1-Digest: wS2MbYyrfYz0aBqxPdS6NNVmHVM=
+SHA1-Digest: +cZvS3TpiNSD+Nq6uEdDCOcmO3M=
 
 Name: res/drawable/notify_stopwatch.xml
 SHA1-Digest: prm0BZ5cghU2R9tG8+7fKCfFV1w=
@@ -1220,7 +1236,7 @@ Name: res/drawable-xhdpi-v4/ic_backspace_normal.png
 SHA1-Digest: AGrzhqB0uojxu55l0U6P3vce3So=
 
 Name: res/drawable/music_playing_animation6.xml
-SHA1-Digest: l0XAKa9DGbeM0WGh7RJjnBP6lvw=
+SHA1-Digest: /vjkhR9ZdlqVrt3wP+2HEzh2Nmg=
 
 Name: res/drawable-sw600dp-xxhdpi-v13/ic_backspace_disabled.png
 SHA1-Digest: OApqNVe1CH17H8xs5gu6wmJ2Ssc=
@@ -1268,7 +1284,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_burundi.png
 SHA1-Digest: N9MLsKPRHWjc/Fnq1vsI61aSG38=
 
 Name: res/drawable/star_media_item_background.xml
-SHA1-Digest: f2gba9U4eZ0l8vuznPhV5qGYUFA=
+SHA1-Digest: OGANEpUHkf2Kj0JCd+qg1sVy3WI=
 
 Name: res/drawable-xhdpi-v4/btn_check_off_focused_holo_light_red.png
 SHA1-Digest: hCuSXLbCbMWVViCn12FfqNFV6TA=
@@ -1304,7 +1320,7 @@ Name: res/drawable-nodpi-v4/appwidget_digital_clock_preview.png
 SHA1-Digest: fxRJru7rH/sVirR1xVLcQI/gkzg=
 
 Name: res/layout-sw600dp-v13/set_alarm.xml
-SHA1-Digest: D5MxLoB/uTkrrRbC6eSxnEFo/ho=
+SHA1-Digest: TTYJd1BBLeoml89c6uTsQt7r3IQ=
 
 Name: res/drawable/btn_blue_selecter.xml
 SHA1-Digest: nBLNa0yqywetq8yHJcMiPHj/9Zs=
@@ -1334,7 +1350,7 @@ Name: res/layout/alarm_repeat_custom_sheet_layout.xml
 SHA1-Digest: wdJadxeqAz1SshCCIC+0YFXwUYs=
 
 Name: res/layout/activity_main.xml
-SHA1-Digest: Hf9cBDlj5WihR4Zr/DojnMXKcB8=
+SHA1-Digest: QF6U1ed1Jw/D/Aknb+yEokQLOW8=
 
 Name: res/drawable-hdpi-v4/ic_clock_brightness.png
 SHA1-Digest: ozIh5Sq9Sf6R7mWqcvDw0HXpgN8=
@@ -1361,13 +1377,13 @@ Name: res/drawable-xhdpi-v4/ic_lapalternate_disabled.png
 SHA1-Digest: kmR+ORxR2Gicsaey6Lg22RoE3dE=
 
 Name: res/layout/time_setup_view.xml
-SHA1-Digest: l5Fp8jZuFK17FDFYltZIJsXSOBQ=
+SHA1-Digest: oqHe8CCfjBthTxwS5fLoI5qGh6A=
 
 Name: res/drawable-xhdpi-v4/appwidget_clock_dial.png
 SHA1-Digest: rcwPFjepgLej+RHVEhk9XUfgwfA=
 
 Name: res/layout/lestar_category_item.xml
-SHA1-Digest: cPurFr3VulxYRjdXzQD6OVe3VKA=
+SHA1-Digest: 4r6lNfHHhWPHwHYQdZqyPKOugt4=
 
 Name: res/drawable-hdpi-v4/net_2g.png
 SHA1-Digest: h+8fDOUJ2i0Ut1SgQHCsQ1H1C4Y=
@@ -1401,7 +1417,7 @@ Name: res/drawable-mdpi-v4/ic_lapalternate_pressed.png
 SHA1-Digest: tJkEYiZATP68c/XFNiphHqD3ZY8=
 
 Name: res/layout/ringtone_square_activity.xml
-SHA1-Digest: xvBgn8jzuNm9Z6riHnqS1UF9Tfw=
+SHA1-Digest: QxHCmNXjT5uh5jqQtaA7M33jrWI=
 
 Name: res/drawable-xxhdpi-v4/ic_back.png
 SHA1-Digest: aasDdOpHTXt0Cd7PDbiDFS2Mwb0=
@@ -1413,10 +1429,13 @@ Name: res/drawable-hdpi-v4/toggle_underline_activated.9.png
 SHA1-Digest: /ciyytm2KAHe67sar4qNaO/XzI8=
 
 Name: res/drawable/volume_btn_1_selector.xml
-SHA1-Digest: 0XgS0CckLGqJRrL1eVfDhD64yPg=
+SHA1-Digest: GQ09g4LToVD75lj4CCUGLtfG9OU=
 
 Name: res/drawable/player_toast_bg.xml
 SHA1-Digest: RbDXyUCwCbRBcOZ3JwsRsWXfXiY=
+
+Name: res/animator/le_keyguard_bottom_bar_alpha.xml
+SHA1-Digest: SlDjMZZSATlf/hvQysLgrzc9GEM=
 
 Name: res/drawable-xxhdpi-v4/ic_ringtone_system.png
 SHA1-Digest: K9jrhiQ4DjZM7FHnQqrQTOFBz30=
@@ -1426,13 +1445,13 @@ Name: res/drawable-xhdpi-v4/btn_check_off_disabled_focused_holo_light_
 SHA1-Digest: dFxhjaSUYJ1/vTQBAprNd2JochU=
 
 Name: res/drawable/action_bar_menu_eidt_diabled.xml
-SHA1-Digest: /O7TDatOOA945irH1+HFRXnQQeM=
+SHA1-Digest: 9uYouHjJ3C2Bs2c6gwOFwjQykLU=
 
 Name: res/drawable-xxhdpi-v4/btn_alarm_focused.9.png
 SHA1-Digest: 1WdpF7LuqgqdJRudVLBLSqQSiyQ=
 
 Name: res/layout/layout_anim_circle_indicator.xml
-SHA1-Digest: SBbwh+ZDAKkHwvqg8Y80NhjXlEY=
+SHA1-Digest: N6QyhGeADYLmWjNc8tVXzvk+btQ=
 
 Name: res/drawable/btn_strip_trans_middle.xml
 SHA1-Digest: Wv58VBRFbEADTEMcncqxVj5ROtU=
@@ -1444,13 +1463,16 @@ Name: res/drawable-hdpi-v4/net_wifi.png
 SHA1-Digest: HeDwM32SlWxLFmMEwEYMaoPpY7Q=
 
 Name: res/layout/widget_clock_4x2_left.xml
-SHA1-Digest: WBIdUamfIVDcubwHrCGsv0Oe4q8=
+SHA1-Digest: 8tef9pLr6updxpFBPgvDjDcCMls=
 
 Name: res/drawable-xhdpi-v4/ic_clock_add_alarm.png
 SHA1-Digest: bY6iQeGsg2W9yu/ljBGJNowpOl8=
 
 Name: res/drawable-mdpi-v4/ic_menu_add.png
 SHA1-Digest: 1AsuVsIwWGDOCYVVz6/Qw1FzqYI=
+
+Name: res/drawable-sw411dp-xxxhdpi-v13/le_keyguard_circle_wave.xml
+SHA1-Digest: iaTq5y7X1ZI9rzkr6hLcEvuOh+A=
 
 Name: res/drawable/clock_analog_second_mipmap.xml
 SHA1-Digest: Sn77gJ2WMmRSgSAJ23JY8pmyBc4=
@@ -1466,10 +1488,10 @@ Name: res/drawable-mdpi-v4/ic_lock_idle_alarm_saver.png
 SHA1-Digest: 5hMinwfo/teN7ZoTa/aT6WYpJME=
 
 Name: res/layout/world_clock_remote_list_item.xml
-SHA1-Digest: 4GR4EbFmmti3NSK2dSKzfHMbXkM=
+SHA1-Digest: rMxfn4DkM94wYcABf9b0dld8Q6U=
 
 Name: res/layout/day_button.xml
-SHA1-Digest: vs1fET8fck7m2xA1kESngCr1y44=
+SHA1-Digest: v5wL/XIB2QNwlsiMFb1OGmamLBs=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_greece.png
 SHA1-Digest: 52Wh80CUkwYpzsDoryaLsaFBz7Y=
@@ -1553,7 +1575,7 @@ Name: res/drawable-mdpi-v4/notification_bg_normal.9.png
 SHA1-Digest: ZmUYoZRjV5S78oUGJgKjRsWijjs=
 
 Name: res/layout/weekday_picker_item.xml
-SHA1-Digest: 3KsqXdGWbiLbDw+zCyWSUl/PwlY=
+SHA1-Digest: WfO2b14WJfESdq9Hs8s89iZVnj0=
 
 Name: res/drawable/stopwatch_right_btn_stop.xml
 SHA1-Digest: ly9CDtC1PFkd0E7WDRbo3PCiVWU=
@@ -1561,8 +1583,11 @@ SHA1-Digest: ly9CDtC1PFkd0E7WDRbo3PCiVWU=
 Name: res/drawable/timer_left_btn_running.xml
 SHA1-Digest: Iqkm6uWThFWgXIq0jM2/Xs3IGbo=
 
+Name: res/layout-sw411dp-xxxhdpi-v13/keyguard_alert_activity.xml
+SHA1-Digest: R0E7+xbIRXbWMG5QDGErTRQrl6k=
+
 Name: res/drawable/le_time_splite_dot.xml
-SHA1-Digest: qOQTQV1bELIFm2GqO0zglAkMOvI=
+SHA1-Digest: r05w0AG0ikE/yrnbBF8g4hoq0AU=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_palestine.png
 SHA1-Digest: mbffLKCVgyL7yVDQhs3FoQkC80w=
@@ -1604,10 +1629,10 @@ Name: res/drawable-xhdpi-v4/checkbox_radio_xxhdpi_red_14_red.png
 SHA1-Digest: vHSeAgSmjiHA/pHhvzmwWv1h+MM=
 
 Name: res/drawable/music_playing_animation7.xml
-SHA1-Digest: yPzwb1Ezu5Vcv8uiwuCZV9Xuaa8=
+SHA1-Digest: Nxe5PSBpPBoMX6RxkbV8Mk+Zgew=
 
 Name: res/drawable/cinema_sound_3d_btn_bg_selector.xml
-SHA1-Digest: oNl+j/KjLvirkjQ2nkBQZJeI6Rg=
+SHA1-Digest: VokBSnlj+XETZZUPCj6RRJTQZls=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_saint_helena.png
 SHA1-Digest: 2c/Xo/t8MrgVH9XX0FB++eX1dT0=
@@ -1616,7 +1641,7 @@ Name: res/layout/alarm_alert_tabs_pager.xml
 SHA1-Digest: Sc/OjJ9rizEKAUC7wWz2cJBjMmI=
 
 Name: res/layout/player_controlpanel_center_volume.xml
-SHA1-Digest: sCIjCgDVADr+S6fgyiZ5WRGyrSk=
+SHA1-Digest: Xt/kTGGsLK25zQms0jfd5e0jT3E=
 
 Name: res/drawable/btn_strip_trans_left.xml
 SHA1-Digest: NeKiCAO3ZfMIqQRbQ5KyKJLfmUE=
@@ -1631,7 +1656,7 @@ Name: res/drawable-mdpi-v4/ic_reset_normal.png
 SHA1-Digest: 2jQB3KHo1YQBRSEPHPDjMWKS+hM=
 
 Name: res/menu/cities_menu.xml
-SHA1-Digest: NGGiMkh2O0KTqsS3DPdHKNX7P5M=
+SHA1-Digest: EqKV7Vtgf+jf+quCj3XkaYOzy/8=
 
 Name: res/drawable-mdpi-v4/ic_clock_strip_desk_clock.png
 SHA1-Digest: dedL36rd78kZbMdDOQek0nQEhFI=
@@ -1652,7 +1677,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_japan.png
 SHA1-Digest: 0Hv5izy1pJngr9ziG1iM6jfcbY8=
 
 Name: res/drawable/media_subscribe_bg_normal.xml
-SHA1-Digest: rUWAbrBpJhmSRFu2nX21Bh0KHgA=
+SHA1-Digest: Q0n638LWL8ndlll3eMRsvj63xik=
 
 Name: res/drawable-xhdpi-v4/ic_clock_strip_home.png
 SHA1-Digest: z0t568xBslIA1KwC74Fj5FruI/Y=
@@ -1661,7 +1686,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_vanuatu.png
 SHA1-Digest: Dz437EvDzOot/5BxwwVz/BqJ3pg=
 
 Name: res/layout/render_type_default.xml
-SHA1-Digest: s8gl/KgBaAnlbiTzGV0aTTIyiag=
+SHA1-Digest: e+HTRlpyP4xw2geUs9h/62ILsKU=
 
 Name: res/drawable-mdpi-v4/ic_clock_strip_music.png
 SHA1-Digest: EHCbzeNElz1EaWgIbT/t4knwwYA=
@@ -1697,7 +1722,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_new_caledonia.png
 SHA1-Digest: Y8RaRIFMaEnHqOMPvKo14JAdBik=
 
 Name: res/menu/alarm_cab_menu.xml
-SHA1-Digest: qWj5xFmpSY9IpCkEgzQnpicTFlY=
+SHA1-Digest: 1lJ2OM5f/PvfS18W26PLadQ5pgE=
 
 Name: res/color/world_city_item_city_name_text_color.xml
 SHA1-Digest: JHUNYrQMGSL8mcxzhdzFPNh2ADA=
@@ -1751,10 +1776,10 @@ Name: res/drawable-xxhdpi-v4/ic_flag_trinidad_and_tobago.png
 SHA1-Digest: X2Ey/40kFYHM/YqYQh6x4XZewo4=
 
 Name: res/layout/timer_setting_label.xml
-SHA1-Digest: TO/itBVnZ0TvdRkrSk04HioAx3g=
+SHA1-Digest: TexNrzjo0R1E+1DQFuMVPQAuC2U=
 
 Name: res/drawable/ic_tab_stopwatch_activated.xml
-SHA1-Digest: 8iR2WuaOpVDsatIGrfh7LusYdEw=
+SHA1-Digest: GPTfpQSOtU4Ks0I2nn5FoeTlt+8=
 
 Name: res/drawable-xhdpi-v4/btn_check_off_focused_holo_dark_red.png
 SHA1-Digest: ZKDr9AKID/iLGUk86hCbPdSNO08=
@@ -1762,17 +1787,17 @@ SHA1-Digest: ZKDr9AKID/iLGUk86hCbPdSNO08=
 Name: res/drawable-xxhdpi-v4/fastscroll_thumb_pressed_holo.png
 SHA1-Digest: erFElImaX70vybsNdExgabyMyAg=
 
-Name: res/drawable-sw600dp-mdpi-v13/ic_share_normal.png
-SHA1-Digest: iTIrHo1R66Zp/7x7Z/TobLFqB8A=
-
 Name: res/drawable-xxhdpi-v4/ic_flag_greenland.png
 SHA1-Digest: If5pqpcQIMFYA/6JJo43AFpr8QM=
+
+Name: res/drawable-sw600dp-mdpi-v13/ic_share_normal.png
+SHA1-Digest: iTIrHo1R66Zp/7x7Z/TobLFqB8A=
 
 Name: res/drawable-mdpi-v4/ic_round_brightness.png
 SHA1-Digest: nwRECdMbPgZyd4w+X70dI/i6/yE=
 
 Name: res/layout/actionable_toast_row.xml
-SHA1-Digest: ixTVa7/OVM4CoeuSN1qhNqtbSLE=
+SHA1-Digest: BkhQ/k0H8yO9U/QVCh7qteBquAs=
 
 Name: res/drawable/ic_backspace.xml
 SHA1-Digest: xkKaZLa6VQX730oTI1ktgTDw5AI=
@@ -1799,13 +1824,13 @@ Name: res/drawable-mdpi-v4/ic_label_pressed.png
 SHA1-Digest: zOe0ASc220R7YzVB0ECdiMuY4Jw=
 
 Name: res/layout/weekday_picker_preference.xml
-SHA1-Digest: emco6PMM29vNCrTX8omEHajkGDs=
+SHA1-Digest: s2V4MSCu71tU89RJZNz+9KR8KAY=
 
 Name: res/drawable-hdpi-v4/ic_lockscreen_wakeup_activated.png
 SHA1-Digest: OXxW7OOX9mt42yAJIRSjkrbNaWU=
 
 Name: res/layout/le_item_collect.xml
-SHA1-Digest: XW1QGSa2qKeahjLdtTRSxR9w89U=
+SHA1-Digest: 9KJ2RVmWhouKpkC6jsEMi7Um9c8=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_singapore.png
 SHA1-Digest: 34Y0kAguhXykm0tLYsrCZVGFVwg=
@@ -1829,7 +1854,7 @@ Name: res/anim/unhide_instant.xml
 SHA1-Digest: pl7Wxk+HI9oYGh+TVDb0jh+FMg8=
 
 Name: res/layout/lestar_list_activity.xml
-SHA1-Digest: YPYv7LZ6BLUN/jyC1W0kiiZgg/Y=
+SHA1-Digest: 3t7EJvLCPlDfli8bdXaiPlnrlZ8=
 
 Name: res/drawable-xhdpi-v4/ic_delete_normal.png
 SHA1-Digest: i4WNynr7jzp8SFiY/oHSiVNlpnA=
@@ -1853,7 +1878,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_curacao.png
 SHA1-Digest: 9oXQNS65Pxdj9zszK1yUW1ik2mY=
 
 Name: res/layout/city_list_item.xml
-SHA1-Digest: 2FR/iqCTIxA4q3g7TS9TCXjB4YA=
+SHA1-Digest: 714+OjrS1IQTg0yoNA5KeUhA51Y=
 
 Name: res/drawable/clock_analog_dial_mipmap.xml
 SHA1-Digest: heEGMHST9mDUmYNb43L/hr7M/zs=
@@ -1871,7 +1896,7 @@ Name: res/drawable-xhdpi-v4/ic_lockscreen_snooze_normal.png
 SHA1-Digest: 8o9ubS4OAoikcCM3HSd4ZJvX798=
 
 Name: res/layout/player_toast_layout.xml
-SHA1-Digest: Zi1Uz6JkuRcyRnaZaI2y4NLiwQk=
+SHA1-Digest: F1lSzV6pTQkRh9i8gOF8A/wXvcc=
 
 Name: res/drawable/ic_reset.xml
 SHA1-Digest: X5fFOA4+tbsCYXmXn4Knnf7shPw=
@@ -1880,10 +1905,10 @@ Name: res/drawable-mdpi-v4/appwidget_clock_dial.png
 SHA1-Digest: uQPeQrN3D76sKEoM4MtiLWUMPSI=
 
 Name: res/drawable/player_orientation_switch_selector_landscape.xml
-SHA1-Digest: eDYH3w+8zHuTIzjaYsyjDrdD3Vg=
+SHA1-Digest: PjCHcJNRCeC0T7dk88JfZhNjF5A=
 
 Name: res/layout/choose_clock_item.xml
-SHA1-Digest: fpI+sfRrYNve2zvQHyafUO9XdLg=
+SHA1-Digest: OAJ/YT5opGRrg/Cx7h7N6if9moA=
 
 Name: res/drawable-hdpi-v4/btn_check_on_disabled_focused_holo_light_re
  d.png
@@ -1973,13 +1998,13 @@ Name: res/drawable/le_statusbar_schedule_alarm_icon.xml
 SHA1-Digest: j4XGnqy5cLHPhPCbRkTWW2R2s7c=
 
 Name: res/layout-land/time_setup_view.xml
-SHA1-Digest: uU5kjDDLKE0udmRViiKUmwmAVuw=
+SHA1-Digest: cru6DhIQKDMrnDDSON6yRPULIkE=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_mexico.png
 SHA1-Digest: 5XanqGwyJ5FsA/dtMJzFeA8Sbn8=
 
 Name: res/drawable/le_bottom_btn_icon_share.xml
-SHA1-Digest: E3Mogg3Wk9u2HCuAErvr6+KML4g=
+SHA1-Digest: Et5sRzqbB1MocUvjOS5+RCXPBwY=
 
 Name: res/drawable-sw600dp-xxhdpi-v13/ic_backspace_pressed.png
 SHA1-Digest: ZM/xSYG4VuMIEiqeCUptMWC8v+8=
@@ -1997,10 +2022,10 @@ Name: res/drawable-xxhdpi-v4/ic_flag_guatemala.png
 SHA1-Digest: aF5p0ER4pLQ75CyU3xUO0u2pYDE=
 
 Name: res/layout/player_float_container.xml
-SHA1-Digest: PcFvuUKgUnbqMsalu3H0bhxHi1I=
+SHA1-Digest: PBDfYM4hGjtvZmpuR4A1YWGCcCU=
 
 Name: res/layout/lestar_category_summary.xml
-SHA1-Digest: qTwrRlOW6mJUL4gOoKFiukWrjGA=
+SHA1-Digest: euPrC9LPejmG2yxREduDg+Vo1P8=
 
 Name: res/drawable-xxhdpi-v4/ic_clock_brightness.png
 SHA1-Digest: cg+JOKurkj9Krjoe3M0kPXvPhfU=
@@ -2027,10 +2052,13 @@ Name: res/drawable-xxhdpi-v4/appwidget_clock_dial.png
 SHA1-Digest: pxpJmAyHgh26vZTk2u5iyzmFrro=
 
 Name: res/color/le_box_arrow_color.xml
-SHA1-Digest: hZp8yw8a4l4JheaUXfy7WS4i/Vo=
+SHA1-Digest: VvmltHn6Vs5+vHgVNv6kqUTT6cA=
+
+Name: res/layout/le_alarm_setting_arrow_item.xml
+SHA1-Digest: irGiKjXuzWQttDV/BadJnO6PFww=
 
 Name: res/menu/alarm_setting_menu.xml
-SHA1-Digest: FCJfK9ougye/meiLyGG17ucIEhI=
+SHA1-Digest: d+kDnAC2318g/m0kcB6N2hsj6NU=
 
 Name: res/drawable-xxhdpi-v4/notify_start.xml
 SHA1-Digest: xhLH16L3PsY0OIbeb26cnP5shNo=
@@ -2078,13 +2106,13 @@ Name: res/mipmap-mdpi-v4/ic_launcher_alarmclock.png
 SHA1-Digest: tjlIYTqagKTZyUzQXO198wLxjPw=
 
 Name: res/layout/le_free_flow_bottom_sheet_diy.xml
-SHA1-Digest: QAzll7GoGznxwh6WlQiPFBEwkSY=
+SHA1-Digest: 71b+kCziGOghbVpNM3BHWuhq2Is=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_swaziland.png
 SHA1-Digest: pyNdtr60A365phpZ9xjypsEqpzQ=
 
 Name: res/layout/ringtone_square_item.xml
-SHA1-Digest: vCAQCmwyOlmNXo7OreLfmelPJ7c=
+SHA1-Digest: RA9m6ud7yVIPWl3hBKmBr2JdZTc=
 
 Name: res/drawable-mdpi-v4/ic_diamond_red.png
 SHA1-Digest: biiAtPRJqk6SXng29r7OFJHO/aI=
@@ -2096,13 +2124,13 @@ Name: res/drawable-xxhdpi-v4/btn_check_off_disabled_holo_dark_red.png
 SHA1-Digest: 1IjZlh0m6NG5AsBd6FM0t6EzHX0=
 
 Name: res/layout/lestar_detail_header.xml
-SHA1-Digest: nfEb0PVPwCklfdoOCP5IDrtlCv4=
+SHA1-Digest: 26O4Bc/cqU5RUT1b3FSkq2nN6vM=
 
 Name: res/drawable-mdpi-v4/btn_check_on_disabled_holo_dark_red.png
 SHA1-Digest: H8XDtTxxNcY4s1piC/OLzaZ8dSM=
 
 Name: res/drawable/ic_media_add.xml
-SHA1-Digest: nXN/ktpAIk+nEhVV9d+xy2ZxI/U=
+SHA1-Digest: E980wc7NqskAf8trtxbPRAES/+k=
 
 Name: res/anim/le_licence_slide_bottom_out.xml
 SHA1-Digest: jueKGUuxxkfIwRW+WJ2crt9UFi0=
@@ -2111,7 +2139,7 @@ Name: res/drawable-xhdpi-v4/ic_round_brightness.png
 SHA1-Digest: a1UIfrNb+IYfADmj+VTljo/dW6Q=
 
 Name: res/layout/item_recommend_latest_news.xml
-SHA1-Digest: UaR1xxzbwW8zVYRWQj00gxAtVrs=
+SHA1-Digest: guDntcVWpB5AC5MIVdoUsClM+2c=
 
 Name: res/drawable-mdpi-v4/list_activated_holo.9.png
 SHA1-Digest: GFCjouEOsx2zwJ4qrfooYQ63590=
@@ -2126,13 +2154,13 @@ Name: res/drawable-xhdpi-v4/ic_start_disabled.png
 SHA1-Digest: Vg+aMICU3FyAhj+L3NWUbitogVg=
 
 Name: res/layout-land/stopwatch_fragment.xml
-SHA1-Digest: vIHaqJK1R9vihF/Bfybe1c50S1E=
+SHA1-Digest: uZE63jLK0lcKc5Bfg2eY9Svqq+Y=
 
 Name: res/drawable-xxhdpi-v4/btn_check_off_pressed_holo_dark_red.png
 SHA1-Digest: 9wh/vxZAgNTa2sEa/OxrzgAWWtE=
 
 Name: res/drawable/volume_btn_2_selector.xml
-SHA1-Digest: 9jb/S99n7qOc9pecTtOt93eHv3w=
+SHA1-Digest: 1kWxWtuHm/q0yn9Nvf8sTAnGWSk=
 
 Name: res/drawable-xhdpi-v4/ic_plusone_normal.png
 SHA1-Digest: m/hThBZOfmBkZaWF5XMCPKXdmgA=
@@ -2158,6 +2186,10 @@ SHA1-Digest: f+J+ZJyJQhHFVVGp8f5djo5taSI=
 Name: res/drawable-hdpi-v4/ic_lockscreen_snooze_normal.png
 SHA1-Digest: AEJk9e6jm6mI3velmaCf1aKbiVE=
 
+Name: res/drawable-sw411dp-xxxhdpi-v13/le_keyguard_center_circle_norma
+ l.xml
+SHA1-Digest: TSHyv0sylxy4y3OLchOPJMxZ3ds=
+
 Name: res/drawable-sw600dp-mdpi-v13/ic_noalarms.png
 SHA1-Digest: KXJSQx2OfeSOCYCtRtletFyNddg=
 
@@ -2177,10 +2209,13 @@ Name: res/drawable-xxhdpi-v4/btn_check_on_pressed_holo_light_red.png
 SHA1-Digest: lL/jKdkluoHvPyoRTTEHva9XNiM=
 
 Name: res/menu/context_menu.xml
-SHA1-Digest: Jn5lfYEVw9UYPYaR4lOGgrnEL5Q=
+SHA1-Digest: rv8rsmJ9ed0ib4/cdSflx4A+h0o=
 
 Name: res/drawable/shape_recommend_divider_line_white.xml
 SHA1-Digest: wNtJk1eAOefeiI65RLk+ZdowFAU=
+
+Name: res/drawable/le_keyguard_circle_wave.xml
+SHA1-Digest: Gp/cZ3FrMUbpeUM9R+CXzFjYDUM=
 
 Name: res/drawable-xhdpi-v4/btn_in_call_round_disable_focused.png
 SHA1-Digest: 6KeqdTKxy2FAhK8b7p5+g2+BEqA=
@@ -2189,7 +2224,7 @@ Name: res/drawable-xxhdpi-v4/ic_plusone_normal.png
 SHA1-Digest: /OR8bkYy300mp3IRL/cUBQ5ppxg=
 
 Name: res/xml/deskclock_settings.xml
-SHA1-Digest: c2NtX39YA+kga7ildcgmei/liKg=
+SHA1-Digest: xuISuXDj1/NhZl4YTAAQP1qYelA=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_fiji.png
 SHA1-Digest: TW0tFRikx+ranBCex/T6DWnBgPU=
@@ -2198,13 +2233,13 @@ Name: res/drawable-xxhdpi-v4/ic_ringtone_lestar.png
 SHA1-Digest: 8J9uQEfs7ftqtHyNhACs3KmBu+Q=
 
 Name: res/xml/alarm_alert_settings.xml
-SHA1-Digest: lRfckZk07ybVkDUZ/mmXCACTJf4=
+SHA1-Digest: vGtRHhLwEJ95/xrstdWM6K6Cy78=
 
 Name: res/drawable/ic_alarm_normal.xml
-SHA1-Digest: +ZM2vGX+dWas6+k/wei/uIcWMbg=
+SHA1-Digest: +jEyZpjXPMHBatpP5dOeVZ5z3es=
 
 Name: res/layout-land/clock_fragment.xml
-SHA1-Digest: LVBovtZLcCwdKmdl54ur+mMF4zM=
+SHA1-Digest: ssT3uAx8YAAMEGxtHe1ysKXtoPY=
 
 Name: res/drawable-xhdpi-v4/stat_notify_alarm.png
 SHA1-Digest: 8azO3EfvQcksi9vkOW9aPZ9xQsQ=
@@ -2213,10 +2248,10 @@ Name: res/drawable-xxhdpi-v4/ic_flag_chile.png
 SHA1-Digest: NsZsPQU1OkMXdSRHBZMh9qrqkR0=
 
 Name: res/drawable/share_selector.xml
-SHA1-Digest: d0cUKyLV9IDFQ3WxeSsY5zN2mF0=
+SHA1-Digest: oKW7ygfCnxmuiXvrGXLOnKEqZkU=
 
 Name: res/layout/player_control_panel.xml
-SHA1-Digest: BDC+96O6dHCOzSnCMdc2gcer1/U=
+SHA1-Digest: 4Yr1UjvRsGPLjlqTtlL70LlxhEM=
 
 Name: res/drawable-sw600dp-xhdpi-v13/ic_backspace_disabled.png
 SHA1-Digest: kMBzMnDevZ0XLt1+5ae3cmCuN78=
@@ -2230,11 +2265,11 @@ SHA1-Digest: uleE94HDyhkO7o0ksORWnZzdYxo=
 Name: res/drawable/stopwatch_right_btn_reset.xml
 SHA1-Digest: m00litdy/ZkXKnwLFptJzsupsIc=
 
-Name: res/drawable-mdpi-v4/toggle_underline_normal.9.png
-SHA1-Digest: UMjRr2mwHXvoESktfYuJcZgQYMs=
-
 Name: res/color/action_bar_text_color.xml
 SHA1-Digest: fyFiRoulmE+Zw9g4nwyumBc5J4I=
+
+Name: res/drawable-mdpi-v4/toggle_underline_normal.9.png
+SHA1-Digest: UMjRr2mwHXvoESktfYuJcZgQYMs=
 
 Name: res/drawable/stopwatch_tab.xml
 SHA1-Digest: jdGPlXqGwG7frzcDGQj2HBFlODI=
@@ -2255,7 +2290,7 @@ Name: res/drawable/le_clockdesk_settings_icon_bg.xml
 SHA1-Digest: 2mopG1mmgTe/8Jlnqh5WwXdTmKM=
 
 Name: res/drawable/le_top_btn_icon_find.xml
-SHA1-Digest: 6W268VYcEr5+3vIFOJ+WLiLt4lc=
+SHA1-Digest: FnKX2yl2EC+XC5xD7yrLp26YvwM=
 
 Name: res/drawable/player_pause_btn_selector.xml
 SHA1-Digest: DHRYvnmH4fWJR94mUFEORhgXugE=
@@ -2264,16 +2299,16 @@ Name: res/drawable-xxhdpi-v4/ic_flag_central_african_republic.png
 SHA1-Digest: 7igwJNmRxBPy1jYMYohj1iIYQnU=
 
 Name: res/xml/alarm_ring_selector.xml
-SHA1-Digest: VLRw2c1LO5hUQBvUNuII0f6dSHc=
+SHA1-Digest: UBh7fmy0bDwbR7bGEbLRQrJ+DGw=
 
 Name: res/drawable/player_loading_progress.xml
-SHA1-Digest: MPjN+HvOieSPB282sI+dmuGj/hI=
+SHA1-Digest: Ml4o6wcRsfUVN/Kd1KkvtC82mnc=
 
 Name: res/drawable-sw600dp-xxhdpi-v13/ic_share_normal.png
 SHA1-Digest: SzQ8zmICu59uv9Gz1UFrRpkgZW4=
 
 Name: res/layout/lestar_media_item.xml
-SHA1-Digest: 4GpBspVQmPJ7i5RAms/PfmsaYNA=
+SHA1-Digest: OSHySVw+1VR8r2GLb4/JVq3zoSs=
 
 Name: res/drawable-hdpi-v4/volume_btn_3_pressed.png
 SHA1-Digest: cl/6tJOCeQtLBxVSKAVC7UDExfw=
@@ -2323,8 +2358,11 @@ SHA1-Digest: YYzHSmXsrzEQhthoHadZ0Oe/wvs=
 Name: res/drawable-xxhdpi-v4/ic_flag_marshall_islands.png
 SHA1-Digest: Gls6W3ZCuniBsF+6SeQ65GjUrXo=
 
+Name: res/layout/le_alarm_setting.xml
+SHA1-Digest: d9I6lpxZC8vb8MXvpmSFvy2e48k=
+
 Name: res/layout/custom_ring_selector.xml
-SHA1-Digest: w3uhupyLKaHF4TjGMPuZhvoivik=
+SHA1-Digest: mk1D+DDWdBhTi8ZC8Gkh2sQ7aj4=
 
 Name: res/drawable-xhdpi-v4/fastscroll_label_right_holo_dark.9.png
 SHA1-Digest: x8AVBJoBnLNhB0sixXze2P4m+cY=
@@ -2336,7 +2374,7 @@ Name: res/drawable-hdpi-v4/btn_in_call_round_disable.png
 SHA1-Digest: ekmJkvuz3l0ZspAiB+fZoUTMoJs=
 
 Name: res/drawable/volume_btn_3_selector.xml
-SHA1-Digest: 5XoxJTGk80MMUkMXrZ1c6OyLJTQ=
+SHA1-Digest: Gq92bZGMbv8d1M28H72k08NNpKo=
 
 Name: res/drawable-hdpi-v4/ic_round_brightness.png
 SHA1-Digest: YNqx4VvjWOP21mMNc3dKYbSZt9I=
@@ -2360,7 +2398,7 @@ Name: res/drawable-mdpi-v4/btn_check_on_holo_light_red.png
 SHA1-Digest: dmyL7c9fssMf6V4p93uKFV/qyj0=
 
 Name: res/layout/desk_clock_saver.xml
-SHA1-Digest: E/nzp+J1lA/VC/E6opKgaqdLbjg=
+SHA1-Digest: 27DV6YXD/njW2LBNMkEu0laqDcg=
 
 Name: res/drawable-xxhdpi-v4/ic_seekbar_btn_normal.png
 SHA1-Digest: TQdM7gBTLvr8HFVzCd2Kh+6U+30=
@@ -2387,28 +2425,28 @@ Name: res/layout/item_recommend_calendar.xml
 SHA1-Digest: nuCjydRJPqdVdiphcggnLKltzHA=
 
 Name: res/layout/preference_layout_alarmvolume.xml
-SHA1-Digest: WnXzsUwfOX7Ti2qdAf+OY1ciK4o=
+SHA1-Digest: KnrgQI87J34munvJU3FSN4QHiw8=
 
 Name: res/drawable-mdpi-v4/ic_lock_idle_alarm.png
 SHA1-Digest: QIKX9wdlO3MfDwOmAdz9n8/0SA8=
 
 Name: res/drawable/ic_media_set_favorites.xml
-SHA1-Digest: HVYF+eiz1pCbbSHuJb9ZTXnCsVQ=
+SHA1-Digest: npDcOJl0irmFLjquO7AjM6dg2pI=
 
 Name: res/drawable-hdpi-v4/player_adjust_volume_seekbar_thumb.png
 SHA1-Digest: /3VxPVYZeQ9lJUPmCkGzLhrMWfQ=
 
 Name: res/menu/stopwatch_fragment_menu.xml
-SHA1-Digest: R8msU6jhqfJHN7H7yBmnlENGhpY=
+SHA1-Digest: ypywWwzLFMLP2HR1nUWSlZ+aCys=
 
 Name: res/drawable-hdpi-v4/volume_btn_2_normal.png
 SHA1-Digest: Ww/mPh7peMOwBHTijfpdBmqzVg4=
 
 Name: res/layout/lap_view.xml
-SHA1-Digest: w1yc5TzqA/a2FzGHzWk1+TIzhok=
+SHA1-Digest: oFfM6pHWhWRoCSDlSOzlzWsjMiY=
 
 Name: res/layout-land/world_clock_list_item.xml
-SHA1-Digest: r4zk3UmWskHp0M+hfMU0Bq7IM5k=
+SHA1-Digest: R54Hei7xvKn3bHX03zySiV7O4r8=
 
 Name: res/drawable-hdpi-v4/ic_indicator_off.png
 SHA1-Digest: MRq4q4Red/ZdZvjJ/++Wg10glz0=
@@ -2429,7 +2467,7 @@ Name: res/xml/dream_info.xml
 SHA1-Digest: X60d4Ehnw6/ul4Q+0V8gKBUKox8=
 
 Name: res/layout/item_recommend_music_vertical.xml
-SHA1-Digest: PFENNnT1bXRtdlYoCTSz2tPloa0=
+SHA1-Digest: EgOULR1e+vbQ7fhJRWw/89Uz3+g=
 
 Name: res/drawable-hdpi-v4/ic_clock_alarm_off.png
 SHA1-Digest: FXN9jVLHPKxgsQbC5SU/hIOHmDw=
@@ -2445,7 +2483,7 @@ Name: res/drawable-mdpi-v4/ic_menu_clock_face.png
 SHA1-Digest: bHZOHIlWML/uBoXl621nAIiish0=
 
 Name: res/color/ringtone_media_item_name_color.xml
-SHA1-Digest: PCcpScj2rX3GaIpsOsea83sBVMg=
+SHA1-Digest: O12pOCBjiwxDerj9aWKoZLi+acE=
 
 Name: res/drawable-xhdpi-v4/btn_strip_trans_left_selected.9.png
 SHA1-Digest: qhYb/kceCd/cxJUafBz1N50wfi4=
@@ -2466,7 +2504,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_armenia.png
 SHA1-Digest: b5yxw10gH0zAIJXB1GomUX+v0Bc=
 
 Name: res/layout/item_recommend_album.xml
-SHA1-Digest: BdfykWyh4+ySxI7SgXXkrd8OXkg=
+SHA1-Digest: BK1nJou9Tb3RbhZzJ0o6aQ7QO94=
 
 Name: res/drawable/red_checkbox.xml
 SHA1-Digest: R3dtdH3MEXQE0Xt6rdef4w+0PbE=
@@ -2512,7 +2550,7 @@ Name: res/drawable-hdpi-v4/ic_x_normal.png
 SHA1-Digest: FUnk0uzPz8LEs1ttkKBuyuq3reA=
 
 Name: res/drawable/music_playing_animation2.xml
-SHA1-Digest: UY0/ExHC8HIW97eMzS2QC9AurJc=
+SHA1-Digest: r0QGu55Av+u/e4tsUUIUIOMaOek=
 
 Name: res/drawable-hdpi-v4/ic_expand_down.png
 SHA1-Digest: gvQt+WyHGB8oFY01CkW7FgTfF4I=
@@ -2539,10 +2577,13 @@ Name: res/drawable-hdpi-v4/net_no.png
 SHA1-Digest: ojSmqgQ2VLyvF3QZQDTwyaGRqEo=
 
 Name: res/xml/digital_clock_widget_right.xml
-SHA1-Digest: OHYiApgQvz4lyxgN/za3ygY3WQk=
+SHA1-Digest: s2m5R9AIQsC/uzMeB5/Wvmc5PCY=
 
 Name: res/drawable/le_ic_square_enter.xml
-SHA1-Digest: OZ7M0V9iPChGDvSEdWbyrnzToUI=
+SHA1-Digest: Txgi+xdR025WFGAl0L9CrcpmsHo=
+
+Name: res/anim/le_keyguard_rebound_anim.xml
+SHA1-Digest: 4oqnVzTJaDB9qXxVGtgcVxcTjs8=
 
 Name: res/drawable/notify_timer.xml
 SHA1-Digest: ao3cIWpFq6C5d22UPkyRiYZ7MGk=
@@ -2587,7 +2628,7 @@ Name: res/drawable/white_radius.xml
 SHA1-Digest: vJ/dDcwo+MQQr8+spnN4wPHrpBk=
 
 Name: res/layout/player_bottom_btns.xml
-SHA1-Digest: njsW3aGcBnregDxLEoLMhEWdw/s=
+SHA1-Digest: lv4rVKhiFVJCZKZ6CbpIPzU7r6s=
 
 Name: res/drawable-xxhdpi-v4/ic_label_pressed.png
 SHA1-Digest: 50Z9hhTpb6idHPxlRHM4j/xYjrI=
@@ -2623,7 +2664,7 @@ Name: res/drawable-sw600dp-hdpi-v13/ic_plusone_disabled.png
 SHA1-Digest: 5sssj5kaG4ywUxwHRNrgKWsicUU=
 
 Name: res/layout/stopwatch_notif_expanded.xml
-SHA1-Digest: h+B3i7GXKkA4AR2iTJw1jEoTWhc=
+SHA1-Digest: SkJUiaWdg7OblbTLBnr0OZzJERU=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_eritrea.png
 SHA1-Digest: IegM+yMgwPdGWimHINbA/t/bWFM=
@@ -2653,16 +2694,16 @@ Name: res/drawable-xhdpi-v4/btn_strip_trans_left_normal.9.png
 SHA1-Digest: ghf1n9U/n2OODFwaZdXbLAq340s=
 
 Name: res/layout/timer_alert_full_screen.xml
-SHA1-Digest: kcyG3MptNN+uVq6dYSTDsKhkmLA=
+SHA1-Digest: v/VlkX0WN8Qwp2Hz37JbUpdEUuE=
 
 Name: res/layout/player_controlpanel_center_brightness.xml
-SHA1-Digest: L69fXEpldaNB8CiuNxkIoZI8EMc=
+SHA1-Digest: HrOYECapzweEjQ0jG86q3qvUXlE=
 
 Name: res/drawable-xhdpi-v4/notification_bg_normal.9.png
 SHA1-Digest: j66Eu60yXsTt2+rWG7/Bbt3KErg=
 
 Name: res/drawable/le_bottom_btn_icon_delete.xml
-SHA1-Digest: 3IsFSiRIQnHuYlIUHYC2OQqeViM=
+SHA1-Digest: +arPKpAlcbR9+KIXbIq9tVUzgNk=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_equatorial_guinea.png
 SHA1-Digest: NeIp283pyI00JNU2BMZR0ihPfX8=
@@ -2674,10 +2715,10 @@ Name: res/drawable-sw600dp-hdpi-v13/clock_analog_dial.png
 SHA1-Digest: o8HBayiw/8mUFrDIwZA5wx9okzA=
 
 Name: res/layout/main_clock_frame.xml
-SHA1-Digest: AhMFx5Y0qyO/bdv8fnx75WKSSbs=
+SHA1-Digest: H87FWlgKGoOxkTbGlhioeaNWGx8=
 
 Name: res/drawable/le_top_btn_icon_edit.xml
-SHA1-Digest: GVXycOU1DtseaaOXrWEhVFmrNvI=
+SHA1-Digest: GPM9108g8xB1vLyaplwfaQyKTQc=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_india.png
 SHA1-Digest: Y6fjkyjBwa5ezUS98y0eZdcwfi0=
@@ -2712,7 +2753,7 @@ Name: res/drawable-xxhdpi-v4/btn_check_on_disabled_focused_holo_dark_r
 SHA1-Digest: uCslLp//MR1A0+SkvY92H1dNKCg=
 
 Name: res/drawable/volume_btn_0_selector.xml
-SHA1-Digest: QWkIlTXD62UfQVLCo+ry68vI7V0=
+SHA1-Digest: sVKY1F44dGsxMm2UF9+8AknPyFQ=
 
 Name: res/drawable-xxhdpi-v4/ic_ringtone.png
 SHA1-Digest: xigdruGUtnMoywEeJX+L9VCkk74=
@@ -2739,16 +2780,16 @@ Name: res/drawable-sw600dp-mdpi-v13/ic_clock_brightness.png
 SHA1-Digest: 3NARmtQF6HvnM2LwVfs11qK7GTo=
 
 Name: res/layout/player_float_adjust_volume_layout.xml
-SHA1-Digest: xZw0aDymlexu1dMPW1J/335a/To=
+SHA1-Digest: vKTmhrlBe8gd8Gj3nNvFuzww6CM=
 
 Name: AndroidManifest.xml
-SHA1-Digest: 2A8X3Gw1xjvIi5YXzXWIPmUVuvY=
+SHA1-Digest: W2IDzpDIdNmnvAy3zMbSFRcJ//I=
 
 Name: res/drawable-mdpi-v4/ic_tab_stopwatch.png
 SHA1-Digest: EDIWwCWChaaA3uMd9EnZ8vuTv5k=
 
 Name: res/layout/three_keys_view.xml
-SHA1-Digest: ponIwTxfRv65OvMUw7bXs7yy9dQ=
+SHA1-Digest: eAYDN5Bkt0yfk7T/bjhg5VBH8/Q=
 
 Name: res/drawable-xxhdpi-v4/volume_btn_2_pressed.png
 SHA1-Digest: KXvSgcgkDFJxax+37L+8qkCLLWU=
@@ -2757,7 +2798,7 @@ Name: res/drawable-hdpi-v4/btn_strip_trans_left_normal.9.png
 SHA1-Digest: S5EVnty1MppHNm/9t3qE6CkKXH8=
 
 Name: res/layout/player_controlpanel_center_loading.xml
-SHA1-Digest: jVkLVArmPPUxfoy4Cuuv7snPK+Q=
+SHA1-Digest: h9zragyIG5Zcr30r2F8joqxwRhs=
 
 Name: res/drawable-xxhdpi-v4/widget_digital_clock_left.png
 SHA1-Digest: x1icPSA1KrK8L/eYy6B9D2gjyXs=
@@ -2772,7 +2813,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_seychelles.png
 SHA1-Digest: Na4X7PjJYwVpPbRwkqRP9GSLQas=
 
 Name: res/drawable/music_playing_animation4.xml
-SHA1-Digest: i5Q3iEAEPVNbCSchJp4DEVR5a68=
+SHA1-Digest: BAiXNGHSsIvU4DRkgGilYghkuLw=
 
 Name: res/drawable-xxhdpi-v4/btn_alarm_pressed.9.png
 SHA1-Digest: /2glj4HjcLxHt39oHXZCAsqTJHY=
@@ -2794,7 +2835,7 @@ Name: res/drawable-hdpi-v4/player_orientation_switch_btn_portrait_pres
 SHA1-Digest: OljT8S/vAJ+9ZPfmokpLUIToOZc=
 
 Name: classes.dex
-SHA1-Digest: WljkWDC7ANFhO3TSoVWCkY08mWQ=
+SHA1-Digest: GNiCs7gB2rkEJthl5vjqXr55vHU=
 
 Name: res/drawable-hdpi-v4/player_orientation_switch_btn_portrait_norm
  al.png
@@ -2807,7 +2848,7 @@ Name: res/drawable-sw600dp-xhdpi-v13/clock_analog_dial.png
 SHA1-Digest: LsQpmKhcfi8oRm2xYSZSUjUB5cU=
 
 Name: res/layout/clock_fragment.xml
-SHA1-Digest: zXW1TNvwUE0vxAwSvrSEOFUR1qU=
+SHA1-Digest: NFlLMobNuZs8pCWWY1026IOk5s4=
 
 Name: res/drawable/le_city_icon_border.xml
 SHA1-Digest: BeIKIcptlawTLm18r5fLp4rV1xY=
@@ -2834,13 +2875,13 @@ Name: res/drawable/seek_holo_light.xml
 SHA1-Digest: WEsc4uHtEbHfkW7qVC1BMRabdog=
 
 Name: res/menu/world_city_menu.xml
-SHA1-Digest: ZIgXj8n/vCcnzWdjHQBcy+VsabY=
+SHA1-Digest: /mqmpP0eXLmYTEris4+CRWPrEXQ=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_croatia.png
 SHA1-Digest: i16J30vRrNP+gn8hgSF2jvec1iA=
 
 Name: res/layout-land/alarm_alert.xml
-SHA1-Digest: SyXIlACatPOHR7PJ+28m4rdfi7w=
+SHA1-Digest: KuvLDBe4pKWRYQg034nm0bryMIA=
 
 Name: res/drawable-mdpi-v4/ic_plusone_pressed.png
 SHA1-Digest: Om8K3TT0iWy/ROf1f6vk+MxuuxA=
@@ -2852,13 +2893,13 @@ Name: res/drawable-hdpi-v4/fastscroll_thumb_pressed_holo.png
 SHA1-Digest: lgA2mFVmeqj7Vl9tIn9El8IvgEk=
 
 Name: res/layout/label_dialog.xml
-SHA1-Digest: CFq2dfVIAp9QpcxCzUeV10fQFig=
+SHA1-Digest: bWfca2FciJ91+Tj0tGurXYmqdbI=
 
 Name: res/drawable-mdpi-v4/ic_lap_pressed.png
 SHA1-Digest: BaZNBOoK0/7MvZmZtrZZcIAud1c=
 
 Name: res/drawable/le_top_btn_icon_add.xml
-SHA1-Digest: RT5pTVO9N4HeiU4nMttEhR6uROo=
+SHA1-Digest: 9T87vUGOuusWXXv9aNZPDkSz0ss=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_holy_see_vatican_city.png
 SHA1-Digest: jro8KSh7KWmT+LqG8lyBQVLkSUA=
@@ -2866,14 +2907,20 @@ SHA1-Digest: jro8KSh7KWmT+LqG8lyBQVLkSUA=
 Name: res/drawable-hdpi-v4/ic_clock_add_alarm.png
 SHA1-Digest: mBRHxZAQ6wzxP9tY/U9ugbZIxCw=
 
+Name: res/layout/le_alarm_setting_switch_item.xml
+SHA1-Digest: 6WBCww2iY71kejtL3KtUHOyAl94=
+
 Name: res/drawable-xhdpi-v4/btn_alarm_normal.9.png
 SHA1-Digest: 7brXtpTDpsuDJFs562+1+5OQG3c=
 
 Name: res/drawable/ic_media_video.xml
-SHA1-Digest: 5sVxJ8sGU9zMGccBo+PfxJhoXAQ=
+SHA1-Digest: iL0G525EURqqAwqkFJxBdUWn32M=
 
 Name: res/drawable/btn_alarm_alert.xml
 SHA1-Digest: K95iMlAtFudwn/FfyTc4eQb7wWs=
+
+Name: res/drawable-xxhdpi-v4/ic_flag_guinea.png
+SHA1-Digest: tctapbQv8LOIAjynZ3ynU++GA6o=
 
 Name: res/drawable-mdpi-v4/ic_plusone_disabled.png
 SHA1-Digest: wGsol8UqZdy6TpSJsT6KJBPXJ+U=
@@ -2883,9 +2930,6 @@ SHA1-Digest: W7q6bMkOd35AdIPm0zN9WI3AnAw=
 
 Name: res/drawable-xhdpi-v4/ic_tab_clock.png
 SHA1-Digest: 9TbHNJFeBQgLrYQshBP8YYHiegA=
-
-Name: res/drawable-xxhdpi-v4/ic_flag_guinea.png
-SHA1-Digest: tctapbQv8LOIAjynZ3ynU++GA6o=
 
 Name: res/drawable-xhdpi-v4/ic_lapalternate.png
 SHA1-Digest: cPrf/HgmRzv7sohEQZe8PYQzRiY=
@@ -2903,7 +2947,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_france.png
 SHA1-Digest: 9ElCUuI29L07m5v1BWXPaqxU15A=
 
 Name: res/xml/alarm_settings.xml
-SHA1-Digest: BLUqArSa0/euRBvAEMF3L2nNIeE=
+SHA1-Digest: AEoMHsfTP4heQmwSfc3NfOMiG3c=
 
 Name: res/drawable-hdpi-v4/btn_check_off_holo_dark_red.png
 SHA1-Digest: 83TWUT/wEToBonF0NoPxrvLu4F8=
@@ -2923,14 +2967,14 @@ SHA1-Digest: gjHpVQy0Zqu80Qj8RQUQbpYptS0=
 Name: res/drawable-mdpi-v4/ic_lockscreen_snooze_activated.png
 SHA1-Digest: nPsaWkVSHEaSPDpDviDNILtK+Zs=
 
+Name: res/drawable-xxhdpi-v4/ic_flag_guyana.png
+SHA1-Digest: WgVwt+oSUYYdWrhfCwheuUpvpIg=
+
 Name: res/drawable-hdpi-v4/battery_charging.png
 SHA1-Digest: afwc81ZLDQ0THs3m0euHfDPkjxg=
 
 Name: res/drawable-xxhdpi-v4/clock_analog_second.png
 SHA1-Digest: 2BYhfoTP2wkku3JmZy7+E4yBy1A=
-
-Name: res/drawable-xxhdpi-v4/ic_flag_guyana.png
-SHA1-Digest: WgVwt+oSUYYdWrhfCwheuUpvpIg=
 
 Name: res/drawable/le_clockdesk_settings_icon.xml
 SHA1-Digest: nd0NvzeOczMicm7qfMgABi4g2LY=
@@ -2939,7 +2983,7 @@ Name: res/drawable-xhdpi-v4/ic_globe.png
 SHA1-Digest: kV0dJcnOIabufXLEt44VhmssHAM=
 
 Name: res/xml/settings.xml
-SHA1-Digest: BiiKUZMplvgCPjDJqaurx68kloI=
+SHA1-Digest: KRo0hvDlapO223E8a3xIEZQSIwk=
 
 Name: res/layout/desk_clock.xml
 SHA1-Digest: uMkqHjM9eThFAATzHVA6o7baQN4=
@@ -2954,16 +2998,16 @@ Name: res/drawable-xhdpi-v4/ic_setalarm_holo_dark.png
 SHA1-Digest: w+kkZ0YJvomQo/+S/xz2U0VPt/E=
 
 Name: res/layout/world_clock_label.xml
-SHA1-Digest: 6Q/vDRS8XUaOkKFmMMvPjxpEUTg=
+SHA1-Digest: zVZyuq9EtqQ4AlvwWnEXIpvup5A=
 
 Name: res/drawable/player_orientation_switch_selector_protrait.xml
-SHA1-Digest: XYfA29nUC8D9zW6sNiDwOBHJaDw=
+SHA1-Digest: RffVKZH84lQBrI5uI7FVlLX+PyY=
 
 Name: res/drawable-sw600dp-mdpi-v13/ic_lap_normal.png
 SHA1-Digest: udmy1AUxLp023W7rMnRlFkhbeRc=
 
 Name: res/layout/item_recommend_music.xml
-SHA1-Digest: LbYuRbvBmLFF1ZxHGs2NkWqhlsM=
+SHA1-Digest: ovwszzfIO4FIEHGxSFTcKUztFR4=
 
 Name: res/drawable-mdpi-v4/btn_check_on_pressed_holo_dark_red.png
 SHA1-Digest: VO9oyzKFXBiCtbXXtZOVV2krDbM=
@@ -3010,11 +3054,14 @@ SHA1-Digest: P2aT2V0mm1FP3ziWkCH3M6zKhO0=
 Name: res/drawable-xhdpi-v4/ic_start_normal.png
 SHA1-Digest: Oy48TJsD/VnZk0PU6N7ljXCUHl0=
 
+Name: res/animator/le_keyguard_slide_tip_alpha.xml
+SHA1-Digest: SlDjMZZSATlf/hvQysLgrzc9GEM=
+
 Name: res/drawable-xxhdpi-v4/ic_flag_belgium.png
 SHA1-Digest: 6COs3/VGCKmsIzubA7pOaTGhqCU=
 
 Name: res/menu/leui_deskclock_settings_menu.xml
-SHA1-Digest: 2nOssIqVKcyev8L85Bea37UNttc=
+SHA1-Digest: wtHN3oYPmFKxKx2mu+PFpwddjPg=
 
 Name: res/drawable-hdpi-v4/player_orientation_switch_btn_landscape_nor
  mal.png
@@ -3024,7 +3071,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_congo.png
 SHA1-Digest: EuqtuWVXYmk0q076Hq4PojKZ2m8=
 
 Name: res/layout/star_ringtone_preview.xml
-SHA1-Digest: BJYAswCvFaeaAtq/Q/knh3TUsAw=
+SHA1-Digest: PlUGLDWgKa2pj+aEBcblVJfzygA=
 
 Name: res/drawable-mdpi-v4/ic_notify_lap.png
 SHA1-Digest: hBhVENlzQ0cMq4p21KvRSnRFwbo=
@@ -3048,13 +3095,13 @@ Name: res/drawable-xxhdpi-v4/ic_flag_saint_lucia.png
 SHA1-Digest: OFawMGrvuFHRiC0mfECr02b1E28=
 
 Name: res/layout/le_preference_edittext.xml
-SHA1-Digest: 83grcrhmXHhoD8+2js/Y4aFkZRQ=
+SHA1-Digest: tiDQbgPmsd6be47Bpb7XP6XMsVs=
 
 Name: res/drawable-hdpi-v4/ic_tab_timer.png
 SHA1-Digest: qDG9k8ouefrX/MVnUJpkTLscVVE=
 
 Name: res/layout/player_progress_seekbar.xml
-SHA1-Digest: sFquSNpflR2TIvxt51CPKcY5XxE=
+SHA1-Digest: eMQ9pNqJj3/qx2ZpyXHsu2Di6Zc=
 
 Name: res/drawable-hdpi-v4/btn_check_off_disabled_focused_holo_dark_re
  d.png
@@ -3085,7 +3132,7 @@ Name: res/drawable-mdpi-v4/toggle_underline_activated.9.png
 SHA1-Digest: 2rDceKEAMAC3CwAFafKDMYvsTmk=
 
 Name: res/layout/time_picker_widget.xml
-SHA1-Digest: ZOmSz7tRwhe9TzSxNc23jObB4BQ=
+SHA1-Digest: e9m5/vB8Qs4JZfso1sP5vHpPdWE=
 
 Name: res/drawable-hdpi-v4/ic_stop_normal.png
 SHA1-Digest: fHmARNFTualXiL8WsQ4uuDUQGSc=
@@ -3116,7 +3163,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_syria.png
 SHA1-Digest: 3id0LM1vS/8EpiZMhCN4sjjNzl4=
 
 Name: res/drawable/ic_widget_clock_dot.xml
-SHA1-Digest: JuiD4mt8WVUk9kmaPRvZpn7tFlQ=
+SHA1-Digest: iBtCxV9iolznszmz0LLzoHpf3D4=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_iceland.png
 SHA1-Digest: l6ncYnRVSTNtXTPEsSYfMRqn3QE=
@@ -3146,10 +3193,10 @@ Name: res/drawable-mdpi-v4/ic_ringtone.png
 SHA1-Digest: rkZP8eMFpAZIg3Em9MBLtGjoM58=
 
 Name: res/layout/alarm_alert.xml
-SHA1-Digest: hHgCq/g1J0Ym3YjDInLHuNASI20=
+SHA1-Digest: tnmWpffqfNOxqQPL41o1X88Svj4=
 
 Name: res/drawable/notification_bg.xml
-SHA1-Digest: oXbIZDUSiumqCb1hMU+gP5Gd9H4=
+SHA1-Digest: M0sAXfsCp8tx2wMLSF085eNjrPs=
 
 Name: res/drawable-xxhdpi-v4/keyguard_ic_label.png
 SHA1-Digest: FOjjIJfl3VLpaj0wUY6qbHY/pQM=
@@ -3204,7 +3251,7 @@ Name: res/drawable-xxhdpi-v4/ic_backspace_normal.png
 SHA1-Digest: kS8lvabTTndcxxPNPS84tbzhZJA=
 
 Name: res/menu/clock_fragment_menu.xml
-SHA1-Digest: WwPSBiA5wPQnMWYpbiJhNzZ+LME=
+SHA1-Digest: J7+PatJ1bEmLyF5h/p2A9zhm76c=
 
 Name: res/drawable-mdpi-v4/ic_notify_reset.png
 SHA1-Digest: 2iqWhYRMEdLsHhkVC3CJ6gBr/qo=
@@ -3222,20 +3269,20 @@ Name: res/drawable-xxhdpi-v4/ic_flag_indonesia.png
 SHA1-Digest: iD/siRc4FuqO4UNCZvbbgWzdaL4=
 
 Name: res/layout/layout_anim_line_indicator.xml
-SHA1-Digest: n+C0Q/p+gRm4MPNSCtX2HsApACE=
+SHA1-Digest: 6ZUbCNq+LFARElacvaF0CkfYz54=
 
 Name: res/drawable-xxhdpi-v4/player_orientation_switch_btn_portrait_no
  rmal.png
 SHA1-Digest: ODf1xnxluc/Cyk8Lxpahbbg+2eU=
 
 Name: res/layout/timer_list_item.xml
-SHA1-Digest: SXLh3e39V9nPbbYrSIbEXAuMgbQ=
+SHA1-Digest: 5CdxyAfz0+mCFVww98lELNftieo=
 
 Name: res/drawable-mdpi-v4/ic_x_normal.png
 SHA1-Digest: R/jNjxoqqBfYN4IUTQTH7kzVQBc=
 
 Name: res/drawable/media_subscribe_bg_selected.xml
-SHA1-Digest: C6Aetrnpq27a+rjrLDp+TMOrx8Q=
+SHA1-Digest: rUWAbrBpJhmSRFu2nX21Bh0KHgA=
 
 Name: res/drawable-hdpi-v4/btn_tip_close_normal.png
 SHA1-Digest: 35M3Xc/tFIy7tdq91T2C9NKzDhc=
@@ -3260,10 +3307,10 @@ Name: res/drawable-xxhdpi-v4/btn_check_off_disabled_focused_holo_light
 SHA1-Digest: 3ktACNdQM0/dMvl3IatK0FF6rZY=
 
 Name: res/drawable/ic_media_audio.xml
-SHA1-Digest: C6ua7l9W3wGLq25pwG2vFbAI+U4=
+SHA1-Digest: qNpyZ4rkCi/8RXLI7Fp3HIpQ834=
 
 Name: res/layout/player_little_tip_layout.xml
-SHA1-Digest: a22eBTmFV/eYZkADQSeEMZ7B1jQ=
+SHA1-Digest: BJrkexJm6dwFcg+Kuy8OHbeHdDg=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_belize.png
 SHA1-Digest: /Cw8om5hxrS+gbicOSikB0P9TO4=
@@ -3272,7 +3319,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_sri_lanka.png
 SHA1-Digest: ymJy3BexoTm6IjqPI3uRchs/R4E=
 
 Name: res/drawable/star_ringtone_icon_bg.xml
-SHA1-Digest: r7riDFDaMuS2TX0MqTT07lxHy30=
+SHA1-Digest: uIK/zRtePEFRQFmU9A/9UL2fmNc=
 
 Name: res/drawable-mdpi-v4/ic_lockscreen_wakeup_activated.png
 SHA1-Digest: fWV+pbEX6hOXEuDh1r2IQt2vv0s=
@@ -3290,7 +3337,7 @@ Name: res/drawable-mdpi-v4/ic_setalarm_holo_dark.png
 SHA1-Digest: 67QTeRx7BWbmreHNEOSeqexlUwk=
 
 Name: res/drawable/alarm_alert_divider.xml
-SHA1-Digest: nNZsZijCc1pS6C93XgRN8mK6/tc=
+SHA1-Digest: rlvuBO6bWuLRSxIQajvefqXT4No=
 
 Name: res/anim/activity_open_in_anim.xml
 SHA1-Digest: Xg69B3Sj6P/xWakwXzXGKoYpnfA=
@@ -3305,7 +3352,7 @@ Name: res/drawable-land/header_bg_bar.xml
 SHA1-Digest: vWe9+ZWDWdmQLZ5iuJH3a8eGXpw=
 
 Name: res/drawable/actionbar_back_black.xml
-SHA1-Digest: 7HGPBLX/GNAsSTimeuKmz5ocwe0=
+SHA1-Digest: mAskqKCSnuQ+eCEfTN6xmajIwcI=
 
 Name: res/drawable/notify_missed_alarm.xml
 SHA1-Digest: SxHenaS6IhXeKVNK8OWV0FH8LiY=
@@ -3326,10 +3373,10 @@ Name: res/drawable-hdpi-v4/stat_notify_stopwatch.png
 SHA1-Digest: yzPkvUeT3SBirIYV1Aw7JMtv+6c=
 
 Name: res/color/le_radio_preference_unchecked_title_color.xml
-SHA1-Digest: XbCzMgQTww2l0E5WxK306KA9bnU=
+SHA1-Digest: IXnLA4DmS7c1q0QPfanr5+qiBYY=
 
 Name: res/xml/dream_settings.xml
-SHA1-Digest: N9a25QsamGIng9+ohg/ex8IYfZc=
+SHA1-Digest: 5c0AQgJjnCqPmvXSuuxzP7snYCs=
 
 Name: res/drawable/guesture_change_value_bg.xml
 SHA1-Digest: cscXuI5+Y/Gu4vf8XWub1CfjglQ=
@@ -3347,7 +3394,7 @@ Name: res/drawable-xhdpi-v4/ic_plusone_disabled.png
 SHA1-Digest: 1MjCcce3IfpjUE8gdSfV0/ikbSs=
 
 Name: res/drawable/music_playing_animation3.xml
-SHA1-Digest: qJXRbHCD4rebAyUbOAo+KImq6t4=
+SHA1-Digest: FGg+Ywj9DalCZns6HS6UVshdLQk=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_mayotte.png
 SHA1-Digest: n/EziA9US5LmbUER0sWy4B2tVrQ=
@@ -3371,16 +3418,16 @@ Name: res/drawable-xxhdpi-v4/ic_flag_egypt.png
 SHA1-Digest: sCzpDQDoo1LkVYwVhrn8w4wPHS0=
 
 Name: res/layout/le_alarm_repeat_custom_bottom_sheet_item.xml
-SHA1-Digest: ez1ZWN1NXcpW99KbZ7YfJdajahM=
+SHA1-Digest: QO/6JKpDycT+PkBkhE08eAXNfw4=
 
 Name: res/layout/keyguard_alert_activity.xml
-SHA1-Digest: Yu63JV5qS2qb9th6KStrryFukFo=
+SHA1-Digest: jecdCumEYbBTerSZJx3/8x04kMY=
 
 Name: res/layout/digital_widget_time.xml
-SHA1-Digest: 6zCLj+MfpjxVRY4qr0eyicFVmGw=
+SHA1-Digest: ajDZItZulMS46ksa/ixcjHAupC8=
 
 Name: res/menu/alarm_multi_select_menu.xml
-SHA1-Digest: 59/gtyO8kzBTYT2g6lp2Rurz/RQ=
+SHA1-Digest: f2GS9f+Ap574jukXVchOWd6xQ3A=
 
 Name: res/drawable-xxhdpi-v4/ic_location.png
 SHA1-Digest: gP+Ci/pmHGxdIQLS4+ReJCjhiP0=
@@ -3389,7 +3436,7 @@ Name: res/drawable-hdpi-v4/volume_btn_3_normal.png
 SHA1-Digest: RquWbiC8hJcHAgFtDq0OtowlS0c=
 
 Name: res/layout/system_clock.xml
-SHA1-Digest: Mgu0M5ZSf6q7tjzqnhGjJgXXm8Q=
+SHA1-Digest: XIJjbEdNbUU5Y5gRHA8xaDUqRTI=
 
 Name: res/drawable-xxhdpi-v4/ic_notify_start.png
 SHA1-Digest: weWPz6SNYCV46mje/JnKFie5J1c=
@@ -3398,20 +3445,20 @@ Name: res/drawable-xhdpi-v4/clock_analog_dial.png
 SHA1-Digest: MA+e0/50ugu32AT7HXSeYJtx/AU=
 
 Name: res/layout/alarm_clock.xml
-SHA1-Digest: 1u3AWlznV1lfG+OEJCuhDiaDXk4=
+SHA1-Digest: jzjGXwaGSbN8PIGUI9mX+50Sw5k=
 
 Name: res/drawable-xxhdpi-v4/player_orientation_switch_btn_landscape_p
  ressed.png
 SHA1-Digest: GVmx6nRG2cnx6yBz3YR96XZARIA=
 
 Name: res/drawable/player_back_btn_selector.xml
-SHA1-Digest: GGjS5deGBCiByrCgLRDVY0Qk1O4=
+SHA1-Digest: bJ+80G9wh/v6YAWxYt6qCc+IV9I=
 
 Name: res/drawable-xhdpi-v4/list_selector_background_pressed.9.png
 SHA1-Digest: G/tA1GlSqwxpLOcjY/gkL2VEPX0=
 
 Name: res/layout/world_clock_cities_activity.xml
-SHA1-Digest: uZ26sxDI2JbuYkf5ECjzeJhEHFg=
+SHA1-Digest: x950HnrdPF6f4VVXpSTiUarr2AA=
 
 Name: res/drawable-xxhdpi-v4/ic_alarm_add.png
 SHA1-Digest: of+BR78FZYrFhRogGjwfV4ZtGBc=
@@ -3423,7 +3470,7 @@ Name: res/drawable-xxhdpi-v4/cinema_sound_db_logo.png
 SHA1-Digest: OJSFEBzztj/4Z5J2QeS0EDZSK4g=
 
 Name: res/layout/stopwatch_fragment.xml
-SHA1-Digest: 8r3yHHqO6aOGV0JkL+LPoP/8qMk=
+SHA1-Digest: 1IApXebJVD1yV7dh+9OmZOcYprM=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_jamaica.png
 SHA1-Digest: rwZ3+XHC+GORHGlKiwpW5f44eOI=
@@ -3435,7 +3482,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_romania.png
 SHA1-Digest: XtWeUU6ZDTAO7IvfGbhZiJjmc84=
 
 Name: res/drawable/stubborn_btn_bg.xml
-SHA1-Digest: cOW6HXwmierr6dvYEg5rc5vKKwI=
+SHA1-Digest: DHvXML106LlBWKMiSYsnCi8wJHc=
 
 Name: res/drawable-xxhdpi-v4/player_orientation_switch_btn_landscape_n
  ormal.png
@@ -3457,7 +3504,7 @@ Name: res/drawable-xhdpi-v4/ic_lock_idle_alarm_saver.png
 SHA1-Digest: DD9c2TB+I8bc1loNc0zCqp4eLLQ=
 
 Name: res/menu/menu_main.xml
-SHA1-Digest: sUjlSH4tU9baopHFVKskoNl3/44=
+SHA1-Digest: SkTPKsysRXVM81E8Yuv+5bu6R24=
 
 Name: res/drawable-hdpi-v4/ic_lockscreen_snooze_activated.png
 SHA1-Digest: BmSIaG7MFHU8jgHdiO5d8rCgfBE=
@@ -3472,7 +3519,7 @@ Name: res/layout/blank_footer_view.xml
 SHA1-Digest: mJ1C4dAdU/kCz9VtPRg44UeNpDU=
 
 Name: res/layout/alarm_item.xml
-SHA1-Digest: IC6p7M0WRovc9du7ely7fYnt7Mo=
+SHA1-Digest: PPDBcNMtGrNAX004z0pkS0e06go=
 
 Name: res/drawable-xxhdpi-v4/ic_noalarms.png
 SHA1-Digest: wxMLXJkdNI5pG56uST++7Axd2LI=
@@ -3505,19 +3552,19 @@ Name: res/drawable-xhdpi-v4/btn_check_off_disabled_holo_dark_red.png
 SHA1-Digest: C1ewpSIdaGq/ppSH07HPyQVnTsM=
 
 Name: res/layout/timer_fragment.xml
-SHA1-Digest: JiPERMG5p+N9UAOafXoboxwjpbQ=
+SHA1-Digest: AGNRys+ffjBOPEMflvk1e/kAWc0=
 
 Name: res/drawable/alphabet_selected_bg.xml
 SHA1-Digest: h6ONPBRREG/FcORqPCpqrGxeTBg=
 
-Name: assets/libcde.so.nav
-SHA1-Digest: FBeEpWhv1NNIpIsXOgZ8gLb4T6s=
-
 Name: res/drawable-xxhdpi-v4/ic_flag_guadeloupe.png
 SHA1-Digest: hvs6zeKSa6OwN1dQdVHDUtBfvoQ=
 
+Name: assets/libcde.so.nav
+SHA1-Digest: FBeEpWhv1NNIpIsXOgZ8gLb4T6s=
+
 Name: res/drawable/clock_selector.xml
-SHA1-Digest: 4CE9ggxHh+efR92seureqxo7OHo=
+SHA1-Digest: u573YCQpINsdMkN/TyuGdcJ+ORg=
 
 Name: res/drawable-mdpi-v4/checkbox_radio_xxhdpi_red_14_red.png
 SHA1-Digest: X4+NTE3nUQtr3y3xnHvWZlKPKs4=
@@ -3550,7 +3597,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_costa_rica.png
 SHA1-Digest: TM8VwovhwfDvLKC+ZWvn+NTyzds=
 
 Name: res/menu/settings_menu.xml
-SHA1-Digest: oE5V/5DWnX5r0xKRqoCdm7LKPfM=
+SHA1-Digest: cM6bE8SW3MzGkg51vZtTOB73gUM=
 
 Name: res/drawable-hdpi-v4/ic_clock_strip_desk_clock.png
 SHA1-Digest: AvOZGhaipVhTCEVkjjp5sxQceRo=
@@ -3583,10 +3630,13 @@ Name: res/drawable-hdpi-v4/ic_lock_idle_alarm.png
 SHA1-Digest: En/aqKpEAOzy+dp7LFABhoqN5gM=
 
 Name: res/layout/le_dialog_recommend_star.xml
-SHA1-Digest: /Wq0fL5i+N0dzOnz4ATPDHfNUTo=
+SHA1-Digest: grbda1YI2ggfo0UXqcns3Oyy8Ac=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_nicaragua.png
 SHA1-Digest: fxZpyeYF1Lu4oo0Mt6G73+FZRwQ=
+
+Name: res/drawable-xxhdpi-v4/ic_flag_guinea_bissau.png
+SHA1-Digest: UtiWOwJ3qkkAqWEyQbRRXqhIO/Q=
 
 Name: res/drawable-hdpi-v4/btn_check_off_focused_holo_light_red.png
 SHA1-Digest: IRGVIk0of7ypXdQIq0YvH2DloM8=
@@ -3594,11 +3644,8 @@ SHA1-Digest: IRGVIk0of7ypXdQIq0YvH2DloM8=
 Name: res/drawable-sw600dp-xhdpi-v13/ic_delete_pressed.png
 SHA1-Digest: 7b8+bmXJzBVJgX3Ro+xcQG+gGNQ=
 
-Name: res/drawable-xxhdpi-v4/ic_flag_guinea_bissau.png
-SHA1-Digest: UtiWOwJ3qkkAqWEyQbRRXqhIO/Q=
-
 Name: res/drawable/ic_alarm_activated.xml
-SHA1-Digest: 9nM0zwHpMZxC2JxPzEQ7X1hlzC8=
+SHA1-Digest: yv+FPP4N/7KAvmr2WTrOZSBiL9U=
 
 Name: res/drawable-hdpi-v4/ic_share_pressed.png
 SHA1-Digest: bQSQ4Iij5bQO9pQPUxeZVZG7BJ4=
@@ -3608,6 +3655,9 @@ SHA1-Digest: 3F95JiGY05nqtSfrvwnx2cIo62M=
 
 Name: res/drawable/world_clock_divider.xml
 SHA1-Digest: r0OONkvxgLiH2t8mf9qiWMKfVX8=
+
+Name: res/drawable/le_keyguard_center_circle_normal.xml
+SHA1-Digest: BCRwcORrSG8rD2xBNO/ymW5fyL4=
 
 Name: res/drawable-xxhdpi-v4/ic_lockscreen_alarm.png
 SHA1-Digest: WFKvBbJuqnyGlmC6U4BBkrpFNV0=
@@ -3640,10 +3690,10 @@ Name: res/drawable-sw600dp-xxhdpi-v13/ic_plusone_pressed.png
 SHA1-Digest: PxZZjAMeg+Kxc8G7wLAWmOM4Cxs=
 
 Name: res/layout/lestar_detail_activity.xml
-SHA1-Digest: 2fL+PuUQ7CZTccmD1wgL+4rX0CM=
+SHA1-Digest: XPw5LwD3Aw0kXkVVzvxQbbV3FZY=
 
 Name: res/layout/world_clock_cities_item.xml
-SHA1-Digest: 4anBNBWGNzUT74cRrUzXXvahzhs=
+SHA1-Digest: IEYdxOt5NCLiBE3/ZHRPADtD6yA=
 
 Name: res/drawable-mdpi-v4/ic_lockscreen_glowdot.png
 SHA1-Digest: 123Fx3xFXJLytkLajAG/ZvYP1PU=
@@ -3667,7 +3717,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_san_marino.png
 SHA1-Digest: 8nPBshVFiaFKULgHfO63ARwvEjs=
 
 Name: res/layout/layout_default_indicator.xml
-SHA1-Digest: JSfjLDdNQVDHeqRzk2O/Gi7xiKw=
+SHA1-Digest: sbNz9AisISSFIpzMwuhHIi/meaM=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_cambodia.png
 SHA1-Digest: 8xFSo+hHtmLVnc5jf7DLwiDpZB8=
@@ -3694,7 +3744,7 @@ Name: res/drawable-xxhdpi-v4/ic_complete.png
 SHA1-Digest: UvnF/GdjR6Jt+owBIIHv7jLhNPI=
 
 Name: res/drawable/ic_tab_timer_activated.xml
-SHA1-Digest: 9OQSglwUnP1iXi+vsupyxiWS6II=
+SHA1-Digest: RsczqXSqvI2AH5QsCTJALPEtn6k=
 
 Name: res/drawable/timer_left_btn_stop.xml
 SHA1-Digest: Gmn44rExTkFo8rbCGrHeYdgs4Tw=
@@ -3710,7 +3760,7 @@ Name: res/drawable-mdpi-v4/btn_check_off_focused_holo_light_red.png
 SHA1-Digest: NQBIknqo9Lu74tbTO3vsom4NJPE=
 
 Name: res/drawable/ic_tab_clock_activated.xml
-SHA1-Digest: qCYjDekEozAfiPua9dZ8KiQ1MhE=
+SHA1-Digest: 5l4OrIFzhpvNhd4vCYBnA9W25GY=
 
 Name: res/drawable-hdpi-v4/ic_alarm.png
 SHA1-Digest: cAlcm6OBURE+D+GaHktaqMIblZM=
@@ -3731,7 +3781,7 @@ Name: res/drawable-xhdpi-v4/ic_clock_brightness.png
 SHA1-Digest: RJYt8V670hOve8kxs2ad7MWicBA=
 
 Name: res/xml/digital_clock_widget_left.xml
-SHA1-Digest: VnYOIBLqLgJfMVlKZVytO1elBmM=
+SHA1-Digest: Y+jbAu9OhGX+D5sh84VWEF6GRlc=
 
 Name: res/anim/le_licence_slide_bottom_in.xml
 SHA1-Digest: vHF5vkcrUpiEk3LgYPON/KivNMU=
@@ -3764,10 +3814,10 @@ Name: res/drawable-xxhdpi-v4/ic_flag_barbados.png
 SHA1-Digest: j0UlO/M2Yr5VMW93X7unyoephXQ=
 
 Name: resources.arsc
-SHA1-Digest: LZIpHXYq69yf7GlH1ni9zx0WGhY=
+SHA1-Digest: QujsHw1f4QjM52HiU8Sxvizhyzg=
 
 Name: res/color/ringtone_media_item_rank_color.xml
-SHA1-Digest: M1BXFAepz7A78sy0uSMHH6kGqyg=
+SHA1-Digest: Nivp5in44Dsgxqn0dilksKJCcYs=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_falkland_islands.png
 SHA1-Digest: rWFSV0d0X+z+NxGdtR3PsquqAVc=
@@ -3782,7 +3832,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_argentina.png
 SHA1-Digest: uzRtelL5D7J8b6gFdX0+YLvbHB4=
 
 Name: res/drawable/music_playing_animation5.xml
-SHA1-Digest: zP/pjnrKlKVNXhAhWWO8TWfTKXk=
+SHA1-Digest: HO8q4Zhl/vaIClpe7y8uFROBkzY=
 
 Name: res/color/alarm_item_label_text_color.xml
 SHA1-Digest: sYJdYUP88zgr3GiwUKJ9Gd9k8S4=
@@ -3809,10 +3859,13 @@ Name: res/drawable-xxhdpi-v4/ic_flag_kuwait.png
 SHA1-Digest: sHLQxrYjXB2Bvc85VbZjd7zLvqE=
 
 Name: res/layout/popup_window_item.xml
-SHA1-Digest: ayJga4X3sloM4K9MZjKbdQPNuTQ=
+SHA1-Digest: G8/gJAaPM2aNLZqbLuzomi3gAu4=
 
 Name: res/drawable-xhdpi-v4/dialog_divider_horizontal_light.9.png
 SHA1-Digest: w8rp+hyiO+PmHfPKtxN3Kjn5a90=
+
+Name: res/layout/le_alarm_setting_edit_item.xml
+SHA1-Digest: lERazEH+V4B2xu+BFH4VewZ0RIo=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_tanzania.png
 SHA1-Digest: tw2e48LUsRkj3ssG9KcRiQevV5M=
@@ -3860,16 +3913,16 @@ Name: res/layout/item_background.xml
 SHA1-Digest: Rm1fkmhVH/VLPgSmp2TWnctKRO4=
 
 Name: res/color/le_searchview_city_cancel_color.xml
-SHA1-Digest: BRm01bqUSKJb4rp7j+1ivW072gw=
+SHA1-Digest: cdw5a2G1pdsKI1hInetC1s3eLD8=
 
 Name: res/layout/lestar_topic_banner.xml
-SHA1-Digest: D3k0LuxXChvqCmNoTBFOkUIJiwA=
+SHA1-Digest: mLOAvE2T803u2gFEkTCjJDm/WoA=
 
 Name: res/drawable-mdpi-v4/ic_delete_normal.png
 SHA1-Digest: 1F0yZSuxlu5TRf0k7P5Prx1Exl0=
 
 Name: res/layout/ringtone_divider.xml
-SHA1-Digest: F2C6n8W44bLT6xrQw/lFqhwuZ1c=
+SHA1-Digest: LVSNKX2+Zr4OS5jIyk8NgNVN214=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_russia.png
 SHA1-Digest: Mi7LjhtLJnhh1jpdEiia4pzv3R4=
@@ -3932,7 +3985,7 @@ Name: res/drawable-mdpi-v4/btn_alarm_normal.9.png
 SHA1-Digest: JPmCWDem1oRrn4w6ACMecHvivRY=
 
 Name: res/drawable/keyguard_snooze_bg.xml
-SHA1-Digest: zMo0XJ0F+6Uy6Gk78RSY9oHAMQE=
+SHA1-Digest: FdQO7u/nStA/v5QZoehmy8CjHmU=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_taiwan.png
 SHA1-Digest: VYmfkcy6Kw6L8lNMlV9C3RCd7bM=
@@ -4007,7 +4060,7 @@ Name: res/drawable-mdpi-v4/btn_strip_trans_left_normal.9.png
 SHA1-Digest: p6LS8nN5cS6L76eeOHelQQ/YT0Q=
 
 Name: res/menu/desk_clock_menu.xml
-SHA1-Digest: uBG9/pHd/Zo+euGVYtKMwI5KWpo=
+SHA1-Digest: 5RcvAfhXZEhBEr/GC1X3R7y+4/4=
 
 Name: res/drawable-xlarge-nodpi-v4/background_protector.png
 SHA1-Digest: X7cb+RdBtZNVcxBuAqI6nS6izvY=
@@ -4050,7 +4103,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_andorra.png
 SHA1-Digest: kfqEhfIhUiOXj/Spqyb9/sHsXvM=
 
 Name: res/layout/lestar_square_activity.xml
-SHA1-Digest: 5jWVnYgBxMoCH12eFfVkg07JiL0=
+SHA1-Digest: EeI9uRuM2wXuf5aM8gQRzPgmhSM=
 
 Name: res/drawable-xxhdpi-v4/ic_flag_namibia.png
 SHA1-Digest: Mw8cnThQsHRDC9Rv0faNs4q1eJ4=
@@ -4059,7 +4112,7 @@ Name: res/drawable-xxhdpi-v4/toggle_underline_activated.9.png
 SHA1-Digest: YlpgGQ05AEvnhGkUn5G8QMjqkS8=
 
 Name: res/layout-sw600dp-land-v13/world_clock_list_item.xml
-SHA1-Digest: NamP98LFa5/NGNdZxF+NwVzyv1o=
+SHA1-Digest: aN6JZcylMUueZdiSeDJLKj1kdro=
 
 Name: res/drawable-hdpi-v4/battery_5.png
 SHA1-Digest: PVyjOw3NSUM1TEDT7QBcr1n4ROE=
@@ -4069,6 +4122,9 @@ SHA1-Digest: mmn/UT+l0RkULGpoSXaiTjwFank=
 
 Name: res/drawable-hdpi-v4/btn_strip_trans_left_pressed.9.png
 SHA1-Digest: cPs+uwatdVAKEKNLZ6rgxz0RjYo=
+
+Name: res/drawable/le_keguard_center_circle_press.xml
+SHA1-Digest: 5immuky9cc6AutAqK8WhXDiPSlM=
 
 Name: res/drawable-mdpi-v4/btn_strip_trans_right_selected.9.png
 SHA1-Digest: 3rPYHq1DNO/DCIBeCUEQlyfwwDI=
@@ -4107,7 +4163,7 @@ Name: res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
 SHA1-Digest: TZoq5fn2jjj23LAmyukLzy8TVPA=
 
 Name: res/drawable/activated_background_holo_dark.xml
-SHA1-Digest: Gm+UhBruoHteZPWRmkd1S3jFmaI=
+SHA1-Digest: gFDWzoN6Lvp5cZ9T3e/Ebo4bosk=
 
 Name: res/drawable-xxhdpi-v4/stat_notify_stopwatch.png
 SHA1-Digest: p+cHh43T4Sp2iFwfK27KVVS4QkQ=
@@ -4140,7 +4196,7 @@ Name: res/drawable/stopwatch_left_btn_stop.xml
 SHA1-Digest: JAD21OykmaXV4yqN1bE8U7EV/o0=
 
 Name: res/drawable/ic_tab_clock_normal.xml
-SHA1-Digest: sV50MptI+tEnTlsFVaFbdKBY+x8=
+SHA1-Digest: JodzhMEPfUKI6Fqsno+45U5AyZQ=
 
 Name: res/drawable-xxhdpi-v4/ic_reset_pressed.png
 SHA1-Digest: Ggxn2BOoRr+wQn2ctHJRg68S+y4=
@@ -4149,7 +4205,7 @@ Name: res/drawable-xxhdpi-v4/ic_flag_saint_kitts_and_nevis.png
 SHA1-Digest: 6hh/LydJUFawsBn5UmHQ6KzPaBc=
 
 Name: res/layout/player_float_stream_select_item.xml
-SHA1-Digest: Wm+GYIbhZAzNLiVJ6UmqBY0mUqs=
+SHA1-Digest: aegxvzL+T4qVgsb+s1b04L3aKpE=
 
 Name: res/drawable-xhdpi-v4/btn_check_off_disabled_holo_light_red.png
 SHA1-Digest: xOwJgT3svjVxCl0Wz0pGGoIbg78=
@@ -4157,6 +4213,9 @@ SHA1-Digest: xOwJgT3svjVxCl0Wz0pGGoIbg78=
 Name: res/drawable-mdpi-v4/btn_check_off_disabled_focused_holo_dark_re
  d.png
 SHA1-Digest: NwkZHWoGsfSDlGcLMlhruW96QAo=
+
+Name: res/drawable/le_kegurard_center_circle.xml
+SHA1-Digest: LTtT+5DkovdDBiZSrUSPA78zhMw=
 
 Name: res/anim/fade_in.xml
 SHA1-Digest: MWx2eQapbcYpwmgsLZYUO6sFdWE=

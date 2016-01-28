@@ -315,9 +315,10 @@
     <item type="id" name="associations_setting_label">false</item>
     <item type="id" name="associations_concel_btn">false</item>
     <item type="id" name="search_back_to_parent">false</item>
-    <item type="id" name="popup_listview">false</item>
+    <item type="id" name="popup_bottom">false</item>
     <item type="id" name="btn_concel">false</item>
     <item type="id" name="btn_commit">false</item>
+    <item type="id" name="popup_listview">false</item>
     <item type="id" name="delate_linearlayout">false</item>
     <item type="id" name="delate_context_view">false</item>
     <item type="id" name="delate_concel_btn">false</item>

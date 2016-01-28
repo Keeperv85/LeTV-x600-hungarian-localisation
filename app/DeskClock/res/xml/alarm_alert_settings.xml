@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:persistent="false" android:title="@string/alarm_setting_title_ringtone" android:key="alarm_alert_settings"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:layout="@android:layout/le_preference_seekbar" android:title="@string/alarm_alert_title_vibrate" android:key="pref_alert_vibrate" android:widgetLayout="@android:layout/le_ptr_simple_loading_header" />
-    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:layout="@android:layout/le_preference_seekbar" android:title="@string/alarm_alert_title_ringtone" android:key="pref_alert_ringtone" android:widgetLayout="@android:layout/le_ptr_simple_loading_header" />
+    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:layout="@android:layout/le_preference_normal" android:title="@string/alarm_alert_title_vibrate" android:key="pref_alert_vibrate" android:widgetLayout="@android:layout/le_preference_widget_switch" />
+    <com.android.deskclock.widget.ColorableSwitchPreference android:persistent="false" android:layout="@android:layout/le_preference_normal" android:title="@string/alarm_alert_title_ringtone" android:key="pref_alert_ringtone" android:widgetLayout="@android:layout/le_preference_widget_switch" />
     <com.android.deskclock.widget.AlarmVolumePreference android:persistent="false" android:title="@string/alarm_alert_title_volume" android:key="pref_alert_volume" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/alarm_alert_title_alert" android:key="pref_alert" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/alarm_alert_title_alert" android:key="pref_alert" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
 </PreferenceScreen>

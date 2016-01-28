@@ -2,7 +2,7 @@
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/prv/res/android">
     <com.letv.leui.widget.pulltorefresh.PullToRefreshListView android:id="@id/star_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/listitem_selector" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="#ffcccccc" android:dividerHeight="1.0px" android:layout_weight="1.0" />
-    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/star_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/star_empty_hint_online" android:primaryText="@string/star_empty_retry_online" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_net" android:id="@id/star_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/star_empty_hint_online" android:primaryText="@string/star_empty_retry_online" />
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
         <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/recommend_star" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/recommend_star_btn" />

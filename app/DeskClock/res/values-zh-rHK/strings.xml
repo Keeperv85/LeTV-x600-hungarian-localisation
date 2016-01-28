@@ -120,6 +120,7 @@
     <string name="alarm_notify_snooze_label">%s (延遲)</string>
     <string name="alarm_notify_snooze_text">已將鬧鐘設定在 %s，輕觸即可取消。</string>
     <string name="volume_button_setting_title">音量按鈕</string>
+    <string name="volume_button_setting_dialog_title">音量按鈕</string>
     <string name="volume_button_dialog_title">按鈕功用</string>
     <string name="default_ringtone_setting_title">設定預設鈴聲</string>
     <string name="alarm_button_description">鬧鐘</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/note_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<FrameLayout android:background="@color/note_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
   xmlns:android="http://schemas.android.com/apk/prv/res/android">
     <com.letv.android.note.notespic.NotesMixedView android:id="@id/note_edit_list" android:paddingBottom="48.0dip" android:visibility="invisible" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_alignWithParentIfMissing="true" android:overScrollMode="always" />
     <RelativeLayout android:id="@id/LoadingView" android:layout_width="fill_parent" android:layout_height="fill_parent">

@@ -97,10 +97,15 @@
     <string name="note_tolarge_bottom_title">無法添加該內容</string>
     <string name="note_tolarge_bottom_content">該操作會導致便條內容過長，超出最大限制</string>
     <string name="notebook_tolarge_bottom_content">該操作會導致便條夾內容過長，超出最大限制</string>
+    <string name="delete_note_makesure_title">該便條關聯了一個日曆事件。你確定要刪除該便條嗎？</string>
+    <string name="delete_note_view_calendar_event">檢視關聯事件</string>
+    <string name="delete_note_delete_calendar_event">確定刪除便條</string>
+    <string name="delete_note_cancel_calendar_event">暫不刪除便條</string>
     <string name="share_weibo_send">发送</string>
     <string name="share_weibo_hint">说点什么吧</string>
-    <string name="send_success_toast">發送成功</string>
-    <string name="send_fail_toast">發送失敗</string>
+    <string name="sinaweibo_shareing">发送中…</string>
+    <string name="sinaweibo_share_success">微博发送成功</string>
+    <string name="sinaweibo_share_failed">微博发送失败</string>
     <string name="send_weibo_exceed">不能超过140个字</string>
     <string name="sinaweibo_share_default_text">分享图片</string>
     <string name="share_exceed_140_long_weibo_share">內容超過140字，用長微博分享</string>

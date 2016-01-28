@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.note" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-10">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.note" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <application android:allowBackup="true" android:icon="@drawable/ic_launcher_note" android:label="@string/app_name" android:name=".NoteApplication" android:theme="@style/AppTheme">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher_note" android:label="@string/app_name" android:largeHeap="true" android:name=".NoteApplication" android:theme="@style/AppTheme">
         <activity android:label="@string/app_name" android:name="com.letv.android.note.NoteListActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay" android:windowSoftInputMode="adjustNothing">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -21,7 +26,11 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.letv.android.note.stationery.StationeryShopActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay"/>
+        <activity android:name="com.letv.android.note.stationery.StationeryManagerActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay"/>
+        <activity android:name="com.letv.android.note.stationery.StationeryPreviewActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay"/>
         <activity android:name="com.letv.android.note.alarm.AlarmActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay"/>
+        <activity android:name="com.letv.android.note.stationery.StationeryNoteSelectActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay"/>
         <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:name=".alarm.KeyguardAlertActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/KeyguardAlertTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
         <activity android:name=".weibo.NoteSkipActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
@@ -30,6 +39,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".weibo.NoteShareActivity" android:screenOrientation="portrait" android:theme="@style/ActionBarOverlay" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <receiver android:name=".weibo.WeiboUploadReceiver">
+            <intent-filter>
+                <action android:name="com.leshare.weibo"/>
+            </intent-filter>
+        </receiver>
         <service android:name="com.letv.android.note.NoteSaveService1"/>
         <provider android:authorities="com.leui.provider.NotePad" android:exported="true" android:name="com.letv.android.note.NotePadProvider">
             <grant-uri-permission android:pathPattern=".*"/>
@@ -68,8 +82,6 @@
         </receiver>
         <provider android:authorities="note_image_attch" android:exported="false" android:grantUriPermissions="true" android:multiprocess="true" android:name=".notespic.ImageAttachProvider"/>
     </application>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>

@@ -51,6 +51,9 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="slidingmenu_background">#fff8f8f9</color>
     <color name="main">#ffdb8c00</color>
+    <color name="main_disable">#60db8c00</color>
+    <color name="main_progress">#80db8c00</color>
+    <color name="bw_color">#fff9a825</color>
     <color name="actionbar_title">#ff6f7980</color>
     <color name="actionbar_background">#fff6f6f7</color>
     <color name="actionbar_background_border">#ffc6c7cb</color>
@@ -92,4 +95,8 @@
     <color name="le_loading_view_background">#7fffffff</color>
     <color name="share_weibo_text_limit">#ff9b9b9b</color>
     <color name="share_weibo_text_beyond">#ffe63c40</color>
+    <color name="stationery_item_text_color">#ff000000</color>
+    <color name="rect_for_image">#29ffffff</color>
+    <color name="title_bg_normal">#66000000</color>
+    <color name="title_bg_press">#1affffff</color>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/enter_stationery_shop" android:id="@id/menu_stationery_shop" android:visible="true" android:title="@string/manager_stationery_shop" android:showAsAction="always" />
     <item android:icon="@drawable/le_top_icon_find_svg" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="always" />
     <item android:id="@id/menu_done" android:visible="false" android:title="@string/menu_done" android:showAsAction="always" />
 </menu>

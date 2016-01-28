@@ -403,6 +403,7 @@
     <string name="could_not_speech_to_beauty">HDR，夜景或者其他场景模式下，不能使用语音美颜。</string>
     <string name="can_not_use_flash_hint">抱歉，由于电量低于15%，闪光灯此刻无法启动。</string>
     <string name="quit_submode_hint">点击退出%s</string>
+    <string name="sub_mode_tip_text">向上滑动，体验更多功能</string>
     <string name="effect_filter_blackwhite">黑白</string>
     <string name="effect_filter_nature">自然</string>
     <string name="effect_filter_aibao">阿宝色</string>
@@ -432,8 +433,7 @@
     <string name="pref_title_scenemode">场景模式</string>
     <string name="pref_title_video_quality">视频质量</string>
     <string name="pref_title_whitebalance">白平衡</string>
+    <string name="wide_angle">全景模式</string>
     <string name="pref_video_quality_entry_high">高</string>
     <string name="pref_video_quality_entry_low">低</string>
-    <string name="wide_angle">全景模式</string>
-    <string name="sub_mode_tip_text">向上滑动，体验更多功能</string>
 </resources>

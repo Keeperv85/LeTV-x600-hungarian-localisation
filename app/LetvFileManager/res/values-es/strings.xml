@@ -544,4 +544,5 @@
     <string name="le_item_data_format">%1$s %2$s</string>
     <string name="le_select_files">%1$s seleccionados</string>
     <string name="contain_folder_name">El archivo ya existe. Ingrese un nombre nuevo</string>
+    <string name="unzip_passwoed_exception">contraseña incorrecta</string>
 </resources>

@@ -11,7 +11,7 @@
                     <com.android.deskclock.alarms.starclock.widget.RingtoneHotView android:orientation="vertical" android:id="@id/lestar_detail_ringtone_hot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
                     <com.letv.leui.common.recommend.widget.LeRecommendViewGroup android:id="@id/lestar_detail_recommend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle" />
                 </LinearLayout>
-                <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/lestar_detail_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_net" android:id="@id/lestar_detail_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 <com.letv.leui.widget.LeLoadingView android:layout_gravity="center" android:id="@id/lestar_detail_loading_view" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
             </FrameLayout>
         </LinearLayout>

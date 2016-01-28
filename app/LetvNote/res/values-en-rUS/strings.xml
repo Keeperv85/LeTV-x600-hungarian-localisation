@@ -82,10 +82,15 @@
     <string name="note_tolarge_bottom_title">Unable to add the content</string>
     <string name="note_tolarge_bottom_content">This operation will make the note exceed maximum length limit</string>
     <string name="notebook_tolarge_bottom_content">This operation will make the note clip exceed maximum length limit</string>
+    <string name="delete_note_makesure_title">This memo is associated with a calendar event. Delete this memo?</string>
+    <string name="delete_note_view_calendar_event">View associated events</string>
+    <string name="delete_note_delete_calendar_event">Delete</string>
+    <string name="delete_note_cancel_calendar_event">Keep</string>
     <string name="share_weibo_send">Send</string>
     <string name="share_weibo_hint">Write something</string>
-    <string name="send_success_toast">Sent</string>
-    <string name="send_fail_toast">Sending Failed</string>
+    <string name="sinaweibo_shareing">Sending…</string>
+    <string name="sinaweibo_share_success">Sent successfully</string>
+    <string name="sinaweibo_share_failed">Sent failed</string>
     <string name="send_weibo_exceed">Length cannot exceed 140 characters</string>
     <string name="sinaweibo_share_default_text">Share image</string>
     <string name="share_exceed_140_long_weibo_share">Content exceed 140 words ,share by long weibo</string>

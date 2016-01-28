@@ -410,7 +410,7 @@
     <string name="emtpy_name" />
     <string name="le_file_child">รวมถึง: \u0009</string>
     <string name="le_file_type">ประเภท: \u0009</string>
-    <string name="le_file_path">ที่จัดเก็บ:</string>
+    <string name="le_file_path">ที่จัดเก็บ: \u0009</string>
     <string name="le_file_size">ขนาด: \u0009</string>
     <string name="le_file_time">เวลา: \u0009</string>
     <string name="le_file_child_des">%1$s โฟลเดอร์, \u0009%2$s ไฟล์</string>
@@ -543,4 +543,5 @@
     <string name="le_file_check">กำลังตรวจสอบไฟล์</string>
     <string name="le_item_data_format">%1$s %2$s</string>
     <string name="le_select_files">เลือก %1$s รายการ</string>
+    <string name="unzip_passwoed_exception">รหัสผ่านไม่ถูกต้อง</string>
 </resources>

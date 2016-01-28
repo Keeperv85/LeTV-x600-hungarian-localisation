@@ -482,7 +482,7 @@
     <string name="setting_on_value">on</string>
     <string name="pref_video_quality_title">Video quality</string>
     <string name="pref_video_quality_entry_4kdci">4K (16:9)</string>
-    <string name="pref_video_quality_entry_4kuhd">4k UHD</string>
+    <string name="pref_video_quality_entry_4kuhd">4K</string>
     <string name="pref_video_quality_entry_1080p">1080P (16:9)</string>
     <string name="pref_video_quality_entry_720p">720P (16:9)</string>
     <string name="pref_video_quality_entry_480p">480P (3:2)</string>
@@ -817,6 +817,7 @@ Other apps can access this information along with your saved images."</string>
     <string name="night_mode_quarter">1/4</string>
     <string name="night_mode_half">1/2</string>
     <string name="night_mode_one">1</string>
+    <string name="sub_mode_tip_text">Slide up and try more functions</string>
     <string name="effect_filter_blackwhite">Mono</string>
     <string name="effect_filter_nature">Nature</string>
     <string name="effect_filter_aibao">Tonal</string>
@@ -846,7 +847,7 @@ Other apps can access this information along with your saved images."</string>
     <string name="pref_title_scenemode">Scene mode</string>
     <string name="pref_title_video_quality">Video quality</string>
     <string name="pref_title_whitebalance">White balance</string>
+    <string name="wide_angle">Switch to Panorama</string>
     <string name="pref_video_quality_entry_high">High</string>
     <string name="pref_video_quality_entry_low">Low</string>
-    <string name="wide_angle">Switch to Panorama</string>
 </resources>

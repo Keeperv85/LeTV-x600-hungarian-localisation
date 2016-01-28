@@ -10,6 +10,6 @@
         <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@android:dimen/le_preference_horizontal_widget_minWidth" android:layout_below="@android:id/summary" android:layout_alignStart="@android:id/title" />
     </RelativeLayout>
     <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <SeekBar android:id="@android:id/adjust_volume_mute_key" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="false" android:layout_centerVertical="true" android:progressTint="@color/le_common_switch_or_other_color" android:thumbTint="@color/le_common_switch_or_other_color" />
+        <SeekBar android:id="@android:id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="false" android:layout_centerVertical="true" android:progressTint="@color/le_common_switch_or_other_color" android:thumbTint="@color/le_common_switch_or_other_color" />
     </LinearLayout>
 </LinearLayout>

@@ -7,6 +7,6 @@
             <com.android.deskclock.alarms.starclock.widget.RingtoneHotView android:orientation="vertical" android:id="@id/ringtone_hot" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             <com.android.deskclock.alarms.starclock.widget.RingtoneCategoryView android:orientation="vertical" android:id="@id/ringtone_category" android:layout_width="fill_parent" android:layout_height="wrap_content" />
         </LinearLayout>
-        <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/le_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_net" android:id="@id/le_blankpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </LinearLayout>
 </com.android.deskclock.alarms.starclock.widget.LePullToRefreshScrollView>

@@ -120,6 +120,7 @@
     <string name="alarm_notify_snooze_label">%s（已暂停）</string>
     <string name="alarm_notify_snooze_text">已将闹钟设置为 %s后再提醒。触摸可取消。</string>
     <string name="volume_button_setting_title">音量和电源按钮</string>
+    <string name="volume_button_setting_dialog_title">音量和电源按钮</string>
     <string name="volume_button_dialog_title">按钮的作用</string>
     <string name="default_ringtone_setting_title">设置默认铃声</string>
     <string name="alarm_button_description">闹钟</string>
@@ -431,4 +432,6 @@
     <string name="choose_clock_store_for_later_set">收藏铃声稍后设置</string>
     <string name="choose_clock_ok">确定</string>
     <string name="le_alarm_label_limit_max_toast">已达到最大字数显示</string>
+    <string name="le_keyguard_alert_snooze_tip">点击稍后提醒</string>
+    <string name="le_keyguard_alert_slide_tip">上滑关闭闹钟</string>
 </resources>

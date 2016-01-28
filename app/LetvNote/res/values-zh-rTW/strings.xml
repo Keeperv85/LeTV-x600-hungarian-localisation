@@ -97,16 +97,21 @@
     <string name="note_tolarge_bottom_title">無法加入該內容</string>
     <string name="note_tolarge_bottom_content">該操作會導致便條紙內容太長，超出最大限制</string>
     <string name="notebook_tolarge_bottom_content">該操作會導致便條紙夾內容太長，超出最大限制</string>
+    <string name="delete_note_makesure_title">該便籤關聯了一個日曆事件。您確定刪除該便籤嗎？</string>
+    <string name="delete_note_view_calendar_event">檢視關聯事件</string>
+    <string name="delete_note_delete_calendar_event">確定刪除便籤</string>
+    <string name="delete_note_cancel_calendar_event">暫不刪除便籤</string>
     <string name="share_weibo_send">发送</string>
     <string name="share_weibo_hint">说点什么吧</string>
-    <string name="send_success_toast">發送成功</string>
-    <string name="send_fail_toast">發送失敗</string>
+    <string name="sinaweibo_shareing">發送中…</string>
+    <string name="sinaweibo_share_success">微博發送成功</string>
+    <string name="sinaweibo_share_failed">微博發送失敗</string>
     <string name="send_weibo_exceed">不能超过140个字</string>
     <string name="sinaweibo_share_default_text">分享圖片</string>
     <string name="share_exceed_140_long_weibo_share">內容超過140字，以長微博分享</string>
     <string name="still_text_share">以文字分享</string>
-    <item type="string" name="APKTOOL_DUMMY_0073">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0074">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0075">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0076">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a8">false</item>
 </resources>

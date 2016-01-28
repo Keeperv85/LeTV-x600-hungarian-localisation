@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android1:background="#fff9f9f9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.LeListView android:id="@id/lv_stationery_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="@color/divider_color" android:dividerHeight="1.0px" android:colorControlHighlight="#fff9f9f9" android:leListViewMode="leDragSort" android:leSortDragScrollStart="0.33" android:leSortMaxDragScrollSpeed="0.5" android:leSortFloatBackgroundColor="#fff9f9f9" android:leSortFloatAlpha="0.6" android:leSortSlideShuffleSpeed="0.3" android:leSortEnabled="true" android:leSortDragStartMode="onDown" android:leSortDragHandleId="@id/stationery_item_sort" android:leSortUseDefaultController="true" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingTop="16.0dip" android1:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_share_stationery_image" android:layout_width="110.0dip" android:layout_height="165.0dip" />
+    <com.letv.leui.widget.LeCheckBox android1:layout_gravity="center_horizontal" android:id="@id/ck_share_stationery_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/prv/res/android">
     <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
     <com.letv.leui.widget.LeListView android:id="@id/alarm_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="#ffcccccc" android:dividerHeight="1.0px" android:layout_above="@id/bottom_widget" android:colorControlHighlight="@color/deskclock_theme_color" android:leSwipeAnimationTime="3000" android:leListViewMode="leNone" />
-    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_e_mail" android:id="@id/alarms_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_widget" android:message="@string/list_empty_no_alarm" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_clock" android:id="@id/alarms_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_widget" android:message="@string/list_empty_no_alarm" />
 </RelativeLayout>

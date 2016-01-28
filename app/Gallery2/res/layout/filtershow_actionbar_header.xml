@@ -10,7 +10,7 @@
     </FrameLayout>
     <LinearLayout android:id="@id/bar_left" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
         <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_back" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
-            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/le_actionbar_complete" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/le_actionbar_back" />
         </LinearLayout>
         <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bar_cancel" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent">
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/FilterShowAcionBarMenuStyle" />

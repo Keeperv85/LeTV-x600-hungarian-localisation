@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.widget.LeLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:drawable/le_list_divider" android:showDividers="end|middle">
+        <include android:id="@id/alarm_setting_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/time_picker_preference" />
+        <include android:id="@id/alarm_setting_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/le_alarm_setting_arrow_item" />
+        <include android:id="@id/alarm_setting_ringtone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/le_alarm_setting_arrow_item" />
+        <include android:id="@id/alarm_setting_label" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/le_alarm_setting_edit_item" />
+        <include android:id="@id/alarm_setting_snooze" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/le_alarm_setting_switch_item" />
+        <include android:id="@id/alarm_setting_vibrate" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/le_alarm_setting_switch_item" />
+    </com.letv.leui.widget.LeLinearLayout>
+</ScrollView>

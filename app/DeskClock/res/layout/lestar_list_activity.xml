@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/prv/res/android"
   xmlns:android1="http://schemas.android.com/apk/res/android">
     <com.letv.leui.widget.pulltorefresh.PullToRefreshListView android:id="@id/lestar_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/listitem_selector" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="#ffcccccc" android:dividerHeight="1.0px" android:layout_weight="1.0" />
-    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/lestar_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/lestar_error_network_error" android:primaryText="@string/lestar_hint_retry" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_net" android:id="@id/lestar_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/lestar_error_network_error" android:primaryText="@string/lestar_hint_retry" />
     <LinearLayout android:orientation="vertical" android1:id="@id/lestar_wanted_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
         <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/recommend_star" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/recommend_star_btn" />

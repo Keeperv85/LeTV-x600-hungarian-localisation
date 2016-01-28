@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/le_bottom_btn_icon_share" android:id="@id/stopwatch_menu_share" android:visible="false" android:title="@string/stopwatch_share" android:showAsAction="always" android:leIconColor="@color/le_action_bar_menu_icon_color" />
+    <item android:icon="@drawable/le_bottom_btn_icon_share" android:id="@id/stopwatch_menu_share" android:visible="false" android:title="@string/stopwatch_share" android:showAsAction="always" />
 </menu>

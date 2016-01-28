@@ -274,10 +274,10 @@
     <string name="le_action_bar_title_cloud">Cloud</string>
     <string name="le_map_text_position_known">Unknown location</string>
     <string name="le_fragment_people_test_summery">Fragment People</string>
-    <string name="btn_login_txt">开启云服务</string>
-    <string name="lecloud_hint_1">使用乐视云服务，你可以:</string>
-    <string name="lecloud_hint_2">创建并上传自己的相册</string>
-    <string name="lecloud_hint_3">共享乐视云的相册内容</string>
+    <string name="btn_login_txt">Enable Cloud</string>
+    <string name="lecloud_hint_1">With Letv Cloud, you can:</string>
+    <string name="lecloud_hint_2">Create and upload your albums</string>
+    <string name="lecloud_hint_3">Share albums on Letv Cloud</string>
     <string name="le_rotate_label">Rotate</string>
     <string name="le_aspect_effect">None</string>
     <string name="le_aspect1to1_effect">1:1</string>
@@ -396,7 +396,8 @@
     <string name="setting_slide_show_repeat">Repeat</string>
     <string name="le_send_to_tv_time_out_title">Poor connection, picture failed to send</string>
     <string name="le_send_to_tv_time_out_cancel">Cancel</string>
-    <string name="le_send_to_tv_time_out_retry">Try again</string>
+    <string name="le_send_to_tv_time_out_retry">Retry</string>
+    <string name="le_get_content_null_toast">选取的文件没有内容可供使用，请选择其他文件</string>
     <string name="app_name">Gallery</string>
     <string name="gadget_title">Picture frame</string>
     <string name="details_ms">%1$02d:%2$02d</string>

@@ -19,6 +19,25 @@
         <item>5312x3984</item>
         <item>2688x1512</item>
     </string-array>
+    <string-array name="pref_camera_pic_size_entries_s2plus">
+        <item>21M</item>
+        <item>16M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="pref_camera_pic_size_entryValues_s2plus">
+        <item>5312x3984</item>
+        <item>5312x2992</item>
+        <item>3840x2160</item>
+    </string-array>
+    <array name="pref_camera_pic_size_icons_s2plus">
+        <item>@drawable/letv_camera_pic_size_43</item>
+        <item>@drawable/letv_camera_pic_size_169</item>
+        <item>@drawable/letv_camera_pic_size_169</item>
+    </array>
+    <string-array name="pref_camera_picturesize_default_s2plus">
+        <item>5312x3984</item>
+        <item>2688x1512</item>
+    </string-array>
     <string-array name="pref_video_quality_entries">
         <item>@string/pref_video_quality_entry_4kdci</item>
         <item>@string/pref_video_quality_entry_1080p</item>

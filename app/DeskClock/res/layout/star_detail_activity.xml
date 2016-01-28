@@ -12,5 +12,5 @@
         </LinearLayout>
     </LinearLayout>
     <GridView android:gravity="center" android:id="@id/star_detail_media" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/star_detail_media_horizontal_spacing" android:verticalSpacing="@dimen/star_detail_media_vertical_spacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/star_media_item_width" android:numColumns="auto_fit" android:paddingStart="@dimen/star_detail_media_padding_start" android:paddingEnd="@dimen/star_detail_media_padding_end" />
-    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/media_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/star_empty_hint_online" android:primaryText="@string/star_empty_retry_online" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_net" android:id="@id/media_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/star_empty_hint_online" android:primaryText="@string/star_empty_retry_online" />
 </LinearLayout>

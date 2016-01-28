@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mediatek.providers.drm" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mediatek.providers.drm" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <permission android:description="@string/permdesc_accessDrm" android:label="@string/permlab_accessDrm" android:name="android.permission.ACCESS_DRM" android:protectionLevel="signature"/>
     <permission android:description="@string/permdesc_installDrm" android:label="@string/permlab_installDrm" android:name="android.permission.INSTALL_DRM" android:protectionLevel="normal"/>
     <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>

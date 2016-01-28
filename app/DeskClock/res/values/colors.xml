@@ -375,12 +375,13 @@
     <color name="weekday_item_bg_selected">#ff3cacbf</color>
     <color name="list_selector_background_normal">#ffffffff</color>
     <color name="list_selector_background_disabled">#143cacbf</color>
-    <color name="list_selector_background_focus">#333cacbf</color>
+    <color name="list_selector_background_focus">#fff9f9f9</color>
     <color name="keyguard_alert_mask_bg">#26000000</color>
     <color name="keyguard_alert_op_bg_begin">#c0000000</color>
     <color name="keyguard_alert_op_bg_end">#00000000</color>
-    <color name="keyguard_alert_snooze_text_color">#ff6ebaff</color>
-    <color name="keyguard_alert_label_text_color">#ccffffff</color>
+    <color name="keyguard_alert_snooze_text_color">#ffffffff</color>
+    <color name="keyguard_alert_label_text_color">#ffffffff</color>
+    <color name="keyguard_alert_slide_up_shutdown_color">#ff30daff</color>
     <color name="keyguard_alert_time_text_color">#ffffffff</color>
     <color name="keyguard_alert_triangle_color">#ffffffff</color>
     <color name="keyguard_alert_snooze_bg_normal">@android:color/transparent</color>
@@ -450,6 +451,9 @@
     <color name="le_searchview_city_cancel_btn_normal">#ff000000</color>
     <color name="le_actionbar_menu_text_color_for_setting">#ff2395ee</color>
     <color name="le_actionbar_bottomline_color">#ffa6a7ae</color>
+    <color name="le_white_color">#ffffffff</color>
+    <color name="le_alarm_setting_item_title_text_color">#ff4d4d4d</color>
+    <color name="le_alarm_setting_item__summary_text_color">#ff4d4d4d</color>
     <color name="default_circle_indicator_fill_color">#ffffffff</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#99dddddd</color>

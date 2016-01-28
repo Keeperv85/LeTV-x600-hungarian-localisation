@@ -41,6 +41,11 @@
     <string name="msg_cancel_longshot_for_limited_memory">Insufficient internal memory. Canceling continuous high-speed shooting.</string>
     <string name="pref_camera_scenemode_entry_flowers">Flowers</string>
     <string name="pref_camera_scenemode_entry_ar">AR technology</string>
+    <string name="pref_video_quality_entry_4kdci">4K (16:9)</string>
+    <string name="pref_video_quality_entry_4kuhd">4K</string>
+    <string name="pref_video_quality_entry_1080p">1080P (16:9)</string>
+    <string name="pref_video_quality_entry_720p">720P (16:9)</string>
+    <string name="pref_video_quality_entry_480p">480P (3:2)</string>
     <string name="pref_camera_square_title">Square</string>
     <string name="pref_camera_beauty_title">Beauty</string>
     <string name="pref_camera_scene_title">Scene</string>
@@ -142,7 +147,7 @@
     <string name="pref_title_scenemode">Scene mode</string>
     <string name="pref_title_video_quality">Video quality</string>
     <string name="pref_title_whitebalance">White balance</string>
+    <string name="wide_angle">Switch to Panorama</string>
     <string name="pref_video_quality_entry_high">High</string>
     <string name="pref_video_quality_entry_low">Low</string>
-    <string name="wide_angle">Switch to Panorama</string>
 </resources>

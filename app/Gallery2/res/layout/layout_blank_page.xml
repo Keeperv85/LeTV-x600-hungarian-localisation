@@ -2,5 +2,5 @@
 <RelativeLayout android1:layout_width="fill_parent" android1:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/prv/res/android"
   xmlns:android1="http://schemas.android.com/apk/res/android">
-    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_printer" android:id="@id/blank_hint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:message="@string/blank_message" android:tintColor="@color/le_main_color" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_pic" android:id="@id/blank_hint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:message="@string/blank_message" android:tintColor="@color/le_main_color" />
 </RelativeLayout>

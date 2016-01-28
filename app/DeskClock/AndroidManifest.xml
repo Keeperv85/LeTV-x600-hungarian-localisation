@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.deskclock" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.deskclock" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <original-package android:name="com.android.alarmclock"/>
     <original-package android:name="com.android.deskclock"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
@@ -53,7 +53,7 @@
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-        <activity android:name=".alarms.AlarmSettingActivity" android:screenOrientation="portrait" android:theme="@style/DeskClock" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".alarms.AlarmSettingActivity" android:screenOrientation="portrait" android:theme="@style/AlarmSetting" android:windowSoftInputMode="stateHidden"/>
         <activity android:excludeFromRecents="true" android:name=".alarms.AlarmRepeatSettings" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
         <activity android:excludeFromRecents="true" android:name=".alarms.starclock.AlarmNormalRingtoneActivity" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
         <activity android:excludeFromRecents="true" android:name=".alarms.AlarmSnoozeSettings" android:screenOrientation="portrait" android:theme="@style/DeskClock"/>
@@ -100,6 +100,7 @@
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
                 <action android:name="android.intent.action.BATTERY_CHANGED"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
             </intent-filter>
         </receiver>
         <service android:exported="true" android:label="@string/app_label" android:name="Screensaver"> android:permission="android.permission.BIND_DREAM_SERVICE"&gt;
@@ -124,7 +125,7 @@
             <meta-data android:name="android.application.settings.TYPE" android:value="android.application.settings.TYPE_SYSTEM"/>
             <meta-data android:name="android.application.settings.PRIOPRITY" android:value="10"/>
         </activity>
-        <activity android:exported="true" android:launchMode="singleTask" android:name=".ChooseClockSettingDialog" android:taskAffinity=".chooseClock" android:theme="@style/leLicenceDialogTheme">
+        <activity android:exported="true" android:name=".ChooseClockSettingDialog" android:taskAffinity=".chooseClock" android:theme="@style/leLicenceDialogTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -197,7 +198,7 @@
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/digital_clock_widget_right"/>
         </receiver>
         <activity android:name=".alarms.starclock.ui.RingtoneSquareActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
-        <activity android:name=".alarms.starclock.ui.LeStarSquareActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
+        <activity android:exported="true" android:name=".alarms.starclock.ui.LeStarSquareActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
         <activity android:name=".alarms.starclock.ui.LeStarDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ActionBar.Overlay"/>
         <activity android:name=".alarms.starclock.ui.LeTopicDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ActionBar.Overlay"/>
         <activity android:name=".alarms.starclock.ui.LeMediaListActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
@@ -205,5 +206,6 @@
         <activity android:name=".alarms.starclock.ui.LeHotMediaListActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
         <activity android:name=".alarms.starclock.ui.LeFavoritesActivity" android:screenOrientation="portrait" android:theme="@style/LeStarRingtoneBaseTheme"/>
         <service android:exported="true" android:name=".SetRingtoneService"/>
+        <service android:exported="false" android:name=".utils.LeStarClockMedalService"/>
     </application>
 </manifest>

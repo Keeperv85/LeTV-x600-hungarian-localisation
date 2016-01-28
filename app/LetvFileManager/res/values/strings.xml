@@ -576,5 +576,8 @@ The letv Team"</string>
     <string name="contain_folder_name">Folder already exists. Please enter a new name.</string>
     <string name="le_installed">Installed</string>
     <string name="le_un_installed">UnInstalled</string>
+    <string name="le_unzip_to_mobile">Extract to root directory</string>
+    <string name="le_imgdir_des">%1$s\u0009%2$s</string>
+    <string name="unzip_passwoed_exception">password is incorrect</string>
     <string name="base_theme">holo_light</string>
 </resources>

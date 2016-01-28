@@ -4,7 +4,7 @@
     <string name="mobile_network_warning_dialog">Watching via 2G/3G/4G will incur data fees</string>
     <string name="playing_under_mobile_network">You are using a 2G/3G/4G connection</string>
     <string name="player_network_none">No network found. Please check your connection and try again.</string>
-    <string name="player_network_change_to_wifi">You are using a WiFi connection</string>
+    <string name="player_network_change_to_wifi">You are using a Wi-Fi connection</string>
     <string name="cancel_play">Stop</string>
     <string name="player_refresh_and_retry">Refresh</string>
     <string name="continue_play">Resume</string>
@@ -128,6 +128,7 @@ Use headphones to enjoy a more realistic sound"</string>
     <string name="alarm_notify_snooze_label">%s (snoozed)</string>
     <string name="alarm_notify_snooze_text">Alarm set for %s. Touch to cancel.</string>
     <string name="volume_button_setting_title">Volume buttons</string>
+    <string name="volume_button_setting_dialog_title">Volume buttons</string>
     <string name="volume_button_dialog_title">Button effect</string>
     <string name="default_ringtone_setting_title">Set default ringtone</string>
     <string name="alarm_button_description">Alarms</string>
@@ -472,4 +473,7 @@ Use headphones to enjoy a more realistic sound"</string>
     <string name="choose_clock_store_for_later_set">Add ringtone to favorites for setting later</string>
     <string name="choose_clock_ok">Confirm</string>
     <string name="le_alarm_label_limit_max_toast">Maximum number of words have been reached</string>
+    <string name="le_keyguard_alert_snooze_tip">snooze</string>
+    <string name="le_keyguard_alert_slide_tip">slide up to shut down</string>
+    <string name="le_deskclock_licence_title">时钟服务</string>
 </resources>

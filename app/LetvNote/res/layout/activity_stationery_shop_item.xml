@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="172.0dip" android:layout_height="256.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/stationery_shop_image_item" android:background="@drawable/bg_shadow" android:layout_width="172.0dip" android:layout_height="256.0dip" android:scaleType="fitXY" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/title_bottom_layout" android:background="@drawable/letv_selector_title_bg" android:layout_width="172.0dip" android:layout_height="34.0dip" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/tv_stationery_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/grid_item_title_text" />
+        <ImageView android:id="@id/ic_down_icon" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/tv_progressNum" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/waiting_download" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/grid_item_title_text" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/pb_downprogress" android:visibility="gone" android:layout_width="172.0dip" android:layout_height="34.0dip" android:max="100" android:progress="0" android:indeterminateOnly="false" android:progressDrawable="@drawable/letv_progressbar_bg" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleHorizontal" />
+</RelativeLayout>

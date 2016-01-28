@@ -183,29 +183,46 @@
     <public type="drawable" name="abc_switch_thumb_material" id="0x7f02002a" />
     <public type="drawable" name="abc_tab_indicator_material" id="0x7f02002c" />
     <public type="drawable" name="abc_textfield_search_material" id="0x7f020032" />
-    <public type="drawable" name="blank_page_svg" id="0x7f020036" />
-    <public type="drawable" name="edittext_selector" id="0x7f02003d" />
-    <public type="drawable" name="enter_calendar_svg" id="0x7f02003e" />
-    <public type="drawable" name="enter_mail_svg" id="0x7f02003f" />
-    <public type="drawable" name="keyguard_alert_op_bg" id="0x7f020042" />
-    <public type="drawable" name="keyguard_snooze_bg" id="0x7f020043" />
-    <public type="drawable" name="le_after_remend_svg" id="0x7f020044" />
-    <public type="drawable" name="le_bar_bg_top" id="0x7f020045" />
-    <public type="drawable" name="le_delete_svg" id="0x7f020046" />
-    <public type="drawable" name="le_group_svg" id="0x7f020047" />
-    <public type="drawable" name="le_new_svg" id="0x7f020048" />
-    <public type="drawable" name="le_remend_svg" id="0x7f020049" />
-    <public type="drawable" name="le_selected" id="0x7f02004a" />
-    <public type="drawable" name="le_share_svg" id="0x7f02004b" />
-    <public type="drawable" name="le_swipe_delete_svg" id="0x7f02004c" />
-    <public type="drawable" name="le_top_btn_icon_cancel_svg" id="0x7f02004d" />
-    <public type="drawable" name="le_top_btn_icon_reback_svg" id="0x7f02004e" />
-    <public type="drawable" name="le_top_icon_find_svg" id="0x7f02004f" />
-    <public type="drawable" name="list_selector_background_transition_holo_light" id="0x7f020053" />
-    <public type="drawable" name="list_selector_holo" id="0x7f020055" />
-    <public type="drawable" name="list_selector_selected" id="0x7f020056" />
-    <public type="drawable" name="widget_background" id="0x7f020063" />
-    <public type="drawable" name="widget_bottom_background" id="0x7f020064" />
+    <public type="drawable" name="blank_page_svg" id="0x7f020038" />
+    <public type="drawable" name="button_orange_normal" id="0x7f020039" />
+    <public type="drawable" name="button_orange_pressed" id="0x7f02003a" />
+    <public type="drawable" name="edittext_selector" id="0x7f020046" />
+    <public type="drawable" name="enter_calendar_svg" id="0x7f020047" />
+    <public type="drawable" name="enter_mail_svg" id="0x7f020048" />
+    <public type="drawable" name="enter_stationery_manager" id="0x7f020049" />
+    <public type="drawable" name="enter_stationery_shop" id="0x7f02004a" />
+    <public type="drawable" name="ic_sort" id="0x7f02004e" />
+    <public type="drawable" name="keyguard_alert_op_bg" id="0x7f02004f" />
+    <public type="drawable" name="keyguard_snooze_bg" id="0x7f020050" />
+    <public type="drawable" name="le_after_remend_svg" id="0x7f020051" />
+    <public type="drawable" name="le_bar_bg_top" id="0x7f020052" />
+    <public type="drawable" name="le_change_stationery_svg" id="0x7f020053" />
+    <public type="drawable" name="le_delete_svg" id="0x7f020054" />
+    <public type="drawable" name="le_move_svg" id="0x7f020055" />
+    <public type="drawable" name="le_new_svg" id="0x7f020056" />
+    <public type="drawable" name="le_preview_disable_svg" id="0x7f020057" />
+    <public type="drawable" name="le_preview_svg" id="0x7f020058" />
+    <public type="drawable" name="le_remend_svg" id="0x7f020059" />
+    <public type="drawable" name="le_save_picture_svg" id="0x7f02005a" />
+    <public type="drawable" name="le_selected" id="0x7f02005b" />
+    <public type="drawable" name="le_share_picture_svg" id="0x7f02005c" />
+    <public type="drawable" name="le_share_svg" id="0x7f02005d" />
+    <public type="drawable" name="le_swipe_delete_svg" id="0x7f02005e" />
+    <public type="drawable" name="le_top_btn_icon_cancel_svg" id="0x7f02005f" />
+    <public type="drawable" name="le_top_btn_icon_edit" id="0x7f020060" />
+    <public type="drawable" name="le_top_btn_icon_edit_disable" id="0x7f020061" />
+    <public type="drawable" name="le_top_btn_icon_reback_svg" id="0x7f020062" />
+    <public type="drawable" name="le_top_icon_find_svg" id="0x7f020063" />
+    <public type="drawable" name="letv_progressbar_bg" id="0x7f020064" />
+    <public type="drawable" name="letv_selector_title_bg" id="0x7f020065" />
+    <public type="drawable" name="list_selector_background_transition_holo_light" id="0x7f020069" />
+    <public type="drawable" name="list_selector_holo" id="0x7f02006b" />
+    <public type="drawable" name="list_selector_selected" id="0x7f02006c" />
+    <public type="drawable" name="saved" id="0x7f020075" />
+    <public type="drawable" name="selector_button_bg" id="0x7f020077" />
+    <public type="drawable" name="unsaved" id="0x7f020080" />
+    <public type="drawable" name="widget_background" id="0x7f020081" />
+    <public type="drawable" name="widget_bottom_background" id="0x7f020082" />
     <public type="drawable" name="abc_ab_share_pack_holo_dark" id="0x7f020000" />
     <public type="drawable" name="abc_ab_share_pack_holo_light" id="0x7f020001" />
     <public type="drawable" name="abc_btn_check_to_on_mtrl_000" id="0x7f020003" />
@@ -243,33 +260,46 @@
     <public type="drawable" name="abc_textfield_default_mtrl_alpha" id="0x7f02002f" />
     <public type="drawable" name="abc_textfield_search_activated_mtrl_alpha" id="0x7f020030" />
     <public type="drawable" name="abc_textfield_search_default_mtrl_alpha" id="0x7f020031" />
-    <public type="drawable" name="ic_launcher_note" id="0x7f020040" />
+    <public type="drawable" name="ic_launcher_note" id="0x7f02004c" />
     <public type="drawable" name="arrow_left" id="0x7f020034" />
     <public type="drawable" name="arrow_right" id="0x7f020035" />
-    <public type="drawable" name="choose" id="0x7f020037" />
-    <public type="drawable" name="delete" id="0x7f020039" />
-    <public type="drawable" name="edit" id="0x7f02003c" />
-    <public type="drawable" name="ic_menu" id="0x7f020041" />
-    <public type="drawable" name="radiobtn" id="0x7f02005c" />
-    <public type="drawable" name="search" id="0x7f02005d" />
-    <public type="drawable" name="share" id="0x7f02005e" />
+    <public type="drawable" name="choose" id="0x7f02003b" />
+    <public type="drawable" name="delete" id="0x7f020040" />
+    <public type="drawable" name="edit" id="0x7f020045" />
+    <public type="drawable" name="ic_menu" id="0x7f02004d" />
+    <public type="drawable" name="radiobtn" id="0x7f020074" />
+    <public type="drawable" name="search" id="0x7f020076" />
+    <public type="drawable" name="share" id="0x7f020078" />
     <public type="drawable" name="add" id="0x7f020033" />
-    <public type="drawable" name="count_background" id="0x7f020038" />
-    <public type="drawable" name="delete_btn" id="0x7f02003a" />
-    <public type="drawable" name="detail_note_image_bg" id="0x7f02003b" />
-    <public type="drawable" name="list_focused_holo" id="0x7f020050" />
-    <public type="drawable" name="list_longpressed_holo_light" id="0x7f020051" />
-    <public type="drawable" name="list_pressed_holo_light" id="0x7f020052" />
-    <public type="drawable" name="list_selector_disabled_holo_light" id="0x7f020054" />
-    <public type="drawable" name="loading_bg" id="0x7f020057" />
-    <public type="drawable" name="note_edit_add_image" id="0x7f020058" />
-    <public type="drawable" name="note_list_alarm" id="0x7f020059" />
-    <public type="drawable" name="note_list_picture" id="0x7f02005a" />
-    <public type="drawable" name="notebook" id="0x7f02005b" />
-    <public type="drawable" name="share_background" id="0x7f02005f" />
-    <public type="drawable" name="share_line" id="0x7f020060" />
-    <public type="drawable" name="share_note_image_bg" id="0x7f020061" />
-    <public type="drawable" name="share_square" id="0x7f020062" />
+    <public type="drawable" name="arrow_right_svg" id="0x7f020036" />
+    <public type="drawable" name="bg_shadow" id="0x7f020037" />
+    <public type="drawable" name="count_background" id="0x7f02003c" />
+    <public type="drawable" name="default_stationery_body" id="0x7f02003d" />
+    <public type="drawable" name="default_stationery_footer" id="0x7f02003e" />
+    <public type="drawable" name="default_stationery_thumb" id="0x7f02003f" />
+    <public type="drawable" name="delete_btn" id="0x7f020041" />
+    <public type="drawable" name="detail_note_image_bg" id="0x7f020042" />
+    <public type="drawable" name="download" id="0x7f020043" />
+    <public type="drawable" name="downloaded" id="0x7f020044" />
+    <public type="drawable" name="ic_delete" id="0x7f02004b" />
+    <public type="drawable" name="list_focused_holo" id="0x7f020066" />
+    <public type="drawable" name="list_longpressed_holo_light" id="0x7f020067" />
+    <public type="drawable" name="list_pressed_holo_light" id="0x7f020068" />
+    <public type="drawable" name="list_selector_disabled_holo_light" id="0x7f02006a" />
+    <public type="drawable" name="loading_bg" id="0x7f02006d" />
+    <public type="drawable" name="loading_stationery_bg" id="0x7f02006e" />
+    <public type="drawable" name="note_edit_add_image" id="0x7f02006f" />
+    <public type="drawable" name="note_list_alarm" id="0x7f020070" />
+    <public type="drawable" name="note_list_picture" id="0x7f020071" />
+    <public type="drawable" name="notebook" id="0x7f020072" />
+    <public type="drawable" name="queue_icon_weibo" id="0x7f020073" />
+    <public type="drawable" name="share_background" id="0x7f020079" />
+    <public type="drawable" name="share_line" id="0x7f02007a" />
+    <public type="drawable" name="share_note_image_bg" id="0x7f02007b" />
+    <public type="drawable" name="share_square" id="0x7f02007c" />
+    <public type="drawable" name="stat_done" id="0x7f02007d" />
+    <public type="drawable" name="stat_failed" id="0x7f02007e" />
+    <public type="drawable" name="stat_send" id="0x7f02007f" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f030000" />
     <public type="layout" name="abc_action_bar_up_container" id="0x7f030001" />
     <public type="layout" name="abc_action_bar_view_list_nav_layout" id="0x7f030002" />
@@ -293,37 +323,49 @@
     <public type="layout" name="abc_search_dropdown_item_icons_2line" id="0x7f030014" />
     <public type="layout" name="abc_search_view" id="0x7f030015" />
     <public type="layout" name="abc_simple_dropdown_hint" id="0x7f030016" />
-    <public type="layout" name="activity_alarm" id="0x7f030017" />
-    <public type="layout" name="activity_note_edit" id="0x7f030018" />
-    <public type="layout" name="activity_note_list" id="0x7f030019" />
-    <public type="layout" name="activity_note_main" id="0x7f03001a" />
-    <public type="layout" name="activity_note_twopane" id="0x7f03001b" />
-    <public type="layout" name="activity_search_note_list" id="0x7f03001c" />
-    <public type="layout" name="activity_share" id="0x7f03001d" />
-    <public type="layout" name="activity_share_weibo" id="0x7f03001e" />
-    <public type="layout" name="delete_loading_view" id="0x7f03001f" />
-    <public type="layout" name="delete_popup_window" id="0x7f030020" />
-    <public type="layout" name="detail_note_header" id="0x7f030021" />
-    <public type="layout" name="detail_note_item_edittext" id="0x7f030022" />
-    <public type="layout" name="detail_note_item_image" id="0x7f030023" />
-    <public type="layout" name="dialog_edittext" id="0x7f030024" />
-    <public type="layout" name="drawerlayout" id="0x7f030025" />
-    <public type="layout" name="fragment_note_edit" id="0x7f030026" />
-    <public type="layout" name="fragment_note_edit1" id="0x7f030027" />
-    <public type="layout" name="fragment_note_list" id="0x7f030028" />
-    <public type="layout" name="fragment_notebook" id="0x7f030029" />
-    <public type="layout" name="keyguard_alert_activity" id="0x7f03002a" />
-    <public type="layout" name="note_item_footer" id="0x7f03002b" />
-    <public type="layout" name="note_list_item" id="0x7f03002c" />
-    <public type="layout" name="notebook_item" id="0x7f03002d" />
-    <public type="layout" name="notebook_item_footer" id="0x7f03002e" />
-    <public type="layout" name="notebook_selection_dialog_list" id="0x7f03002f" />
-    <public type="layout" name="notebook_selection_item" id="0x7f030030" />
-    <public type="layout" name="notebook_selection_item_footer" id="0x7f030031" />
-    <public type="layout" name="search_action_bar" id="0x7f030032" />
-    <public type="layout" name="slidingmenu" id="0x7f030033" />
-    <public type="layout" name="support_simple_spinner_dropdown_item" id="0x7f030034" />
-    <public type="layout" name="widget" id="0x7f030035" />
+    <public type="layout" name="action_bar_layout" id="0x7f030017" />
+    <public type="layout" name="activity_alarm" id="0x7f030018" />
+    <public type="layout" name="activity_main" id="0x7f030019" />
+    <public type="layout" name="activity_note_edit" id="0x7f03001a" />
+    <public type="layout" name="activity_note_list" id="0x7f03001b" />
+    <public type="layout" name="activity_note_main" id="0x7f03001c" />
+    <public type="layout" name="activity_note_twopane" id="0x7f03001d" />
+    <public type="layout" name="activity_search_note_list" id="0x7f03001e" />
+    <public type="layout" name="activity_share" id="0x7f03001f" />
+    <public type="layout" name="activity_share_weibo" id="0x7f030020" />
+    <public type="layout" name="activity_stationery_manager" id="0x7f030021" />
+    <public type="layout" name="activity_stationery_manager_item" id="0x7f030022" />
+    <public type="layout" name="activity_stationery_note_select_activity" id="0x7f030023" />
+    <public type="layout" name="activity_stationery_shop" id="0x7f030024" />
+    <public type="layout" name="activity_stationery_shop_item" id="0x7f030025" />
+    <public type="layout" name="activity_stationrey_preview" id="0x7f030026" />
+    <public type="layout" name="bubble_title1" id="0x7f030027" />
+    <public type="layout" name="delete_loading_view" id="0x7f030028" />
+    <public type="layout" name="delete_popup_window" id="0x7f030029" />
+    <public type="layout" name="detail_note_header" id="0x7f03002a" />
+    <public type="layout" name="detail_note_item_edittext" id="0x7f03002b" />
+    <public type="layout" name="detail_note_item_image" id="0x7f03002c" />
+    <public type="layout" name="dialog_edittext" id="0x7f03002d" />
+    <public type="layout" name="drawerlayout" id="0x7f03002e" />
+    <public type="layout" name="fragment_note_edit" id="0x7f03002f" />
+    <public type="layout" name="fragment_note_edit1" id="0x7f030030" />
+    <public type="layout" name="fragment_note_list" id="0x7f030031" />
+    <public type="layout" name="fragment_notebook" id="0x7f030032" />
+    <public type="layout" name="immediately_share_actionbar_layout" id="0x7f030033" />
+    <public type="layout" name="keyguard_alert_activity" id="0x7f030034" />
+    <public type="layout" name="note_item_footer" id="0x7f030035" />
+    <public type="layout" name="note_list_item" id="0x7f030036" />
+    <public type="layout" name="notebook_item" id="0x7f030037" />
+    <public type="layout" name="notebook_item_footer" id="0x7f030038" />
+    <public type="layout" name="notebook_selection_dialog_list" id="0x7f030039" />
+    <public type="layout" name="notebook_selection_item" id="0x7f03003a" />
+    <public type="layout" name="notebook_selection_item_footer" id="0x7f03003b" />
+    <public type="layout" name="search_action_bar" id="0x7f03003c" />
+    <public type="layout" name="share_stationery_dialog_list" id="0x7f03003d" />
+    <public type="layout" name="share_stationery_list_item" id="0x7f03003e" />
+    <public type="layout" name="slidingmenu" id="0x7f03003f" />
+    <public type="layout" name="support_simple_spinner_dropdown_item" id="0x7f030040" />
+    <public type="layout" name="widget" id="0x7f030041" />
     <public type="anim" name="abc_fade_in" id="0x7f040000" />
     <public type="anim" name="abc_fade_out" id="0x7f040001" />
     <public type="anim" name="abc_slide_in_bottom" id="0x7f040002" />
@@ -397,56 +439,64 @@
     <public type="color" name="material_blue_grey_950" id="0x7f070030" />
     <public type="color" name="slidingmenu_background" id="0x7f070031" />
     <public type="color" name="main" id="0x7f070032" />
-    <public type="color" name="actionbar_title" id="0x7f070033" />
-    <public type="color" name="actionbar_background" id="0x7f070034" />
-    <public type="color" name="actionbar_background_border" id="0x7f070035" />
-    <public type="color" name="bottomwidget_background" id="0x7f070036" />
-    <public type="color" name="bottomwidget_divider" id="0x7f070037" />
-    <public type="color" name="note_actionbar_title" id="0x7f070038" />
-    <public type="color" name="time" id="0x7f070039" />
-    <public type="color" name="add_notebook" id="0x7f07003a" />
-    <public type="color" name="notebook_text" id="0x7f07003b" />
-    <public type="color" name="notebook_count" id="0x7f07003c" />
-    <public type="color" name="notebook_text_pressed" id="0x7f07003d" />
-    <public type="color" name="note_list_time" id="0x7f07003e" />
-    <public type="color" name="note_list_content" id="0x7f07003f" />
-    <public type="color" name="note_background" id="0x7f070040" />
-    <public type="color" name="delete_button_background" id="0x7f070041" />
-    <public type="color" name="divider_color" id="0x7f070042" />
-    <public type="color" name="delete_note_text" id="0x7f070043" />
-    <public type="color" name="popup_background" id="0x7f070044" />
-    <public type="color" name="note_edittext" id="0x7f070045" />
-    <public type="color" name="note_edittext_notebook" id="0x7f070046" />
-    <public type="color" name="notebook_top_divider" id="0x7f070047" />
-    <public type="color" name="content_buttom_bgcolor" id="0x7f070048" />
-    <public type="color" name="transparent" id="0x7f070049" />
-    <public type="color" name="drawerlayout" id="0x7f07004a" />
-    <public type="color" name="list_selector_selected" id="0x7f07004b" />
-    <public type="color" name="share_picture_background" id="0x7f07004c" />
-    <public type="color" name="picture_background" id="0x7f07004d" />
-    <public type="color" name="keyguard_alert_mask_bg" id="0x7f07004e" />
-    <public type="color" name="keyguard_alert_op_bg_begin" id="0x7f07004f" />
-    <public type="color" name="keyguard_alert_op_bg_end" id="0x7f070050" />
-    <public type="color" name="keyguard_alert_snooze_bg_pressed" id="0x7f070051" />
-    <public type="color" name="keyguard_alert_snooze_text_color" id="0x7f070052" />
-    <public type="color" name="keyguard_alert_time_text_color" id="0x7f070053" />
-    <public type="color" name="keyguard_alert_label_text_color" id="0x7f070054" />
-    <public type="color" name="keyguard_alert_triangle_color" id="0x7f070055" />
-    <public type="color" name="widget_background" id="0x7f070056" />
-    <public type="color" name="widget_bottom_background" id="0x7f070057" />
-    <public type="color" name="widget_text_color" id="0x7f070058" />
-    <public type="color" name="le_loading_view_background" id="0x7f070059" />
-    <public type="color" name="share_weibo_text_limit" id="0x7f07005a" />
-    <public type="color" name="share_weibo_text_beyond" id="0x7f07005b" />
-    <public type="color" name="abc_background_cache_hint_selector_material_dark" id="0x7f07005c" />
-    <public type="color" name="abc_background_cache_hint_selector_material_light" id="0x7f07005d" />
-    <public type="color" name="abc_primary_text_disable_only_material_dark" id="0x7f07005e" />
-    <public type="color" name="abc_primary_text_disable_only_material_light" id="0x7f07005f" />
-    <public type="color" name="abc_primary_text_material_dark" id="0x7f070060" />
-    <public type="color" name="abc_primary_text_material_light" id="0x7f070061" />
-    <public type="color" name="abc_search_url_text" id="0x7f070062" />
-    <public type="color" name="abc_secondary_text_material_dark" id="0x7f070063" />
-    <public type="color" name="abc_secondary_text_material_light" id="0x7f070064" />
+    <public type="color" name="main_disable" id="0x7f070033" />
+    <public type="color" name="main_progress" id="0x7f070034" />
+    <public type="color" name="bw_color" id="0x7f070035" />
+    <public type="color" name="actionbar_title" id="0x7f070036" />
+    <public type="color" name="actionbar_background" id="0x7f070037" />
+    <public type="color" name="actionbar_background_border" id="0x7f070038" />
+    <public type="color" name="bottomwidget_background" id="0x7f070039" />
+    <public type="color" name="bottomwidget_divider" id="0x7f07003a" />
+    <public type="color" name="note_actionbar_title" id="0x7f07003b" />
+    <public type="color" name="time" id="0x7f07003c" />
+    <public type="color" name="add_notebook" id="0x7f07003d" />
+    <public type="color" name="notebook_text" id="0x7f07003e" />
+    <public type="color" name="notebook_count" id="0x7f07003f" />
+    <public type="color" name="notebook_text_pressed" id="0x7f070040" />
+    <public type="color" name="note_list_time" id="0x7f070041" />
+    <public type="color" name="note_list_content" id="0x7f070042" />
+    <public type="color" name="note_background" id="0x7f070043" />
+    <public type="color" name="delete_button_background" id="0x7f070044" />
+    <public type="color" name="divider_color" id="0x7f070045" />
+    <public type="color" name="delete_note_text" id="0x7f070046" />
+    <public type="color" name="popup_background" id="0x7f070047" />
+    <public type="color" name="note_edittext" id="0x7f070048" />
+    <public type="color" name="note_edittext_notebook" id="0x7f070049" />
+    <public type="color" name="notebook_top_divider" id="0x7f07004a" />
+    <public type="color" name="content_buttom_bgcolor" id="0x7f07004b" />
+    <public type="color" name="transparent" id="0x7f07004c" />
+    <public type="color" name="drawerlayout" id="0x7f07004d" />
+    <public type="color" name="list_selector_selected" id="0x7f07004e" />
+    <public type="color" name="share_picture_background" id="0x7f07004f" />
+    <public type="color" name="picture_background" id="0x7f070050" />
+    <public type="color" name="keyguard_alert_mask_bg" id="0x7f070051" />
+    <public type="color" name="keyguard_alert_op_bg_begin" id="0x7f070052" />
+    <public type="color" name="keyguard_alert_op_bg_end" id="0x7f070053" />
+    <public type="color" name="keyguard_alert_snooze_bg_pressed" id="0x7f070054" />
+    <public type="color" name="keyguard_alert_snooze_text_color" id="0x7f070055" />
+    <public type="color" name="keyguard_alert_time_text_color" id="0x7f070056" />
+    <public type="color" name="keyguard_alert_label_text_color" id="0x7f070057" />
+    <public type="color" name="keyguard_alert_triangle_color" id="0x7f070058" />
+    <public type="color" name="widget_background" id="0x7f070059" />
+    <public type="color" name="widget_bottom_background" id="0x7f07005a" />
+    <public type="color" name="widget_text_color" id="0x7f07005b" />
+    <public type="color" name="le_loading_view_background" id="0x7f07005c" />
+    <public type="color" name="share_weibo_text_limit" id="0x7f07005d" />
+    <public type="color" name="share_weibo_text_beyond" id="0x7f07005e" />
+    <public type="color" name="stationery_item_text_color" id="0x7f07005f" />
+    <public type="color" name="rect_for_image" id="0x7f070060" />
+    <public type="color" name="title_bg_normal" id="0x7f070061" />
+    <public type="color" name="title_bg_press" id="0x7f070062" />
+    <public type="color" name="abc_background_cache_hint_selector_material_dark" id="0x7f070063" />
+    <public type="color" name="abc_background_cache_hint_selector_material_light" id="0x7f070064" />
+    <public type="color" name="abc_primary_text_disable_only_material_dark" id="0x7f070065" />
+    <public type="color" name="abc_primary_text_disable_only_material_light" id="0x7f070066" />
+    <public type="color" name="abc_primary_text_material_dark" id="0x7f070067" />
+    <public type="color" name="abc_primary_text_material_light" id="0x7f070068" />
+    <public type="color" name="abc_search_url_text" id="0x7f070069" />
+    <public type="color" name="abc_secondary_text_material_dark" id="0x7f07006a" />
+    <public type="color" name="abc_secondary_text_material_light" id="0x7f07006b" />
+    <public type="color" name="color_blankpage_button" id="0x7f07006c" />
     <public type="dimen" name="disabled_alpha_material_light" id="0x7f080000" />
     <public type="dimen" name="disabled_alpha_material_dark" id="0x7f080001" />
     <public type="dimen" name="abc_config_prefDialogWidth" id="0x7f080002" />
@@ -558,6 +608,20 @@
     <public type="dimen" name="share_weibo_image_margin_text" id="0x7f08006c" />
     <public type="dimen" name="share_weibo_image_width" id="0x7f08006d" />
     <public type="dimen" name="share_weibo_text_limit" id="0x7f08006e" />
+    <public type="dimen" name="share_stationery_horizontal_list_height" id="0x7f08006f" />
+    <public type="dimen" name="stationery_item_delete_size" id="0x7f080070" />
+    <public type="dimen" name="stationery_item_delete_padding" id="0x7f080071" />
+    <public type="dimen" name="stationery_item_sort_size" id="0x7f080072" />
+    <public type="dimen" name="stationery_item_sort_padding" id="0x7f080073" />
+    <public type="dimen" name="thumb_item_left_padding" id="0x7f080074" />
+    <public type="dimen" name="thumb_item_width" id="0x7f080075" />
+    <public type="dimen" name="thumb_item_height" id="0x7f080076" />
+    <public type="dimen" name="thumb_item_right_padding" id="0x7f080077" />
+    <public type="dimen" name="stationery_item_height" id="0x7f080078" />
+    <public type="dimen" name="activity_horizontal_margin" id="0x7f080079" />
+    <public type="dimen" name="activity_vertical_margin" id="0x7f08007a" />
+    <public type="dimen" name="cursorWidth" id="0x7f08007b" />
+    <public type="dimen" name="stationery_list_item_dialog" id="0x7f08007c" />
     <public type="integer" name="abc_max_action_buttons" id="0x7f090000" />
     <public type="id" name="home" id="0x7f0a0000" />
     <public type="id" name="up" id="0x7f0a0001" />
@@ -624,85 +688,115 @@
     <public type="id" name="submit_area" id="0x7f0a003e" />
     <public type="id" name="search_go_btn" id="0x7f0a003f" />
     <public type="id" name="search_voice_btn" id="0x7f0a0040" />
-    <public type="id" name="alarm_content" id="0x7f0a0041" />
-    <public type="id" name="alarm_date_time_wheel" id="0x7f0a0042" />
-    <public type="id" name="divider" id="0x7f0a0043" />
-    <public type="id" name="time_label" id="0x7f0a0044" />
-    <public type="id" name="bottom_widget" id="0x7f0a0045" />
-    <public type="id" name="root_layout" id="0x7f0a0046" />
-    <public type="id" name="note_edit_container" id="0x7f0a0047" />
-    <public type="id" name="note_edit_add_image" id="0x7f0a0048" />
-    <public type="id" name="note_list" id="0x7f0a0049" />
-    <public type="id" name="content_masker" id="0x7f0a004a" />
-    <public type="id" name="search_masker" id="0x7f0a004b" />
-    <public type="id" name="slidingmenu" id="0x7f0a004c" />
-    <public type="id" name="top_divider" id="0x7f0a004d" />
-    <public type="id" name="scrollView" id="0x7f0a004e" />
-    <public type="id" name="share_image" id="0x7f0a004f" />
-    <public type="id" name="sv_edit" id="0x7f0a0050" />
-    <public type="id" name="share_edit" id="0x7f0a0051" />
-    <public type="id" name="text_limit_tv" id="0x7f0a0052" />
-    <public type="id" name="load_background_view" id="0x7f0a0053" />
-    <public type="id" name="llv" id="0x7f0a0054" />
-    <public type="id" name="delete_note" id="0x7f0a0055" />
-    <public type="id" name="note_modified_time" id="0x7f0a0056" />
-    <public type="id" name="detail_note_editor_layout" id="0x7f0a0057" />
-    <public type="id" name="detail_note_editor" id="0x7f0a0058" />
-    <public type="id" name="detail_note_image_layout" id="0x7f0a0059" />
-    <public type="id" name="detail_note_image_content" id="0x7f0a005a" />
-    <public type="id" name="detail_note_image" id="0x7f0a005b" />
-    <public type="id" name="notebook_edit" id="0x7f0a005c" />
+    <public type="id" name="tv_actionbar_done" id="0x7f0a0041" />
+    <public type="id" name="alarm_content" id="0x7f0a0042" />
+    <public type="id" name="alarm_date_time_wheel" id="0x7f0a0043" />
+    <public type="id" name="divider" id="0x7f0a0044" />
+    <public type="id" name="time_label" id="0x7f0a0045" />
+    <public type="id" name="bottom_widget" id="0x7f0a0046" />
+    <public type="id" name="my_recycler_view" id="0x7f0a0047" />
+    <public type="id" name="root_layout" id="0x7f0a0048" />
+    <public type="id" name="note_edit_container" id="0x7f0a0049" />
+    <public type="id" name="note_edit_add_image" id="0x7f0a004a" />
+    <public type="id" name="note_list" id="0x7f0a004b" />
+    <public type="id" name="content_masker" id="0x7f0a004c" />
+    <public type="id" name="search_masker" id="0x7f0a004d" />
+    <public type="id" name="slidingmenu" id="0x7f0a004e" />
+    <public type="id" name="top_divider" id="0x7f0a004f" />
+    <public type="id" name="bp_blank" id="0x7f0a0050" />
+    <public type="id" name="scrollView" id="0x7f0a0051" />
+    <public type="id" name="share_image" id="0x7f0a0052" />
+    <public type="id" name="sv_edit" id="0x7f0a0053" />
+    <public type="id" name="share_edit" id="0x7f0a0054" />
+    <public type="id" name="text_limit_tv" id="0x7f0a0055" />
+    <public type="id" name="lv_stationery_list" id="0x7f0a0056" />
+    <public type="id" name="stationery_item_sort" id="0x7f0a0057" />
+    <public type="id" name="stationery_item_delete" id="0x7f0a0058" />
+    <public type="id" name="stationery_content" id="0x7f0a0059" />
+    <public type="id" name="iv_image" id="0x7f0a005a" />
+    <public type="id" name="tv_name" id="0x7f0a005b" />
+    <public type="id" name="iv_arrow" id="0x7f0a005c" />
     <public type="id" name="drawer_layout" id="0x7f0a005d" />
-    <public type="id" name="left_layout" id="0x7f0a005e" />
-    <public type="id" name="fragment_sliding_menu_editor" id="0x7f0a005f" />
-    <public type="id" name="fragment_sliding_menu" id="0x7f0a0060" />
-    <public type="id" name="note_edit" id="0x7f0a0061" />
-    <public type="id" name="LoadingView" id="0x7f0a0062" />
-    <public type="id" name="note_edit_list" id="0x7f0a0063" />
-    <public type="id" name="empty_list_view" id="0x7f0a0064" />
-    <public type="id" name="note_list_fragment" id="0x7f0a0065" />
-    <public type="id" name="back" id="0x7f0a0066" />
-    <public type="id" name="front" id="0x7f0a0067" />
-    <public type="id" name="notebookList_container" id="0x7f0a0068" />
-    <public type="id" name="notebookList" id="0x7f0a0069" />
-    <public type="id" name="keyguard_alert_cover" id="0x7f0a006a" />
-    <public type="id" name="keyguard_alert_activity" id="0x7f0a006b" />
-    <public type="id" name="keyguard_alert_cancel" id="0x7f0a006c" />
-    <public type="id" name="keyguard_alert_info_container" id="0x7f0a006d" />
-    <public type="id" name="keyguard_alert_triangle" id="0x7f0a006e" />
-    <public type="id" name="keyguard_alert_label" id="0x7f0a006f" />
-    <public type="id" name="NotebookHeader" id="0x7f0a0070" />
-    <public type="id" name="delete" id="0x7f0a0071" />
-    <public type="id" name="alarm_view" id="0x7f0a0072" />
-    <public type="id" name="note_content" id="0x7f0a0073" />
-    <public type="id" name="picture_view" id="0x7f0a0074" />
-    <public type="id" name="note_time" id="0x7f0a0075" />
-    <public type="id" name="checkbox_delete" id="0x7f0a0076" />
-    <public type="id" name="modifyView" id="0x7f0a0077" />
-    <public type="id" name="count" id="0x7f0a0078" />
-    <public type="id" name="editView" id="0x7f0a0079" />
-    <public type="id" name="choose" id="0x7f0a007a" />
-    <public type="id" name="addNotebookView" id="0x7f0a007b" />
-    <public type="id" name="list" id="0x7f0a007c" />
-    <public type="id" name="notebook_name" id="0x7f0a007d" />
-    <public type="id" name="search_view" id="0x7f0a007e" />
-    <public type="id" name="layout_widget" id="0x7f0a007f" />
-    <public type="id" name="txtContent" id="0x7f0a0080" />
-    <public type="id" name="txtDate" id="0x7f0a0081" />
-    <public type="id" name="menu_alarm" id="0x7f0a0082" />
-    <public type="id" name="menu_meeting" id="0x7f0a0083" />
-    <public type="id" name="menu_email" id="0x7f0a0084" />
-    <public type="id" name="menu_next" id="0x7f0a0085" />
-    <public type="id" name="menu_search" id="0x7f0a0086" />
-    <public type="id" name="menu_done" id="0x7f0a0087" />
-    <public type="id" name="menu_send" id="0x7f0a0088" />
-    <public type="id" name="menu_select" id="0x7f0a0089" />
-    <public type="id" name="menu_delete" id="0x7f0a008a" />
-    <public type="id" name="note_add_and_search" id="0x7f0a008b" />
-    <public type="id" name="menu_add" id="0x7f0a008c" />
-    <public type="id" name="notebook_cancel_and_save" id="0x7f0a008d" />
-    <public type="id" name="menu_cancel" id="0x7f0a008e" />
-    <public type="id" name="menu_save" id="0x7f0a008f" />
+    <public type="id" name="pull_refresh_grid" id="0x7f0a005e" />
+    <public type="id" name="stationery_shop_image_item" id="0x7f0a005f" />
+    <public type="id" name="title_bottom_layout" id="0x7f0a0060" />
+    <public type="id" name="tv_stationery_title" id="0x7f0a0061" />
+    <public type="id" name="ic_down_icon" id="0x7f0a0062" />
+    <public type="id" name="tv_progressNum" id="0x7f0a0063" />
+    <public type="id" name="pb_downprogress" id="0x7f0a0064" />
+    <public type="id" name="iv_preview" id="0x7f0a0065" />
+    <public type="id" name="layout_bottom" id="0x7f0a0066" />
+    <public type="id" name="layout_progress" id="0x7f0a0067" />
+    <public type="id" name="le_buttom_layout1_divideine" id="0x7f0a0068" />
+    <public type="id" name="btn_use_it" id="0x7f0a0069" />
+    <public type="id" name="load_background_view" id="0x7f0a006a" />
+    <public type="id" name="llv" id="0x7f0a006b" />
+    <public type="id" name="delete_note" id="0x7f0a006c" />
+    <public type="id" name="note_modified_time" id="0x7f0a006d" />
+    <public type="id" name="detail_note_editor_layout" id="0x7f0a006e" />
+    <public type="id" name="detail_note_editor" id="0x7f0a006f" />
+    <public type="id" name="detail_note_image_layout" id="0x7f0a0070" />
+    <public type="id" name="detail_note_image_content" id="0x7f0a0071" />
+    <public type="id" name="detail_note_image" id="0x7f0a0072" />
+    <public type="id" name="notebook_edit" id="0x7f0a0073" />
+    <public type="id" name="empty_position" id="0x7f0a0074" />
+    <public type="id" name="left_layout" id="0x7f0a0075" />
+    <public type="id" name="fragment_sliding_menu_editor" id="0x7f0a0076" />
+    <public type="id" name="fragment_sliding_menu" id="0x7f0a0077" />
+    <public type="id" name="note_edit" id="0x7f0a0078" />
+    <public type="id" name="LoadingView" id="0x7f0a0079" />
+    <public type="id" name="note_edit_list" id="0x7f0a007a" />
+    <public type="id" name="empty_list_view" id="0x7f0a007b" />
+    <public type="id" name="note_list_fragment" id="0x7f0a007c" />
+    <public type="id" name="back" id="0x7f0a007d" />
+    <public type="id" name="front" id="0x7f0a007e" />
+    <public type="id" name="notebookList_container" id="0x7f0a007f" />
+    <public type="id" name="notebookList" id="0x7f0a0080" />
+    <public type="id" name="tv_actionbar_title" id="0x7f0a0081" />
+    <public type="id" name="keyguard_alert_cover" id="0x7f0a0082" />
+    <public type="id" name="keyguard_alert_activity" id="0x7f0a0083" />
+    <public type="id" name="keyguard_alert_cancel" id="0x7f0a0084" />
+    <public type="id" name="keyguard_alert_info_container" id="0x7f0a0085" />
+    <public type="id" name="keyguard_alert_triangle" id="0x7f0a0086" />
+    <public type="id" name="keyguard_alert_label" id="0x7f0a0087" />
+    <public type="id" name="NotebookHeader" id="0x7f0a0088" />
+    <public type="id" name="delete" id="0x7f0a0089" />
+    <public type="id" name="alarm_view" id="0x7f0a008a" />
+    <public type="id" name="note_content" id="0x7f0a008b" />
+    <public type="id" name="picture_view" id="0x7f0a008c" />
+    <public type="id" name="note_time" id="0x7f0a008d" />
+    <public type="id" name="checkbox_delete" id="0x7f0a008e" />
+    <public type="id" name="modifyView" id="0x7f0a008f" />
+    <public type="id" name="count" id="0x7f0a0090" />
+    <public type="id" name="editView" id="0x7f0a0091" />
+    <public type="id" name="choose" id="0x7f0a0092" />
+    <public type="id" name="addNotebookView" id="0x7f0a0093" />
+    <public type="id" name="list" id="0x7f0a0094" />
+    <public type="id" name="notebook_name" id="0x7f0a0095" />
+    <public type="id" name="search_view" id="0x7f0a0096" />
+    <public type="id" name="iv_share_stationery_image" id="0x7f0a0097" />
+    <public type="id" name="ck_share_stationery_checkbox" id="0x7f0a0098" />
+    <public type="id" name="layout_widget" id="0x7f0a0099" />
+    <public type="id" name="txtContent" id="0x7f0a009a" />
+    <public type="id" name="txtDate" id="0x7f0a009b" />
+    <public type="id" name="menu_alarm" id="0x7f0a009c" />
+    <public type="id" name="menu_meeting" id="0x7f0a009d" />
+    <public type="id" name="menu_email" id="0x7f0a009e" />
+    <public type="id" name="menu_preview" id="0x7f0a009f" />
+    <public type="id" name="menu_next" id="0x7f0a00a0" />
+    <public type="id" name="menu_stationery_shop" id="0x7f0a00a1" />
+    <public type="id" name="menu_search" id="0x7f0a00a2" />
+    <public type="id" name="menu_done" id="0x7f0a00a3" />
+    <public type="id" name="menu_send" id="0x7f0a00a4" />
+    <public type="id" name="menu_stationery_mamager_edit" id="0x7f0a00a5" />
+    <public type="id" name="menu_stationery_mamager" id="0x7f0a00a6" />
+    <public type="id" name="menu_select" id="0x7f0a00a7" />
+    <public type="id" name="menu_delete" id="0x7f0a00a8" />
+    <public type="id" name="note_add_and_search" id="0x7f0a00a9" />
+    <public type="id" name="menu_add" id="0x7f0a00aa" />
+    <public type="id" name="notebook_cancel_and_save" id="0x7f0a00ab" />
+    <public type="id" name="menu_cancel" id="0x7f0a00ac" />
+    <public type="id" name="menu_save" id="0x7f0a00ad" />
     <public type="string" name="abc_action_mode_done" id="0x7f0b0000" />
     <public type="string" name="abc_action_bar_home_description" id="0x7f0b0001" />
     <public type="string" name="abc_action_bar_up_description" id="0x7f0b0002" />
@@ -791,41 +885,87 @@
     <public type="string" name="delete_alarm_label" id="0x7f0b0055" />
     <public type="string" name="empty_no_alarm_toast" id="0x7f0b0056" />
     <public type="string" name="event_detail" id="0x7f0b0057" />
-    <public type="string" name="add_picture_title" id="0x7f0b0058" />
-    <public type="string" name="edit_picture_title" id="0x7f0b0059" />
-    <public type="string" name="image_note" id="0x7f0b005a" />
-    <public type="string" name="database_upgrade_dialog_title" id="0x7f0b005b" />
-    <public type="string" name="database_upgrade_dialog_content" id="0x7f0b005c" />
-    <public type="string" name="database_upgrade_dialog_done" id="0x7f0b005d" />
-    <public type="string" name="image_format_not_support" id="0x7f0b005e" />
-    <public type="string" name="pattern_detail_today" id="0x7f0b005f" />
-    <public type="string" name="pattern_detail_today_12" id="0x7f0b0060" />
-    <public type="string" name="pattern_detail_tomorrow" id="0x7f0b0061" />
-    <public type="string" name="pattern_detail_tomorrow_12" id="0x7f0b0062" />
-    <public type="string" name="pattern_month_day" id="0x7f0b0063" />
-    <public type="string" name="note_tolarge_bottom_title" id="0x7f0b0064" />
-    <public type="string" name="note_tolarge_bottom_content" id="0x7f0b0065" />
-    <public type="string" name="notebook_tolarge_bottom_content" id="0x7f0b0066" />
-    <public type="string" name="delete_note_makesure_title" id="0x7f0b0067" />
-    <public type="string" name="delete_note_view_calendar_event" id="0x7f0b0068" />
-    <public type="string" name="delete_note_delete_calendar_event" id="0x7f0b0069" />
-    <public type="string" name="delete_note_cancel_calendar_event" id="0x7f0b006a" />
-    <public type="string" name="share_weibo_send" id="0x7f0b006b" />
-    <public type="string" name="share_weibo_hint" id="0x7f0b006c" />
-    <public type="string" name="send_success_toast" id="0x7f0b006d" />
-    <public type="string" name="send_fail_toast" id="0x7f0b006e" />
-    <public type="string" name="send_weibo_exceed" id="0x7f0b006f" />
-    <public type="string" name="sinaweibo_share_default_text" id="0x7f0b0070" />
-    <public type="string" name="share_exceed_140_long_weibo_share" id="0x7f0b0071" />
-    <public type="string" name="still_text_share" id="0x7f0b0072" />
-    <public type="string" name="title_count" id="0x7f0b0077" />
-    <public type="string" name="rename_note_books" id="0x7f0b0078" />
-    <public type="string" name="share_note_list" id="0x7f0b0079" />
-    <public type="string" name="title_none" id="0x7f0b007a" />
-    <public type="string" name="APKTOOL_DUMMY_0073" id="0x7f0b0073" />
-    <public type="string" name="APKTOOL_DUMMY_0074" id="0x7f0b0074" />
-    <public type="string" name="APKTOOL_DUMMY_0075" id="0x7f0b0075" />
-    <public type="string" name="APKTOOL_DUMMY_0076" id="0x7f0b0076" />
+    <public type="string" name="open_email" id="0x7f0b0058" />
+    <public type="string" name="preview_stationery" id="0x7f0b0059" />
+    <public type="string" name="add_picture_title" id="0x7f0b005a" />
+    <public type="string" name="edit_picture_title" id="0x7f0b005b" />
+    <public type="string" name="image_note" id="0x7f0b005c" />
+    <public type="string" name="database_upgrade_dialog_title" id="0x7f0b005d" />
+    <public type="string" name="database_upgrade_dialog_content" id="0x7f0b005e" />
+    <public type="string" name="database_upgrade_dialog_done" id="0x7f0b005f" />
+    <public type="string" name="image_format_not_support" id="0x7f0b0060" />
+    <public type="string" name="pattern_detail_today" id="0x7f0b0061" />
+    <public type="string" name="pattern_detail_today_12" id="0x7f0b0062" />
+    <public type="string" name="pattern_detail_tomorrow" id="0x7f0b0063" />
+    <public type="string" name="pattern_detail_tomorrow_12" id="0x7f0b0064" />
+    <public type="string" name="pattern_month_day" id="0x7f0b0065" />
+    <public type="string" name="note_tolarge_bottom_title" id="0x7f0b0066" />
+    <public type="string" name="note_tolarge_bottom_content" id="0x7f0b0067" />
+    <public type="string" name="notebook_tolarge_bottom_content" id="0x7f0b0068" />
+    <public type="string" name="delete_note_makesure_title" id="0x7f0b0069" />
+    <public type="string" name="delete_note_view_calendar_event" id="0x7f0b006a" />
+    <public type="string" name="delete_note_delete_calendar_event" id="0x7f0b006b" />
+    <public type="string" name="delete_note_cancel_calendar_event" id="0x7f0b006c" />
+    <public type="string" name="share_weibo_send" id="0x7f0b006d" />
+    <public type="string" name="share_weibo_hint" id="0x7f0b006e" />
+    <public type="string" name="sinaweibo_shareing" id="0x7f0b006f" />
+    <public type="string" name="sinaweibo_share_success" id="0x7f0b0070" />
+    <public type="string" name="sinaweibo_share_failed" id="0x7f0b0071" />
+    <public type="string" name="send_weibo_exceed" id="0x7f0b0072" />
+    <public type="string" name="sinaweibo_share_default_text" id="0x7f0b0073" />
+    <public type="string" name="share_exceed_140_long_weibo_share" id="0x7f0b0074" />
+    <public type="string" name="still_text_share" id="0x7f0b0075" />
+    <public type="string" name="manager_stationery_collection" id="0x7f0b0076" />
+    <public type="string" name="manager_stationery_edit" id="0x7f0b0077" />
+    <public type="string" name="manager_stationery_shop" id="0x7f0b0078" />
+    <public type="string" name="not_found_stationery" id="0x7f0b0079" />
+    <public type="string" name="note_content_empty" id="0x7f0b007a" />
+    <public type="string" name="note_immediately_share" id="0x7f0b007b" />
+    <public type="string" name="note_edit_immediately_share" id="0x7f0b007c" />
+    <public type="string" name="share_change_stationery" id="0x7f0b007d" />
+    <public type="string" name="share_save_stationery_pic" id="0x7f0b007e" />
+    <public type="string" name="share_share_stationery_pic" id="0x7f0b007f" />
+    <public type="string" name="my_stationery" id="0x7f0b0080" />
+    <public type="string" name="use_it_just_now" id="0x7f0b0081" />
+    <public type="string" name="can_not_save_stationery_pic" id="0x7f0b0082" />
+    <public type="string" name="create_stationery_pic_fail" id="0x7f0b0083" />
+    <public type="string" name="collection_stationery_successful" id="0x7f0b0084" />
+    <public type="string" name="collection_stationery_cancel" id="0x7f0b0085" />
+    <public type="string" name="collection_stationery_fail" id="0x7f0b0086" />
+    <public type="string" name="get_share_stationery_fail" id="0x7f0b0087" />
+    <public type="string" name="no_network" id="0x7f0b0088" />
+    <public type="string" name="not_network_and_refresh" id="0x7f0b0089" />
+    <public type="string" name="refresh_button" id="0x7f0b008a" />
+    <public type="string" name="set_net_button" id="0x7f0b008b" />
+    <public type="string" name="empty_no_preview_toast" id="0x7f0b008c" />
+    <public type="string" name="bubble_toast" id="0x7f0b008d" />
+    <public type="string" name="share_stationery_collection" id="0x7f0b008e" />
+    <public type="string" name="dialog_save" id="0x7f0b008f" />
+    <public type="string" name="dialog_title" id="0x7f0b0090" />
+    <public type="string" name="share_picture_too_large" id="0x7f0b0091" />
+    <public type="string" name="notebook_name_limit_share" id="0x7f0b0092" />
+    <public type="string" name="notebook_name_limit_share_save" id="0x7f0b0093" />
+    <public type="string" name="my_stationery_delete_title" id="0x7f0b0094" />
+    <public type="string" name="delete_my_stationery" id="0x7f0b0095" />
+    <public type="string" name="default_stationery" id="0x7f0b0096" />
+    <public type="string" name="default_stationery_not_need_collection" id="0x7f0b0097" />
+    <public type="string" name="delete_stationery_countdown" id="0x7f0b0098" />
+    <public type="string" name="delete_stationery_successful" id="0x7f0b0099" />
+    <public type="string" name="delete_stationery_fail" id="0x7f0b009a" />
+    <public type="string" name="download" id="0x7f0b009b" />
+    <public type="string" name="downloaded" id="0x7f0b009c" />
+    <public type="string" name="use_it" id="0x7f0b009d" />
+    <public type="string" name="select_note" id="0x7f0b009e" />
+    <public type="string" name="download_precent" id="0x7f0b009f" />
+    <public type="string" name="download_precent_button" id="0x7f0b00a0" />
+    <public type="string" name="more_stationery" id="0x7f0b00a1" />
+    <public type="string" name="download_change_stationery" id="0x7f0b00a2" />
+    <public type="string" name="waiting_download" id="0x7f0b00a3" />
+    <public type="string" name="remove_error_stationery" id="0x7f0b00a4" />
+    <public type="string" name="APKTOOL_DUMMY_00a5" id="0x7f0b00a5" />
+    <public type="string" name="APKTOOL_DUMMY_00a6" id="0x7f0b00a6" />
+    <public type="string" name="APKTOOL_DUMMY_00a7" id="0x7f0b00a7" />
+    <public type="string" name="APKTOOL_DUMMY_00a8" id="0x7f0b00a8" />
     <public type="style" name="Widget.AppCompat.ActionBar" id="0x7f0c0000" />
     <public type="style" name="Widget.AppCompat.Light.ActionBar" id="0x7f0c0001" />
     <public type="style" name="Widget.AppCompat.ActionBar.Solid" id="0x7f0c0002" />
@@ -1061,6 +1201,7 @@
     <public type="style" name="DrawerArrowStyle" id="0x7f0c00f4" />
     <public type="style" name="KeyguardAlertTheme" id="0x7f0c00f5" />
     <public type="style" name="OneTextAppearance" id="0x7f0c00f6" />
+    <public type="style" name="grid_item_title_text" id="0x7f0c00f7" />
     <public type="style" name="Base.V11.Theme.AppCompat" id="0x7f0c00df" />
     <public type="style" name="Base.V11.Theme.AppCompat.Light" id="0x7f0c00e0" />
     <public type="style" name="Base.V11.Theme.AppCompat.Dialog" id="0x7f0c00e1" />
@@ -1077,14 +1218,15 @@
     <public type="array" name="share_bottom_list" id="0x7f0d0001" />
     <public type="array" name="add_picture_list" id="0x7f0d0002" />
     <public type="array" name="edit_picture_list" id="0x7f0d0003" />
-    <public type="array" name="remend_bottom_list" id="0x7f0d0004" />
     <public type="plurals" name="alarm_minute" id="0x7f0e0000" />
     <public type="menu" name="menu_item_alarm" id="0x7f0f0000" />
     <public type="menu" name="menu_item_meeting" id="0x7f0f0001" />
     <public type="menu" name="menu_item_next" id="0x7f0f0002" />
     <public type="menu" name="menu_item_search" id="0x7f0f0003" />
     <public type="menu" name="menu_item_send" id="0x7f0f0004" />
-    <public type="menu" name="menu_multi_select" id="0x7f0f0005" />
-    <public type="menu" name="note_edit_options" id="0x7f0f0006" />
-    <public type="menu" name="note_list_options" id="0x7f0f0007" />
+    <public type="menu" name="menu_item_stationery_manager" id="0x7f0f0005" />
+    <public type="menu" name="menu_item_stationery_shop" id="0x7f0f0006" />
+    <public type="menu" name="menu_multi_select" id="0x7f0f0007" />
+    <public type="menu" name="note_edit_options" id="0x7f0f0008" />
+    <public type="menu" name="note_list_options" id="0x7f0f0009" />
 </resources>

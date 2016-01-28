@@ -402,6 +402,7 @@
     <string name="keep_on">保持開啓</string>
     <string name="could_not_speech_to_beauty">HDR，夜景或者其他場景模式下，不能使用語音美顏。</string>
     <string name="can_not_use_flash_hint">抱歉，由於電量低於15%，閃光燈此刻無法啓動。</string>
+    <string name="sub_mode_tip_text">向上滑動，體驗更多功能</string>
     <string name="effect_filter_blackwhite">黑白</string>
     <string name="effect_filter_nature">自然</string>
     <string name="effect_filter_aibao">阿寶色</string>
@@ -431,7 +432,7 @@
     <string name="pref_title_scenemode">場景模式</string>
     <string name="pref_title_video_quality">影片品質</string>
     <string name="pref_title_whitebalance">白平衡</string>
+    <string name="wide_angle">全景模式</string>
     <string name="pref_video_quality_entry_high">高</string>
     <string name="pref_video_quality_entry_low">低</string>
-    <string name="wide_angle">全景模式</string>
 </resources>

@@ -1384,6 +1384,52 @@
         <item>8</item>
         <item>10</item>
     </string-array>
+    <string-array name="thai_city_consonants">
+        <item>ก</item>
+        <item>ข</item>
+        <item>ฃ</item>
+        <item>ค</item>
+        <item>ฅ</item>
+        <item>ฆ</item>
+        <item>ง</item>
+        <item>จ</item>
+        <item>ฉ</item>
+        <item>ช</item>
+        <item>ซ</item>
+        <item>ฌ</item>
+        <item>ญ</item>
+        <item>ฎ</item>
+        <item>ฏ</item>
+        <item>ฐ</item>
+        <item>ฑ</item>
+        <item>ฒ</item>
+        <item>ณ</item>
+        <item>ด</item>
+        <item>ต</item>
+        <item>ถ</item>
+        <item>ท</item>
+        <item>ธ</item>
+        <item>น</item>
+        <item>บ</item>
+        <item>ป</item>
+        <item>ผ</item>
+        <item>ฝ</item>
+        <item>พ</item>
+        <item>ฟ</item>
+        <item>ภ</item>
+        <item>ม</item>
+        <item>ย</item>
+        <item>ร</item>
+        <item>ล</item>
+        <item>ว</item>
+        <item>ศ</item>
+        <item>ษ</item>
+        <item>ส</item>
+        <item>ห</item>
+        <item>ฬ</item>
+        <item>อ</item>
+        <item>ฮ</item>
+    </string-array>
     <string-array name="timer_notifications">
         <item>Less than a minute remaining</item>
         <item>%1$s remaining</item>

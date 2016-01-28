@@ -120,6 +120,7 @@
     <string name="alarm_notify_snooze_label">%s (snoozed)</string>
     <string name="alarm_notify_snooze_text">Alarm set to go off again at %s. Tap to cancel.</string>
     <string name="volume_button_setting_title">Volume and Power buttons</string>
+    <string name="volume_button_setting_dialog_title">Volume and Power buttons</string>
     <string name="volume_button_dialog_title">Button function</string>
     <string name="default_ringtone_setting_title">Default ringtone</string>
     <string name="alarm_button_description">Alarm</string>
@@ -431,4 +432,6 @@
     <string name="choose_clock_store_for_later_set">Add ringtone to favorites for setting later</string>
     <string name="choose_clock_ok">Confirm</string>
     <string name="le_alarm_label_limit_max_toast">Maximum number of words have been reached</string>
+    <string name="le_keyguard_alert_snooze_tip">snooze</string>
+    <string name="le_keyguard_alert_slide_tip">slide up to shut down</string>
 </resources>

@@ -5,8 +5,8 @@
     <ImageView android:id="@id/popup_back_icon" android:paddingLeft="24.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_icon" android:layout_centerVertical="true" />
     <ImageView android:id="@id/popup_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_mkdir_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
     <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/popup_right_icon" android:layout_toRightOf="@id/popup_back_icon" android:layout_centerVertical="true">
-        <TextView android:textSize="12.0dip" android:textColor="#ff9d9d9d" android:id="@id/pop_select_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_mdf_dir" android:singleLine="true" />
-        <TextView android:textSize="16.0dip" android:textColor="@color/default_black" android:id="@id/popup_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/app_name" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff9d9d9d" android:id="@id/pop_select_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_mdf_dir" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/default_black" android:id="@id/popup_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/app_name" android:singleLine="true" />
     </LinearLayout>
     <TextView android:background="@color/le_action_slide_color" android:layout_width="fill_parent" android:layout_height="@dimen/le_one_px" android:layout_alignParentBottom="true" />
 </RelativeLayout>
