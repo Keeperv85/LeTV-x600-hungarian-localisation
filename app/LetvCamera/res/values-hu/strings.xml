@@ -547,6 +547,7 @@ Más alkalmazások hozzá tudnak férni ezekhez a funkciókhoz a videó és kép
     <string name="can_not_use_flash_hint">"Elnézést, a vakut nem lehet használni alacsony töltöttségű teleppel."</string>
     <string name="quit_submode_hint">kattintson a kilépéshez %s</string>
     <string name="night_mode_auto">Auto</string>
+    <string name="sub_mode_tip_text">Húzza felfelé a többi funkcióhoz!</string>
     <string name="effect_filter_blackwhite">Fekete-fehér</string>
     <string name="effect_filter_nature">Természetes</string>
     <string name="effect_filter_aibao">Tónusok</string>
