@@ -101,8 +101,9 @@
     <string name="delete_note_cancel_calendar_event">Megtartás</string>
     <string name="share_weibo_send">Küldés</string>
     <string name="share_weibo_hint">Írjon ide valamit</string>
-    <string name="send_success_toast">Küldés</string>
-    <string name="send_fail_toast">A küldés sikertelen</string>
+    <string name="sinaweibo_shareing">Küldés…</string>
+    <string name="sinaweibo_share_success">Sikeres küldés</string>
+    <string name="sinaweibo_share_failed">Sikertelen küldés</string>
     <string name="send_weibo_exceed">A hosszúság nem haladhatja meg a 140 karaktert</string>
     <string name="sinaweibo_share_default_text">Kép megosztása</string>
     <string name="share_exceed_140_long_weibo_share">A tartalom meghaladja a 140 szót, megosztás weibo hosszú üzenetként</string>
