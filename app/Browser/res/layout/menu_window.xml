@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v7.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/share_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_recycleview_h2" android:layout_alignParentTop="true" />
-    <View android:id="@id/divider2" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_dividingline_h" android:layout_below="@id/share_view" />
-    <android.support.v7.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/action_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_recycleview_h1" android:layout_below="@id/divider2" />
-    <View android:id="@id/divider1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_dividingline_h" android:layout_below="@id/action_view" />
-    <Button android:textSize="@dimen/menu_window_btn_cancle_textsize" android:textColor="#ff4c4d4e" android:id="@id/btn_cancle" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_btn_cancle_h" android:text="@string/cancel" android:layout_below="@id/divider1" />
+    <android.support.v7.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/share_view" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_recycleview_h2" android:layout_alignParentTop="true" />
+    <View android:id="@id/divider2" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_dividingline_h" android:layout_below="@id/share_view" />
+    <android.support.v7.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/action_view" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_recycleview_h1" android:layout_below="@id/divider2" />
+    <View android:id="@id/divider1" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_dividingline_h" android:layout_below="@id/action_view" />
+    <Button android:textSize="@dimen/menu_window_btn_cancle_textsize" android:id="@id/btn_cancle" android:layout_width="fill_parent" android:layout_height="@dimen/menu_window_btn_cancle_h" android:text="@string/cancel" android:layout_below="@id/divider1" />
 </RelativeLayout>

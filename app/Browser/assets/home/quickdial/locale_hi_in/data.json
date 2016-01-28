@@ -1,6 +1,6 @@
 {
     "errno": 10000,
-    "v": "20151211000000",
+    "v": "20151221200500",
     "errmsg": "",
     "data": [
         {
@@ -13,7 +13,7 @@
                 "zh_tw": "樂視商城"
             },
             "url": "http://in.m.lemall.com/",
-            "icon": "in.m.lemall.com.png",
+            "icon": "m.lemall.com.png",
             "rank": 1,
             "color": "#e33a48",
             "type": 1,

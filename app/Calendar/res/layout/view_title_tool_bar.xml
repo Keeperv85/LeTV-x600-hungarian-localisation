@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_arrow_toolbar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@android:color/black" android:gravity="center" android:id="@id/tv_name_toolbar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/iv_arrow_toolbar" />
+</RelativeLayout>

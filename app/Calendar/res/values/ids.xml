@@ -1,12 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="id" name="home" />
+    <item type="id" name="up" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="view_offset_helper" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
     <item type="id" name="calendars">false</item>
     <item type="id" name="calendar_list">false</item>
     <item type="id" name="account_status">false</item>
     <item type="id" name="sync_settings">false</item>
     <item type="id" name="account">false</item>
     <item type="id" name="account_type">false</item>
-    <item type="id" name="title">false</item>
     <item type="id" name="rb_day">false</item>
     <item type="id" name="rb_month">false</item>
     <item type="id" name="rb_year">false</item>
@@ -17,6 +60,19 @@
     <item type="id" name="sv">false</item>
     <item type="id" name="lrvg">false</item>
     <item type="id" name="vp">false</item>
+    <item type="id" name="cl_root">false</item>
+    <item type="id" name="app_bar">false</item>
+    <item type="id" name="toolbar_layout">false</item>
+    <item type="id" name="backdrop">false</item>
+    <item type="id" name="rl_header_focus">false</item>
+    <item type="id" name="tv_attention">false</item>
+    <item type="id" name="tv_tag_name">false</item>
+    <item type="id" name="tv_tag_word">false</item>
+    <item type="id" name="cv_iv_photo_box">false</item>
+    <item type="id" name="iv_header_photo">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="tl_start_page">false</item>
+    <item type="id" name="vg_start_page">false</item>
     <item type="id" name="container">false</item>
     <item type="id" name="agenda_choice_frame">false</item>
     <item type="id" name="top_divider_simple">false</item>
@@ -56,6 +112,27 @@
     <item type="id" name="date_bar">false</item>
     <item type="id" name="week_num">false</item>
     <item type="id" name="search">false</item>
+    <item type="id" name="scroll_view">false</item>
+    <item type="id" name="header_container">false</item>
+    <item type="id" name="tv_time">false</item>
+    <item type="id" name="tv_lunaryear">false</item>
+    <item type="id" name="tv_lunarday">false</item>
+    <item type="id" name="tv_yi">false</item>
+    <item type="id" name="tv_ji">false</item>
+    <item type="id" name="tv_caishen">false</item>
+    <item type="id" name="tv_xishen">false</item>
+    <item type="id" name="tv_fushen">false</item>
+    <item type="id" name="tv_shengmen">false</item>
+    <item type="id" name="tv_pengzu">false</item>
+    <item type="id" name="tv_pengzuinfo">false</item>
+    <item type="id" name="tv_tai">false</item>
+    <item type="id" name="tv_taiinfo">false</item>
+    <item type="id" name="tv_xing">false</item>
+    <item type="id" name="tv_xinginfo">false</item>
+    <item type="id" name="tv_sha">false</item>
+    <item type="id" name="tv_shainfo">false</item>
+    <item type="id" name="tv_star">false</item>
+    <item type="id" name="tv_starinfo">false</item>
     <item type="id" name="header">false</item>
     <item type="id" name="widget_add">false</item>
     <item type="id" name="events_list">false</item>
@@ -64,6 +141,7 @@
     <item type="id" name="loading">false</item>
     <item type="id" name="appwidget_no_events">false</item>
     <item type="id" name="no_events">false</item>
+    <item type="id" name="myview_commview">false</item>
     <item type="id" name="event_info_ll">false</item>
     <item type="id" name="event_info_scroll_view">false</item>
     <item type="id" name="where_container">false</item>
@@ -119,16 +197,47 @@
     <item type="id" name="color_picker">false</item>
     <item type="id" name="color_picker_swatch">false</item>
     <item type="id" name="color_picker_checkmark">false</item>
+    <item type="id" name="item1_userhead">false</item>
+    <item type="id" name="item1_username">false</item>
+    <item type="id" name="item1_content">false</item>
+    <item type="id" name="item1_viewStub">false</item>
+    <item type="id" name="item1_date">false</item>
+    <item type="id" name="item1_goodcount">false</item>
+    <item type="id" name="item1_good">false</item>
+    <item type="id" name="commentra_parent">false</item>
+    <item type="id" name="commentra_text">false</item>
+    <item type="id" name="commententra_item1">false</item>
+    <item type="id" name="commententra_item2">false</item>
+    <item type="id" name="commententra_item3">false</item>
+    <item type="id" name="commententra_nocontent">false</item>
+    <item type="id" name="commentra_btn">false</item>
+    <item type="id" name="commentra_outline">false</item>
+    <item type="id" name="nocomm_textview">false</item>
+    <item type="id" name="item2_userhead">false</item>
+    <item type="id" name="item2_username">false</item>
+    <item type="id" name="item2_content">false</item>
+    <item type="id" name="item2_viewStub">false</item>
+    <item type="id" name="item2_date">false</item>
+    <item type="id" name="item2_goodcount">false</item>
+    <item type="id" name="item2_good">false</item>
+    <item type="id" name="item3_userhead">false</item>
+    <item type="id" name="item3_username">false</item>
+    <item type="id" name="item3_content">false</item>
+    <item type="id" name="item3_viewStub">false</item>
+    <item type="id" name="item3_date">false</item>
+    <item type="id" name="item3_goodcount">false</item>
+    <item type="id" name="item3_good">false</item>
     <item type="id" name="name">false</item>
     <item type="id" name="contact_remove">false</item>
     <item type="id" name="badge">false</item>
     <item type="id" name="contact_separator">false</item>
+    <item type="id" name="listview">false</item>
+    <item type="id" name="inner_layout">false</item>
     <item type="id" name="event_day">false</item>
     <item type="id" name="account_name">false</item>
     <item type="id" name="custom_btn_layout">false</item>
     <item type="id" name="custom_title">false</item>
     <item type="id" name="custom_arrow_icon">false</item>
-    <item type="id" name="image">false</item>
     <item type="id" name="text">false</item>
     <item type="id" name="done">false</item>
     <item type="id" name="date_picker_header">false</item>
@@ -152,9 +261,24 @@
     <item type="id" name="event_item_text_more">false</item>
     <item type="id" name="tv_calendar">false</item>
     <item type="id" name="day_event_list">false</item>
+    <item type="id" name="lv_demo">false</item>
+    <item type="id" name="rv_demo">false</item>
+    <item type="id" name="snackbar_text">false</item>
+    <item type="id" name="snackbar_action">false</item>
+    <item type="id" name="navigation_header_container">false</item>
+    <item type="id" name="design_navigation_view">false</item>
+    <item type="id" name="design_menu_item_text">false</item>
+    <item type="id" name="design_menu_item_action_area_stub">false</item>
+    <item type="id" name="design_menu_item_action_area">false</item>
+    <item type="id" name="webview_container_layout">false</item>
+    <item type="id" name="h5_webview">false</item>
+    <item type="id" name="le_recently_icon">false</item>
+    <item type="id" name="current_episode">false</item>
+    <item type="id" name="le_recently_title">false</item>
+    <item type="id" name="le_recently_desc">false</item>
+    <item type="id" name="le_recently_event_type">false</item>
     <item type="id" name="edit_event">false</item>
     <item type="id" name="loading_message">false</item>
-    <item type="id" name="scroll_view">false</item>
     <item type="id" name="where_row">false</item>
     <item type="id" name="location">false</item>
     <item type="id" name="all_day_row">false</item>
@@ -227,13 +351,15 @@
     <item type="id" name="action_cancel">false</item>
     <item type="id" name="action_done">false</item>
     <item type="id" name="attendees_group">false</item>
+    <item type="id" name="title_editText">false</item>
+    <item type="id" name="content_editText">false</item>
+    <item type="id" name="Image_button">false</item>
     <item type="id" name="reminder_minutes_value">false</item>
     <item type="id" name="le_reminder_minutes_value">false</item>
     <item type="id" name="reminder_method_value">false</item>
     <item type="id" name="reminder_remove">false</item>
     <item type="id" name="text1">false</item>
     <item type="id" name="text2">false</item>
-    <item type="id" name="progress_circular">false</item>
     <item type="id" name="empty_item">false</item>
     <item type="id" name="event_info_loading_msg">false</item>
     <item type="id" name="event_info_progress_bar">false</item>
@@ -313,6 +439,9 @@
     <item type="id" name="slide_view_content">false</item>
     <item type="id" name="popup_content_listview">false</item>
     <item type="id" name="slide_view_cover">false</item>
+    <item type="id" name="head_img">false</item>
+    <item type="id" name="context">false</item>
+    <item type="id" name="bottomline">false</item>
     <item type="id" name="cv_album_photo_box">false</item>
     <item type="id" name="rl_context_box">false</item>
     <item type="id" name="iv_album_photo">false</item>
@@ -371,6 +500,12 @@
     <item type="id" name="le_bottomsheet_list_title_tail">false</item>
     <item type="id" name="rruleType">false</item>
     <item type="id" name="le_bottomsheet_cancle">false</item>
+    <item type="id" name="le_inputbox_emoji">false</item>
+    <item type="id" name="le_inputbox_edittext">false</item>
+    <item type="id" name="le_inputbox_sendbtn">false</item>
+    <item type="id" name="le_comm_btn">false</item>
+    <item type="id" name="post_lsitView">false</item>
+    <item type="id" name="post_img">false</item>
     <item type="id" name="listContainer">false</item>
     <item type="id" name="pinned_header">false</item>
     <item type="id" name="ic_flag">false</item>
@@ -380,6 +515,15 @@
     <item type="id" name="arrow">false</item>
     <item type="id" name="progressContainer">false</item>
     <item type="id" name="blade">false</item>
+    <item type="id" name="lestar_detail_loading_view">false</item>
+    <item type="id" name="item_userhead">false</item>
+    <item type="id" name="item_username">false</item>
+    <item type="id" name="item_content">false</item>
+    <item type="id" name="item_viewStub">false</item>
+    <item type="id" name="item_date">false</item>
+    <item type="id" name="item_goodcount">false</item>
+    <item type="id" name="item_good">false</item>
+    <item type="id" name="item_title">false</item>
     <item type="id" name="live_detail_loading_msg">false</item>
     <item type="id" name="live_detail_progress_bar">false</item>
     <item type="id" name="description1">false</item>
@@ -390,13 +534,18 @@
     <item type="id" name="event_reminder_container">false</item>
     <item type="id" name="reminder_item_container">false</item>
     <item type="id" name="see_link">false</item>
-    <item type="id" name="icon">false</item>
     <item type="id" name="location_name">false</item>
     <item type="id" name="location_address">false</item>
     <item type="id" name="visible_check_box">false</item>
+    <item type="id" name="film_from_container">false</item>
     <item type="id" name="mtk_events_list">false</item>
     <item type="id" name="le_blankpage">false</item>
+    <item type="id" name="no_network_btn">false</item>
     <item type="id" name="lebt_refresh">false</item>
+    <item type="id" name="rl_reloading_status">false</item>
+    <item type="id" name="iv_reloading">false</item>
+    <item type="id" name="tv_word">false</item>
+    <item type="id" name="btn_reloading">false</item>
     <item type="id" name="map_button">false</item>
     <item type="id" name="call_button">false</item>
     <item type="id" name="email_button">false</item>
@@ -416,12 +565,17 @@
     <item type="id" name="new_content_dot">false</item>
     <item type="id" name="subscrite_num">false</item>
     <item type="id" name="cate_name">false</item>
+    <item type="id" name="text3">false</item>
+    <item type="id" name="header_image">false</item>
+    <item type="id" name="username_text">false</item>
+    <item type="id" name="time_text">false</item>
+    <item type="id" name="goodcount_image">false</item>
+    <item type="id" name="goodcount_text">false</item>
+    <item type="id" name="title_text">false</item>
+    <item type="id" name="article_text">false</item>
     <item type="id" name="quick_title">false</item>
-    <item type="id" name="le_recently_icon">false</item>
+    <item type="id" name="head_view">false</item>
     <item type="id" name="res_count">false</item>
-    <item type="id" name="le_recently_title">false</item>
-    <item type="id" name="le_recently_event_type">false</item>
-    <item type="id" name="le_recently_desc">false</item>
     <item type="id" name="le_home_team_icon">false</item>
     <item type="id" name="le_home_team_name">false</item>
     <item type="id" name="le_away_team_icon">false</item>
@@ -430,7 +584,7 @@
     <item type="id" name="le_game_cate">false</item>
     <item type="id" name="le_game_score">false</item>
     <item type="id" name="le_game_state">false</item>
-    <item type="id" name="pager_tab">false</item>
+    <item type="id" name="fragment_container">false</item>
     <item type="id" name="le_recently_list">false</item>
     <item type="id" name="exception_layout">false</item>
     <item type="id" name="spinner_item">false</item>
@@ -457,13 +611,18 @@
     <item type="id" name="le_lineup_upgrade_container">false</item>
     <item type="id" name="le_look_all">false</item>
     <item type="id" name="le_resource_action">false</item>
+    <item type="id" name="item_viewStub_text">false</item>
     <item type="id" name="le_header_container">false</item>
     <item type="id" name="le_no_recently_layout">false</item>
     <item type="id" name="le_no_recently">false</item>
     <item type="id" name="le_recently_layout">false</item>
     <item type="id" name="le_recently_title_row">false</item>
     <item type="id" name="le_res_container">false</item>
-    <item type="id" name="le_settings">false</item>
+    <item type="id" name="le_furcher_layout">false</item>
+    <item type="id" name="le_furcher_title_row">false</item>
+    <item type="id" name="le_furcher_title">false</item>
+    <item type="id" name="le_furcher_more">false</item>
+    <item type="id" name="le_furcher_res_container">false</item>
     <item type="id" name="tag_list">false</item>
     <item type="id" name="desc">false</item>
     <item type="id" name="subscribe_layout">false</item>
@@ -526,7 +685,6 @@
     <item type="id" name="trail_container">false</item>
     <item type="id" name="detail_trail">false</item>
     <item type="id" name="film_when_label">false</item>
-    <item type="id" name="film_from_container">false</item>
     <item type="id" name="film_icon">false</item>
     <item type="id" name="corner_view">false</item>
     <item type="id" name="film_title">false</item>
@@ -582,6 +740,8 @@
     <item type="id" name="le_icon_rec">false</item>
     <item type="id" name="le_icon">false</item>
     <item type="id" name="le_bt_share">false</item>
+    <item type="id" name="subscribe_info_view">false</item>
+    <item type="id" name="iv_empty">false</item>
     <item type="id" name="time_display">false</item>
     <item type="id" name="center_view">false</item>
     <item type="id" name="hour_space">false</item>
@@ -603,11 +763,26 @@
     <item type="id" name="searchBox">false</item>
     <item type="id" name="clear_search">false</item>
     <item type="id" name="timezonelist">false</item>
+    <item type="id" name="header_layout">false</item>
+    <item type="id" name="post_emptyImg">false</item>
+    <item type="id" name="post_emptyTxt">false</item>
+    <item type="id" name="nomoredata">false</item>
     <item type="id" name="tv_label_name">false</item>
     <item type="id" name="vs_content">false</item>
     <item type="id" name="rl_label_action_box">false</item>
     <item type="id" name="iv_label_action_icon">false</item>
     <item type="id" name="tv_label_action_name">false</item>
+    <item type="id" name="reload_btn">false</item>
+    <item type="id" name="fl_root">false</item>
+    <item type="id" name="vs_status_loading">false</item>
+    <item type="id" name="vs_status_empty">false</item>
+    <item type="id" name="vs_status_reloading">false</item>
+    <item type="id" name="empty_view">false</item>
+    <item type="id" name="reload_view">false</item>
+    <item type="id" name="rl_empty_status">false</item>
+    <item type="id" name="tv_empty">false</item>
+    <item type="id" name="rl_loading_status">false</item>
+    <item type="id" name="lv_loading">false</item>
     <item type="id" name="start_time_picker_layout">false</item>
     <item type="id" name="start_date_time_wheel">false</item>
     <item type="id" name="time_picker_mode_group_start">false</item>
@@ -620,10 +795,13 @@
     <item type="id" name="end_date_wheel">false</item>
     <item type="id" name="end_international_calendar">false</item>
     <item type="id" name="end_chinese_calendar">false</item>
+    <item type="id" name="iv_arrow_toolbar">false</item>
+    <item type="id" name="tv_name_toolbar">false</item>
     <item type="id" name="widget_row">false</item>
     <item type="id" name="month_text_view">false</item>
     <item type="id" name="today_icon_background">false</item>
     <item type="id" name="today_icon_day">false</item>
+    <item type="id" name="action_send">false</item>
     <item type="id" name="action_create_event">false</item>
     <item type="id" name="action_search">false</item>
     <item type="id" name="action_today">false</item>
@@ -636,6 +814,7 @@
     <item type="id" name="info_action_delete">false</item>
     <item type="id" name="minutes_of_meeting">false</item>
     <item type="id" name="mail_for_meeting">false</item>
+    <item type="id" name="action_share">false</item>
     <item type="id" name="action_subscribed_list">false</item>
     <item type="id" name="action_application_detail">false</item>
     <item type="id" name="action_add_account">false</item>

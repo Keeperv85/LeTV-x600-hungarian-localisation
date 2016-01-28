@@ -412,6 +412,7 @@
     <string name="menu_icon_find_in_page">尋找</string>
     <string name="menu_icon_night_mode">夜間</string>
     <string name="menu_icon_day_mode">日間</string>
+    <string name="menu_icon_page_save">保存頁面</string>
     <string name="menu_icon_open_setting_page">設定</string>
     <string name="menu_icon_page_flash">重新整理</string>
     <string name="menu_icon_go_forward">前進</string>
@@ -583,23 +584,28 @@
     <string name="download_error_io">下載失敗</string>
     <string name="download_status_pause">暫停</string>
     <string name="download_status_waiting">等待</string>
+    <string name="download_status_failed">下載失敗，點擊重試</string>
     <string name="download_deleted">文件已删除</string>
     <string name="download_open">打開</string>
     <string name="download_noSize">未知大小</string>
     <string name="download_redirect_much">下載失敗，重定向過多</string>
     <string name="download_not_supported">不支持此類型文件</string>
-    <string name="download_no_memory">下載失敗 , 內存不足</string>
+    <string name="download_no_memory">下載失敗，內存不足</string>
     <string name="download_fail_dir">下載失敗，檔案目錄失效</string>
     <string name="download_wifi_no_connect">沒有WIFI連接，暫停所有</string>
     <string name="download_wifi_no_conncet">wifi已斷開,暫停所有任務,是否要在數據網絡下繼續下載？</string>
+    <string name="download_wifi_disconnected">wifi已斷開，暫停所有任務</string>
     <string name="download_sdcard_no_space">下載失敗，磁碟空間不足</string>
-    <string name="download_failed_system_error">下載失敗,系統异常</string>
+    <string name="download_failed_system_error">下載失敗，系統异常</string>
     <string name="download_no_supported_continue">該檔案暫停後不能續傳，確定暫停？</string>
     <string name="download_file_exists">下載任務已存在,重新下載</string>
     <string name="download_selete_phone">選擇存儲路徑</string>
     <string name="download_selete_sure_selete_save_path">確定</string>
     <string name="download_selete_cancel_selete_save_path">取消</string>
     <string name="download_selete_no_sdcard">未檢測到SD卡</string>
+    <string name="notification_download_completed">下載完成</string>
+    <string name="notification_download_failed">下載失敗</string>
+    <string name="download_confirm_in_mobile">當前是移動網絡，確認是否繼續下載？</string>
     <string name="download_test_text">網絡測速</string>
     <string name="download_test_ping">ping延時</string>
     <string name="download_test_current_speed">當前速度</string>
@@ -625,5 +631,5 @@
     <string name="set_wallpaper_failed">設置壁紙失敗</string>
     <string name="set_wallpaper_success">設置壁紙成功</string>
     <string name="shortcut_already_exist">快捷方式已存在</string>
-    <item type="string" name="APKTOOL_DUMMY_02a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b0">false</item>
 </resources>

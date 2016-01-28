@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="96.0dip">
+            <com.letv.leui.widget.BorderedRoundedCornersImageView android:id="@id/le_recently_icon" android:layout_width="128.0dip" android:layout_height="96.0dip" android:scaleType="centerCrop" app:corner_radius="0.0dip" app:border_width="1.0px" app:border_color="#10000000" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/current_episode" android:background="@drawable/order_square_item_gradient" android:padding="5.0dip" android:layout_width="128.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:fontFamily="regular" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/le_recently_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="2" android:lineSpacingExtra="0.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff898b94" android:id="@id/le_recently_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:id="@id/le_recently_event_type" android:background="@drawable/bg_textview_gray" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_reloading_status" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_reloading" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="200.0dip" android:src="@drawable/star_img_nowifi" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffcccccc" android:id="@id/tv_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/star_page_reloading_word" android:layout_below="@id/iv_reloading" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/btn_reloading" android:layout_marginTop="26.0dip" android:text="@string/star_page_reloading" android:layout_below="@id/tv_word" android:layout_centerHorizontal="true" android:backgroundTint="@color/appPrimary" style="@style/empty_button_style" />
+</RelativeLayout>

@@ -1,9 +1,15 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: YsNFeUBLYhrr2IxovVSldpIX9Oc=
+SHA1-Digest-Manifest: +vfjFs2vsrjJiuUI4d3KBfFM4JA=
 
 Name: res/drawable-xhdpi-v4/ic_alarm_holo_dark.png
 SHA1-Digest-Manifest: Nyl6bno7E7J6HOuNg1hMZ8aRy+g=
+
+Name: res/drawable/abc_btn_check_material.xml
+SHA1-Digest-Manifest: qqKDcqHOhBip1wTOipczEivN5o8=
+
+Name: res/layout/listfooter.xml
+SHA1-Digest-Manifest: pLOG0QJ+qrZXF/fuTxAcgawo6WI=
 
 Name: res/drawable-mdpi-v4/switch_thumb_holo_light_v2.9.png
 SHA1-Digest-Manifest: w8Dy0yH3VYRGd70FBZl2zVgtszM=
@@ -11,11 +17,17 @@ SHA1-Digest-Manifest: w8Dy0yH3VYRGd70FBZl2zVgtszM=
 Name: res/drawable/ic_flag_burkina_faso.png
 SHA1-Digest-Manifest: kSMbRbX7wmTP4gnIOz3Ns/FQKv4=
 
+Name: res/drawable/btn_chat_emoji_selector.xml
+SHA1-Digest-Manifest: eM2hA23L7YeM8tApm3gPuJAC2pA=
+
 Name: res/drawable-hdpi-v4/mini_calendar.png
 SHA1-Digest-Manifest: ACTUWow3xE0mf58uDcrIKwe0YbY=
 
 Name: res/drawable-mdpi-v4/calname_bottom_unselected_holo_light.9.png
 SHA1-Digest-Manifest: n0fqhIPdLL8/VLuT3o46Jwig4oI=
+
+Name: res/layout/view_star_tab_base.xml
+SHA1-Digest-Manifest: nOHu1rz/kRzGqajd7xbhqKGUpVc=
 
 Name: res/drawable-xxhdpi-v4/calname_select_underselect_holo_light.9.p
  ng
@@ -24,11 +36,21 @@ SHA1-Digest-Manifest: ebIyodhTLkXZfUPfB4MFaPlfwVA=
 Name: res/drawable/gift_svg.xml
 SHA1-Digest-Manifest: eJZ9lwbE8V4M7CBymW4qdDqxk0w=
 
-Name: res/drawable/down_group_background.xml
-SHA1-Digest-Manifest: E/f26IVN3JnISF5/+IjOeppp8S8=
+Name: res/layout/design_navigation_item_separator.xml
+SHA1-Digest-Manifest: Rop+L/oPNw275ck8glcXZA481BY=
 
-Name: res/layout/calendars_spinner_item.xml
-SHA1-Digest-Manifest: g8/hcWR+UDVMrzpUHbecDSOtr+s=
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest-Manifest: 2LbVERqF85ZS8eKrp2nsPtoB+hs=
+
+Name: res/drawable/down_group_background.xml
+SHA1-Digest-Manifest: OkvA9h+xB1S+LR9oz6BqYOCiKvI=
+
+Name: res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9
+ .png
+SHA1-Digest-Manifest: 8mMmjHKGtiwM/un4ob8g1LiZdI0=
+
+Name: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest-Manifest: 0lawN0TfON5HQhuTBR7Om1xGxUI=
 
 Name: res/drawable-xhdpi-v4/ic_menu_done_holo_light.png
 SHA1-Digest-Manifest: DcVPlKmQxhenapPmXmcf0Iad3O4=
@@ -36,8 +58,17 @@ SHA1-Digest-Manifest: DcVPlKmQxhenapPmXmcf0Iad3O4=
 Name: res/drawable-hdpi-v4/ic_menu_email_holo_dark.png
 SHA1-Digest-Manifest: HRbyEdr/sjunFKn1x1V2JxD1+cE=
 
+Name: res/layout/calendars_spinner_item.xml
+SHA1-Digest-Manifest: yIeXgp3mR0blTG30w3AvFLpXSXY=
+
+Name: res/drawable/abc_switch_thumb_material.xml
+SHA1-Digest-Manifest: FKT3zzt/UAiHQG5+VpaFwgodMVg=
+
 Name: res/drawable-mdpi-v4/ic_menu_compose_holo_dark.png
 SHA1-Digest-Manifest: PrtZ7/GIdnaUP8JIU5MmbDVDiPI=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest-Manifest: ReDKTIHkwM0WXDJkuKHyiBtF/ck=
 
 Name: res/drawable-xxhdpi-v4/list_focused_holo.9.png
 SHA1-Digest-Manifest: qpKTwe5/0ldcRont7e+bdxpbAlg=
@@ -53,22 +84,34 @@ Name: res/drawable-xhdpi-v4/timeline_indicator_activated_holo_light.9.
 SHA1-Digest-Manifest: By6pjZINGCp17sVtGVBY6W55TFQ=
 
 Name: res/layout/subscribe_detail_head_popup.xml
-SHA1-Digest-Manifest: ZF4VOCMB3mqkV9vqD0O2jcuzh/U=
+SHA1-Digest-Manifest: Fl3Q9eMjMoEzeKnFK0rH0EiHVWk=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest-Manifest: jYl/oUZ0y1ifGeZ2QnuQPIsyO0I=
 
 Name: res/drawable/button_play_bg.xml
-SHA1-Digest-Manifest: Lgefs68l0H3tmR8FD4k/fXYsQtQ=
+SHA1-Digest-Manifest: zFlNsrWlpQaLdktFXigpE8umKTA=
+
+Name: res/layout/support_simple_spinner_dropdown_item.xml
+SHA1-Digest-Manifest: gsLEXGLCyFD4Qzi4Syhl9oPDF+Q=
 
 Name: res/drawable/ic_flag_mongolia.png
 SHA1-Digest-Manifest: +f/WUC7wSdeCIZckDzAY1MN6zI8=
 
+Name: res/anim/alpha_out_long.xml
+SHA1-Digest-Manifest: kSOm5LzrgD5zAlkeKrCDGFB05kU=
+
 Name: res/drawable-xhdpi-v4/ic_menu_colorpicker_pressed.png
 SHA1-Digest-Manifest: 9BP5Ve09Sno3vLoGxusj7dczqC0=
+
+Name: res/drawable/icon_wifi.xml
+SHA1-Digest-Manifest: YV9KIADhv2of0PtEbIjB3GNjK+g=
 
 Name: res/drawable/ic_flag_albania.png
 SHA1-Digest-Manifest: 0SFmgstJA88pU5K8f87LWOvFkRA=
 
-Name: res/drawable/icon_wifi.xml
-SHA1-Digest-Manifest: YV9KIADhv2of0PtEbIjB3GNjK+g=
+Name: res/drawable/edittext_cursor.xml
+SHA1-Digest-Manifest: RnclOQrBr2KtIiusK+h6Qy666/s=
 
 Name: res/drawable-hdpi-v4/ic_expand_small_holo_light.png
 SHA1-Digest-Manifest: F4gSmkG7egf47l3OTSQj1u6Le4w=
@@ -84,29 +127,38 @@ Name: res/drawable/ic_flag_dominica.png
 SHA1-Digest-Manifest: bSQrEWvpvlF9O2QU7Za2f9cAzNk=
 
 Name: res/layout/day_view_pager.xml
-SHA1-Digest-Manifest: GWc+tE04LhmK1AXsKkSOfnGn0s0=
+SHA1-Digest-Manifest: MbBUhhUz61CQzAUPTk2lOKHYWlI=
 
 Name: res/drawable-xhdpi-v4/switch_thumb_activated_holo_light.9.png
 SHA1-Digest-Manifest: 3Ss5k8ep2Mrg+rgvOa7GGRfjpF8=
 
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest-Manifest: 7rQl6EYeTTp31EHiQqxTWNvHumI=
+
 Name: res/layout/media_event_detail_layout.xml
-SHA1-Digest-Manifest: Q8F3QUSMWyJso0BBm+PesdkC/UE=
+SHA1-Digest-Manifest: ciGsszI3R8yCeYOgApGHeZswpBo=
 
 Name: res/drawable-hdpi-v4/ic_expand_large_holo_light.png
 SHA1-Digest-Manifest: vaa0xS9Hdc2EyiknY2hbJEWhMic=
 
 Name: res/layout/event_info2.xml
-SHA1-Digest-Manifest: C/O/ml6ILgC+d/2zSE2cYcXIU+I=
+SHA1-Digest-Manifest: z6f1OAFQusqLvnOEpUTKNAg08gU=
 
 Name: res/drawable-hdpi-v19/calname_bottom_select_underunselected_pres
  sed_holo_light.9.png
 SHA1-Digest-Manifest: MdgTkGLUhhxwiNwU5VQuvPXP75A=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest-Manifest: K3qxsC992lHdJzyirP9Zy9TMKkQ=
+
+Name: res/drawable/top_reback_btn_icon_night.xml
+SHA1-Digest-Manifest: blIf8u4+wvJh/k+ozdpMF8+mHNs=
+
 Name: res/drawable/ic_flag_virgin_islands_british.png
 SHA1-Digest-Manifest: AxvrHjG9FKgsSs+bKWkkwPmihqw=
 
 Name: res/layout/edit_event_single_column.xml
-SHA1-Digest-Manifest: kImlMg+s3BAJVCmRbeAl4yVto9g=
+SHA1-Digest-Manifest: FRwXLMt308GFW/BqoVNjHy/XktY=
 
 Name: res/drawable-mdpi-v4/calname_select_underunselected_holo_light.9
  .png
@@ -125,13 +177,13 @@ Name: res/drawable/event_info_description.xml
 SHA1-Digest-Manifest: CPLTRWBjgk/y98ZBP1Mu+B2EvK8=
 
 Name: res/layout/select_calendars_multi_accounts_fragment.xml
-SHA1-Digest-Manifest: r/H5IiqnypP6v2T6tOx3OilO6Po=
-
-Name: res/layout/inc_content_cover.xml
-SHA1-Digest-Manifest: w4/jpordKz+uW1CpnIOdsZqtALg=
+SHA1-Digest-Manifest: WNS5NR3NS3IUO8gtdIeQBIZ+XBI=
 
 Name: res/drawable-mdpi-v4/ic_menu_cancel_holo_light.png
 SHA1-Digest-Manifest: 7i8KZHPzvKcDhyXm5/Lxxnu092Y=
+
+Name: res/layout/inc_content_cover.xml
+SHA1-Digest-Manifest: fyQzvmtdx8bEr40FtCXbwyoajA8=
 
 Name: res/drawable-xxhdpi-v4/list_multi_left_secondary_holo.9.png
 SHA1-Digest-Manifest: cZI0eOcB2SlSqJzE8lpIm3EU4MI=
@@ -139,20 +191,27 @@ SHA1-Digest-Manifest: cZI0eOcB2SlSqJzE8lpIm3EU4MI=
 Name: res/drawable-xxhdpi-v4/ic_menu_trash_holo_light.png
 SHA1-Digest-Manifest: IE7GqpR9flEQ1A6vWq3nnngvNB0=
 
+Name: res/drawable-ldrtl-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: vH7ZGPjYQKeqy9IRfwxDwjoswq0=
+
 Name: res/layout/date_picker_done_button.xml
-SHA1-Digest-Manifest: WkZGx1W2CGwNnSHE7Mkj/5SkeBc=
+SHA1-Digest-Manifest: FkCzA/bpb77+CiWvFMfMCN9eLYs=
+
+Name: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.p
+ ng
+SHA1-Digest-Manifest: U3/CaDN2Ja7uv22X18ECs8ugFMs=
 
 Name: res/drawable-hdpi-v4/switch_thumb_holo_light_v2.9.png
 SHA1-Digest-Manifest: dUoJcdYHBaB65zOYYoaEwJLGORI=
 
 Name: res/layout/time_zone_item.xml
-SHA1-Digest-Manifest: khOf6oQBUOJAPh2LcMT20kJ/Ih8=
-
-Name: res/drawable/action_to_rss_svg.xml
-SHA1-Digest-Manifest: 0WNlty5vcKCfqfeUCQ0MypGrSkA=
+SHA1-Digest-Manifest: p246qqJ4FxnK/fUB+eFE+fFBsXk=
 
 Name: res/drawable-hdpi-v4/minical_bg_shadow_holo_light.9.png
 SHA1-Digest-Manifest: Vu1VvdUse00mov9ocoag0C0eKd8=
+
+Name: res/drawable/action_to_rss_svg.xml
+SHA1-Digest-Manifest: ChbjiFJVB6gcOAiFO2E6VLwEdVY=
 
 Name: res/drawable-xxhdpi-v19/switch_thumb_pressed_holo_light.9.png
 SHA1-Digest-Manifest: vOrQRbnBW344sB4vzWZnuvuoRho=
@@ -160,9 +219,18 @@ SHA1-Digest-Manifest: vOrQRbnBW344sB4vzWZnuvuoRho=
 Name: res/drawable-xxhdpi-v4/leui_action_bar_divider.9.png
 SHA1-Digest-Manifest: CIJQwJfWxrmTZfrb4e2HFrzL8VA=
 
+Name: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest-Manifest: vVifsTusCsEMS/QLwleavhByCls=
+
 Name: res/drawable-hdpi-v19/calname_bottom_unselected_pressed_holo_lig
  ht.9.png
 SHA1-Digest-Manifest: 0fEEi6FJ8m5Z5z3PNYub4R7rslU=
+
+Name: res/drawable/chat_emoji_pressed.png
+SHA1-Digest-Manifest: sdVUK1uAGT7UA5ZK6gCjuVIk25o=
+
+Name: res/layout/item_post_list.xml
+SHA1-Digest-Manifest: us8Dod5ISUzY2A9Z5w93L3HF5Uo=
 
 Name: res/drawable-hdpi-v4/stat_notify_calendar_multiple.png
 SHA1-Digest-Manifest: UpwboQTmg2z48sWIiP7vsdDchXE=
@@ -180,14 +248,23 @@ SHA1-Digest-Manifest: yQ7wpDgoFLrx1fTVuBDloGzoMO8=
 Name: res/drawable/ic_flag_cambodia.png
 SHA1-Digest-Manifest: WfZvv3RpEy/VzmWqtDafsB0i0AI=
 
+Name: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest-Manifest: 7hzOGLjK5Ydm45f6RGVtepdkPl8=
+
+Name: res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest-Manifest: AvD9vRWwIKYnYE+mBAyi9948DIk=
+
 Name: res/layout-sw600dp-w960dp-h527dp-land-v13/all_in_one.xml
-SHA1-Digest-Manifest: +ZARj0wWKBEjkuxNKHswWafQU6Y=
+SHA1-Digest-Manifest: nBpiO7f17fLlxm5fI1kCcRB7Wfw=
 
 Name: res/drawable-xhdpi-v4/ic_recurrence_bubble_outline.png
 SHA1-Digest-Manifest: E/z09yV2cKSnnGQ0KTHdUXY/P5M=
 
 Name: res/layout/sports_event_detail_layout.xml
-SHA1-Digest-Manifest: DDZ1VYf4NoR+7ijhaQjoVAAISkc=
+SHA1-Digest-Manifest: Bq+nzVHUPVskgjmAxvYP68XiDDI=
+
+Name: res/drawable/abc_edit_text_material.xml
+SHA1-Digest-Manifest: t3Ne6RX3zP/wWp4J57wqJSSg2TA=
 
 Name: res/drawable-mdpi-v4/cal_widget_date_bg.9.png
 SHA1-Digest-Manifest: FWMbREuUtm83WvipSpNYo560Ebs=
@@ -195,20 +272,26 @@ SHA1-Digest-Manifest: FWMbREuUtm83WvipSpNYo560Ebs=
 Name: res/drawable/ic_flag_togo.png
 SHA1-Digest-Manifest: P3a7En2N2YemxYTdgmlzJfYO/48=
 
+Name: res/layout/abc_action_bar_view_list_nav_layout.xml
+SHA1-Digest-Manifest: flqVaW66wz2m6fg0jDNZ/S83IV8=
+
+Name: res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest-Manifest: myBiZe5Wr8uvp72xlQJLkPxiT3o=
+
 Name: res/drawable/done_background_color.xml
-SHA1-Digest-Manifest: igbuuJwuMfti/eLtir8WzkvGptM=
+SHA1-Digest-Manifest: 20bypIrolXbJlt7+5F4VqF9aLR8=
 
 Name: res/drawable/ic_flag_kiribati.png
 SHA1-Digest-Manifest: zPph/h9aSuuZ3/H4c15k64MiE/w=
 
-Name: res/drawable/flower_svg.xml
-SHA1-Digest-Manifest: m3uCXwx+iJoXpxUsFkUhoJ3554k=
-
 Name: res/drawable-xhdpi-v4/ic_colorpicker_swatch_stroke.png
 SHA1-Digest-Manifest: ee9jp+Gm+YphmCJojO9+xGz2XSQ=
 
+Name: res/drawable/flower_svg.xml
+SHA1-Digest-Manifest: m3uCXwx+iJoXpxUsFkUhoJ3554k=
+
 Name: res/layout/subsion_film_trail_item.xml
-SHA1-Digest-Manifest: qOCvz8VfVACdVWRFDy0aIuhVCfs=
+SHA1-Digest-Manifest: cCY0gGfJqDgxtoR3kIcDZ3gZVo0=
 
 Name: res/drawable-hdpi-v4/ic_clear_search_holo_light.png
 SHA1-Digest-Manifest: UeGvq8ddjrUFOGl38NFyxYA/M+o=
@@ -219,8 +302,14 @@ SHA1-Digest-Manifest: BeULczYUJqV0RmV5m3ZRZsWnUMc=
 Name: res/drawable-xhdpi-v4/list_multi_left_pressed_holo.9.png
 SHA1-Digest-Manifest: rEY0eeDASmB9wURLDDMdsNHae6g=
 
+Name: res/anim/abc_slide_in_top.xml
+SHA1-Digest-Manifest: ps83fDCN37hSi5vdARGgPEjdET8=
+
 Name: res/drawable-xhdpi-v4/ic_menu_search_holo_light.png
 SHA1-Digest-Manifest: nvZAjSKt5La+QrEKpmYNNpQkmes=
+
+Name: res/drawable/almanac_normal_bk.xml
+SHA1-Digest-Manifest: ZeZZJM+cso7qmiTS+Ei4cExsLy8=
 
 Name: res/drawable-sw392dp-xxhdpi-v13/window_bg.png
 SHA1-Digest-Manifest: UGVAVakUU290BBFZQaQH0wIEJ7U=
@@ -231,11 +320,17 @@ SHA1-Digest-Manifest: c9U2lCPExKAFtyq3+jWr03lPIVk=
 Name: res/drawable/stat_notify_calendar_single.xml
 SHA1-Digest-Manifest: 8Pi9XGDyrUZrbQFuBvZOvObTFDQ=
 
+Name: res/layout/actionbar_view.xml
+SHA1-Digest-Manifest: 8CROeMStTtOFGat1W8U40W4/eow=
+
 Name: res/drawable/ic_flag_iran.png
 SHA1-Digest-Manifest: RqXBhiEtIJJff6rPFzQ0+6K1lOE=
 
 Name: res/drawable-hdpi-v4/snooze.png
 SHA1-Digest-Manifest: GnUo4UI93d8MRxEdRQK3e9LuGXM=
+
+Name: res/drawable/star_img_empty.xml
+SHA1-Digest-Manifest: 0u6QpadJBExAnStvp+3hrz8Ub0o=
 
 Name: res/drawable-xhdpi-v4/ic_history_holo_light.png
 SHA1-Digest-Manifest: X0XA01NlGg/kA7k5AdPo7/si/nM=
@@ -252,6 +347,9 @@ SHA1-Digest-Manifest: 0mdPGFT1IRYGCbwEZEc3imATRDA=
 Name: res/drawable-xhdpi-v4/ic_menu_colorpicker_holo_dark.png
 SHA1-Digest-Manifest: hIOINfLX537aZr7hs9lpG3UqwIg=
 
+Name: res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: UqueBcWti2JrofNDVbSwy2wQN9Y=
+
 Name: res/drawable-mdpi-v4/ic_recurrence_bubble_outline_disabled.png
 SHA1-Digest-Manifest: ys+pQ2K1l435FrfBx6vAiDX/zRk=
 
@@ -261,11 +359,26 @@ SHA1-Digest-Manifest: //5SkOH7tzegBJmjubnuHf5sJj0=
 Name: res/mipmap-xxhdpi-v4/ic_launcher_calendar.png
 SHA1-Digest-Manifest: 0Ah6P/0cqlJ/1HaCp+5sMb82eBI=
 
+Name: res/drawable/leui_action_bar_divider.9.png
+SHA1-Digest-Manifest: CTUUVPYXk/t9fPY6+zw7hYeQrE4=
+
 Name: res/layout/fromlabel_textview.xml
-SHA1-Digest-Manifest: 9FZmyBR4IkcG5/u7XksvtgRghhs=
+SHA1-Digest-Manifest: /A93sUTZr49azhCVrl40ZNiDuuw=
+
+Name: res/layout/view_reloading_post_list.xml
+SHA1-Digest-Manifest: PwQOyrr2/CPwaAOZmfUT5rndKMQ=
+
+Name: res/drawable-xxhdpi-v4/abc_ab_share_pack_holo_dark.9.png
+SHA1-Digest-Manifest: FJq33EFinmckzCMXjAavHqhkPdw=
 
 Name: res/drawable-mdpi-v4/ic_menu_email_holo_dark.png
 SHA1-Digest-Manifest: HrOYdMS+M1g3lLsA7vZ4sjnhTiw=
+
+Name: res/layout/view_star_tab_demo.xml
+SHA1-Digest-Manifest: hka2x2Sw7catLzxBn8vJIBS2nTI=
+
+Name: res/layout/content_main.xml
+SHA1-Digest-Manifest: 4DxWElPKkDG9db120RObWOpXEcM=
 
 Name: res/drawable-xxhdpi-v4/ic_map.png
 SHA1-Digest-Manifest: VKcjEhIutwzw3oKLQDGHvWMRwa4=
@@ -276,20 +389,29 @@ SHA1-Digest-Manifest: f5ko9RMZBEnnU7jBaZTJ4CzXp4A=
 Name: res/drawable/ic_flag_greece.png
 SHA1-Digest-Manifest: X2RYmX1PkQN/E74kiYZdXb1r7IM=
 
-Name: res/drawable-v19/done_background_color.xml
-SHA1-Digest-Manifest: mjTDASnXq5DVMYcI2BkmzcgPNyc=
-
-Name: res/drawable-xhdpi-v4/ic_menu_colorpicker_holo_light.png
-SHA1-Digest-Manifest: o6xtqoj2rwIbROiFLQBaFtORB3M=
+Name: res/anim/abc_slide_in_bottom.xml
+SHA1-Digest-Manifest: 6SIMoqi7/LVEqpyfDSSCRJ9qRR4=
 
 Name: res/drawable/ic_flag_united_states.png
 SHA1-Digest-Manifest: kRQ1O/eyJRq6/szHl/UCHWsURyo=
 
-Name: res/drawable-xhdpi-v4/today_blue_week_holo_light.9.png
-SHA1-Digest-Manifest: qYgS/Eynzk/RPR7NMDVphu2+ihU=
+Name: res/drawable-v19/done_background_color.xml
+SHA1-Digest-Manifest: 90QK44gc86PGermRDpBCbP9voNg=
+
+Name: res/drawable-xhdpi-v4/ic_menu_colorpicker_holo_light.png
+SHA1-Digest-Manifest: o6xtqoj2rwIbROiFLQBaFtORB3M=
+
+Name: res/drawable/abc_textfield_search_material.xml
+SHA1-Digest-Manifest: 2zz/Va82tJIjAhqItdLh9FxHhXA=
 
 Name: res/drawable-mdpi-v4/ic_search_holo_light.png
 SHA1-Digest-Manifest: SGAd7cuOCvRNlYd3qBr3geJxi/c=
+
+Name: res/drawable-xhdpi-v4/today_blue_week_holo_light.9.png
+SHA1-Digest-Manifest: qYgS/Eynzk/RPR7NMDVphu2+ihU=
+
+Name: res/layout/commententra_layout.xml
+SHA1-Digest-Manifest: Ac8RvMWIlKxrzrskiFOu/ZGKU9o=
 
 Name: res/drawable/ic_notification_call.xml
 SHA1-Digest-Manifest: ZCkEfCzOsT5mUYM8a5v9PFHCMaI=
@@ -301,7 +423,7 @@ Name: res/drawable-xxhdpi-v4/response_yes_unpressed.png
 SHA1-Digest-Manifest: Sfzv+SnNkGBm2zzW2sBmYLqKb7A=
 
 Name: res/layout/inc_content.xml
-SHA1-Digest-Manifest: ggpNqZ4ZHPXpfyCqFylBVITRUmo=
+SHA1-Digest-Manifest: bB5ZDAyL0ay36OJXOIg//q0w6VU=
 
 Name: res/drawable-xhdpi-v4/header_bg_cal_widget_focused_holo.9.png
 SHA1-Digest-Manifest: aB965MwtRZlhY65Dj7jvju1mjxA=
@@ -313,65 +435,80 @@ Name: res/drawable/event_info_maybe.xml
 SHA1-Digest-Manifest: L+lsgB0Lj2vzgK89p7vx6ri2YFg=
 
 Name: res/drawable/bt_subscribe_rectangle.xml
-SHA1-Digest-Manifest: qf+WZTkIzyT4MUGuXyT+ZUvXPCY=
+SHA1-Digest-Manifest: T+r0xjL4M1/MrG90Xz/R+uJiFf8=
 
 Name: res/drawable/ic_flag_cameroon.png
 SHA1-Digest-Manifest: zs4NU1ooBReAj92cJt8k3IQfeWc=
 
 Name: res/layout/chips_alternate_item.xml
-SHA1-Digest-Manifest: LVSSBZWDF7boUkcgMB0PqJDB4FU=
+SHA1-Digest-Manifest: e2/41wGE+aHhfaFIXj4cqotyD7E=
+
+Name: res/layout/view_footer_post_list.xml
+SHA1-Digest-Manifest: wDVhzvigoPQSDP/fnKcVfpz/alc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: ztc2uJrajE4B7eaXxWZLpWjhsyQ=
 
 Name: res/drawable/msg_svg.xml
 SHA1-Digest-Manifest: r3eUc3vNQsL+EwAmPhuEtQ8g+iE=
 
-Name: res/drawable-mdpi-v4/calname_select_underselect_holo_light.9.png
-SHA1-Digest-Manifest: 4Zo2Qe5hixKqB80Sx2T33lv6rOc=
-
 Name: res/drawable/ic_flag_pakistan.png
 SHA1-Digest-Manifest: ZSuP/bePeB1Qupq2rkbSIvt3z/8=
 
-Name: res/drawable-xhdpi-v4/ic_expand_small_holo_light.png
-SHA1-Digest-Manifest: QAjbpg8S9Araze6s0qs+LnEIrnk=
+Name: res/drawable-mdpi-v4/calname_select_underselect_holo_light.9.png
+SHA1-Digest-Manifest: 4Zo2Qe5hixKqB80Sx2T33lv6rOc=
+
+Name: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest-Manifest: 7fjHiHl0SwV6iMwtu0GEFqWNif4=
 
 Name: res/drawable/ic_flag_equatorial_guinea.png
 SHA1-Digest-Manifest: UpvJuiIvIVP2DJCNOcH4AHnB1/I=
 
+Name: res/drawable-xhdpi-v4/ic_expand_small_holo_light.png
+SHA1-Digest-Manifest: QAjbpg8S9Araze6s0qs+LnEIrnk=
+
+Name: res/drawable/input_line.9.png
+SHA1-Digest-Manifest: /wJpayx85536ttVN/zkcE3uGL70=
+
 Name: res/layout/item_recommend_weibo.xml
-SHA1-Digest-Manifest: eAlqZr/7dp0+ewDjQh5s4PVu3m0=
+SHA1-Digest-Manifest: z3gPYuAew05iVgesHoLa11pv+Z4=
 
 Name: res/drawable-hdpi-v4/calname_bottom_select_underselect_holo_ligh
  t.9.png
 SHA1-Digest-Manifest: l12jyOGpFox3ZqoDvoW/yfVvC44=
 
-Name: res/drawable-xxhdpi-v4/response_maybe_unpressed.png
-SHA1-Digest-Manifest: zJIibgSd0NfpascX5F4CK9SygsA=
+Name: res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest-Manifest: bKDAz/GvMsK2qKIXXjfzdAwCtG4=
+
+Name: res/drawable/ic_flag_costa_rica.png
+SHA1-Digest-Manifest: qiVnhOOsSKOn82yBWMpORv1Uofg=
 
 Name: res/drawable/ic_flag_antigua_and_barbuda.png
 SHA1-Digest-Manifest: SSNWDhl3TR0vn1V7qI09AYXjM0Y=
 
-Name: res/drawable/ic_flag_costa_rica.png
-SHA1-Digest-Manifest: qiVnhOOsSKOn82yBWMpORv1Uofg=
+Name: res/drawable-xxhdpi-v4/response_maybe_unpressed.png
+SHA1-Digest-Manifest: zJIibgSd0NfpascX5F4CK9SygsA=
 
 Name: res/drawable-hdpi-v4/ic_launcher.png
 SHA1-Digest-Manifest: tYiGDUvOwHeh/pZhFgJ5InuO0zk=
 
 Name: res/layout/item_recommend_artists.xml
-SHA1-Digest-Manifest: DDIxOb19y2rx9vGb4ZdXE8smFqE=
-
-Name: res/drawable-hdpi-v4/ic_recurrence_bubble_outline_disabled.png
-SHA1-Digest-Manifest: 6ahYHWYMu4OAZInGqnk+ouf+IdQ=
+SHA1-Digest-Manifest: glBfCFgmmIP2MDgZePFGS6Y/oo4=
 
 Name: res/drawable/ic_flag_namibia.png
 SHA1-Digest-Manifest: nCP2ba6EVFDU1vJdA1Zhge3YSx4=
 
+Name: res/drawable-hdpi-v4/ic_recurrence_bubble_outline_disabled.png
+SHA1-Digest-Manifest: 6ahYHWYMu4OAZInGqnk+ouf+IdQ=
+
 Name: res/layout/net_not_connect_layout.xml
-SHA1-Digest-Manifest: hqSiMjWyFd9XH5aDgzH+xaGE2FQ=
+SHA1-Digest-Manifest: Qoe4mudTtjo81ST4PutDUbWvEvc=
 
 Name: res/drawable/ic_flag_malawi.png
 SHA1-Digest-Manifest: FdetNI0gJq7Pp+v+OZIaJ/YqOEY=
 
 Name: res/layout/last_time_widget_layout.xml
-SHA1-Digest-Manifest: 8tHM5xT2kk8x6BEIm62diTtV9QM=
+SHA1-Digest-Manifest: +C8rgRaFPeKgMOAqXO4Rnm5z5Xo=
 
 Name: res/drawable-mdpi-v4/ic_menu_today_no_date_holo_light_disabled.p
  ng
@@ -381,10 +518,16 @@ Name: res/drawable-xhdpi-v4/snooze.png
 SHA1-Digest-Manifest: zka6GCrkwBjnGNrXHpBV+AqHZRI=
 
 Name: assets/holiday.json
-SHA1-Digest-Manifest: bCQiWwG8vPeZYXxbek2Co+CWEKI=
+SHA1-Digest-Manifest: sg9xVTbDTbZ73EIhu4YUWCFcMfM=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: AtB7ETUQ8F3vk6WV56KUJwwZz6U=
 
 Name: res/drawable-xxhdpi-v4/icon_subscribe_list.png
 SHA1-Digest-Manifest: d81RQ2GGLGC/kvnyjd0mgKg7Fso=
+
+Name: res/layout/content_ab_star_page.xml
+SHA1-Digest-Manifest: cKAZkYl4TNR4eq3gRidkdEnNRXw=
 
 Name: res/drawable-xxhdpi-v4/list_multi_left_primary_holo.9.png
 SHA1-Digest-Manifest: 6OhCjdYe6rZ3AeX76b6Dd9ctZBM=
@@ -393,28 +536,34 @@ Name: res/drawable-hdpi-v4/ic_menu_compose_pressed_holo_dark.png
 SHA1-Digest-Manifest: 52AKSPPTw8yGLAqPTgUnlhoZb2w=
 
 Name: res/layout/appwidget_loading.xml
-SHA1-Digest-Manifest: VLpWyyNyb3yYkV0Lxbf8+YnbayQ=
-
-Name: res/drawable-hdpi-v4/list_multi_left_primary_holo.9.png
-SHA1-Digest-Manifest: pqUSaEkFGBIWWBgfVZSSTsk8Z+Y=
+SHA1-Digest-Manifest: L8cZjtvsF4LcSAQsx5215EeU7zQ=
 
 Name: res/drawable/ic_flag_faroe_islands.png
 SHA1-Digest-Manifest: U0WZsYZp4Pd/nC5l7pgTJsED8s0=
 
+Name: res/drawable-hdpi-v4/list_multi_left_primary_holo.9.png
+SHA1-Digest-Manifest: pqUSaEkFGBIWWBgfVZSSTsk8Z+Y=
+
 Name: res/drawable/calname_unselected.xml
-SHA1-Digest-Manifest: cOyDobTXjxKMTzSaVn5c57zrK+M=
+SHA1-Digest-Manifest: oUMznkUkYBKP7+1l0u0YFoV0mHE=
 
 Name: res/drawable/ic_flag_congo.png
 SHA1-Digest-Manifest: iW3HDpj7XOec24GlQs3cnP3Y65U=
 
+Name: res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest-Manifest: 2lRuxodMxnuWn+IclaJShuAV5+Y=
+
 Name: res/layout-sw600dp-v13/agenda_item.xml
-SHA1-Digest-Manifest: OAT2V0Kg3TQOdnjvslQQ3uPWx0U=
+SHA1-Digest-Manifest: kF/Fl6h0o2Pg7b84t2PLNco+vOY=
 
 Name: res/layout-w270dp-h560dp-v13/date_picker_dialog.xml
-SHA1-Digest-Manifest: bhUS3Il4o7HjUzhYCTWm5FKvcZM=
+SHA1-Digest-Manifest: MFRQHZOhMV5AEDYN1QqKYBzaZdQ=
 
 Name: res/layout/full_month_header.xml
-SHA1-Digest-Manifest: +71NqAORTNjbwM1s4p/ysMuIFK8=
+SHA1-Digest-Manifest: GVJYjzjtW0WO7CPCo40y5H+OanM=
+
+Name: res/layout-v11/abc_screen_content_include.xml
+SHA1-Digest-Manifest: +/kOXGudZsqPkzidHNlLpJ2q7GM=
 
 Name: res/drawable/ic_flag_tonga.png
 SHA1-Digest-Manifest: K6GgQ+iMYoVRfJDaM13pKkQWhL4=
@@ -422,14 +571,17 @@ SHA1-Digest-Manifest: K6GgQ+iMYoVRfJDaM13pKkQWhL4=
 Name: res/drawable/ic_flag_gibraltar.png
 SHA1-Digest-Manifest: 6SqvPRTPbdUpnIxrzRFhJq5EjfY=
 
-Name: res/drawable-mdpi-v4/ic_menu_done_holo_light.png
-SHA1-Digest-Manifest: zTQ9jHTSGMRZ2PbQbpUfMvWcj68=
-
 Name: res/drawable/cancer.xml
 SHA1-Digest-Manifest: 1bbdZImYdPWldWeFVJ0Ai1xc7ns=
 
+Name: res/drawable-mdpi-v4/ic_menu_done_holo_light.png
+SHA1-Digest-Manifest: zTQ9jHTSGMRZ2PbQbpUfMvWcj68=
+
 Name: res/drawable/menu_to_mail_svg.xml
-SHA1-Digest-Manifest: O7JXSpwV+HaHCg1ZzXEVwRxDBwE=
+SHA1-Digest-Manifest: BrxgTUKhOtF8IkYXOFgN7hIEoSM=
+
+Name: res/drawable-ldrtl-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: lDdhH+ZKed71w2AvtnD0+Tgm+/M=
 
 Name: res/drawable-mdpi-v4/widget_show.png
 SHA1-Digest-Manifest: ZPdXFbHOhi1Gz/yM2WNv+fgv2kU=
@@ -438,16 +590,16 @@ Name: res/drawable-xxhdpi-v4/ic_menu_compose_pressed_holo_dark.png
 SHA1-Digest-Manifest: 0AT+dFCZ9pQW7dp2qpUwsGx1N3Q=
 
 Name: res/layout-sw600dp-v13/agenda_day.xml
-SHA1-Digest-Manifest: XzTq2rp7yPR2oYxTjOrUuEtBaQA=
-
-Name: res/menu-sw600dp-land-v13/all_in_one_title_bar.xml
-SHA1-Digest-Manifest: L7cvKC4z0BfiEJ5cJSUO7QJsD5A=
+SHA1-Digest-Manifest: CJcF2qFCLRT3/EHZohA7cbwfMzY=
 
 Name: res/drawable-xxhdpi-v4/list_primary_holo.9.png
 SHA1-Digest-Manifest: LaXCLKSuFCZd/kGCSZUTguuNqbU=
 
+Name: res/menu-sw600dp-land-v13/all_in_one_title_bar.xml
+SHA1-Digest-Manifest: clo9wxTaFThNBBwIW/28Hq0xAgo=
+
 Name: res/layout/leui_simple_list_item_alphabet.xml
-SHA1-Digest-Manifest: rB5U1qQ+rMV1Kt3qJhPZAsBnhGw=
+SHA1-Digest-Manifest: 1T6cMSRHhWaDJpDhKGmUt6Ezoh8=
 
 Name: res/drawable-hdpi-v4/calname_bottom_select_underunselected_press
  ed_holo_light.9.png
@@ -462,23 +614,41 @@ SHA1-Digest-Manifest: 0x9QxtyYdznH6QMuuwbWatzQVUQ=
 Name: res/drawable-hdpi-v4/ic_alarm_white.png
 SHA1-Digest-Manifest: W7in9ybyG3W/fuoi5jwx457rQjM=
 
-Name: res/layout/events_last_widget.xml
-SHA1-Digest-Manifest: 9lgs3wsQbG2tk8rC47PZvPfL6rc=
+Name: res/drawable/selector_button_theme_bg.xml
+SHA1-Digest-Manifest: GpZrbUNtkeBMLvPcTqJHwbI+oJ0=
 
 Name: res/drawable/bt_guide_nor_rectangle.xml
 SHA1-Digest-Manifest: 3WkKVgn1dUP6N8wEKeNebB+lfdY=
 
+Name: res/layout/events_last_widget.xml
+SHA1-Digest-Manifest: d9VlY0VRI9i5zm4JB1ZftgftwPM=
+
+Name: res/layout/abc_expanded_menu_layout.xml
+SHA1-Digest-Manifest: WQ9QYouDeC4SC+wjJI/3LeDKUUY=
+
 Name: res/drawable/ic_flag_qww.png
 SHA1-Digest-Manifest: IrWQdJYrrEtRt404LvJyXVdzyOo=
 
+Name: res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest-Manifest: kxSGYJoMOYG0HnE3IprNwOq5ou8=
+
 Name: res/menu/search_title_bar.xml
-SHA1-Digest-Manifest: Ty8wrxHDAixzozmk8Y7INC28CE0=
+SHA1-Digest-Manifest: BgjM+0o11T9u64HigZaRKOO6GXI=
+
+Name: res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest-Manifest: z5rmTEqRHuMsX24l4sP3B88dR3Q=
 
 Name: res/anim/translate_down_in.xml
 SHA1-Digest-Manifest: TpzZo0k/HD9bSBPrOmQa6qYdnB8=
 
+Name: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest-Manifest: KsVyWTSJS8EOkowXLP9KW5sg2nY=
+
 Name: res/drawable/ic_flag_samoa.png
 SHA1-Digest-Manifest: biK5tLcVnCItro0TFjgwmzyn1/I=
+
+Name: res/color/abc_background_cache_hint_selector_material_light.xml
+SHA1-Digest-Manifest: NYWqowxyrS2UY2V4Y4mLIoyTki8=
 
 Name: res/drawable-mdpi-v4/ic_menu_settings_holo_light.png
 SHA1-Digest-Manifest: DwJS06kjQSC56EEj7FxXEllDmP4=
@@ -486,38 +656,44 @@ SHA1-Digest-Manifest: DwJS06kjQSC56EEj7FxXEllDmP4=
 Name: res/drawable/ic_flag_india.png
 SHA1-Digest-Manifest: shvzgkZbdRRDueeo3Zkbak2Hq1k=
 
-Name: res/layout/le_action_provider.xml
-SHA1-Digest-Manifest: FLbFs6DGIcY0cCu1Be8qKdFm2lQ=
-
 Name: res/drawable/ic_flag_sweden.png
 SHA1-Digest-Manifest: 90+BFb5JoMzvVeswq/Jru0vR1M4=
 
-Name: res/color/main_bottom_button_color.xml
-SHA1-Digest-Manifest: tLeE3ZVcAQ72zdUdMiZP3cXbCqg=
+Name: res/layout/le_action_provider.xml
+SHA1-Digest-Manifest: GJrzwehm4j/k39UDtr1Px5PdGyU=
 
-Name: res/drawable-xhdpi-v4/ic_expand_large_holo_light.png
-SHA1-Digest-Manifest: wpUJZQSEpxZ8xMpN4WFuhJ4V6Qc=
+Name: res/color/main_bottom_button_color.xml
+SHA1-Digest-Manifest: F3cuH3rGbhCqty/KzGZjU+e2AJk=
 
 Name: res/drawable-xxhdpi-v4/calname_bottom_select_underselect_holo_li
  ght.9.png
 SHA1-Digest-Manifest: qD0Jn6wSlVYLtzE77lYyRMT9oc8=
 
+Name: res/drawable-xhdpi-v4/ic_expand_large_holo_light.png
+SHA1-Digest-Manifest: wpUJZQSEpxZ8xMpN4WFuhJ4V6Qc=
+
 Name: res/drawable/ic_flag_chile.png
 SHA1-Digest-Manifest: zw5Kbh31aBd5z/a7D2ms7fEk/TM=
-
-Name: res/drawable/le_actionbar_menuitem_white_back.xml
-SHA1-Digest-Manifest: T+/k1ws7H2XDicPVOfPNL/sYbN4=
-
-Name: res/drawable-hdpi-v4/calname_select_underunselected_pressed_holo
- _light.9.png
-SHA1-Digest-Manifest: SitnYdScLXn7T1jFYfYHJuHaYjE=
 
 Name: res/drawable-xxhdpi-v4/calname_unselected_underselect_pressed_ho
  lo_light.9.png
 SHA1-Digest-Manifest: ohiMNc/Od4NUUxu7Zu7tZUsTa3w=
 
+Name: res/drawable-hdpi-v4/calname_select_underunselected_pressed_holo
+ _light.9.png
+SHA1-Digest-Manifest: SitnYdScLXn7T1jFYfYHJuHaYjE=
+
+Name: res/drawable/le_actionbar_menuitem_white_back.xml
+SHA1-Digest-Manifest: T+/k1ws7H2XDicPVOfPNL/sYbN4=
+
 Name: res/drawable-xhdpi-v4/ic_allday_collapse_small_holo_light.png
 SHA1-Digest-Manifest: BzzLlHUniC3KH/ki9Qmq7Be/qlw=
+
+Name: res/menu/menu_star_page.xml
+SHA1-Digest-Manifest: QeurDMfpuitDHrtnBqU+cbglxgw=
+
+Name: res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest-Manifest: rDoVKQUYnqgVz5KStlGT59UHjW4=
 
 Name: res/drawable-mdpi-v4/dayline_minical_holo_light.9.png
 SHA1-Digest-Manifest: nhoRRVJBmtU7R7ojJ0ILpbETX5k=
@@ -529,10 +705,13 @@ Name: res/drawable-mdpi-v4/calname_unselected_holo_light.9.png
 SHA1-Digest-Manifest: CN6sjdaFa6pem+e+m3YLE64hyRY=
 
 Name: res/drawable-sw600dp-v13/ic_expand_holo_light.xml
-SHA1-Digest-Manifest: OQ9V+0jliXr6e4PdUjP+LjRCeB8=
+SHA1-Digest-Manifest: geuKWw70Ba86mzFj1fV2x4l8dP8=
 
 Name: res/drawable-sw360dp-xxhdpi-v13/window_bg.png
 SHA1-Digest-Manifest: 1crjjgc1UmksXzr8CT9w43ZOD0Q=
+
+Name: res/drawable/abc_cab_background_top_material.xml
+SHA1-Digest-Manifest: AQ86QhSn+2ZTpbqWeceifao0niI=
 
 Name: res/drawable/ic_flag_saint_french_guiana.png
 SHA1-Digest-Manifest: i4rNuBsW+eyscvcRJhnmP95c/xg=
@@ -540,14 +719,17 @@ SHA1-Digest-Manifest: i4rNuBsW+eyscvcRJhnmP95c/xg=
 Name: res/drawable-xhdpi-v19/list_pressed_holo.9.png
 SHA1-Digest-Manifest: APaIK1wYikMu9tSVMQnP4U3G/5Q=
 
-Name: res/layout/recently_event_item.xml
-SHA1-Digest-Manifest: Owa/6buRK0V75QNOLIkgRbDOQzA=
+Name: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest-Manifest: KV1kviY5baSCVCjRxrMs398LwBk=
 
 Name: res/drawable/calname_select_underunselected.xml
-SHA1-Digest-Manifest: uzjKgwTsaf/NIcVjSbGnYEEIoDE=
+SHA1-Digest-Manifest: aqfLHMUSLIlzxFpIQjd1cGZLX1A=
+
+Name: res/layout/recently_event_item.xml
+SHA1-Digest-Manifest: msPYkdQplBE3DRwnnV0L7cCV/RI=
 
 Name: res/drawable/event_list_bg_pressed.xml
-SHA1-Digest-Manifest: qRfghzenUIsyEz7zuyQ6nQkmxzc=
+SHA1-Digest-Manifest: /xdx6Mu1yuAy2CO1JdMhOv/Hr/0=
 
 Name: res/drawable/ic_flag_nepal.png
 SHA1-Digest-Manifest: rqmmscCRtNHpzOMbsMBZHkCkWMc=
@@ -558,20 +740,23 @@ SHA1-Digest-Manifest: RjxP8kkupawo6WAjK/Nv70Ztpyo=
 Name: res/drawable-xxhdpi-v4/cal_widget_bg.9.png
 SHA1-Digest-Manifest: 9P6BG/oKt5rgfsjnOlnSUCu9lRg=
 
-Name: res/layout/time_picker_dialog.xml
-SHA1-Digest-Manifest: b47a8zXUNGCcT7Z1fbHVoveL4oo=
-
-Name: res/layout/event_info.xml
-SHA1-Digest-Manifest: dkluiu8qhJ4dOJX8tWwNyqI3xko=
+Name: res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest-Manifest: GUnPE4NJ0bIgTQ0E00Mn8Ap+NQE=
 
 Name: res/drawable-xhdpi-v4/list_multi_left_focused_holo.9.png
 SHA1-Digest-Manifest: EpzPKHswTIztKgl+KF3p0DAo0Ak=
 
+Name: res/layout/event_info.xml
+SHA1-Digest-Manifest: WEfzCKVZIXn+9p7Ro5OYoROS66U=
+
+Name: res/layout/time_picker_dialog.xml
+SHA1-Digest-Manifest: aahL0AGKWJD70bxWFF+w+fGwYSM=
+
 Name: res/layout/calendar_settings_activity.xml
-SHA1-Digest-Manifest: 1vowAkA21xv6jqPvHQaS/w9Zzs4=
+SHA1-Digest-Manifest: Tr13RNj+TGVqP1rCYr1cciVIGq4=
 
 Name: res/layout/agenda_fragment.xml
-SHA1-Digest-Manifest: 9kAg+/X1Z9u9avM2tATZMH7x+Sc=
+SHA1-Digest-Manifest: M6bAZYnf2oCaAbBrYRxFWHNSPME=
 
 Name: res/mipmap-mdpi-v4/ic_launcher_calendar.png
 SHA1-Digest-Manifest: c+YIuEcfR77SPsZTo/Vuiy8Js5A=
@@ -580,11 +765,17 @@ Name: res/drawable-xxhdpi-v19/calname_unselected_pressed_holo_light.9.
  png
 SHA1-Digest-Manifest: HN04UJdmUF4WlNgw33eJq+xj3so=
 
-Name: res/layout/agenda_day.xml
-SHA1-Digest-Manifest: wpOsQ7SKS4FanZ7tRQPnQpFoaFA=
+Name: res/layout/le_inputbox.xml
+SHA1-Digest-Manifest: yVAChqidMeLUIKdIPz+sDDsBThE=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_colorpicker_holo_light.png
 SHA1-Digest-Manifest: PFwQv4GognedtiqVUd7epJurdwU=
+
+Name: res/layout/agenda_day.xml
+SHA1-Digest-Manifest: aHGxrXpcHSW7wtfJAbXfQZ5TtcM=
+
+Name: res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest-Manifest: 24A4cx8di73wGR9ltTVx16swHmQ=
 
 Name: res/drawable/ic_flag_palau.png
 SHA1-Digest-Manifest: n/tAqneUkdP1+eHILghl3+HYh0A=
@@ -593,35 +784,56 @@ Name: res/drawable-xhdpi-v4/ic_menu_email_holo_dark.png
 SHA1-Digest-Manifest: QBUfGgxVdOOlTBQRsZZGwKarZqc=
 
 Name: res/layout-sw600dp-v13/all_in_one.xml
-SHA1-Digest-Manifest: GToPovDVHA/sow8/4172BvQm/FM=
+SHA1-Digest-Manifest: Sf9Ik8ZAeBapLZHXKP4stfKdwyQ=
 
 Name: res/drawable-xhdpi-v4/cal_widget_date_bg.9.png
 SHA1-Digest-Manifest: WAjkKCWDm66aHaKjRW5Z264PBoU=
 
+Name: res/layout/nonetwork_reloading.xml
+SHA1-Digest-Manifest: OCC6mEGr9Urw1ipNrGBG0ZV6b+g=
+
 Name: res/drawable-xhdpi-v4/mini_calendar.png
 SHA1-Digest-Manifest: PxcV897SEdVqD8P2R6UzzrwRwxY=
+
+Name: res/layout/almanac_event_info.xml
+SHA1-Digest-Manifest: aKDZAK44CNigPRnBiZtG8Enep3g=
 
 Name: res/drawable-xxhdpi-v4/calname_bottom_select_underunselected_hol
  o_light.9.png
 SHA1-Digest-Manifest: YmdM1wdu4df45x2HCz6/7gERDxg=
 
 Name: res/layout/mini_month_header.xml
-SHA1-Digest-Manifest: 29hHuYIbpNYepcQIcEhlC2KZOk4=
+SHA1-Digest-Manifest: FTXGirzBiMOmero/IkjbxwF+qzw=
 
 Name: res/drawable-xxhdpi-v4/widget_selected_icon.png
 SHA1-Digest-Manifest: bZAxA/CktVWehxp5w0t6W71V4sI=
 
+Name: res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: CmDMm29YcsmbB3M6EcVYbcfkg/s=
+
+Name: res/drawable/top_reback_btn_icon.xml
+SHA1-Digest-Manifest: DjpK3jTALDw0sjkK1vyYLJdupjI=
+
 Name: res/drawable-mdpi-v4/ic_allday_collapse_large_holo_light.png
 SHA1-Digest-Manifest: 2lTuMbFCI31zDM9zp2k+WAyYJdk=
 
+Name: res/color/abc_primary_text_disable_only_material_light.xml
+SHA1-Digest-Manifest: pXBxhVSi/vJTNz8dkABvNeRGwaE=
+
+Name: res/anim/alpha_in_long.xml
+SHA1-Digest-Manifest: M/M0KZfooAKrT9sJFUUoVt0Bmrg=
+
 Name: res/layout/text.xml
 SHA1-Digest-Manifest: FICw2kSAp3yMYeLKktU5nrNGZhY=
+
+Name: res/layout-sw600dp-v13/design_layout_snackbar.xml
+SHA1-Digest-Manifest: soQXnx5auOznhX+SXsOidPCxcUY=
 
 Name: res/drawable-xhdpi-v4/bg_event_cal_widget_holo.9.png
 SHA1-Digest-Manifest: 80ZuCxSKlT+h50Qgakovk6suOiQ=
 
 Name: res/layout/email_autocomplete_item_loading.xml
-SHA1-Digest-Manifest: cvX8x5xE2A/lDRbLAGNPH9FXyDo=
+SHA1-Digest-Manifest: IvWEyd7J48ryuxpYLiat9HNjV5s=
 
 Name: res/drawable/ic_flag_iraq.png
 SHA1-Digest-Manifest: S6CIr/WEQ/SgGoPWEy3szL6UkCY=
@@ -629,71 +841,99 @@ SHA1-Digest-Manifest: S6CIr/WEQ/SgGoPWEy3szL6UkCY=
 Name: res/anim/alpha_in.xml
 SHA1-Digest-Manifest: FuvrhS0uIYG6H+0JD8aGGn5BzZQ=
 
-Name: res/drawable/calname_bottom_unselected_underselect.xml
-SHA1-Digest-Manifest: 855vrFYNVuNzxhfIXFWgCvTobF4=
+Name: res/layout/abc_list_menu_item_layout.xml
+SHA1-Digest-Manifest: A41xsC9y/XYgEH8pulWj1jrzlLc=
 
-Name: res/drawable-land-v19/done_background_color.xml
-SHA1-Digest-Manifest: fqZ9ztWNhylZLoxpqe+NK/xH9RE=
+Name: res/drawable/calname_bottom_unselected_underselect.xml
+SHA1-Digest-Manifest: v/wUfWt4m8zZ63Y8lUdN4M8hc0E=
+
+Name: res/layout/tag_detail_layout.xml
+SHA1-Digest-Manifest: +4qR5edAutrJhVqfozAlzcwi+LU=
 
 Name: res/drawable-xhdpi-v4/ic_recurrence_bubble_fill.png
 SHA1-Digest-Manifest: ATTGE3BfNYhQXnFTX7Jpnbu13sU=
 
+Name: res/drawable-land-v19/done_background_color.xml
+SHA1-Digest-Manifest: jZc0eax2vCVcbnN5xGOpFSgzf80=
+
 Name: res/drawable/ic_flag_argentina.png
 SHA1-Digest-Manifest: 4H5LubRey/GLYh+FCNLuwHx+jyI=
-
-Name: res/drawable/ic_flag_malaysia.png
-SHA1-Digest-Manifest: GQmkIjTJU/i7G90/2efchiKsXh0=
 
 Name: res/drawable/bt_square_subscribed_rectangle.xml
 SHA1-Digest-Manifest: 4ddykPRxBmHr5umPoOfexi/xVis=
 
-Name: res/drawable/ic_flag_iceland.png
-SHA1-Digest-Manifest: uTTAEzo/dn9dNzx0/tX8yI3yXxc=
+Name: res/drawable/ic_flag_malaysia.png
+SHA1-Digest-Manifest: GQmkIjTJU/i7G90/2efchiKsXh0=
 
 Name: res/drawable-hdpi-v4/ic_alarm_dark.png
 SHA1-Digest-Manifest: xGvRDkGr7lEeZil7RNtAmxM6yyA=
 
+Name: res/drawable/ic_flag_iceland.png
+SHA1-Digest-Manifest: uTTAEzo/dn9dNzx0/tX8yI3yXxc=
+
 Name: res/drawable-xxhdpi-v4/ic_allday_expand_small_holo_light.png
 SHA1-Digest-Manifest: fIrYlPO+5JdiYcRMBwhcO37yz+M=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: CdibjGbyrMSk6kxhisYm1pxyCpk=
 
 Name: res/drawable/no_events.xml
 SHA1-Digest-Manifest: nL1hFBCll6hkoHarl2/rUiJ35uQ=
 
 Name: res/drawable/play_button_pressed.xml
-SHA1-Digest-Manifest: 12TE7FsXyznyetNhzVQELcdvA0U=
+SHA1-Digest-Manifest: APtAdLlnx27PUhXqU15q3yYSvCw=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.
+ 9.png
+SHA1-Digest-Manifest: T1UJYSyW0SBmtvS67G524cLlaHM=
+
+Name: res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest-Manifest: j7oKd56yOLmG/qIDUU3a+2EFFV4=
 
 Name: res/xml/subscribe_searchable.xml
-SHA1-Digest-Manifest: 7dnDOzLLmxe3iTIagh9DgPsPv/M=
+SHA1-Digest-Manifest: mQ0kfjFV24G/4BGl5zS89KdWhJM=
 
 Name: res/drawable-xhdpi-v4/list_multi_left_primary_holo.9.png
 SHA1-Digest-Manifest: n7gBEp1+mHPHcJoaGIktlsZPBQI=
 
-Name: res/drawable/ic_flag_liechtenstein.png
-SHA1-Digest-Manifest: 7UIHeXwhJaKl8e2cP+LUVP86Xbk=
+Name: res/anim/abc_slide_out_bottom.xml
+SHA1-Digest-Manifest: QE0YUwjYdedmgPyovw3+5mmYlYE=
+
+Name: res/drawable-hdpi-v4/abc_ab_share_pack_holo_dark.9.png
+SHA1-Digest-Manifest: l2fEFUemoyHWbFaHkIwCMYkKqGA=
+
+Name: res/drawable-hdpi-v4/abc_ab_share_pack_holo_light.9.png
+SHA1-Digest-Manifest: zkiNa53Gk8Li7FsMJh/eg5nr184=
 
 Name: res/drawable/ic_flag_cook_islands.png
 SHA1-Digest-Manifest: Tmt6W98yY7j2xYOz5SckwI35I3g=
 
+Name: res/drawable/ic_flag_liechtenstein.png
+SHA1-Digest-Manifest: 7UIHeXwhJaKl8e2cP+LUVP86Xbk=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest-Manifest: 7hLJUfeQ+P1D4oocZppyY5DhL1k=
+
 Name: res/layout/item_recommend_hot_product.xml
-SHA1-Digest-Manifest: k97r1RwrfMlPF6pP1Bc9amm3w1E=
+SHA1-Digest-Manifest: 7EaAL23ui4raEenkmyRYXiN82bQ=
 
 Name: res/menu/event_info_title_bar.xml
-SHA1-Digest-Manifest: LItzEFRsN/99blQ7L/KnKui61DA=
+SHA1-Digest-Manifest: ZD8TYVwLIUNqjAxDuegxyYCq0Is=
 
 Name: res/drawable-xxhdpi-v4/ic_recurrence_bubble_disabled.png
 SHA1-Digest-Manifest: QG1tzjajYfGOEBkcVPy8Houulog=
 
 Name: res/layout/event_remind_apinner_item.xml
-SHA1-Digest-Manifest: nJMxY+BkiNLILRLqruy3s3VCtsM=
+SHA1-Digest-Manifest: 0J0+zm4kCtt6c86aKtDO5Y3S/9g=
 
 Name: res/layout/rrule_list_item.xml
-SHA1-Digest-Manifest: mj/HgljG2GflcnhPWrpZua20+0s=
+SHA1-Digest-Manifest: AoDOzDN8NC0TNFJAZb1Q5IsRQNY=
 
 Name: res/drawable/button_click_bg.xml
-SHA1-Digest-Manifest: b2a5zpnEnMlckviIXdh5xNb7Oaw=
+SHA1-Digest-Manifest: XY5kSHocaaD0UrzgsKDzz43GOy0=
 
 Name: res/layout/day_activity.xml
-SHA1-Digest-Manifest: cj+BqtK+FTM/qBIx/MpCJBetkr4=
+SHA1-Digest-Manifest: k201nVChHyDavAWIAqRasSAmLIQ=
 
 Name: res/drawable/ic_flag_comoros.png
 SHA1-Digest-Manifest: 1sFhieXDOelgA5Aj2YkskZMQi7M=
@@ -711,45 +951,60 @@ SHA1-Digest-Manifest: gZ0BhAaYGXfuUiRA9g6i1G+vmrk=
 Name: res/drawable-mdpi-v4/ic_alarm_holo_dark.png
 SHA1-Digest-Manifest: awAPy2PAoyF+99Iu8ONyRdvuemA=
 
-Name: res/drawable/ic_flag_israel.png
-SHA1-Digest-Manifest: clE9Alz+mSMtzd0Kj6LZNnovqzo=
-
 Name: res/drawable-hdpi-v4/calname_bottom_unselected_pressed_holo_ligh
  t.9.png
 SHA1-Digest-Manifest: y0u6WhOV4Dlr0+xSm3XDsUd+BYw=
 
+Name: res/drawable/ic_flag_israel.png
+SHA1-Digest-Manifest: clE9Alz+mSMtzd0Kj6LZNnovqzo=
+
 Name: res/layout/activity_main2.xml
-SHA1-Digest-Manifest: edY1Ms53EsRPZGJgZokqZsT2dX0=
+SHA1-Digest-Manifest: v2EMtUIauPDhCU3QO8qRaqV0Qyk=
 
 Name: res/drawable-hdpi-v4/ic_menu_today_holo_light.png
 SHA1-Digest-Manifest: 2oO106QuRHvem3BtUwrqcJiL0Lk=
 
 Name: res/drawable/le_top_btn_icon_reback_black.xml
-SHA1-Digest-Manifest: nnHBKe1NBzwHu9o5CulK8XkLMOM=
+SHA1-Digest-Manifest: RbLeoMb9jSXeLaevudigRZguzVg=
+
+Name: res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: DVbORvrK8jyMZuwRxDqnGgrifSo=
 
 Name: res/drawable-xxhdpi-v4/ic_allday_collapse_small_holo_light.png
 SHA1-Digest-Manifest: quDHoDJLb8TV0Hmxa1T/7f+IHfo=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest-Manifest: KQdU46Xq783i0JA0RVJt4dlCBhY=
 
 Name: res/drawable/ic_flag_zukraine.png
 SHA1-Digest-Manifest: vvTyyo1c9LtIS/0OxJNmLOuOomY=
 
 Name: res/layout/agenda_header_footer.xml
-SHA1-Digest-Manifest: +QuRBNindY1S7LesUbPdt7Pw0/I=
+SHA1-Digest-Manifest: 3JBymihVIubbRp92y5lKHGggR44=
 
 Name: res/drawable/play_button_unpressed.xml
-SHA1-Digest-Manifest: OFo7DBTaZMl9hhidl3TwdPxd33M=
+SHA1-Digest-Manifest: 5NT7l2Fwf7Y+5fQaB9SsIldNZYc=
 
 Name: res/anim/slide_left_out.xml
 SHA1-Digest-Manifest: hmDtQKKU51Fh9903yyPoqlClAQ0=
 
 Name: res/layout/subsion_agendabirthday_item.xml
-SHA1-Digest-Manifest: o+0oXSDF5IEzf2J1pF/Ccu6jtN8=
+SHA1-Digest-Manifest: k3FqFzqzJ0QxOHAoAzN/+V219YA=
 
 Name: res/drawable-xxxhdpi-v4/tag_new.png
 SHA1-Digest-Manifest: NJvIdwK3JBnOZq5iPnDGfeJC6xY=
 
 Name: res/layout/agenda_activity.xml
-SHA1-Digest-Manifest: cY3gz/iBzNbox9MKd/uYKUevKSI=
+SHA1-Digest-Manifest: C5weL+nonADji7NknLO9NycPDWE=
+
+Name: res/drawable/failed_itemheader.jpg
+SHA1-Digest-Manifest: 1kj8QMK0mIkT8xfmUMb5zadNquM=
+
+Name: res/drawable/post_btn_bg.xml
+SHA1-Digest-Manifest: nK23mHv9oSmXFk70lfyk0wCI7lc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: ZASdEykkaZcSZ7Yjx1dUk6dEVjE=
 
 Name: res/drawable-mdpi-v4/calname_bottom_select_underselect_pressed_h
  olo_light.9.png
@@ -765,49 +1020,74 @@ Name: res/drawable-mdpi-v4/ic_menu_colorpicker_pressed.png
 SHA1-Digest-Manifest: Bsh9ap1Cf6rJDzS7E8e2RekbAYQ=
 
 Name: res/xml/searchable.xml
-SHA1-Digest-Manifest: c5TYsGGcR0j7asIfQA4q0/C8cbA=
+SHA1-Digest-Manifest: EHhrOJu9mEH6PCstHU92mN8Azvc=
 
 Name: res/drawable-hdpi-v4/ic_menu_today_no_date_holo_light.png
 SHA1-Digest-Manifest: 2AOUNXW+T9oLNtGthQylN+R9oKI=
 
+Name: res/layout/detail_item_h5_layout.xml
+SHA1-Digest-Manifest: yj8t0vdqnQ1tIttnpxGvQkD2zUY=
+
+Name: res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest-Manifest: +VIFOUvUwxbnTdHmmjA8LWrUN0k=
+
 Name: res/drawable/le_bottom_btn_icon_home_page.xml
-SHA1-Digest-Manifest: Bp/JHuytl63WaUkJaaK7F7T/eqo=
+SHA1-Digest-Manifest: BnTFT1jrHwEPFSUtH2wVQQeB8Js=
 
 Name: res/drawable-mdpi-v19/list_multi_left_pressed_holo.9.png
 SHA1-Digest-Manifest: qfxB8KQt15jbp8/GNXVpnGwlPnQ=
 
-Name: res/drawable/ic_flag_ireland.png
-SHA1-Digest-Manifest: LDTBTgCZmJ9r289QvtcU5yW/tC8=
-
 Name: res/drawable/ic_flag_gambia.png
 SHA1-Digest-Manifest: HdDM7DY10YFX/DcIVFkiBX1Bl8Y=
 
+Name: res/drawable/ic_flag_ireland.png
+SHA1-Digest-Manifest: LDTBTgCZmJ9r289QvtcU5yW/tC8=
+
 Name: res/layout/subsion_item_detail_fragment.xml
-SHA1-Digest-Manifest: Z0y5PbvXF2rFlNbH/8Q+/+bbc5M=
+SHA1-Digest-Manifest: 4jase76S151GAeW6mj3tN/pAhtY=
 
 Name: res/drawable-hdpi-v4/header_bg_cal_widget_normal_holo.9.png
 SHA1-Digest-Manifest: ifUYRxSJ0CxQ5Cm38UymNRYm4Eg=
 
 Name: res/drawable/ic_collapse_holo_light.xml
-SHA1-Digest-Manifest: +my1lMgJZAa5+7bsFspkp8dqHoo=
+SHA1-Digest-Manifest: nzj2T4GZuCmDCuxPQcfMa2Ww75E=
+
+Name: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest-Manifest: XI/8mKg+lFBg6GPmpkV9cv9l9n4=
 
 Name: res/drawable-xxhdpi-v4/response_maybe_pressed.png
 SHA1-Digest-Manifest: ogVf86CNqkF1UOl0DaqYlqM50Eg=
+
+Name: res/layout/abc_action_mode_bar.xml
+SHA1-Digest-Manifest: xAevZ6J3IVers/HMsnZMLiNahQw=
 
 Name: res/drawable-xxhdpi-v4/stat_notify_calendar_multiple.png
 SHA1-Digest-Manifest: S7Y8H0a3JTs/2hK6l9bupsan7gM=
 
 Name: res/layout/subsion_film_still_image_item.xml
-SHA1-Digest-Manifest: +akvJuB6ewxO1PWl9oBQqJoiV2c=
+SHA1-Digest-Manifest: bHnXzatWSNSV01BGUhCbgKgUp0M=
 
 Name: res/drawable/ic_flag_morocco.png
 SHA1-Digest-Manifest: a9xyMlcdEXMsLFTx4lSIOM8BHxo=
 
 Name: res/layout/recently_list_activity.xml
-SHA1-Digest-Manifest: hvPOn0jp/FkI0EOmzxS0YMeYai8=
+SHA1-Digest-Manifest: IgzWDpWJnOZTyzKo4A1lStFCXKw=
+
+Name: res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9
+ .png
+SHA1-Digest-Manifest: jA6OHf2Pmvaf3nMpMCAqQj8mJLM=
+
+Name: res/anim/abc_fade_out.xml
+SHA1-Digest-Manifest: MfCV1efdxSKtesRMF81I08Zyvvo=
+
+Name: res/color/abc_background_cache_hint_selector_material_dark.xml
+SHA1-Digest-Manifest: HJSvO9dumA032gnXr8iKv8jfyxE=
 
 Name: res/drawable-xhdpi-v4/toggle_underline_activated.9.png
 SHA1-Digest-Manifest: NLAOpuUwmI04+V4jf+E+O0sKsaA=
+
+Name: res/drawable-ldrtl-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: RyGxKGdvksnhWzIy8DZjxopCSx8=
 
 Name: res/drawable-mdpi-v4/ic_map.png
 SHA1-Digest-Manifest: c2sHGQkp/yqP+xSj3EbIayOsah8=
@@ -815,20 +1095,29 @@ SHA1-Digest-Manifest: c2sHGQkp/yqP+xSj3EbIayOsah8=
 Name: res/drawable-mdpi-v4/ic_expand_small_holo_light.png
 SHA1-Digest-Manifest: Cz8S4McMGo5auw5v1ANbMZqk9fU=
 
-Name: res/color/date_picker_year_selector.xml
-SHA1-Digest-Manifest: lX3lFpS5UMdmKt/jEW0tDSMJZeo=
+Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest-Manifest: I+f9Vf8JVX6hz0eqBuaNI+f4Rtc=
 
-Name: res/drawable/ic_flag_guatemala.png
-SHA1-Digest-Manifest: H0BDgcSRSRwoyExdPngXrL2+C7U=
+Name: res/color/date_picker_year_selector.xml
+SHA1-Digest-Manifest: wNKq0A9DuGBZnbAN+eYFL4qUMrw=
 
 Name: res/drawable-xhdpi-v19/switch_thumb_pressed_holo_light.9.png
 SHA1-Digest-Manifest: YcyJfNOau/BOW/i7/AKIHt1H59o=
+
+Name: res/drawable/ic_flag_guatemala.png
+SHA1-Digest-Manifest: H0BDgcSRSRwoyExdPngXrL2+C7U=
 
 Name: res/drawable-mdpi-v19/list_pressed_holo.9.png
 SHA1-Digest-Manifest: AT5trMIcS0Apy6OL0kkAR6gz/TI=
 
 Name: res/layout/day_event_item_more.xml
-SHA1-Digest-Manifest: Btd9rI+LUzbZdM3iDyVzNqfnLPM=
+SHA1-Digest-Manifest: c0yRA+T5ftVaLgFaX8DuFBHlAQk=
+
+Name: res/layout/design_navigation_item.xml
+SHA1-Digest-Manifest: BVos9JAA4sG5A4Yyp6V7nltRBgw=
+
+Name: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+SHA1-Digest-Manifest: 1gu0+JdGxgtkd7hnwaQbfLEaaZc=
 
 Name: res/drawable/ic_flag_austria.png
 SHA1-Digest-Manifest: SLv6efaN5exThOtclAZEy6HmPSU=
@@ -846,10 +1135,13 @@ Name: res/drawable-mdpi-v4/ic_menu_trash_pressed_holo_dark.png
 SHA1-Digest-Manifest: AAvXeLlXqARMo6QPjbjoXfymH6c=
 
 Name: res/layout/date_picker_view_animator.xml
-SHA1-Digest-Manifest: 7hEYgxCmTDaiGLMnmQgejs9ry30=
+SHA1-Digest-Manifest: aLo62IBhDd2BPhhQmAQUjd8yLmU=
 
 Name: res/drawable/calendar_color_square.xml
 SHA1-Digest-Manifest: RiXvfKKdr5SBbzprgxgN55/OEvU=
+
+Name: res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: OxGddZL5ftUUMkIS3GSFXNepBP8=
 
 Name: res/drawable/ic_flag_uzbekistan.png
 SHA1-Digest-Manifest: si1iMGyzReVN9NheIEvBVrm1u8o=
@@ -860,12 +1152,6 @@ SHA1-Digest-Manifest: 37aTq/CoCuhzr5/FuGa2TR5yBiA=
 Name: res/drawable/order_square_item_gradient.xml
 SHA1-Digest-Manifest: TL1J4jerL0c4PJA1/uJ1vV5UDvQ=
 
-Name: res/drawable/ic_flag_belarus.png
-SHA1-Digest-Manifest: rI/60k8eGMIrbCwKTDuGaK0yXIA=
-
-Name: res/drawable/calendars_item.xml
-SHA1-Digest-Manifest: TWYlgdu8ptLk2DVhKdHxGkVEBKo=
-
 Name: res/drawable-xxhdpi-v4/ic_launcher_calendar.png
 SHA1-Digest-Manifest: HE7sFqVy0zjoR+Visk2eTk+1jGE=
 
@@ -873,21 +1159,33 @@ Name: res/drawable-mdpi-v4/calname_select_underunselected_pressed_holo
  _light.9.png
 SHA1-Digest-Manifest: QGvxwI7uqNpEFB6PwzYDyvBssVc=
 
+Name: res/drawable/calendars_item.xml
+SHA1-Digest-Manifest: TWYlgdu8ptLk2DVhKdHxGkVEBKo=
+
+Name: res/drawable/ic_flag_belarus.png
+SHA1-Digest-Manifest: rI/60k8eGMIrbCwKTDuGaK0yXIA=
+
 Name: res/layout/recently_list_layout.xml
-SHA1-Digest-Manifest: cvhO4ZyUiVwGiFLnt0QAYJJtQ1g=
+SHA1-Digest-Manifest: fZkodXFi0o/0zpdOgLkRyDiHXZM=
 
 Name: res/layout/view_recommend.xml
-SHA1-Digest-Manifest: i5PhTkO/Dj4wogqaozEpSLpjf/M=
+SHA1-Digest-Manifest: OAU9ZDsq1Fz/Nh099KY2wGK3D3M=
+
+Name: res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest-Manifest: hSaa+D8iRLgwmGdS3otxHADvf9A=
 
 Name: res/drawable-xxhdpi-v19/calname_bottom_unselected_underselect_pr
  essed_holo_light.9.png
 SHA1-Digest-Manifest: Bncf1eTEKlntGLdhQPGgsG37ehI=
 
 Name: res/drawable/menu_to_note_svg.xml
-SHA1-Digest-Manifest: UoUWpY8LX3PQlg3Dg3MG1Ei6Sq0=
+SHA1-Digest-Manifest: yy1OG6GTX7aXhBJBHYOnP/nlWTM=
+
+Name: res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: cSXUL0T4cnv8cWFn/0EXbwQY12c=
 
 Name: res/xml/about_preferences.xml
-SHA1-Digest-Manifest: MbW0kPkVGtXWylfsQtWN+HLIhK4=
+SHA1-Digest-Manifest: u92ddv/sYgwK8gIDnoUCJhAlFt4=
 
 Name: res/drawable/ic_notification_map.xml
 SHA1-Digest-Manifest: xUiZ4MXK0h2s+g6V7hQyzuFz1pA=
@@ -899,13 +1197,29 @@ Name: res/drawable-mdpi-v4/widget_chip_not_responded_bg.9.png
 SHA1-Digest-Manifest: IpUlsA7yd0Gnt9h5x1kywVrB23s=
 
 Name: res/drawable/calname_bottom_unselected.xml
-SHA1-Digest-Manifest: 2anLYRqXVDyFwR3mcT7qPOmaLEA=
+SHA1-Digest-Manifest: 2JbR0/Y+1kwGWlBqDVw4MFPPodk=
+
+Name: res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest-Manifest: JvtOc4//v0A96mHQp4dRDLD6Nrg=
+
+Name: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.pn
+ g
+SHA1-Digest-Manifest: oAyfbfTCf9SnHiyy6Cgmrt5OvRw=
 
 Name: res/layout/lastday_event_item.xml
-SHA1-Digest-Manifest: ur1H16B1H2hxWnhpoMkYt1rVRgc=
+SHA1-Digest-Manifest: 7nS/SHvwolwB7Iy6FltRCM0dHuU=
 
 Name: res/layout/agenda_choice.xml
-SHA1-Digest-Manifest: Dqfqsga+uMGNQ/6DvNyM6rOVpGQ=
+SHA1-Digest-Manifest: iu9t/NCZIyZncCyvV5sTQV6R0Ec=
+
+Name: res/anim/design_fab_in.xml
+SHA1-Digest-Manifest: dRcgYgcLN0gY/2aHKJnWN/oMfkI=
+
+Name: res/layout/design_navigation_item_subheader.xml
+SHA1-Digest-Manifest: k98LzLbXbDw0IKlSfx5HMsrYqSQ=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: T+EjdMgSIP4z9nlF1+TEiiq13lc=
 
 Name: res/drawable-xhdpi-v4/ic_menu_compose_pressed_holo_dark.png
 SHA1-Digest-Manifest: 1MV3EgNT/P+Fzyh9EF108JK9qlc=
@@ -917,31 +1231,43 @@ Name: res/drawable-xxhdpi-v4/list_pressed_holo.9.png
 SHA1-Digest-Manifest: lalwebDhhqbaUI8DM50vIRE2UcM=
 
 Name: res/drawable/bg_raidogroup_blue_line.xml
-SHA1-Digest-Manifest: KEZmTUZ750ogs+ld8fbTnbUKAlI=
+SHA1-Digest-Manifest: UYpjKeiVmYBSGN/rysQDyOdsHOE=
 
 Name: res/color/recurrence_bubble_text_color.xml
-SHA1-Digest-Manifest: 7FhYFa/I3EJ+Wl9nSfT9vIh+A8E=
+SHA1-Digest-Manifest: wBqdXVP0o6YcrjZAf5YHPvYSL14=
+
+Name: res/drawable-mdpi-v4/abc_ab_share_pack_holo_light.9.png
+SHA1-Digest-Manifest: oa6S88mqxny27leyR1iA7sA4nx4=
 
 Name: res/drawable-hdpi-v4/switch_thumb_pressed_holo_light.9.png
 SHA1-Digest-Manifest: 85bARtoMmHSPqKgl57lX2txB7Sg=
 
 Name: res/layout/tag_detail_header_layout_horizontal.xml
-SHA1-Digest-Manifest: OmX74yuhbmNqpqLpNZQLmd48iJk=
+SHA1-Digest-Manifest: LvTha9mQ8mR9Dzcckrf/zy+1O1g=
 
 Name: res/drawable-hdpi-v4/ic_menu_add_event_holo_light.png
 SHA1-Digest-Manifest: vFSEObLMRzXThuImlH1JKzakPAo=
 
+Name: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest-Manifest: i/xNJ0zuX8i2Qm+lgnh6E6fytF8=
+
+Name: res/drawable/response_button_declined.xml
+SHA1-Digest-Manifest: HBWpF/zRmpweit/pcJlu/Y860w0=
+
 Name: res/drawable/ic_flag_vietnam.png
 SHA1-Digest-Manifest: rSv10EsaipjauWJGMZ7yUHyN0L0=
 
-Name: res/drawable/response_button_declined.xml
-SHA1-Digest-Manifest: wdkIqOhFxJFlzF3uJ4tRYb8gJB0=
-
 Name: res/xml/general_preferences.xml
-SHA1-Digest-Manifest: 67HO8l84JFRZHAVcJymsu9mW/kQ=
+SHA1-Digest-Manifest: jUSgV8s08L+PXJutZCwhAS5iBmg=
+
+Name: res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest-Manifest: 5Qu36VTThRGKp5WaXTeZ8Uq17MQ=
 
 Name: res/xml-zh/timezones.xml
 SHA1-Digest-Manifest: nZMMvfwvHID9dSx7x8AGNSYBZk4=
+
+Name: res/layout/location_dropdown_item.xml
+SHA1-Digest-Manifest: V2ONecYQpQpipd8PAHusFRY2zdg=
 
 Name: res/drawable/ic_flag_jamaica.png
 SHA1-Digest-Manifest: 2J1tRTn3VrOvDdJnRSA6rCD/qJ0=
@@ -949,26 +1275,36 @@ SHA1-Digest-Manifest: 2J1tRTn3VrOvDdJnRSA6rCD/qJ0=
 Name: res/drawable-hdpi-v4/ic_allday_expand_small_holo_light.png
 SHA1-Digest-Manifest: MO6C2YO0WlYbMvWkKssESBTG8BI=
 
-Name: res/layout/location_dropdown_item.xml
-SHA1-Digest-Manifest: X1KhdhVNe6zO447bQicW/mOT/XU=
+Name: res/drawable-xxxhdpi-v4/star_page_back.jpg
+SHA1-Digest-Manifest: zYr2nKkjaxbPdwFG2sAMgu6JjLg=
+
+Name: res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.p
+ ng
+SHA1-Digest-Manifest: +w3pEMRGWqkdGr4D1QDtag7o6sk=
+
+Name: res/layout/abc_search_view.xml
+SHA1-Digest-Manifest: +y98vo6L4fFWK/zE4L0wnZDXgPE=
 
 Name: res/drawable/calname_unselected_underselect.xml
-SHA1-Digest-Manifest: Tl5dJpT8vmY312Sl+9iaDSqVG1Q=
-
-Name: res/drawable-xxhdpi-v4/ic_colorpicker_swatch_selected.png
-SHA1-Digest-Manifest: zcQghtULG3lejOqIcs4y/x+fel8=
+SHA1-Digest-Manifest: DHi96v21UVF/hVl3wF75dh/tKx8=
 
 Name: res/drawable/ic_flag_peru.png
 SHA1-Digest-Manifest: AZgqozv53FqQISL5DKF8rBQ43Sw=
 
+Name: res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: PtZHBaIOZQ7QKdJsAM/4rDecT5c=
+
+Name: res/drawable-xxhdpi-v4/ic_colorpicker_swatch_selected.png
+SHA1-Digest-Manifest: zcQghtULG3lejOqIcs4y/x+fel8=
+
 Name: res/layout/leui_zonepicker_list_content.xml
-SHA1-Digest-Manifest: jyHaozQvg4YXdJcO4FXR6NO1SZ4=
+SHA1-Digest-Manifest: Gd+zKSPUdPXWQ3vzS54+gNm9OVs=
+
+Name: res/xml/grid_widget_provider.xml
+SHA1-Digest-Manifest: 3sMXcaqvfX0gw/1vgbh/QA/wCA8=
 
 Name: res/drawable-mdpi-v4/stat_notify_calendar_multiple.png
 SHA1-Digest-Manifest: DexRf2/LE/fEpqrSFKT6dDl6G0o=
-
-Name: res/xml/grid_widget_provider.xml
-SHA1-Digest-Manifest: krFQix33dt2ckME9juq6jebJd14=
 
 Name: res/drawable-xxhdpi-v4/response_declined_pressed.png
 SHA1-Digest-Manifest: ylTZM72YmOHOWAP7hBQQGLzL2UU=
@@ -976,14 +1312,17 @@ SHA1-Digest-Manifest: ylTZM72YmOHOWAP7hBQQGLzL2UU=
 Name: res/mipmap-xhdpi-v4/ic_launcher_calendar.png
 SHA1-Digest-Manifest: aAuIYHUXAZAPKlT4AIxQPtO7Cvk=
 
+Name: res/layout/subsion_share_detail.xml
+SHA1-Digest-Manifest: 3waDQvxcUDN+2lbkjxIOxWjf+sc=
+
 Name: res/drawable-xxhdpi-v4/subscribe_default_long.png
 SHA1-Digest-Manifest: c6otI9bTfTs6m8VRtqKwqxUKBo4=
 
-Name: res/layout/subsion_share_detail.xml
-SHA1-Digest-Manifest: Y9QduL9NeH10HjbKefT7Xvn6UZ4=
+Name: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest-Manifest: 6jyDQn4+fkX7JjWXzkyApClEOBM=
 
 Name: res/drawable/action_to_search_svg.xml
-SHA1-Digest-Manifest: ISXoA4DcEwgjWMwFNmd84pEM4Qk=
+SHA1-Digest-Manifest: p+2PN48Iq0A4ZGzf/Ivq8nUD6uk=
 
 Name: res/drawable-hdpi-v4/calname_bottom_unselected_underselect_press
  ed_holo_light.9.png
@@ -993,33 +1332,51 @@ Name: res/drawable/ic_flag_bahrain.png
 SHA1-Digest-Manifest: by3rOWql1Z3RjrKrzuLj33prwJ8=
 
 Name: res/layout/subsion_item_detail_activity.xml
-SHA1-Digest-Manifest: y2I1VEqjqBdz9SCZcoI/IdJOMX4=
+SHA1-Digest-Manifest: FtbL0VLeCCJ7t8XA6FE6zlgEFNs=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: yB14sylWvxZ35q87vWBaB1hMiPs=
+
+Name: res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest-Manifest: ZbFwYRiDS6lC6psf14qui2W4zQQ=
+
+Name: res/layout/design_navigation_menu_item.xml
+SHA1-Digest-Manifest: vwDnqzvimQkqLpUHNetkO7prBCQ=
+
+Name: res/drawable/ic_flag_uruguay.png
+SHA1-Digest-Manifest: jmVx2zisVxuhYOiZN20WP9AESQo=
 
 Name: res/drawable-xhdpi-v4/calname_select_underselect_holo_light.9.pn
  g
 SHA1-Digest-Manifest: QYGHkIzzlj+qEHabAjAfsj11zXM=
 
-Name: res/drawable/ic_flag_uruguay.png
-SHA1-Digest-Manifest: jmVx2zisVxuhYOiZN20WP9AESQo=
+Name: res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest-Manifest: 5CNLAG5hgHUpb17az14TTSMIzd0=
+
+Name: res/drawable-ldrtl-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: WKDWmOG0MZmKSv7Pe/tl+VcLQtc=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_cancel_holo_light.png
 SHA1-Digest-Manifest: N6KQs2qikafaen1geas/67GGz+Y=
+
+Name: res/layout/bubble_event.xml
+SHA1-Digest-Manifest: uH0XmsP+TJKh4GPu/8uuk99x91o=
 
 Name: res/drawable-hdpi-v4/calname_select_underunselected_holo_light.9
  .png
 SHA1-Digest-Manifest: KtN9C+p+fjkaqGeoxbM5SbR4gWI=
 
-Name: res/layout/bubble_event.xml
-SHA1-Digest-Manifest: GsR23Lli0227KI1xegQGeDzsQ6Q=
-
 Name: res/drawable/recurrence_bubble_fill.xml
-SHA1-Digest-Manifest: fGOo3/a+A0MtVSLTPaO9Sznlaco=
+SHA1-Digest-Manifest: tvzdT+44sKb1q6d0GlA6qxgMdE4=
 
 Name: res/color/date_picker_selector.xml
-SHA1-Digest-Manifest: GstBYUExEly+UxuXSUcbR4ZDVDk=
+SHA1-Digest-Manifest: hsjvxbSe3SJc9rvDgAldH2RTt8s=
 
 Name: res/drawable-hdpi-v19/header_bg_cal_widget_pressed_holo.9.png
 SHA1-Digest-Manifest: 11onXMpFaV73S6HhRTPl8/RE7aE=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest-Manifest: mhI3kfRK4KMtx0Ll1sdkpKAs6dU=
 
 Name: res/drawable/color_picker_swatch.xml
 SHA1-Digest-Manifest: JLLkg+Z+mDoiCR63vp/C8OqSUuc=
@@ -1038,20 +1395,29 @@ SHA1-Digest-Manifest: XG9Tx3/a0kcwC8i9M1QFG8R5m7A=
 Name: res/drawable-hdpi-v4/today_blue_week_holo_light.9.png
 SHA1-Digest-Manifest: WF2fRg/30/jvIT4nK3p0QHvUYkk=
 
+Name: res/layout/abc_list_menu_item_icon.xml
+SHA1-Digest-Manifest: Irg/dRgdTRR5NUnUBf7mheZJvu8=
+
 Name: res/drawable/type_plane.xml
 SHA1-Digest-Manifest: wI2is/o6sBNkLRFaugGANnB2CEE=
 
 Name: res/drawable/event_info_no.xml
 SHA1-Digest-Manifest: GbaU6rijNbE+ftFf4OxSKRiWUWA=
 
+Name: res/drawable/post_loction_icon.xml
+SHA1-Digest-Manifest: 3FJgI0Wu05CGk8lOPw4zB+rJCeo=
+
+Name: res/drawable/ic_flag_venezuela.png
+SHA1-Digest-Manifest: xtpWjwU2mqx05dvFAxX89U2ibvk=
+
+Name: res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest-Manifest: Sjjr2U+mtnlc+xsrpBBNrqVorGY=
+
 Name: res/drawable-hdpi-v4/ic_menu_compose_holo_dark.png
 SHA1-Digest-Manifest: ZlknD1h1bmLWrY6hz9sLPe76gsE=
 
 Name: res/drawable-sw600dp-v13/ic_collapse_holo_light.xml
-SHA1-Digest-Manifest: t4VGhaUloVZhexd8k869MkOxWl4=
-
-Name: res/drawable/ic_flag_venezuela.png
-SHA1-Digest-Manifest: xtpWjwU2mqx05dvFAxX89U2ibvk=
+SHA1-Digest-Manifest: D6lTRvDdCUMqozlL1JZ8OuSilkE=
 
 Name: res/drawable/ic_flag_liberia.png
 SHA1-Digest-Manifest: TEgOOAReTJdJwdp6lpTrGRrac+E=
@@ -1060,23 +1426,26 @@ Name: res/drawable-mdpi-v19/calname_bottom_unselected_pressed_holo_lig
  ht.9.png
 SHA1-Digest-Manifest: ysFBN/FDADlyJ+nWRjzDbjON52k=
 
-Name: res/drawable-xxhdpi-v4/header_bg_cal_widget_normal_holo.9.png
-SHA1-Digest-Manifest: OXpgQtAt0EWrt+/JfEMH6io8mME=
-
-Name: assets/team_image_default.png
-SHA1-Digest-Manifest: OhdLyX6DrsAl3sm/Vtea273X7sY=
-
 Name: assets/backward
 SHA1-Digest-Manifest: hgif/oUAa/79gSRPr7FCRJRVfvk=
 
-Name: res/drawable-xhdpi-v4/list_secondary_holo.9.png
-SHA1-Digest-Manifest: N6D9NzMZWfzm/Ua2TRE8fyyErtA=
+Name: res/drawable-xxhdpi-v4/header_bg_cal_widget_normal_holo.9.png
+SHA1-Digest-Manifest: OXpgQtAt0EWrt+/JfEMH6io8mME=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest-Manifest: w8zlhwlle2aoufXsl5l6tyaB0OQ=
 
 Name: res/drawable-mdpi-v4/list_multi_left_secondary_holo.9.png
 SHA1-Digest-Manifest: eGTq/B+c/RUh5XtNbOnES4JNTZQ=
 
+Name: res/drawable-xhdpi-v4/list_secondary_holo.9.png
+SHA1-Digest-Manifest: N6D9NzMZWfzm/Ua2TRE8fyyErtA=
+
 Name: res/drawable/ic_flag_bhutan.png
 SHA1-Digest-Manifest: IueDmlzOd+T4iuW+/ij9OhGznFY=
+
+Name: res/layout/abc_action_menu_item_layout.xml
+SHA1-Digest-Manifest: Ujo0WNiUbJz4ecdR9PLx7OVwhUY=
 
 Name: res/color/le_bottomsheet_grid_textcolor.xml
 SHA1-Digest-Manifest: cL+5A9wO0S4A5MLmitZjyCs0AM4=
@@ -1085,22 +1454,28 @@ Name: res/drawable-hdpi-v4/calname_unselected_holo_light.9.png
 SHA1-Digest-Manifest: 2q70uBnSHyFdFWokaYq8y6dD5+I=
 
 Name: res/layout/mtk_event_selection_fragment.xml
-SHA1-Digest-Manifest: MLTl+Ix1CayGJ50OoFwajq6QtzA=
+SHA1-Digest-Manifest: zRVMH7RSVctoH71jfuUUeELEYMI=
+
+Name: res/drawable-ldrtl-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: RGN2qauKSMbGrqTL62QTDjOUhXs=
 
 Name: res/layout/activity_main.xml
-SHA1-Digest-Manifest: ihET4Oh4E36Xez9NtLXAZgLitDI=
+SHA1-Digest-Manifest: +H6UTTqB2VWYI851gf09cZYCe9I=
 
 Name: res/drawable-xhdpi-v4/ic_call.png
 SHA1-Digest-Manifest: 918E/Q3WRvTg1ICGnf32OzFZ+c8=
 
 Name: res/drawable/le_top_btn_icon_confirm.xml
-SHA1-Digest-Manifest: gNyzA1DYXxNomVdUBiAiZ3c2qzg=
+SHA1-Digest-Manifest: +6CJI8isZY946SOMef2qGwRE4Vg=
 
 Name: res/color/done_text_color.xml
-SHA1-Digest-Manifest: 77e7tGCO/mfD8Hm15QXTJ1Vepgg=
+SHA1-Digest-Manifest: 6Y56h1jHoG87rWJnJIKqnbqrUsc=
 
 Name: res/layout/day_event_item_category.xml
-SHA1-Digest-Manifest: d0Sl7WL18ZTOGPmPGsqd9SBrsWw=
+SHA1-Digest-Manifest: 3xl1XeVrQAOLGeGnO2XQeI+DnIQ=
+
+Name: res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest-Manifest: FZkPigzWEsSXpjG+kJq6cDirbD0=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_email_holo_dark.png
 SHA1-Digest-Manifest: LJ6h4R66FvzFywHYsoFdqJxyFuA=
@@ -1109,7 +1484,10 @@ Name: res/drawable-xxhdpi-v4/description.png
 SHA1-Digest-Manifest: /TEHuvbYZYBDpgc9wY43kizWOwo=
 
 Name: res/layout/anim_tab_view_item.xml
-SHA1-Digest-Manifest: sqcDr60DQTdMmBbGAj7yLCEWATA=
+SHA1-Digest-Manifest: 8OT95KZQOddScwLdqK7bsrclGq8=
+
+Name: res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest-Manifest: xcQ0bHWRc+R9tuxQ3wgY1a2eY0k=
 
 Name: res/drawable-xhdpi-v4/ic_menu_email_holo_light.png
 SHA1-Digest-Manifest: ehtI/3IW7uyCHCGoAUUn1P8ZZvk=
@@ -1121,17 +1499,26 @@ SHA1-Digest-Manifest: E0MTHKQCMEprrZ9n35isleeMHVk=
 Name: res/drawable/ic_flag_mauritius.png
 SHA1-Digest-Manifest: FI+eLxhtVlVn/uxH8oegjlkrySk=
 
+Name: res/layout/no_network.xml
+SHA1-Digest-Manifest: YLITHQ218KKjiYdc3HKB0fJgZlQ=
+
 Name: res/drawable/ic_flag_romania.png
 SHA1-Digest-Manifest: XojwQvhRLiKOjqnLGQskkGyC+GI=
+
+Name: res/drawable-xxhdpi-v4/abc_ab_share_pack_holo_light.9.png
+SHA1-Digest-Manifest: ryuTGI2uqj7TGgQOfslveTpuygE=
 
 Name: res/drawable-xhdpi-v4/event_bg_declined.png
 SHA1-Digest-Manifest: 3hlfpfcfif/C0PA87ayOEvjPjEU=
 
+Name: res/drawable/ic_flag_paraguay.png
+SHA1-Digest-Manifest: WjdQsZu68i///aeRC5YgE5vu5Kk=
+
 Name: res/drawable/ic_flag_ecuador.png
 SHA1-Digest-Manifest: L0YFdOkJ84fsPcwdHgMdo0xBl5Y=
 
-Name: res/drawable/ic_flag_paraguay.png
-SHA1-Digest-Manifest: WjdQsZu68i///aeRC5YgE5vu5Kk=
+Name: res/drawable/abc_tab_indicator_material.xml
+SHA1-Digest-Manifest: AQ13u1XMMdXhjlO9wj+2eS4s4uM=
 
 Name: res/drawable-mdpi-v4/calname_bottom_unselected_underselect_holo_
  light.9.png
@@ -1145,13 +1532,13 @@ Name: res/drawable-xxhdpi-v4/timeline_indicator_holo_light.9.png
 SHA1-Digest-Manifest: 2gj3pRXQIz+7qXVFHkHok8hl1qI=
 
 Name: res/layout/actionbar_pulldown_menu_button.xml
-SHA1-Digest-Manifest: caHaPnVl6gqcPINjywRRgYUnTIc=
+SHA1-Digest-Manifest: cL33ODZh6eqlleIT9imKPrQvjLo=
+
+Name: res/layout/timezonepickerview.xml
+SHA1-Digest-Manifest: tJSAKvwZACfYBiVAWImK6YKHYdU=
 
 Name: res/drawable/ic_flag_micronesia_federated_states_of.png
 SHA1-Digest-Manifest: nAV/Ceswp+FK/V3vJfH/Bl8jB4E=
-
-Name: res/layout/timezonepickerview.xml
-SHA1-Digest-Manifest: bbzQRNQInCnjXIFdQqfyOZUENIQ=
 
 Name: res/drawable/capricorn.xml
 SHA1-Digest-Manifest: AWDw2nM/W1Td0QJgHTc5mM5yCk8=
@@ -1159,17 +1546,20 @@ SHA1-Digest-Manifest: AWDw2nM/W1Td0QJgHTc5mM5yCk8=
 Name: res/drawable-hdpi-v4/toggle_underline_activated.9.png
 SHA1-Digest-Manifest: C7red87NO+hlcHp1lDAE70a2tsE=
 
+Name: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest-Manifest: +4wwa18tVGfj8XRyX+4j83p7M4w=
+
 Name: res/drawable/guide_refresh_svg_for_black.xml
 SHA1-Digest-Manifest: /nHQJ2gTeu4mdUkvFjU6zxTsCVg=
 
 Name: res/layout/recently_game_item_detail.xml
-SHA1-Digest-Manifest: /x4lts9x32LZWf8VdRK9GKDqpNQ=
+SHA1-Digest-Manifest: k+0J2Z5lifAb3Vr/w3xs4d6WUCI=
+
+Name: res/layout/date_picker_header_view.xml
+SHA1-Digest-Manifest: OkINOnuhNB/pfDR4LNJoGnn5knw=
 
 Name: res/drawable/ic_flag_taiwan.png
 SHA1-Digest-Manifest: aXg6IUlAYqm+uJJxIMckwO5Z5FU=
-
-Name: res/layout/date_picker_header_view.xml
-SHA1-Digest-Manifest: UxglAhH1fqQXo3iay3rJkwLgRgA=
 
 Name: res/drawable-xhdpi-v4/ic_collapse_small_holo_light.png
 SHA1-Digest-Manifest: qZTPgcAMSU6oQWpW7du90pgscu0=
@@ -1177,38 +1567,50 @@ SHA1-Digest-Manifest: qZTPgcAMSU6oQWpW7du90pgscu0=
 Name: res/drawable-hdpi-v4/calname_unselected_pressed_holo_light.9.png
 SHA1-Digest-Manifest: K9MQPpYrjxaPUyyleC4Pn9N+eNI=
 
+Name: res/layout/recurrencepicker.xml
+SHA1-Digest-Manifest: hiECkUx7UhE4h97uznKnk3fERM4=
+
 Name: res/drawable/ic_flag_saint_pierre_and_miquelon.png
 SHA1-Digest-Manifest: CNeGA6cpzrGP7ILu8wXMo1Hykgg=
 
-Name: res/layout/recurrencepicker.xml
-SHA1-Digest-Manifest: Klb9JBFR6DvRYUSJVaHq4HWKvL4=
+Name: res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: egVDQvzL5jqK3luFMj2F/sxenxU=
 
 Name: res/drawable-xxhdpi-v4/calname_unselected_underselect_holo_light
  .9.png
 SHA1-Digest-Manifest: L95xNUDwHxr4KcY1m1GuMaM0zcU=
 
 Name: res/layout/order_square_activity.xml
-SHA1-Digest-Manifest: X3E8aPS4lCNkz1abPy2GjLGRB34=
+SHA1-Digest-Manifest: 8cz1Q9zFr8PPD+Vj4p8xzXxqLMs=
 
 Name: res/drawable-hdpi-v19/calname_unselected_underselect_pressed_hol
  o_light.9.png
 SHA1-Digest-Manifest: /QekEi/eNevZutpUDgIdYseyBRU=
 
-Name: res/drawable-xxhdpi-v4/calname_unselected_holo_light.9.png
-SHA1-Digest-Manifest: zcarv1VP/4QUhNWulCdUdtk4Hmo=
+Name: res/layout/dynamic_album_item.xml
+SHA1-Digest-Manifest: uBC8jzIUpEooLxm8+gtrgjZejzg=
 
 Name: res/drawable/action_to_rss_svg_red.xml
 SHA1-Digest-Manifest: 9FmT4kn/1H4hWwWK9Hv0AjhXXz4=
+
+Name: res/drawable-xxhdpi-v4/calname_unselected_holo_light.9.png
+SHA1-Digest-Manifest: zcarv1VP/4QUhNWulCdUdtk4Hmo=
+
+Name: res/drawable/aquarius.xml
+SHA1-Digest-Manifest: VWFiD2B6fzcEawJ9hAKpciMzFOs=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: 0YxZcrEPydn7I92zUz8YDYH598o=
 
 Name: res/drawable-xxhdpi-v4/calname_select_underunselected_pressed_ho
  lo_light.9.png
 SHA1-Digest-Manifest: ZkTE7xJJA8TRXqpItNrY4KcgBAI=
 
-Name: res/drawable/aquarius.xml
-SHA1-Digest-Manifest: VWFiD2B6fzcEawJ9hAKpciMzFOs=
-
 Name: res/drawable-hdpi-v4/ic_menu_refresh_holo_light.png
 SHA1-Digest-Manifest: J7du89WXUJWKKx2N0vsNZSKe/BM=
+
+Name: res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest-Manifest: ToVo2KPSLrpwpzwqt2DA6d7KLWk=
 
 Name: res/drawable/ic_flag_sao_tome_and_principe.png
 SHA1-Digest-Manifest: cmYaKJCJTWx8oAx8huBZPnTa3LM=
@@ -1222,11 +1624,11 @@ SHA1-Digest-Manifest: P4F8xuMUF8pzMHVekyjM/w82W/I=
 Name: res/drawable-hdpi-v4/bg_event_cal_widget_holo.9.png
 SHA1-Digest-Manifest: P1fQvb98tmEmK4KDxUAw50FoAcU=
 
-Name: res/drawable-mdpi-v4/ic_menu_refresh_holo_light.png
-SHA1-Digest-Manifest: raTtC/MzWxMApVkaCHAShXcvJk4=
-
 Name: res/drawable/ic_flag_libya.png
 SHA1-Digest-Manifest: Cok08iZWaZSTAr76/PwL09+z210=
+
+Name: res/drawable-mdpi-v4/ic_menu_refresh_holo_light.png
+SHA1-Digest-Manifest: raTtC/MzWxMApVkaCHAShXcvJk4=
 
 Name: res/drawable/leo.xml
 SHA1-Digest-Manifest: qxxmn1P1ELw41L6cj+pSZYYw+Is=
@@ -1235,19 +1637,19 @@ Name: res/drawable-xxhdpi-v4/event_bg_declined.png
 SHA1-Digest-Manifest: AtU+yP04CRUUzogX2Vsv2genKsI=
 
 Name: res/layout-sw600dp-v13/contact_item.xml
-SHA1-Digest-Manifest: hWTMy71RwLkZZ49bedQIMastuPA=
-
-Name: res/drawable-xhdpi-v4/ic_repeat_white.png
-SHA1-Digest-Manifest: MKNGWxgVJtwlgYbRq6i2rieQgNs=
+SHA1-Digest-Manifest: WX3qMA3aSYagQ9yVyrvP4FS9110=
 
 Name: assets/zone.tab
 SHA1-Digest-Manifest: DB2JMeHIQyU6vbJXRUlLcMwvciM=
 
+Name: res/drawable-xhdpi-v4/ic_repeat_white.png
+SHA1-Digest-Manifest: MKNGWxgVJtwlgYbRq6i2rieQgNs=
+
 Name: res/layout/guide_page_layout.xml
-SHA1-Digest-Manifest: 5cji1DFc3Vj7lG9YOZ7zw4f+CNk=
+SHA1-Digest-Manifest: tDIO8nh8LXuKatUWU7P01yX1cVg=
 
 Name: res/drawable/button_rect_list_normal.xml
-SHA1-Digest-Manifest: NqQwJ7Z1D6Ydi2kBc0QM85F8knk=
+SHA1-Digest-Manifest: t8UFjAmq/53Lawk4/8BqnxIv8Bk=
 
 Name: res/drawable-mdpi-v4/ic_menu_today_no_date_holo_light.png
 SHA1-Digest-Manifest: rv62Q1ePPX5Br/ZkssvyI2WAAfY=
@@ -1258,66 +1660,81 @@ SHA1-Digest-Manifest: IL4Hmw4rn7Bs0R3+37puIZtvQ1g=
 Name: res/drawable/guide_refresh_svg.xml
 SHA1-Digest-Manifest: BJIsh2p/0BdoXNuG9VW2MsVlDLE=
 
+Name: res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest-Manifest: 9om0JsJd4p1zaoBlIx6q+Zsli3o=
+
 Name: res/drawable-xxhdpi-v4/event_item_arrow2.png
 SHA1-Digest-Manifest: dUtXWq4ljoItwi1Frqm+i3Td/jc=
 
 Name: res/layout/agenda_item.xml
-SHA1-Digest-Manifest: d4l4obia6mPLkT9C/X0XenXW2kg=
-
-Name: res/drawable-xhdpi-v4/header_bg_cal_widget_normal_holo.9.png
-SHA1-Digest-Manifest: uKDyWfo9Ten+zxrzinVxEna4ihY=
+SHA1-Digest-Manifest: HyVNQ6XvBUJwR4HunktbWKFCH4Y=
 
 Name: res/drawable/ic_flag_indonesia.png
 SHA1-Digest-Manifest: /fWQEUYmtupSNgrwIGbBd9B7PKI=
+
+Name: res/drawable-xhdpi-v4/header_bg_cal_widget_normal_holo.9.png
+SHA1-Digest-Manifest: uKDyWfo9Ten+zxrzinVxEna4ihY=
 
 Name: res/drawable-xhdpi-v4/calname_bottom_unselected_pressed_holo_lig
  ht.9.png
 SHA1-Digest-Manifest: 1blky3+zE3kixA6cjbam+ELvWgs=
 
-Name: res/drawable-hdpi-v4/ic_menu_colorpicker_pressed.png
-SHA1-Digest-Manifest: 4nGiR64tY69IfToThbYb5LWh8vk=
+Name: res/layout/abc_activity_chooser_view_include.xml
+SHA1-Digest-Manifest: yIwgFE/tjOHE99CvkSe3jpTxGDc=
 
 Name: res/drawable/ic_flag_maldives.png
 SHA1-Digest-Manifest: yOm60xVtNvCtyDvgMoBWjhWkeqs=
 
+Name: res/drawable-hdpi-v4/ic_menu_colorpicker_pressed.png
+SHA1-Digest-Manifest: 4nGiR64tY69IfToThbYb5LWh8vk=
+
 Name: res/layout/alert_item.xml
-SHA1-Digest-Manifest: qa7Yq7z5cRBBRapRfhoNdTWRIIg=
+SHA1-Digest-Manifest: OB28FOnC5cU45lEOtiO9mcgntgI=
 
 Name: res/drawable-xhdpi-v4/ic_allday_collapse_large_holo_light.png
 SHA1-Digest-Manifest: y0jSPRrrbhLIMW2iFMaKv4hLygw=
 
 Name: res/layout-land/date_picker_dialog.xml
-SHA1-Digest-Manifest: fEGk1WoHiDenwDWBrVkj/hQ/qdQ=
-
-Name: res/drawable-xxhdpi-v4/header_bg_cal_widget_focused_holo.9.png
-SHA1-Digest-Manifest: DFVfEkLfvJ4s+jjKvujGv9g9gnI=
+SHA1-Digest-Manifest: OR7tHxgDMp6fR7Pzf8V3jOIdwaw=
 
 Name: res/drawable/ic_flag_new_caledonia.png
 SHA1-Digest-Manifest: ZTuYHEvb28QdpOsfneQYKBGfz30=
 
+Name: res/drawable-xxhdpi-v4/header_bg_cal_widget_focused_holo.9.png
+SHA1-Digest-Manifest: DFVfEkLfvJ4s+jjKvujGv9g9gnI=
+
 Name: res/layout/order_square_list_title.xml
-SHA1-Digest-Manifest: Y266Ai73qZEfPnk2dJDAMyuQBOg=
+SHA1-Digest-Manifest: HnwTlqsrcsJSQI8Uo6FxJL+z2C0=
 
 Name: res/drawable-hdpi-v4/ic_recurrence_bubble_fill.png
 SHA1-Digest-Manifest: qdJfmY6e/L7whGq87X7BrYEd1g4=
 
 Name: res/layout/recurrencepicker_end_text.xml
-SHA1-Digest-Manifest: jEMjAHNGYfLkSTjSJAQrAti4mCY=
+SHA1-Digest-Manifest: HXkn6wNDrXuArUk0stoVPBPcSlw=
+
+Name: res/color/abc_primary_text_disable_only_material_dark.xml
+SHA1-Digest-Manifest: IPFb5qq0nnkxD60oF7R9IVRru+E=
 
 Name: res/layout/event_info_header.xml
-SHA1-Digest-Manifest: QVjTFr06zfvUr+onUqZXKoWXiRM=
+SHA1-Digest-Manifest: B5MRuBC10rnZbvl3I79iQxpUe/M=
 
 Name: res/layout/alert_activity.xml
-SHA1-Digest-Manifest: 5x9T0FXFZ4BXG0j3JpelVZ1HQn0=
+SHA1-Digest-Manifest: r9z/YecWc1ry0indVoOVjinsrbE=
+
+Name: res/layout/abc_action_menu_layout.xml
+SHA1-Digest-Manifest: a6vwQTrxK8OxhytwAyjV60QX8bY=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest-Manifest: TvUKj9MTX/AUR4DlOTrGaORx55g=
 
 Name: res/layout/item_recommend_more.xml
-SHA1-Digest-Manifest: pQfIkKSiZ/96ysiWWpi7cfQakVE=
-
-Name: res/drawable/ic_flag_benin.png
-SHA1-Digest-Manifest: 32TpwqArcSfoK4K4eYu2SmcQnXU=
+SHA1-Digest-Manifest: 9xQCyfvKqfYrs7yPsOzrg7neSrI=
 
 Name: res/drawable/ic_flag_finland.png
 SHA1-Digest-Manifest: Pp1C1H+eYYNnI+TKR2CFRJL4S10=
+
+Name: res/drawable/ic_flag_benin.png
+SHA1-Digest-Manifest: 32TpwqArcSfoK4K4eYu2SmcQnXU=
 
 Name: res/drawable/ic_flag_turkey.png
 SHA1-Digest-Manifest: s/Vr21FeUmEXKmPHUF5DPYUbKkw=
@@ -1328,11 +1745,17 @@ SHA1-Digest-Manifest: gCitdJhQRE2HpMw/T26zIfc39e0=
 Name: res/drawable/widget_head_background.xml
 SHA1-Digest-Manifest: OkNWk8b+deALJSyWb1i/zSPqMIU=
 
+Name: res/drawable/bt_guide_pressed_rectangle.xml
+SHA1-Digest-Manifest: wFzD/Z+oSrnOq2W9lYohqxCq0UA=
+
 Name: res/drawable-mdpi-v4/ic_recurrence_bubble_disabled.png
 SHA1-Digest-Manifest: GQ/oQKqUlDKBM23s1GXUXYldkwM=
 
-Name: res/drawable/bt_guide_pressed_rectangle.xml
-SHA1-Digest-Manifest: wFzD/Z+oSrnOq2W9lYohqxCq0UA=
+Name: res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: 6BL+pW4iLqPV1dKOfpJd2mkLbrg=
+
+Name: res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest-Manifest: 0zBo9Tp1wTO3RHYh5z1M+TUN+H8=
 
 Name: res/drawable-xxhdpi-v4/subscribe_default_min.9.png
 SHA1-Digest-Manifest: aASMZLnTp3gr4HeGKILFGk1TT8Q=
@@ -1342,44 +1765,53 @@ Name: res/drawable-hdpi-v19/calname_bottom_select_underselect_pressed_
 SHA1-Digest-Manifest: /jnKfyWMMxzsbBwwSohHIMWMToo=
 
 Name: res/layout/edit_reminder_item.xml
-SHA1-Digest-Manifest: tVbwKmswizrlPOd0fUpLW/hpxLk=
+SHA1-Digest-Manifest: K2hQyiYSX1fKCr2QPy7vCuBrpxc=
 
 Name: res/drawable/ic_flag_jordan.png
 SHA1-Digest-Manifest: h4k0GAul++Dn98luzY8CcnaS+XU=
 
 Name: res/drawable-land/done_background_color.xml
-SHA1-Digest-Manifest: zW9JOtjNiD5GKDE73Re7MQciCsc=
+SHA1-Digest-Manifest: wuujB+PhucwN7efIqPLmq+58ZEI=
+
+Name: res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest-Manifest: Z6SIIC97mku9jiqDCLc6pgfmpn4=
 
 Name: res/drawable-hdpi-v4/event_bg_declined.png
 SHA1-Digest-Manifest: 0v0It9M2vntVoc//a/rXrnx+EwM=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest-Manifest: UxZdQ6TQXuaBAi4BpJnrnvWcJcc=
 
 Name: res/drawable-xhdpi-v4/calname_bottom_select_underselect_holo_lig
  ht.9.png
 SHA1-Digest-Manifest: /PLsIVhy4YqobgGktYBTGP34hV4=
 
 Name: res/layout/tag_detail_header_layout_all.xml
-SHA1-Digest-Manifest: waYrX1uKJ7pvfyj72GVFolVo0qY=
+SHA1-Digest-Manifest: O55xjxYdERemp4kBldj/Uf0AxlE=
 
 Name: res/drawable-mdpi-v19/header_bg_cal_widget_pressed_holo.9.png
 SHA1-Digest-Manifest: giXAD5f8ty+jSq93GU1JM1eYuUU=
 
 Name: res/drawable/delete_event_button_unpressed.xml
-SHA1-Digest-Manifest: IVqe5yuXVhjhFOemacneUCqtXPQ=
+SHA1-Digest-Manifest: IXmFSBQtRxfxJb0oEXbi7rx28qY=
 
 Name: res/layout/day_event_item.xml
-SHA1-Digest-Manifest: 7GqU1789fIAp2wTb0oDGHeovZg4=
-
-Name: res/drawable-hdpi-v4/widget_chip_not_responded_bg.9.png
-SHA1-Digest-Manifest: CYj3boNvJBGaZE0ieP6T5gVfZ5k=
-
-Name: res/drawable/ic_flag_colombia.png
-SHA1-Digest-Manifest: 5eYN7RJP9IRSXx7bzQI/WERZw7o=
+SHA1-Digest-Manifest: CVjVi4xuw99iBgqZPStGvSqAif8=
 
 Name: res/drawable/ic_flag_guadeloupe.png
 SHA1-Digest-Manifest: S2M8nmbyz08+es7o0L2FY/skPUI=
 
+Name: res/drawable/ic_flag_colombia.png
+SHA1-Digest-Manifest: 5eYN7RJP9IRSXx7bzQI/WERZw7o=
+
+Name: res/drawable-hdpi-v4/widget_chip_not_responded_bg.9.png
+SHA1-Digest-Manifest: CYj3boNvJBGaZE0ieP6T5gVfZ5k=
+
+Name: res/layout/view_title_tool_bar.xml
+SHA1-Digest-Manifest: f6mE8pRhivqN0MIquLL52mo1tsA=
+
 Name: res/drawable-sw600dp-v13/agenda_item_bg_secondary.xml
-SHA1-Digest-Manifest: Qs2ynQww6BQRyob2BR9LDV52bO8=
+SHA1-Digest-Manifest: 30XzUT/6qw6+oRq+mT6mQe5jAsI=
 
 Name: res/drawable-mdpi-v4/calname_unselected_pressed_holo_light.9.png
 SHA1-Digest-Manifest: +aeqM8Y6z+mqrqMhda5WghSlH4M=
@@ -1394,18 +1826,27 @@ SHA1-Digest-Manifest: DcMkBIT7UeCy5ufx//AcFHnQqJI=
 Name: res/drawable/ic_flag_arabia.png
 SHA1-Digest-Manifest: CPgddHsIc4iWldMBONfdsYknHJk=
 
+Name: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest-Manifest: 714BheLONdblJlAvufAfqZtoIeI=
+
 Name: res/menu/order_square_title_bar.xml
-SHA1-Digest-Manifest: 1qe8q36pu1S8htJuNKDR/RyZG30=
+SHA1-Digest-Manifest: r/PlpwlcAibCvqhEv3j8oZ0lMX8=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: Zm0/Gkkc+vb3G1c0JR0iM5JEqOA=
 
 Name: res/drawable-xxhdpi-v4/calname_bottom_select_underselect_pressed
  _holo_light.9.png
 SHA1-Digest-Manifest: ujYNZgU9U9TyymD+UMwKbn75fzk=
 
+Name: res/layout/view_star_tab_post.xml
+SHA1-Digest-Manifest: FZUYOvxh6rWX9Q8GKxkHmhU3DmA=
+
 Name: res/layout/contact_item.xml
-SHA1-Digest-Manifest: LpHO4wx/c41+paO9g5vEKpbZE8I=
+SHA1-Digest-Manifest: 5B0Gwmt6u4ncSeY2yy8KfO6GQV8=
 
 Name: res/drawable/le_top_btn_icon_reback.xml
-SHA1-Digest-Manifest: O1pdPPkTB9ITzhxwPmEEhaXIql0=
+SHA1-Digest-Manifest: tmsCNjpIqWFAJ0uCPaSn5k7qros=
 
 Name: res/drawable/event_info_organizer.xml
 SHA1-Digest-Manifest: +Ba2LA0+gRgRAXSxqos6pb5h8Og=
@@ -1417,39 +1858,45 @@ Name: res/drawable-xxxhdpi-v4/ic_launcher_calendar.png
 SHA1-Digest-Manifest: y8bY/hmppYWSLFQ3+Sv46cFxwK4=
 
 Name: res/drawable/bg_radiobutton_right.xml
-SHA1-Digest-Manifest: JPm01TlmltDrh30wQ7ezebpaWF0=
+SHA1-Digest-Manifest: a7AMbEdPLv3/IjK28qibeuQYbzc=
 
 Name: res/drawable/ic_flag_czech_republic.png
 SHA1-Digest-Manifest: 7A4X8x3a+hm7rKw46crYs/iivxg=
 
+Name: res/anim/abc_slide_out_top.xml
+SHA1-Digest-Manifest: NM9nWh/XI2zag3rBwIXEqrpl9XA=
+
 Name: res/layout/year_label_text_view.xml
-SHA1-Digest-Manifest: 2XKAGtGO86XbmVyH6wKUAM6jFIg=
+SHA1-Digest-Manifest: HsaEBVIWB3gr5lbWzujHAesNm5I=
 
 Name: res/layout-sw600dp-v13/edit_event_1.xml
-SHA1-Digest-Manifest: Bt70I6K8Hnu7WKGgVSeFNpCnC5I=
+SHA1-Digest-Manifest: f9AX4VPidyhq7FtBGDC5jIyXwu4=
 
 Name: res/drawable-xxhdpi-v19/calname_bottom_select_underunselected_pr
  essed_holo_light.9.png
 SHA1-Digest-Manifest: uhHBSNaaiHiXypxy63NuZKSUaws=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: QXwvg8RYQdsPAF6G/x+KB6gwHIM=
+
 Name: res/drawable/grid_widget_dark_background.xml
 SHA1-Digest-Manifest: fML9b6kQMDPEiplof0PV8pvZ144=
 
 Name: res/layout/day_event__agenda_item.xml
-SHA1-Digest-Manifest: +QJ2ga14boHtKrUNHkvpf/RxSFg=
+SHA1-Digest-Manifest: Dzah+OnkeFDgIbr6Jrw3sAbVNJA=
 
 Name: res/drawable-xhdpi-v19/calname_bottom_unselected_pressed_holo_li
  ght.9.png
 SHA1-Digest-Manifest: QsR688Cvdu8SVHhyJK+jDMhgw1U=
 
 Name: res/drawable/menu_addto_note_svg.xml
-SHA1-Digest-Manifest: DR2GWCwuZR/Yzt6ok64X2I1OxIk=
+SHA1-Digest-Manifest: //qNE/6F9W5BBFkfDXO6NzNa5Yo=
 
 Name: res/drawable/ic_flag_turks_and_caicos_islands.png
 SHA1-Digest-Manifest: FPbCm5IfvJED8qVm4WJ7iD26AeA=
 
 Name: res/drawable/bt_square_subscribe_rectangle.xml
-SHA1-Digest-Manifest: l0JPlmx8XFX+03Rp2j5SuZae+vM=
+SHA1-Digest-Manifest: QNajXTZK1cUSRqBDZlkJMChhEqQ=
 
 Name: res/drawable-mdpi-v4/ic_history_holo_light.png
 SHA1-Digest-Manifest: lf93OdL98PA10rUJyssqfnBc/E4=
@@ -1468,16 +1915,16 @@ Name: res/drawable-mdpi-v4/ic_recurrence_bubble_outline.png
 SHA1-Digest-Manifest: X9whs15eFSBjKKHHunLVVSLqLmM=
 
 Name: res/layout/event_rrule_end_layout.xml
-SHA1-Digest-Manifest: MhBu0dmCxnCkmMCdTe+nmiBdoco=
+SHA1-Digest-Manifest: M1Gx6GSwJCYvyL5UDmJC2Y6WOmE=
 
 Name: res/drawable-hdpi-v4/widget_chip_responded_bg.9.png
 SHA1-Digest-Manifest: wCfgBptvUxkInGXjNeL+/aCEhEg=
 
 Name: res/layout/color_picker_dialog.xml
-SHA1-Digest-Manifest: Pp2CaCqJFI9p76Gl5tukM/KvLnM=
+SHA1-Digest-Manifest: caej/lI3tvHRsB90Kx2BOSAihds=
 
 Name: res/layout/full_month_by_month.xml
-SHA1-Digest-Manifest: oFM6/NdFDzYojCREMRmgfRQvllc=
+SHA1-Digest-Manifest: r57Gdo0HN++3qKectXB/POxFwQQ=
 
 Name: res/drawable/ic_flag_seychelles.png
 SHA1-Digest-Manifest: XLHSJg2ZYlrpa0pZkPRxCOYYV8E=
@@ -1491,23 +1938,32 @@ SHA1-Digest-Manifest: FA6od63pLTFsiRDukyAmdclaFaE=
 Name: res/drawable-xhdpi-v4/ic_colorpicker_swatch_selected.png
 SHA1-Digest-Manifest: dRRwS08/LHA2qjUkYAQ5JxLSWDE=
 
-Name: res/layout/calendars_dropdown_item.xml
-SHA1-Digest-Manifest: RcogbmmwhGEN/e9SNWJ3qW4fVrM=
+Name: res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest-Manifest: IA6EhUH2gMzpUEaXDseJtnQqFZM=
 
-Name: res/drawable/ic_flag_estonia.png
-SHA1-Digest-Manifest: UdTNnIdppJuBJv9ZW1UXMGQJxzc=
+Name: res/layout/calendars_dropdown_item.xml
+SHA1-Digest-Manifest: FL+ho1Q7dfTgy1wq72lOu4x4CUw=
 
 Name: res/drawable/ic_flag_honduras.png
 SHA1-Digest-Manifest: nCZ3uSVPvEs6Xaryovc/82smwzE=
 
+Name: res/drawable/ic_flag_estonia.png
+SHA1-Digest-Manifest: UdTNnIdppJuBJv9ZW1UXMGQJxzc=
+
 Name: res/layout/timezone_footer.xml
-SHA1-Digest-Manifest: 0tn3NBxOk4Y04KuIVBlP3DdnZ6Y=
+SHA1-Digest-Manifest: BycoRDRIc5dEjBBBKZi/KFnN1Xw=
 
 Name: res/drawable-xxhdpi-v4/arrow_to.png
 SHA1-Digest-Manifest: x1vITN7XsWHpnYSLPItjxSsnYaw=
 
 Name: res/drawable-mdpi-v4/panel_month_event_holo_light.9.png
 SHA1-Digest-Manifest: C9RVVr0Qww74cK/DLYvdHzOPw/s=
+
+Name: res/layout/abc_action_bar_up_container.xml
+SHA1-Digest-Manifest: M3gmYm4coJXRFDoweGcZ5QDv7L4=
+
+Name: res/layout/abc_simple_dropdown_hint.xml
+SHA1-Digest-Manifest: xGE5Nr11Us1ancpYebhmXYNfUjo=
 
 Name: res/drawable/ic_flag_somalia.png
 SHA1-Digest-Manifest: lEbpMLCNAney6XcLVeWmFuBQKK0=
@@ -1516,7 +1972,7 @@ Name: res/drawable/ic_flag_norway.png
 SHA1-Digest-Manifest: 8b1X2FUgycZCrIZ6Pprd/QGdMwQ=
 
 Name: res/anim/translate_right_in.xml
-SHA1-Digest-Manifest: n18dlga02xQwOrvdzue1gmzEBSc=
+SHA1-Digest-Manifest: CB+b/eD4q4QjwO3Xkjkf7yQh4bU=
 
 Name: res/drawable-xxhdpi-v4/list_multi_left_focused_holo.9.png
 SHA1-Digest-Manifest: JiKGWy31mnxXWZF7QQkJhtpO3lQ=
@@ -1526,6 +1982,9 @@ SHA1-Digest-Manifest: lJHq6L2xS7RFTFx+POPHfKDpurg=
 
 Name: res/drawable-mdpi-v4/stat_notify_calendar.png
 SHA1-Digest-Manifest: hzqYtK6KAFiNCW0UidFx1TEvZgQ=
+
+Name: res/drawable-ldrtl-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: pfQu82afSilqataj5BGnBSkemMc=
 
 Name: res/drawable-xhdpi-v4/ic_alarm_dark.png
 SHA1-Digest-Manifest: NhyGehk4sLrjnV4eGBnilBYUuwY=
@@ -1537,17 +1996,23 @@ Name: res/drawable-xxhdpi-v4/when.png
 SHA1-Digest-Manifest: Vm9iy8079Bn0ydFEODFZ2OgzPZ8=
 
 Name: res/layout/mini_calendar_item.xml
-SHA1-Digest-Manifest: 0j4iQC8nzLHW2ymH60eQsMAkRtA=
+SHA1-Digest-Manifest: f9w0C8WmKLnjBM27QUMw/yjS+PI=
 
 Name: res/drawable/ic_notification_email.xml
 SHA1-Digest-Manifest: yHpTLwqAM6DrwxX8VYNpnszFecg=
+
+Name: res/drawable/bg_textview_gray.xml
+SHA1-Digest-Manifest: 1MCHq4trVAydkdRTVTv3aVQo5p0=
+
+Name: res/drawable-hdpi-v4/timeline_indicator_holo_light.9.png
+SHA1-Digest-Manifest: XwOZHdphUOdpttwLv+LmsHWjhic=
 
 Name: res/drawable-hdpi-v19/calname_select_underunselected_pressed_hol
  o_light.9.png
 SHA1-Digest-Manifest: 57rn15wkUSO+PvjU0z/f7dtCXhg=
 
-Name: res/drawable-hdpi-v4/timeline_indicator_holo_light.9.png
-SHA1-Digest-Manifest: XwOZHdphUOdpttwLv+LmsHWjhic=
+Name: res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: N/67pvsZBjmVMkE2o1xqc73zW9s=
 
 Name: res/drawable-xxhdpi-v4/organizer.png
 SHA1-Digest-Manifest: HNTM8VSfQuehCPob+EERur7oOi4=
@@ -1565,19 +2030,22 @@ Name: res/drawable-xxhdpi-v4/ic_search_holo_light.png
 SHA1-Digest-Manifest: DobVu8nWA9VnagtqpF70PMn/QuY=
 
 Name: res/layout/subsion_concert_item.xml
-SHA1-Digest-Manifest: bP52XJ+mv5TBeadZLesUiiDc3l8=
+SHA1-Digest-Manifest: zvXZPKS6xm8X4eiE0Od52Zgtrcs=
 
 Name: res/layout/event_info_normal.xml
-SHA1-Digest-Manifest: 7O9NZT+Zc83pdlHuuHg/q8Nm++U=
+SHA1-Digest-Manifest: DOLodjol9EnbQbf9x2jRzvsz0jo=
 
 Name: res/drawable/ic_flag_burma.png
 SHA1-Digest-Manifest: 0HgwPPlufFlQx0xOghK5m0CP1tQ=
 
 Name: res/layout/subscribe_event_detail_activity.xml
-SHA1-Digest-Manifest: x8Y6hOIu9lWjgGCqcQbmjGb1yto=
+SHA1-Digest-Manifest: ANRjQwGtmQUpXvI5aOskAr5bNa8=
 
 Name: res/layout/order_square_list_item.xml
-SHA1-Digest-Manifest: h1OmJw83iwftewKfo5c1uzCPSSs=
+SHA1-Digest-Manifest: iNgFh+eWzP0x6n87TjNax0lSNj8=
+
+Name: res/layout/design_navigation_item_header.xml
+SHA1-Digest-Manifest: RwQPE2EtAIpG+aX7Jbv7SYAy+Vo=
 
 Name: res/drawable-mdpi-v4/ic_menu_select_visible_calendars_holo_light
  .png
@@ -1586,21 +2054,24 @@ SHA1-Digest-Manifest: Qc7ueoXtLql3lI2u80aBp7Xqmlw=
 Name: res/drawable-mdpi-v4/cal_widget_bg.9.png
 SHA1-Digest-Manifest: 13jROYrTJZrjVRlEzXuXtwFGhoQ=
 
-Name: res/drawable-hdpi-v4/ic_contact_picture.png
-SHA1-Digest-Manifest: CaeuyVYcuMlbGk9e1jS5YlQv8oU=
-
 Name: res/drawable-hdpi-v4/switch_thumb_disabled_holo_light.9.png
 SHA1-Digest-Manifest: Oiup3l4uNF0B12bFkgZ5ZbKU4eM=
+
+Name: res/drawable-hdpi-v4/ic_contact_picture.png
+SHA1-Digest-Manifest: CaeuyVYcuMlbGk9e1jS5YlQv8oU=
 
 Name: res/drawable-mdpi-v4/timeline_indicator_activated_holo_light.9.p
  ng
 SHA1-Digest-Manifest: oN/f9OCW2/Ck/mg6z1M4NenaWFw=
 
+Name: res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest-Manifest: eAMUr9gXodMvXPSoVY4IUozTabw=
+
 Name: res/layout/appwidget_no_events.xml
-SHA1-Digest-Manifest: /uAzqjlXatw/r3uIBVTamul85fI=
+SHA1-Digest-Manifest: b4W1beGYcD0KZWWXTOS4JpAtayQ=
 
 Name: res/drawable/response_button_maybe.xml
-SHA1-Digest-Manifest: ufMoU09AqC8M4DLEwwS+ekZhjHE=
+SHA1-Digest-Manifest: 39qDbnA5RgZ4jRxAjEzdYARt3pA=
 
 Name: res/drawable/ic_flag_dominican_republic.png
 SHA1-Digest-Manifest: CVvVOTXKbiixF/NPWaXqhaQdepo=
@@ -1608,26 +2079,29 @@ SHA1-Digest-Manifest: CVvVOTXKbiixF/NPWaXqhaQdepo=
 Name: res/drawable/bg_button_gray.xml
 SHA1-Digest-Manifest: xEdBNj/ykc41vbWfFS6GCXUBLWA=
 
+Name: res/drawable-xhdpi-v4/abc_ab_share_pack_holo_light.9.png
+SHA1-Digest-Manifest: gsj7OwmJUj4Kt9qqqKYC+Z5NkN0=
+
 Name: res/drawable/ic_flag_turkmenistan.png
 SHA1-Digest-Manifest: 0DPfrPm9nGSG5IDeNuTzIC+dU6g=
 
 Name: res/layout/create_event_dialog.xml
-SHA1-Digest-Manifest: vpXduPWdA6YABk3l1eujMY92Vz8=
+SHA1-Digest-Manifest: SCB6yf1LipwswZayfLic/SvqHN0=
 
 Name: res/drawable/ic_flag_wallis_and_futuna.png
 SHA1-Digest-Manifest: tPkEZMkuiO3OJpb6SyuKHIFnOAY=
 
 Name: res/xml/last_time_widget_provider.xml
-SHA1-Digest-Manifest: HSANlTNeKwFsvls0jQJPTbowGFc=
-
-Name: res/drawable-mdpi-v4/switch_thumb_pressed_holo_light.9.png
-SHA1-Digest-Manifest: VyxRoouO+Z7ITDC+bYAPridmWf4=
+SHA1-Digest-Manifest: /LtFKLfMFyjQ5d5LO8LlBlLxSOY=
 
 Name: res/drawable/ic_flag_nicaragua.png
 SHA1-Digest-Manifest: GPwRq5FThcFCDsL3hwkDfFMtz+s=
 
+Name: res/drawable-mdpi-v4/switch_thumb_pressed_holo_light.9.png
+SHA1-Digest-Manifest: VyxRoouO+Z7ITDC+bYAPridmWf4=
+
 Name: res/layout/order_square_horizontal_listview_item.xml
-SHA1-Digest-Manifest: if46Dx9GeHYa+N11H+TRri/Q4t8=
+SHA1-Digest-Manifest: 0LF7O08y9bp7LvowyZRl8lnb2nw=
 
 Name: res/drawable-mdpi-v4/ic_contact_picture.png
 SHA1-Digest-Manifest: CYalIVT0W/NquLB8nmTonjeobrc=
@@ -1638,18 +2112,24 @@ SHA1-Digest-Manifest: Eoy9PNndY9eHi9mlE1wnUSYttjg=
 Name: res/drawable-xxhdpi-v4/action_to_agenda.png
 SHA1-Digest-Manifest: DJCWzoBUDxWqhxfaVMKPAOgabA8=
 
+Name: res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest-Manifest: +pi/Z1BDTC/eHcG86xxdoFAyukA=
+
 Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_underselect_pre
  ssed_holo_light.9.png
 SHA1-Digest-Manifest: +Dt9hfJlAa9EpgqmgQQE6cp9BV4=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: 5y8joV+KC9QP0FMZI1tEoWfoZKA=
 
 Name: res/drawable-xxhdpi-v4/recommend_music_arrow.png
 SHA1-Digest-Manifest: A5pZ32ilgjELwWXh+INN3lSUN5M=
 
 Name: res/layout/no_recently_layout.xml
-SHA1-Digest-Manifest: eE6EIkExRf3vWStw6gld8ADWCLY=
+SHA1-Digest-Manifest: RRC5FFgqxry+da+x+G7Ar6geqyc=
 
 Name: res/layout-land/time_picker_dialog.xml
-SHA1-Digest-Manifest: MaKFe/NcNBTcDssY0QmnFgOjp4s=
+SHA1-Digest-Manifest: zQh/AJeh9qFlpUAnY0Az0dBkKTU=
 
 Name: res/drawable-xhdpi-v4/cal_widget_bg.9.png
 SHA1-Digest-Manifest: 7nm/SUSnfmaVU4h9M9N8QItqqU8=
@@ -1658,13 +2138,13 @@ Name: res/drawable/ic_flag_korea_south.png
 SHA1-Digest-Manifest: 8sHpBdQ/iideXFMsWcWDNd3VvqQ=
 
 Name: res/drawable/alert_activity_icon.xml
-SHA1-Digest-Manifest: RxrlWRCFArm27cbNfOwIrAX0iOk=
+SHA1-Digest-Manifest: dLZEtAaidyLhH/wYyyPwd5uRMqU=
 
 Name: res/layout/tag_detail_header_layout_center.xml
-SHA1-Digest-Manifest: pOxfbig3Wh6oP2+r4hVDL076b8M=
+SHA1-Digest-Manifest: suh5ifAs3EbHrB9WlsONeVB59H0=
 
 Name: res/layout/no_data_layout.xml
-SHA1-Digest-Manifest: lKIHrjc27OmlXSUc8VWfQBeUle8=
+SHA1-Digest-Manifest: 43Yhkv8aaacXTakF9GI2AGaF/sE=
 
 Name: res/drawable-hdpi-v4/calname_select_underselect_pressed_holo_lig
  ht.9.png
@@ -1674,34 +2154,59 @@ Name: res/drawable/ic_flag_mali.png
 SHA1-Digest-Manifest: 28bQyiiGOwAA3ZGtMW9YigoK5LA=
 
 Name: res/layout/subscribe_detail_activity.xml
-SHA1-Digest-Manifest: +GHDFsONjcYeeUYD1oCoN9yE1eM=
+SHA1-Digest-Manifest: gGX90bD36b1nPeMSnSmQ6p4zuCc=
 
 Name: res/drawable-mdpi-v4/ic_clear_search_holo_light.png
 SHA1-Digest-Manifest: BAZdjrg41tGSMJqyirk56aAiI24=
 
 Name: res/layout/attend_event_info.xml
-SHA1-Digest-Manifest: 9qhIDjbEGdeBlsHZtgC29qk57so=
+SHA1-Digest-Manifest: GtNBI+yBS9Is5yBq2vGxKfsrq5Q=
+
+Name: res/layout/abc_activity_chooser_view_list_item.xml
+SHA1-Digest-Manifest: hBG5jqKKB+j5P8vzE6oH6yCxlZQ=
 
 Name: res/drawable/bt_subscribed_rectangle.xml
-SHA1-Digest-Manifest: P5eV3w6bsu+MUHe34PaYCt6IcGI=
+SHA1-Digest-Manifest: i1fIMtQOw8GDWJfinwFffgIc21w=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest-Manifest: ZcL++/zGOpiMrBK+00MCCJiYQ3Q=
 
 Name: res/layout/all_in_one_title_bar_search.xml
-SHA1-Digest-Manifest: bhqh/iqk20aiyddZEqESP6pswTU=
+SHA1-Digest-Manifest: +M4houwopDnFFfc2TUFvxh+M2RY=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.
+ png
+SHA1-Digest-Manifest: jEQGK0zNZB6quTj7VYnd0rBIJoU=
+
+Name: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest-Manifest: /B3ilbfijKVVB8UBbI++gVsnSgk=
 
 Name: res/drawable/ic_flag_tunisia.png
 SHA1-Digest-Manifest: I2Sp1aaNcOO9PX9RJBCpyjxm/Ak=
 
-Name: res/layout-sw600dp-land-v13/date_picker_dialog.xml
-SHA1-Digest-Manifest: tUg0ofReVUEmW+781bM8g8AkAAk=
+Name: res/drawable-ldrtl-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: /uo8EYHiC2f5J2uxRW0yOVGPWqs=
 
-Name: res/drawable-xhdpi-v4/ic_launcher.png
-SHA1-Digest-Manifest: A33f/6Xb1ogZl4jZlmsi6//HTbE=
+Name: res/layout-sw600dp-land-v13/date_picker_dialog.xml
+SHA1-Digest-Manifest: MmbuFWkYcztUH+tcPSqUXCFLRxs=
 
 Name: res/drawable-hdpi-v4/ic_menu_trash_pressed_holo_dark.png
 SHA1-Digest-Manifest: xUiAzwFepDYnz0UvkFy0SThvOnM=
 
+Name: res/drawable-xhdpi-v4/abc_ab_share_pack_holo_dark.9.png
+SHA1-Digest-Manifest: uPM3zI6nh71ab/LWFM4s0qPbfts=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest-Manifest: A33f/6Xb1ogZl4jZlmsi6//HTbE=
+
+Name: res/layout/articledetail_layout.xml
+SHA1-Digest-Manifest: 1b5voGTCAD5FdpwJnk7fmZGyJxg=
+
 Name: res/drawable/ic_setting_calendar.xml
 SHA1-Digest-Manifest: Pwe7i8jIYNvM2rXMhnK6Au2iu/k=
+
+Name: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest-Manifest: XS4QSKcuwFMyWTP/Zt+tOFsl9ak=
 
 Name: res/drawable/ic_flag_new_zealand.png
 SHA1-Digest-Manifest: 737HVoYEVqzfzzvYJDB5qXXzK4k=
@@ -1709,35 +2214,41 @@ SHA1-Digest-Manifest: 737HVoYEVqzfzzvYJDB5qXXzK4k=
 Name: res/drawable/menu_le_top_btn_icon_find.xml
 SHA1-Digest-Manifest: IHO/ZnizC0Pp5DWLFlScdgsoyb4=
 
-Name: res/drawable-xxhdpi-v4/action_to_add.png
-SHA1-Digest-Manifest: M6QGycvjtA1Qe9nJiHsoJsdXIbg=
-
 Name: res/drawable/ic_flag_lesotho.png
 SHA1-Digest-Manifest: LD4BoTIUM3KS4j5iBzORq+sfLS4=
 
+Name: res/drawable-xxhdpi-v4/action_to_add.png
+SHA1-Digest-Manifest: M6QGycvjtA1Qe9nJiHsoJsdXIbg=
+
 Name: res/layout/subsion_agenda_fragment.xml
-SHA1-Digest-Manifest: vEmfH0kCGlz4fGVwsNtPjW93vlc=
+SHA1-Digest-Manifest: es4LqjeUez5Szr9IxWkIbk7GTmA=
 
 Name: res/drawable-xxhdpi-v19/calname_bottom_select_underselect_presse
  d_holo_light.9.png
 SHA1-Digest-Manifest: rLlAgwLvH/vrqz7EHH4PfvkmhLw=
 
-Name: res/drawable-mdpi-v19/calname_select_underselect_pressed_holo_li
- ght.9.png
-SHA1-Digest-Manifest: LTDlTjox2TWzG1wU3DHa16Kngzk=
-
 Name: res/drawable-mdpi-v19/calname_select_underunselected_pressed_hol
  o_light.9.png
 SHA1-Digest-Manifest: qhmiXNPembMeGdz0wp74pVCgw3g=
 
+Name: res/drawable-mdpi-v19/calname_select_underselect_pressed_holo_li
+ ght.9.png
+SHA1-Digest-Manifest: LTDlTjox2TWzG1wU3DHa16Kngzk=
+
+Name: res/drawable/sendbtn_bg.xml
+SHA1-Digest-Manifest: yYFC1tC56NWhbiTiK9fEdoCrL+E=
+
 Name: res/drawable/event_list_bg.xml
-SHA1-Digest-Manifest: IgG3Vi1g0s14ayf+bfjpBKn8RKU=
+SHA1-Digest-Manifest: U0A4i7nfYb+IZlDS4nWkQn6w01k=
 
 Name: res/drawable-mdpi-v4/list_multi_left_activated_holo.9.png
 SHA1-Digest-Manifest: IGCLy2AvWxWpHV6V5/xUcImGNpQ=
 
+Name: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest-Manifest: KFofKn6Cxd9iNOhEUJEFdD4UySA=
+
 Name: res/layout-sw600dp-v13/event_info_label.xml
-SHA1-Digest-Manifest: JszqlzPS2qTXjPPqTm0pyoVdlWY=
+SHA1-Digest-Manifest: ci5uGQ8KieWdxmqe3zqNqo3bDeM=
 
 Name: res/drawable-mdpi-v4/timeline_indicator_holo_light.9.png
 SHA1-Digest-Manifest: G3cUO64RUVWX57TEXhRiB49ppmo=
@@ -1748,26 +2259,38 @@ SHA1-Digest-Manifest: lTaQlla7wJWRfNbx/Hu+VJaDlXY=
 Name: res/drawable-xxhdpi-v4/ic_allday_expand_large_holo_light.png
 SHA1-Digest-Manifest: n5VhBz70MTxxZ6RQbCyTu3MlZO0=
 
-Name: res/drawable-xhdpi-v4/calname_bottom_unselected_holo_light.9.png
-SHA1-Digest-Manifest: OaIRXxh2uXadSoQcpJazuD5YhmM=
+Name: res/drawable-ldrtl-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: v/BdOVIabxs3oTetRVM9dUxnBK0=
 
 Name: res/drawable/cake_svg.xml
 SHA1-Digest-Manifest: nKc86cYf66zzGq4Hyb7ZeUzGej8=
 
+Name: res/drawable-xhdpi-v4/calname_bottom_unselected_holo_light.9.png
+SHA1-Digest-Manifest: OaIRXxh2uXadSoQcpJazuD5YhmM=
+
+Name: res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: 8S3Y4d66N2uY45zCJUvHB7eSm1c=
+
 Name: res/drawable/action_to_add_svg.xml
-SHA1-Digest-Manifest: rvc/wie3BF+YNhNgFvxtWlXU/14=
+SHA1-Digest-Manifest: y+POvNsdrxsUOSh0jimlVGf/p9Q=
+
+Name: res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest-Manifest: LdyLROvWFgig9Vsgsaypd9fZOJY=
 
 Name: res/drawable/event_info_when.xml
 SHA1-Digest-Manifest: +V5Qz0DY6tM3mH/SOfk0PboJxzs=
 
-Name: res/drawable-hdpi-v4/ic_collapse_small_holo_light.png
-SHA1-Digest-Manifest: NlqWQw/mtCJ8GLQNlDkk22RXAaE=
+Name: res/drawable-ldrtl-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: NIVI7FVS4maAqTIlDZ14JDndAj8=
 
 Name: res/anim/slide_right_out.xml
 SHA1-Digest-Manifest: dBs3/5gOLMrlH2GQaDwlgFIHEJE=
 
+Name: res/drawable-hdpi-v4/ic_collapse_small_holo_light.png
+SHA1-Digest-Manifest: NlqWQw/mtCJ8GLQNlDkk22RXAaE=
+
 Name: res/layout-sw600dp-v13/date_picker_dialog.xml
-SHA1-Digest-Manifest: WBHSvZ/Hr2OW4gB47eFVzyJ1ac4=
+SHA1-Digest-Manifest: 58PrWzOu3HltPJ0ESqBEvLgJLb4=
 
 Name: res/drawable-hdpi-v4/ic_menu_trash_holo_dark.png
 SHA1-Digest-Manifest: GHHnjeCWo2g02Tmfu/VXWoHQmrA=
@@ -1778,26 +2301,38 @@ SHA1-Digest-Manifest: YS3ekKHWKP95ntgqFkZ99Z8ptos=
 Name: res/drawable-xxhdpi-v4/response_no.png
 SHA1-Digest-Manifest: GNipKn9mDyaoOgHjqFfVP9o36pM=
 
+Name: res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: pIbgUQ8P6RIWJGDoD70+SEhdyfM=
+
+Name: res/drawable-xxxhdpi-v4/button_pressed.9.png
+SHA1-Digest-Manifest: UgxBTpPG71XM2Rjrf7eodg6W1JM=
+
 Name: res/drawable-xxhdpi-v4/action_to_search.png
 SHA1-Digest-Manifest: I7+rmD5jrKQWn5Ol72CmUP8wuLY=
 
+Name: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest-Manifest: VL2tp5Ko2rl1muvR0Gd7YEtwUdY=
+
 Name: res/drawable/agenda_item_bg_primary.xml
-SHA1-Digest-Manifest: puZkpSIyKVXV7bV9aC07/opxFHo=
+SHA1-Digest-Manifest: SoK9ZKAivOStox1trWr49c7UZe4=
 
 Name: res/layout/subsion_birthday_fragment.xml
-SHA1-Digest-Manifest: RaMtcfrNPvfZsLUuGm1KaAhlNQY=
-
-Name: res/drawable-xhdpi-v4/ic_menu_remove_field_holo_light.png
-SHA1-Digest-Manifest: QDaCL5YdiF98wnN/Cd5ucAnhe8M=
+SHA1-Digest-Manifest: thqD1RvP9eiW6cI6EnQEPaCnhHI=
 
 Name: res/drawable/ic_flag_luxembourg.png
 SHA1-Digest-Manifest: lQkvH+vIVhXBGsa4YF1i7RXVl18=
 
+Name: res/drawable-xhdpi-v4/ic_menu_remove_field_holo_light.png
+SHA1-Digest-Manifest: QDaCL5YdiF98wnN/Cd5ucAnhe8M=
+
 Name: res/drawable/ic_flag_cote_d_ivoire.png
 SHA1-Digest-Manifest: HpkT/IUP5k8CvNwBsRWd5KHWm6E=
 
+Name: res/drawable/abc_cab_background_internal_bg.xml
+SHA1-Digest-Manifest: OpZTAPON/eHCLK5xEp9Ei2cska4=
+
 Name: res/layout/calendar_list_activity.xml
-SHA1-Digest-Manifest: bIcGoFqMgpCNwbHiQtp/i5jdqis=
+SHA1-Digest-Manifest: Lpf3Ak8Ra9kKvvR95XT2aQR6pik=
 
 Name: res/drawable-xxhdpi-v4/action_home.png
 SHA1-Digest-Manifest: ioZjovoeLroHD/p/DPW4/ZbpPE8=
@@ -1805,20 +2340,23 @@ SHA1-Digest-Manifest: ioZjovoeLroHD/p/DPW4/ZbpPE8=
 Name: res/drawable-mdpi-v4/header_bg_cal_widget_normal_holo.9.png
 SHA1-Digest-Manifest: vNVk9w+qwm7JiG0cYd4PQ48fwTo=
 
-Name: res/drawable-xhdpi-v4/header_bg_cal_widget_pressed_holo.9.png
-SHA1-Digest-Manifest: jG4uLioFEHLVeQAp+qTs/75eOIo=
-
 Name: res/drawable/ic_flag_bulgaria.png
 SHA1-Digest-Manifest: TccFvnFL40V+1EXPBQLmGB/Rark=
 
+Name: res/drawable-xhdpi-v4/header_bg_cal_widget_pressed_holo.9.png
+SHA1-Digest-Manifest: jG4uLioFEHLVeQAp+qTs/75eOIo=
+
+Name: res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest-Manifest: J65mphSdh50ayVf6SrTeAyY8lrI=
+
 Name: res/layout/filter_agenda_item.xml
-SHA1-Digest-Manifest: P21ZfVyNlBlNq4uhsdPyQFDYZOQ=
+SHA1-Digest-Manifest: ap/2Ywdiayk1W7ad7Z75lv7Ns3E=
 
 Name: res/drawable/stat_notify_calendar_multi.xml
 SHA1-Digest-Manifest: aDUgsVPxjGwwixum2SWrBt/DhLE=
 
 Name: res/color/radio_button_color.xml
-SHA1-Digest-Manifest: 68cwWq3Sb5JwvRWMEIqd14Xh6Uk=
+SHA1-Digest-Manifest: kzUjl5PwrSzAlLUvPGVi98d8QUI=
 
 Name: res/drawable-mdpi-v19/switch_thumb_pressed_holo_light.9.png
 SHA1-Digest-Manifest: CFRP5NlSZZOns7feha7lGxerPGg=
@@ -1828,6 +2366,15 @@ SHA1-Digest-Manifest: n/UtJ8w7V62Lp9Rsag2nyUtzayE=
 
 Name: res/drawable-xhdpi-v4/ic_recurrence_bubble_outline_disabled.png
 SHA1-Digest-Manifest: Ib+t7PgeUwIktdmtc1DDu245Qpo=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: P0BxeTT3dCcStTaVKMl7M+ZXDoY=
+
+Name: res/drawable/h5_share_menu.xml
+SHA1-Digest-Manifest: ynajW/RoIva3lu4uak5E4ZvmFak=
+
+Name: res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest-Manifest: XUUeghiBJli27nxrwf5sxQ8N90c=
 
 Name: res/drawable-hdpi-v4/header_bg_cal_widget_pressed_holo.9.png
 SHA1-Digest-Manifest: 0W63bQYYZk+4B9AgmEynfOWlMUo=
@@ -1845,43 +2392,59 @@ Name: res/drawable-xxhdpi-v4/ic_menu_refresh_holo_light.png
 SHA1-Digest-Manifest: v3vscd6DSO1Ep1qpqg+mLG7EKXI=
 
 Name: res/color/le_bottomsheet_content_color_link.xml
-SHA1-Digest-Manifest: EIKeYZaE2JqcCN+lY4e7kZQGf4k=
+SHA1-Digest-Manifest: yHwMVn1vrZOuFNWNJSdMA8p8c8w=
+
+Name: res/drawable/abc_list_selector_background_transition_holo_dark.x
+ ml
+SHA1-Digest-Manifest: y0GikP2HxsU4Pwx8x+83oYwGGVQ=
 
 Name: res/drawable/today_icon.xml
-SHA1-Digest-Manifest: 6481N2Qdbg6d49gNfdYRjD6b7/g=
+SHA1-Digest-Manifest: 0DDRVUVv7KkFFwkHyiCPI8V8HnU=
 
 Name: res/drawable-mdpi-v4/calname_select_underselect_pressed_holo_lig
  ht.9.png
 SHA1-Digest-Manifest: 7Euel53P3OzEP50Zc6Si35d1NAo=
 
-Name: res/drawable/pisces.xml
-SHA1-Digest-Manifest: /iX09jymZWbZkntwTN6hsunyq7A=
+Name: res/drawable/ic_menu_search_mtrl_alpha.png
+SHA1-Digest-Manifest: WdBuFGuTqRtjdyS2akRs8AXCzq0=
 
 Name: res/drawable-xhdpi-v19/calname_select_underselect_pressed_holo_l
  ight.9.png
 SHA1-Digest-Manifest: PePaGfojL+jnWomN43bYOu/AzQI=
 
-Name: res/layout/edit_event_2.xml
-SHA1-Digest-Manifest: +jbDTmuBcxxHz6/Gq9hKvuZLkOo=
+Name: res/drawable/pisces.xml
+SHA1-Digest-Manifest: /iX09jymZWbZkntwTN6hsunyq7A=
 
-Name: res/drawable-mdpi-v4/ic_menu_add_event_holo_light.png
-SHA1-Digest-Manifest: ZRBsRozDLPMKbnLgThEA87JGvFQ=
+Name: res/layout/edit_event_2.xml
+SHA1-Digest-Manifest: YLqDp+q8O9gXaeK9MAkNVnHofzI=
 
 Name: res/anim/le_licence_slide_bottom_out.xml
 SHA1-Digest-Manifest: 7M7jXsoVQYDXHxFoBbNzTTm+zx0=
 
+Name: res/drawable-mdpi-v4/ic_menu_add_event_holo_light.png
+SHA1-Digest-Manifest: ZRBsRozDLPMKbnLgThEA87JGvFQ=
+
 Name: res/layout/item_recommend_latest_news.xml
-SHA1-Digest-Manifest: jqx8nFbKt4bNDn8ae6rKhvNvR7k=
+SHA1-Digest-Manifest: zIG7Wy2rKJpC+YmyBEpEPtJgJt4=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: 1w/uxs4HAVVuv0NcdbFmy9M8R9E=
+
+Name: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest-Manifest: zeU1JSNmPm7v39XNkaEkis5yDOQ=
 
 Name: res/layout/item_recommend_wallpaper.xml
-SHA1-Digest-Manifest: rKlWp+JIWtLCqx3pGFP8DlNAauc=
+SHA1-Digest-Manifest: g6J/MqdB1Re+YqfJnZ9vStIuY1Y=
 
 Name: res/menu/all_in_one_title_bar.xml
-SHA1-Digest-Manifest: 9Y/Ju2IUHMvnZw+40kL3gcmKV0Y=
+SHA1-Digest-Manifest: ZeP9GuB2rkZvlF0jtcLtCaq6YGs=
 
 Name: res/drawable-xhdpi-v4/calname_bottom_unselected_underselect_pres
  sed_holo_light.9.png
 SHA1-Digest-Manifest: jOUXJe+yVWcjLEOWBjmDW/e3mvo=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest-Manifest: XEff6jUDEFWHjcuOO3DKy9ou9IE=
 
 Name: res/drawable-mdpi-v19/calname_bottom_select_underunselected_pres
  sed_holo_light.9.png
@@ -1894,7 +2457,7 @@ Name: res/drawable-hdpi-v4/ic_menu_done_holo_light.png
 SHA1-Digest-Manifest: yBj0YLjKI+ZPFqDSnVPnne/PlSk=
 
 Name: res/layout/category_list_item.xml
-SHA1-Digest-Manifest: HqS348AdBT1H9oyym0pfDWmdsis=
+SHA1-Digest-Manifest: nWYU/rY0AXI19aGztiFPQ+TpBZY=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_add_field_holo_light.png
 SHA1-Digest-Manifest: RO8i4+EbVxSWd4syq3onBQxS7uw=
@@ -1909,10 +2472,7 @@ Name: res/drawable/event_info_calendar.xml
 SHA1-Digest-Manifest: MpLp/1n6G3ke9wVRuYpelbsBy68=
 
 Name: res/drawable/selector_bt_guide.xml
-SHA1-Digest-Manifest: GuNDteGVbhB1SNRxYbW0ZS30IaI=
-
-Name: res/drawable/shape_recommend_divider_line_white.xml
-SHA1-Digest-Manifest: uehOXO7bZeYKWnNlmFwHp1PA6L0=
+SHA1-Digest-Manifest: LCWxAFAwTplV53oMCquIyqrBqQo=
 
 Name: res/drawable-hdpi-v4/ic_menu_today_no_date_holo_light_disabled.p
  ng
@@ -1921,8 +2481,14 @@ SHA1-Digest-Manifest: b5Gld4yoY6DpjOJdrFFKyadzUT0=
 Name: res/drawable-hdpi-v4/icon_arrow_right.png
 SHA1-Digest-Manifest: 1yCcJ5A8Ed4W/AOlG//OzzUi6Q8=
 
+Name: res/drawable/shape_recommend_divider_line_white.xml
+SHA1-Digest-Manifest: uehOXO7bZeYKWnNlmFwHp1PA6L0=
+
 Name: res/drawable-mdpi-v4/list_secondary_holo.9.png
 SHA1-Digest-Manifest: e1hEeIostVwST9bg1r19n+vnZog=
+
+Name: res/drawable-xxhdpi-v4/list_multi_left_pressed_holo.9.png
+SHA1-Digest-Manifest: FKNEQQ5NbvQMGRMo2LGHywLqMhg=
 
 Name: res/drawable-xhdpi-v4/ic_menu_add_event_holo_light.png
 SHA1-Digest-Manifest: rsnifzEfO0P6opYtw8taFndzNYQ=
@@ -1930,41 +2496,35 @@ SHA1-Digest-Manifest: rsnifzEfO0P6opYtw8taFndzNYQ=
 Name: res/drawable-hdpi-v4/switch_thumb_activated_holo_light.9.png
 SHA1-Digest-Manifest: CctxDSFOgITRJNMJX0mhtDzP4DE=
 
-Name: res/drawable-xxhdpi-v4/list_multi_left_pressed_holo.9.png
-SHA1-Digest-Manifest: FKNEQQ5NbvQMGRMo2LGHywLqMhg=
-
-Name: res/layout/lastday_fragment.xml
-SHA1-Digest-Manifest: BB05FwBPsARkHei/rOHL/Cp+U0Y=
+Name: res/drawable/almanac_yi_bk.xml
+SHA1-Digest-Manifest: X8lNfoIT29mDVLNwX+Jr8XcQyNI=
 
 Name: res/drawable/ic_flag_greenland.png
 SHA1-Digest-Manifest: 6HlcCYM7ydcV1lqDroraP08Kgs4=
 
+Name: res/layout/lastday_fragment.xml
+SHA1-Digest-Manifest: +r5+qi4xnUXgyP6BikQEFMU1Lkc=
+
 Name: res/drawable/ic_flag_botswana.png
 SHA1-Digest-Manifest: c/x2CCwk2rZNvmZ/6seRNPRusWU=
 
-Name: res/drawable-hdpi-v4/ic_alarm_holo_dark.png
-SHA1-Digest-Manifest: 3V7/75sh/Y6/0+ySyRbbNC1OcnA=
-
 Name: res/drawable-xxhdpi-v4/ic_allday_collapse_large_holo_light.png
 SHA1-Digest-Manifest: mBcderPQWwKsziXOzMRNcJP83XA=
+
+Name: res/drawable-hdpi-v4/ic_alarm_holo_dark.png
+SHA1-Digest-Manifest: 3V7/75sh/Y6/0+ySyRbbNC1OcnA=
 
 Name: res/drawable-xxhdpi-v4/response_maybe.png
 SHA1-Digest-Manifest: JHQXJLdoXiAD9GdCijXSYqT8qVQ=
 
 Name: res/color/done_text_color_dark.xml
-SHA1-Digest-Manifest: cGJ809Hqv+LvSAHvbp2NSGosT4c=
+SHA1-Digest-Manifest: SsmIuhiR+L4efpcq0DaNKHy8d4A=
+
+Name: res/drawable/icon_tag_detail.xml
+SHA1-Digest-Manifest: kQtuFFAwX00zryOxUoClBgxlVKw=
 
 Name: res/drawable/leui_redspot_icon.xml
 SHA1-Digest-Manifest: MKCtevQmceSaIhywoPIb4jhlOkM=
-
-Name: res/drawable/icon_tag_detail.xml
-SHA1-Digest-Manifest: uMyyCWt1NOslcJh1kYuu6zESl24=
-
-Name: res/layout/agenda_reminder_item.xml
-SHA1-Digest-Manifest: HsRSUReAlRqT/NPSJkJReYL1fSA=
-
-Name: res/layout-sw600dp-v13/edit_event.xml
-SHA1-Digest-Manifest: e0clanhBJ4/A9i6uKF5LGB0887k=
 
 Name: res/drawable-xhdpi-v4/list_pressed_holo.9.png
 SHA1-Digest-Manifest: AnFoP2XOzwRxOorxDJYB13qZZqQ=
@@ -1972,60 +2532,87 @@ SHA1-Digest-Manifest: AnFoP2XOzwRxOorxDJYB13qZZqQ=
 Name: res/drawable-hdpi-v4/ic_allday_collapse_large_holo_light.png
 SHA1-Digest-Manifest: cPJBudSdM/gVRkgpEP0D91R2jYs=
 
-Name: res/drawable-hdpi-v4/ic_colorpicker_swatch_selected.png
-SHA1-Digest-Manifest: N4gWu8HcJPa9LL3TPMaOBBIcOBs=
+Name: res/layout-sw600dp-v13/edit_event.xml
+SHA1-Digest-Manifest: wrts6ZRXkLGfe+bSyDuqEzKS2A8=
 
-Name: res/drawable-hdpi-v4/ic_menu_search_holo_light.png
-SHA1-Digest-Manifest: jJrrbfZgdohx90GdJPaWaziXeDk=
+Name: res/layout/agenda_reminder_item.xml
+SHA1-Digest-Manifest: SM4//47EZj43g0U6GiPWi0tkysI=
 
 Name: res/drawable-hdpi-v4/ic_recurrence_bubble_disabled.png
 SHA1-Digest-Manifest: hBR+uzZZXVxyq0bgo0t+U27GnPo=
 
+Name: res/drawable-hdpi-v4/ic_menu_search_holo_light.png
+SHA1-Digest-Manifest: jJrrbfZgdohx90GdJPaWaziXeDk=
+
+Name: res/drawable-hdpi-v4/ic_colorpicker_swatch_selected.png
+SHA1-Digest-Manifest: N4gWu8HcJPa9LL3TPMaOBBIcOBs=
+
 Name: res/drawable/type_bir.xml
 SHA1-Digest-Manifest: hpxMxH8vOrtQC3cPsiGHhHxGWRM=
+
+Name: res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: pyj4Fo53yo4iJZ4n0eK6lH71A+U=
 
 Name: res/drawable-mdpi-v4/toggle_underline_normal.9.png
 SHA1-Digest-Manifest: qKx6ZhwbuTcAt7GC5nqpoRosq9E=
 
 Name: res/drawable/bg_radiobutton_left.xml
-SHA1-Digest-Manifest: 42wQhTGxoABiB7T/0dtMvEnVTQA=
+SHA1-Digest-Manifest: b5kKsjUP1Fhh4Vq33fXbLZX/dyc=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: NrOe+iKeD0pVZSZEJA0emdWJtME=
 
 Name: res/drawable/ic_flag_san_marino.png
 SHA1-Digest-Manifest: cLcA6UFSwqTA8XfobtKIMaee2ME=
 
-Name: res/layout/widget_all_day_item.xml
-SHA1-Digest-Manifest: xQ1UKRiuZZUFt2YaBIFaLEq8DCs=
-
 Name: res/layout/subsion_birthday_detail_label_item.xml
-SHA1-Digest-Manifest: 1kgS29IAuL595MNvERznWseuXXc=
+SHA1-Digest-Manifest: OPMt72JesoZyyJdUGlNUpyFDKps=
+
+Name: res/layout/widget_all_day_item.xml
+SHA1-Digest-Manifest: zSufSN8kJrIJYEX6zW5ysy7SwgY=
+
+Name: res/layout/abc_action_mode_close_item_material.xml
+SHA1-Digest-Manifest: bJFIXN+UjVcisms4G7cZDS62xIY=
 
 Name: res/drawable-xhdpi-v4/ic_map.png
 SHA1-Digest-Manifest: iwvgd5I3ueEf4+3K5iGawM1xNhw=
+
+Name: res/layout/design_layout_tab_icon.xml
+SHA1-Digest-Manifest: OpgFVS39nmdZdRaCD4FzFLJt5h4=
 
 Name: res/drawable-hdpi-v4/ic_menu_select_visible_calendars_holo_light
  .png
 SHA1-Digest-Manifest: OwKgJq/B1LQFLtRNsZrDg64C+vA=
 
 Name: res/layout/copy_chip_dialog_layout.xml
-SHA1-Digest-Manifest: jyO1vKL9S3IjbMw5LbOVsO13MQM=
+SHA1-Digest-Manifest: DkgXmlz1yBDjkezdDX8MAfj3oQE=
 
 Name: res/drawable/ic_flag_cyprus.png
 SHA1-Digest-Manifest: sPQopykal05NAq6hmMKOaXYXHWc=
+
+Name: res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest-Manifest: ldV4x4yZeaf6bm6Hcb5H3q+u4os=
 
 Name: res/drawable/ic_flag_panama.png
 SHA1-Digest-Manifest: kqB+/lEYLLE4J9tfL4UiifaemxY=
 
 Name: res/drawable/where.xml
-SHA1-Digest-Manifest: IbMxkk9BLCye9WH56Fwyw1Pdjso=
+SHA1-Digest-Manifest: Kp2bDjMSP1EnkuHpEXrNfE50ED8=
 
 Name: res/drawable/ic_flag_ethiopia.png
 SHA1-Digest-Manifest: xIyc+BVJ03Ysw/BR0IjJGcR7b98=
 
-Name: res/drawable/ic_flag_saint_lucia.png
-SHA1-Digest-Manifest: y6lrwPHv5wdY+/D5fDG8zjEWdNw=
+Name: res/layout/demo_listview.xml
+SHA1-Digest-Manifest: h/1lGq5AW4szKJyMqVmi95OTH6Q=
 
 Name: res/drawable-hdpi-v4/ic_menu_remove_field_holo_light.png
 SHA1-Digest-Manifest: F0wy+gmCHoxC18u0WrI2T4B8wtA=
+
+Name: res/drawable/ic_flag_saint_lucia.png
+SHA1-Digest-Manifest: y6lrwPHv5wdY+/D5fDG8zjEWdNw=
+
+Name: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest-Manifest: xldUCDXxtpFsd6aULkKrjJBAOao=
 
 Name: res/drawable-hdpi-v19/calname_select_underselect_pressed_holo_li
  ght.9.png
@@ -2034,29 +2621,41 @@ SHA1-Digest-Manifest: 2msMlPzne1g5uiez9ArIUuDF4hU=
 Name: res/drawable-mdpi-v4/ic_repeat_white.png
 SHA1-Digest-Manifest: sFqBYBxx7CZj5wRZ/6qhsP65ArA=
 
+Name: res/layout/activity_star_page.xml
+SHA1-Digest-Manifest: W+/tQRsHJSxeIexfLseRtFCS2m0=
+
+Name: res/layout/view_star_tab_status_reloading.xml
+SHA1-Digest-Manifest: TQGr3Ve3XCR5UTJ4Xwr3c7Wt28M=
+
 Name: res/layout/le_bottomsheet_custom.xml
-SHA1-Digest-Manifest: L6JAYjwyh/YGBbCexQzSPAv8oac=
+SHA1-Digest-Manifest: ISagNFF5PQ3j+x3EFWSGorJFO28=
 
 Name: res/drawable-sw600dp-v13/ic_menu_compose_holo_dark.png
 SHA1-Digest-Manifest: 0Tkvk9ZsdR5+y4xO8vCh7tJTHN8=
 
 Name: res/layout/full_month_by_week.xml
-SHA1-Digest-Manifest: xJbpOmJARO5jNU/r5VWOvNuB0ck=
+SHA1-Digest-Manifest: 4Li1PHLFz6HW6ouoR14IGrwjCRA=
 
 Name: res/drawable/phone_svg.xml
 SHA1-Digest-Manifest: ejfVLng52L9HrAyIkOOwvcbhBnY=
 
 Name: res/layout/calendar_sync_item.xml
-SHA1-Digest-Manifest: CdEtQ0Ad+VJD6FzBKiV2T86RLys=
+SHA1-Digest-Manifest: Z9smqiOv05gLdolKeu7zr+QluJg=
+
+Name: res/layout/abc_screen_toolbar.xml
+SHA1-Digest-Manifest: mZkKTEQuVpsPcHmeOxw6ukhF8dQ=
 
 Name: res/layout-sw600dp-v13/full_month_by_week.xml
-SHA1-Digest-Manifest: Cane3i8PkNAdMreah6X0zvfeHrA=
+SHA1-Digest-Manifest: Oo+904/3tVEQDUAYHB0YchWad04=
+
+Name: res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest-Manifest: GREuW0z9gN7xBY7MK53AV4T1i6I=
 
 Name: res/layout/subsion_live_item.xml
-SHA1-Digest-Manifest: CUcK5PNhsrbcFOjvu8uy5+YJO98=
+SHA1-Digest-Manifest: 1q5LMItKFRuYiLeBY16Qwp507wI=
 
 Name: res/layout/live_detail_remind_layout.xml
-SHA1-Digest-Manifest: u5/MtevFQ6kjCNVs+ewR4zQW0Ko=
+SHA1-Digest-Manifest: kKDaBaNdwilyrmugUvQRvqUse3o=
 
 Name: res/drawable-hdpi-v4/header_bg_cal_widget_focused_holo.9.png
 SHA1-Digest-Manifest: dFWceXq/l0rUCYps3SChShPBrcs=
@@ -2065,23 +2664,44 @@ Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_holo_light.9.pn
  g
 SHA1-Digest-Manifest: iXFPKdc4shUSZ+qMLWudjCT/ATQ=
 
-Name: res/drawable/le_calendar_settings_icon.xml
-SHA1-Digest-Manifest: 44Cl9pSrKaeOPU0JJ3N83TvfsGA=
+Name: res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: 1OROTAP5mRPD/M0RgF0eJcbkd1I=
 
 Name: res/drawable/ic_flag_lebanon.png
 SHA1-Digest-Manifest: sUWFffXd2+UGhNSW+Q2oBNYkuZs=
 
-Name: res/layout/subscribe_list_activity.xml
-SHA1-Digest-Manifest: XMs1iZyDqS7nl8XI/8OiQ+x3ssU=
+Name: res/drawable/le_calendar_settings_icon.xml
+SHA1-Digest-Manifest: 44Cl9pSrKaeOPU0JJ3N83TvfsGA=
+
+Name: res/drawable/abc_btn_radio_material.xml
+SHA1-Digest-Manifest: S9LjNE4pRRUhB6JFC8VaQ8khFEY=
 
 Name: res/drawable/menu_le_top_btn_icon_menu.xml
 SHA1-Digest-Manifest: uct3CglJZxkt3P6koK0nnelI11Y=
 
+Name: res/layout/subscribe_list_activity.xml
+SHA1-Digest-Manifest: X6+lsOvc2qTPzJxe29biR50yxQ4=
+
 Name: res/drawable-xxhdpi-v4/action_to_rss.png
 SHA1-Digest-Manifest: 2c4eqXpZlXuYfCzwbgM3WyO3ezY=
 
+Name: res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: LRkZW/VykmeZApHIQ3AUOO7Qo0Y=
+
+Name: res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: Wd/BVkIZFhxDon9iRFyzpuJ3NqI=
+
 Name: res/drawable/ic_flag_brunei.png
 SHA1-Digest-Manifest: 3o4HeHHdWIQ7KL9cerr2/wANs5E=
+
+Name: res/layout/view_star_tab_status_empty.xml
+SHA1-Digest-Manifest: rI2Rd9A6xheSW5BAT3IGfoLXkP8=
+
+Name: res/drawable/tag_detail_calendar_icon.xml
+SHA1-Digest-Manifest: 1bGDDdiQLqwwJx0kMnr/oOI2WeQ=
+
+Name: res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest-Manifest: mmpNiME5m5TUxj1W4oX1z1PcBDM=
 
 Name: res/drawable/virgo.xml
 SHA1-Digest-Manifest: DIB8HKRsox75HSLWWWzAmV59KXI=
@@ -2097,37 +2717,37 @@ Name: res/drawable-xhdpi-v4/ic_repeat_dark.png
 SHA1-Digest-Manifest: xO8Z/Wz5VZx7izGABPPfEAQcbwg=
 
 Name: res/layout/reminder_item_include.xml
-SHA1-Digest-Manifest: Tjefir7uuwl00WyHaFm00CvCt0I=
+SHA1-Digest-Manifest: N7xTNKBNDfP2R9pjZil89NEsJ+s=
 
 Name: res/layout/item_recommend_calendar.xml
-SHA1-Digest-Manifest: n89np2dkgDzIiieZr6VVksFhww0=
+SHA1-Digest-Manifest: tONum0x55FhON6AqgiSRJfq7rWE=
 
 Name: res/layout/leui_widget_arrow.xml
-SHA1-Digest-Manifest: yXr2KQriDdab235NhEZvdNkat9I=
+SHA1-Digest-Manifest: 9u1U0U1DjWdzWrDLevkBX2UMNjc=
 
 Name: res/drawable-hdpi-v4/calname_select_underselect_holo_light.9.png
 SHA1-Digest-Manifest: Wy9A84h1fCIGhapqEmXydUTEI3M=
 
-Name: res/mipmap-hdpi-v4/ic_launcher_calendar.png
-SHA1-Digest-Manifest: wW5TwgXw4OGjf4oy6jAimTZgi18=
+Name: res/drawable/bg_left_background.xml
+SHA1-Digest-Manifest: rzx9RE/EVFeTlSk0joy7uQNsAhw=
 
 Name: res/layout/widget_item_without_addrress.xml
-SHA1-Digest-Manifest: HlU75V/dx22IGDZ2QmepVftibLw=
+SHA1-Digest-Manifest: Ezgw27WwkEzOYSRMfgdIm461Zcs=
 
-Name: res/drawable/bg_left_background.xml
-SHA1-Digest-Manifest: pr/mBqJpN47qYrZKKPYTZcrG6bY=
-
-Name: res/drawable-mdpi-v4/list_primary_holo.9.png
-SHA1-Digest-Manifest: qYM8hRP+oJ5wAmZ5xI5vy6ozhRg=
+Name: res/mipmap-hdpi-v4/ic_launcher_calendar.png
+SHA1-Digest-Manifest: wW5TwgXw4OGjf4oy6jAimTZgi18=
 
 Name: res/drawable-mdpi-v4/ic_collapse_large_holo_light.png
 SHA1-Digest-Manifest: +DnnFf1NlelBoRZDwzm4s0riu3g=
 
-Name: res/layout/expandable_textview.xml
-SHA1-Digest-Manifest: cOFjjU6MxbjmJx9clbsJ1L3jLO4=
+Name: res/drawable-mdpi-v4/list_primary_holo.9.png
+SHA1-Digest-Manifest: qYM8hRP+oJ5wAmZ5xI5vy6ozhRg=
 
 Name: res/drawable-mdpi-v4/ic_menu_compose_holo_light.png
 SHA1-Digest-Manifest: vs0asGKBWxG0TV1NkFnWXAYFXcg=
+
+Name: res/layout/expandable_textview.xml
+SHA1-Digest-Manifest: mJmY58xzQ1voXXIooQV/7VjEZKI=
 
 Name: res/drawable-hdpi-v4/panel_month_event_holo_light.9.png
 SHA1-Digest-Manifest: nAv+tnLIkHizLLx6dhVW4cx+g6Q=
@@ -2139,7 +2759,10 @@ Name: res/drawable-mdpi-v4/ic_alarm_dark.png
 SHA1-Digest-Manifest: bctJv1EPTYN4s0wW5ybjAAiWD8Y=
 
 Name: res/layout/time_header_label.xml
-SHA1-Digest-Manifest: TMQYBxNGVsQw6dcW4HjcKu26tdo=
+SHA1-Digest-Manifest: gQbJp54e5SOiIQ9N2wTAfACUgjY=
+
+Name: res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest-Manifest: fWFzmRTvlhVZBzFAxTslbjQMJB4=
 
 Name: res/drawable/ic_flag_georgia.png
 SHA1-Digest-Manifest: HpF0G+aNapzJvR66Ncw9bIPvN8Y=
@@ -2161,7 +2784,10 @@ Name: res/drawable-mdpi-v19/calname_bottom_select_underselect_pressed_
 SHA1-Digest-Manifest: k3Trl3GQa/tNb5TkYjiv1ZinF5g=
 
 Name: res/drawable/action_to_agenda_svg.xml
-SHA1-Digest-Manifest: jtSoaacdrFId/S7LafM43Ro/EEU=
+SHA1-Digest-Manifest: f1otNB9C50WbHCej/54ZDla5q9k=
+
+Name: res/layout/design_layout_snackbar.xml
+SHA1-Digest-Manifest: p9zFuNdKW/izC1FW8cW5xowLPNA=
 
 Name: res/drawable-hdpi-v4/ic_menu_add_field_holo_light.png
 SHA1-Digest-Manifest: FabyHM9kfL6Ryv0ha7M4f0ERnf0=
@@ -2172,11 +2798,11 @@ SHA1-Digest-Manifest: STg91Qgh0Kb3nGSy5O8NGMIHAew=
 Name: res/drawable-mdpi-v4/header_bg_cal_widget_pressed_holo.9.png
 SHA1-Digest-Manifest: e54NEW+DD4PsqmpOk43Hb7p7bUk=
 
-Name: res/layout/item_recommend_music_vertical.xml
-SHA1-Digest-Manifest: rGpJSG7g7z2de7xAJmow1l3tS7E=
-
 Name: res/drawable-xxhdpi-v4/ic_menu_colorpicker_pressed.png
 SHA1-Digest-Manifest: m9CMTmkDNYIzdMf+YdRroV0l7wg=
+
+Name: res/layout/item_recommend_music_vertical.xml
+SHA1-Digest-Manifest: nack8uSG05yxpwiPRcUKMHhr+EI=
 
 Name: res/drawable-mdpi-v4/calname_bottom_unselected_underselect_press
  ed_holo_light.9.png
@@ -2186,13 +2812,22 @@ Name: res/drawable-xxhdpi-v4/attendees.png
 SHA1-Digest-Manifest: tXTyWWzJ823WHBzyYZGptzRdM08=
 
 Name: res/anim/translate_right_out.xml
-SHA1-Digest-Manifest: 7ZYFH8uJePZ97276Io4dkRopc9E=
+SHA1-Digest-Manifest: 3zhUNXkP0maL6o93bDfVrByPwww=
 
-Name: res/layout/item_recommend_album.xml
-SHA1-Digest-Manifest: sX+cdyYDy4AlW24BY6vSIOVndCs=
+Name: res/drawable/abc_item_background_holo_light.xml
+SHA1-Digest-Manifest: Fnrcp1qGUUycEqCQ6cz5MEmcTII=
+
+Name: res/drawable/star_img_nowifi.xml
+SHA1-Digest-Manifest: VXgY8oOwUZrWHh6r7q3q6dQF8qM=
 
 Name: res/drawable/ic_flag_saint_vincent_and_the_grenadines.png
 SHA1-Digest-Manifest: J+nUqsPAa+WkTyhf1Xf3a35cPM8=
+
+Name: res/layout/item_recommend_album.xml
+SHA1-Digest-Manifest: ShKccnK/9g9cUVW1Gy42SCpddwU=
+
+Name: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest-Manifest: YWC6ZQ+ajtm7FDroCgqALsDnfw8=
 
 Name: res/drawable-hdpi-v4/frame_event_color_cal_widget_holo.png
 SHA1-Digest-Manifest: jwXf5fSZq6etVhi934zBzoMmdSo=
@@ -2200,14 +2835,30 @@ SHA1-Digest-Manifest: jwXf5fSZq6etVhi934zBzoMmdSo=
 Name: res/drawable/ic_flag_sierra_leone.png
 SHA1-Digest-Manifest: 3PCxQbBbq2tRLI/y+uTauMeUCFY=
 
+Name: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest-Manifest: 9BhkClp5dEf9SiNlkJTeUiPUGSo=
+
 Name: res/layout/image_details.xml
-SHA1-Digest-Manifest: hoMl9xPnQ4m2AoDrSnvDXQeSS8s=
+SHA1-Digest-Manifest: FS1mH/GTHzfBleXQzeC2ydfoozY=
+
+Name: res/layout/listitem.xml
+SHA1-Digest-Manifest: v+NB5NK85n3zQASoSaB02mAUxZs=
 
 Name: res/drawable-xxhdpi-v4/action_search.png
 SHA1-Digest-Manifest: 3YWVtiNC5YUvc7o29oaatpiQxUQ=
 
+Name: res/drawable-mdpi-v4/abc_ab_share_pack_holo_dark.9.png
+SHA1-Digest-Manifest: 8W+fhmfudA8LZnUHs0HP5ikqET0=
+
 Name: res/drawable/bg_radiobutton_right_blue.xml
-SHA1-Digest-Manifest: vgP9HdYIx9lvPAVeXx5xtoUpZdk=
+SHA1-Digest-Manifest: 1gOYw8yb9TtSFNx3T1WotnE8oKs=
+
+Name: res/layout/le_postlist.xml
+SHA1-Digest-Manifest: 0atXrG7dg6ij0+iq5ML5AM9GXf4=
+
+Name: res/drawable/abc_list_selector_background_transition_holo_light.
+ xml
+SHA1-Digest-Manifest: 0xc7gIhktn67p5LoMWb+i3jEkC4=
 
 Name: res/drawable-hdpi-v4/ic_menu_cancel_holo_light.png
 SHA1-Digest-Manifest: PYZNRRyO4zuhcqENq1CsoAtg9g8=
@@ -2215,47 +2866,62 @@ SHA1-Digest-Manifest: PYZNRRyO4zuhcqENq1CsoAtg9g8=
 Name: res/drawable/card_svg.xml
 SHA1-Digest-Manifest: Wex/ZURZoXeWstU2FEyVMXMgtIc=
 
-Name: res/layout/recurrencepicker_freq_item.xml
-SHA1-Digest-Manifest: 6M79k/7Znpl0je11J+Ui6+Hmwkk=
+Name: res/drawable/btn_send_normal.9.png
+SHA1-Digest-Manifest: B4D/H6LXxXV4xS9pkfz60B/2FT0=
 
 Name: res/drawable-mdpi-v4/calname_unselected_underselect_pressed_holo
  _light.9.png
 SHA1-Digest-Manifest: fCq1aozWKhzzoioyhHOT0l2Ec4Y=
 
+Name: res/layout/recurrencepicker_freq_item.xml
+SHA1-Digest-Manifest: 6l0tq9j6OuFwvoWjr531cXSSNG4=
+
+Name: res/layout/post_itemlayout.xml
+SHA1-Digest-Manifest: xCXYDAwS8zA0ZyviAs7wmA1Rjwg=
+
 Name: res/drawable/ic_notification_alarm.xml
 SHA1-Digest-Manifest: bKs0FZvcEozH/ggl5q5fB8qRoWE=
 
 Name: res/layout/subsion_sports_item.xml
-SHA1-Digest-Manifest: XTQcYNBPrHQdZ8VOKPFjaxRG8XA=
-
-Name: res/layout/search.xml
-SHA1-Digest-Manifest: tedtNL8MVr15QvvfRyvm6wRzrbo=
+SHA1-Digest-Manifest: 73GtWi8B+2LTzUTd51ITZyrZppU=
 
 Name: res/drawable/ic_flag_slovakia.png
 SHA1-Digest-Manifest: QeqW55AUBQMyvH09Hv8DSWoCBCw=
 
-Name: res/drawable/ic_flag_solomon_islands.png
-SHA1-Digest-Manifest: qM+BQanddMUQl9/ZnnvBymsDqdk=
+Name: res/layout/search.xml
+SHA1-Digest-Manifest: 6xSvxGMXT1KsXt4BrNSy7SY+VXk=
 
 Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_underselect_hol
  o_light.9.png
 SHA1-Digest-Manifest: qZsAUDcYzsdV61FpIaJF0Ojdsa4=
 
+Name: res/drawable/ic_flag_solomon_islands.png
+SHA1-Digest-Manifest: qM+BQanddMUQl9/ZnnvBymsDqdk=
+
 Name: res/drawable-hdpi-v4/chip_delete.png
 SHA1-Digest-Manifest: 2G93zP+MmEAjPEEkCt0SpWNEpR4=
 
+Name: res/drawable/artcile_liked_svg.xml
+SHA1-Digest-Manifest: U0SBs7JTdmnwH39WnGGtcs9TDOs=
+
 Name: res/drawable/ic_flag_svalbard.png
 SHA1-Digest-Manifest: /YKgwaVOdPM70suFSltCiRcTfXw=
-
-Name: res/drawable-xxhdpi-v4/header_bg_cal_widget_pressed_holo.9.png
-SHA1-Digest-Manifest: 5O4c5Hz0DkAPmi9asX0sXxGCnzI=
 
 Name: res/drawable-xxhdpi-v4/timeline_indicator_activated_holo_light.9
  .png
 SHA1-Digest-Manifest: qQMf9uyC13t6FEsGPmtkMkO8u8k=
 
+Name: res/drawable-xxhdpi-v4/header_bg_cal_widget_pressed_holo.9.png
+SHA1-Digest-Manifest: 5O4c5Hz0DkAPmi9asX0sXxGCnzI=
+
+Name: res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: jABiQQa1w0g9pXDcRMyZ5o9cWGA=
+
 Name: res/drawable-xxhdpi-v4/response_noresponse.png
 SHA1-Digest-Manifest: cmn5I/8KlyKHKNVJ0JF1AZx6Nro=
+
+Name: res/layout/edit_layout.xml
+SHA1-Digest-Manifest: qB143yqN9xqbd6oTTXUFNHG2Gz4=
 
 Name: res/drawable-hdpi-v4/ic_search_holo_light.png
 SHA1-Digest-Manifest: KbFl7RLjRTGlTIPIu1Vgqw2GO1A=
@@ -2267,13 +2933,16 @@ Name: res/drawable/ic_flag_united_kingdom.png
 SHA1-Digest-Manifest: I6my/jGlM09NfmL0v6ENZNJoiuw=
 
 Name: res/color/recurrence_spinner_text_color.xml
-SHA1-Digest-Manifest: oi8cBwnMN8dQqPg/SU5z0taOxGw=
+SHA1-Digest-Manifest: VeKm9Avn+9QRcnF8Et93nr7Rrqc=
 
-Name: res/layout/email_autocomplete_item.xml
-SHA1-Digest-Manifest: HB8kx7TgujH7jrKVSo5rq8cSbu4=
+Name: res/color/abc_primary_text_material_dark.xml
+SHA1-Digest-Manifest: UowK3+RqY7lxWcloqBm01o3udO0=
 
 Name: res/drawable/notify_svg.xml
 SHA1-Digest-Manifest: S2bo8AfeCeGgQr1OTDbqz6jOyHE=
+
+Name: res/layout/email_autocomplete_item.xml
+SHA1-Digest-Manifest: NoFX0uAkCGoA1BhiHutQSAq8Ofg=
 
 Name: res/drawable-hdpi-v4/list_pressed_holo.9.png
 SHA1-Digest-Manifest: NpH7qXfUkhEvZirr7SquRtMKyiA=
@@ -2290,11 +2959,11 @@ SHA1-Digest-Manifest: 0REU7Meku3PLGaGmMdNl2xUQ7xw=
 Name: res/drawable/ic_flag_haiti.png
 SHA1-Digest-Manifest: LUSz4bOc9++zWjVm9P0Nx3g+G2Q=
 
-Name: res/layout/edit_event_custom_actionbar.xml
-SHA1-Digest-Manifest: e2cTFQ/Sq46ypxRco1Jca0WCZ9A=
-
 Name: res/layout/date_picker_dialog.xml
-SHA1-Digest-Manifest: jxKw21Q/oX+9ODO7cAY88P/RBb0=
+SHA1-Digest-Manifest: clGyrQ19SPUO1JtP4kkucvYrdXM=
+
+Name: res/layout/edit_event_custom_actionbar.xml
+SHA1-Digest-Manifest: o1O/uOj9g9Q5KcJalTJwPHEPWWU=
 
 Name: com/letv/tracker/agnes/agnes.properties
 SHA1-Digest-Manifest: PWzDCUc8dku0t3iCGueiKd+DfH0=
@@ -2308,35 +2977,44 @@ SHA1-Digest-Manifest: TU/vaiE7KxSFGZgWsDWerKqckZk=
 Name: res/drawable/ic_flag_syria.png
 SHA1-Digest-Manifest: V4gqEKzWOP8wtYpl6KO+MNWYdBE=
 
+Name: res/drawable-xxhdpi-v4/list_multi_left_activated_holo.9.png
+SHA1-Digest-Manifest: G06yHKS574EoMUbxRxSYYryprKs=
+
 Name: res/drawable-mdpi-v4/today_blue_week_holo_light.9.png
 SHA1-Digest-Manifest: 01S6NZHZS6+YtA6XlXYZ49TDIEQ=
 
-Name: res/drawable-xxhdpi-v4/list_multi_left_activated_holo.9.png
-SHA1-Digest-Manifest: G06yHKS574EoMUbxRxSYYryprKs=
+Name: res/drawable/abc_item_background_holo_dark.xml
+SHA1-Digest-Manifest: 2+RWnwfs5Qla/aVtoDPswqBYtno=
 
 Name: res/drawable/ic_flag_central_african_republic.png
 SHA1-Digest-Manifest: cSac4aPD6BJ9lyAsfBK7SUNAo8o=
 
 Name: res/color/time_picker_lable_color.xml
-SHA1-Digest-Manifest: K0ShePuaxuNMb/W0NHtgsX0gOHM=
+SHA1-Digest-Manifest: 0Lmy2PLkfpCNeGWOcf50IeOHZQA=
 
 Name: res/drawable/ic_flag_latvia.png
 SHA1-Digest-Manifest: Lb55u6/JCpject2Ubt5XyJV3XRs=
 
+Name: res/drawable/default_image.xml
+SHA1-Digest-Manifest: Wp9mqB64dtjMEPAA/BtpjsCxrs0=
+
 Name: res/drawable/ic_flag_congo_democratic_republic_of_the.png
 SHA1-Digest-Manifest: dmSStnTZiPvlwQrz7AAiO1t1168=
-
-Name: res/drawable-hdpi-v4/list_multi_left_activated_holo.9.png
-SHA1-Digest-Manifest: uVMhGuICmHxSjTPcc2COHIenohM=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_colorpicker_holo_dark.png
 SHA1-Digest-Manifest: kvJkv6/NL3cgwARRwIz3wUct8iU=
 
-Name: res/layout/subsion_tvshows_notfirst_anime_item.xml
-SHA1-Digest-Manifest: J1uBkh8kddJwQ5tlBIXMqIS4Xdo=
+Name: res/drawable-hdpi-v4/list_multi_left_activated_holo.9.png
+SHA1-Digest-Manifest: uVMhGuICmHxSjTPcc2COHIenohM=
 
 Name: res/drawable-mdpi-v4/ic_menu_colorpicker_holo_dark.png
 SHA1-Digest-Manifest: DReOuT8xDoOvNZr6gfzEZEuzDEE=
+
+Name: res/layout/subsion_tvshows_notfirst_anime_item.xml
+SHA1-Digest-Manifest: X+EUg+rakazNGNIE5C4OhtQ3ypw=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: hHZhzg9BMSPiNv2x780huOLgLIg=
 
 Name: res/drawable-xhdpi-v4/calname_bottom_unselected_underselect_holo
  _light.9.png
@@ -2346,13 +3024,19 @@ Name: res/drawable-xxhdpi-v4/action_share.png
 SHA1-Digest-Manifest: C6TIk51Msd+zVztgKMbftliZbvw=
 
 Name: res/drawable/delete_event_button_pressed.xml
-SHA1-Digest-Manifest: DOy8QcH3vOPUIW07L16rZoK4wAA=
-
-Name: res/layout/subscribe_setting_layout.xml
-SHA1-Digest-Manifest: KMYxpDX2J6FXcTWnAjR/P9AIwqk=
+SHA1-Digest-Manifest: Vz1tXiJwGvY1xC/LFE/48EDlXqc=
 
 Name: res/drawable/ic_flag_yemen.png
 SHA1-Digest-Manifest: O94AbsKzaoNO/3TzNZWdlxKJdA0=
+
+Name: res/layout/subscribe_setting_layout.xml
+SHA1-Digest-Manifest: QDuXv/Zh4X1Vd8RWL/gFj/K/xyU=
+
+Name: res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest-Manifest: /HDLqKYSwxPWi6ihR75E/oot/mo=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest-Manifest: 3ScjTNW3a7ncfTKtfWVBGyxYiWA=
 
 Name: res/drawable/libra.xml
 SHA1-Digest-Manifest: SJRNwr2HwqcaTpSixmNC5za+gks=
@@ -2361,25 +3045,34 @@ Name: res/drawable/ic_flag_uganda.png
 SHA1-Digest-Manifest: W0pVlRQdH3HBfYJ9XDQ6hjyDwPw=
 
 Name: res/menu/settings_title_bar.xml
-SHA1-Digest-Manifest: rCWZH+8xuX/ZJKeFWDT+lhBgCD4=
+SHA1-Digest-Manifest: JM7UVb6XBITfXYfdnICFj8PkAUA=
 
 Name: res/layout/account_item.xml
-SHA1-Digest-Manifest: LkqZJE0A2OfEgaXIqu0zRUmZGTo=
+SHA1-Digest-Manifest: P+LeF33uFAC00B2AOgTyRzSC4ZM=
 
 Name: res/drawable-xhdpi-v4/list_multi_left_activated_holo.9.png
 SHA1-Digest-Manifest: HZaHg6/CHUjZl2CWTp/ISTJwQAw=
 
-Name: res/drawable-hdpi-v4/stat_notify_calendar.png
-SHA1-Digest-Manifest: XIgXoeeDVNFdyMJWYEaO71chzjo=
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: 396cLFH6GmIk+fmw4WU+kcdHCHo=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest-Manifest: uGWvmzDJW1Tm49ULXgHdjHtvfwc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest-Manifest: 3MCEeuaQT1cwQ1dN8b5CxTFXxUE=
 
 Name: res/drawable-xhdpi-v19/list_multi_left_pressed_holo.9.png
 SHA1-Digest-Manifest: ojzZWAvzVTIPJ7os9pv6pq93tuk=
 
+Name: res/drawable-hdpi-v4/stat_notify_calendar.png
+SHA1-Digest-Manifest: XIgXoeeDVNFdyMJWYEaO71chzjo=
+
+Name: res/layout/abc_activity_chooser_view.xml
+SHA1-Digest-Manifest: mnANziPCWOOOkgN9JdPY4WvkOaM=
+
 Name: res/drawable-xxhdpi-v4/ic_menu_search_holo_light.png
 SHA1-Digest-Manifest: j7fyoGvbZA3ndkeBOGd6bKyzgqE=
-
-Name: res/drawable/ic_flag_algeria.png
-SHA1-Digest-Manifest: Ke3ZK2hPfxe+R+NjwKoLTi2g6gM=
 
 Name: res/drawable-xxhdpi-v4/guide_logo.jpg
 SHA1-Digest-Manifest: XmxFzwdxXAjHwTnSW0+TLKuvZdA=
@@ -2387,23 +3080,29 @@ SHA1-Digest-Manifest: XmxFzwdxXAjHwTnSW0+TLKuvZdA=
 Name: res/drawable-hdpi-v4/blk_menubtn_arr.png
 SHA1-Digest-Manifest: sr6OAyrd8uPIsu0CeLj3BTVbFos=
 
+Name: res/drawable/ic_flag_algeria.png
+SHA1-Digest-Manifest: Ke3ZK2hPfxe+R+NjwKoLTi2g6gM=
+
 Name: res/drawable-hdpi-v4/blk_menubtn_shadow.png
 SHA1-Digest-Manifest: g/Kzu38c1VoRWeLT+Qd5/TWw8xA=
 
 Name: res/drawable/ic_flag_singapore.png
 SHA1-Digest-Manifest: +Ad0R1a3rN7VGAFWWLYQf5jKWis=
 
+Name: res/layout/listitem_title.xml
+SHA1-Digest-Manifest: etQaDCvR7cUOMK4xCf4qWn900JM=
+
 Name: res/layout/subsion_sports_item_info.xml
-SHA1-Digest-Manifest: Xl3+nEMczZolIqFm0MQV8hYVdZ4=
+SHA1-Digest-Manifest: HSSWf+IHQL4M8o1EfppVeTk0+S4=
 
 Name: res/drawable-xhdpi-v4/ic_menu_trash_holo_light.png
 SHA1-Digest-Manifest: SkXLxsS/ZoIvtK61SPy30GtsxZg=
 
-Name: res/drawable/calendar_widget_preview.png
-SHA1-Digest-Manifest: 5MGvut0rfjBWpteMOx9yVRIpLs4=
-
 Name: res/drawable-xxhdpi-v4/response_declined_unpressed.png
 SHA1-Digest-Manifest: gdrbmGV5pmN4yPaGe9ekwQqtSqA=
+
+Name: res/drawable/calendar_widget_preview.png
+SHA1-Digest-Manifest: 5MGvut0rfjBWpteMOx9yVRIpLs4=
 
 Name: res/drawable-xhdpi-v4/list_primary_holo.9.png
 SHA1-Digest-Manifest: DenuoBwA8VPKRbsrC6T3wYdDiNg=
@@ -2421,10 +3120,16 @@ Name: res/drawable/widget_calendar.png
 SHA1-Digest-Manifest: 6bRqbJUH/ctsbZ/OK679x52p3jI=
 
 Name: res/drawable/le_top_btn_icon_edit.xml
-SHA1-Digest-Manifest: HhTn2GG84xpSQg+HVUgjjPpFtLY=
+SHA1-Digest-Manifest: q8QVmbqEvioyaNTooIMeBTSYQS0=
 
 Name: res/drawable/gemini.xml
 SHA1-Digest-Manifest: /S9p8kIqgfV13yaWzvk/rfw5Txs=
+
+Name: res/drawable/star_page_head_icon.xml
+SHA1-Digest-Manifest: EpXZw6Rs05o/0aVDeb6hZh7BLmA=
+
+Name: res/layout/design_menu_item_action_area.xml
+SHA1-Digest-Manifest: MAjBXF+TiqbN8ABwvCY22FbLaDM=
 
 Name: res/drawable/ic_flag_grenada.png
 SHA1-Digest-Manifest: CmdKHP7QSPjdJt9O+nb+X7W6BVY=
@@ -2435,6 +3140,9 @@ SHA1-Digest-Manifest: srT661XXjrQg1/an3kf/Zgv+CfI=
 Name: res/drawable-mdpi-v4/ic_recurrence_bubble_fill.png
 SHA1-Digest-Manifest: DmXcKYa6S5gB9AZsUldis3sqvPU=
 
+Name: res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest-Manifest: G+bbnAiXkblSBp/TvkDQFH/pIKE=
+
 Name: res/drawable/ic_flag_canada.png
 SHA1-Digest-Manifest: hDDATpIfyn9xgluZAYoHQL7EVrY=
 
@@ -2444,6 +3152,9 @@ SHA1-Digest-Manifest: Je61Y4edgokLrzxnlNYQdln9Wts=
 Name: res/drawable/widget_add.xml
 SHA1-Digest-Manifest: 9+SHR2mCU/5WPLmYRwl/kLAozlA=
 
+Name: res/layout/demo_recyclerviewt.xml
+SHA1-Digest-Manifest: Y72+OeD3i0HuYdBMANVslXDROlE=
+
 Name: res/drawable-xxhdpi-v4/ic_recurrence_bubble_fill.png
 SHA1-Digest-Manifest: byPothetufoz83PimCg+81vAW4E=
 
@@ -2451,22 +3162,43 @@ Name: res/drawable/ic_flag_korea_north.png
 SHA1-Digest-Manifest: ZyIRR8qF3dhd3CGuQxcLR8KvLZg=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: 6uZfVOBEYkM4gbNZnmsDYFiVTjg=
+SHA1-Digest-Manifest: yCrr/S8kxWnHjwtSpdVYa++mx84=
+
+Name: res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest-Manifest: jaCqE8RSPyJL2tSTf5ctOZ8Wkp8=
 
 Name: res/drawable/ic_flag_guinea.png
 SHA1-Digest-Manifest: Y0Ebrnkm8XKKYuoUyjvMLpaPLag=
+
+Name: res/layout/recently_event_head_item.xml
+SHA1-Digest-Manifest: mcd1qizvxCszldnT2JEkazb25ZY=
 
 Name: res/drawable/ic_flag_reunion.png
 SHA1-Digest-Manifest: MTI9M2ttfFeaHpDNeGRMe38PrB8=
 
 Name: res/layout/date_picker_selected_date.xml
-SHA1-Digest-Manifest: BlYrQZz+LYfzRoWJ6SOsw8GSg1M=
+SHA1-Digest-Manifest: bq2jALlxQDoTtRUaiaJmOqcVSKQ=
+
+Name: res/anim/inputedit_exit.xml
+SHA1-Digest-Manifest: neEMQNq5W5AFfeEtnYBmX/IAfqQ=
 
 Name: res/anim/slide_right_in.xml
 SHA1-Digest-Manifest: Xg/IuvMKQ7J7pJ8/S+XernY0O0U=
 
+Name: res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest-Manifest: nM7eMb1IwRTSPeCUiRnPcn3CGRw=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest-Manifest: QwZHZJpd5l+NAg9AGG7D8wdIPmw=
+
 Name: res/layout/view_recommend_recyclerview
 SHA1-Digest-Manifest: YjNwh44KJX3ZezrS/zwhTLHZcQc=
+
+Name: res/drawable-ldrtl-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: GPEQw4vfRaiVW7DbIlHcV8Kh7js=
+
+Name: res/drawable/default_itemhaeder.xml
+SHA1-Digest-Manifest: Tb8oIRunFZPC8iXXk6KwzQnKpTU=
 
 Name: res/drawable-xxhdpi-v4/response_yes_pressed.png
 SHA1-Digest-Manifest: pILUAW7C3w9G+5JS7wituE0QDZg=
@@ -2474,23 +3206,41 @@ SHA1-Digest-Manifest: pILUAW7C3w9G+5JS7wituE0QDZg=
 Name: res/drawable/shape_recommend_divider_line2.xml
 SHA1-Digest-Manifest: GJd7NeBvjaCRR3TX74vG2uW0qGo=
 
+Name: res/color/abc_secondary_text_material_light.xml
+SHA1-Digest-Manifest: SCJ/FcWQlFtPQQMHX+KrcU4v9Sw=
+
 Name: classes.dex
-SHA1-Digest-Manifest: Wh/T0Nm092Jh3C7IjD3G76HdrZ0=
+SHA1-Digest-Manifest: H9elZHsBCTd63mjfqGolOvi5O3c=
 
 Name: res/drawable/selector_none.xml
 SHA1-Digest-Manifest: 8KIK8s7qthfreuEk+UJ3T4lHnRQ=
 
 Name: res/xml/reminder_preferences.xml
-SHA1-Digest-Manifest: T0ZgW3VuaqmbTqRhctF63Ea6BPg=
+SHA1-Digest-Manifest: VFAVAy0Vl7z/x4TuiJ4Z8ZmMtbY=
+
+Name: res/layout/abc_screen_content_include.xml
+SHA1-Digest-Manifest: OIcgNRYzgzWxF8IYDRl7VnODe7w=
 
 Name: res/layout/subscribe_list_item.xml
-SHA1-Digest-Manifest: xR9Vg1PI3t6zMoB/QSOGxOdTZ3Y=
+SHA1-Digest-Manifest: zMsremWY3KcQu1bVAeBZmjrbXpk=
 
 Name: res/menu-land/all_in_one_title_bar.xml
-SHA1-Digest-Manifest: b+8YEKaEfI02LnGRzXDyRPdkyzc=
+SHA1-Digest-Manifest: M0FMaF0LcLOBnp7LwKEox4/Eh5g=
+
+Name: res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: 4FGqTjztyXO58kn82LfGy4U0yHg=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest-Manifest: he0u+MMYOPtjL0qaRCkw275Ntw0=
 
 Name: res/drawable/right_button_background.xml
-SHA1-Digest-Manifest: CTQSOSBTODeQgogdaKTmhYhn4eA=
+SHA1-Digest-Manifest: NA90gbgfeIw2Q4BXyENJMrjqX+I=
+
+Name: res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: kGlcXj8+DoCgT4DA9SazaO/W0xk=
+
+Name: res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: uMa3ZhX2r7qDs00EfNTMtbgJsnY=
 
 Name: res/drawable-hdpi-v4/ic_collapse_large_holo_light.png
 SHA1-Digest-Manifest: AXDwl5eMj9PkG9IfG/41yh7Gu4k=
@@ -2499,35 +3249,44 @@ Name: res/drawable/ic_flag_tajikistan.png
 SHA1-Digest-Manifest: eNcrf9DC/DssIX2OjSrycW39DEY=
 
 Name: res/drawable-sw600dp-v13/agenda_item_bg_primary.xml
-SHA1-Digest-Manifest: gvfLT/glQyEo9gk2FJXcvZailWI=
-
-Name: res/drawable-hdpi-v4/list_multi_left_focused_holo.9.png
-SHA1-Digest-Manifest: vhsWiB5qwps6ZS0pKQ7tr4mKQ+E=
+SHA1-Digest-Manifest: DETDdsDa6ofLvbyez7U1QhnWLRY=
 
 Name: res/drawable-sw600dp-v13/ic_menu_today_no_date_holo_light.png
 SHA1-Digest-Manifest: 9w3B4v4AOKjoVbE8/OZbJyCNC5M=
 
+Name: res/drawable-hdpi-v4/list_multi_left_focused_holo.9.png
+SHA1-Digest-Manifest: vhsWiB5qwps6ZS0pKQ7tr4mKQ+E=
+
 Name: res/layout/more_item.xml
-SHA1-Digest-Manifest: t5hPnHD/r5eNtUbXEja+gM9nQSg=
+SHA1-Digest-Manifest: vauUknCXX5wlc3uhu7KCg4FiObc=
 
 Name: res/anim/slide_left_in.xml
 SHA1-Digest-Manifest: VBc3lMcURseVYOwtwkARy4u5n9I=
+
+Name: res/drawable/ico_hand.xml
+SHA1-Digest-Manifest: 01J64QFWo0A9IOzSdToyWKxIV1k=
 
 Name: res/drawable-mdpi-v4/calname_bottom_unselected_pressed_holo_ligh
  t.9.png
 SHA1-Digest-Manifest: pVZqrnsNsgZA0LS98wri8HNr1Qs=
 
 Name: res/drawable/switch_thumb.xml
-SHA1-Digest-Manifest: svqgVlrYiY6z0j6PsTChP58Ln+w=
+SHA1-Digest-Manifest: fHd768cFDQ/d86uvOgsul+eMdLA=
 
 Name: res/drawable/ic_flag_saint_kitts_and_nevis.png
 SHA1-Digest-Manifest: K/p2PVUaLQAYbR0ooBpl5QFe73g=
 
+Name: res/drawable/post_img.png
+SHA1-Digest-Manifest: 5A09st1dJtGcWV3uZ7YS8FZT20A=
+
 Name: res/drawable/response_button_yes.xml
-SHA1-Digest-Manifest: eBLLSsI7RJIR/SP/kJb9RZL3XeE=
+SHA1-Digest-Manifest: QVwHdJDJUlqcfXbBH4TmJKaKGQU=
+
+Name: res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest-Manifest: P0wooDvrgcWxD6FuObhOb0leW5c=
 
 Name: res/layout/custom_notification.xml
-SHA1-Digest-Manifest: UjD4HwmsXwPwRMmGFZec5GzaasA=
+SHA1-Digest-Manifest: NNmJR1pqD3Vv+I6fGvHFWTl1KYg=
 
 Name: res/drawable-xxhdpi-v19/calname_bottom_unselected_pressed_holo_l
  ight.9.png
@@ -2537,17 +3296,17 @@ Name: res/drawable-xxhdpi-v4/event_corner.9.png
 SHA1-Digest-Manifest: +9CFeKkP27fINJ8O4rgdeY2pIR0=
 
 Name: res/layout/order_square_block_item.xml
-SHA1-Digest-Manifest: MKo3A/0+sYsbsowlHBR1VpzE5Qo=
+SHA1-Digest-Manifest: TBANGJxHJkj8i+1wCsTA/IALN/k=
 
 Name: res/drawable-xhdpi-v19/calname_bottom_unselected_underselect_pre
  ssed_holo_light.9.png
 SHA1-Digest-Manifest: l/kc5b6pJk5EXKoTPK3y/9AphQM=
 
 Name: res/drawable/selector_bt_subscribe.xml
-SHA1-Digest-Manifest: KG3HpyoON3FF7sBEHPACh/Z4yfg=
+SHA1-Digest-Manifest: oO+m8rrjaAaK1IF5zBZxo8oYd2A=
 
 Name: res/drawable/done_background_color_dark.xml
-SHA1-Digest-Manifest: vVzAQ+iNl5i/HHXpVxfQd4wgQFw=
+SHA1-Digest-Manifest: Fo0LbT2JiHchyT/SpHs69y2270Q=
 
 Name: res/drawable/event_info_where.xml
 SHA1-Digest-Manifest: ZME76ccW70eET5oGTAHh7dFcy7c=
@@ -2559,32 +3318,41 @@ Name: res/drawable-mdpi-v4/frame_event_color_cal_widget_holo.png
 SHA1-Digest-Manifest: lJV8UY1JiOPo+EKGtXBGOdFbo58=
 
 Name: res/layout/select_calendars_fragment.xml
-SHA1-Digest-Manifest: MQgvybSoGGuqWQC+ae4E2GJ6GgI=
+SHA1-Digest-Manifest: Vyk5MkRnL6G9oR+li/gA0uK932Y=
 
 Name: res/drawable/le_notify_center_agenda_serval_icon.xml
 SHA1-Digest-Manifest: 3Wx95j7vhSAcHg4+g//lGwHS2N4=
 
+Name: res/layout/commententra_secitem.xml
+SHA1-Digest-Manifest: e3OkBMNqFSOy00Eu7qOtMWaz/p8=
+
 Name: res/layout/reminder_item_include2.xml
-SHA1-Digest-Manifest: sw7lICnrMUBSqs0nKeFpJXfQSp0=
+SHA1-Digest-Manifest: ZFSOURKMqXrdS5RaxB2V3uNznoQ=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest-Manifest: msCVJBu1h8tDbSJZF37E+TPvv6U=
 
 Name: res/drawable-hdpi-v4/list_focused_holo.9.png
 SHA1-Digest-Manifest: WFtm7nvkZx/iov572LXFChoDmZo=
 
+Name: res/drawable-xxxhdpi-v4/button_normal.9.png
+SHA1-Digest-Manifest: eN3J8hd2ZF8LRmkMFMm4fsoqcb8=
+
 Name: res/layout/all_by_year.xml
-SHA1-Digest-Manifest: W8B8VQfHVuGP5eLMrrP9zZPHSUo=
+SHA1-Digest-Manifest: iu6EVg5xP0DOGgiTDogIJqTeC08=
 
 Name: res/menu-sw600dp-v13/all_in_one_title_bar.xml
-SHA1-Digest-Manifest: POFgRl3i4Ig7LkTCfXUHvEU1SWA=
+SHA1-Digest-Manifest: r1Ofs75418JsesgL5w53cTZQ1VU=
 
 Name: res/drawable/le_notify_status_agenda_more_icon.xml
 SHA1-Digest-Manifest: 0743a9to+Mb8TYR4SImLDwL67ZE=
 
-Name: res/drawable/ic_flag_china.png
-SHA1-Digest-Manifest: rFs6ZcIGSesqjw+iL02WZhpAAI8=
-
 Name: res/drawable-xhdpi-v19/calname_bottom_select_underunselected_pre
  ssed_holo_light.9.png
 SHA1-Digest-Manifest: 0iEWzN9DN1OYYWTh/GK5+Ro2Ki4=
+
+Name: res/drawable/ic_flag_china.png
+SHA1-Digest-Manifest: rFs6ZcIGSesqjw+iL02WZhpAAI8=
 
 Name: res/drawable-xxhdpi-v4/ic_alarm_holo_dark.png
 SHA1-Digest-Manifest: d8itcEd8SSWXXqUxQGcnSqlXiHo=
@@ -2593,22 +3361,28 @@ Name: res/drawable-xhdpi-v4/widget_show.png
 SHA1-Digest-Manifest: eEAlu8MOzjOmaiZZof/pfzavTkQ=
 
 Name: res/layout/item_recommend_music.xml
-SHA1-Digest-Manifest: HCu4c3B9sNAWNfSc2NfnodsU7yw=
+SHA1-Digest-Manifest: 8bHA7bC+UgUO5dKMk2TA3SQ0Z4E=
 
 Name: res/drawable/ic_flag_east_timor.png
 SHA1-Digest-Manifest: a4Mh+IRV4bbXOrFTUjbmHCP0+u8=
 
 Name: res/layout/subsion_film_still_item.xml
-SHA1-Digest-Manifest: L5CZroeCKZGjvF1+q+OazLzXe7k=
+SHA1-Digest-Manifest: S0N2HF424wO1+Py9rvVc6wAEQfY=
 
 Name: res/drawable-mdpi-v4/ic_allday_expand_small_holo_light.png
 SHA1-Digest-Manifest: 0NcwBxa73ttwEW2NF0Ao/lSFRcc=
 
+Name: res/drawable/no_head.png
+SHA1-Digest-Manifest: z9u3qmaeYXkSlL58FbCu/4upZTo=
+
 Name: res/drawable/left_button_background.xml
-SHA1-Digest-Manifest: ji5DlNinMhpJPP7zI1vhUk7Nimg=
+SHA1-Digest-Manifest: LDcHKczXe93bLkGl5qbR2apAeJc=
 
 Name: res/drawable-xhdpi-v4/toggle_underline_normal.9.png
 SHA1-Digest-Manifest: oaCdMxnuF9wpQ0y3YEBILlX8Ta8=
+
+Name: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest-Manifest: lNuUT0ocSjvW/jki9WBE/Zw/lfA=
 
 Name: res/drawable/ic_flag_japan.png
 SHA1-Digest-Manifest: NItFHTtHf6U6Rm55N5I/UbPfnns=
@@ -2619,6 +3393,9 @@ SHA1-Digest-Manifest: L+GrK8ZU2aTHRoQd9rNh5bWmqsA=
 Name: res/drawable/ic_flag_bahamas.png
 SHA1-Digest-Manifest: 5RcbA6QszZ72v2n0XNRDqRBia8k=
 
+Name: res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest-Manifest: 1Dd/0JZBbJ0v3ZcNgNK8NWwPcLo=
+
 Name: res/drawable/ic_flag_puerto_rico.png
 SHA1-Digest-Manifest: SdKEWWVnQrPb39hid/I6UHhexhk=
 
@@ -2627,7 +3404,7 @@ Name: res/drawable-xhdpi-v4/calname_bottom_select_underunselected_holo
 SHA1-Digest-Manifest: NRtQ7leFp+ULR+H6iBJ0M8w4YPk=
 
 Name: res/layout/full_month_header_grid_widget.xml
-SHA1-Digest-Manifest: HBPR+k9SHO03zfUg+U9DYXAFJeI=
+SHA1-Digest-Manifest: RPeuWXC9Pt8E4dhYz4hxDaWCR0U=
 
 Name: res/drawable-xhdpi-v4/calname_select_underunselected_holo_light.
  9.png
@@ -2645,11 +3422,15 @@ SHA1-Digest-Manifest: hnMRL48DkXe53x7XzVNbjfbipu0=
 Name: res/drawable-xxhdpi-v4/ic_menu_email_holo_light.png
 SHA1-Digest-Manifest: 4b823ThVD7sLoSEU/vCGIecrVAw=
 
-Name: res/drawable/ic_flag_holy_see_vatican_city.png
-SHA1-Digest-Manifest: tjp+y2pK4H7r87DMMggZS5SeXqI=
+Name: res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.p
+ ng
+SHA1-Digest-Manifest: hueEUb7BKeKtGy0bhtSrneyN6wQ=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_today_holo_light.png
 SHA1-Digest-Manifest: UDlYchcqNx3S6ogwYZ0P5av94r0=
+
+Name: res/drawable/ic_flag_holy_see_vatican_city.png
+SHA1-Digest-Manifest: tjp+y2pK4H7r87DMMggZS5SeXqI=
 
 Name: res/drawable-mdpi-v4/ic_colorpicker_swatch_stroke.png
 SHA1-Digest-Manifest: zgqxydCVrrmLQXanLC+OwO2JSgY=
@@ -2669,18 +3450,27 @@ SHA1-Digest-Manifest: doMPyjJG9bma/6zHprwvJakDISc=
 Name: res/drawable-xhdpi-v4/ic_menu_add_field_holo_light.png
 SHA1-Digest-Manifest: S98dwuLVoBCiVt+UMPnwfJuSxrI=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest-Manifest: kW1/B+eMvi5Qa6pHdpol8Np5LOE=
+
 Name: res/layout/simple_frame_layout.xml
-SHA1-Digest-Manifest: hWMNAXyE7R6dlhZB0YkQzBy7riU=
+SHA1-Digest-Manifest: zokUcwScwuLltAQ30EQhDRoHpek=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: Rnyk862Fak5QBrH16XFG0gnr96c=
+
+Name: res/drawable-mdpi-v4/toggle_underline_activated.9.png
+SHA1-Digest-Manifest: lwEYAklF7ZW721w9B3YOSUCSl+w=
 
 Name: res/drawable-hdpi-v4/calname_bottom_select_underselect_pressed_h
  olo_light.9.png
 SHA1-Digest-Manifest: 7NeujRvWmavlXlsOQuTcbWFSAlE=
 
-Name: res/drawable-mdpi-v4/toggle_underline_activated.9.png
-SHA1-Digest-Manifest: lwEYAklF7ZW721w9B3YOSUCSl+w=
-
 Name: res/drawable/ic_flag_kazakhstan.png
 SHA1-Digest-Manifest: bnMQIESzVvs+IqMRKKBUC8sbhks=
+
+Name: res/layout/abc_popup_menu_item_layout.xml
+SHA1-Digest-Manifest: 1QpOeROiI1mGpuGNT48WtURk6Ro=
 
 Name: res/drawable-mdpi-v4/calname_bottom_select_underunselected_holo_
  light.9.png
@@ -2697,22 +3487,28 @@ Name: res/drawable/ic_flag_macedonia.png
 SHA1-Digest-Manifest: Z+gEpkCwpEjp0qFJgZbrgcoygcI=
 
 Name: res/layout/subsion_tvshows_variety_anime_item.xml
-SHA1-Digest-Manifest: 9BAE59N6NNNEUER7kkdDJDP8TNY=
+SHA1-Digest-Manifest: ybie2NfEtG2vRBD3+Dp1BFJ1UzM=
 
 Name: res/layout/dialog_text_item.xml
 SHA1-Digest-Manifest: lBrXmwGLXzRM2xCHcHeTsnCO4GI=
 
+Name: res/drawable-xhdpi-v4/list_multi_left_secondary_holo.9.png
+SHA1-Digest-Manifest: orRCWqQHJRVSSee2C+xRDiqKSjA=
+
+Name: res/anim/design_snackbar_out.xml
+SHA1-Digest-Manifest: fenowEI7s0OCQ7vzkP4haFTfB0I=
+
 Name: res/drawable/ic_flag_lithuania.png
 SHA1-Digest-Manifest: ZgUQqv2jNOVE0sxkgslT6xxukcs=
 
-Name: res/drawable-xhdpi-v4/list_multi_left_secondary_holo.9.png
-SHA1-Digest-Manifest: orRCWqQHJRVSSee2C+xRDiqKSjA=
+Name: res/drawable-xhdpi-v4/ic_search_holo_light.png
+SHA1-Digest-Manifest: 4Ux7qH9nF4Sf5TJIxfT9QATkT1E=
 
 Name: res/drawable-mdpi-v4/list_focused_holo.9.png
 SHA1-Digest-Manifest: dDVM6KeQcwGYkjB2+G3LyEcXtrg=
 
-Name: res/drawable-xhdpi-v4/ic_search_holo_light.png
-SHA1-Digest-Manifest: 4Ux7qH9nF4Sf5TJIxfT9QATkT1E=
+Name: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest-Manifest: e1lIlQ6p/YUvIYoyCe/6CikluEo=
 
 Name: res/drawable-xxhdpi-v4/calname_unselected_pressed_holo_light.9.p
  ng
@@ -2725,14 +3521,17 @@ SHA1-Digest-Manifest: VuuCrhDxQuiFanR0OvYK7kSFhzo=
 Name: res/drawable/event_info_noresponse.xml
 SHA1-Digest-Manifest: JNU31ktf8/BbA1lnZx5dBbg+9Bk=
 
+Name: res/drawable-xxhdpi-v4/empty_post.png
+SHA1-Digest-Manifest: VkXOhcRBi3gjgJDwJdDUUY22q/4=
+
 Name: res/drawable-xhdpi-v4/switch_thumb_pressed_holo_light.9.png
 SHA1-Digest-Manifest: VTcVro7tRSB7dCiFLkcjEK1gte8=
 
 Name: res/anim/translate_left_in.xml
-SHA1-Digest-Manifest: Dbu7brKb7oQDE3SslZ2zairewzI=
+SHA1-Digest-Manifest: biFS5nY21N/3xtKsS3fcfulD4F8=
 
 Name: res/layout/event_info_dialog.xml
-SHA1-Digest-Manifest: 6KQ2WrQ6poPM9ZUAiAxzWV9qTpM=
+SHA1-Digest-Manifest: FshNgL80y1jR8kTHOegozT41ZRc=
 
 Name: res/drawable-xxhdpi-v4/recommend_music.png
 SHA1-Digest-Manifest: o+D/Rq30bZbXRczfpXjKEEGpi7M=
@@ -2741,19 +3540,25 @@ Name: res/drawable-mdpi-v4/ic_launcher.png
 SHA1-Digest-Manifest: 3LjWSTDaK+LzxXCMhp8d8TFwiHg=
 
 Name: res/layout/attendees_activity.xml
-SHA1-Digest-Manifest: 2XcyKZBOmpCcNPdlyvApqewDLpI=
+SHA1-Digest-Manifest: 8nRqudq/npGQvbvknh77dJViDOo=
 
 Name: res/drawable-mdpi-v4/list_multi_left_focused_holo.9.png
 SHA1-Digest-Manifest: 5mq/2ybcyWVqcIPEk1ZRtAHcCpg=
 
 Name: res/color/subscribe_button_color.xml
-SHA1-Digest-Manifest: lNqhWY7nexEMHjSguO/Ct/pf5cc=
+SHA1-Digest-Manifest: Z1aMq13FewkWn0MeTZF+XSrrbIA=
 
 Name: res/drawable-xxhdpi-v19/list_multi_left_pressed_holo.9.png
 SHA1-Digest-Manifest: gcHwxOmWFQst1479yfAkniX71sw=
 
+Name: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest-Manifest: uk3L+RIoakDF8kLQl1lbuz1VdkM=
+
 Name: res/drawable/ic_flag_kyrgyzstan.png
 SHA1-Digest-Manifest: BhmaNTWFi+6mMzbNROnb+LDINZs=
+
+Name: res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest-Manifest: 1LBZvQyx5dHOJxN8790iFQcrfI0=
 
 Name: res/drawable-xhdpi-v19/calname_unselected_underselect_pressed_ho
  lo_light.9.png
@@ -2763,7 +3568,10 @@ Name: res/drawable-mdpi-v4/bg_event_cal_widget_holo.9.png
 SHA1-Digest-Manifest: 8RLQ6Z95qvnA+aTvyCDPKqWkKHs=
 
 Name: res/layout/appwidget_day.xml
-SHA1-Digest-Manifest: vd3BPgOKJrgdW3Ru7t5yTFMM0hw=
+SHA1-Digest-Manifest: 4ZeTgH8aI1FzI3P4rVyf7ccESxM=
+
+Name: res/layout/design_layout_tab_text.xml
+SHA1-Digest-Manifest: PEgv33EKNtdawBFtSQOgw0NARWo=
 
 Name: res/drawable-xhdpi-v4/stat_notify_calendar_multiple.png
 SHA1-Digest-Manifest: HzheWfjJveYgTq/8zda5auDyvtU=
@@ -2774,17 +3582,17 @@ SHA1-Digest-Manifest: d/qf9cTePNcBmeAJUYcAOXGMR2A=
 Name: res/drawable-xxhdpi-v4/ic_menu_done_holo_light.png
 SHA1-Digest-Manifest: KbV1NP9tnS/UFvjFzwsVvt98IjI=
 
-Name: res/drawable/ic_flag_mayotte.png
-SHA1-Digest-Manifest: ZxA2O95pw9FMKnKfaWACXxwNd1Q=
-
 Name: res/drawable/ic_flag_eritrea.png
 SHA1-Digest-Manifest: hIFhotyT10nau54tl7HBkFIHAQU=
+
+Name: res/drawable/ic_flag_mayotte.png
+SHA1-Digest-Manifest: ZxA2O95pw9FMKnKfaWACXxwNd1Q=
 
 Name: res/drawable/ic_flag_bolivia.png
 SHA1-Digest-Manifest: EeQ52fyoYAPlCM2h79/MYu3OGk4=
 
 Name: res/layout/all_in_one.xml
-SHA1-Digest-Manifest: gY/XP+M5q54VeqArPig3rJWHLU0=
+SHA1-Digest-Manifest: tFYgt9XZQZMoFBy52ynYO+pr7LY=
 
 Name: res/drawable/ic_flag_madagascar.png
 SHA1-Digest-Manifest: 1bIoB+TdESVQeD/f7N39pz6DuBk=
@@ -2793,13 +3601,25 @@ Name: res/anim/translate_up_out.xml
 SHA1-Digest-Manifest: 8/22KKVAkHP8AvA9/6nb8DY1sck=
 
 Name: res/layout/month_by_week.xml
-SHA1-Digest-Manifest: Vi7JfS5O/2OcsgyJa43GCaXfJOU=
+SHA1-Digest-Manifest: 0iGPeJqEQGbcDYoB3KDTm1gR9/A=
 
 Name: res/drawable-xxhdpi-v4/response_yes.png
 SHA1-Digest-Manifest: 7BYgUQjTyATO+Tzn8Rfc3YCe42E=
 
+Name: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+SHA1-Digest-Manifest: VAWAgM1S6jdrYNnzjAk62DbHpA8=
+
+Name: res/drawable/almanac_header_bk.xml
+SHA1-Digest-Manifest: C3+c/ij2flHLXuvEr8PLjhVE8L4=
+
+Name: res/layout/view_header_post_list.xml
+SHA1-Digest-Manifest: hVKOmuztNimqRb8R2oT92VX7C1M=
+
 Name: res/layout/recently_game_item.xml
-SHA1-Digest-Manifest: abxBg8grxnJOdKSDcwcrod+4t68=
+SHA1-Digest-Manifest: EH5jUHwjVFmp/ZdwWe9Q3uI4UQY=
+
+Name: res/anim/design_fab_out.xml
+SHA1-Digest-Manifest: xUTzztkV6DmAqFXiLoefobMOg3g=
 
 Name: res/drawable-xxhdpi-v4/ic_clear_search_holo_light.png
 SHA1-Digest-Manifest: 61GykDRl8pVvLzQaoarh5u6aoJI=
@@ -2817,16 +3637,20 @@ Name: res/drawable-xxhdpi-v4/recommend_more.png
 SHA1-Digest-Manifest: BtmkpJD/TPkvm/QAR+lrJHnEtNw=
 
 Name: res/drawable-land/done_background_color_dark.xml
-SHA1-Digest-Manifest: aLM3J7sgrqV9qHmV68S9xknsEOc=
+SHA1-Digest-Manifest: //IoJUVlCwKdZlHlpf968xXihmY=
 
 Name: res/drawable/ic_flag_slovenia.png
 SHA1-Digest-Manifest: mpygysyqqnDNUXDWZYFkOS68zIM=
 
 Name: res/menu/edit_event_title_bar.xml
-SHA1-Digest-Manifest: gR7QaH0QmBe83fEqd06EMTpk+fw=
+SHA1-Digest-Manifest: asuWPzODhlcYHCd8zZoDjGFdClA=
 
 Name: res/drawable-xxhdpi-v4/ic_launcher.png
 SHA1-Digest-Manifest: Gtns73HqaBnajlVNtn/plTNDo7s=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_select_underunselected_pres
+ sed_holo_light.9.png
+SHA1-Digest-Manifest: hKmUBd51h7PZPDonJGUehrYiy64=
 
 Name: res/drawable-mdpi-v4/ic_allday_expand_large_holo_light.png
 SHA1-Digest-Manifest: U3HzcJ4CHbl+ZIgap1/Nkp/rcp0=
@@ -2834,15 +3658,17 @@ SHA1-Digest-Manifest: U3HzcJ4CHbl+ZIgap1/Nkp/rcp0=
 Name: res/drawable-mdpi-v4/list_pressed_holo.9.png
 SHA1-Digest-Manifest: 5+nkd1rNtiVuRiUKKQaE79vKCOE=
 
-Name: res/drawable-xhdpi-v4/calname_bottom_select_underunselected_pres
- sed_holo_light.9.png
-SHA1-Digest-Manifest: hKmUBd51h7PZPDonJGUehrYiy64=
+Name: res/color/abc_search_url_text.xml
+SHA1-Digest-Manifest: x65CDZRjsZAH5Mwvgtj+iMkj5Rs=
 
 Name: res/drawable/list_item_font_primary.xml
 SHA1-Digest-Manifest: 9qVWxZerjckYmmgg1MB6aaBt9A8=
 
 Name: res/layout/grid_view_item.xml
-SHA1-Digest-Manifest: JIfOiaA9XNFN8qrRuS3NS+UpGCg=
+SHA1-Digest-Manifest: DjmUvQOVSGVpnCljY6NLEvW/+nE=
+
+Name: res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: muWAxoE0XBBJRGJqlVtmiHZFG2A=
 
 Name: res/drawable/ic_flag_tuvalu.png
 SHA1-Digest-Manifest: /DIHasDE33vLDolDzatI+hJIAPI=
@@ -2860,36 +3686,45 @@ Name: res/drawable/ic_flag_falkland_islands.png
 SHA1-Digest-Manifest: KDPJ2UgQL4z4Y2+WJQM5jphrzqg=
 
 Name: res/layout/event_info_label.xml
-SHA1-Digest-Manifest: BxlkH5PEXuEwMNUH/4Xtq6VDrJA=
-
-Name: res/drawable/ic_flag_moldova.png
-SHA1-Digest-Manifest: 3WTimVfnJFONhWq4jTArDU+uqls=
+SHA1-Digest-Manifest: 72/X5kP9k5LfQzokXtmndsaA998=
 
 Name: res/drawable-xhdpi-v4/calname_unselected_underselect_holo_light.
  9.png
 SHA1-Digest-Manifest: miE9JbsbFFU+iVcaQeXC16oJrcU=
 
+Name: res/drawable/ic_flag_moldova.png
+SHA1-Digest-Manifest: 3WTimVfnJFONhWq4jTArDU+uqls=
+
 Name: res/layout/subsion_sports_detail_relatedvideo_item.xml
-SHA1-Digest-Manifest: bH9zDBaJu8woNEYl3vZdATZtw5s=
+SHA1-Digest-Manifest: W5Uo/5E0SnPa79p8oa2yCLWtKJE=
 
 Name: res/drawable/ic_flag_northern_mariana_islands.png
 SHA1-Digest-Manifest: UJmGCBIl1AR7HpdJX8uEJ1SK6wM=
 
 Name: res/layout/net_avilivable_layout.xml
-SHA1-Digest-Manifest: oXxunp/8YzK2rkylSe4UdpJDot0=
+SHA1-Digest-Manifest: n7K6L86jBhqjTqGQRMBAH3+44LI=
 
 Name: res/layout-sw600dp-v13/full_month_header.xml
-SHA1-Digest-Manifest: 2pjjMJNSTzCZtr82CRWDll9IS5E=
+SHA1-Digest-Manifest: yAO0ORua4EyQmAY7xx3suGVRfBQ=
 
 Name: res/layout/grid_widget_layout.xml
-SHA1-Digest-Manifest: PI45kVsZxDdw7c+tZjb2T+3l0as=
+SHA1-Digest-Manifest: fnqFin0s/wEec4zofQJNSCtpg/M=
 
 Name: res/drawable-hdpi-v4/calname_bottom_select_underunselected_holo_
  light.9.png
 SHA1-Digest-Manifest: NBH4uI4Xraw6p8D5zeMN1DW/xB0=
 
+Name: res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest-Manifest: CJ98qeT5lBiFJsJf0eyW+b7rBqA=
+
+Name: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest-Manifest: bNvgb+lLTdjxhFylGY8qoNMZMS8=
+
 Name: res/layout/leui_fragment_tabs_pager.xml
-SHA1-Digest-Manifest: o3vQK+AVxE7PVQJdH7NMULf8gUs=
+SHA1-Digest-Manifest: i7n8m7+WzA8PZ0QsBdnjdZP58ok=
+
+Name: res/color/abc_secondary_text_material_dark.xml
+SHA1-Digest-Manifest: YuMF7MlOvgNHYb76UU5AzSjyOls=
 
 Name: res/drawable-mdpi-v4/ic_menu_compose_pressed_holo_dark.png
 SHA1-Digest-Manifest: oAW/4zSh0NEaMce3sQV4WLOmmf4=
@@ -2897,8 +3732,11 @@ SHA1-Digest-Manifest: oAW/4zSh0NEaMce3sQV4WLOmmf4=
 Name: res/drawable-xxhdpi-v4/ic_contact_picture.png
 SHA1-Digest-Manifest: eJMriDr19SaSZXrmRYiQLkjNjKo=
 
+Name: res/layout/design_navigation_menu.xml
+SHA1-Digest-Manifest: IKALdeNtmirpw+y8+xk+fKOMNwA=
+
 Name: res/drawable/play_button_disabled.xml
-SHA1-Digest-Manifest: mGAG1polu1mzRD5LyWKBoOl48aM=
+SHA1-Digest-Manifest: ga98QfyfSvMcqPDeVGf9i62jHgw=
 
 Name: res/drawable/type_ho.xml
 SHA1-Digest-Manifest: SLUewyy3r4plA1IHE+RSKEef+Lo=
@@ -2909,14 +3747,14 @@ SHA1-Digest-Manifest: rufI5TY8IaqeqQ+S26d3GMln22c=
 Name: res/drawable/ic_flag_serbia.png
 SHA1-Digest-Manifest: nOP4APWPpshSNXW5M3CgCXIpwiU=
 
-Name: res/drawable/bg_right_background.xml
-SHA1-Digest-Manifest: YW96W2cet/73aIIjnArrFUCDWj4=
-
 Name: res/drawable-xxhdpi-v4/action_to_today.png
 SHA1-Digest-Manifest: iIREK8zqywCanJdfX/S5bd8+ojw=
 
 Name: res/drawable-xhdpi-v4/ic_collapse_large_holo_light.png
 SHA1-Digest-Manifest: Ai/REEGPAeomSRPDb2YmvfZQoxo=
+
+Name: res/drawable/bg_right_background.xml
+SHA1-Digest-Manifest: yBsWBfhyPkWKk0ZhfEBZ8jkFIKg=
 
 Name: res/drawable-xhdpi-v4/frame_event_color_cal_widget_holo.png
 SHA1-Digest-Manifest: 5b7ftYGnF+rLfEv/iKCwwB3DQfQ=
@@ -2933,20 +3771,29 @@ SHA1-Digest-Manifest: ENYvSTzeFcKrqGXl2vxrLEXqWyk=
 Name: res/drawable-mdpi-v4/list_multi_left_primary_holo.9.png
 SHA1-Digest-Manifest: Ry2RW/PR4TsSSam8CtxEZun70zM=
 
+Name: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest-Manifest: pbP/bpdtNDmjPyIJWfLMJALvoXo=
+
 Name: res/drawable/ic_flag_guam.png
 SHA1-Digest-Manifest: 2gZTs+XgrCRBZS2MeUJsRwUAd0Q=
+
+Name: res/layout/le_post_header.xml
+SHA1-Digest-Manifest: a2+EzRLR8BAExuJWrx0PYqjdeZ0=
 
 Name: res/drawable/ic_flag_poland.png
 SHA1-Digest-Manifest: n5WxJzHlutfRnM5oAtPg436ICxg=
 
+Name: res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest-Manifest: rIkMq4+CSftmVq2L4Fv+Z3uU2qQ=
+
 Name: res/layout/event_info_headline.xml
-SHA1-Digest-Manifest: IRZNm27KDktpngbl+rEdntfoIrg=
+SHA1-Digest-Manifest: PIhC+zBlU4U3O1Fmm9ze2H3Pamg=
 
 Name: res/drawable-xhdpi-v4/ic_menu_today_holo_light.png
 SHA1-Digest-Manifest: v+yqx1NOUEY3akXqisgvuenBH60=
 
 Name: res/layout/subsion_le_film_item.xml
-SHA1-Digest-Manifest: yEM0SQQfEm/juxumS+hLV+7/ArY=
+SHA1-Digest-Manifest: cqhuJLpK022WRm9X8XRNyXlL01s=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_settings_holo_light.png
 SHA1-Digest-Manifest: dMzAn0uQOJbrPq/SPSsk5UnGMHo=
@@ -2964,7 +3811,7 @@ Name: res/drawable/ic_flag_klsnyesk.png
 SHA1-Digest-Manifest: n8Or/KGIBnikacKvYO6FGWKJiuo=
 
 Name: res/layout/subsion_live_fragment.xml
-SHA1-Digest-Manifest: laaOIzfrk4UcKWegA0H9qKrJUY0=
+SHA1-Digest-Manifest: KcIPLV95VnbXws4sKbfyf8BImpM=
 
 Name: res/drawable-hdpi-v4/subscribe_default_big.png
 SHA1-Digest-Manifest: 7SgFh/Tgoo/5+I7cAOlfC8pAGHs=
@@ -2985,32 +3832,41 @@ Name: res/drawable/ic_flag_kenya.png
 SHA1-Digest-Manifest: ZujWKVIUF6vyou740AbqgGANhVM=
 
 Name: res/drawable/ic_pop_open_icon.xml
-SHA1-Digest-Manifest: bz7+1xK+bzJNa6NAvVzxTv4v1So=
+SHA1-Digest-Manifest: 5Yw2CQ8IlswtdO3vvWqY0p84w4U=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_remove_field_holo_light.png
 SHA1-Digest-Manifest: yKLhFgf6YPKU6rMCCYJbUDXz8CQ=
 
-Name: res/drawable/ic_flag_french_polynesia.png
-SHA1-Digest-Manifest: aiov8x7OfZcQyO2F3wizYk6YF/A=
+Name: res/anim/design_snackbar_in.xml
+SHA1-Digest-Manifest: 6+HyUPWWyECHhvkn7FfU/SL24MA=
 
 Name: res/drawable-mdpi-v4/ic_menu_colorpicker_holo_light.png
 SHA1-Digest-Manifest: PeKSnUdryIL9TKF/J7FiQ5aL2vs=
+
+Name: res/drawable/ic_flag_french_polynesia.png
+SHA1-Digest-Manifest: aiov8x7OfZcQyO2F3wizYk6YF/A=
 
 Name: res/drawable/ic_flag_united_arad_emirates.png
 SHA1-Digest-Manifest: bkzReRd4ck8y8pTuKS2Eiegaetk=
 
 Name: res/drawable/le_top_btn_icon_cancel.xml
-SHA1-Digest-Manifest: PnnDSvMf3a+x2bbhm+8SR9Ecm0Q=
+SHA1-Digest-Manifest: rW2RiiOSb7FqJco/9WFKSU/sx6s=
 
 Name: res/drawable/ic_flag_andorra.png
 SHA1-Digest-Manifest: tQlxKRiOM8Pk5dHQnXWImhkCO+s=
 
-Name: res/drawable/ic_flag_el_salvador.png
-SHA1-Digest-Manifest: 9NQQqTKyYcXxHYMWGZuYZPgXMhA=
+Name: res/drawable/abc_list_selector_holo_dark.xml
+SHA1-Digest-Manifest: 09XfX2kV+YOo51RYPpRJq7mP5+0=
 
 Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_pressed_holo_li
  ght.9.png
 SHA1-Digest-Manifest: waS1ccBakfyNd0T5Xq79LY2cB/0=
+
+Name: res/drawable/ic_flag_el_salvador.png
+SHA1-Digest-Manifest: 9NQQqTKyYcXxHYMWGZuYZPgXMhA=
+
+Name: res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: pGUoZBYgi/AInw9Bd+IiHY0cyEs=
 
 Name: res/drawable-xhdpi-v19/header_bg_cal_widget_pressed_holo.9.png
 SHA1-Digest-Manifest: QkB3XcB8pDuM18kP3BZ8zQJi8fM=
@@ -3022,7 +3878,10 @@ Name: res/drawable/ic_flag_marshall_islands.png
 SHA1-Digest-Manifest: JURIFGtRktKPekZbeUJDm5BZymk=
 
 Name: res/drawable/event_info_mail_button.xml
-SHA1-Digest-Manifest: fgF8xEmmNWuf7Eay/W8JdcP0hC0=
+SHA1-Digest-Manifest: b3SfpePgD3gC6PTYARhS/sdK2jI=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: esewcPWP43YzeikiSszMdbAAolE=
 
 Name: res/drawable/ic_flag_armenia.png
 SHA1-Digest-Manifest: fKeGZ6LSDBA7EZf/fizUEvCF1JI=
@@ -3035,7 +3894,7 @@ Name: res/anim/alpha_out.xml
 SHA1-Digest-Manifest: RnypWb8aCisjOfR/lSt29oVRpyU=
 
 Name: res/menu/menu_main.xml
-SHA1-Digest-Manifest: mF2y079kuHUKa8gh2UAjKfUR1T4=
+SHA1-Digest-Manifest: m+AD8UJpxtMai3G4FU9neQBTlSQ=
 
 Name: res/drawable-hdpi-v4/dayline_minical_holo_light.9.png
 SHA1-Digest-Manifest: E0LJq4UZeScm+tRJxwIh81qkRs4=
@@ -3044,7 +3903,10 @@ Name: res/drawable-hdpi-v4/list_multi_left_secondary_holo.9.png
 SHA1-Digest-Manifest: C0YSWTb5oIgMMv712TG0DGi+VYI=
 
 Name: res/layout/widget_item.xml
-SHA1-Digest-Manifest: njYYtYgf4PjU2XIk8RjEAwyT13M=
+SHA1-Digest-Manifest: lDY8L6uYXBDbMMPsh0VgHOfLjRE=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest-Manifest: iGm+MqvuHagbCTikSNZ2q6527cs=
 
 Name: res/drawable/le_top_btn_icon_reback_blue.xml
 SHA1-Digest-Manifest: iaFy8v8GY+fwH42YGgtT+v84OKw=
@@ -3052,13 +3914,19 @@ SHA1-Digest-Manifest: iaFy8v8GY+fwH42YGgtT+v84OKw=
 Name: res/drawable/ic_flag_bangladesh.png
 SHA1-Digest-Manifest: 5huF7MyObigZZLvGIsjq8kFUE/U=
 
+Name: res/drawable-hdpi-v19/calname_bottom_unselected_underselect_pres
+ sed_holo_light.9.png
+SHA1-Digest-Manifest: EcP11ANNJb8LHJMOEFp1JMMp4WY=
+
 Name: res/drawable-mdpi-v19/calname_bottom_unselected_underselect_pres
  sed_holo_light.9.png
 SHA1-Digest-Manifest: ThAoB5CVop+2QotxgRJJtwyYhH8=
 
-Name: res/drawable-hdpi-v19/calname_bottom_unselected_underselect_pres
- sed_holo_light.9.png
-SHA1-Digest-Manifest: EcP11ANNJb8LHJMOEFp1JMMp4WY=
+Name: res/drawable/design_fab_background.xml
+SHA1-Digest-Manifest: RnDZ4YODuNg44An4VRSM13iDsgI=
+
+Name: res/layout/view_star_tab_status_loading.xml
+SHA1-Digest-Manifest: wiETiAvHtvdHITEm1rq+DW+q08g=
 
 Name: res/drawable/le_notify_status_agenda_emty_icon.xml
 SHA1-Digest-Manifest: GPOIx9iMgDUUQjhIIMIQdKW8qBs=
@@ -3066,20 +3934,35 @@ SHA1-Digest-Manifest: GPOIx9iMgDUUQjhIIMIQdKW8qBs=
 Name: res/drawable-xhdpi-v4/stat_notify_calendar.png
 SHA1-Digest-Manifest: hwMV+nWI+j46gb78xyyjh7C4Nl0=
 
-Name: res/drawable/ic_flag_france.png
-SHA1-Digest-Manifest: wNL2yJxfrBrl0YFMbo3JSZWLSQM=
-
 Name: res/drawable-xxhdpi-v4/back.png
 SHA1-Digest-Manifest: I8M84Ezab7L/ipLot91BkAOlObc=
+
+Name: res/drawable/ic_flag_france.png
+SHA1-Digest-Manifest: wNL2yJxfrBrl0YFMbo3JSZWLSQM=
 
 Name: res/drawable-xhdpi-v4/ic_menu_trash_holo_dark.png
 SHA1-Digest-Manifest: SO0SBU/niElnFhcQSSI+ia5HSrc=
 
+Name: res/drawable/chat_emoji_normal.png
+SHA1-Digest-Manifest: xhbDPjLil+XZ28mZCrbQfA2FAAQ=
+
 Name: res/drawable-xxhdpi-v4/play_button.png
 SHA1-Digest-Manifest: z0RkEXD5W0UfZp8dawSDWHZ3pbA=
 
+Name: res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest-Manifest: NI7ta6h9LTUZf7dk2TqqI2yDiuA=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest-Manifest: XLXNXEGdFp1N7k5VF0yNA+DYV8c=
+
+Name: res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest-Manifest: hV5YmK/WCxacfN49ZzEanjW8o/s=
+
 Name: res/layout/appwidget.xml
-SHA1-Digest-Manifest: IX3HinhJA9Ijq+Jyl1Xnx7LGBVg=
+SHA1-Digest-Manifest: aMGEzk0XZWDUnn+fM5YB7VwWAiI=
+
+Name: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest-Manifest: YKOYkP+RyjjZATnZVyFCEVrgHig=
 
 Name: res/drawable-hdpi-v4/ic_recurrence_bubble_outline.png
 SHA1-Digest-Manifest: 3AGl+T+k+f4Opirzt8JX3zRUl4Q=
@@ -3087,17 +3970,36 @@ SHA1-Digest-Manifest: 3AGl+T+k+f4Opirzt8JX3zRUl4Q=
 Name: res/drawable/ic_flag_vanuatu.png
 SHA1-Digest-Manifest: UkMW9BzNURhiUa4yl7qmlKI2pmw=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest-Manifest: 3aZ+fbmVr7ZfK+Od8tzr932pomg=
+
+Name: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.pn
+ g
+SHA1-Digest-Manifest: lwt2Am3zmZOoOe2VkIeiv/r8A54=
+
 Name: res/drawable-xhdpi-v4/ic_alarm_white.png
 SHA1-Digest-Manifest: uH6tOh0ZitKrsXhH+zEGeKrNcAg=
 
-Name: res/color/delete_button_color.xml
-SHA1-Digest-Manifest: ea8ap4qQHz1k4EC5r3mAgLOYuSs=
+Name: res/drawable-ldrtl-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: QacgD0c9hnJ/qYU3SZAn7mTHEZc=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest-Manifest: eAe4aQ3DNPRP6pSEW0HgZPPU5nE=
+
+Name: res/layout/view_empty_post_list.xml
+SHA1-Digest-Manifest: Qx5UKe7nj1TszS4coh9CAO3P9Fo=
 
 Name: res/drawable-hdpi-v4/chip_background_invalid.9.png
 SHA1-Digest-Manifest: fD4dWS+XAnYuEN6KL5fmArtHUPo=
 
+Name: res/color/delete_button_color.xml
+SHA1-Digest-Manifest: eWqdNe/NLPiSeXvQXx0XWmsc+Dk=
+
 Name: res/drawable-mdpi-v4/ic_colorpicker_swatch_selected.png
 SHA1-Digest-Manifest: vBHjxATCTPpD+nncJjXZGWobfXU=
+
+Name: res/layout/abc_action_bar_title_item.xml
+SHA1-Digest-Manifest: 74Kmtw7pCxzuP/qJMVNunoP4iME=
 
 Name: res/drawable/ic_flag_cayman_islands.png
 SHA1-Digest-Manifest: 61kcbaMD79TWCJIi6orXe6zFdQE=
@@ -3106,7 +4008,7 @@ Name: res/drawable-hdpi-v4/ic_menu_trash_holo_light.png
 SHA1-Digest-Manifest: WQ84UlT5Ga7k56w/MUlDTnKFYj4=
 
 Name: res/layout/empty_time_zone_item.xml
-SHA1-Digest-Manifest: 6b/SypOWoKujScLkyRKXF9PdZu4=
+SHA1-Digest-Manifest: iDkPvqHit8sXTIC5nc2UyMfPD74=
 
 Name: res/drawable-hdpi-v4/calname_unselected_underselect_pressed_holo
  _light.9.png
@@ -3119,13 +4021,13 @@ Name: res/anim/translate_to_top_out.xml
 SHA1-Digest-Manifest: JBy4yajRyVhMZq3WTm5oJ2wK108=
 
 Name: res/layout/edit_event3.xml
-SHA1-Digest-Manifest: 36zhXlQ/tajMlpqz8Z2mM+t0O4A=
-
-Name: res/drawable/ic_flag_nigeria.png
-SHA1-Digest-Manifest: yc3P/FNKvz3Kn3w3J8rKENfxzQg=
+SHA1-Digest-Manifest: aQrjl0iBSiVfdXDMWE5pNJzzWS0=
 
 Name: res/drawable-hdpi-v4/list_secondary_holo.9.png
 SHA1-Digest-Manifest: +YV8EHy27B/uO3lGwM2njpUhyOg=
+
+Name: res/drawable/ic_flag_nigeria.png
+SHA1-Digest-Manifest: yc3P/FNKvz3Kn3w3J8rKENfxzQg=
 
 Name: res/drawable/ic_search.xml
 SHA1-Digest-Manifest: 6YzB4uLewnCvXBQE1+bRje6q/Pc=
@@ -3135,13 +4037,13 @@ Name: res/drawable-xhdpi-v19/calname_select_underunselected_pressed_ho
 SHA1-Digest-Manifest: zEhI2unpshvVS1bCDX3lZ5XrtBw=
 
 Name: res/layout/subsion_sports_detail_lastgame_item.xml
-SHA1-Digest-Manifest: D8vBixIQf9EX7LE/aXOA4pE/MKY=
+SHA1-Digest-Manifest: Y51Nn2i/g2x03qMreSBQq9xSPgw=
 
 Name: res/menu/settings_menu.xml
-SHA1-Digest-Manifest: d11DNbCspZM1u7F0Dsjy02HPTe0=
+SHA1-Digest-Manifest: J4DSWLJIQtYGqcJ7OgK7OQHhve0=
 
 Name: res/layout/search_activity.xml
-SHA1-Digest-Manifest: 5AAKCJpGhUNM4FK+8SF3RzyJz4c=
+SHA1-Digest-Manifest: 4RYHUSya2gcskrAXiFZDpya9H4I=
 
 Name: res/drawable-xhdpi-v4/calname_unselected_pressed_holo_light.9.pn
  g
@@ -3167,10 +4069,10 @@ Name: res/drawable/ic_flag_guinea_bissau.png
 SHA1-Digest-Manifest: NTyF6h3hfWb+zaW3VtLySAjFccw=
 
 Name: res/drawable/calname_bottom_select_underunselected.xml
-SHA1-Digest-Manifest: Tq1atr8OwPY1XO/WnViv1Qj13IQ=
+SHA1-Digest-Manifest: v9MBj4GmmtWXlOzyKAtvdyCcNUg=
 
 Name: res/layout/color_picker_swatch.xml
-SHA1-Digest-Manifest: F2S2QX+t8fR0yqbMuCqKepKN4ik=
+SHA1-Digest-Manifest: fi1bfk/qJ2EF/T4K8A/j9JpLtO8=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_trash_holo_dark.png
 SHA1-Digest-Manifest: KNeEajeyG+Bb4MjHx3sF7JBGO3c=
@@ -3179,45 +4081,60 @@ Name: res/drawable-hdpi-v4/timeline_indicator_activated_holo_light.9.p
  ng
 SHA1-Digest-Manifest: Gx5ePXY8/NFsIUbznANuUIP2pBo=
 
+Name: res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest-Manifest: UPdEdC50+J14W+1UT2izWgCVbwc=
+
 Name: res/drawable-hdpi-v4/calname_bottom_unselected_holo_light.9.png
 SHA1-Digest-Manifest: vyGEPN7Z2rdcpyQYNG1Lpdm3BGI=
 
-Name: res/drawable/cursor_drawable.xml
-SHA1-Digest-Manifest: OWYS8iXXB56JEi2z4kiwdS2hvtE=
+Name: res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: Pno7fx+xk15Cq904cJGx3ONDKIU=
 
-Name: res/drawable/ic_flag_angola.png
-SHA1-Digest-Manifest: fvzwKX7Sc1unbr6gQFdLvV9mzkc=
+Name: res/drawable/cursor_drawable.xml
+SHA1-Digest-Manifest: 0CNq9Or5CbTPAxT5otoCr/Xo444=
 
 Name: res/drawable-hdpi-v4/list_primary_holo.9.png
 SHA1-Digest-Manifest: Q8zVkh7nedzQWxeLZMM5BqJWxv0=
+
+Name: res/drawable/ic_flag_angola.png
+SHA1-Digest-Manifest: fvzwKX7Sc1unbr6gQFdLvV9mzkc=
 
 Name: res/drawable-xxhdpi-v4/tag_new.png
 SHA1-Digest-Manifest: x4YrBryZLEarOXINYT2668LwOuk=
 
 Name: res/layout/account_calendars.xml
-SHA1-Digest-Manifest: nkCdwUN7Qy6BkP+wswxbZQCNxxU=
+SHA1-Digest-Manifest: k94Rq/fX2hD4croPFX7DiydyX2w=
 
 Name: res/drawable/ic_flag_afghanistan.png
 SHA1-Digest-Manifest: +Pz6ja5FmqTBB45HkQh/HIf8FXU=
 
 Name: res/drawable/ic_expand_holo_light.xml
-SHA1-Digest-Manifest: biL9izulnL/D/vTbCVqcsz3QAf8=
+SHA1-Digest-Manifest: a8gv3ACxCk4HrpSLxYvPc+BoaaE=
+
+Name: res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest-Manifest: riXoVDKowB8vTruZhoiXpL8vgBM=
+
+Name: res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest-Manifest: kXL/oF0Wug/Gk2tR7sFuSTOQNZU=
 
 Name: res/layout/edit_event_1.xml
-SHA1-Digest-Manifest: HOHnmK0VLemgu4LVEUiUQ9dZ308=
+SHA1-Digest-Manifest: YaJjCq/j6oqLMZ4tM6nSrzGU0b8=
 
 Name: res/drawable-xxhdpi-v19/calname_select_underunselected_pressed_h
  olo_light.9.png
 SHA1-Digest-Manifest: jo9X2igFHlzBJ8dycLRLWedkFHw=
 
-Name: res/drawable/calname_select_underselect.xml
-SHA1-Digest-Manifest: piRLWwURpG2yolVgK+cwcvPmzN8=
+Name: res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: u6oKCk3tPosG1UyBotazK/XaFiE=
 
-Name: res/anim/translate_left_out.xml
-SHA1-Digest-Manifest: 3OPAvns3Q1wk3KZtfL7CVKWM3JE=
+Name: res/drawable/calname_select_underselect.xml
+SHA1-Digest-Manifest: Cvq4bbPfW9V5vzMHW0jsA+yFfH4=
 
 Name: res/drawable-xhdpi-v4/ic_menu_cancel_holo_light.png
 SHA1-Digest-Manifest: yfxopXqPn4ScT01qsYTemWMA6nw=
+
+Name: res/anim/translate_left_out.xml
+SHA1-Digest-Manifest: ogsKa+NfRLwv2jUy7NYmgTFpSI4=
 
 Name: res/drawable-xxhdpi-v4/action_add.png
 SHA1-Digest-Manifest: lQ5XQ0FOuV19XL8LgClPka+vuto=
@@ -3225,11 +4142,17 @@ SHA1-Digest-Manifest: lQ5XQ0FOuV19XL8LgClPka+vuto=
 Name: res/drawable-xhdpi-v4/ic_menu_refresh_holo_light.png
 SHA1-Digest-Manifest: s3CTlpEyVSi5M0M6imvBquhF5hA=
 
+Name: res/layout/month_almanac_item.xml
+SHA1-Digest-Manifest: yeDtt8mkkwXsJMd/FDLBL0w4t5g=
+
 Name: res/drawable-xxhdpi-v4/ic_menu_compose_holo_light.png
 SHA1-Digest-Manifest: BFK9NodKA/lZwFnlHENtMDn2cCI=
 
 Name: res/drawable-mdpi-v4/ic_menu_today_holo_light.png
 SHA1-Digest-Manifest: go0OEwDkPTC2q94CyxzWhrzDA/k=
+
+Name: res/drawable/no_img.png
+SHA1-Digest-Manifest: Lr2Chr83L2b2ffGR8POO6AaYFsw=
 
 Name: res/drawable/ic_flag_netherlands_antilles.png
 SHA1-Digest-Manifest: U9/V6HNcutxSydejyg6dmLDnSuQ=
@@ -3240,6 +4163,12 @@ SHA1-Digest-Manifest: SkT5W6Xns2WpZFDI6PehK5nfvOg=
 Name: res/drawable/ic_flag_sudan.png
 SHA1-Digest-Manifest: kKlS/YyBLA3GIp0gniG7ynATsII=
 
+Name: res/drawable/team_image_default.jpg
+SHA1-Digest-Manifest: 7EWaI/YN0Bs7AR1I17LgMQZ8gaw=
+
+Name: res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: kgO1Lq+0xbKVs0t04hCw6yXq2IM=
+
 Name: res/drawable-hdpi-v19/switch_thumb_pressed_holo_light.9.png
 SHA1-Digest-Manifest: K3YgpyXSgJr++z61OECZhndc9kM=
 
@@ -3249,50 +4178,75 @@ SHA1-Digest-Manifest: hH+OqS5wdRb/pr9xZIgFcUar6w8=
 Name: res/drawable/sagittarius.xml
 SHA1-Digest-Manifest: hXH/GB/j9W1UyT0EQYkf3Tvi2A0=
 
+Name: res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: BlAg+VsC/CrcjZ5fDh+t22B6A9c=
+
+Name: res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest-Manifest: bP1A0rFZYlLsv+Bq0/H9Y3GTGQo=
+
 Name: res/drawable/agenda_item_bg_secondary.xml
-SHA1-Digest-Manifest: QmLir6jVREWbMGE32mVKf0+pNgQ=
+SHA1-Digest-Manifest: Eda0/WxunshmcMZvFWfhNGJa3s0=
+
+Name: res/layout/abc_screen_simple_overlay_action_mode.xml
+SHA1-Digest-Manifest: 28UT6utqZr5YurPhG77T8Hfz+GY=
 
 Name: res/drawable-xhdpi-v4/switch_thumb_disabled_holo_light.9.png
 SHA1-Digest-Manifest: ljpsvOw3MQTa68v5CQddL5JUS+A=
 
 Name: res/menu/subsion_item_detail.xml
-SHA1-Digest-Manifest: QjLL6TPgaKr5S735YT6FByVYb7A=
+SHA1-Digest-Manifest: rSfVqEmzFCLKYqAybEfihY6IUu4=
 
 Name: res/drawable-xxhdpi-v4/grid_widget_preview.png
 SHA1-Digest-Manifest: HNwaauw6K4U0YXM+SxJdhKTawyY=
 
 Name: res/drawable/selector_bt_square_subscribe.xml
-SHA1-Digest-Manifest: N4+Dd1uF8KWwuWLDFtvawS+ZmN8=
+SHA1-Digest-Manifest: CUMQngr6G6ZNzZkdobhU7qCZXjI=
 
 Name: res/layout-sw600dp-v13/agenda_fragment.xml
-SHA1-Digest-Manifest: TOBTvrAv6BxOSK7He1m9CcEdyAc=
+SHA1-Digest-Manifest: ndavXscEcrIrlorLzqDbBLyJBdk=
+
+Name: res/drawable/design_snackbar_background.xml
+SHA1-Digest-Manifest: +sxKXlgmpdcQFlR/+xf2IbUeqhg=
 
 Name: res/drawable/ic_flag_kosovo.png
 SHA1-Digest-Manifest: pu0W2JiJ5pnggj9pNkeYxJiZ4PI=
 
 Name: res/xml/calendar_settings_headers.xml
-SHA1-Digest-Manifest: TPSOt6QKia+6bHLRTDuz5mdE+zE=
+SHA1-Digest-Manifest: 1HrSrH7LU0Z8KOW1z1TnSaJTmas=
 
 Name: res/drawable-sw600dp-v13/ic_menu_trash_holo_dark.png
 SHA1-Digest-Manifest: bwzfMSuDcgBqqd4KtSOB7r4ofXE=
 
-Name: res/drawable/ic_flag_martinique.png
-SHA1-Digest-Manifest: /PDb9hTjvldo66xZALflEqeDB0Y=
-
 Name: res/drawable/ic_flag_guyana.png
 SHA1-Digest-Manifest: 5j9cWRWV/n1X61JfbvZDJolRtgg=
 
+Name: res/drawable/ic_flag_martinique.png
+SHA1-Digest-Manifest: /PDb9hTjvldo66xZALflEqeDB0Y=
+
 Name: res/layout/quick_response_item.xml
-SHA1-Digest-Manifest: mLkAiNlBDAm2TvHa6TYAzOBeKXI=
+SHA1-Digest-Manifest: Ev1lFb/r/LwelEG7CwBY9nGm6KM=
+
+Name: res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest-Manifest: xDHMRmPEtfGM1NGfHo//VXJVyVM=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest-Manifest: uRijNIASNGMyjIk2xyeMXrmixT4=
 
 Name: res/drawable-mdpi-v4/ic_menu_search_holo_light.png
 SHA1-Digest-Manifest: YWoYjrxsbNQMTscr1Ir6YVYmGFQ=
 
+Name: res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha
+ .9.png
+SHA1-Digest-Manifest: nsQuRlyDdelXmMOnrRJLopJfiKM=
+
 Name: res/layout/chips_recipient_dropdown_item.xml
-SHA1-Digest-Manifest: Z8mVMl3dL3oWDSk+vYS6Wfy2ky4=
+SHA1-Digest-Manifest: 4hNAJihE1El4zOeAYPF6WwX0cm4=
 
 Name: res/xml/appwidget_info.xml
-SHA1-Digest-Manifest: jO7LFzPphNJ+GMmZg89/ksMSsVg=
+SHA1-Digest-Manifest: oTfZH+RUwDt09BRPGFOOQEHq2u4=
+
+Name: res/layout/abc_list_menu_item_checkbox.xml
+SHA1-Digest-Manifest: Q1ptRZxSR+MYWBW4+Gq1IYf6118=
 
 Name: res/drawable-hdpi-v4/ic_menu_colorpicker_holo_dark.png
 SHA1-Digest-Manifest: Jt4Ys0CZ31mYZTclz0YWpwPqgJo=
@@ -3301,13 +4255,13 @@ Name: res/anim/le_licence_slide_bottom_in.xml
 SHA1-Digest-Manifest: omRxK3aU5WbaTl268nibAmf5+AQ=
 
 Name: res/menu/custom_edit_event_title_bar.xml
-SHA1-Digest-Manifest: 1X5Ivw/rgW4hIM7nVDv7ZzcmDPs=
+SHA1-Digest-Manifest: CIUtLHJqD5wHGe+fRXzGQo3eHnA=
 
 Name: res/layout/calendar_detail_item.xml
-SHA1-Digest-Manifest: Prdxw2MZzyyffammvNr5wliu+ZU=
+SHA1-Digest-Manifest: j/8nl2XfzZyGmmpbBaibRIZdT0M=
 
 Name: res/layout/custom_action_bar.xml
-SHA1-Digest-Manifest: Piu9RMvOF+3qyFFhNk1ygqciPWc=
+SHA1-Digest-Manifest: pNVV19X9Xj0oAAuXfypIQf+Aank=
 
 Name: res/anim/translate_to_top_in.xml
 SHA1-Digest-Manifest: m8C4dFGgkusIT3Cl7V/NgxsrtbM=
@@ -3316,22 +4270,34 @@ Name: res/drawable-xhdpi-v4/ic_clear_search_holo_light.png
 SHA1-Digest-Manifest: 35PHZggi1WM89Ol/GmUHZD8kVcc=
 
 Name: res/color/square_subscribe_button_color.xml
-SHA1-Digest-Manifest: Y6xoWH3Ow45JKG1D15qGsnoTtsY=
+SHA1-Digest-Manifest: M9xa7ByvVBR8BgG5vqXcaddDTO0=
+
+Name: res/anim/abc_fade_in.xml
+SHA1-Digest-Manifest: wE1QEZhFkLBWMw4TRtxPdsiMRtA=
 
 Name: resources.arsc
-SHA1-Digest-Manifest: BBnWm8ZkeHrvB5LjYjtJm8WxG/Y=
+SHA1-Digest-Manifest: KQS/F6pctbQ/+41nQGeyRfzvrNU=
 
 Name: res/drawable-xxhdpi-v4/ic_menu_add_event_holo_light.png
 SHA1-Digest-Manifest: mLxXWBS97sxOWyiOP1AOqx3YL5I=
 
+Name: res/color/selector_button_theme_color.xml
+SHA1-Digest-Manifest: VGqcxwTQnf+CneSwE9hsRUDFjBY=
+
 Name: res/drawable-hdpi-v4/toggle_underline_normal.9.png
 SHA1-Digest-Manifest: TNsalO0qVeqhnPsbm0LWmb4CG6w=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest-Manifest: vhbBfgHMuWSaLiblQxEqH9mcBss=
+
 Name: res/drawable/le_calendar_settings_layer_icon.xml
-SHA1-Digest-Manifest: 88XfVr+yS6RPq+77TAxfgbqlhVQ=
+SHA1-Digest-Manifest: Xb4Yj/20i6H/Yo8j4lKh3UYFCiE=
 
 Name: res/drawable-xxhdpi-v4/ic_recurrence_bubble_outline_disabled.png
 SHA1-Digest-Manifest: XT65zBj9nc/wJfCIh5kVI3HHdPA=
+
+Name: res/layout/popupwindow.xml
+SHA1-Digest-Manifest: pMC7CZHPGyGbzlPbqBe+Y+x7aOI=
 
 Name: res/drawable/shape_recommend_divider_line.xml
 SHA1-Digest-Manifest: 8lh9B3UkbQP4j9sZiDMhM2eiqvg=
@@ -3339,38 +4305,53 @@ SHA1-Digest-Manifest: 8lh9B3UkbQP4j9sZiDMhM2eiqvg=
 Name: res/drawable/ic_flag_azerbaijan.png
 SHA1-Digest-Manifest: em5aOFBHMTR//9GzCWfIx55zlzA=
 
+Name: res/layout/le_postlist_item.xml
+SHA1-Digest-Manifest: DDtEY93dT1Dmx5di6OV9fZwHoCY=
+
 Name: res/drawable-hdpi-v4/ic_allday_expand_large_holo_light.png
 SHA1-Digest-Manifest: NRqbGiJEKLrDu0czpD/myUJ+vbg=
+
+Name: res/layout/abc_screen_simple.xml
+SHA1-Digest-Manifest: PSm+pp/R9Jo3HQXexNKLkNiXn6w=
+
+Name: res/layout/abc_search_dropdown_item_icons_2line.xml
+SHA1-Digest-Manifest: FkA/aaiHMqK2aru/CxWJxkerJMs=
 
 Name: res/drawable-hdpi-v4/ic_menu_email_holo_light.png
 SHA1-Digest-Manifest: NhF3hZpJp1KXjlEyFVoq+ET5WUU=
 
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest-Manifest: iLOKwoF385humB5kq5Bq46YZBTo=
+
 Name: res/xml/other_preferences.xml
-SHA1-Digest-Manifest: kZlnHrG2EA30Hkgy5uDx0vSpdHk=
+SHA1-Digest-Manifest: I43axXaS69vLjGjWMMz+zfLMtQo=
 
 Name: res/layout/day_up_layout.xml
-SHA1-Digest-Manifest: ZKQWMxJZUere4y/orwTJQrxlkp8=
+SHA1-Digest-Manifest: sSIiHhN6RMr8DUYtAx+89a0Bs2M=
 
 Name: res/drawable/ic_flag_chad.png
 SHA1-Digest-Manifest: U4T/SdYTyuIhbk4w/1cviiN/zSI=
+
+Name: res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest-Manifest: qCddjZI8yABkWFvWCWlg+bQVD7M=
 
 Name: res/drawable/ic_flag_mozambique.png
 SHA1-Digest-Manifest: bchE9mwcjfWTPgtDGC1L1Bo+fJA=
 
 Name: res/layout/actionbar_pulldown_menu_top_button_no_date.xml
-SHA1-Digest-Manifest: qfDOkhTkwFWGe0t6xUZKMTAUZHg=
+SHA1-Digest-Manifest: KuES94QhK8XfnTZPAKAXLCjI6ZQ=
 
 Name: res/drawable/ic_flag_djibouti.png
 SHA1-Digest-Manifest: ooQlvolfblEe96ZOYwoBzQa/230=
 
 Name: res/layout/date_range_title.xml
-SHA1-Digest-Manifest: u3vo1/fnb9xIhEOnRL5P7m+o1vM=
+SHA1-Digest-Manifest: zg3oCWAV2Oh7t0a7cOg8ec5ClLo=
 
 Name: res/drawable-mdpi-v4/snooze.png
 SHA1-Digest-Manifest: w1zcMdMY/LscaAYyPBI9oBhZFkE=
 
 Name: res/layout/actionbar_pulldown_menu_top_button.xml
-SHA1-Digest-Manifest: x4zkSiK+mS0il42h939x+s0Aaz0=
+SHA1-Digest-Manifest: bvKpTkAP7bT/kASx+zudyI5r+Jw=
 
 Name: res/drawable/ic_flag_saint_helena.png
 SHA1-Digest-Manifest: tQbPNz9NFiLZtrbxXQ9ZjepzSqw=
@@ -3379,89 +4360,131 @@ Name: res/drawable/type_tran.xml
 SHA1-Digest-Manifest: P8ENhLfgEzxt2KCxt+RH6a/+nks=
 
 Name: res/layout/view_time_select.xml
-SHA1-Digest-Manifest: N5g2QQbEYPlHhcFPItI/SXB0RZU=
+SHA1-Digest-Manifest: i7E6o7mYcqkcPMYgdXrzN6caBeA=
 
 Name: res/drawable/ic_flag_italy.png
 SHA1-Digest-Manifest: EBaMX8HRduQf4+2XqsmfkVWXdpg=
 
-Name: res/drawable/bg_radiobutton_left_blue.xml
-SHA1-Digest-Manifest: i3h+W+3I8kQvGaW+c+fweN14TQE=
-
 Name: res/drawable-mdpi-v4/ic_repeat_dark.png
 SHA1-Digest-Manifest: sWDmqyX1BooGXM0+u2zMr7AxXJc=
 
-Name: res/drawable/ic_flag_gabon.png
-SHA1-Digest-Manifest: hqCS7Uu40iX+ZSxBk5VWolJBBaw=
+Name: res/drawable/bg_radiobutton_left_blue.xml
+SHA1-Digest-Manifest: 2UvJ6Gqq9a17lUyugst/quBA1qw=
 
 Name: res/drawable-sw600dp-v13/ic_menu_today_holo_light.png
 SHA1-Digest-Manifest: u/8NQdVep7xpM+/LoXXEHYbYxcM=
+
+Name: res/drawable/ic_flag_gabon.png
+SHA1-Digest-Manifest: hqCS7Uu40iX+ZSxBk5VWolJBBaw=
 
 Name: res/drawable-xhdpi-v19/calname_unselected_pressed_holo_light.9.p
  ng
 SHA1-Digest-Manifest: 6sJPZL7NL4Jj3LT9312A2j3gUYs=
 
 Name: res/layout/edit_event.xml
-SHA1-Digest-Manifest: DM9exxBUSov4viurq+wIy3sG1JA=
+SHA1-Digest-Manifest: M3iknPxyBwbJktlMQu/E0BSN8fQ=
+
+Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest-Manifest: 4CNgdraLjH84scvRJUfzItc3PbA=
 
 Name: res/drawable-hdpi-v4/cal_widget_bg.9.png
 SHA1-Digest-Manifest: Vll1DNv37vui9q7soUZXM36muAc=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest-Manifest: hzIDRiUwslqdmkKx1qepcH75XwA=
+
+Name: res/layout/stubview.xml
+SHA1-Digest-Manifest: rQwxdUqUEUfHIsqwCF9epeq2Zzs=
+
 Name: res/drawable-xxhdpi-v4/ic_colorpicker_swatch_stroke.png
 SHA1-Digest-Manifest: B0ThFuLk797/IIpDQkzWnqgsK74=
-
-Name: res/drawable-mdpi-v4/ic_menu_trash_holo_dark.png
-SHA1-Digest-Manifest: JNVdKfhUseyTcpzUQpWBKLkt+zk=
 
 Name: res/drawable-xhdpi-v4/ic_menu_today_no_date_holo_light.png
 SHA1-Digest-Manifest: 7kxsyhmw13QTZo1/tu+rGK6J6Hw=
 
+Name: res/drawable-mdpi-v4/ic_menu_trash_holo_dark.png
+SHA1-Digest-Manifest: JNVdKfhUseyTcpzUQpWBKLkt+zk=
+
 Name: res/layout/tag_detail_header_layout_vertical.xml
-SHA1-Digest-Manifest: lRYTcK8vjyCLgGx/6Bxyvi6g9PQ=
+SHA1-Digest-Manifest: 2TQlXFkHmVsLPO4DeDyZf8dy0Qc=
 
 Name: res/drawable-xxhdpi-v4/widget_event_icon.png
 SHA1-Digest-Manifest: 61Leej3hVLHEMiVMT9t2qO618NM=
 
+Name: res/drawable/type_almanac.png
+SHA1-Digest-Manifest: XKbyHAt12RyeG85CDbHG75n+8ro=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest-Manifest: YZUrUm1CKEzgPOX8u/IeftdQ45k=
+
 Name: res/layout/subsion_birthday_detail_content_item.xml
-SHA1-Digest-Manifest: 0Y0BlMQnFjqn++lLruHFkWBbeBo=
+SHA1-Digest-Manifest: qpjmzj73JHHWbgU9BrelT3YBwDQ=
+
+Name: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest-Manifest: 16vIEVXQ+k0+9qfLK8Cds0zIZCY=
 
 Name: res/drawable/shape_rounded_rectangle.xml
 SHA1-Digest-Manifest: bSBadQGV8X8ZQ5gI0gK4Gwvm4fo=
 
+Name: res/layout/commententra_thriditem.xml
+SHA1-Digest-Manifest: LSQlhVoEJWbeiyllwCaO9r+J9SA=
+
 Name: res/drawable-xhdpi-v4/ic_menu_compose_holo_dark.png
 SHA1-Digest-Manifest: UbseU7bT5ZX5muvhIQlZd8zj6Q0=
-
-Name: res/drawable/ic_flag_burundi.png
-SHA1-Digest-Manifest: GUzxxCfex6Q1P8cy627mVr3CBy0=
 
 Name: res/drawable/event_info_yes.xml
 SHA1-Digest-Manifest: cYLRsNWQVqBPtRjG6XAG5PEvIgg=
 
+Name: res/drawable/ic_flag_burundi.png
+SHA1-Digest-Manifest: GUzxxCfex6Q1P8cy627mVr3CBy0=
+
 Name: res/drawable-xxhdpi-v4/action_delete.png
 SHA1-Digest-Manifest: fyniuS5DFzu6eaSwMkL/k8ZkS2Y=
 
+Name: res/layout/abc_list_menu_item_radio.xml
+SHA1-Digest-Manifest: N1syoY8V5YfScepIz6s2sZBc+4E=
+
 Name: res/drawable/ic_launch_date_picker.xml
-SHA1-Digest-Manifest: W/pC5lw/W+kf8soAuLnKZGa3e00=
+SHA1-Digest-Manifest: k47O1XFZEwI/PBvKE1m+ppvEAZI=
+
+Name: res/layout/view_star_tab_recommend.xml
+SHA1-Digest-Manifest: sXphs/SYOj3s727U4p5ZBIthPEU=
+
+Name: res/drawable-hdpi-v4/subscribe_default_min.9.png
+SHA1-Digest-Manifest: TkHbEQwhd4P0sspZaD+JNEEDeiE=
 
 Name: res/drawable/ic_flag_mexico.png
 SHA1-Digest-Manifest: Rr2PMa59FyxVaMeJ5kjPIO4PL/4=
 
-Name: res/drawable-hdpi-v4/subscribe_default_min.9.png
-SHA1-Digest-Manifest: TkHbEQwhd4P0sspZaD+JNEEDeiE=
+Name: res/layout/commententra_fristitem.xml
+SHA1-Digest-Manifest: nlN0Dbmqh/cqnKAALEdoEtO3/rg=
 
 Name: res/drawable-xxhdpi-v4/bg_event_cal_widget_holo.9.png
 SHA1-Digest-Manifest: S+8CfZHGaB7TEW812TGXF3tkWVs=
 
 Name: res/layout/actionbar_layout.xml
-SHA1-Digest-Manifest: MKHkQrmwfSCUlbjs4e+DgJ+PIsE=
+SHA1-Digest-Manifest: RKPZcM8wCaNDxsrQZ2Z3kmBumF0=
 
 Name: res/drawable-xxhdpi-v4/recommend_load_error.9.png
 SHA1-Digest-Manifest: SYrBVonlRvVxnKJnqtiCIkYVJyc=
 
+Name: res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest-Manifest: uS4mYZTsFDb0VPZieqFZwBGzZOI=
+
 Name: res/layout/calendar_list_item.xml
-SHA1-Digest-Manifest: qOIm3wr04uX7ACyqcehDX1jZGMA=
+SHA1-Digest-Manifest: hjlxRdGArhVoJlhG7bf9FWTFr9M=
+
+Name: res/drawable/abc_list_selector_holo_light.xml
+SHA1-Digest-Manifest: Ks5BDLdoxg/NCVzObwWdl+wcNuc=
+
+Name: res/anim/inputedit_enter.xml
+SHA1-Digest-Manifest: Wu4gwJn3Gd9YACjlRIYYvCEYtIk=
 
 Name: res/drawable-mdpi-v4/ic_menu_email_holo_light.png
 SHA1-Digest-Manifest: UUyy/KXZOU83tK8grnPHqR3iGg4=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest-Manifest: A/sHIoGhqT+q4bVhK5UvlnocNIE=
 
 Name: res/drawable-xhdpi-v4/timeline_indicator_holo_light.9.png
 SHA1-Digest-Manifest: /uwz3IvxGSC4WmUwJhXIGLNZzks=
@@ -3469,43 +4492,71 @@ SHA1-Digest-Manifest: /uwz3IvxGSC4WmUwJhXIGLNZzks=
 Name: res/drawable/ic_flag_zambia.png
 SHA1-Digest-Manifest: gbkr3d7PB3PBbW9VTE4YP5CHNxo=
 
+Name: res/layout/nocomm_footer.xml
+SHA1-Digest-Manifest: hjT2jZQnE6+jW+lCnfJOvNp0dkQ=
+
+Name: res/menu/actionbar_menu.xml
+SHA1-Digest-Manifest: ysEkN2Rar/ziYOJuPReKtk/YsXg=
+
 Name: res/drawable/ic_flag_russia.png
 SHA1-Digest-Manifest: QupvZbkqxnjphVdExYkN4ZMUhwM=
+
+Name: res/drawable/comment_count_icon.xml
+SHA1-Digest-Manifest: fQpQTAVdD+RnD91zZKk8LV5Kgno=
 
 Name: res/drawable-mdpi-v4/ic_menu_add_field_holo_light.png
 SHA1-Digest-Manifest: J1xdpX0yNS17Z1p4Ps2+LshR7+I=
 
 Name: res/layout/birthday_event_info.xml
-SHA1-Digest-Manifest: gPw1+y/SpSOlQSFktFTT0NAEEgk=
+SHA1-Digest-Manifest: xKQb+DOgi/hix8eLIcKggZMEblg=
 
 Name: res/drawable-xxhdpi-v4/birthday_bk.jpeg
 SHA1-Digest-Manifest: Jdm+rw4cOmhnTPUni34uIDsSZF4=
 
+Name: res/layout/commententra_nocomm.xml
+SHA1-Digest-Manifest: onsLmvyGcs6qxSqVDNLYl0AfXGs=
+
 Name: res/drawable/ic_flag_mauritania.png
 SHA1-Digest-Manifest: 4tUQBRX2oqP3uzyXm5opLDzL0U4=
 
+Name: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest-Manifest: Iz14YLSRp9C85A2InSd7OO4Ga6U=
+
 Name: res/drawable/gradient.xml
 SHA1-Digest-Manifest: 9LasRm4K9Dg1ZP/Dk2jn6eALNRc=
+
+Name: res/menu/h5_title_bar.xml
+SHA1-Digest-Manifest: KxnveC0+evTdiPz+nD5xDpSwC94=
+
+Name: res/drawable-xhdpi-v4/ic_recurrence_bubble_disabled.png
+SHA1-Digest-Manifest: u7/bcUxXHR1xB61DGGEc7bSKvCM=
 
 Name: res/drawable-hdpi-v19/calname_unselected_pressed_holo_light.9.pn
  g
 SHA1-Digest-Manifest: 2AcmWP5Nux807iW2TKbihwfZfyQ=
 
-Name: res/drawable-xhdpi-v4/ic_recurrence_bubble_disabled.png
-SHA1-Digest-Manifest: u7/bcUxXHR1xB61DGGEc7bSKvCM=
-
 Name: res/drawable-xhdpi-v4/ic_menu_settings_holo_light.png
 SHA1-Digest-Manifest: H0iUdkUDKMyTF4Rj4MyyGXeasR4=
 
+Name: res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest-Manifest: EzduMEijP4PcSAw+0bRmQK475go=
+
 Name: res/drawable/ic_flag_belgium.png
 SHA1-Digest-Manifest: g0VHz1TkPORA73HLnc+1pGeVDTE=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9
+ .png
+SHA1-Digest-Manifest: xc8ZS/e2x39PQlMx1BJGveVjmz4=
+
+Name: res/drawable-hdpi-v4/widget_show.png
+SHA1-Digest-Manifest: xzUohrpobxbJw4FEdSHJ7tXi17A=
 
 Name: res/drawable-mdpi-v19/calname_unselected_pressed_holo_light.9.pn
  g
 SHA1-Digest-Manifest: r10D1DzuoXS2HZi9fR2IhluNk/w=
 
-Name: res/drawable-hdpi-v4/widget_show.png
-SHA1-Digest-Manifest: xzUohrpobxbJw4FEdSHJ7tXi17A=
+Name: res/drawable/almanac_ji_bk.xml
+SHA1-Digest-Manifest: X4z7UhAWYID82oOvhMXun+Mp7JY=
 
 Name: res/drawable-xhdpi-v4/calname_unselected_holo_light.9.png
 SHA1-Digest-Manifest: EL24sxB23WVhoeRv5mA+AZ6dEjg=
@@ -3518,25 +4569,31 @@ Name: res/drawable/ic_flag_swaziland.png
 SHA1-Digest-Manifest: nHM3YWJxccRTwHheg0S3f04/uzE=
 
 Name: res/layout/time_zone_filter_item.xml
-SHA1-Digest-Manifest: dcgE15k21iVp6TBT1yRxIc3c9CY=
+SHA1-Digest-Manifest: l76KnMQNqxyF+vsd0+imaaia2MA=
 
 Name: res/drawable-hdpi-v4/list_multi_left_pressed_holo.9.png
 SHA1-Digest-Manifest: dA4FJK4IViSv5eemxyw/oZWEqXo=
 
+Name: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest-Manifest: 2PLGy262CDuWvGAcqwLjzuuRvIg=
+
 Name: res/drawable/ic_flag_ghana.png
 SHA1-Digest-Manifest: 0ead26meHHdlDycvOBpY6Re0EFc=
 
+Name: res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest-Manifest: 6LMTm1InS590S2d/jvEnjLlAl54=
+
 Name: res/layout/guide_grid_item.xml
-SHA1-Digest-Manifest: KVCYu283w/wD7S75G6vBH55XY1Y=
+SHA1-Digest-Manifest: Whq2Ah1R3reHllpUqXbh/MQeT5g=
 
 Name: res/drawable-xxhdpi-v19/header_bg_cal_widget_pressed_holo.9.png
 SHA1-Digest-Manifest: 74wU6MfYAeGfCFRhIB1c4HExnMA=
 
 Name: res/layout/day_event_watch_more.xml
-SHA1-Digest-Manifest: YSFgkUAnzOcYBHfTrl/5T67uRgU=
+SHA1-Digest-Manifest: i9XVyVvxaDYqKSANuEZcu94LhkI=
 
 Name: res/layout/notification.xml
-SHA1-Digest-Manifest: 7C3j1uXM4MDZXnW4rUXCj6ST/js=
+SHA1-Digest-Manifest: ozsyIRjAtwRLcMaualdEl1F8V0I=
 
 Name: res/drawable-xxhdpi-v4/ic_recurrence_bubble_outline.png
 SHA1-Digest-Manifest: QUB4BQiNCq2ODiEHdyGUrmFbJ4k=
@@ -3545,36 +4602,54 @@ Name: res/drawable-hdpi-v4/calname_unselected_underselect_holo_light.9
  .png
 SHA1-Digest-Manifest: QIN1OXopQLYvbE33/UYpWjaTYMM=
 
+Name: res/color/abc_primary_text_material_light.xml
+SHA1-Digest-Manifest: 6hgJTj/I6cAyEKsdUr9uN3s4Vw4=
+
 Name: res/drawable/ic_flag_fiji.png
 SHA1-Digest-Manifest: fsB/4CfUogkMNuNOVejR0uNqby4=
 
 Name: res/drawable/calname_bottom_select_underselect.xml
-SHA1-Digest-Manifest: 3eCrS2e52Ijq0hluTF1uH2hM3rI=
+SHA1-Digest-Manifest: Bu9CX3Xpy7bVqgYH/0TvycH3dGY=
 
 Name: res/layout-sw600dp-v13/edit_event_single_column.xml
-SHA1-Digest-Manifest: Js1Wl62uNB/f9UdhgyMIpZsxm+k=
+SHA1-Digest-Manifest: yftH8biZVnR4KTeMutBqaUhpS4s=
+
+Name: res/drawable/bg_center_background.xml
+SHA1-Digest-Manifest: Zu/5UF++Dyxzc934H0oXEWjTKvM=
 
 Name: res/drawable/ic_flag_germany.png
 SHA1-Digest-Manifest: M183tQITdRmVpfq167CFJlX0e4s=
 
-Name: res/drawable/bg_center_background.xml
-SHA1-Digest-Manifest: bu4NoA3bgsHWTARoAIcC+trSycI=
+Name: res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest-Manifest: Odk0wSbJp0hyQ3RZGhgf+2IXqBU=
 
 Name: res/drawable-hdpi-v19/list_pressed_holo.9.png
 SHA1-Digest-Manifest: dJP7iykRlOnifOuSQYdMx8hwwZM=
 
+Name: res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest-Manifest: LPxRCCnE1IPxHuNhBESrQfIKvAY=
+
 Name: res/drawable/appwidget_header_selector.xml
-SHA1-Digest-Manifest: rMHTwolp3Pl1oFa8lFxC+C7ZwkA=
+SHA1-Digest-Manifest: Q/dNJtPjWwynlwmVBQzIn/U1cGM=
 
 Name: res/drawable/action_to_today_svg.xml
-SHA1-Digest-Manifest: +bDF8z0CsinFf5MczEdEFh1Qqvo=
+SHA1-Digest-Manifest: bei5BF2IbTolGsgmuRF0HprWObY=
+
+Name: res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest-Manifest: ExQ2JZrDDh6sD0p4CteXYbNyKU4=
+
+Name: res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest-Manifest: o79LWrpVg8mMdhT8PFdC/uVHnB4=
 
 Name: res/color/play_button_color.xml
-SHA1-Digest-Manifest: QxWYU3HJcK/I3cWD7TFDiknpb9U=
+SHA1-Digest-Manifest: RgE+dOufIDkBm6wcwUCO5Qcj3hI=
 
 Name: res/drawable-mdpi-v19/calname_unselected_underselect_pressed_hol
  o_light.9.png
 SHA1-Digest-Manifest: 7P7uPYYmcqype9ci8GjO+ZLfIIY=
+
+Name: res/layout/design_layout_snackbar_include.xml
+SHA1-Digest-Manifest: 2LJS/5bcE8NmaF02hwI9WtDBn+I=
 
 Name: res/anim/fade_in.xml
 SHA1-Digest-Manifest: HsnNnk9t7kHhtxy/wvZG5GcIX+w=

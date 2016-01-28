@@ -1,6 +1,6 @@
 {
     "errno": 10000,
-    "v": "20151211000000",
+    "v": "20151221200500",
     "apiname": "normal",
     "data": [
         {
@@ -11,7 +11,7 @@
                 "zh_hk": "LeMall",
                 "zh_tw": "LeMall"
             },
-            "url": "http://m.lemall.com/",
+            "url": "http://us.m.lemall.com/",
             "icon": "m.lemall.com.png",
             "rank": "10",
             "color": "#e13c4c",

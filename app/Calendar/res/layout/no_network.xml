@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeBlankPage leui:icon="@android:drawable/le_blank_page_no_net" leui:description="@string/no_network_info" android:id="@id/no_network_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" leui:primaryText="@string/network_setting" />
+</LinearLayout>

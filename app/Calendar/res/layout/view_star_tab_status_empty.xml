@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_empty_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_empty" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="100.0dip" android:src="@drawable/star_img_empty" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffcccccc" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/star_page_empty" android:layout_below="@id/iv_empty" android:layout_centerHorizontal="true" />
+</RelativeLayout>

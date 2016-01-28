@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#ffbbffbb" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:id="@id/text1" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/popup_textstart" />
+    <ImageView android:layout_gravity="center" android:background="#ff000000" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <TextView android:textSize="15.0sp" android:id="@id/text2" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/popup_textmid" />
+    <ImageView android:layout_gravity="center" android:background="#ff000000" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <TextView android:textSize="15.0sp" android:id="@id/text3" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/popup_textend" />
+</LinearLayout>

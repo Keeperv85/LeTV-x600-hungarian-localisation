@@ -190,6 +190,7 @@
     <item type="id" name="bottom_bar_container">false</item>
     <item type="id" name="quick_dial_edit_mode_mask_top">false</item>
     <item type="id" name="quick_dial_edit_mode_mask_bottom">false</item>
+    <item type="id" name="view">false</item>
     <item type="id" name="download_fragment">false</item>
     <item type="id" name="fragment_track_browser">false</item>
     <item type="id" name="browserdownload_selece_delete">false</item>
@@ -210,9 +211,15 @@
     <item type="id" name="filename">false</item>
     <item type="id" name="filesize">false</item>
     <item type="id" name="download_url_safe_check_view">false</item>
-    <item type="id" name="view">false</item>
     <item type="id" name="download_viewtop">false</item>
     <item type="id" name="download_open">false</item>
+    <item type="id" name="custom_icon">false</item>
+    <item type="id" name="layout">false</item>
+    <item type="id" name="tv_custom_title">false</item>
+    <item type="id" name="tv_custom_content">false</item>
+    <item type="id" name="tv_custom_percent">false</item>
+    <item type="id" name="custom_progressbar">false</item>
+    <item type="id" name="custom_click_icon">false</item>
     <item type="id" name="delete">false</item>
     <item type="id" name="layout_title_url">false</item>
     <item type="id" name="website_icon">false</item>
@@ -485,6 +492,7 @@
     <item type="id" name="btn_cn">false</item>
     <item type="id" name="btn_net">false</item>
     <item type="id" name="btn_paste">false</item>
+    <item type="id" name="message">false</item>
     <item type="id" name="video_brightness_volume">false</item>
     <item type="id" name="info_icon">false</item>
     <item type="id" name="info_text">false</item>

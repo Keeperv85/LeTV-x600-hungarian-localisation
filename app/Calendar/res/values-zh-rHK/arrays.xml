@@ -355,6 +355,9 @@
         <item>其他直播</item>
         <item>紀錄片</item>
         <item>電影</item>
+        <item>節日</item>
+        <item>生活</item>
+        <item>熱點</item>
     </string-array>
     <string-array name="timezone_rename_labels">
         <item>澳洲中部時間 - 北領地</item>

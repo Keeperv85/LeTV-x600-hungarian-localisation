@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/le_inputbox_emoji" android:visibility="gone" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/btn_chat_emoji_selector" android:scaleType="centerInside" android:layout_alignBottom="@id/le_inputbox_edittext" android:layout_alignParentLeft="true" />
+        <EditText android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/le_inputbox_edittext" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" android:maxHeight="200.0dip" android:minHeight="40.0dip" android:hint="@string/inputbox_hint" android:maxLength="150" android:layout_weight="1.0" android:textCursorDrawable="@drawable/edittext_cursor" android:fontFamily="helve-neue-nomarl" />
+        <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/le_inputbox_sendbtn" android:background="@drawable/sendbtn_bg" android:layout_width="44.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:text="@string/sendbtn_text" android:layout_alignParentTop="true" android:fontFamily="helve-neue-nomarl" />
+    </LinearLayout>
+</LinearLayout>

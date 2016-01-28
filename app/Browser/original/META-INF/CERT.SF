@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: hzmK+kbhPeUoDHw25Qa2sETnv7w=
+SHA1-Digest-Manifest: EZHcuBtv1bdzC5b/LEk4V3HlUEU=
 
 Name: assets/icon_opt/icon/www.enorth.com.cn.png
 SHA1-Digest-Manifest: 4kqM1r43DsI5Rk4fNA6ieHLjU8A=
@@ -39,7 +39,7 @@ Name: assets/icon_opt/icon/www.pclady.com.cn.png
 SHA1-Digest-Manifest: sRCFOOeRZJ9erlXLNNr7/UmmFW0=
 
 Name: res/layout/bookmarks.xml
-SHA1-Digest-Manifest: 9rqYq0Y0cMrYuN3HmCSYFBNKjc4=
+SHA1-Digest-Manifest: HoSWiOdWLRzxUPVKDkzRI/Kasb0=
 
 Name: assets/icon_opt/icon/m.hunantv.com.png
 SHA1-Digest-Manifest: UbwTpf+3/XzClIE03jFGH3o5ZPQ=
@@ -54,7 +54,10 @@ Name: assets/icon_opt/icon/www.7k7k.com.png
 SHA1-Digest-Manifest: 71F5qHpERWK+POhesqFb3tegUyU=
 
 Name: assets/home/quickdial/locale_zh_cn/data.json
-SHA1-Digest-Manifest: DJJhgndMT0j+JNBNgG/92ksYrT8=
+SHA1-Digest-Manifest: uKk5Mg4/ocaC9WLV55WVNumCWFI=
+
+Name: res/layout/menu_bar_safari.xml
+SHA1-Digest-Manifest: lBEpAwYmN5E1KL7ZESjKQP2Kx/w=
 
 Name: res/xml/bookmarkthumbnailwidget_info.xml
 SHA1-Digest-Manifest: t/MvS4sMqkbjMSump7KEm34yOBg=
@@ -83,11 +86,8 @@ SHA1-Digest-Manifest: IRKQpRKeoX4rI7Pu4IidaJxs1GE=
 Name: assets/icon_opt/icon/wap.china-sss.com.png
 SHA1-Digest-Manifest: yJluU2Cukj0S5CnHS7QMLpzqG54=
 
-Name: res/drawable-sw360dp-xxhdpi-v13/splash_portrait.png
-SHA1-Digest-Manifest: p5uQewd6NTToM3WP713DEPm+PAo=
-
 Name: res/layout/edit_bookmark_folder.xml
-SHA1-Digest-Manifest: 41wigCApDo8g9xFZhuV2USrajI4=
+SHA1-Digest-Manifest: KAokef40BGBeZVWzUn9hh1SrGzk=
 
 Name: assets/icon_opt/icon/myzaker.com.png
 SHA1-Digest-Manifest: neAcv6rNDcyYdBLyNreblNieulA=
@@ -99,7 +99,7 @@ Name: assets/icon_opt/icon/latu.3g.cn.png
 SHA1-Digest-Manifest: 807DcPNU0R+BEs2Qbl9kyU9BAF4=
 
 Name: res/layout/home_quick_dial_weather.xml
-SHA1-Digest-Manifest: Yz1OlDS51hYzCN9VoJAr719PnVI=
+SHA1-Digest-Manifest: ocnACFjzFVpSeUWG/oK8gYp37o8=
 
 Name: assets/icon_opt/icon/pedaily.cn.png
 SHA1-Digest-Manifest: az6SoacsFYMq0qrPVmjkigZjX9U=
@@ -147,13 +147,13 @@ Name: assets/icon_opt/icon/m.douguo.com.png
 SHA1-Digest-Manifest: oulRSkPlyqNQCwPO5hgLBGOk6Ro=
 
 Name: res/layout/home_most_visit_hot_website_popup_window.xml
-SHA1-Digest-Manifest: xEqeGXsIz1foWpyNsY9Voh/1/qs=
+SHA1-Digest-Manifest: 53OYIpSc8q9D9zLpEK80kj89UJM=
 
 Name: res/drawable-mdpi-v4/sina_cn.png
 SHA1-Digest-Manifest: r0yPOgwbRPvYNjzT/urdRzL397U=
 
 Name: res/layout/fragment_track_browser.xml
-SHA1-Digest-Manifest: L1z22JlpHEsBYFUTY4kmhYnY5OU=
+SHA1-Digest-Manifest: Q4NVvMj67EOe1hWbjJ3gNLx2St8=
 
 Name: assets/icon_opt/icon/www.5173.com.png
 SHA1-Digest-Manifest: u1d+ElgK33KjmxrLpsJcIuo0ZeA=
@@ -204,7 +204,7 @@ Name: assets/icon_opt/icon/map.baidu.com.png
 SHA1-Digest-Manifest: wM3myNJT80a2LGsk/VbV5QM7z8A=
 
 Name: res/layout/home_pager_title_item.xml
-SHA1-Digest-Manifest: sLkD6pDiCm/eH/F3R2xsmtulxDI=
+SHA1-Digest-Manifest: Yu3mARPVOOGv/y3rVYw/HT483e0=
 
 Name: assets/icon_opt/icon/www.amazon.cn.png
 SHA1-Digest-Manifest: ANxJ8B2du1jXx4byCONfkFeApJk=
@@ -213,7 +213,7 @@ Name: assets/icon_opt/icon/m.y.qq.com.png
 SHA1-Digest-Manifest: GXQmYs9P1XC1IZmz1ULyy2nNsfQ=
 
 Name: res/menu/historycontext.xml
-SHA1-Digest-Manifest: DLtjKGPjkSYCr7olbHfKd7PXiKI=
+SHA1-Digest-Manifest: 7mlAi5GKsYGKfjrxIM+y76SXmz0=
 
 Name: res/drawable-xxhdpi-v4/le_ic_top_widget_back.xml
 SHA1-Digest-Manifest: 0MjS92S+ObQSDmytDwWsiv6RF/g=
@@ -238,7 +238,7 @@ Name: res/drawable-xhdpi-v4/bookmarks_widget_thumb_selector_longpresse
 SHA1-Digest-Manifest: LljC2FYwx5JrITvVm1/+DGWxUVQ=
 
 Name: res/layout/add_new_bookmark.xml
-SHA1-Digest-Manifest: Phj97EUJwHRl3a1GerwnIKILvQw=
+SHA1-Digest-Manifest: nX0gFCtBy0P4O30pFUNrW37V2wo=
 
 Name: assets/icon_opt/icon/book.sina.com.cn.png
 SHA1-Digest-Manifest: yxQnDPxNw/wWgqlU2TJ9ZJ/urjU=
@@ -248,6 +248,9 @@ SHA1-Digest-Manifest: V21ojS5/Pd09/71T90KgsGMz+m8=
 
 Name: assets/icon_opt/icon/mail.aliyun.com.png
 SHA1-Digest-Manifest: 5nP8DY3w3TKbbYMX58a/7RyYxlc=
+
+Name: assets/icon_opt/icon/www.100toutiao.com.png
+SHA1-Digest-Manifest: +8RzSRg51acTowU0aEZTrXsSrns=
 
 Name: res/drawable-xxhdpi-v4/qrcode_flashlight_press.xml
 SHA1-Digest-Manifest: DKM8EKgVH4H3kHLqYbSl9ZgNDcE=
@@ -285,11 +288,11 @@ SHA1-Digest-Manifest: QaFNdNAN7Cs3MtgrCyN/miZ2e68=
 Name: assets/icon_opt/icon/m.kankan.com.png
 SHA1-Digest-Manifest: q2LC0mq6THxubfiSUj7N3EieM2A=
 
-Name: assets/icon_opt/icon/note.youdao.com.png
-SHA1-Digest-Manifest: VXyXQQgzS4OEMKVBvNm7NEW8Q5I=
-
 Name: res/drawable-mdpi-v4/ic_new_incognito_holo_dark.png
 SHA1-Digest-Manifest: XjP8cCZioLMj3T1G9obsf85/GXM=
+
+Name: assets/icon_opt/icon/note.youdao.com.png
+SHA1-Digest-Manifest: VXyXQQgzS4OEMKVBvNm7NEW8Q5I=
 
 Name: res/drawable-xxhdpi-v4/weather_city_manager_overcast.png
 SHA1-Digest-Manifest: yg+Q9p2y5vDfanP4qVSaP8eHb+0=
@@ -298,7 +301,7 @@ Name: res/drawable-mdpi-v4/ic_dialog_browser_certificate_secure.png
 SHA1-Digest-Manifest: yjAEqr3RII5LNySQc2wP3nnykjc=
 
 Name: res/drawable/le_tab_bg.xml
-SHA1-Digest-Manifest: VzjTeJepeLE3TqRweIr3d8FihIQ=
+SHA1-Digest-Manifest: wcRpl2YJmTlIlpGK0iUxoHKXF+s=
 
 Name: res/xml/debug_preferences.xml
 SHA1-Digest-Manifest: 4Oy1ijEm9xzV3zEv1lMu+XkDt3w=
@@ -307,7 +310,7 @@ Name: res/drawable-xxhdpi-v4/menu_icon_go_forward_landscape.xml
 SHA1-Digest-Manifest: txXreJU9NFs4o64+sFTF5x1+CpI=
 
 Name: res/drawable/popup_shape.xml
-SHA1-Digest-Manifest: DLRPu2X0CDkcvhZnzJxLtcf07dA=
+SHA1-Digest-Manifest: x38iD7gpvW44N5wADkv+U9wVXQI=
 
 Name: assets/home/nav_a/icon/www.quikr.com.png
 SHA1-Digest-Manifest: rvhJV1HTnWSBf2kWlrfjkFqcjZk=
@@ -376,7 +379,7 @@ Name: res/drawable/addressbar_textview_active_night_mode.xml
 SHA1-Digest-Manifest: mD52MYtHex9PqjEWlDeTLh06z7o=
 
 Name: res/drawable/le_tab_text_color_normal.xml
-SHA1-Digest-Manifest: Qn26G6uSZ+fjVm4WRzvUhluRXNE=
+SHA1-Digest-Manifest: Z8HqmwHFYOsCCJckDKsqTaIhCmM=
 
 Name: res/drawable-hdpi-v4/bookmarks_widget_thumb_selector_focused.9.p
  ng
@@ -419,10 +422,10 @@ Name: assets/icon_opt/icon/hket.com.png
 SHA1-Digest-Manifest: lvB/M3s6d4NoK+6j+BDdzlV7RIs=
 
 Name: assets/cloud_control/locale_en_us/data.json
-SHA1-Digest-Manifest: 38vyE6qqskuPIh18U3sl7DAJcJI=
+SHA1-Digest-Manifest: bkH31yPGBf22vmmF8UqX0P2E0Sw=
 
 Name: assets/home/nav_a/icon/wap.wangjiu.com.png
-SHA1-Digest-Manifest: VUU6kFr5Y4GZsz4BlEQgDsEbxR8=
+SHA1-Digest-Manifest: p23XJMWMQJhr+WjLF4lB70UvHWM=
 
 Name: res/raw/thumb_cnn.png
 SHA1-Digest-Manifest: M/mVOc5BEcdHFrBpK4Og5zJ42os=
@@ -449,6 +452,9 @@ SHA1-Digest-Manifest: 6oAoLJ9R11wlL8BQAKPig7VAvd8=
 Name: res/drawable-xxhdpi-v4/progressbar_uc.png
 SHA1-Digest-Manifest: FG/lskLDQWLumvMzuZikxBbNP8A=
 
+Name: assets/home/quickdial/icon/m.le.com.png
+SHA1-Digest-Manifest: qvH/aPRxb1s8qWfEJN1EGWPdUlQ=
+
 Name: res/anim/recents_to_launcher_enter.xml
 SHA1-Digest-Manifest: yROV4Wzb5kDbEpdfCpGhX7lLAYQ=
 
@@ -465,7 +471,10 @@ Name: assets/icon_opt/icon/m.jjwxc.com.png
 SHA1-Digest-Manifest: UjpR1I6A2MaIE0pgVL9bX1fOGio=
 
 Name: res/layout/menu_popup.xml
-SHA1-Digest-Manifest: gFosdHaY/dRWEu1iOFiGkcIPaUU=
+SHA1-Digest-Manifest: sKGs5OMyyicEZxlsZseKvaCtqX4=
+
+Name: res/drawable-sw411dp-xxxhdpi-v13/splash_portrait.jpg
+SHA1-Digest-Manifest: y28VYiV9qMgh2yQ6PcyYehj9oIw=
 
 Name: assets/icon_opt/icon/www.tiexue.net.png
 SHA1-Digest-Manifest: Hl1CAkWKe4XuKziuH/C7MzOXLeQ=
@@ -483,13 +492,13 @@ Name: res/drawable-xhdpi-v4/ic_tab_close.png
 SHA1-Digest-Manifest: GrLtPa2rr3BDWlCrJYkpBet/3Qs=
 
 Name: res/layout/webview_preview.xml
-SHA1-Digest-Manifest: N5TihCXi2pL/z1ch0tclPF1ZhXo=
+SHA1-Digest-Manifest: VyOqWUt4DpEn07hDJnQuuN4ZT48=
 
 Name: assets/search_engine/logo/ic_search_logo_duckduckgo.png
 SHA1-Digest-Manifest: vgZff0slXd+lfgLBDRzJbRiGuwI=
 
 Name: res/layout/website_settings.xml
-SHA1-Digest-Manifest: +VTh853h8Q6U0vkPDkMFrMJtojU=
+SHA1-Digest-Manifest: y2IkvVmHxafb4fkqG0WQpz1j9V4=
 
 Name: assets/icon_opt/icon/m.sohu.com.png
 SHA1-Digest-Manifest: OjxKaQLpahRBFioZC3SOPNCvDOM=
@@ -506,11 +515,14 @@ SHA1-Digest-Manifest: O/dW4L1j+nvIQNneRERI0KUmjFk=
 Name: res/drawable-hdpi-v4/bg_bookmarks_widget_holo.9.png
 SHA1-Digest-Manifest: Ty6Ts+0zKZFfSjTNFnPrMzKRABc=
 
+Name: res/drawable-xxhdpi-v4/le_cc_app_bg_normal.xml
+SHA1-Digest-Manifest: w0jZ18VSRH3t3FGLwhlxbbXFJkg=
+
 Name: res/drawable-xhdpi-v4/qc_background_normal.png
 SHA1-Digest-Manifest: Vl36zH3s23Nyr5jdbxi98yNJ37U=
 
 Name: assets/cloud_control/locale_zh_hk/data.json
-SHA1-Digest-Manifest: gWFXdtZD3i2iHpBBPhhOHjyNJ+Q=
+SHA1-Digest-Manifest: APoq2/knpQetgNokoDVyxUq72jQ=
 
 Name: assets/icon_opt/icon/twitter.com.png
 SHA1-Digest-Manifest: QJ4vZ78KZq/s9IEYZWJHMB2fEvE=
@@ -525,10 +537,10 @@ Name: assets/home/video/icon/tail.jpg
 SHA1-Digest-Manifest: NG1Nsu8Liq39wX1LIl570cFvT58=
 
 Name: res/drawable/menu_icon_add_bookmarks.xml
-SHA1-Digest-Manifest: X41u45EvSjyZ+Sjd0H1ku8HJnuY=
+SHA1-Digest-Manifest: nZiWLp2XfuQmk6txCPWCoLI/V9M=
 
 Name: res/layout-sw600dp-v13/title_bar_autologin.xml
-SHA1-Digest-Manifest: C2KZMp5cDFxCdqId2XT3e5g/KWI=
+SHA1-Digest-Manifest: fOoiuxxAlAtp3f1up/4Or4eaMuw=
 
 Name: assets/home/video/icon/movie8.jpg
 SHA1-Digest-Manifest: DhJviXdscwnB26Orht7VMRnQ58k=
@@ -603,7 +615,7 @@ Name: res/drawable-xxhdpi-v4/le_right_arrow.xml
 SHA1-Digest-Manifest: 68c1ICgbXfd4fQ43QUmeKdNnnSg=
 
 Name: res/layout/download_delete.xml
-SHA1-Digest-Manifest: p31imFpUL4jOnApju9TVyhkUwck=
+SHA1-Digest-Manifest: uSSAlIoGWAORs1RrW6ErAgevIXY=
 
 Name: assets/icon_opt/icon/www.youboy.com.png
 SHA1-Digest-Manifest: ULV/G+0SlThqfjDQgqXDt2XH/zw=
@@ -627,7 +639,7 @@ Name: assets/icon_opt/icon/www.jcrb.com.png
 SHA1-Digest-Manifest: xFVgfefkFyXF0rNDLYbuXWMlfFU=
 
 Name: res/layout/home_hot_website_popup_window_item.xml
-SHA1-Digest-Manifest: EWiKpOcnXGE8v7eUntv0QaVYlJU=
+SHA1-Digest-Manifest: PFpZRXcnb5fmO8hZOMruWrjMw3U=
 
 Name: assets/icon_opt/icon/imdb.com.png
 SHA1-Digest-Manifest: YAV46z67LC3WH5qfuPxydoQxkCY=
@@ -644,11 +656,11 @@ SHA1-Digest-Manifest: fj6hjNt6En1aasUyaXwDJnGYU1Y=
 Name: res/drawable/multi_window_view_incognito_on_bg.xml
 SHA1-Digest-Manifest: 3SILdA1o+R1uthYxeMPIqHaAkRM=
 
-Name: assets/home/video/icon/tv2.jpg
-SHA1-Digest-Manifest: rp8bQckHNZnAWoTIuXRuUS/aFTs=
-
 Name: res/drawable/custom_progressbar.xml
 SHA1-Digest-Manifest: fRd3kw3yflGqwdsfhSeYJSQS39I=
+
+Name: assets/home/video/icon/tv2.jpg
+SHA1-Digest-Manifest: rp8bQckHNZnAWoTIuXRuUS/aFTs=
 
 Name: assets/icon_opt/icon/www.cztv.com.png
 SHA1-Digest-Manifest: HB2psImO+AnJ+evJgmFQCohNwvE=
@@ -663,7 +675,7 @@ Name: assets/icon_opt/locale_en_us/data.json
 SHA1-Digest-Manifest: z4648lX9MlamrFgberx1hM7+6UY=
 
 Name: res/layout/font_size_widget.xml
-SHA1-Digest-Manifest: NZbFY2b/jgp05Tivucc8M5m+Npw=
+SHA1-Digest-Manifest: aCedRmDS8l+JcKuY9aAqU42qUTI=
 
 Name: res/drawable-hdpi-v4/geolocation_permissions_prompt_background.9
  .png
@@ -673,7 +685,7 @@ Name: res/raw/danmu_screen_crack.mp3
 SHA1-Digest-Manifest: D7iNav4TGOIE4cUIJEnnIwjglhQ=
 
 Name: res/layout/pick_bookmark.xml
-SHA1-Digest-Manifest: VfjHB00bVMaLHP16svzg8wLwFls=
+SHA1-Digest-Manifest: OXcj+8B/+HnO1h0LC8iY+S95dgg=
 
 Name: res/layout/bookmark_sync_wizard.xml
 SHA1-Digest-Manifest: aFpPKr9ypp9vvT1yMWFl+B2FlXg=
@@ -700,19 +712,19 @@ Name: assets/icon_opt/icon/www.aibang.com.png
 SHA1-Digest-Manifest: CA+WH5Jz6PJH4Miwx2AawFckGt4=
 
 Name: res/menu/bookmarkscontext.xml
-SHA1-Digest-Manifest: fnFQkluT6wJdKEiF0p9fH81EZn8=
+SHA1-Digest-Manifest: qFcMTuT8nn1YbO7J8riWKtQnoqY=
 
 Name: res/xml/lab_preferences.xml
 SHA1-Digest-Manifest: 485GYzUdkHe8XeysmvHjMSfv/Oc=
 
 Name: res/layout/video_search_box.xml
-SHA1-Digest-Manifest: 8dEv45ABrsOFwGWqQvEWm3EFP1o=
+SHA1-Digest-Manifest: qIDS9DJW8KpN8hL4LaOkXpWCeEQ=
 
 Name: res/drawable-xxhdpi-v4/menu_icon_night_mode.xml
 SHA1-Digest-Manifest: gKp/qaq/H6NfXXYQPpoP7LGblWI=
 
 Name: res/layout/home_favourite_item.xml
-SHA1-Digest-Manifest: iymexTO+a+3SueoQtrxKjSP8tUE=
+SHA1-Digest-Manifest: jlFPUK30cCz7jQsITS5WrbopDtc=
 
 Name: res/drawable-xhdpi-v4/ic_list_data_off.png
 SHA1-Digest-Manifest: P6ed05GHB6HIGofzkUcloW7Sb04=
@@ -743,7 +755,7 @@ Name: res/drawable-xhdpi-v4/magnifying_glass.png
 SHA1-Digest-Manifest: GZPpteLUSD8uPmJHEOXjV1foDCg=
 
 Name: res/layout/import_bookmarks_dialog.xml
-SHA1-Digest-Manifest: d/dlqSqMcsr7JAYBNDC2YvV98e4=
+SHA1-Digest-Manifest: friUc9rg4Z4/mHJTkujot3PoW7I=
 
 Name: res/anim/autologin_exit.xml
 SHA1-Digest-Manifest: Gd9FreDhscjcS/3UZbkUMzyzePs=
@@ -764,10 +776,10 @@ Name: res/drawable-xxhdpi-v4/le_ic_search_default.xml
 SHA1-Digest-Manifest: 7yiuIYbtaBgIr74APDwoIH/IO4M=
 
 Name: res/layout/recents_task_view_header.xml
-SHA1-Digest-Manifest: IDLCBP1Px+3YeEuzvBt864ih1pw=
+SHA1-Digest-Manifest: MJKYcRirRGH4Ir2qtsM5+Nc0rlM=
 
 Name: res/layout/http_authentication.xml
-SHA1-Digest-Manifest: T3Ea3AIRF4PE6JWmQwAup/3noeo=
+SHA1-Digest-Manifest: JVTOkYAnnMtee4sKXXb2p5PNWPM=
 
 Name: assets/icon_opt/icon/yelp.com.png
 SHA1-Digest-Manifest: dP1R8Wdm0wrlx6AcSXlesBSaDus=
@@ -803,7 +815,7 @@ Name: res/drawable-xxhdpi-v4/le_ic_favourite_swipe_delete.png
 SHA1-Digest-Manifest: DBQInfoZ5GMwqu0jq+sl5XAYg1M=
 
 Name: res/layout/geolocation_permissions_dialog.xml
-SHA1-Digest-Manifest: kSWjZlvsyaLx2kT/n2BmL5HKBWc=
+SHA1-Digest-Manifest: uiU10+v1xWH/mb0cKhLMNl7/2xI=
 
 Name: assets/icon_opt/icon/www.rottentomatoes.com.png
 SHA1-Digest-Manifest: MGrE6trdzhMRSwXZM86SGUeVemI=
@@ -824,7 +836,7 @@ Name: assets/home/video/icon/zongyi1.jpg
 SHA1-Digest-Manifest: Hxvs5TjadhGNIaLEVvr9btsbeGM=
 
 Name: res/layout/activity_video_more.xml
-SHA1-Digest-Manifest: dMr5f0JcdLocolZHxgz5GmwbxJM=
+SHA1-Digest-Manifest: xZAV4uR3YBYcpaSiXmwD6PpT3ns=
 
 Name: assets/icon_opt/icon/v.163.com.png
 SHA1-Digest-Manifest: mbr53aJX6UNKXNRiK3zpV2YYumA=
@@ -851,10 +863,10 @@ Name: res/drawable-xhdpi-v4/ic_querybuilder_pressed.png
 SHA1-Digest-Manifest: 0g+LfVOz+I6OvuK+ZIw4Upz8d+0=
 
 Name: res/drawable/video_title_background_clicked.xml
-SHA1-Digest-Manifest: Y81pa/FCBOXvfhuaD6VxvZNY4e4=
+SHA1-Digest-Manifest: AWSQGqdxUJSHrA+F5LYXcrZk9vY=
 
 Name: res/layout/history_item_with_header.xml
-SHA1-Digest-Manifest: StXRDF9tS6UMxeNkffRbQUHY1RU=
+SHA1-Digest-Manifest: 9FhIch3ygtYBS3D+VY64/LMolIQ=
 
 Name: assets/icon_opt/icon/www.yy.com.png
 SHA1-Digest-Manifest: 4gdwD8DiYqmF/6vWv279Ty2iW2k=
@@ -884,7 +896,7 @@ Name: assets/icon_opt/icon/m.qiushibaike.com.png
 SHA1-Digest-Manifest: n83kmUXQzwBhaet6r9bFuT2ZPRA=
 
 Name: res/layout-land/page_info.xml
-SHA1-Digest-Manifest: TF/SBjfbvTwfbngbZgXvqpE8MFo=
+SHA1-Digest-Manifest: vRR3yY6zMkR/GJtw4I4obIYibOg=
 
 Name: assets/icon_opt/icon/www.cnhubei.com.png
 SHA1-Digest-Manifest: CQSrp6YyHzLkAAl0vm3As6kzW0A=
@@ -904,6 +916,9 @@ SHA1-Digest-Manifest: BaXFaKsvtuTK/qJx9HfBtX864A8=
 Name: assets/icon_opt/icon/ai.m.taobao.com.png
 SHA1-Digest-Manifest: UiRc13ziQ7rlhJEAF0/4WG9zIew=
 
+Name: res/drawable-xxhdpi-v4/le_share_copy_icon.xml
+SHA1-Digest-Manifest: keUemJRZqsy7tHisGCvWtaRWDFM=
+
 Name: res/drawable-nodpi-v4/ic_search_logo_taobao.png
 SHA1-Digest-Manifest: P7MTARAt4MnHlxBJNzMFFU9XT2M=
 
@@ -917,7 +932,7 @@ Name: res/drawable-xxhdpi-v4/video_seekbar_down.png
 SHA1-Digest-Manifest: K/pENWeQ+Bnw9dCJrtBX4yOV7bc=
 
 Name: res/layout/my_video_item.xml
-SHA1-Digest-Manifest: bpIa1LAH0GvytKCa/yWUlGfTIW8=
+SHA1-Digest-Manifest: T8jgSuV8F2Fr4V3QLN4Qaz8CUwI=
 
 Name: assets/home/video/icon/ninjia.jpg
 SHA1-Digest-Manifest: xDyMHME/FjdsWMc5iK1xA3naD4k=
@@ -932,10 +947,10 @@ Name: assets/icon_opt/icon/m.qidian.com.png
 SHA1-Digest-Manifest: 9E4YeMw943uX5/f82TLBIkVOhh4=
 
 Name: assets/home/nav_a/icon/bbs.letv.com.png
-SHA1-Digest-Manifest: hw6i6S7+y1LcdZKm1rHhD57mZXc=
+SHA1-Digest-Manifest: yPw19l12oAtCo33PzKxUeYB90lY=
 
 Name: res/layout/anim_tab_view_item.xml
-SHA1-Digest-Manifest: HhrYKUuPGAibvd5UUf175dDrLts=
+SHA1-Digest-Manifest: 9p23VW49UBfhRFuzlaLnwyttU98=
 
 Name: assets/icon_opt/icon/Huffingtonpost.com.png
 SHA1-Digest-Manifest: BIqOYEitB8WcFs0jx1rG3UIuoMk=
@@ -950,7 +965,7 @@ Name: res/drawable-xxhdpi-v4/le_ic_clear.png
 SHA1-Digest-Manifest: ylhifBZJcGNrb3/ENobeyfv79n8=
 
 Name: res/drawable/corners_bg.xml
-SHA1-Digest-Manifest: us+vkP3/sCYiyTlKeQHg1lBdqwQ=
+SHA1-Digest-Manifest: 1jbDxhYdta00c9p/G8eTlXbzWbU=
 
 Name: assets/home/nav_a/icon/m.toutiao.com.png
 SHA1-Digest-Manifest: 7qKzUzK0xL0DOmOT+dlld2SXXew=
@@ -967,6 +982,9 @@ SHA1-Digest-Manifest: NHqoQPlNhpkrxqFRJ/2q65uc/18=
 
 Name: res/drawable-xxhdpi-v4/video_tiny_window_down.png
 SHA1-Digest-Manifest: QMRkpfNHCbcaKvPfskLFdU0LELk=
+
+Name: res/drawable-xxhdpi-v4/le_ic_safari_menubar_forward_clicked.xml
+SHA1-Digest-Manifest: IihAa1FNKm3lTbvBsvaBav6wEJA=
 
 Name: assets/icon_opt/icon/v.qq.com.png
 SHA1-Digest-Manifest: vMONXWeuGx/ybaCQb8RdlrjhokM=
@@ -1013,8 +1031,11 @@ SHA1-Digest-Manifest: x2vUDKxHFH9bqcCyMsXGow3d628=
 Name: res/drawable-xhdpi-v4/overlay_url_bookmark_widget_holo.9.png
 SHA1-Digest-Manifest: IcaCIH8BkhQnSqymBg1AgoJb0CQ=
 
+Name: res/drawable-xxhdpi-v4/le_ic_safari_menubar_back_clicked.xml
+SHA1-Digest-Manifest: 8RCTcrNJKKWWstKya3dSMhm0CXY=
+
 Name: res/layout/favourite_container.xml
-SHA1-Digest-Manifest: rHm9mIIEPv1JLEey+lPHye3lXzw=
+SHA1-Digest-Manifest: FVg2Ml80hpofP0RSpb8pjK/UF+I=
 
 Name: assets/icon_opt/icon/iqiyi.com.png
 SHA1-Digest-Manifest: RpC5DIYGUyV9PLo3hhBv2RJqUhk=
@@ -1026,7 +1047,7 @@ Name: assets/icon_opt/icon/www.huangye88.com.png
 SHA1-Digest-Manifest: G9DtnLobnNSF4BkpFK4SHd53XvU=
 
 Name: res/layout/video_title_layout.xml
-SHA1-Digest-Manifest: bDLJdehmoVPJopZrWvuyqJrh744=
+SHA1-Digest-Manifest: rDCxG8wr1lYmYvvpsZthwGsgN6o=
 
 Name: assets/icon_opt/icon/www.jstv.com.png
 SHA1-Digest-Manifest: sRra/teo4z7vmldG5lXSZU4tMaI=
@@ -1035,7 +1056,7 @@ Name: assets/icon_opt/icon/wangwang.taobao.com.png
 SHA1-Digest-Manifest: SI/TsQf1HwTF9/9QvrIc1ok7SCY=
 
 Name: res/layout/multi_window_bottom_bar.xml
-SHA1-Digest-Manifest: +qZ9lr4kBgzM7qRHsPiK6F8+8PY=
+SHA1-Digest-Manifest: WNXpY37jJtlwxjF1e2FBXu7CuBQ=
 
 Name: assets/icon_opt/icon/www.flipkart.com.png
 SHA1-Digest-Manifest: C9tKqEMsTy6ZhvO9dB62ua5yX6g=
@@ -1119,7 +1140,7 @@ Name: assets/icon_opt/icon/answers.com.png
 SHA1-Digest-Manifest: XgD5XNu0GLJM4C8usPE8aAepjk8=
 
 Name: res/layout/qc_tab.xml
-SHA1-Digest-Manifest: wccXryLxjEptxKMZDJUu3j1HoZo=
+SHA1-Digest-Manifest: ZK66wPM4wZa7222Df5Cg77dqsXU=
 
 Name: res/drawable-xxhdpi-v4/weather_city_manager_sand_storm.png
 SHA1-Digest-Manifest: lYZJ8ZH4u3GGNvUsxMW9Jc1TWgQ=
@@ -1136,20 +1157,20 @@ SHA1-Digest-Manifest: Km8CMByspfIM6v4OWDwjz6mMlkU=
 Name: res/drawable-xhdpi-v4/browsertab_add_focused.png
 SHA1-Digest-Manifest: Ibc+B4xqJ9vpUUBfvWjLBhFO1kY=
 
-Name: assets/icon_opt/icon/haodou.com.png
-SHA1-Digest-Manifest: D91yxIbOE1w3C47TdHfb9bMZzcA=
-
 Name: res/drawable-xhdpi-v4/baidu_sylogo1.png
 SHA1-Digest-Manifest: UnUJYMBN464+cMXfpSG/5mbkstA=
+
+Name: assets/icon_opt/icon/haodou.com.png
+SHA1-Digest-Manifest: D91yxIbOE1w3C47TdHfb9bMZzcA=
 
 Name: res/drawable/adblock_toast_icon.xml
 SHA1-Digest-Manifest: ti6/cq6lgykf04tyNBGSTgg2M9c=
 
-Name: assets/home/nav_a/icon/m.gamer.com.tw.png
-SHA1-Digest-Manifest: 4r+eVPNSyh2iBKD3IDq7i6Jwt+s=
-
 Name: assets/icon_opt/icon/bbs.sina.com.cn.png
 SHA1-Digest-Manifest: xDfU0nnpwUhPWnsFtHU8v+ztUN8=
+
+Name: assets/home/nav_a/icon/m.gamer.com.tw.png
+SHA1-Digest-Manifest: 4r+eVPNSyh2iBKD3IDq7i6Jwt+s=
 
 Name: assets/icon_opt/icon/yes-news.com.png
 SHA1-Digest-Manifest: PStbfhZLQ2fJNYnSx+9y2CJxaDA=
@@ -1158,13 +1179,16 @@ Name: assets/icon_opt/icon/bing.com.png
 SHA1-Digest-Manifest: wPsJBZqBmBr1DbeEEEvU6pYghdQ=
 
 Name: res/layout/page_wrapper_container.xml
-SHA1-Digest-Manifest: nwKe4T/2IMTv4/TogA0RfSSXtrc=
+SHA1-Digest-Manifest: MvDv8ULsX28dWuVpx+H1ejKOKSo=
 
 Name: assets/icon_opt/icon/allrecipes.com.png
 SHA1-Digest-Manifest: AP61yLVOYJje1WoJikyvpWWUm7A=
 
+Name: res/layout/use_current_page_prompt.xml
+SHA1-Digest-Manifest: wZr4q12Z4skPFjjhR50PEntMsCY=
+
 Name: res/layout/layout_downloading_item.xml
-SHA1-Digest-Manifest: vSz4wYiya9J2VbmHaE7rMvEUTMY=
+SHA1-Digest-Manifest: zS2fxrCrhWxF2xuqGaLFrmdqsa8=
 
 Name: assets/home/quickdial/icon/craigslist.org.png
 SHA1-Digest-Manifest: To8MXpRERiIZ6bYoVEUUSzsA5P8=
@@ -1179,7 +1203,7 @@ Name: assets/search_engine/logo/ic_search_logo_google.png
 SHA1-Digest-Manifest: ztk6bWvXffsSeMzqIGAzfCNr4jM=
 
 Name: res/layout/history_item.xml
-SHA1-Digest-Manifest: gnXO4WK09IPsDTHsFGjiYAn4Ku8=
+SHA1-Digest-Manifest: +bDGhKhnfydro2LfR0pSoy1DjBg=
 
 Name: res/drawable-xhdpi-v4/ic_home_holo_dark.png
 SHA1-Digest-Manifest: qY3AEl7gWh5tmSCOmEeJj86DSF4=
@@ -1206,7 +1230,7 @@ Name: assets/icon_opt/icon/auto.sina.com.cn.png
 SHA1-Digest-Manifest: UWP+d86ilE6VPJnqVz91USqYCH8=
 
 Name: res/layout/home_nav.xml
-SHA1-Digest-Manifest: 1La/xLpiB2YmqsSkNfLHZuFAor4=
+SHA1-Digest-Manifest: V8pxFnnjaRmIAqYbaTR780K4Mb0=
 
 Name: assets/icon_opt/icon/xinhuanet.com.png
 SHA1-Digest-Manifest: fEEg8RxsbRAx/jgKS+386E3LOY8=
@@ -1269,13 +1293,13 @@ Name: res/raw/thumb_twitter.png
 SHA1-Digest-Manifest: Gcna14M77Zk6BCVYfDdOJydAIys=
 
 Name: res/menu-sw600dp-v13/history.xml
-SHA1-Digest-Manifest: h0RGiPZHq5LpjBetcXl++jJ8kKE=
+SHA1-Digest-Manifest: +7HvcZ1dmxOLRSrUBpLHZ0yKwzc=
 
 Name: res/drawable-xxhdpi-v4/share_logo_top_layer_in_screen_gold.png
 SHA1-Digest-Manifest: frLyvVe/X/TtVKS7EPlV4CZI0tY=
 
 Name: res/layout/home_guide_item.xml
-SHA1-Digest-Manifest: sMJULgTjIB2z+bYfJYibiXYVoc0=
+SHA1-Digest-Manifest: dLX51SuDoQncw0Y79B5qa6mG+NE=
 
 Name: assets/icon_opt/icon/gigacircle.com.png
 SHA1-Digest-Manifest: DEAMNiBLab5V+K61s4tGvV+1BZA=
@@ -1296,7 +1320,7 @@ Name: res/drawable-mdpi-v4/ic_list_data_small.png
 SHA1-Digest-Manifest: EjUwKQ0j+BgBhjd39eeXSY1/PW0=
 
 Name: res/layout/suggestion_item.xml
-SHA1-Digest-Manifest: AOwmN2ZDiSZYkDCFrtoWJQTR9ZI=
+SHA1-Digest-Manifest: Xee8mL5HkxmBMgfnkUFIU+PYzqw=
 
 Name: assets/icon_opt/icon/www.guokr.com.png
 SHA1-Digest-Manifest: TbCf83aIRXjkCXJ/pQblyaqLEhk=
@@ -1338,7 +1362,7 @@ Name: assets/icon_opt/icon/www.xiaojukeji.com.png
 SHA1-Digest-Manifest: 21UNEl3nha0sAw45TJhWYYz9vFA=
 
 Name: res/layout/network_line_view.xml
-SHA1-Digest-Manifest: NOFcemqFwlBKkeBuHuPmeBPuQzI=
+SHA1-Digest-Manifest: PhPHq+IhwivVrzJnuT+64swLKVs=
 
 Name: assets/home/nav_a/icon/www.cathaypacific.com.png
 SHA1-Digest-Manifest: Xeb31+sP6dowEAbH+2srfMoE+Ig=
@@ -1374,7 +1398,7 @@ Name: assets/icon_opt/icon/memehk.com.png
 SHA1-Digest-Manifest: xkX63Yhjy8rhzXXKpNxWuPGIL/M=
 
 Name: res/drawable/menu_window_item_selector.xml
-SHA1-Digest-Manifest: NWL4Pko3zMflb9Ik+DmtOg327Xg=
+SHA1-Digest-Manifest: 1hfxXp9xX+bTIGg4xfXv8qmkflA=
 
 Name: res/anim/push_up_out.xml
 SHA1-Digest-Manifest: PM9MUZr+wlf4JwzrLz5nrLd/WOM=
@@ -1406,8 +1430,8 @@ SHA1-Digest-Manifest: ackOJr1JVXxlC+Ui6HOE+XjlPTU=
 Name: res/drawable-xxhdpi-v4/le_ic_copy_url.png
 SHA1-Digest-Manifest: P3XGVH1sJ/bbS8napRruCKivFjM=
 
-Name: assets/home/quickdial/icon/in.m.lemall.com.png
-SHA1-Digest-Manifest: M8znleemxMTb961cNfXVXmPDrvk=
+Name: res/drawable-xxhdpi-v4/menu_safari_icon_bg_night.xml
+SHA1-Digest-Manifest: 3EDVQFnQxr3aCf4stgcXT03IaVU=
 
 Name: assets/icon_opt/icon/www.apple.com.png
 SHA1-Digest-Manifest: N4EBlxkzI72dakfZmRB2fNi+nmg=
@@ -1437,7 +1461,7 @@ Name: res/layout/bookmarkthumbnailwidget.xml
 SHA1-Digest-Manifest: SbRDRV523VYFv6uD/Uvmn0TMmXY=
 
 Name: res/layout/text_preferences.xml
-SHA1-Digest-Manifest: pE4iblxr1B0tdbunjoWiZ2KNaYA=
+SHA1-Digest-Manifest: HoM0FajMth+ILyZgMNzAdc4LINo=
 
 Name: res/drawable-xxhdpi-v4/video_dlna.png
 SHA1-Digest-Manifest: sSquVIZBiIBEem5+0ZmsUNSk7v8=
@@ -1452,7 +1476,7 @@ Name: assets/home/video/icon/dadyback.jpg
 SHA1-Digest-Manifest: XuK/gtUlPT8TrrSkCKSozG53Rl8=
 
 Name: res/layout/search_history_item_footer.xml
-SHA1-Digest-Manifest: p5nNz5X/OXHGDHzjrAQG/lTj15s=
+SHA1-Digest-Manifest: cm/uFY4sU62hCOyuOyZF4cOiQCQ=
 
 Name: assets/icon_opt/icon/wap.lotour.com.png
 SHA1-Digest-Manifest: gSmOeWFer36IjShdDmZ+hXRlo0A=
@@ -1520,9 +1544,6 @@ SHA1-Digest-Manifest: 6fA9E2bKmv2k88fLsdRdZIpmcxk=
 Name: res/drawable-nodpi-v4/bg_browsertabs.png
 SHA1-Digest-Manifest: gSqrRPd0zcB24zvZe4wYCj7mve8=
 
-Name: res/drawable-sw392dp-xxhdpi-v13/splash_portrait.png
-SHA1-Digest-Manifest: BgO7tvwmI+hQzGvYn55oadsd+Es=
-
 Name: assets/icon_opt/icon/chuangshi.qq.com.png
 SHA1-Digest-Manifest: 3xCKDa3wmtZ52mh6u9yWtaKtSZw=
 
@@ -1557,7 +1578,7 @@ Name: assets/error/loaderror.html
 SHA1-Digest-Manifest: xeq0KcPFph5ZP+nYSgNwtaLTPV0=
 
 Name: res/layout/title_bar_autologin.xml
-SHA1-Digest-Manifest: gBuOXjt+grSMfi9Nz3AhjkOvzpA=
+SHA1-Digest-Manifest: MgyJsJ9nesB0+6o1gdQMYNaC9Mk=
 
 Name: res/drawable-xxhdpi-v4/menu_icon_go_forward.xml
 SHA1-Digest-Manifest: tcjNmARJrvvQ/I1shfw4Nvat4v8=
@@ -1600,7 +1621,7 @@ Name: res/drawable-xxhdpi-v4/videomore_home.xml
 SHA1-Digest-Manifest: zNhkRxPfL/SCuf2BL5AghwypFMQ=
 
 Name: res/menu/url_selection.xml
-SHA1-Digest-Manifest: /B+Ipy4OG/CEUM95ew4bU7cNAKY=
+SHA1-Digest-Manifest: smhPcoM4KHpJ5kOcAFqKF271NfM=
 
 Name: assets/home/video/icon/wheredady2.jpg
 SHA1-Digest-Manifest: gBxdX1bQqqrqJQrSBsd2DAs0EW4=
@@ -1609,7 +1630,7 @@ Name: res/drawable-xhdpi-v4/qrcode_scan.png
 SHA1-Digest-Manifest: 4/u7DGDMbP64/OTxC2sG2SAHKy0=
 
 Name: res/layout/fragment_download_list.xml
-SHA1-Digest-Manifest: Tend7NIFtfrtrVuJfBJ/WZzwS7w=
+SHA1-Digest-Manifest: ICefjurxDIVFjyPQ/RWrlRZdZec=
 
 Name: res/anim/recent_appear.xml
 SHA1-Digest-Manifest: EfReNrJ0gSe82OxMFmVHWyXEuP8=
@@ -1624,7 +1645,7 @@ Name: res/drawable/clear.xml
 SHA1-Digest-Manifest: 6in1FvbKFPuWV34u7fUGtER/uVk=
 
 Name: res/layout/recents_task_view.xml
-SHA1-Digest-Manifest: 7bVw7VhYmVp5JnY3LUNixkJcJuk=
+SHA1-Digest-Manifest: 13LNUThEIfhiyFIXcDhBlYYaok4=
 
 Name: assets/icon_opt/icon/stumbleupon.com.png
 SHA1-Digest-Manifest: CTWRWXiDMoRi33nsL1MYwWRBkUY=
@@ -1646,6 +1667,9 @@ SHA1-Digest-Manifest: NQlBCEL206iN9CVjZOWuwEgBQcE=
 
 Name: assets/icon_opt/icon/wikia.com.png
 SHA1-Digest-Manifest: 5VT5Rl0/eMFuW8hTsl6L2sXkl4s=
+
+Name: res/drawable-sw392dp-xxhdpi-v13/splash_portrait.jpg
+SHA1-Digest-Manifest: 79P0wy0lv+P1TZmINxZVhhppq+w=
 
 Name: assets/icon_opt/icon/www.changjiangtimes.com.png
 SHA1-Digest-Manifest: 7pha+Gj0eDsrF7cITW8qeuRrFwk=
@@ -1723,7 +1747,7 @@ Name: assets/icon_opt/icon/m.pptv.com.png
 SHA1-Digest-Manifest: xYb8FqD2Yxg9lSgV7T2ib45O+f8=
 
 Name: res/layout/home_quick_dial_item.xml
-SHA1-Digest-Manifest: zqB6c6Mp36TjeCY6d8I5u8bb3Bc=
+SHA1-Digest-Manifest: bxjohRlscLLMMEgT86FE1X/2G7M=
 
 Name: assets/icon_opt/icon/espncricinfo.com.png
 SHA1-Digest-Manifest: rP4Oe8RWs9iBrNHzT+rDousKte4=
@@ -1738,7 +1762,7 @@ Name: assets/bookmark/carrier_presets/cmcc/CMCC.json
 SHA1-Digest-Manifest: yyh69w3J5Bg0vo2/2lWlQO6tqSM=
 
 Name: res/layout/setup_autofill_dialog.xml
-SHA1-Digest-Manifest: c93bQYQMI97xa4gZ3QQ7qDQVkLg=
+SHA1-Digest-Manifest: tBVklLH9JxO5bGeRAeJuvDhPvhI=
 
 Name: res/anim/autologin_enter.xml
 SHA1-Digest-Manifest: Xz1jZDb1mcgfmAw4NfGVPELOuGA=
@@ -1813,7 +1837,7 @@ Name: res/drawable-xhdpi-v4/browsertab_add.png
 SHA1-Digest-Manifest: GIWteNNNPAb0+9npM4GIkRzcUrg=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: HbdYb3U63z7bKyA0StByC7TK+Eo=
+SHA1-Digest-Manifest: +ShRi0M7LQApBIMVe56Ok2A68WY=
 
 Name: res/drawable/recents_task_view_header_bg_color.xml
 SHA1-Digest-Manifest: 5CMmn4A++MO2BpVbsz2FDWlVgjw=
@@ -1882,7 +1906,7 @@ Name: assets/icon_opt/icon/v.dopool.com.png
 SHA1-Digest-Manifest: 0Ma6K1iUXLgzsi0IzDDGonr+bDA=
 
 Name: res/layout/search_history_suggestion_item.xml
-SHA1-Digest-Manifest: PDV4i1z+3jd0PNpoaS3nAQdnGZo=
+SHA1-Digest-Manifest: gLYUQu7MhX/NLoWTARB8XUvOqyE=
 
 Name: res/drawable-xxhdpi-v4/download_music.xml
 SHA1-Digest-Manifest: LlZWyUUau/8s+Kj6/3lVXX1oSwk=
@@ -1934,7 +1958,7 @@ Name: assets/icon_opt/icon/9gag.com.png
 SHA1-Digest-Manifest: WtgOmDKz7xRk2IjMncfJzIMvpxU=
 
 Name: res/layout/url_assist.xml
-SHA1-Digest-Manifest: cfwztITCsXmclFANWjd8Q/JeKGc=
+SHA1-Digest-Manifest: m2p4/8tq+tFQgrjrxcF54gkZDg4=
 
 Name: res/drawable-xhdpi-v4/bookmarks_widget_thumb_selector_pressed.9.
  png
@@ -2021,6 +2045,9 @@ SHA1-Digest-Manifest: xAnLnyqg574UCnjW0oWoM6xpLbA=
 Name: assets/home/video/icon/movie4.jpg
 SHA1-Digest-Manifest: E4mrQmwPUrimJ5YZnY2xbZrdYcY=
 
+Name: res/drawable-xxhdpi-v4/menu_safari_icon_bg_normal_active.xml
+SHA1-Digest-Manifest: yJmRy8sg35CIA4+G42c6Ui/J8pA=
+
 Name: assets/icon_opt/icon/mail.wo.cn.png
 SHA1-Digest-Manifest: cTtxL9glzndJvEVUeRHQiEMOIsU=
 
@@ -2040,13 +2067,13 @@ Name: res/anim/recents_launch_next_affiliated_task_source.xml
 SHA1-Digest-Manifest: EEK/AtMXMB/Xra4LHLwT47aoO2Y=
 
 Name: res/layout/history.xml
-SHA1-Digest-Manifest: NF5ejsJGx7U6Knjbt1K/AIbgKGM=
+SHA1-Digest-Manifest: 73p7INcziY7LRnDipVH6aqBpe4A=
 
 Name: res/drawable-xhdpi-v4/qrcode_corner_top_right.png
 SHA1-Digest-Manifest: PPghSJdEGBrtppf6kisqHOge4M0=
 
 Name: res/layout/network_test_info.xml
-SHA1-Digest-Manifest: NjL3rIgFQ6zYdviy2JFl85GzZ/s=
+SHA1-Digest-Manifest: ratfCw4JF+LtjXH+8JQPEAXgGI4=
 
 Name: assets/search_engine/icon/le_ic_search_baidu.png
 SHA1-Digest-Manifest: NfjpQL5Koxt6xDR1Q/nAvcO9ixI=
@@ -2145,7 +2172,7 @@ Name: assets/icon_opt/icon/www.e23.cn.png
 SHA1-Digest-Manifest: Hz69OuLBK8JA/9rUxMsuLwLJ6eA=
 
 Name: res/layout/home_page.xml
-SHA1-Digest-Manifest: tKqPtYsg5cXPww5uRftDA6s+ZUo=
+SHA1-Digest-Manifest: 6xdKGFe2DlqJVk0MmWZWrotAIQc=
 
 Name: assets/icon_opt/icon/www.imanhua.com.png
 SHA1-Digest-Manifest: gGYzASZHzaBj8ubcgNNztO/eGJE=
@@ -2175,7 +2202,7 @@ Name: assets/home/quickdial/icon/sina.cn.png
 SHA1-Digest-Manifest: dYGBQao3fO82Kws3I3HfjC8pcDA=
 
 Name: res/layout/myvideo.xml
-SHA1-Digest-Manifest: rI9S+BlsrnPG/L/QAPg/+aq2Oog=
+SHA1-Digest-Manifest: e8LY5GJqqKGO+MX0F1gvzEaVdyI=
 
 Name: assets/search_engine/logo/ic_search_logo_amazon.png
 SHA1-Digest-Manifest: rwZDRbfs9/o3p9uKJBE8bjzM43A=
@@ -2196,7 +2223,7 @@ Name: assets/icon_opt/icon/www.csdn.net.png
 SHA1-Digest-Manifest: inQR7M5yj2YQcXB2cB8CL8LcssI=
 
 Name: assets/javascript/night_mode_360.css
-SHA1-Digest-Manifest: jAt9Knbet3bTqHLpfPax2p3XkFk=
+SHA1-Digest-Manifest: eOuT3b8VfO5IiT7eLsB6dBxC2cI=
 
 Name: assets/icon_opt/icon/military.china.com.png
 SHA1-Digest-Manifest: 4XyPhKLT/mKO6OozVR4Qh7zaPJM=
@@ -2211,7 +2238,7 @@ Name: assets/home/video/icon/tv6.jpg
 SHA1-Digest-Manifest: 1TvhXqrNs1s2jj86cZmS5yEnwZA=
 
 Name: res/drawable/video_title_background_clicked_night.xml
-SHA1-Digest-Manifest: XWdhWopXumTO75E52wC3jn8FexM=
+SHA1-Digest-Manifest: ssquXHKab582NjiR9J1d4RO/WWE=
 
 Name: assets/icon_opt/icon/m.xiachufang.com.png
 SHA1-Digest-Manifest: J4GvpIrraheZ69d63YPw5XJWyxU=
@@ -2247,7 +2274,7 @@ Name: assets/icon_opt/icon/www.voc.com.cn.png
 SHA1-Digest-Manifest: 5ShG874Du+wOn66lfU9rJyeeEJ4=
 
 Name: res/drawable/recents_dismiss_light.xml
-SHA1-Digest-Manifest: C3rXGTn7ZgEKzI16C752nf1nt8U=
+SHA1-Digest-Manifest: m4deTtTB5gIm0sM3p/NcYzmlp44=
 
 Name: res/drawable-xxhdpi-v4/weather_city_manager_small_snow.png
 SHA1-Digest-Manifest: XP7mig/NtheoRHpmMGPCV01aD2w=
@@ -2256,7 +2283,7 @@ Name: res/drawable-xhdpi-v4/qrcode_corner_bottom_right.png
 SHA1-Digest-Manifest: ox+tbU8qd7ZbpAQYUFLtTpcXkuI=
 
 Name: res/layout/address_bar_landscape_part_right.xml
-SHA1-Digest-Manifest: YGSIFMFY6kHpBnrZPhBOb+K7ncc=
+SHA1-Digest-Manifest: oWFaKu3ndxd7bMBtT0pojK1xI4s=
 
 Name: res/drawable-xxhdpi-v4/download_selete_save_path_edit_night.xml
 SHA1-Digest-Manifest: O1JpTMdkFb5W/50vcWg3XcMGwg0=
@@ -2289,7 +2316,7 @@ Name: assets/icon_opt/icon/www.rayli.com.cn.png
 SHA1-Digest-Manifest: AWMl4gEuH54stjpddvA6ag+QYVY=
 
 Name: res/drawable/custom_seekbar.xml
-SHA1-Digest-Manifest: /UULzDxqfJcuW+X1fBvrWVF6qV0=
+SHA1-Digest-Manifest: WqRe52WE25dEbh9xKPZXllmejSc=
 
 Name: res/drawable-xxhdpi-v4/le_ic_download_video.png
 SHA1-Digest-Manifest: VYf8UqE9RAPHGxk2/al0/CbKAfw=
@@ -2307,13 +2334,13 @@ Name: res/raw/thumb_bbc.png
 SHA1-Digest-Manifest: yw2Xy/nEZjZ5Isws3cbO2Lmb/58=
 
 Name: res/layout/search_activity.xml
-SHA1-Digest-Manifest: rNGrgDsULstKkmRqA/u50RqOcSY=
+SHA1-Digest-Manifest: UfERlc3nh2dr4OPtlHX5H0/rmyA=
 
 Name: assets/search_engine/icon/le_ic_search_amazon.png
 SHA1-Digest-Manifest: LIWvS6MOleNE2Gje3VbmvBr9lA0=
 
 Name: res/layout/bookmarkthumbnailwidget_item.xml
-SHA1-Digest-Manifest: QkAdOd4CQOd0uj/SoCaZ8V4TU+U=
+SHA1-Digest-Manifest: ol7wi3LhonPBhIlc4jhxBXPE56k=
 
 Name: assets/icon_opt/icon/www.linkedin.com.png
 SHA1-Digest-Manifest: vCcRwoY3sHITHImb8bkcN2b/OXI=
@@ -2337,16 +2364,16 @@ Name: assets/icon_opt/icon/meiyou.com.png
 SHA1-Digest-Manifest: eM1+zC9oq4YvJKDCoweNO887USQ=
 
 Name: res/layout/qc_tabs_view.xml
-SHA1-Digest-Manifest: IFPxonFP8xGC97RuX26ik/In4co=
+SHA1-Digest-Manifest: lkkC4Wey/E7U/ZaFiK72DSpW2yo=
 
 Name: res/layout/activity_test_download.xml
-SHA1-Digest-Manifest: OBaNABLO9ascIj6qQqDb8B/6Cww=
+SHA1-Digest-Manifest: GGOEoZ9ek5qbKsRsHd9h5BodCIk=
 
 Name: res/drawable-mdpi-v4/browser_thumbnail.png
 SHA1-Digest-Manifest: IWUJ5J3Otz7nEwmqQ3Xme/3eLPI=
 
 Name: res/layout/le_tab_bar.xml
-SHA1-Digest-Manifest: jhsV5/sgzOOZpvDINNMlPc2RFcY=
+SHA1-Digest-Manifest: ULpSLWR+qeItsMfYyEKI8AX2J/o=
 
 Name: assets/icon_opt/icon/3g.baihe.com.png
 SHA1-Digest-Manifest: PtKGuU/KBh4pdAeqLIpjhOx00lU=
@@ -2365,9 +2392,6 @@ SHA1-Digest-Manifest: mIkBi+7b11rDywMCeZ37PHkA85M=
 
 Name: res/drawable-xxhdpi-v4/qrcode_flashlight.xml
 SHA1-Digest-Manifest: vzdIQT5m4FNTmOY9axHyHEsiP9o=
-
-Name: res/drawable-sw360dp-xxxhdpi-v13/splash_portrait.png
-SHA1-Digest-Manifest: oYkPZv/rieaKuaJMWvcHvD30pQg=
 
 Name: res/drawable-hdpi-v4/sina_cn.png
 SHA1-Digest-Manifest: LHqTO+W0IHsJegLr8QyCEH7SPFg=
@@ -2388,7 +2412,7 @@ Name: assets/icon_opt/icon/wap.cnki.net.png
 SHA1-Digest-Manifest: WFI3O5ynKrWwP1WAGh1Gad3tCKk=
 
 Name: res/layout/multiwindow_tab_screen.xml
-SHA1-Digest-Manifest: 7phbjwXJ3xv/52UQQUSL1Gep978=
+SHA1-Digest-Manifest: 7pi2Zj/ehpPrHCXbWSXP6slyBmo=
 
 Name: res/layout/add_to_option.xml
 SHA1-Digest-Manifest: 3Q9Ih+u34MtwPiTgeEnpogcADTo=
@@ -2424,7 +2448,7 @@ Name: res/drawable-xxhdpi-v4/weather_city_manager_snow_shower.png
 SHA1-Digest-Manifest: G2pAWcTn8iN0CUkha/g17zPXXOo=
 
 Name: assets/cloud_control/locale_hi_in/data.json
-SHA1-Digest-Manifest: oc6fVqHQhPOi4uiGUY8O90XrX0A=
+SHA1-Digest-Manifest: yhb/skQGFvC06XnXftmMBigPYDA=
 
 Name: assets/icon_opt/icon/www.soku.com.png
 SHA1-Digest-Manifest: TJ0g2iog7ly6C7OBqGAtnNpdJ2Y=
@@ -2454,7 +2478,7 @@ Name: assets/icon_opt/icon/auto.hexun.com.png
 SHA1-Digest-Manifest: pY6FKPvAyDNpTNVP78MzrSKjCxk=
 
 Name: res/layout/track_list_item.xml
-SHA1-Digest-Manifest: iXpAQneJbXbgPPaJlOKg73E7ti4=
+SHA1-Digest-Manifest: +otFt1avsT8fpyfs4IturljvNrI=
 
 Name: assets/icon_opt/icon/www.gamersky.com.png
 SHA1-Digest-Manifest: RQSLW8MtEbUHDtY1VWd1HdkwTcs=
@@ -2472,7 +2496,7 @@ Name: assets/icon_opt/icon/www.mumayi.com.png
 SHA1-Digest-Manifest: dur/UhZO0vX79CliYE8782kef84=
 
 Name: res/layout-sw600dp-v13/history.xml
-SHA1-Digest-Manifest: fb0ObJzOFCCmM+G/aMr+B1jgnXE=
+SHA1-Digest-Manifest: YEcfb6LJSsGZ8gJmI4m1UvE2bWo=
 
 Name: assets/icon_opt/icon/travel.sina.com.cn.png
 SHA1-Digest-Manifest: nUwO6QA2NljmN+tOjC29tUYVwy4=
@@ -2482,6 +2506,9 @@ SHA1-Digest-Manifest: KE0cq7puWmUjNLE/D0C5Lr11gdQ=
 
 Name: res/drawable/quick_item_remove_center.xml
 SHA1-Digest-Manifest: QU3Bmtm8nWm5gsNTX3PrHEK6vuE=
+
+Name: assets/icon_opt/icon/letv.com.png
+SHA1-Digest-Manifest: umgQEMhudqXYThzWb/a/DPAvji8=
 
 Name: res/drawable-xxhdpi-v4/address_bar_find_pre.xml
 SHA1-Digest-Manifest: uKXpxLcp4KMv0hK3nYnY4ttrBKE=
@@ -2534,6 +2561,12 @@ SHA1-Digest-Manifest: LmAy1qUOA8ojHNAAojVBwBxGQpg=
 Name: res/drawable-xxhdpi-v4/menubar_window_number_in_landscape.png
 SHA1-Digest-Manifest: wEvRPm2EYsl3SbO0AKNAi8HNeN0=
 
+Name: res/drawable-sw360dp-xxhdpi-v13/splash_portrait.jpg
+SHA1-Digest-Manifest: D6SiTgSmq7NkEPYSx/egx/00kdE=
+
+Name: assets/home/quickdial/icon/letv.com.png
+SHA1-Digest-Manifest: LeNKpfKUx6ifn2c3ExdyB8FCac8=
+
 Name: assets/icon_opt/icon/businessinsider.com.png
 SHA1-Digest-Manifest: sfGf3TRYMaTsm3gWGzXMDIpBI8Q=
 
@@ -2550,7 +2583,7 @@ Name: assets/icon_opt/icon/learning.sohu.com.png
 SHA1-Digest-Manifest: z+Js9vBwqM88B6WA+XIi5NJ3iZc=
 
 Name: res/layout/address_bar.xml
-SHA1-Digest-Manifest: YVSVT0ZrymdcJNxnvaxPhwTh7Bg=
+SHA1-Digest-Manifest: rgPBTfmE0Xf9a52KiFbsIXoBEZE=
 
 Name: res/drawable-hdpi-v4/ic_action_refresh.png
 SHA1-Digest-Manifest: JmhLvTOTdfxtvRTPcRwuPAi+JKk=
@@ -2563,6 +2596,9 @@ SHA1-Digest-Manifest: PWQKoEOOufypOo+qeAe9LDSl/PA=
 
 Name: assets/home/video/icon/zongyi4.jpg
 SHA1-Digest-Manifest: 22Qou/GsSUPULamhxPDYW/onBl4=
+
+Name: res/drawable/menu_window_share_item_selector_night.xml
+SHA1-Digest-Manifest: m9bTRGpyT5cd8X6m3659vP82LhY=
 
 Name: assets/icon_opt/icon/plus.google.com.png
 SHA1-Digest-Manifest: UeQmIKU9ajDW+ChvlsbX1HcNr4Y=
@@ -2601,7 +2637,7 @@ Name: res/drawable-xhdpi-v4/ic_new_window_holo_dark.png
 SHA1-Digest-Manifest: pFZoXjDToPhxMMW3RkCl25pfwjM=
 
 Name: res/layout/tab_title.xml
-SHA1-Digest-Manifest: YVerQLzB0+kwVh3CnTxDJCsKCZg=
+SHA1-Digest-Manifest: I48ymNlRyITwpMhlVi2j1f+9Ey8=
 
 Name: assets/icon_opt/icon/www.china.com.cn.png
 SHA1-Digest-Manifest: L9pZC7HQG/LiOk6wWWIKbN5J7BQ=
@@ -2650,9 +2686,6 @@ SHA1-Digest-Manifest: BibVaZKfjIWIOwis8YS2cqaVJPM=
 Name: assets/icon_opt/icon/sports.now.com.png
 SHA1-Digest-Manifest: IKq1mDyORqwNdddQ7gM8zMUWHIk=
 
-Name: res/drawable/splash_portrait.png
-SHA1-Digest-Manifest: nzXDbtzZ0oo1tlWTQcLxkLuKVt0=
-
 Name: assets/icon_opt/icon/m.xs8.cn.png
 SHA1-Digest-Manifest: zwAzIRQNLmrW0xKSK1fsobZIaro=
 
@@ -2669,10 +2702,10 @@ Name: res/drawable-nodpi-v4/ic_search_logo_easou.png
 SHA1-Digest-Manifest: UstieMdkgOP7TBx+ItxYIaPWSxQ=
 
 Name: res/layout/menu_window_item.xml
-SHA1-Digest-Manifest: zft8J9sV+un9EXm3hmRTpTFWWYI=
+SHA1-Digest-Manifest: 0bMRzcHRShQJPOa456NZ2ChAWPw=
 
 Name: res/layout/qrcode_full_screen_dialog.xml
-SHA1-Digest-Manifest: ytaCNDj3L6K8w35Dca9A3BKfzhU=
+SHA1-Digest-Manifest: aRcKlGZ5hneFVLiZkCppf1iByJw=
 
 Name: assets/icon_opt/icon/www.mtime.com.png
 SHA1-Digest-Manifest: Pwau3srSn1+2FQYvBl6a86bntX8=
@@ -2700,7 +2733,7 @@ Name: assets/icon_opt/icon/m.51job.com.png
 SHA1-Digest-Manifest: Tz8Rzzcuk9FP8nZI4GPA1tye6No=
 
 Name: res/drawable/btn_imageview_star.xml
-SHA1-Digest-Manifest: 70wQNKcRuwBm6tdDfIn613LgoGQ=
+SHA1-Digest-Manifest: Fe3XV4UC/HCXqD/D+pvLfa2lIIs=
 
 Name: assets/icon_opt/icon/wap.yesky.com.png
 SHA1-Digest-Manifest: YjR7/I+Z4c1bHsGVQsmn3RKoIdY=
@@ -2720,11 +2753,14 @@ SHA1-Digest-Manifest: catSs5IEyfN/RrnA4SUm8+Z4rF8=
 Name: res/drawable-xxhdpi-v4/le_ic_search_leso1.png
 SHA1-Digest-Manifest: OJEIn6G2Vh30510bKK0DuIV2w4Q=
 
-Name: res/drawable-xxhdpi-v4/browser_download_check_url_unknown.png
-SHA1-Digest-Manifest: dfVe6y6LE3a9kDbERG4mdB2hF94=
+Name: res/drawable-xxhdpi-v4/menu_safari_icon_bg_night_active.xml
+SHA1-Digest-Manifest: MZzdbJCUGwKyIukwdc6JYw8BwMY=
 
 Name: res/drawable/download_delete_view_day_bg.xml
-SHA1-Digest-Manifest: 9Xzu6mGQE9FVREaHuG0y2f3DOWI=
+SHA1-Digest-Manifest: 9fEGMwzDfHaACYOomkHeIdI48GY=
+
+Name: res/drawable-xxhdpi-v4/browser_download_check_url_unknown.png
+SHA1-Digest-Manifest: dfVe6y6LE3a9kDbERG4mdB2hF94=
 
 Name: res/anim/title_bar_enter.xml
 SHA1-Digest-Manifest: bQmxsyztO2rg1elOwEdznsaR7GA=
@@ -2767,7 +2803,7 @@ Name: assets/icon_opt/icon/games.sohu.com.png
 SHA1-Digest-Manifest: bor1F9h/5guyrbhzZM0MHBFdYgQ=
 
 Name: res/layout/recents_debug_overlay.xml
-SHA1-Digest-Manifest: RdfF0mqYKA8lv097nkEd4DhEqRg=
+SHA1-Digest-Manifest: 7ypDwHl23e4m6yLrs2qxXN7DTOU=
 
 Name: assets/icon_opt/icon/Nytimes.com.png
 SHA1-Digest-Manifest: GqezthEwL3shrzPbAFKPM+x3CfY=
@@ -2812,7 +2848,7 @@ Name: assets/icon_opt/icon/www.dayoo.com.png
 SHA1-Digest-Manifest: exKwrw7ZmiMd68slKChTDpb6GUQ=
 
 Name: res/menu-sw600dp-v13/combined.xml
-SHA1-Digest-Manifest: a6k3MMx3PmqTd9O/p7jG0HsIqX8=
+SHA1-Digest-Manifest: g1CbEFDoi8UBNXv0wgOBuyTQTpI=
 
 Name: res/drawable-xxhdpi-v4/download_animal.jpg
 SHA1-Digest-Manifest: a9vSiP2jFP2xQ97tzcsSDV8+pkw=
@@ -2827,7 +2863,7 @@ Name: res/drawable/addressbar_textview_active_incognito_night.xml
 SHA1-Digest-Manifest: IlRMFcq/GZkGbPqYGxsqRaPSHBQ=
 
 Name: res/layout/multiwindow_tab_view.xml
-SHA1-Digest-Manifest: wwzL2lmX9VkillKVvEEj33LttHw=
+SHA1-Digest-Manifest: V95VbA4bn2R/pSkWoGSpmGRbm18=
 
 Name: assets/home/nav_a/icon/m.taobao.com.png
 SHA1-Digest-Manifest: q+ztB9eMny1OGKFfqfoTJehhcbg=
@@ -2854,7 +2890,7 @@ Name: assets/icon_opt/icon/www.taoche.com.png
 SHA1-Digest-Manifest: /6y+mfFip0I8dYjIiqG+GOIcmow=
 
 Name: res/menu/video_more.xml
-SHA1-Digest-Manifest: rMnx5WBrcpcWi6+EFE1EH3nxEDA=
+SHA1-Digest-Manifest: hJWMNfLLL3icSsvYJvzOu1EwQIU=
 
 Name: res/drawable-hdpi-v4/ic_stop_holo_dark.png
 SHA1-Digest-Manifest: n6AmM9A2v7cf2YaoEkXU8+bWh3Y=
@@ -2903,7 +2939,7 @@ Name: assets/icon_opt/icon/unwire.hk.png
 SHA1-Digest-Manifest: maePm+0hHsurVuaXDpqpst1DEbw=
 
 Name: res/layout/auto_complete_grid_view.xml
-SHA1-Digest-Manifest: Q01cRoeVV8O939R7PbXY1cP8exE=
+SHA1-Digest-Manifest: kB1fTSIoA1D+WLlh+s6DsP2RPL0=
 
 Name: assets/icon_opt/icon/m.39.net.png
 SHA1-Digest-Manifest: cTmFEffXgMII2u6AzaIx00+ycJ8=
@@ -2951,7 +2987,7 @@ Name: res/drawable-xxhdpi-v4/le_ic_nav_video.png
 SHA1-Digest-Manifest: 8BFbp3rzNfxHR3CiXqO27bg1AKg=
 
 Name: res/layout/custom_actionbar.xml
-SHA1-Digest-Manifest: KmI6dw9h6LJ1O1Ft5WsucMkAW3o=
+SHA1-Digest-Manifest: V3QUAO9q3+hLtml/BBbBExU1ePU=
 
 Name: assets/icon_opt/icon/3g.kdnet.net.png
 SHA1-Digest-Manifest: 6cSz2Ki+QaeXAmdDzyyXqm1S4gA=
@@ -2999,7 +3035,7 @@ Name: res/drawable-hdpi-v4/ic_mobile.png
 SHA1-Digest-Manifest: 5n0fUvMfpPlPqG/EcpA2wL/X2xY=
 
 Name: res/layout/address_bar_landscape_part_left.xml
-SHA1-Digest-Manifest: NAUiboppRViOYrpgspwC/lATdAQ=
+SHA1-Digest-Manifest: vEG/BgjxCSrlH3cpTfRKQnzGhEk=
 
 Name: assets/icon_opt/icon/www.p5w.net.png
 SHA1-Digest-Manifest: H5NWjrzMHVxT+L6XcBkkiR5N6cA=
@@ -3037,11 +3073,11 @@ SHA1-Digest-Manifest: xorYgb1OL8rAVU3d7BOFjyp+Pyo=
 Name: assets/icon_opt/icon/www.babytree.com.png
 SHA1-Digest-Manifest: k9Y3lRhUIn/29Hi8ecWdwy/Y6Hk=
 
-Name: assets/icon_opt/icon/discogs.com.png
-SHA1-Digest-Manifest: miJdqggWMwaHqI67d2QYkLjLlV4=
-
 Name: assets/icon_opt/icon/m.autohome.com.cn.png
 SHA1-Digest-Manifest: GpaK39LBLsoho5htYFUQ7NpAUx4=
+
+Name: assets/icon_opt/icon/discogs.com.png
+SHA1-Digest-Manifest: miJdqggWMwaHqI67d2QYkLjLlV4=
 
 Name: res/drawable-xxhdpi-v4/weather_city_manager_storm.png
 SHA1-Digest-Manifest: Qa7wGKZhXDLSvQ7pl3aWAF2AbJ0=
@@ -3050,7 +3086,7 @@ Name: assets/icon_opt/icon/buzzfeed.com.png
 SHA1-Digest-Manifest: TtXvfUx2nD9I10mmMmia1LS3/uQ=
 
 Name: res/layout/menu_window.xml
-SHA1-Digest-Manifest: z/WiYXRRv96TBtXqrQn38V418BU=
+SHA1-Digest-Manifest: NF/OYMzzsRP51EeWOGSgbOwg9s4=
 
 Name: assets/icon_opt/icon/500.com.png
 SHA1-Digest-Manifest: KhD1Sp3pQqacnWJkA0ovmmKXINY=
@@ -3097,6 +3133,9 @@ SHA1-Digest-Manifest: hs63OjYkAOXTes4a2jQy4o00EJI=
 Name: assets/icon_opt/icon/m.fang.com.png
 SHA1-Digest-Manifest: SsvsSBdO7VHkkv3cA0xpE7zlPTk=
 
+Name: res/drawable-xxhdpi-v4/le_ic_safari_menubar_forward.xml
+SHA1-Digest-Manifest: FFkIBD6p1hP/ikMoApsPABqKDKA=
+
 Name: assets/icon_opt/icon/mobile01.com.png
 SHA1-Digest-Manifest: 1dXi1V0qqIu5h6t0IoQ97fHnBMw=
 
@@ -3121,11 +3160,14 @@ SHA1-Digest-Manifest: w9z4dMikAYUmjMhYqzalr1/POh8=
 Name: assets/search_engine/logo/lekan_logo.png
 SHA1-Digest-Manifest: ALtEG5K853NPDBCIkpVfL/F2+b0=
 
+Name: res/drawable-xxhdpi-v4/notification_small_icon.xml
+SHA1-Digest-Manifest: IgEEZ3K2ntifzPpWl0J4sS4pBQI=
+
 Name: assets/home/video/icon/dayfireworks.jpg
 SHA1-Digest-Manifest: H2nDkkPoFHsBJSdQOOlwDHbn7Ao=
 
 Name: res/layout/track_list_item_head.xml
-SHA1-Digest-Manifest: bkmuF1wMfZEA6sDyvvsQC7EV5cI=
+SHA1-Digest-Manifest: 6kXH7gvUyFADRsZBxmPk5oXbHF4=
 
 Name: assets/icon_opt/icon/www.bloomberg.com.png
 SHA1-Digest-Manifest: FcdW2iwxYtxwwBrff3/iCqaj+pE=
@@ -3209,7 +3251,7 @@ Name: assets/icon_opt/icon/g.pconline.com.cn.png
 SHA1-Digest-Manifest: zMJnX8eFlpSAydojC4xO4qBCivg=
 
 Name: res/layout/home_most_visit_popup_window_item.xml
-SHA1-Digest-Manifest: iR+XYC9MZfpfpETWijXD1DVR0wQ=
+SHA1-Digest-Manifest: 0rbjPuuYzdZVHDRIWxeDjsYm4mE=
 
 Name: res/layout/bookmark_grid_row.xml
 SHA1-Digest-Manifest: VGLXOu/U0L6Rmn3bzDJg/0gORhs=
@@ -3221,7 +3263,7 @@ Name: res/drawable-xxhdpi-v4/video_dlna_down.png
 SHA1-Digest-Manifest: o94wsn8A/P5D/KrxyJy2+m2y0Vk=
 
 Name: res/layout/new_folder_layout.xml
-SHA1-Digest-Manifest: +V9WS0y05ULPp0QANUWYTRcooXo=
+SHA1-Digest-Manifest: NZhxdVqmeGQ5CZOySG3Twx/OTNE=
 
 Name: assets/icon_opt/icon/www.aastocks.com.png
 SHA1-Digest-Manifest: /jYb127x6mc8KqC0ureye5M0NPA=
@@ -3257,10 +3299,10 @@ Name: assets/icon_opt/icon/m.jiuxian.com.png
 SHA1-Digest-Manifest: Og99b8ZeT6AqEPjKyhWu7dnv+sY=
 
 Name: assets/home/quickdial/locale_zh_hk/data.json
-SHA1-Digest-Manifest: ikFmYndr5/wTYmH8zOEJBCu2+3k=
+SHA1-Digest-Manifest: 5ySfdcZul/6oqPoSiMUQzzoKyAs=
 
 Name: assets/home/nav_b/locale_zh_cn/home_nav.html
-SHA1-Digest-Manifest: b2z8sJQv7XRk8LT4xCz/f0O5OdM=
+SHA1-Digest-Manifest: NRa2el6PjJEkhQkrWX58dSVMGvs=
 
 Name: res/drawable-xxhdpi-v4/video_go_back.png
 SHA1-Digest-Manifest: 9ww0NLZeI5YR2tBAbuQvKX+MnkY=
@@ -3296,10 +3338,10 @@ Name: res/drawable-xxhdpi-v4/le_ic_item_delete.xml
 SHA1-Digest-Manifest: oF9nel6EteRl+5CbwuRWbHVDOoE=
 
 Name: res/layout/preference_list_content.xml
-SHA1-Digest-Manifest: kD3/cxbSwLbYbo+FN9EnC0jtigU=
+SHA1-Digest-Manifest: Is3uoRAT7Le76TXzzrgJYksILQY=
 
 Name: res/layout/edit_bookmark.xml
-SHA1-Digest-Manifest: 8fS5UCZSjeqNek1WqCUzqKHoisg=
+SHA1-Digest-Manifest: UCseJYPJgLLRSEMEeES5Sn6ffZo=
 
 Name: res/drawable-xxhdpi-v4/le_ic_new_window.png
 SHA1-Digest-Manifest: n5MkOqPqBDNk1w3nEM6KEdoRqVc=
@@ -3329,10 +3371,7 @@ Name: res/drawable-xxhdpi-v4/le_ic_download_music.png
 SHA1-Digest-Manifest: +cx49SRxa5DqbVGYD2pHRxNNdC8=
 
 Name: res/menu/autofill_profile_editor.xml
-SHA1-Digest-Manifest: Af/SBdGmeY/dP8JdyH2xWkQ1JMU=
-
-Name: res/drawable-sw411dp-xxxhdpi-v13/splash_portrait.png
-SHA1-Digest-Manifest: WqZ6x60rXTa28GZ6gnY6cjAvoSE=
+SHA1-Digest-Manifest: +tgd2jb7TmQG/lTjHQCjypKpj8M=
 
 Name: assets/home/nav_a/icon/www.google.co.in.png
 SHA1-Digest-Manifest: 81juR2oDMDjy0ndj2vTQQY91WHw=
@@ -3347,7 +3386,7 @@ Name: assets/home/video/icon/movie1.jpg
 SHA1-Digest-Manifest: EAdtbQn3hjwNE6MCGhqbu+JuGH0=
 
 Name: res/layout/qc_menu_item.xml
-SHA1-Digest-Manifest: Y/OPwNTm0zX1w2QWmkZABy1TI9E=
+SHA1-Digest-Manifest: HiGVnSNF826htuhG3OtvHD4p5gQ=
 
 Name: assets/home/nav_a/icon/touch.qunar.com.png
 SHA1-Digest-Manifest: E+eFMkOKsP+EVmwLgPUyZLVxgO0=
@@ -3359,7 +3398,7 @@ Name: assets/icon_opt/icon/www.yue365.com.png
 SHA1-Digest-Manifest: ggHJ/NOxJRVEn64ekiaCfzFjT8g=
 
 Name: res/layout-sw600dp-v13/pick_bookmark.xml
-SHA1-Digest-Manifest: vTW30KgfpC3ngGkM/sNc4UWOzUY=
+SHA1-Digest-Manifest: e8qxRzFNTR8EFbdYKn+BpLhfOxU=
 
 Name: assets/icon_opt/icon/Dcfever.com.png
 SHA1-Digest-Manifest: 27XOCdC810P5Xdre3uVW4TbUHaU=
@@ -3377,7 +3416,7 @@ Name: assets/home/video/icon/cartoon1.jpg
 SHA1-Digest-Manifest: QVcDaApRhlIhyGjAFeBqZRvtVAA=
 
 Name: res/layout/browser_subwindow.xml
-SHA1-Digest-Manifest: vRWGdm578tCe4GDasXDrX6eOLLs=
+SHA1-Digest-Manifest: ivHL0PIUNri1tdpJmW2Gq2M/Icw=
 
 Name: assets/icon_opt/icon/wap.eastmoney.com.png
 SHA1-Digest-Manifest: aoqH7gEyOyTD/54/7xxFvgf0s8g=
@@ -3392,7 +3431,7 @@ Name: res/drawable-hdpi-v4/ic_back_disabled_holo_dark.png
 SHA1-Digest-Manifest: VtfueGY8hf7LfDiFrsvhbkk9EBc=
 
 Name: res/layout/snapshot_item.xml
-SHA1-Digest-Manifest: DKdmVYc4UhR1xuyTdvH045t7Z+k=
+SHA1-Digest-Manifest: 2PJTGD7tCau2coGQn8xZ2oHQ4No=
 
 Name: res/anim/recents_from_unknown_enter.xml
 SHA1-Digest-Manifest: hvn8x/SwDA1yCftH/O4hoRpytOU=
@@ -3404,7 +3443,7 @@ Name: assets/icon_opt/icon/realsimple.com.png
 SHA1-Digest-Manifest: cLUAzbFCHCvTUBqWGs2C5jX/sPo=
 
 Name: res/drawable/download_delete_view_night_bg.xml
-SHA1-Digest-Manifest: KUnnQN4us4ttIJJeXgTNTJumCQ8=
+SHA1-Digest-Manifest: oZ+RTyxXkEPjc280D+KQhQz6F+Q=
 
 Name: assets/home/video/icon/movie5.jpg
 SHA1-Digest-Manifest: YiwqiEyIxc8i0E05MGHMf3Hl2Ts=
@@ -3422,7 +3461,7 @@ Name: res/drawable-xhdpi-v4/ic_incognito_holo_dark.png
 SHA1-Digest-Manifest: 6JoZIVRqhDyrG+b3MAYSVwQ6xUw=
 
 Name: res/layout/video_loading_progress.xml
-SHA1-Digest-Manifest: CUmR1iLlrPREv/iHZMC/TVqVTLQ=
+SHA1-Digest-Manifest: VM4oTZqiau5JGTn1zoD2lgOui+Q=
 
 Name: assets/icon_opt/icon/www.21food.cn.png
 SHA1-Digest-Manifest: dRuWSYoBjPrTK/dx6MAvmEYycvI=
@@ -3441,6 +3480,9 @@ SHA1-Digest-Manifest: j9OZDPvM+QfHFLXxuILBEH49qzs=
 
 Name: assets/icon_opt/icon/androidesk.com.png
 SHA1-Digest-Manifest: fzWqXieOk+jI6BLssqMsl30TXN4=
+
+Name: res/drawable-xxhdpi-v4/le_share_save_icon.xml
+SHA1-Digest-Manifest: TiRzvfPBYaZRgMBx9c+XMNrDlpw=
 
 Name: assets/home/video/icon/zongyi6.jpg
 SHA1-Digest-Manifest: zFEzxMNGSIFDrQ7wGqz/Q/kZEWQ=
@@ -3499,9 +3541,6 @@ SHA1-Digest-Manifest: sHiMyuiKTFVuyWkp04ZKxMtLQCU=
 
 Name: res/raw/favicon_facebook.ico
 SHA1-Digest-Manifest: eIbpc99NrEZcH4H0vGo8smN5uZc=
-
-Name: assets/icon_opt/icon/news.uc.cn.png
-SHA1-Digest-Manifest: Mv8TwJsEB4id1aJ1h9jCxNL70vc=
 
 Name: assets/icon_opt/icon/food.bj.sina.com.cn.png
 SHA1-Digest-Manifest: VG+CRSR947Xf4zVOu0goAKxgGjA=
@@ -3597,7 +3636,7 @@ Name: res/anim/slide_down_in.xml
 SHA1-Digest-Manifest: Um91x2q7CEBXbHTacg4E3I4gCCA=
 
 Name: res/drawable/btn_delete.xml
-SHA1-Digest-Manifest: Lr/R2u+P0YfdeDB0BDDzzrpCA3I=
+SHA1-Digest-Manifest: +FNi9JUlbS8IkJQN6Jl3O6MHIsw=
 
 Name: assets/icon_opt/icon/news.163.com.png
 SHA1-Digest-Manifest: fCYtlXo73nKpAb4CN9ZAXJtI9RA=
@@ -3606,7 +3645,7 @@ Name: assets/icon_opt/icon/www.iteye.com.png
 SHA1-Digest-Manifest: ffCN0Z4UBnwFNjwPKeErzylPmoo=
 
 Name: assets/icon_opt/locale_zh_cn/data.json
-SHA1-Digest-Manifest: tFx/Bcy0fZ1elpPXmFL5VrRF+QA=
+SHA1-Digest-Manifest: XLZiIm+DCSWOoM8wOkUmkmzwdfE=
 
 Name: assets/icon_opt/icon/m.lashou.com.png
 SHA1-Digest-Manifest: UQNfKZEPpqpj2c+muJp1A7oZ4ew=
@@ -3642,7 +3681,7 @@ Name: res/drawable-hdpi-v4/browsertab_inactive.png
 SHA1-Digest-Manifest: fPyG+ouwAl5zeGAMBaNCpR4rA0Q=
 
 Name: res/drawable/download_click_item_effect.xml
-SHA1-Digest-Manifest: 9RjjVdOBx2Jl89uqqglnip6kawI=
+SHA1-Digest-Manifest: ajxqTJ3YWeDG05pdJB55YVMCoRU=
 
 Name: assets/icon_opt/icon/changba.com.png
 SHA1-Digest-Manifest: kI+vtpyQR7SLlhVnvJEvd7Peb6o=
@@ -3651,7 +3690,7 @@ Name: res/raw/favicon_picasa.ico
 SHA1-Digest-Manifest: TypCzm3MgwXiVfRHp0fvLACBO9g=
 
 Name: res/layout/le_search_box.xml
-SHA1-Digest-Manifest: amri0YRB3PkKUqkZmYxIHQGR/cY=
+SHA1-Digest-Manifest: BYC4D88sn+3nECmc5z9peyvtSOI=
 
 Name: assets/icon_opt/icon/jhs.m.taobao.com.png
 SHA1-Digest-Manifest: M88+NsbpSVX2jUv7xjAM/w2Rtcg=
@@ -3696,16 +3735,16 @@ Name: assets/icon_opt/icon/www.gome.com.cn.png
 SHA1-Digest-Manifest: RyO62Ed8Y156YyboKjpgoJfROqA=
 
 Name: res/layout/browser_download.xml
-SHA1-Digest-Manifest: LKu+ukv/BB7+7I02Nt4m0ZAP2MU=
+SHA1-Digest-Manifest: k3mQakYZ6eteXr3cMZfNM2nFOEU=
 
 Name: res/drawable-xxhdpi-v4/download_pause.xml
 SHA1-Digest-Manifest: fC1tQOD0yJzhvbz9Y0RTm8o4pho=
 
-Name: assets/litepal.xml
-SHA1-Digest-Manifest: BPqAjC5tV4l0QAdTgoUSaUmYMi8=
-
 Name: res/drawable/le_tab_bg_right.xml
-SHA1-Digest-Manifest: VjskWgtKgSCxeU5KOBSmjixd3GU=
+SHA1-Digest-Manifest: B/4H4EA1Q+bo1MpyPtcbSlif7xI=
+
+Name: assets/litepal.xml
+SHA1-Digest-Manifest: ty2HP3LeR7D6PizWGGLBK4zSK/Y=
 
 Name: assets/icon_opt/icon/m.vancl.com.png
 SHA1-Digest-Manifest: /N3tiEXas3VrovVdQ4Wn48W7A6I=
@@ -3717,7 +3756,7 @@ Name: assets/icon_opt/icon/www.8264.com.png
 SHA1-Digest-Manifest: AW5ZLowx3hGwXbcpkdO9Yczo2ow=
 
 Name: assets/home/nav_a/locale_zh_cn/data.json
-SHA1-Digest-Manifest: 1i9oMm+pFZQM5nJwKvoR+R51tf4=
+SHA1-Digest-Manifest: BwuS8WoAJHPj0GJXiD0t39SxQm4=
 
 Name: assets/icon_opt/icon/3g.xywy.com.png
 SHA1-Digest-Manifest: 9uBlMxMMkLWa2TlbrjqP1gc4jG0=
@@ -3735,7 +3774,7 @@ Name: assets/icon_opt/icon/www.pcgames.com.cn.png
 SHA1-Digest-Manifest: mkLhdIAAB+WSiNuxFo3LUtVsaZo=
 
 Name: res/layout-sw600dp-v13/snapshot_item.xml
-SHA1-Digest-Manifest: r+YFeYRBuBYE7gBwjy3RqD4x/D8=
+SHA1-Digest-Manifest: EsOWC2u+zF400ab+rqaSNW1Bnkc=
 
 Name: assets/icon_opt/icon/www.xjtu.edu.cn.png
 SHA1-Digest-Manifest: UiBsmePyhjlO/ghpOxRXhP3fPks=
@@ -3747,7 +3786,7 @@ Name: res/drawable-xxhdpi-v4/le_common_bookmark.png
 SHA1-Digest-Manifest: pbD1pSbFkmBWdB7T4XcEPhGWQbM=
 
 Name: res/layout/title_bar_snapshot.xml
-SHA1-Digest-Manifest: XTAJYrLeh+pNdESCnWBXtATvlcg=
+SHA1-Digest-Manifest: t6D7Tf37gfJQTgKs2terHNHkhb0=
 
 Name: assets/icon_opt/icon/m.dangdang.com.png
 SHA1-Digest-Manifest: nhnvfyO3O3QevVEjw1AVQZ3/i4Y=
@@ -3804,7 +3843,7 @@ Name: res/layout/autofill_settings_fragment.xml
 SHA1-Digest-Manifest: rrKooUVuoQZMVi4hEWvlyL2Pp8k=
 
 Name: res/layout/multi_window_screen_container_view.xml
-SHA1-Digest-Manifest: qHxVs+3yIXDLIuVeUf+rifktaSs=
+SHA1-Digest-Manifest: j+tbJJZrAoac6MwNIJd1nRBRtEQ=
 
 Name: res/drawable-xxhdpi-v4/le_ic_download_xls.png
 SHA1-Digest-Manifest: XKi7CKPZvRpFZs7hZRic73YgGlY=
@@ -3825,7 +3864,7 @@ Name: res/drawable-hdpi-v4/ic_bookmark_widget_bookmark_holo_dark.png
 SHA1-Digest-Manifest: JdefUD18hm0yE9s+yBXEe1JXvzc=
 
 Name: res/drawable/qrcode_progress_dialog_drawable.xml
-SHA1-Digest-Manifest: S1uuI8z5OwjEh0Xvpk7HjzD2rfE=
+SHA1-Digest-Manifest: N5UhyNw2h9kYhYxLxdzuO72lXsg=
 
 Name: assets/icon_opt/icon/m.facebook.com.png
 SHA1-Digest-Manifest: SGRn7nsAZIA0JwXVc+tcBPswqfs=
@@ -3867,10 +3906,10 @@ Name: assets/icon_opt/icon/m.dianping.com.png
 SHA1-Digest-Manifest: L95F3xIrrFI7m+7jUbXOl8pWjW8=
 
 Name: res/menu/test_download.xml
-SHA1-Digest-Manifest: YFEzoliZapERIA1imWM3Cg/Bjik=
+SHA1-Digest-Manifest: lpM8CC9Knb5JVq1927gThsRxVMc=
 
 Name: res/layout/menu_bar.xml
-SHA1-Digest-Manifest: dchZBwcv1r6Mjg7LhPX17vrP8r0=
+SHA1-Digest-Manifest: 3/EWTc9adw1xC0jdbq/0er1mFXs=
 
 Name: res/raw/qrcode_success.mp3
 SHA1-Digest-Manifest: br/uU/KuwR/BY3zlOA82Znctg0Y=
@@ -3885,7 +3924,7 @@ Name: assets/icon_opt/icon/i.jandan.net.png
 SHA1-Digest-Manifest: DtSfewmvC4nnZZrRFc9JYOgYgg0=
 
 Name: res/layout/ssl_warning.xml
-SHA1-Digest-Manifest: vzKLWskMdK6IypBPQ+kJKkuItWQ=
+SHA1-Digest-Manifest: ySCRCmNIJMXS2J8UG6UvkVdfStg=
 
 Name: assets/icon_opt/icon/www.xdf.cn.png
 SHA1-Digest-Manifest: xFn2/mxhqj11RRjk71OWC0ljqmk=
@@ -3894,7 +3933,7 @@ Name: assets/icon_opt/icon/m.tianya.cn.png
 SHA1-Digest-Manifest: Sp9XkjdpG0k9x8sC7U0Zjwei3gQ=
 
 Name: res/drawable/le_tab_bg_left.xml
-SHA1-Digest-Manifest: sEqik7ccU9FQnGFTd7pI6+dz/MI=
+SHA1-Digest-Manifest: 770qT/YxNjz57cSb8SG2bM04mqM=
 
 Name: assets/icon_opt/icon/zhcw.com.png
 SHA1-Digest-Manifest: tOQbIgvieZ11MHfslRMf0RLumPY=
@@ -3903,10 +3942,13 @@ Name: res/drawable-hdpi-v4/ic_gps_on_holo_dark.png
 SHA1-Digest-Manifest: v+bzlx6zmMQW3TICevGBTRv1cm4=
 
 Name: res/layout/home_video.xml
-SHA1-Digest-Manifest: Jk2wMnbKu/rfSyPmOxMlxI4mLE4=
+SHA1-Digest-Manifest: UlBsuy4v3Yh2P4X/yzPutFio3pc=
 
 Name: res/drawable/recents_thumbnail_fg.xml
-SHA1-Digest-Manifest: CwFGPamWUMTpyfN0RGtBAZGZm6U=
+SHA1-Digest-Manifest: l9G8cDHrs+vsKSFgGSuKc+eXJq0=
+
+Name: res/drawable/menu_window_share_item_selector.xml
+SHA1-Digest-Manifest: PV54tou3vjBK39E+qL/uBGbXVfY=
 
 Name: assets/icon_opt/icon/www.etnet.com.png
 SHA1-Digest-Manifest: VEQsAyhjK0ahFG351zmompozMY4=
@@ -3978,7 +4020,7 @@ Name: res/drawable-sw600dp-xhdpi-v13/ic_secure_holo_dark.png
 SHA1-Digest-Manifest: DZS5PAaZ9jVkYp3XffiuXQLcarc=
 
 Name: assets/cloud_control/locale_zh_cn/data.json
-SHA1-Digest-Manifest: vrr7IJlevUfeo8ibhadx6PzdWWc=
+SHA1-Digest-Manifest: uj41Z7lFOpkf4TuPOGswPlFEyW0=
 
 Name: assets/home/quickdial/icon/m.hupu.com.png
 SHA1-Digest-Manifest: oHdhUkSvmTjFu30AW0m78MSBTK0=
@@ -3988,6 +4030,9 @@ SHA1-Digest-Manifest: 0ebTZjdI7A2ISYG712nmuAHqnwI=
 
 Name: res/drawable-hdpi-v4/ic_querybuilder_disabled.png
 SHA1-Digest-Manifest: YTD9mPsuongd2izBl5VtLAWqp0Q=
+
+Name: assets/home/quickdial/icon/www.100toutiao.com.png
+SHA1-Digest-Manifest: qmqppLxA2CSBtp3zZ4sUiiAQd2o=
 
 Name: assets/icon_opt/icon/www.price.com.hk.png
 SHA1-Digest-Manifest: 72fjlJFO28g753l7YWKdIP9bZHs=
@@ -4012,7 +4057,7 @@ Name: assets/icon_opt/icon/www.mrqe.com.png
 SHA1-Digest-Manifest: nCUow8e2g4iF7phxrhVyz2s2cF8=
 
 Name: res/layout/dynamic_grid_container.xml
-SHA1-Digest-Manifest: xwqh0zrVfDjzIC1gw9D/kutx1TE=
+SHA1-Digest-Manifest: FetwitLh9tfEyeDMFD8LpY8EhKc=
 
 Name: assets/javascript/night_mode.css
 SHA1-Digest-Manifest: PPCY/f6vjFBwTtf40HgsXDwOYhI=
@@ -4045,7 +4090,7 @@ Name: assets/icon_opt/icon/www.dm5.com.png
 SHA1-Digest-Manifest: WC95plbvN+Gap3qZnlZRlCfzMIQ=
 
 Name: assets/database/browser_litepal.db
-SHA1-Digest-Manifest: MoG640M6a4AvfQa2Ii4WGqhmHr4=
+SHA1-Digest-Manifest: CzqEVAMrdC/7ZWKQCh++xEZlTc4=
 
 Name: assets/icon_opt/icon/m.elong.com.png
 SHA1-Digest-Manifest: 5gKgGgAD6rUx4TZi32ka80LUYF0=
@@ -4070,7 +4115,7 @@ Name: res/layout/clear_data_preference.xml
 SHA1-Digest-Manifest: CLAkUMj49HyKI87N7fTO4l7d9ug=
 
 Name: res/layout/folder_list_item.xml
-SHA1-Digest-Manifest: QIO/ZYfKsGC4Vb7Ju8ZAZdrA95w=
+SHA1-Digest-Manifest: VH7fZM0AgHi0BIpBOSFdoN/7CxY=
 
 Name: res/drawable-mdpi-v4/ic_search_category_bookmark.png
 SHA1-Digest-Manifest: oSazi5TzbHyPwYy/Mj3KnP9BOMo=
@@ -4082,7 +4127,7 @@ Name: assets/icon_opt/icon/www.sf-express.com.png
 SHA1-Digest-Manifest: Eg2wdBcezMAgk7of69/q9fDkXtY=
 
 Name: res/layout-sw600dp-v13/title_bar_snapshot.xml
-SHA1-Digest-Manifest: Jm2OgpdgtJVXN3zof3lJ9mj38S0=
+SHA1-Digest-Manifest: 2BWgn+SuoW7BQXscMuyrfTWiP5s=
 
 Name: assets/bookmark/carrier_presets/cmcc/icon/reading.png
 SHA1-Digest-Manifest: m0nPu7ZZQcnwP0f+mtiyh0yINwg=
@@ -4120,14 +4165,14 @@ SHA1-Digest-Manifest: kpkb+VyptJmJeqlsuwqeVSi+Riw=
 Name: assets/icon_opt/icon/iaround.com.png
 SHA1-Digest-Manifest: t62lDOIspqPuqlli19C3DLMnH2o=
 
-Name: assets/icon_opt/icon/www.haodf.com.png
-SHA1-Digest-Manifest: rL/yrTzVQmLXBLEDFrqNCC3zdPA=
-
 Name: assets/icon_opt/icon/www.4399.com.png
 SHA1-Digest-Manifest: oxAVyl6oe+5ze2q7N/0DJpbJoYU=
 
+Name: assets/icon_opt/icon/www.haodf.com.png
+SHA1-Digest-Manifest: rL/yrTzVQmLXBLEDFrqNCC3zdPA=
+
 Name: res/drawable/videomore_radiobutton_background.xml
-SHA1-Digest-Manifest: JeozvGgXff5J31wTmlJmDCNW8kI=
+SHA1-Digest-Manifest: a1CBk81WDzo4zgcJL+ylbqjJs80=
 
 Name: res/drawable-xxhdpi-v4/le_ic_search_baidu_temp.png
 SHA1-Digest-Manifest: D0YEVJwj+8Rxrwmnw7mXB2v5g/g=
@@ -4142,7 +4187,7 @@ Name: assets/icon_opt/icon/www.tompda.com.png
 SHA1-Digest-Manifest: 2ct38h9UCPXPZlGS69jZ3PZL6G4=
 
 Name: res/layout/folder_item.xml
-SHA1-Digest-Manifest: 2MNrC4TVfcNrgb7GN6+YhQdJrVQ=
+SHA1-Digest-Manifest: SJasEGJ/I2ZsF9pXPRmb56Qb1lk=
 
 Name: res/drawable-xxhdpi-v4/menubar_forward_in_landscape.png
 SHA1-Digest-Manifest: XgfWReRqf7Uz6ze/yPyF9wKicAM=
@@ -4154,7 +4199,7 @@ Name: assets/icon_opt/icon/www.dbw.cn.png
 SHA1-Digest-Manifest: n4XtEi/wGlISOT8cc6CY5/VsVco=
 
 Name: res/layout/website_settings_row.xml
-SHA1-Digest-Manifest: VUxI0kIcHg2pA8zUP8IS2+ZpMQw=
+SHA1-Digest-Manifest: /BkO31/5NFklTLVJcas6bHD/s/w=
 
 Name: assets/icon_opt/icon/www.jschina.com.cn.png
 SHA1-Digest-Manifest: 8wnh5zbpppJoyxfXM15aT/s7zCA=
@@ -4211,7 +4256,7 @@ Name: assets/home/quickdial/icon/m.ebay.com.hk.png
 SHA1-Digest-Manifest: l0BkfOPRckwWPG8TkdZysQbnq0w=
 
 Name: res/layout/qr_code.xml
-SHA1-Digest-Manifest: jopAWw8ZbB0IvJssjlpjyHEsMxU=
+SHA1-Digest-Manifest: gWedvAca0JauKnqmQOuJAjGVino=
 
 Name: assets/home/video/icon/cartoon9.jpg
 SHA1-Digest-Manifest: SkPq/CKAnfRhJPcZVG9vAnykyhA=
@@ -4232,7 +4277,7 @@ Name: assets/icon_opt/icon/msn.com.png
 SHA1-Digest-Manifest: lEK7Qp4TnvmxXZFXAVPO/RqVaQ4=
 
 Name: res/drawable/player_loading_progress.xml
-SHA1-Digest-Manifest: Zroa+7MdCgoiPM8eVkjk5QuS6CA=
+SHA1-Digest-Manifest: 52Wgs7ZDwTIzbx4eFCOk7p75x2E=
 
 Name: assets/icon_opt/icon/auto.sohu.com.png
 SHA1-Digest-Manifest: 2+PX2oZiEmwCXlLsu4U9Iuzgc+w=
@@ -4241,10 +4286,10 @@ Name: assets/home/quickdial/icon/www.yahoo.com.png
 SHA1-Digest-Manifest: mw78hdXIYsl2aC+fmYIPCIi9/QA=
 
 Name: res/layout/home_history_common_used_item.xml
-SHA1-Digest-Manifest: 40NapLXoZIH7Sh8f01Kcsq7uRJk=
+SHA1-Digest-Manifest: lCtIX0Tg1+NgRoTy8KsvFqb73bc=
 
 Name: res/layout/menu_item.xml
-SHA1-Digest-Manifest: lu0MKtJM5q2E3HAtBjmqCpBjVIY=
+SHA1-Digest-Manifest: NSCJtHJkwB/ImB0kR/S5HDeSeDc=
 
 Name: res/drawable/nav_bottom_incognito_bg.xml
 SHA1-Digest-Manifest: XmwJd3coDH3hc6Bpg5/ZPoi2NkU=
@@ -4262,13 +4307,13 @@ Name: assets/icon_opt/icon/m.zhibo8.cc.png
 SHA1-Digest-Manifest: ORCpgBzavbW5yXhRm0I/9gCd0/A=
 
 Name: res/menu/browsercontext.xml
-SHA1-Digest-Manifest: jGvKje4aw38HJ6Ux+JrVsjdH/o8=
+SHA1-Digest-Manifest: xY2r6Nmz6Aa6Vl5+eNq8GTQ5avI=
 
 Name: res/xml/clear_data_preferences.xml
-SHA1-Digest-Manifest: 8SAwIukRvZa8YzTOvR3tI0Y7dfY=
+SHA1-Digest-Manifest: jSK2b5LJRVbqAbjPGkdQ48IkvX0=
 
 Name: res/layout/home_quick_dial.xml
-SHA1-Digest-Manifest: LBan+LLu0HHfj3HgW8KtHSwi1xY=
+SHA1-Digest-Manifest: mEr2OB72RjuoicaG3xM4laCf5wI=
 
 Name: res/drawable-xxhdpi-v4/weather_city_manager_sleet.png
 SHA1-Digest-Manifest: FwALHxRRcdvXyEtV8wrXn01vcz0=
@@ -4280,7 +4325,7 @@ Name: assets/icon_opt/icon/mob.10010.com.png
 SHA1-Digest-Manifest: P7h8JSstaH6hD9u+hMoALTLHby8=
 
 Name: assets/home/quickdial/locale_hi_in/data.json
-SHA1-Digest-Manifest: DtiFrXLM7YjzJusbmhZ+DUuDaZY=
+SHA1-Digest-Manifest: lDKPjksrcs0hLAPRr4guwLaVww8=
 
 Name: assets/icon_opt/icon/babycenter.com.png
 SHA1-Digest-Manifest: drg/w2kdrJWzveWU760rqQPMJAo=
@@ -4289,10 +4334,10 @@ Name: assets/icon_opt/icon/www.ibm.com.cn.png
 SHA1-Digest-Manifest: 1y37uz7MozwO25ac/UBJ8dwQRWQ=
 
 Name: res/xml/browser_preferences.xml
-SHA1-Digest-Manifest: 1yhrnwOhnbq6bt5PxkY37qV3iKY=
+SHA1-Digest-Manifest: aFqHswTbJViiAIXipfoZAW1IzpE=
 
 Name: res/layout/search_list_item.xml
-SHA1-Digest-Manifest: SnNbphwgU2U/NM2mHm49G09b/Lc=
+SHA1-Digest-Manifest: W+HEUygUMmDkz9qRY4vL54NlZWQ=
 
 Name: assets/icon_opt/icon/www.chinahr.com.png
 SHA1-Digest-Manifest: R7rYpAImlyuZ7ucRSkY+ghhVcbY=
@@ -4320,6 +4365,9 @@ SHA1-Digest-Manifest: aV2OEhhBSHB5jeXBpPsIN6U1fxw=
 
 Name: assets/icon_opt/icon/breadtrip.com.png
 SHA1-Digest-Manifest: eeYYPfsU0QBMWN2agIpSTBe/Q8Y=
+
+Name: res/drawable-xxhdpi-v4/le_ic_safari_menubar_back.xml
+SHA1-Digest-Manifest: IZ90I9o0/vC72Wkee2FnJyMn8WA=
 
 Name: res/drawable-xxhdpi-v4/video_seekbar_normal.png
 SHA1-Digest-Manifest: 0PhxRtu7RvKKtEKarkFE16+JdaE=
@@ -4391,7 +4439,7 @@ Name: assets/icon_opt/icon/behance.net.png
 SHA1-Digest-Manifest: 1p8wHtF4b4tpj0bNQoWQBA3NSiY=
 
 Name: res/layout/video_brightness_volume.xml
-SHA1-Digest-Manifest: laVI46GXYkEczLwDfV+MKfgfiiQ=
+SHA1-Digest-Manifest: eNtr7MPVMQ7wflThnac/TEfi+ag=
 
 Name: res/drawable/tab_nr.xml
 SHA1-Digest-Manifest: s/TnaJHPhIwbvjVYbdL8ODuAjls=
@@ -4415,7 +4463,7 @@ Name: res/raw/favicon_google.ico
 SHA1-Digest-Manifest: 60edqoYRiJjIjN3Zv2O9IdPLtus=
 
 Name: res/layout/video_control_view.xml
-SHA1-Digest-Manifest: 90hy0vS2hmi66KDHiejTX9RzErM=
+SHA1-Digest-Manifest: wpwcQl49z+Ykbc1H5dl0a3r98r0=
 
 Name: res/drawable-hdpi-v4/border_thumb_bookmarks_widget_holo.9.png
 SHA1-Digest-Manifest: WtnMAAjaxoNH/zZOcdSxyzWdIbM=
@@ -4427,7 +4475,7 @@ Name: res/drawable-hdpi-v4/progress.9.png
 SHA1-Digest-Manifest: WQ3fwqwn+Yf5mch5tERe42XIiXA=
 
 Name: res/layout/pop_menu_content.xml
-SHA1-Digest-Manifest: hKB/08sg9y+UzOm+nLK5CKDa7GA=
+SHA1-Digest-Manifest: N9Bdr16PnV6JAAHIG96qNaBDmqE=
 
 Name: assets/home/video/icon/zongyi3.jpg
 SHA1-Digest-Manifest: 7bD2sfnB8WtVOm+C1v5fScUFYPw=
@@ -4460,13 +4508,16 @@ Name: assets/home/nav_a/icon/mashable.com.png
 SHA1-Digest-Manifest: 5WXxCOncbvi96VoJPqvP/pXzCZs=
 
 Name: res/layout/bookmarkthumbnailwidget_item_folder.xml
-SHA1-Digest-Manifest: v+EvMVCGzd0NkfGlbHLPMFTyGl0=
+SHA1-Digest-Manifest: kovwzDFeMgiNBFIt/NKmoE9vXO4=
 
 Name: assets/home/nav_a/icon/xw.qq.com.png
 SHA1-Digest-Manifest: RdZ/P+Euw3YnYNamp3zD97hwmKM=
 
 Name: assets/icon_opt/icon/www.onlinedown.net.png
 SHA1-Digest-Manifest: nfQ2MILY15S8J2JGDBjiFp7QHnI=
+
+Name: res/layout/download_notification_custom_progress.xml
+SHA1-Digest-Manifest: 4jIwW2oAfOScif72axwgywJeVJg=
 
 Name: assets/icon_opt/icon/kuaiya.cn.png
 SHA1-Digest-Manifest: NOIasNqORlrx9WrknmrQrl49jqM=
@@ -4490,7 +4541,7 @@ Name: assets/icon_opt/icon/m.mogujie.com.png
 SHA1-Digest-Manifest: HnWYFJqnfmY9M+gJsOdryTJqf/M=
 
 Name: res/layout/home_video_leso_section.xml
-SHA1-Digest-Manifest: vaJqJlh5ykiCyKog3x/DGrSJj3w=
+SHA1-Digest-Manifest: /eVVfztTsoLO8K4k9hth0wHSuq0=
 
 Name: assets/home/video/home_video_cartoon.json
 SHA1-Digest-Manifest: bPfS1D8tTQzsgiuM6Meg93Stz+Y=
@@ -4506,6 +4557,9 @@ SHA1-Digest-Manifest: w7SZ19eYQhTE5YPdwRnQYArAc6I=
 
 Name: res/layout/menu_popup2.xml
 SHA1-Digest-Manifest: ZCz25D13NdStde2udRlvhb5em48=
+
+Name: assets/icon_opt/icon/m.le.com.png
+SHA1-Digest-Manifest: 7z8plg2E/eJcEEdpoIuJvMq/sVc=
 
 Name: assets/icon_opt/icon/www.hzins.com.png
 SHA1-Digest-Manifest: Bbvk5Xyq1FWcS5zq/y8I+l/kRlg=
@@ -4529,7 +4583,7 @@ Name: res/drawable-xxhdpi-v4/address_bar_refresh_incognito.xml
 SHA1-Digest-Manifest: x20+k5ZfjbMJhE7+Se1LjiNqn2I=
 
 Name: res/menu/snapshots_context.xml
-SHA1-Digest-Manifest: 5SRE/eXbzVGtKtE2f2c9P0F37cY=
+SHA1-Digest-Manifest: +KoEEGCm/S4rXo2SmbYCql1zO4M=
 
 Name: res/drawable-mdpi-v4/ic_dialog_browser_security_good.png
 SHA1-Digest-Manifest: zzJO3mTRhZfr4RG5J8OBFybZhoo=
@@ -4539,6 +4593,9 @@ SHA1-Digest-Manifest: GZElD8y4om3RA2gdbgpxaMI3Dj4=
 
 Name: assets/home/video/home_video_zongyi.json
 SHA1-Digest-Manifest: EAUhbE1AcmgJEKP8efzXGVNNDsE=
+
+Name: res/drawable/splash_portrait.jpg
+SHA1-Digest-Manifest: O8K0DtQvkkN0WRS9rX7xUeGob4I=
 
 Name: assets/icon_opt/icon/www.faloo.com.png
 SHA1-Digest-Manifest: PESJFuEVgmycdyVddUFU0Xlm0IY=
@@ -4556,7 +4613,7 @@ Name: assets/icon_opt/icon/bbs.letv.com.png
 SHA1-Digest-Manifest: IOYC8TNam2gsrJfSsMi6b6xRAOw=
 
 Name: res/menu/test_download_info.xml
-SHA1-Digest-Manifest: ymcquQs8hUl3sgWXFLFRDy2q8wY=
+SHA1-Digest-Manifest: ffbpjk9mymok6Nqi9+/1dygHtEU=
 
 Name: assets/icon_opt/icon/kayak.com.png
 SHA1-Digest-Manifest: Yc7SF4iiK9h+fQzv/2L2wmt+bH8=
@@ -4574,7 +4631,7 @@ Name: assets/icon_opt/icon/baby-kingdom.com.png
 SHA1-Digest-Manifest: Fodv+FiDvJZMneOCA4fCs8i2aHs=
 
 Name: res/layout/folder_item_subfolder.xml
-SHA1-Digest-Manifest: z9rPN6t7/wFDDyMuEjvGKKfBAi4=
+SHA1-Digest-Manifest: 7vwMpOnTMMOhfnE/Qe3z+bVGzq0=
 
 Name: res/drawable-xxhdpi-v4/le_ic_home_clicked.xml
 SHA1-Digest-Manifest: kl+fe8DnIBaCKCI2nUYybaAWjaE=
@@ -4588,11 +4645,11 @@ SHA1-Digest-Manifest: WSuoQjbuO7SW4gMWdz38kRDrBn8=
 Name: assets/icon_opt/icon/expedia.com.png
 SHA1-Digest-Manifest: y1zsAIg4DGJqu2lSJ3TSVAuQUF4=
 
-Name: res/drawable/menu_window_item_selector_night.xml
-SHA1-Digest-Manifest: tgwz215rAwOfBMayF2B4G6UCYR8=
-
 Name: assets/home/nav_a/icon/www.netflix.com.png
 SHA1-Digest-Manifest: ov4IqtNO0OfIamyPRa24u0gkMcE=
+
+Name: res/drawable/menu_window_item_selector_night.xml
+SHA1-Digest-Manifest: xPRvB7aJ9wmlmOLcavC7c3/XGlw=
 
 Name: res/drawable-xxhdpi-v4/le_ic_menubar_menu_more.xml
 SHA1-Digest-Manifest: gMhqRX8Xfgpe/zsaC9ffikgoXvA=
@@ -4612,11 +4669,11 @@ SHA1-Digest-Manifest: 7WymkfHnMROUYOEDVZ6yC9zfcKQ=
 Name: res/drawable-mdpi-v4/bg_bookmarks_widget_holo.9.png
 SHA1-Digest-Manifest: l6B3eTU8FxpIcR9s/nYOwrdl48E=
 
+Name: classes.dex
+SHA1-Digest-Manifest: vullt5llhB0aFUI3mjEv41XY+AI=
+
 Name: assets/icon_opt/icon/www.yangtse.com.png
 SHA1-Digest-Manifest: uc6N1DbUx0z4sObtufcE28FfIF4=
-
-Name: classes.dex
-SHA1-Digest-Manifest: J0LOqNDXpPwzxupFtEEyDYh/D2Y=
 
 Name: assets/home/quickdial/icon/m.reddit.com.png
 SHA1-Digest-Manifest: KPed5bhcPtFTRxZyi6kvwPB2TE0=
@@ -4627,8 +4684,11 @@ SHA1-Digest-Manifest: kGol8MpqguUQahuympHCaRRdF8E=
 Name: assets/icon_opt/icon/live.com.png
 SHA1-Digest-Manifest: QHDlWPIhzO1jBLnIrusz+syZUUs=
 
+Name: res/drawable-sw360dp-xxxhdpi-v13/splash_portrait.jpg
+SHA1-Digest-Manifest: 0N79dFEqOAPVnln2A7bPyc+HwYY=
+
 Name: res/drawable/recents_dismiss_dark.xml
-SHA1-Digest-Manifest: /gcjejORhxQLCpy7TRnxmbBkjUo=
+SHA1-Digest-Manifest: sI27h8klk0+CmzFnqTTwfzgEzpA=
 
 Name: res/drawable-xhdpi-v4/thumb_bookmark_widget_folder_back_holo.png
 SHA1-Digest-Manifest: +x52K81ugn4oBhz3FMYqOqGYcjY=
@@ -4649,7 +4709,7 @@ Name: assets/home/nav_a/icon/www.trillist.com.png
 SHA1-Digest-Manifest: PW9jydVnKYjuMd+Pt6VjO3B7gm0=
 
 Name: res/layout/header_view_4d_item.xml
-SHA1-Digest-Manifest: J6hgT4BjKxGWutSEWAQCpoHY23I=
+SHA1-Digest-Manifest: YZy7DArhgSs28Giw0IQBZcm7Yqk=
 
 Name: assets/home/video/icon/tv4.jpg
 SHA1-Digest-Manifest: xvGfX3/QunJRo+HRaWMMtRFC3zU=
@@ -4688,7 +4748,7 @@ Name: assets/javascript/night_mode.js
 SHA1-Digest-Manifest: 0pN1FVoz/AfM4FjvB6kO2ndDPLs=
 
 Name: assets/home/quickdial/locale_en_us/data.json
-SHA1-Digest-Manifest: bdxOPN7KIHyWFr1GxwtDgxPAHUc=
+SHA1-Digest-Manifest: 2t8I4W+I7aFFPyOcRdML1XRNH/c=
 
 Name: assets/icon_opt/icon/xunfei.cn.png
 SHA1-Digest-Manifest: YqGtQybP1UZ4eSf2ESDsviedjFo=
@@ -4736,7 +4796,7 @@ Name: res/drawable-xhdpi-v4/qrcode_back_pressed.png
 SHA1-Digest-Manifest: J7eJa8ZLLjqHiRh7WKuVq7eRfr0=
 
 Name: res/layout/page_info.xml
-SHA1-Digest-Manifest: +6e7LDtCEPTfH7DiBneIQAenCHc=
+SHA1-Digest-Manifest: xxard/1+xGt4dol6RGAImm1VkZw=
 
 Name: res/layout-port/autofill_settings_fragment.xml
 SHA1-Digest-Manifest: 7I+D0xTCK5TQUZ2y8tz5//AW/cM=
@@ -4754,7 +4814,7 @@ Name: res/drawable/videomore.xml
 SHA1-Digest-Manifest: LFoWpaJ1tQdiM4khtJLQgXou33k=
 
 Name: res/xml/browser_debug_preferences.xml
-SHA1-Digest-Manifest: rJubo+Q3vIKHuuXYfjopzBABL/A=
+SHA1-Digest-Manifest: XsAx/dPsP2TJPtPXC/tKGxshe3c=
 
 Name: assets/icon_opt/icon/m.haodai.com.png
 SHA1-Digest-Manifest: sjkOs6YvGGN0R0E2neHVy1ZZs6Y=
@@ -4809,16 +4869,16 @@ Name: res/drawable-xxhdpi-v4/weather_city_manager_thunder_storm_hail.p
 SHA1-Digest-Manifest: OiaJmyAsZw/9VmMMRctdukBJup8=
 
 Name: assets/search_engine/locale_zh_cn/data.json
-SHA1-Digest-Manifest: ONPBScJM5PElves8DNmquc9wG8U=
+SHA1-Digest-Manifest: 50IbgdxglIo+jrbZ4drcem4vztI=
 
 Name: assets/icon_opt/icon/www.jxedt.com.png
 SHA1-Digest-Manifest: qHwZSq+caBNakV5TV+8Bzs8zomY=
 
 Name: res/layout/search_suggestion_item.xml
-SHA1-Digest-Manifest: 9r4iLFeg92El9ZmDQf8QZ/fEwoI=
+SHA1-Digest-Manifest: DnCUaP+UEcXwUHg/Y9nCs6B7SPA=
 
 Name: res/layout/menubar_windows_number.xml
-SHA1-Digest-Manifest: fx3hYrxBZp6WA6LVS4mOe9ZjpQM=
+SHA1-Digest-Manifest: rvapoeKDuigGGKu9D0fUMYREGao=
 
 Name: assets/icon_opt/icon/www.yahoo.com.png
 SHA1-Digest-Manifest: qZldcqtMsm93qj46CwPWK9a3Vr4=
@@ -4827,7 +4887,7 @@ Name: assets/icon_opt/icon/m.caijing.com.cn.png
 SHA1-Digest-Manifest: NAmsTCIt3fEaxCTDLLlXIZvvR9A=
 
 Name: res/layout/leso_section_poster.xml
-SHA1-Digest-Manifest: HLOR3NZaCqo971mlYgda516sbqY=
+SHA1-Digest-Manifest: lDMpvZNcmR7EJg4aWY6tODoSjnA=
 
 Name: res/drawable-hdpi-v4/ic_dialog_browser_certificate_secure.png
 SHA1-Digest-Manifest: +WJLR0FUDPtF/27W6L6LDAWsrU0=
@@ -4860,7 +4920,7 @@ Name: res/drawable-xhdpi-v4/video_play_center.png
 SHA1-Digest-Manifest: wxSfraQnx/cxI230wD9OdW8wc1c=
 
 Name: res/layout/my_video_container.xml
-SHA1-Digest-Manifest: LkTLSSh2xDViemHb/0DwS22qCS8=
+SHA1-Digest-Manifest: 5y03jEL14d5/AYoXpkvUzHwMgXQ=
 
 Name: res/drawable-xhdpi-v4/ic_voice_search_holo_dark.png
 SHA1-Digest-Manifest: zY2ytj4HiovaQiiFDwEKiPmmIx0=
@@ -4898,14 +4958,14 @@ SHA1-Digest-Manifest: Ddo72dscoH7HcBpS6qQtpH8WoZ8=
 Name: assets/icon_opt/icon/wordreference.com.png
 SHA1-Digest-Manifest: J87QjM5bG+fyfPB/28m81hkm8Uk=
 
-Name: res/drawable/le_search_box_input_bg.xml
-SHA1-Digest-Manifest: FFOajuCWTypfshvIZTwQ1wz4PiE=
-
 Name: assets/icon_opt/icon/www.zhubajie.com.png
 SHA1-Digest-Manifest: ZwFKsd6E44pZhzugZlR467BuSN4=
 
 Name: assets/icon_opt/icon/m.baozoumanhua.com.png
 SHA1-Digest-Manifest: y8llYei67LDSVmbBo2JQy9arhc4=
+
+Name: res/drawable/le_search_box_input_bg.xml
+SHA1-Digest-Manifest: FFOajuCWTypfshvIZTwQ1wz4PiE=
 
 Name: assets/icon_opt/icon/yougou.com.png
 SHA1-Digest-Manifest: qeuNN8vf5sTK8DdIwZqku4ZHdEA=
@@ -4932,7 +4992,7 @@ Name: assets/icon_opt/icon/www.bilibili.com.png
 SHA1-Digest-Manifest: 7K1Wb5Bn81+USA91F8a0DhsRsxI=
 
 Name: res/menu/browser.xml
-SHA1-Digest-Manifest: TIXmXGvR7BIz+mqi5coogo030j8=
+SHA1-Digest-Manifest: uX1a90Qi2PA2x89Buhs+wt0ilaA=
 
 Name: res/drawable-xxhdpi-v4/le_ic_remove_quick_dial_night.png
 SHA1-Digest-Manifest: VcWATOOtnmhzA0t2Us6ifbimJUs=
@@ -4968,7 +5028,7 @@ Name: assets/icon_opt/icon/women.sohu.com.png
 SHA1-Digest-Manifest: HiETLtADkQ+d5gVBm+XTAYxZFDg=
 
 Name: res/layout/error_console.xml
-SHA1-Digest-Manifest: j9Pyw5TGDtU0WUWxPy3MMX0nFLE=
+SHA1-Digest-Manifest: epjLVFEP4wg0IPKQ5AGI42hRPzE=
 
 Name: res/drawable-xxhdpi-v4/le_ic_item_delete_disable.xml
 SHA1-Digest-Manifest: BFoB2VbyqVBn2KAwCLmcEeyyk2k=
@@ -4986,7 +5046,7 @@ Name: assets/icon_opt/icon/www.1ting.com.png
 SHA1-Digest-Manifest: hi/15+tcDn2U4FRoVA5W3oGtZP0=
 
 Name: res/layout/menu_window_item_share.xml
-SHA1-Digest-Manifest: UeZ/Euw9OmTFuA6DNDHswDj3cLs=
+SHA1-Digest-Manifest: OCeSyIYa4jD4f3420WBYZp8Mv2U=
 
 Name: res/drawable-xxhdpi-v4/le_ic_bookmark_empty.png
 SHA1-Digest-Manifest: Yisj+krDcDD3eC5cvB5z9Ua/cnA=
@@ -5030,6 +5090,9 @@ SHA1-Digest-Manifest: MUCbOohxjDgGnhew5q09kjE0sK4=
 Name: res/drawable-hdpi-v4/ic_incognito_holo_dark.png
 SHA1-Digest-Manifest: ELQesc3/ozL+IKuDzZiehPMN4X4=
 
+Name: res/drawable-xxhdpi-v4/menu_safari_icon_bg_normal.xml
+SHA1-Digest-Manifest: BpoTD4zZWk7ZUiF17PZVzvI7BiI=
+
 Name: res/drawable-xhdpi-v4/ic_dialog_browser_certificate_partially_se
  cure.png
 SHA1-Digest-Manifest: t86Ed95u/9rP0zX6RO/Cx/581rU=
@@ -5048,6 +5111,9 @@ SHA1-Digest-Manifest: /p0XSwhuPU/YC2156BLofC+xbSA=
 
 Name: assets/icon_opt/icon/m.airchina.com.cn.png
 SHA1-Digest-Manifest: ZNoRqx2z2Yx9+dsSTqurt6xQDd0=
+
+Name: assets/home/quickdial/icon/hk.shop.letv.com.png
+SHA1-Digest-Manifest: egk2aZhfKRqQnf7xSWNAGLOO47Q=
 
 Name: assets/home/quickdial/icon/gmail.com.png
 SHA1-Digest-Manifest: pWM2bnASRchdL3H4FvRDjBrmgkA=
@@ -5071,7 +5137,7 @@ Name: assets/icon_opt/icon/www.114la.com.png
 SHA1-Digest-Manifest: pTkYJrJGf81kz1DFwDpAJaOdGCg=
 
 Name: res/drawable/btn_checkbox_star.xml
-SHA1-Digest-Manifest: zsUIfsCo+qSCKnkXI99zZQQv5/4=
+SHA1-Digest-Manifest: lTxG6HYMv231hIFxyHzh6kzRqOY=
 
 Name: assets/home/quickdial/icon/www.amazon.com.png
 SHA1-Digest-Manifest: HMoEYpkfwB/ugwoJkWpuXQeo4Sc=
@@ -5119,10 +5185,10 @@ Name: res/drawable-xhdpi-v4/ic_dialog_browser_security_good.png
 SHA1-Digest-Manifest: nJLDYM10Fmoqs8rCkLinBPTaAM0=
 
 Name: res/layout/favourite_actionbar.xml
-SHA1-Digest-Manifest: G+4UiH88qDLLasYdUScX5/upKtY=
+SHA1-Digest-Manifest: dMA9TyP3MEsBoXpQKuz4s4v4GIw=
 
 Name: res/layout/history_header.xml
-SHA1-Digest-Manifest: 5nbUOn+h3kjXu7dZveGkApux8SA=
+SHA1-Digest-Manifest: G21Bnvpax8LDm2FXvJEU1eeP2dk=
 
 Name: assets/icon_opt/icon/www.jobsdb.com.png
 SHA1-Digest-Manifest: AXv6eo9YvzX1fkoXdwNKh938iRE=
@@ -5140,7 +5206,7 @@ Name: assets/icon_opt/icon/www.cn2che.com.png
 SHA1-Digest-Manifest: XTavJaz/oryO12bazL4g36MHADs=
 
 Name: res/layout/download_info.xml
-SHA1-Digest-Manifest: 2wn3JuaUVrwFIw68vUB0y/xKnew=
+SHA1-Digest-Manifest: pV22PbIruHTSL/4ctSprbP0NlqQ=
 
 Name: res/drawable-mdpi-v4/ic_forward_holo_dark.png
 SHA1-Digest-Manifest: 0z4DzuTGdL3gQ2Cmw0XvfRvZkGA=
@@ -5149,7 +5215,7 @@ Name: assets/icon_opt/icon/www.uuu9.com.png
 SHA1-Digest-Manifest: 19uD6/gXwbJIzQlVPsj+LkYQruw=
 
 Name: assets/icon_opt/icon/m.letv.com.png
-SHA1-Digest-Manifest: OhXzc5uqOj34ZHUA4wJuzDNTPcc=
+SHA1-Digest-Manifest: zp1v9YNfIla3Uo4HcDgNkD8sNyA=
 
 Name: assets/home/nav_a/icon/m.soccer.sina.com.hk.png
 SHA1-Digest-Manifest: 0xbHRP8gFzmaUGJdySSB5TOmitw=
@@ -5158,7 +5224,7 @@ Name: res/anim/recents_launch_from_launcher_exit.xml
 SHA1-Digest-Manifest: dRIIacoaoH9XiekQ6bMXyVPOooM=
 
 Name: res/layout/selete_save_path_file_item.xml
-SHA1-Digest-Manifest: JT3FAfurFhT+p4/UPV3KF6acIAQ=
+SHA1-Digest-Manifest: BKLzO0Mw11BhMQ6cCr86EnrfXgs=
 
 Name: assets/icon_opt/icon/www.onlylady.com.png
 SHA1-Digest-Manifest: 41AHrwNgOwdmy3+3puomEgCsPuU=
@@ -5188,7 +5254,7 @@ Name: assets/icon_opt/icon/www.marketwatch.com.png
 SHA1-Digest-Manifest: tGq8bQX0rLD6AH0w3fS3FEjCZys=
 
 Name: res/layout/home_page_scroll_container.xml
-SHA1-Digest-Manifest: QxiEkyXVw1zeViW0Ony7cmMcvyU=
+SHA1-Digest-Manifest: UVQT33hw1zGf1SwrVeZE8R8nJ6U=
 
 Name: assets/icon_opt/icon/www.douban.com.png
 SHA1-Digest-Manifest: aFhZ12kubdVvPJaK7C7euouHDxs=
@@ -5209,7 +5275,7 @@ Name: assets/icon_opt/icon/3g.mop.com.png
 SHA1-Digest-Manifest: NT+j4lYhZSe/9+7MrYxKWwHnJYs=
 
 Name: res/drawable/video_play_start_selector.xml
-SHA1-Digest-Manifest: 51FiIirpBNPcLK93W4UJHpMkifs=
+SHA1-Digest-Manifest: 3Ys4UI+zaGPb3JsHajRFvVECvTc=
 
 Name: res/drawable-xxhdpi-v4/le_ic_download_ppt.png
 SHA1-Digest-Manifest: VSJfFOBdb4K3wOKnRUNzqHeLqYI=
@@ -5230,7 +5296,7 @@ Name: assets/icon_opt/icon/www.zaobao.com.png
 SHA1-Digest-Manifest: mN1HD2iSYGewaCkECzSNmaPOZzo=
 
 Name: assets/search_engine/icon/le_ic_search_video.png
-SHA1-Digest-Manifest: ikxhLq3W/CL+MqyyxGw64DYZH8Y=
+SHA1-Digest-Manifest: DbIActu3Td9SkLUeFrCICSIBuoE=
 
 Name: res/drawable-hdpi-v4/thumbnail_bookmarks_widget_no_bookmark_holo
  .png
@@ -5240,7 +5306,7 @@ Name: assets/icon_opt/icon/www.mofcom.gov.cn.png
 SHA1-Digest-Manifest: LE+3vhy9FY32220ah2dTdsHOPug=
 
 Name: resources.arsc
-SHA1-Digest-Manifest: jKq6b4Pry4rG/KIn+l2jHSnL5lY=
+SHA1-Digest-Manifest: GSQa9fx3V+aIh/dtpsOEj7ARqmg=
 
 Name: res/drawable-mdpi-v4/ic_list_data_large.png
 SHA1-Digest-Manifest: NQNugOxJ7FS9USl5d9TvX2eoeO4=
@@ -5261,7 +5327,7 @@ Name: assets/icon_opt/icon/qianlong.com.png
 SHA1-Digest-Manifest: X+GX4OXSIA8fSmuUfLByZ1ZYv4U=
 
 Name: res/layout/browser_add_bookmark_content.xml
-SHA1-Digest-Manifest: rbdgkQkhlZ/NL1Gp7cBAcq5rYsA=
+SHA1-Digest-Manifest: 3dAqfbE6Atft/buhqwo+e97HHDo=
 
 Name: assets/home/nav_a/icon/m.china.nba.com.png
 SHA1-Digest-Manifest: xDZOYwvXB2/8hsZzmhdoaBP880E=
@@ -5291,7 +5357,7 @@ Name: assets/icon_opt/icon/www.jrj.com.cn.png
 SHA1-Digest-Manifest: TsQGfN8FafbdfM0+J7CI9g0rVAE=
 
 Name: res/drawable/cust_seekbar_thumb.xml
-SHA1-Digest-Manifest: L5d0lCQ14wx95DmtQrw7o/awhO4=
+SHA1-Digest-Manifest: xYjSpISQQhTDnDmZVYmtuL7Q4Ic=
 
 Name: res/xml-sw600dp-v13/advanced_preferences.xml
 SHA1-Digest-Manifest: OWIJ4J0wkFN13V9hr5F7UfeX3HA=
@@ -5309,13 +5375,13 @@ Name: res/drawable-hdpi-v4/ic_web_holo_dark.png
 SHA1-Digest-Manifest: ubdT+tBosdEnHY17/L9ozuvxRRI=
 
 Name: assets/home/quickdial/icon/m.letv.com.png
-SHA1-Digest-Manifest: osXW1Y0aG9P64ClhGrXEGohmfg0=
+SHA1-Digest-Manifest: rYNYeylK4r6wWMieFl9XwRr//lE=
 
 Name: res/layout/video_view.xml
-SHA1-Digest-Manifest: P413lAvwtAQcd2P2+/ZDLgd+TfQ=
+SHA1-Digest-Manifest: /ZxDcqlrqMfT4zZpC0ALQL7/0c8=
 
 Name: res/layout/activity_selete_file_save_path.xml
-SHA1-Digest-Manifest: DG30+WYRzkxAiiA5sYnQcHcRBt8=
+SHA1-Digest-Manifest: KjN+b3p4ZJc6+Mgjj7i7gxNYBHY=
 
 Name: assets/icon_opt/icon/view.163.com.png
 SHA1-Digest-Manifest: D6tembt02ItQZnEwJfHsCfvHYBw=
@@ -5339,16 +5405,13 @@ Name: assets/icon_opt/icon/www.cathaypacific.com.png
 SHA1-Digest-Manifest: kdbIpXGaNEdL8eC0+yp9ssDtQms=
 
 Name: res/layout-sw600dp-v13/title_bar_nav.xml
-SHA1-Digest-Manifest: wcGwF6Oj/tzSchoBlf8KY5StwsU=
+SHA1-Digest-Manifest: CfpekEgMpbtlQMxgDRPu0q9GfMw=
 
 Name: res/drawable/bookmark_thumb_selector_transition.xml
 SHA1-Digest-Manifest: l8f66ZqJy2SlNaP8XIK2xEUFwl4=
 
 Name: res/drawable-xxhdpi-v4/video_tiny_window.png
 SHA1-Digest-Manifest: PO8mHMU4tBxkarT4fWNqZMgMAdw=
-
-Name: assets/home/quickdial/icon/news.uc.cn.png
-SHA1-Digest-Manifest: dadVgnEV0zD627pn0LjJx9uCz30=
 
 Name: assets/icon_opt/icon/m.youtube.com.png
 SHA1-Digest-Manifest: FnwywBbEw5Vc6NxeLNSwYnh/JZA=
@@ -5421,7 +5484,7 @@ Name: assets/home/quickdial/icon/m.bhaskar.com.png
 SHA1-Digest-Manifest: XbKHcupilbkNR5R5CEghyA6kXB4=
 
 Name: res/layout/ssl_success.xml
-SHA1-Digest-Manifest: rGduDnG7KIDJ08seVRuJ0HX00E8=
+SHA1-Digest-Manifest: yj2LeSfpbApNePZu2twdZ+lVTa8=
 
 Name: res/drawable/multi_window_view_incognito_off_bg.xml
 SHA1-Digest-Manifest: JenNuZ2XFRbFsnZua1kH4hMvaNE=

@@ -3,10 +3,10 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/prv/res/android">
     <PreferenceCategory android:title="@string/pref2_general_title" android:key="category_general">
-        <com.android.browser.preferences.NonformattingListPreference android:entries="@array/pref_homepage_choices" android:layout="@android:layout/le_preference_list2" android:title="@string/pref_content_homepage" android:key="homepage_picker" android:entryValues="@array/pref_homepage_values" />
-        <com.android.browser.search.SearchEnginePreference android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_titlebar_search_engine" android:key="search_engine" android:dialogTitle="@string/pref_content_search_engine" />
-        <com.letv.leui.preference.LeListPreference android:entries="@array/user_agent_title" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_user_agent" android:key="user_agent" android:dialogTitle="@string/pref2_content_user_agent" />
-        <com.android.browser.preferences.IntegerListPreference android:entries="@array/text_zoom_title" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_font_size" android:key="text_zoom" android:defaultValue="10" android:dialogTitle="@string/pref2_content_font_size" android:entryValues="@array/text_zoom" />
+        <com.android.browser.preferences.NonformattingListPreference android:entries="@array/pref_homepage_choices" android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref_content_homepage" android:key="homepage_picker" android:entryValues="@array/pref_homepage_values" />
+        <com.android.browser.search.SearchEnginePreference android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref2_titlebar_search_engine" android:key="search_engine" android:dialogTitle="@string/pref_content_search_engine" />
+        <com.letv.leui.preference.LeListPreference android:entries="@array/user_agent_title" android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref2_user_agent" android:key="user_agent" android:dialogTitle="@string/pref2_content_user_agent" />
+        <com.android.browser.preferences.IntegerListPreference android:entries="@array/text_zoom_title" android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref2_font_size" android:key="text_zoom" android:defaultValue="10" android:dialogTitle="@string/pref2_content_font_size" android:entryValues="@array/text_zoom" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/pref2_optimize_title" android:key="category_optimize">
         <SwitchPreference android:title="@string/pref2_adblock" android:key="adblock" android:defaultValue="true" />
@@ -14,19 +14,19 @@
         <SwitchPreference android:title="@string/pref2_webview_scroll_fullscreen" android:key="webview_scroll_fullscreen" android:defaultValue="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/pref2_advanced" android:key="category_advanced">
-        <com.android.browser.preferences.IntegerListPreference android:entries="@array/geolocation_entry" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_privacy_enable_geolocation" android:key="geolocation_enquire_type" android:defaultValue="1" android:dialogTitle="@string/pref2_privacy_enable_geolocation" android:entryValues="@array/geolocation_entry_value" />
+        <com.android.browser.preferences.IntegerListPreference android:entries="@array/geolocation_entry" android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref2_privacy_enable_geolocation" android:key="geolocation_enquire_type" android:defaultValue="1" android:dialogTitle="@string/pref2_privacy_enable_geolocation" android:entryValues="@array/geolocation_entry_value" />
         <SwitchPreference android:title="@string/pref_security_accept_cookies" android:key="accept_cookies" android:summary="@string/pref_security_accept_cookies_summary" android:defaultValue="true" />
         <SwitchPreference android:title="@string/pref_security_remember_passwords" android:key="remember_passwords" android:summary="@string/pref_security_remember_passwords_summary" android:defaultValue="true" />
         <SwitchPreference android:title="@string/pref_security_save_form_data" android:key="save_formdata" android:summary="@string/pref_security_save_form_data_summary" android:defaultValue="true" />
         <SwitchPreference android:title="@string/pref_content_javascript" android:key="enable_javascript" android:defaultValue="true" />
         <SwitchPreference android:title="@string/pref_content_block_popups" android:key="block_popup_windows" android:defaultValue="true" />
         <SwitchPreference android:title="@string/pref_content_full_screen" android:key="fullscreen" android:defaultValue="false" />
-        <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_title_clear_data" android:key="clear_browser_data" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+        <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref2_title_clear_data" android:key="clear_browser_data" android:widgetLayout="@android:layout/le_preference_widget_arrow">
             <intent android:targetPackage="com.android.browser" android:action="android.intent.action.SETTINGS_CLEAR_DATA" android:targetClass="com.android.browser.settings.BrowserClearDataPage" />
         </PreferenceScreen>
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/pref2_debug_settings" android:key="category_debug">
-        <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/pref2_debug_settings" android:key="debug_option" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+        <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/pref2_debug_settings" android:key="debug_option" android:widgetLayout="@android:layout/le_preference_widget_arrow">
             <intent android:targetPackage="com.android.browser" android:action="android.intent.action.SETTINGS_DEBUG_OPTION" android:targetClass="com.android.browser.settings.BrowserDebugSettingPage" />
         </PreferenceScreen>
     </PreferenceCategory>

@@ -416,6 +416,7 @@
     <string name="menu_icon_find_in_page">Search</string>
     <string name="menu_icon_night_mode">Night</string>
     <string name="menu_icon_day_mode">Day</string>
+    <string name="menu_icon_page_save">Save page</string>
     <string name="menu_icon_open_setting_page">Settings</string>
     <string name="menu_icon_page_flash">Refresh</string>
     <string name="menu_icon_go_forward">Next</string>
@@ -518,7 +519,7 @@
     <string name="searchpage_clear_all_history">Delete search history</string>
     <string name="common_share_title">Superphone Browser</string>
     <string name="common_share_text">"I'm using Superphone Browser! Join me!"</string>
-    <string name="url_share_text">"I'm watching [%s], come check it out!"</string>
+    <string name="url_share_text">Look what I found [%s], come and check it out!</string>
     <string name="send_give">Send give</string>
     <string name="send_to">Send to</string>
     <string name="add_to">Add to</string>
@@ -591,6 +592,7 @@
     <string name="download_error_io">Download failed</string>
     <string name="download_status_pause">Paused</string>
     <string name="download_status_waiting">Waiting</string>
+    <string name="download_status_failed">Download failed，try again</string>
     <string name="download_deleted">File has been deleted</string>
     <string name="download_open">open</string>
     <string name="download_noSize">Unknown Size</string>
@@ -598,11 +600,12 @@
     <string name="download_not_supported">This file type is not supported</string>
     <string name="download_no_memory">Download failed, no memory</string>
     <string name="download_fail_dir">Download failed，dir invalid</string>
-    <string name="download_wifi_no_connect">Wifi no connected,Pause All</string>
+    <string name="download_wifi_no_connect">Wi-Fi no connected,Pause All</string>
     <string name="title_activity_test_download">TestDownloadActivity</string>
     <string name="title_activity_test_download_info">TestDownloadInfoActivity</string>
     <string name="title_activity_test_download_http">ResultsConsoleActivity</string>
     <string name="download_wifi_no_conncet">Wi-Fi disconnected, all tasks are paused, need continued in mobile?</string>
+    <string name="download_wifi_disconnected">Wi-Fi disconnected, all tasks are paused</string>
     <string name="download_sdcard_no_space">Download failed，no space</string>
     <string name="download_failed_system_error">Download failed，system error</string>
     <string name="download_no_supported_continue">File unable to continue ，Pause？</string>
@@ -611,6 +614,9 @@
     <string name="download_selete_sure_selete_save_path">Confirm</string>
     <string name="download_selete_cancel_selete_save_path">Cancel</string>
     <string name="download_selete_no_sdcard">No SD card</string>
+    <string name="notification_download_completed">Download completed</string>
+    <string name="notification_download_failed">Download failed</string>
+    <string name="download_confirm_in_mobile">Currently in moblie，need continued？</string>
     <string name="download_test_text">Network speed test</string>
     <string name="download_test_ping">ping Time delay</string>
     <string name="download_test_current_speed">Current speed</string>

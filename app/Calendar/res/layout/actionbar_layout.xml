@@ -2,7 +2,7 @@
 <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView android:textSize="19.0dip" android:textColor="@color/sub_basic" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" />
-    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="150.0dip" android:layout_height="28.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
         <RadioButton android:id="@id/rb_day" android:text="@string/week_label" style="@style/main_tab_bottom" />
         <View android:background="#80bcbcbc" android:layout_width="1.0px" android:layout_height="18.0dip" />
         <RadioButton android:id="@id/rb_month" android:text="@string/month_label" style="@style/main_tab_bottom" />

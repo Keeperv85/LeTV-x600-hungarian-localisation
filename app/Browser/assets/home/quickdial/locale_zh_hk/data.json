@@ -1,7 +1,7 @@
 {
     "errno": 10000,
     "errmsg": "",
-    "v": "20151211000000",
+    "v": "20151221200500",
     "data": [
         {
             "uuid": 1,
@@ -12,8 +12,8 @@
                 "zh_hk": "樂視商城",
                 "zh_tw": "樂視商城"
             },
-            "url": "http://m.lemall.com/",
-            "icon": "m.lemall.com.png",
+            "url": "http://hk.shop.letv.com/index.html",
+            "icon": "hk.shop.letv.com.png",
             "rank": 1,
             "color": "#e33a48",
             "type": 1,

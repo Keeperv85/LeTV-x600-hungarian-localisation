@@ -1,6 +1,6 @@
 {
     "errno": 10000,
-    "v": "20151211000000",
+    "v": "20160118000000",
     "apiname": "normal",
     "data": [
         {
@@ -28,8 +28,8 @@
                 "zh_hk": "熱文",
                 "zh_tw": "熱文"
             },
-            "url": "http://news.uc.cn/new/xinwen/p/news.html",
-            "icon": "news.uc.cn.png",
+            "url": "http://www.100toutiao.com/",
+            "icon": "www.100toutiao.com.png",
             "rank": "2",
             "color": "#42ae3c",
             "lang": "zh_cn",
@@ -58,12 +58,12 @@
             "uuid": "2148",
             "name": {
                 "en_us": "Letv",
-                "zh_cn": "乐视网",
-                "zh_hk": "樂視網",
-                "zh_tw": "樂視網"
+                "zh_cn": "乐视视频",
+                "zh_hk": "樂視視頻",
+                "zh_tw": "樂視視頻"
             },
-            "url": "http://m.letv.com/",
-            "icon": "m.letv.com.png",
+            "url": "http://letv.com/",
+            "icon": "letv.com.png",
             "rank": "4",
             "color": "#e64c59",
             "lang": "zh_cn",

@@ -45,8 +45,14 @@
     <color name="menu_bar_window_number_color">#ff6a6b6c</color>
     <color name="menu_bar_divider_bg_night">#ff414145</color>
     <color name="menu_window_divider_color">#fff8f8f8</color>
-    <color name="menu_window_item_pressed">#ffe8e8e8</color>
-    <color name="menu_window_item_pressed_night">#ff9e9e9e</color>
+    <color name="menu_window_item_pressed">#ffececec</color>
+    <color name="menu_window_item_pressed_night">#ff0d0e11</color>
+    <color name="menu_window_recyclerview_bg">#fff8f8f8</color>
+    <color name="menu_window_recyclerview_bg_night">#ff111216</color>
+    <color name="menu_window_view">#ffe3e3e3</color>
+    <color name="menu_window_view_night">#ff1e2027</color>
+    <color name="menu_window_item">#ff4c4d4e</color>
+    <color name="menu_window_item_night">#ff525252</color>
     <color name="recents_task_bar_default_background_color">#ffe6e6e6</color>
     <color name="recents_task_bar_light_text_color">#ffeeeeee</color>
     <color name="recents_task_bar_dark_text_color">#cc000000</color>

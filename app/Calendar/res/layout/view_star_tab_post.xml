@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/empty_view" android:layout="@layout/view_empty_post_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/reload_view" android:layout="@layout/view_reloading_post_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dpt23.android.support.v7.widget.RecyclerView android:id="@id/rv_demo" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#ffc6c7cb" android:dividerHeight="1.0px" android:fadeScrollbars="false" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</FrameLayout>

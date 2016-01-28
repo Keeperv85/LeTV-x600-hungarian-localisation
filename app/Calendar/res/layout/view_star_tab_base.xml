@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dpt23.android.support.v4.widget.NestedScrollView android:layout_gravity="fill_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/vs_status_loading" android:layout="@layout/view_star_tab_status_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/vs_status_empty" android:layout="@layout/view_star_tab_status_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/vs_status_reloading" android:layout="@layout/view_star_tab_status_reloading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</dpt23.android.support.v4.widget.NestedScrollView>

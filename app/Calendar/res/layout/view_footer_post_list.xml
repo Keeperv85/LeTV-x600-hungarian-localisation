@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_toRightOf="@id/nomoredata" android:layout_centerInParent="true" />
+    <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_toLeftOf="@id/nomoredata" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff898b9c" android:id="@id/nomoredata" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/star_page_nodata" android:layout_centerInParent="true" />
+</RelativeLayout>

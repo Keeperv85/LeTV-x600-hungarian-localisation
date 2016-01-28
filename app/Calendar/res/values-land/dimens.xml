@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_material">0.0dip</dimen>
     <dimen name="action_bar_date_text_size">18.0sp</dimen>
     <dimen name="recurrence_picker_height">281.0dip</dimen>
     <dimen name="recurrence_picker_width">500.0dip</dimen>

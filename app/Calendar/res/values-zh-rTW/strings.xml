@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_bar_home_description_format">%1$s：%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s - %2$s：%3$s</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
     <string name="recommend_label_more">更多</string>
     <string name="recommend_item_more">查看更多</string>
     <string name="recommend_calendar_buy">購買</string>
+    <string name="loading">載入中…</string>
     <string name="app_label">日曆</string>
     <string name="what_label">主題</string>
     <string name="where_label">地點</string>
@@ -100,7 +116,6 @@
     <string name="agenda_today">今天</string>
     <string name="agenda_yesterday">昨天</string>
     <string name="agenda_tomorrow">明天</string>
-    <string name="loading">載入中…</string>
     <string name="show_older_events">輕觸即可瀏覽 %1$s之前的活動</string>
     <string name="show_newer_events">輕觸即可瀏覽 %1$s之後的活動</string>
     <string name="search_title">搜尋我的日曆</string>
@@ -251,6 +266,7 @@
     <string name="cannot_create_event">無法建立排程</string>
     <string name="msg_event_create_error">開始時間必須早於結束時間</string>
     <string name="bt_ok">知道了</string>
+    <string name="not_found_map_tip">偵測到您未安裝任何地圖應用程式</string>
     <string name="no_login_letv_account">未登入帳戶</string>
     <string name="msg_no_login_letv_account">您尚未登入樂視帳戶</string>
     <string name="bt_go_login">登入</string>
@@ -277,7 +293,9 @@
     <string name="subscribe_lable_home">首頁</string>
     <string name="subscribe_loading">正在下載...</string>
     <string name="tag_content_title_latest_event">最新動態</string>
+    <string name="tag_content_title_programs">節目更新</string>
     <string name="tag_content_title_latest_game">最近賽程</string>
+    <string name="tag_content_title_furcher_game">未來賽程</string>
     <string name="lable_reminder_time">提醒時間</string>
     <string name="lable_tv_play_reminder">電視臺首播提醒</string>
     <string name="lable_res_online">資源上線提醒</string>
@@ -442,6 +460,11 @@
     <string name="event_source_net">全網視頻</string>
     <string name="event_edit_data_format">yyyy/MM/dd</string>
     <string name="day_event_watch_more">查看更多有趣日曆</string>
+    <string name="tv_album_update_to">更新至%s集</string>
+    <string name="variety_album_update_to">更新至%s期</string>
+    <string name="tv_album_over">%s集全</string>
+    <string name="variety_album_over">%s期全</string>
+    <string name="title_album_full_list">全部節目</string>
     <string name="hint_search_event">搜尋行事曆項目</string>
     <string name="hint_search_tag">搜尋訂閱項目</string>
     <string name="msg_none_recently">資源即將更新，點選查看劇集預告</string>

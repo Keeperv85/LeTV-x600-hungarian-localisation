@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:background="@color/application_main_color_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.browser.actionbar.CustomActionbar android:id="@id/custom_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <RelativeLayout android:id="@id/download_fragment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/browserdownload_actionbar_bottom" android:layout_below="@id/custom_action_bar">
-        <fragment android:name="com.android.download.ui.DownloadBrowserFragment" android:id="@id/fragment_track_browser" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/view" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <com.android.browser.actionbar.CustomActionbar android:id="@id/custom_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/view" />
+    <RelativeLayout android:id="@id/download_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/browserdownload_actionbar_bottom" android:layout_below="@id/custom_action_bar">
+        <fragment android:name="com.android.download.ui.DownloadBrowserFragment" android:id="@id/fragment_track_browser" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </RelativeLayout>
     <RelativeLayout android:gravity="center_vertical" android:id="@id/browserdownload_actionbar_bottom" android:background="@color/application_main_color_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
         <View android:id="@id/browserdownload_custom_view_bottom" android:background="@color/download_normal_view" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginTop="0.0dip" android:layout_alignParentTop="true" />

@@ -245,14 +245,14 @@
     <string name="pref_data_title">Bandwidth management</string>
     <string name="pref_data_preload_title">Search result preloading</string>
     <string name="pref_data_preload_value_never">NEVER</string>
-    <string name="pref_data_preload_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_data_preload_value_wifi_only">Wi-Fi_ONLY</string>
     <string name="pref_data_preload_value_always">ALWAYS</string>
     <string name="pref_data_preload_default_value">@string/pref_data_preload_value_wifi_only</string>
     <string name="pref_data_preload_summary">Allow browser to preload high confidence search results in the background</string>
     <string name="pref_data_preload_dialogtitle">Search result preloading</string>
     <string name="pref_link_prefetch_title">Web page preloading</string>
     <string name="pref_link_prefetch_value_never">NEVER</string>
-    <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
+    <string name="pref_link_prefetch_value_wifi_only">Wi-Fi_ONLY</string>
     <string name="pref_link_prefetch_value_always">ALWAYS</string>
     <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
     <string name="pref_link_prefetch_summary">Allow browser to preload linked web pages in the background</string>
@@ -446,6 +446,7 @@
     <string name="menu_icon_find_in_page">Search</string>
     <string name="menu_icon_night_mode">Night</string>
     <string name="menu_icon_day_mode">Day mode</string>
+    <string name="menu_icon_page_save">Save page</string>
     <string name="menu_icon_open_setting_page">Settings</string>
     <string name="menu_icon_page_flash">Refresh</string>
     <string name="menu_icon_go_forward">Next</string>
@@ -547,6 +548,7 @@
     <string name="pref2_check_safari_menu">Safari Menu</string>
     <string name="pref2_iconopt_debug">IconOpt Debug</string>
     <string name="pref2_iconopt_debug_dialog_message">Loading data, please wait</string>
+    <string name="pref2_ecowebview">EcoWebView</string>
     <string name="text_4D">4D video</string>
     <string name="test_text">test</string>
     <string name="searchpage_search">Search</string>
@@ -554,11 +556,12 @@
     <string name="searchpage_clear_all_history">Delete search history</string>
     <string name="common_share_title">Superphone Browser</string>
     <string name="common_share_text">I am using Superphone Browser! Join me!</string>
-    <string name="url_share_text">I am watching [%s], come check it out!</string>
+    <string name="url_share_text">Look what I found [%s], come and check it out!</string>
     <string name="send_give">Send give</string>
     <string name="send_to">Send to</string>
     <string name="add_to">Add to</string>
     <string name="save_to">Save to</string>
+    <string name="le_share_to">分享到</string>
     <string name="multi_window_bottom_bar_finish">Finish</string>
     <string name="msg_save_success">Saved</string>
     <string name="on_low_memory">Insufficient memory</string>
@@ -628,6 +631,7 @@
     <string name="download_error_io">Download failed</string>
     <string name="download_status_pause">Pause</string>
     <string name="download_status_waiting">Waiting</string>
+    <string name="download_status_failed">Download failed，try again</string>
     <string name="download_deleted">File has been deleted</string>
     <string name="download_open">open</string>
     <string name="download_noSize">Unknown Size</string>
@@ -635,11 +639,12 @@
     <string name="download_not_supported">This file type is not supported</string>
     <string name="download_no_memory">Download failed, no memory</string>
     <string name="download_fail_dir">Download failed，dir invalid</string>
-    <string name="download_wifi_no_connect">Wifi no connected,Pause All</string>
+    <string name="download_wifi_no_connect">Wi-Fi no connected,Pause All</string>
     <string name="title_activity_test_download">TestDownloadActivity</string>
     <string name="title_activity_test_download_info">TestDownloadInfoActivity</string>
     <string name="title_activity_test_download_http">ResultsConsoleActivity</string>
     <string name="download_wifi_no_conncet">Wi-Fi disconnected, all tasks are paused, need continued in mobile?</string>
+    <string name="download_wifi_disconnected">Wi-Fi disconnected, all tasks are paused</string>
     <string name="download_sdcard_no_space">Download failed，no space</string>
     <string name="download_failed_system_error">Download failed，system error</string>
     <string name="download_no_supported_continue">File unable to continue ，Pause？</string>
@@ -648,6 +653,10 @@
     <string name="download_selete_sure_selete_save_path">Confirm</string>
     <string name="download_selete_cancel_selete_save_path">Cancel</string>
     <string name="download_selete_no_sdcard">No SD card</string>
+    <string name="notification_download_completed">Download completed</string>
+    <string name="notification_download_failed">Download failed</string>
+    <string name="download_confirm_in_mobile">Currently in moblie，need continued？</string>
+    <string name="le_download_url_empty">url为空，无法下载</string>
     <string name="download_test_text">Network speed test</string>
     <string name="download_test_ping">ping Time delay</string>
     <string name="download_test_current_speed">Current speed</string>
@@ -676,4 +685,7 @@
     <string name="set_wallpaper_success">Set wallpaper successfully</string>
     <string name="shortcut_already_exist">Shortcut already exist</string>
     <string name="pref2_download_log_writer">Write download log</string>
+    <string name="le_use_current_page_prompt_title">提示信息</string>
+    <string name="le_use_current_page_prompt_message">窗口数量已达上限,是否使用当前页面打开链接?</string>
+    <string name="le_use_current_page_prompt_confirm">继续</string>
 </resources>

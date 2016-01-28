@@ -20,10 +20,18 @@
                 <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="8.0dip" />
                 <LinearLayout android:orientation="vertical" android:id="@id/le_res_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/le_furcher_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/subscribe_detail_margin_horizontal" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/subscribe_detail_margin_horizontal" android:layout_below="@id/le_recently_layout">
+                <RelativeLayout android:id="@id/le_furcher_title_row" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/le_furcher_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="regular" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/le_furcher_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                        <TextView android:textSize="@dimen/calendar_detail_title_size" android:textColor="@color/subscribe_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lable_all" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/icon_arrow_right" android:scaleType="fitXY" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:background="@color/edit_event_text_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="8.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/le_furcher_res_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
         </RelativeLayout>
-        <LinearLayout android:id="@id/le_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/subscribe_detail_margin_horizontal" android:layout_marginRight="@dimen/subscribe_detail_margin_horizontal">
-            <include layout="@layout/subscribe_setting_layout" />
-        </LinearLayout>
         <com.letv.leui.common.recommend.widget.LeRecommendViewGroup android:id="@id/lrvg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/shape_recommend_divider_line" android:showDividers="middle" />
     </LinearLayout>
 </com.letv.calendar.view.NotifyingScrollView>

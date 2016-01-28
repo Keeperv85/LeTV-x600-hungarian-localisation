@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_container" android:background="@drawable/almanac_header_bk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.letv.leui.widget.LeTextView android:textSize="118.0sp" android:textColor="@color/white" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" />
+            <com.letv.leui.widget.LeTextView android:textColor="@color/white" android:id="@id/tv_lunaryear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" />
+            <com.letv.leui.widget.LeTextView android:textColor="@color/white" android:id="@id/tv_lunarday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="16.0dip" />
+        </LinearLayout>
+        <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="18.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:weightSum="2.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="54.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="#ffd42323" android:gravity="center" android:background="@drawable/almanac_yi_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yi" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffd42323" android:gravity="center" android:id="@id/tv_yi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="24.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="54.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="#ff2b7f43" android:gravity="center" android:background="@drawable/almanac_ji_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ji" android:maxLength="15" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff2b7f43" android:gravity="center" android:id="@id/tv_ji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="24.0dip" android:maxLength="15" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffd12323" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/zhushen" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="42.0dip" android:weightSum="4.0">
+            <TextView android:textSize="12.0sp" android:textColor="#ff54555c" android:id="@id/tv_caishen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff54555c" android:id="@id/tv_xishen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff54555c" android:id="@id/tv_fushen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff54555c" android:id="@id/tv_shengmen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginRight="42.0dip">
+                <TextView android:textColor="#ffd42323" android:gravity="center" android:background="@drawable/almanac_normal_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/peng" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_pengzu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/pengzu" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_pengzuinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="#ffd42323" android:gravity="center" android:background="@drawable/almanac_normal_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tai" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_tai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/taishen" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_taiinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip">
+                    <TextView android:textColor="#ffd42323" android:gravity="center" android:background="@drawable/almanac_normal_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xing" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_xing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/xingxiu" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_xinginfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip" android:layout_weight="1.0">
+                    <TextView android:textColor="#ffd42323" android:gravity="center" android:background="@drawable/almanac_normal_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sha" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_sha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/shashen" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_shainfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="15.0dip" android:minLines="2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip">
+                    <TextView android:textColor="#ffd42323" android:gravity="center" android:background="@drawable/almanac_normal_bk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sxing" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/wuxing" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff898b94" android:id="@id/tv_starinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="15.0dip" android:minLines="2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -443,6 +443,9 @@
         <item>Other live broadcasts</item>
         <item>Documentary</item>
         <item>Movie</item>
+        <item>节日</item>
+        <item>生活</item>
+        <item>热点</item>
     </string-array>
     <string-array name="timezone_rename_ids">
         <item>Australia/Darwin</item>

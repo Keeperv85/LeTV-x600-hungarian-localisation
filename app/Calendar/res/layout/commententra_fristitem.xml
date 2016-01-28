@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ImageView android:id="@id/item1_userhead" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textColor="#ff898b94" android:id="@id/item1_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/user_name" />
+    <TextView android:id="@id/item1_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="8.0dip" android:text="@string/comment_text" android:layout_below="@id/item1_username" />
+    <TextView android:id="@id/item1_viewStub" android:background="#fff6f6f7" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/item1_content" />
+    <TextView android:textColor="#ffc6c7cb" android:id="@id/item1_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@id/item1_viewStub" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:textSize="10.0sp" android:textColor="#ffc6c7cb" android:id="@id/item1_goodcount" android:paddingTop="8.0dip" android:paddingBottom="12.0dip" android:clickable="true" android:layout_width="28.0dip" android:layout_height="wrap_content" android:layout_below="@id/item1_viewStub" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/item1_good" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ico_hand" android:layout_toLeftOf="@id/item1_goodcount" android:layout_below="@id/item1_viewStub" />
+</RelativeLayout>

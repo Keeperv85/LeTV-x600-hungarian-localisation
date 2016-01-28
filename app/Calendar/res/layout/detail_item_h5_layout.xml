@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/webview_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.pulltorefresh.PullToRefreshWebView android:id="@id/h5_webview" android:background="#ffffffff" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lePtrMode="pullFromStart" android:lePtrAnimationStyle="rotate" />
+</LinearLayout>

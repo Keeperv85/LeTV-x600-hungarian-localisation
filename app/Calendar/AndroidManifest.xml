@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserLabel="@string/app_label" package="com.android.calendar" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-10">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserLabel="@string/app_label" package="com.android.calendar" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <permission android:name="com.android.calendar.permission.PUSH_RECEIVER" android:protectionLevel="signature"/>
     <permission android:name="com.android.calendar.permission.ECO_TAGS_CHANGED_RECEIVER"/>
@@ -27,9 +27,11 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.letv.android.account.permission.ACCOUNT_RELEVANT"/>
     <application android:backupAgent="com.android.calendar.CalendarBackupAgent" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher_calendar" android:label="@string/app_label" android:name="CalendarApplication" android:requiredAccountType="*" android:taskAffinity="android.task.calendar">
         <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIM256oVOGnuSel5QKDpL8je_T65ZI8rFnDinssA"/>
-        <activity android:exported="true" android:label="@string/app_label" android:launchMode="singleTask" android:name="AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar" android:windowSoftInputMode="adjustNothing">
+        <activity android:exported="true" android:label="@string/app_label" android:name="AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar" android:windowSoftInputMode="adjustNothing">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -49,6 +51,7 @@
             </intent-filter>
         </activity>
         <activity-alias android:exported="true" android:name="LaunchActivity" android:targetActivity=".AllInOneActivity"/>
+        <activity android:name=".AlmanacActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay"/>
         <activity android:launchMode="singleTask" android:name=".EventInfoActivity2" android:parentActivityName="com.android.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
@@ -61,7 +64,7 @@
             </intent-filter>
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.calendar.AllInOneActivity"/>
         </activity>
-        <activity android:launchMode="singleTask" android:name=".event.EditEventActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar" android:windowSoftInputMode="adjustResize">
+        <activity android:launchMode="singleTask" android:name=".event.EditEventActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar" android:windowSoftInputMode="adjustResize|stateVisible">
             <intent-filter>
                 <action android:name="com.android.calendar.ACTION_CREATE_EVENT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -128,12 +131,6 @@
             </intent-filter>
             <meta-data android:name="android.app.searchable" android:resource="@xml/subscribe_searchable"/>
         </activity>
-        <activity android:name="com.letv.calendar.ui.TagDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
-            <intent-filter>
-                <action android:name="android.intent.action.TAD_DETAILE"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
         <activity android:name="com.letv.calendar.ui.SubscribeListActivity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
         <activity android:name="com.letv.calendar.ui.SubscribeEventDetailActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar"/>
         <activity android:icon="@drawable/back" android:name="com.letv.calendar.ui.SubscribeItemVarietyDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay">
@@ -155,17 +152,6 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-        </activity>
-        <activity android:name="com.letv.calendar.ui.SubscribeItemSportsDetailActivity" android:parentActivityName="com.android.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.calendar.AllInOneActivity"/>
         </activity>
         <activity android:label="@string/event_detail" android:name="com.letv.calendar.ui.SubscribeItemActivity" android:parentActivityName="com.android.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionBar.NoOverlay">
             <intent-filter>
@@ -199,6 +185,13 @@
         <activity android:launchMode="singleInstance" android:name="com.letv.calendar.ui.GuidePageActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionBar.NoOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.CALENDR_GUIDE_PAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/event_detail" android:name="com.letv.calendar.ui.DetailItemH5Activity" android:screenOrientation="portrait" android:theme="@style/setting_fill_states_bar"/>
+        <activity android:name="com.letv.calendar.ui.MyStarPageActivity" android:theme="@style/StarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.TAD_DETAILE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
@@ -274,6 +267,7 @@
                 <data android:mimeType="vnd.android.data/update"/>
             </intent-filter>
         </receiver>
+        <service android:name=".widget.CalendarAppWidgetService$CalendarFactory$QueryService"/>
         <receiver android:name=".widget.LastTimeWidgetProvider$LauncherLastUpdate">
             <intent-filter>
                 <action android:name="android.intent.action.DATE_CHANGED"/>
@@ -292,6 +286,7 @@
                 <action android:name="com.android.calendar.ACTION_ALLINONACTIVITY_ONCREATE"/>
                 <action android:name="com.letv.android.calendar.REFRESH_EVENTS"/>
                 <action android:name="com.android.calendar.ACTION_QUERY_NEW_TAG_IDS"/>
+                <action android:name="com.letv.android.calendar.REFRESH_HOLIDAY_FILE"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="com.android.providers.calendar.ACTION.CALENDAR_UPDATE"/>
@@ -310,6 +305,10 @@
                 <data android:mimeType="text/x-vcalendar"/>
             </intent-filter>
         </activity>
+        <activity android:label="@string/artcileactionbar_title" android:name="com.letv.leui.comment.ArticleDetailActivity" android:theme="@style/setting_fill_states_bar">
+            <intent-filter/>
+        </activity>
+        <activity android:label="@string/sendactionbar_title" android:name="com.letv.leui.comment.PostArticleActivity" android:theme="@style/setting_fill_states_bar" android:windowSoftInputMode="adjustResize|stateHidden"/>
         <service android:name=".IClockService">
             <intent-filter>
                 <action android:name="com.android.calendar.ClockService"/>
@@ -335,5 +334,6 @@
                 <action android:name="letv.intent.action.QUERY_SERVICE"/>
             </intent-filter>
         </service>
+        <service android:exported="false" android:name="com.android.calendar.LeCalendarMedalService"/>
     </application>
 </manifest>

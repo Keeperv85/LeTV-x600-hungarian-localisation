@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letv.leui.comment.widget.ResizeLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="18.0sp" android:gravity="bottom" android:id="@id/title_editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/title_hint" android:layout_alignParentTop="true" android:textCursorDrawable="@drawable/edittext_cursor" android:fontFamily="helve-neue-ragular" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title_editText" />
+    <EditText android:textSize="14.0sp" android:gravity="top" android:id="@id/content_editText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:hint="@string/content_hint" android:layout_below="@id/title_editText" android:textCursorDrawable="@drawable/edittext_cursor" android:fontFamily="helve-neue-ragular" />
+    <ImageButton android:id="@id/Image_button" android:background="#ff2395ee" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</com.letv.leui.comment.widget.ResizeLayout>

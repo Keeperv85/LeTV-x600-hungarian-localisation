@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/listview" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="#ffc6c7cb" android:dividerHeight="1.0px" android:layout_alignParentTop="true" android:fastScrollEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="ifContentScrolls" android:layout_alignParentStart="true" />
+    <com.letv.leui.comment.widget.LeInputBox android:orientation="horizontal" android:id="@id/inner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

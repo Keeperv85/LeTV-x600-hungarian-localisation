@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/commentra_parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:gravity="left" android:id="@id/commentra_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/commentra_title" android:fontFamily="helve-neue-ragular" android:layout_marginEnd="12.0dip" />
+    <ViewStub android:id="@id/commententra_item1" android:layout="@layout/commententra_fristitem" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/commententra_item2" android:layout="@layout/commententra_secitem" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/commententra_item3" android:layout="@layout/commententra_thriditem" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/commententra_nocontent" android:layout="@layout/commententra_nocomm" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:textSize="12.0sp" android:textColor="#ff898b94" android:id="@id/commentra_btn" android:background="#fffcfcfd" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/commentra_btn_str" />
+    <ImageView android:id="@id/commentra_outline" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

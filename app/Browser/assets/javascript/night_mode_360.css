@@ -316,3 +316,17 @@ app-card .app-card-main {background-color: #0B0C10!important;}
 #fshow {background-color: transparent!important;}
 .modInner {background-color: transparent!important;}
 .banners {background-color: transparent!important;}
+/**********************   mgame.letv.com XIII-10637   ***********************/
+.ui-page-theme-a .ui-btn{background-color:#0B0C10!important;}
+/**********************   XIII-10780   ***********************/
+.episode-container a{color: #59758a!important;}
+/**********************   XIII-10638   ***********************/
+.v .v-overlay-large{background: transparent!important;}
+.v .v-overlay-mini{background: transparent!important;}
+.p-overlay-mini{background: transparent!important;}
+.p .p-metadata .p-neck {background: transparent!important;}
+.v .v-metadata .v-neck {background: transparent!important;}
+/**********************   for youku video play   ***********************/
+.x-trigger{background: transparent!important;}
+.x-dashboard{background: transparent!important;}
+.x-advert{background: transparent!important;}

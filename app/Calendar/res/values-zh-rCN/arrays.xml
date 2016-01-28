@@ -354,6 +354,12 @@
         <item>立即发送短信</item>
         <item>定时发送</item>
     </string-array>
+    <string-array name="reminder_birthday_minutes_label">
+        <item>提前两天和当天提醒</item>
+        <item>提前一周和当天提醒</item>
+        <item>当天提醒</item>
+        <item>不提醒</item>
+    </string-array>
     <string-array name="quick_response_defaults">
         <item>我会迟到几分钟。</item>
         <item>我大概再过 10 分钟就可以到了。</item>
@@ -367,6 +373,9 @@
         <item>其他直播</item>
         <item>纪录片</item>
         <item>电影</item>
+        <item>节日</item>
+        <item>生活</item>
+        <item>热点</item>
     </string-array>
     <string-array name="timezone_rename_labels">
         <item>澳大利亚中部时间 - 北领地</item>

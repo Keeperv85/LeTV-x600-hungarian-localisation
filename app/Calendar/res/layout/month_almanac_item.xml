@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="82.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="21.0dip" android:textColor="@color/event_list_when" android:ellipsize="marquee" android:id="@id/when" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/subscribe_list_margin" android:singleLine="true" app:leTextWeight="thin" style="?android:attr/textAppearanceMediumInverse" />
+            <LinearLayout android:orientation="vertical" android:id="@id/film_from_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/subscribe_list_margin" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="15.0dip" android:textColor="@color/black" android:ellipsize="marquee" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceMediumInverse" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/event_list_where" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_yi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/textAppearanceSmallInverse" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/event_list_where" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_ji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/textAppearanceSmallInverse" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_type" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/type_almanac" />
+    </LinearLayout>
+    <View android:background="@color/day_view_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="82.0dip" android:layout_marginTop="8.0dip" android:layout_alignParentBottom="true" />
+</LinearLayout>
