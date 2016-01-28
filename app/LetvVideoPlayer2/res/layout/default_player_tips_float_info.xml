@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/popup_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="20.0dip" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/player_tips_float_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rewind" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/player_tips_float_info_textview" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/player_tips_float_info_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

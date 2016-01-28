@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/player_color_88000000" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/player_controller_view_height" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pip_player_controller_btn_exit" android:background="@drawable/btn_down" android:padding="10.0dip" android:layout_width="@dimen/dimens_text_43" android:layout_height="fill_parent" android:src="@drawable/ic_pip_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.android.videoplayer.player.view.MarqueeTextView android:textSize="15.0sp" android:textColor="@android:color/white" android:gravity="center|left" android:id="@id/pip_player_controller_tv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/pip_player_controller_btn_exit" android:layout_alignParentLeft="true" />
+</RelativeLayout>

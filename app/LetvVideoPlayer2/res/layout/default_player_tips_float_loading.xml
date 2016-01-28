@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/player_tips_float_loading_progressbar" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_text_13" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/player_loading_progress" android:indeterminateDuration="1000" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/player_tips_float_loading_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/player_tips_loading_text" />
+</LinearLayout>

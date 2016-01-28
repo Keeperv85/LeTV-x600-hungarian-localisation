@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/popup_shape" android:layout_width="@dimen/more_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/popup_menu_tiny_window" android:background="@drawable/btn_down" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/btn_tiny_window" />
+    <View android:id="@id/popup_menu_tiny_window_line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/popup_menu_track" android:background="@drawable/btn_down" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/string_track" />
+    <View android:id="@id/popup_menu_track_line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/popup_menu_subtitle" android:background="@drawable/btn_down" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/string_subtitle" />
+    <View android:id="@id/popup_menu_subtitle_line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/popup_menu_media_info" android:background="@drawable/btn_down" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/string_media_info" />
+    <View android:id="@id/popup_menu_media_edit_line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/popup_menu_media_edit" android:background="@drawable/btn_down" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/str_media_edit" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/indicator_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/mhl_first_init_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/mhl_first_init_title" android:singleLine="true" android:maxLength="50" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="@string/title_font_family" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mhl_first_init_title_textview">
+        <RelativeLayout android:id="@id/mhl_left_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/mhl_left_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="103.0dip" android:text="@string/mhl_first_init_left_text" android:layout_centerHorizontal="true" android:fontFamily="@string/title_font_family" />
+            <ImageView android:id="@id/mhl_left_imageview" android:background="@anim/animat_mhl_click" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/mhl_left_textview" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mhl_right_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/mhl_right_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="103.0dip" android:text="@string/mhl_first_init_right_text" android:layout_centerHorizontal="true" android:fontFamily="@string/title_font_family" />
+            <ImageView android:id="@id/mhl_right_imageview" android:background="@drawable/ic_seek_conduction" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/mhl_right_textview" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

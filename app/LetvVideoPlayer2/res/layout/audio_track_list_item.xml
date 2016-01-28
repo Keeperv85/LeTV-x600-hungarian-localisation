@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/popup_audio_track_item_line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/radio_backgroud" android:paddingLeft="17.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/popup_audio_track_item_line">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/popup_audio_track_item_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_audio_track1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="@string/title_font_family" />
+        <ImageView android:id="@id/popup_audio_track_item_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_radio_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

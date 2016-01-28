@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mainView" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/glvideoview_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/id_actionBar" android:background="@color/darker_transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <TextView android:layout_gravity="center" android:layout_width="6.0dip" android:layout_height="wrap_content" />
+        <ImageButton android:layout_gravity="center" android:id="@id/showback" android:background="@drawable/btn_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_actionbar_menuitem_white_cancel" />
+        <TextView android:layout_gravity="center" android:layout_width="6.0dip" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/video_title_title_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/id_title" android:layout_width="0.0dip" android:layout_height="@dimen/title_height" android:text="@string/video_editor_title" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="@string/title_font_family" />
+        <TextView android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/id_save_bt" android:background="?android:selectableItemBackgroundBorderless" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le_actionbar_menuitem_white_ok" />
+        <TextView android:layout_gravity="center" android:layout_width="6.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.videoEditor.Util.SuperSeekBar android:id="@id/superSeekBar" android:background="@color/darker_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/id_control_layout" android:background="@color/darker_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:layout_gravity="center" android:id="@id/id_playpause" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/player_tips_float_loading_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/default_player_tips_float_loading" />
+</FrameLayout>

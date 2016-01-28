@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeBottomWidget android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_widget" android:background="@color/bottomwidget_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/player_color_ffdfdfdf" android:dividerHeight="1.0px" android:layout_above="@id/bottom_widget" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_video" android:id="@id/empty_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

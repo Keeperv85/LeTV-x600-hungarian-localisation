@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:gravity="center_horizontal" android:id="@id/player_tips_float_loading_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/default_player_tips_float_loading" />
+    <include android:gravity="center" android:id="@id/player_tips_float_info_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/default_player_tips_float_info" />
+    <include android:gravity="center" android:id="@id/player_tips_float_brightness_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/default_player_tips_float_brightness" />
+    <include android:gravity="center" android:id="@id/player_tips_float_volume_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/default_player_tips_float_volume" />
+</RelativeLayout>

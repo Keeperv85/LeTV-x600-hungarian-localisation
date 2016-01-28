@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/popup_shape" android:layout_width="211.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ffcecece" android:gravity="center" android:id="@id/popup_subtitle_setting_title" android:layout_width="fill_parent" android:layout_height="39.0dip" android:text="@string/string_subtitle" android:fontFamily="sans-serif-light" />
+    <View android:id="@id/popup_subtitle_setting_line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_text_42" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip">
+        <com.letv.leui.widget.LeSwitch android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/popup_subtitle_switcher" android:clickable="true" android:layout_width="fill_parent" android:layout_height="39.0dip" android:checked="true" android:text="@string/str_show_subtitle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_text_42">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/popup_subtitle_select_subtitle_file" android:background="@drawable/btn_down" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:text="@string/str_select_subtitle" android:layout_weight="1.0" android:fontFamily="@string/title_font_family" />
+    </LinearLayout>
+</LinearLayout>
