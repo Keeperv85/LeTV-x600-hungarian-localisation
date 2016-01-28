@@ -7,6 +7,8 @@
     <string name="doze_pulse_schedule">1s,10s,30s,60s,120s</string>
     <string name="system_ui_date_pattern">"EEE
 M/d"</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="lland">L Land</string>
     <string name="app_label">System UI</string>
     <string name="status_bar_clear_all_button">Clear</string>
@@ -426,8 +428,8 @@ Also, you're connected to a VPN (\"%3$s\"). Your VPN service provider can monito
     <string name="status_bar_recent_memory_info">%1$s of %3$s available</string>
     <string name="status_bar_recent_memory_info_only">%1$s of %3$s available</string>
     <string name="le_recent_guide_btn">I Know</string>
-    <string name="le_recent_guide_txt">"Drop-down locked,drop-down unlock again
-drop-up clear"</string>
+    <string name="le_recent_guide_txt">"Swipe down to lock or unlock
+Swipe up to clear"</string>
     <string name="accessibility_wifi_signal_connecting">Connecting to Wi-Fi</string>
     <string name="accessibility_data_connection_4.5g">4.5G</string>
     <string name="leui_volume_icon_description_alarm">Alarm</string>
@@ -645,6 +647,7 @@ Shake to change wallpaper"</string>
     <string name="le_cc_shortcut_powersave_text">Energy-saving</string>
     <string name="le_cc_shortcut_auto_brightness_text">Auto brighten</string>
     <string name="le_cc_shortcut_mute_text">Mute</string>
+    <string name="le_cc_shortcut_zenmode_text">勿扰</string>
     <string name="le_cc_shortcut_more_text">Sort</string>
     <string name="le_cc_setting_app_camera_text">Camera</string>
     <string name="le_cc_setting_app_calculator_text">Calculator</string>

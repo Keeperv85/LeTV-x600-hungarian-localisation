@@ -2,6 +2,8 @@
 <resources>
     <string name="system_ui_date_pattern">"EEE
 M月d日"</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">系统界面</string>
     <string name="status_bar_clear_all_button">清除</string>
     <string name="status_bar_recent_remove_item_title">从列表中删除</string>
@@ -414,7 +416,7 @@ M月d日"</string>
     <string name="accessibility_data_connection_4.5g">4.5G</string>
     <string name="leui_volume_icon_description_alarm">闹钟</string>
     <string name="le_clear_notification_btn_text">全部清除</string>
-    <string name="le_setting_notification_btn_text">通知编辑</string>
+    <string name="le_setting_notification_btn_text">通知管理</string>
     <string name="ok">确认</string>
     <string name="app_name">Keyguard</string>
     <string name="keyguard_password_enter_pin_code">输入PIN码</string>
@@ -591,6 +593,7 @@ M月d日"</string>
     <string name="le_cc_shortcut_powersave_text">节电助手</string>
     <string name="le_cc_shortcut_auto_brightness_text">自动亮度</string>
     <string name="le_cc_shortcut_mute_text">静音</string>
+    <string name="le_cc_shortcut_zenmode_text">勿扰</string>
     <string name="le_cc_shortcut_more_text">排序</string>
     <string name="le_cc_setting_app_camera_text">相机</string>
     <string name="le_cc_setting_app_calculator_text">计算器</string>
@@ -622,6 +625,4 @@ M月d日"</string>
     <string name="le_cc_setting_app_info_title">点击拖动来自定义快捷应用排序</string>
     <string name="le_cc_no_vpn_config">您还未配置任何VPN</string>
     <string name="le_cc_capscreen_success_text">截屏成功</string>
-    <string name="status_bar_date_formatter">"%2$s
-%1$s"</string>
 </resources>

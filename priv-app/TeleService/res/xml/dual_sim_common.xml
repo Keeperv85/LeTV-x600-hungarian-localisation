@@ -2,6 +2,6 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/ok" android:key="sim1_common" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/cancel" android:key="sim2_common" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/ok" android:key="sim1_common" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/cancel" android:key="sim2_common" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
 </PreferenceScreen>

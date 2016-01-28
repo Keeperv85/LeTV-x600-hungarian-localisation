@@ -2,6 +2,8 @@
 <resources>
     <string name="system_ui_date_pattern">"EEE
 M/d"</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">System interface</string>
     <string name="status_bar_clear_all_button">Clear</string>
     <string name="status_bar_recent_remove_item_title">Delete from list</string>
@@ -407,7 +409,13 @@ In addition, you have connected to a VPN (%3$s). This VPN service may monitor yo
     <string name="le_clear_btn_text">Clear</string>
     <string name="status_bar_recent_memory_info">%1$s of %3$s available</string>
     <string name="status_bar_recent_memory_info_only">%1$s of %3$s available</string>
+    <string name="le_recent_guide_btn">I Know</string>
+    <string name="le_recent_guide_txt">"Swipe down to lock or unlock
+Swipe up to clear"</string>
     <string name="accessibility_wifi_signal_connecting">Connecting to Wi-Fi</string>
+    <string name="leui_volume_icon_description_alarm">Alarm</string>
+    <string name="le_clear_notification_btn_text">Clear</string>
+    <string name="le_setting_notification_btn_text">Management</string>
     <string name="ok">Confirm</string>
     <string name="app_name">Keyguard</string>
     <string name="keyguard_password_enter_pin_code">Enter PIN</string>
@@ -578,6 +586,7 @@ to disable shake to change wallpaper"</string>
     <string name="le_cc_shortcut_hotport_text">Hotspot</string>
     <string name="le_cc_shortcut_powersave_text">Battery assistant</string>
     <string name="le_cc_shortcut_auto_brightness_text">Auto brightness</string>
+    <string name="le_cc_shortcut_mute_text">Mute</string>
     <string name="le_cc_shortcut_more_text">Sort</string>
     <string name="le_cc_setting_app_camera_text">Camera</string>
     <string name="le_cc_setting_app_calculator_text">Calculator</string>
@@ -591,6 +600,7 @@ to disable shake to change wallpaper"</string>
     <string name="le_cc_setting_app_telecontroller_text">Remote control</string>
     <string name="le_cc_setting_app_settings_text">System settings</string>
     <string name="le_cc_setting_app_wirelessdisplay_text">Wireless display</string>
+    <string name="le_cc_setting_app_qrcode_text">Scan QR Code</string>
     <string name="le_cc_shortcut_text_typeface">hans-sans</string>
     <string name="le_cc_telecontroller_text">Enable remote control</string>
     <string name="le_cc_setting_shortcut_title">Shortcut switch</string>

@@ -13,15 +13,15 @@
         <item quantity="one">SIM卡PUK码不正确，您还有%d次尝试机会。如果仍然失败，SIM卡将永远无法使用。</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code_leui">
-        <item quantity="other">"PIN码输入错误%%1$d次
-%%2$d次后将只能使用PUK码"</item>
-        <item quantity="one">"PIN码输入错误%%1$d次
-%%2$d次后将只能使用PUK码"</item>
+        <item quantity="other">"PIN码输入错误%1$d次
+%2$d次后将只能使用PUK码"</item>
+        <item quantity="one">"PIN码输入错误%1$d次
+%2$d次后将只能使用PUK码"</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code_leui">
-        <item quantity="other">"PUK码输入错误%%1$d次
-%%2$d次后将锁定SIM卡%d"</item>
-        <item quantity="one">"PUK码输入错误%%1$d次
-%%2$d次后将锁定SIM卡%d"</item>
+        <item quantity="other">"PUK码输入错误%1$d次
+%2$d次后将锁定SIM卡%d"</item>
+        <item quantity="one">"PUK码输入错误%1$d次
+%2$d次后将锁定SIM卡%d"</item>
     </plurals>
 </resources>

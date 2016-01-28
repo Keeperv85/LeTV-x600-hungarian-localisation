@@ -100,31 +100,31 @@
     <string name="anc_title">啟動雜訊抑制功能</string>
     <string name="anc_on">ANC開啟</string>
     <string name="anc_off">ANC關閉</string>
-    <string name="ip_prefix_setting">IP 首碼號碼</string>
-    <string name="ip_prefix_setting_sum">長按撥號鍵自動加入IP號碼</string>
-    <string name="enter_ip_prefix_number">輸入首碼號碼</string>
-    <string name="ip_dial_error_toast_for_no_ip_prefix_number">請於語音電話設定先輸入 IP 首碼號碼。</string>
-    <string name="ip_dial_error_toast_for_sip_call_selected">IP 撥號功能不適用於網絡電話。</string>
-    <string name="ip_prefix_edit_default_sum">IP 撥號輸入首碼號碼</string>
+    <string name="ip_prefix_setting">IP前綴號碼</string>
+    <string name="ip_prefix_setting_sum">IP前綴號碼設定</string>
+    <string name="enter_ip_prefix_number">輸入前綴號碼</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">請在“語音電話設定”中輸入IP前綴號碼</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">撥打網路電話時，不能使用 IP 撥號功能。</string>
+    <string name="ip_prefix_edit_default_sum">輸入IP撥號前綴號碼</string>
     <string name="lable_call_barring">通話限制</string>
-    <string name="lable_all_outgoing">所有撥出電話</string>
-    <string name="lable_all_outgoing_international">國際撥出電話</string>
-    <string name="lable_all_out_except">國際撥出電話除了對住家PLMN</string>
-    <string name="lable_all_incoming">所有撥入電話</string>
-    <string name="lable_incoming_calls_except">在漫遊時撥入電話</string>
-    <string name="deactivate_all">全部取消</string>
-    <string name="change_password">更改限制密碼</string>
-    <string name="call_barring_sum">語音電話限制設定</string>
-    <string name="lable_disable">已禁用</string>
+    <string name="lable_all_outgoing">禁撥所有電話</string>
+    <string name="lable_all_outgoing_international">禁撥國際電話</string>
+    <string name="lable_all_out_except">禁撥除歸屬PLMN的國際電話</string>
+    <string name="lable_all_incoming">拒接所有來電</string>
+    <string name="lable_incoming_calls_except">漫遊時拒接來電</string>
+    <string name="deactivate_all">取消所有限制</string>
+    <string name="change_password">更改通話限制密碼</string>
+    <string name="call_barring_sum">通話限制設定</string>
+    <string name="lable_disable">已停用</string>
     <string name="lable_enable">已啟用</string>
-    <string name="old_password_label">舊密碼 （4位數）</string>
-    <string name="new_password_label">新密碼 （4位數）</string>
-    <string name="invalid_password">鍵入的密碼是 4 個數字。</string>
+    <string name="old_password_label">舊密碼（4位數字）</string>
+    <string name="new_password_label">新密碼（4位數字）</string>
+    <string name="invalid_password">密碼需要 4 位數字</string>
     <string name="confirm_password_label">確認新密碼</string>
-    <string name="mismatch_password">您輸入的密碼不符合。請再試一次。</string>
-    <string name="password_changed">已成功更改密碼</string>
-    <string name="enter_callbarring_password">輸入通話限制密碼 （4位數）</string>
-    <string name="wrong_password">密碼錯誤</string>
+    <string name="mismatch_password">兩次輸入的新密碼不相同。請重新輸入。</string>
+    <string name="password_changed">成功更改密碼</string>
+    <string name="enter_callbarring_password">輸入通話限制密碼（4位數字）</string>
+    <string name="wrong_password">密碼錯誤。</string>
     <string name="error_title">錯誤</string>
     <string name="cell_broadcast">手機廣播</string>
     <string name="cell_broadcast_settings">緊急廣播</string>
@@ -144,12 +144,12 @@
     <string name="cb_error_channel_id_exist">頻道 id 已存在。</string>
     <string name="cb_all_languages">所有語言</string>
     <string name="cb_default_new_channel_name">新頻道</string>
-    <string name="fdn_errorcode_unknown_info">失敗，出現未知的錯誤，請稍後嘗試。</string>
-    <string name="fdn_errorcode_number_info">失敗，聯絡號碼長度太長。</string>
-    <string name="fdn_errorcode_name_info">失敗，聯絡人姓名長度太長。</string>
-    <string name="fdn_errorcode_storage_info">失敗，存儲空間已滿。</string>
-    <string name="fdn_errorcode_phb_info">失敗了，現在電話簿還沒有準備好，請稍後再試。</string>
-    <string name="fdn_errorcode_pin2_info">失敗，無效的PIN2。</string>
+    <string name="fdn_errorcode_unknown_info">操作失敗，發生不明錯誤，請稍候再試。</string>
+    <string name="fdn_errorcode_number_info">操作失敗，聯絡人號碼過長。</string>
+    <string name="fdn_errorcode_name_info">操作失敗，聯絡人名稱過長。</string>
+    <string name="fdn_errorcode_storage_info">操作失敗，儲存空間已滿。</string>
+    <string name="fdn_errorcode_phb_info">操作失敗，電話簿忙碌中，請稍後重試。</string>
+    <string name="fdn_errorcode_pin2_info">操作失敗，無效的 PIN2 碼。</string>
     <string name="net_or_simcard_busy">網路或 SIM 卡正忙，請稍後再試。</string>
     <string name="plmn_list_setting_title">偏好設定</string>
     <string name="network_id">網絡 ID</string>
@@ -163,19 +163,19 @@
     <string name="gsm_umts_network_preferences_title">網絡模式</string>
     <string name="gsm_umts_network_preferneces_summary">還未執行 ！</string>
     <string name="gsm_umts_network_preferences_dialogtitle">網絡模式</string>
-    <string name="notification_voicemail_text">點選以查看留言</string>
-    <string name="notification_network_selection_without_operator">不能使用所選的網絡</string>
+    <string name="notification_voicemail_text">選擇檢視語音信箱</string>
+    <string name="notification_network_selection_without_operator">所選網絡無法使用</string>
     <string name="network_setting_all_forbidden_dialog">沒有可用的網絡。</string>
     <string name="network_forbidden">禁止</string>
-    <string name="fdn_contact_number_invalid">不正確的聯絡人號碼</string>
-    <string name="fdn_puk_need_tips">PIN2被封鎖。請更改PIN2並重試！</string>
-    <string name="fdn_phone_book_busy">電話簿現在正忙，請稍後再試。</string>
-    <string name="one_retry_left">剩一次重試</string>
-    <string name="retries_left">重試次數剩餘%d</string>
-    <string name="pin_length_indicate">(4-8數位)</string>
-    <string name="puk_length_indicate">(8數位)</string>
-    <string name="unblock_pin2">解鎖PIN2碼</string>
-    <string name="sim_permanently_locked">輸入不正確的 PUK2 碼超過 10 次，SIM 卡已被永久鎖定</string>
+    <string name="fdn_contact_number_invalid">聯絡人號碼無效。</string>
+    <string name="fdn_puk_need_tips">PIN2碼已被鎖定。請更改PIN2碼並重試！</string>
+    <string name="fdn_phone_book_busy">電話簿忙碌中，請稍候再試。</string>
+    <string name="one_retry_left">剩餘 1 次</string>
+    <string name="retries_left">剩餘%d次</string>
+    <string name="pin_length_indicate">(4-8 位數字)</string>
+    <string name="puk_length_indicate">(8 位數字)</string>
+    <string name="unblock_pin2">解鎖 PIN2 碼</string>
+    <string name="sim_permanently_locked">PUK2 碼已輸錯 10 次，SIM 卡已永久鎖定</string>
     <string name="magi_conference_title">多人通話增強</string>
     <string name="magi_conference_summary">當多人使用電話與對方通話時改良聲音品質。</string>
     <string name="open_roaming">開啟</string>
@@ -353,13 +353,13 @@
     <string name="throttle_time_frame">資料使用量週期</string>
     <string name="throttle_rate">資料傳輸速率政策</string>
     <string name="throttle_help">瞭解更多資訊</string>
-    <string name="throttle_status_subtext">"%1$s (%2$d٪)，週期上限為 %3$s
-下一週期會在 %4$d 天內開始 (%5$s)"</string>
-    <string name="throttle_data_usage_subtext">%1$s (%2$d٪)，週期上限為 %3$s</string>
+    <string name="throttle_status_subtext" formatted="false">"時段上限為 %1$s, 目前值為 %2$d (%3$s%).
+下一個時段從 %4$d 天後 (%5$s)開始"</string>
+    <string name="throttle_data_usage_subtext" formatted="false">時段上限為 %1$s, 目前值為 %2$d (%3$s%)</string>
     <string name="throttle_data_rate_reduced_subtext">"已達 %1$s 上限
 資料速率降低至 %2$d Kb/s"</string>
-    <string name="throttle_time_frame_subtext">"已經過 %1$d٪ 的循環週期
-下一週期會在 %2$d 天內開始 (%3$s)"</string>
+    <string name="throttle_time_frame_subtext" formatted="false">"此周期已過去%1$d%
+ 下一個時段將從%2$d天後(%3$s)開始"</string>
     <string name="throttle_rate_subtext">若已達資料用量上限，資料傳輸速率會降低至 %1$d Kb/秒</string>
     <string name="throttle_help_subtext">更多有關流動網絡供應商流動網絡數據使用政策的資料</string>
     <string name="cell_broadcast_sms">區域廣播 SMS</string>
@@ -764,4 +764,6 @@
     <string name="ringtone_title">手機鈴聲</string>
     <string name="vibrate_on_ring_title">鈴響時震動</string>
     <string name="dtmf_tone_enable_title">撥號鍵盤音頻</string>
+    <string name="dlg_data_reg_denied_msg">該網絡不可网，系統將自動為您接入其他漫遊網絡</string>
+    <string name="dlg_data_reg_denied_done">我瞭解了</string>
 </resources>

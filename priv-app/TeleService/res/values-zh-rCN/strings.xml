@@ -678,6 +678,13 @@
     <string name="open_ringtone_increase">打开铃声渐强</string>
     <string name="ringtone_increase_title">来电铃声渐强</string>
     <string name="call_vibrate">接通挂断时振动</string>
+    <string name="leui_yellow_page_reject">标记拦截</string>
+    <string name="reject_accord_yellow_page_tag">按标记拦截</string>
+    <string name="remind_about_reject_yellow_page">注意：选择拦截标记将不会再收到此类标记的来电通知，您可以在通话记录中查看拦截电话记录，请您谨慎选择拦截。</string>
+    <string name="leui_yp_black_fraud">诈骗</string>
+    <string name="leui_yp_black_market">推销</string>
+    <string name="leui_yp_black_estate">房产中介</string>
+    <string name="leui_yp_black_harass">骚扰电话</string>
     <string name="data_enable_state">开启</string>
     <string name="data_disable_state">关闭</string>
     <string name="data_usage_summary">流量限制</string>

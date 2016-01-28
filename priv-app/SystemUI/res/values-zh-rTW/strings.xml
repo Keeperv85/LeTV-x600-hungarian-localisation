@@ -2,6 +2,8 @@
 <resources>
     <string name="system_ui_date_pattern">"EEE
 M月d日"</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">系統 UI</string>
     <string name="status_bar_clear_all_button">清除</string>
     <string name="status_bar_recent_remove_item_title">從清單中移除</string>
@@ -407,11 +409,14 @@ M月d日"</string>
     <string name="le_clear_btn_text">立即清理</string>
     <string name="status_bar_recent_memory_info">%1$s可用。立即清理。</string>
     <string name="status_bar_recent_memory_info_only">%1$s可用</string>
+    <string name="le_recent_guide_btn">我知道了</string>
+    <string name="le_recent_guide_txt">"下拉鎖定或解鎖工作
+上滑清除工作"</string>
     <string name="accessibility_wifi_signal_connecting">Wi-Fi連線中</string>
     <string name="accessibility_data_connection_4.5g">4.5G</string>
     <string name="leui_volume_icon_description_alarm">鬧鐘</string>
     <string name="le_clear_notification_btn_text">全部清除</string>
-    <string name="le_setting_notification_btn_text">通知編輯</string>
+    <string name="le_setting_notification_btn_text">通知管理</string>
     <string name="ok">確認</string>
     <string name="app_name">鍵盤鎖</string>
     <string name="keyguard_password_enter_pin_code">輸入 PIN 碼</string>
@@ -588,6 +593,7 @@ M月d日"</string>
     <string name="le_cc_shortcut_hotport_text">熱點</string>
     <string name="le_cc_shortcut_powersave_text">省電助手</string>
     <string name="le_cc_shortcut_auto_brightness_text">自動調整亮度</string>
+    <string name="le_cc_shortcut_mute_text">靜音</string>
     <string name="le_cc_shortcut_more_text">排序</string>
     <string name="le_cc_setting_app_camera_text">相機</string>
     <string name="le_cc_setting_app_calculator_text">計算機</string>
@@ -601,6 +607,8 @@ M月d日"</string>
     <string name="le_cc_setting_app_telecontroller_text">遙控器</string>
     <string name="le_cc_setting_app_settings_text">系統設定</string>
     <string name="le_cc_setting_app_wirelessdisplay_text">無線顯示</string>
+    <string name="le_cc_setting_app_qrcode_text">掃一掃</string>
+    <string name="le_cc_setting_app_compass_text">指南針</string>
     <string name="le_cc_shortcut_text_typeface">hans-sans</string>
     <string name="le_cc_telecontroller_text">開啟遙控器</string>
     <string name="le_cc_setting_shortcut_title">快速設定鍵</string>
@@ -617,6 +625,4 @@ M月d日"</string>
     <string name="le_cc_setting_app_info_title">點選拖動來自訂快捷應用排序</string>
     <string name="le_cc_no_vpn_config">您尚未設定任何VPN</string>
     <string name="le_cc_capscreen_success_text">螢幕擷取畫面成功</string>
-    <string name="status_bar_date_formatter">"%2$s
-%1$s"</string>
 </resources>

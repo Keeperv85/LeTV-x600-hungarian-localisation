@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" android:sharedUserId="android.uid.phone" android:sharedUserLabel="@string/phoneAppLabel" coreApp="true" package="com.android.phone" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" android:sharedUserId="android.uid.phone" android:sharedUserLabel="@string/phoneAppLabel" coreApp="true" package="com.android.phone" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <original-package android:name="com.android.phone"/>
     <protected-broadcast android:name="android.intent.action.SERVICE_STATE"/>
     <protected-broadcast android:name="android.intent.action.RADIO_TECHNOLOGY"/>
@@ -13,6 +13,7 @@
     <protected-broadcast android:name="android.intent.action.ACTION_SHOW_NOTICE_ECM_BLOCK_OTHERS"/>
     <protected-broadcast android:name="android.intent.action.ACTION_MDN_STATE_CHANGED"/>
     <protected-broadcast android:name="android.provider.Telephony.SPN_STRINGS_UPDATED"/>
+    <protected-broadcast android:name="android.provider.Telephony.SPN_STRINGS_UPDATED_SUB1"/>
     <protected-broadcast android:name="android.provider.Telephony.SIM_FULL"/>
     <protected-broadcast android:name="com.android.internal.telephony.data-restart-trysetup"/>
     <protected-broadcast android:name="com.android.internal.telephony.data-stall"/>
@@ -104,6 +105,11 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.intent.action.AUTO_RECORD_SETTING"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/leui_yellow_page_reject" android:name="com.letv.leui.phone.LeuiYPRejectSetting" android:screenOrientation="portrait" android:theme="@style/LeUICallSettingHoloTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
         <activity android:label="@string/fdnListLabel" android:name="FdnList" android:screenOrientation="portrait" android:theme="@style/LeUICallSettingHoloTheme">

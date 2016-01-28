@@ -283,18 +283,18 @@
         <item name="android:textSize">@dimen/keyguard_clock_text_size</item>
         <item name="android:textColor">@color/clock_white</item>
         <item name="android:singleLine">true</item>
-        <item name="android:fontFamily">helve-neue-ultraLightextended</item>
+        <item name="android:fontFamily">helve-neue-ultralight</item>
     </style>
     <style name="Keyguard.Weather" parent="@style/Keyguard.Text.base">
         <item name="android:textSize">@dimen/keyguard_weather_and_date_text_size</item>
         <item name="android:textColor">#ccffffff</item>
         <item name="android:gravity">center</item>
-        <item name="android:fontFamily">helve-neue-thinextended</item>
+        <item name="android:fontFamily">helve-neue-regular</item>
     </style>
     <style name="Keyguard.Date" parent="@style/Keyguard.Text.base">
         <item name="android:textSize">@dimen/keyguard_weather_and_date_text_size</item>
         <item name="android:textColor">#ccffffff</item>
-        <item name="android:fontFamily">helve-neue-thinextended</item>
+        <item name="android:fontFamily">helve-neue-regular</item>
     </style>
     <style name="Keyguard.Owner.Info" parent="@style/Keyguard.Text.base">
         <item name="android:textSize">14.0dip</item>

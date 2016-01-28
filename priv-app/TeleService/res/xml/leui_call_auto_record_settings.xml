@@ -8,5 +8,5 @@
         <com.letv.leui.phone.RadioPreference android:persistent="false" android:title="@string/custom_contact" android:key="button_custom_contact" android:widgetLayout="@layout/leui_preference_widget_redio" />
     </PreferenceCategory>
     <SwitchPreference android:persistent="false" android:title="@string/strange_number" android:key="button_strange_number" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/add_from_the_mail" android:key="button_add_contact" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/add_from_the_mail" android:key="button_add_contact" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
 </PreferenceScreen>

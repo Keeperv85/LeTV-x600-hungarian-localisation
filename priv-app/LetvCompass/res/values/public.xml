@@ -56,14 +56,6 @@
     <public type="string" name="open_gps_get_accurate" id="0x7f060010" />
     <public type="string" name="acquiring_location" id="0x7f060011" />
     <public type="string" name="power_assistant_hint" id="0x7f060012" />
-    <public type="string" name="format_coordinate_en" id="0x7f060013" />
-    <public type="string" name="locating" id="0x7f060014" />
-    <public type="string" name="wifi_locating" id="0x7f060015" />
-    <public type="string" name="mobile_locating" id="0x7f060016" />
-    <public type="string" name="no_network" id="0x7f060017" />
-    <public type="string" name="address" id="0x7f060018" />
-    <public type="string" name="opengps" id="0x7f060019" />
-    <public type="string" name="opennet" id="0x7f06001a" />
     <public type="array" name="orientation_eight" id="0x7f070000" />
     <public type="array" name="longitude_latitude" id="0x7f070001" />
     <public type="id" name="compass_lin" id="0x7f080000" />

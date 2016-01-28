@@ -5,9 +5,9 @@
     <PreferenceCategory android:title="@string/sim_settings_title" android:key="sim_cards" />
     <PreferenceCategory android:title="@string/sim_pref_divider" android:key="sim_activities" />
     <SwitchPreference android:persistent="false" android:title="@string/data_enabled" android:key="button_enabled_key" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/data_management_title" android:key="data_management_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/data_management_title" android:key="data_management_key" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
     <com.letv.leui.phone.RealtimeSpeedSwitchPreference android:persistent="false" android:title="@string/realtime_enabled" android:key="button_realtime_key" />
-    <Preference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/data_usage_summary" android:key="enable_datausage_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+    <Preference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/data_usage_summary" android:key="enable_datausage_key" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
     <com.letv.leui.preference.LeListPreference android:entries="@array/preferred_network_mode_choices" android:title="@string/preferred_network_mode_title" android:key="preferred_network_mode_key" android:summary="@string/preferred_network_mode_summary" android:entryValues="@array/preferred_network_mode_values" />
     <com.letv.leui.preference.LeListPreference android:entries="@array/enabled_networks_choices" android:title="@string/preferred_network_mode_title" android:key="enabled_networks_key" android:entryValues="@array/enabled_networks_values" />
     <com.letv.leui.preference.LeListPreference android:entries="@array/gsm_umts_network_preferences_choices" android:title="@string/gsm_umts_network_preferences_title" android:key="gsm_umts_preferred_network_mode_key" android:summary="@string/gsm_umts_network_preferneces_summary" android:entryValues="@array/gsm_umts_network_preferences_values" />

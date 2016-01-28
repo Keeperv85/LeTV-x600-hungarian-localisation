@@ -35,7 +35,7 @@
     <color name="network_operators_color_primary">#ff263238</color>
     <color name="network_operators_color_primary_dark">#ff21272b</color>
     <color name="lebottomsheet_button_blue">#ff518ef1</color>
-    <color name="leui_status_bar_background">#fffafafa</color>
+    <color name="leui_status_bar_background">#fff6f6f7</color>
     <color name="conversation_top_bar_background">#ff43b975</color>
     <color name="leui_toggle_button">#ff2395ee</color>
 </resources>

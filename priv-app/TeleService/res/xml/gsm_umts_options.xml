@@ -2,7 +2,7 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
-    <PreferenceScreen android:layout="@android:layout/le_preference_list2" android:title="@string/carrier_settings_title" android:key="carrier_settings_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+    <PreferenceScreen android:layout="@android:layout/le_preference_horizontal" android:title="@string/carrier_settings_title" android:key="carrier_settings_key" android:widgetLayout="@android:layout/le_preference_widget_arrow">
         <intent android:targetPackage="@string/carrier_settings" android:action="android.intent.action.MAIN" android:targetClass="@string/carrier_settings_menu" />
     </PreferenceScreen>
 </PreferenceScreen>

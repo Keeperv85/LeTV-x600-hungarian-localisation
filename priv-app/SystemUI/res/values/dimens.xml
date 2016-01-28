@@ -311,8 +311,8 @@
     <dimen name="pattern_security_tip_height">156.0px</dimen>
     <dimen name="pattern_emergency_carrier_area_height">210.0px</dimen>
     <dimen name="pattern_emergency_carrier_area_bottom_padding">12.0px</dimen>
-    <dimen name="keyguard_clock_text_size">210.0px</dimen>
-    <dimen name="keyguard_weather_and_date_text_size">42.0px</dimen>
+    <dimen name="keyguard_clock_text_size">216.0px</dimen>
+    <dimen name="keyguard_weather_and_date_text_size">48.0px</dimen>
     <dimen name="keyguard_security_tips_text_size">45.0px</dimen>
     <dimen name="keyguard_emergency_button_text_size">36.0px</dimen>
     <dimen name="num_pad_key_text_size">90.0px</dimen>
@@ -324,7 +324,7 @@
     <dimen name="clock_height">240.0px</dimen>
     <dimen name="clock_date_bottom_margin">180.0px</dimen>
     <dimen name="widget_bottom_margin">135.0px</dimen>
-    <dimen name="weather_right_margin">45.0px</dimen>
+    <dimen name="weather_right_margin">36.0px</dimen>
     <dimen name="date_height">60.0px</dimen>
     <dimen name="security_tips_width">840.0px</dimen>
     <dimen name="security_tips_height">192.0px</dimen>
@@ -344,7 +344,8 @@
     <dimen name="widget_indicator_radius">7.5px</dimen>
     <dimen name="widget_indicator_margin_bottom">54.0px</dimen>
     <dimen name="battery_container_margin_bottom">192.0px</dimen>
-    <dimen name="keyguard_clock_dot_padding">24.0px</dimen>
+    <dimen name="keyguard_clock_dot_padding">33.0px</dimen>
+    <dimen name="keyguard_clock_margin">0.0px</dimen>
     <dimen name="emergency_btn_bottom_margin">30.0px</dimen>
     <dimen name="remote_lock_dial_height">144.0px</dimen>
     <dimen name="remote_lock_dial_margin_bottom">930.0px</dimen>
@@ -361,7 +362,7 @@
     <dimen name="shake_wallpaper_text_font_size">42.0px</dimen>
     <dimen name="keyguard_emergency_call_length">300.0px</dimen>
     <dimen name="keyguard_emergency_call_padding">60.0px</dimen>
-    <dimen name="keyguard_notification_collapse_marginbottom">120.0px</dimen>
+    <dimen name="keyguard_notification_collapse_marginbottom">165.0px</dimen>
     <dimen name="keyguard_notification_expand_marginbottom">168.0px</dimen>
     <dimen name="keyguard_notification_clear_padding">48.0px</dimen>
     <dimen name="keyguard_notification_doubleclick_marginbottom">51.0px</dimen>
@@ -533,9 +534,10 @@
     <dimen name="le_cc_widget_width">216.0px</dimen>
     <dimen name="le_cc_widget_height">306.0px</dimen>
     <dimen name="le_cc_widget_padding">36.0px</dimen>
+    <dimen name="le_cc_widget_padding_bottom">12.0px</dimen>
     <dimen name="le_cc_widget_icon_size">144.0px</dimen>
-    <dimen name="le_cc_widget_text_size">45.0px</dimen>
-    <dimen name="le_cc_widget_text_margin_top">45.0px</dimen>
+    <dimen name="le_cc_widget_text_size">90.0px</dimen>
+    <dimen name="le_cc_widget_text_margin_top">24.0px</dimen>
     <dimen name="le_cc_recent_btn_clear_all_width">915.0px</dimen>
     <dimen name="le_cc_recent_controlcenter_height">1094.0px</dimen>
     <dimen name="le_cc_recent_container_height">825.0px</dimen>

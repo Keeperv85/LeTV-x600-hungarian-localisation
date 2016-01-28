@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/le_cc_control_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="30.0dip" android:leBlurContrastBoost="1.0" android:leBlurBlendColor2="@color/le_cc_rt_background_color"
+<RelativeLayout android:id="@id/le_cc_control_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="25.0dip" android:leBlurLumaContrast="0.6" android:leBlurLumaBrightness="0.15" android:leBlurChromaContrast="1.5" android:leBlurBlendColor="@color/le_cc_rt_background_color"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
     <include layout="@layout/le_cc_app_layout_extend_landscape" />

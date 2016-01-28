@@ -155,7 +155,7 @@ Name: res/drawable-xxhdpi-v4/ic_rec_flag_no.png
 SHA1-Digest: 1R6iP8T0Ly2x5eMBnrbgI3EXR+0=
 
 Name: resources.arsc
-SHA1-Digest: 2fVBMKyJqoBQpAloJcP+JVsPDvM=
+SHA1-Digest: fwojYx65Zjamp240XSqSLtkXvKA=
 
 Name: res/drawable-xxhdpi-v4/ic_pause_record_00004.png
 SHA1-Digest: 9sZ6w9Rs551IozGJpLRs7Lk0kMw=
@@ -164,7 +164,7 @@ Name: res/layout/recorder_app_widget.xml
 SHA1-Digest: ICcYM7UR0E75l6fqfn4oqTR2/fo=
 
 Name: AndroidManifest.xml
-SHA1-Digest: eTZLbF+F5L2CuzLEVbY/Tf0QPN4=
+SHA1-Digest: dD5ACcwLrQL188Z133U0cDXq990=
 
 Name: res/drawable-xxhdpi-v4/ic_play_record_00009.png
 SHA1-Digest: 6cg2iMLQsBtLTWTY552WmbR3yS0=
@@ -224,7 +224,7 @@ Name: res/drawable-xxhdpi-v4/ic_rec_delete.png
 SHA1-Digest: ksbg8J9yMKzftfAbPO+s1MdJuQc=
 
 Name: classes.dex
-SHA1-Digest: OXQdZdwYCmxDn1CgSYuWgjajmsk=
+SHA1-Digest: XB/kjPWYNvG7v7zwzl3OAEYdCQ0=
 
 Name: res/drawable-xxhdpi-v4/ic_play_share.png
 SHA1-Digest: L0DDOFC+xRTstTR7WjnGX6ZGpQs=
@@ -425,7 +425,7 @@ Name: res/drawable-xxhdpi-v4/ic_rec_play_share.png
 SHA1-Digest: zbww3qWH3kWC9iVk+XNEpaLkxds=
 
 Name: res/layout/fragment_recording.xml
-SHA1-Digest: 3WZT3UD8WfEet5N7KwMENxDy43Q=
+SHA1-Digest: 6JwPwyaVTg4T1CCWoWV1qI5P8bg=
 
 Name: res/drawable-xxhdpi-v4/ic_pause_play_00007.png
 SHA1-Digest: QwipJ6Hs95Xi8PbZQtWo4YwHfNk=
@@ -507,6 +507,9 @@ SHA1-Digest: FAVndtjyiYXriFZ7HaPyxbENnac=
 
 Name: res/layout/action_bar_left.xml
 SHA1-Digest: 7ZZDGBMM3g7wkTWsAy71SQZg0NI=
+
+Name: res/drawable/window_bg.png
+SHA1-Digest: XdHqp1Dh40MyRiMIFtcVuyWBKm0=
 
 Name: res/drawable-xxhdpi-v4/ic_pause_play_00012.png
 SHA1-Digest: NKgkOCbiEvQam0PC4twOMG5SDso=

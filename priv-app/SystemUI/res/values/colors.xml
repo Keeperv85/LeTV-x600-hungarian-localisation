@@ -92,7 +92,7 @@
     <color name="le_video_menu_text_color">#ffffffff</color>
     <color name="le_setting_text_background">#11111111</color>
     <color name="le_setting_text_frontcolor">#ff518ef1</color>
-    <color name="le_cc_background_color">#70c5c5c5</color>
+    <color name="le_cc_background_color">#00c5c5c5</color>
     <color name="le_cc_brightness_background_color">#0a000000</color>
     <color name="le_cc_layout_background_color">#00000000</color>
     <color name="le_cc_setting_title_color">#ff747474</color>
@@ -113,8 +113,9 @@
     <color name="le_cc_telecontroller_text_color_on">#ffffffff</color>
     <color name="le_cc_setting_item_background_color_half_alpha">#ccffffff</color>
     <color name="le_cc_setting_item_background_color_full_alpha">#ffffffff</color>
-    <color name="le_cc_rt_background_color">#30c5c5c5</color>
-    <color name="le_cc_setting_actionbar_bg_color">#fff9f9f9</color>
+    <color name="le_cc_rt_background_color">#00c5c5c5</color>
+    <color name="le_cc_setting_actionbar_bg_color">#fff6f6f7</color>
+    <color name="le_cc_setting_actionbar_divider_color">#ffa6a7ae</color>
     <color name="le_cc_setting_preference_bg_color_pressed">#ffebebeb</color>
     <color name="recent_panel_clear_all_btn_bg_pressed">#26ffffff</color>
     <color name="recent_panel_clear_all_btn_bg_normal">#1a263238</color>

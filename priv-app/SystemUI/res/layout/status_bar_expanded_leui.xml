@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.systemui.statusbar.phone.NotificationPanelViewLeui android:id="@id/notification_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="16.0dip" android:leBlurContrastBoost="0.66" android:leBlurBlendColor2="#80080808"
+<com.android.systemui.statusbar.phone.NotificationPanelViewLeui android:id="@id/notification_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:leBlurMode="window" android:leBlurRadius="18.0dip" android:leBlurLumaContrast="0.25" android:leBlurLumaBrightness="-0.35" android:leBlurChromaContrast="0.8" android:leBlurBlendColor="#00000000"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
     <FrameLayout android:paddingBottom="@dimen/close_handle_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">

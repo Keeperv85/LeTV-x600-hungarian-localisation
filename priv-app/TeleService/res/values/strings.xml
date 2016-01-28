@@ -742,6 +742,13 @@ Try again or call customer service for more options."</string>
     <string name="open_ringtone_increase">Open ringtone crescendo</string>
     <string name="ringtone_increase_title">Ringtone crescendo</string>
     <string name="call_vibrate">Vibrate when hangup or connect</string>
+    <string name="leui_yellow_page_reject">Reject by yellow page tag</string>
+    <string name="reject_accord_yellow_page_tag">Reject by yellow page tag</string>
+    <string name="remind_about_reject_yellow_page">Note: Select interception mark will no longer receive an incoming call notification such marks, you can view the intercept phone records in the call log, please choose carefully interception.</string>
+    <string name="leui_yp_black_fraud">fraud</string>
+    <string name="leui_yp_black_market">market</string>
+    <string name="leui_yp_black_estate">estate</string>
+    <string name="leui_yp_black_harass">harass</string>
     <string name="data_enable_state">OPEN</string>
     <string name="data_disable_state">CLOSE</string>
     <string name="data_usage_summary">Data restriction</string>

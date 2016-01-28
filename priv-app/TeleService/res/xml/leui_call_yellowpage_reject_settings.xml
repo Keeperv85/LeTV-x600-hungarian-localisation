@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/leui_yellow_page_reject"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:persistent="false" android:title="@string/reject_accord_yellow_page_tag" android:key="button_yp_reject_category">
+        <SwitchPreference android:persistent="false" android:title="@string/leui_yp_black_fraud" android:key="button_yp_black_fraud" />
+        <SwitchPreference android:persistent="false" android:title="@string/leui_yp_black_market" android:key="button_yp_black_market" />
+        <SwitchPreference android:persistent="false" android:title="@string/leui_yp_black_estate" android:key="button_yp_black_estate" />
+        <SwitchPreference android:persistent="false" android:title="@string/leui_yp_black_harass" android:key="button_yp_black_harass" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/remind_about_reject_yellow_page" />
+</PreferenceScreen>

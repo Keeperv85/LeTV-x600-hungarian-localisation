@@ -4,14 +4,14 @@
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     <com.letv.leui.phone.SubscriberSwitchPreference android:key="sim_cards" />
     <PreferenceCategory android:title="@string/edit_sim_cards" android:key="edit_sim_cards">
-        <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:singleLine="true" android:title="@string/sim_editor_name" android:key="sim_name" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/sim_editor_name" />
-        <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:phoneNumber="true" android:title="@string/sim_editor_number" android:key="sim_number" android:widgetLayout="@android:layout/le_ptr_header_horizontal" android:dialogTitle="@string/sim_editor_number" />
-        <com.letv.leui.phone.LeColorPreference android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/sim_info_editor_color" android:key="sim_color" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
+        <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:singleLine="true" android:title="@string/sim_editor_name" android:key="sim_name" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/sim_editor_name" />
+        <EditTextPreference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:phoneNumber="true" android:title="@string/sim_editor_number" android:key="sim_number" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:dialogTitle="@string/sim_editor_number" />
+        <com.letv.leui.phone.LeColorPreference android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/sim_info_editor_color" android:key="sim_color" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/status_plmn_info" android:key="status_plmn_info" />
     <SwitchPreference android:persistent="false" android:title="@string/roaming" android:key="button_roaming_key" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/apn_settings" android:key="button_apn_key" android:widgetLayout="@android:layout/le_ptr_header_horizontal" />
-    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_list2" android:title="@string/networks" android:key="button_carrier_sel_key" android:summary="@string/sum_carrier_select" android:widgetLayout="@android:layout/le_ptr_header_horizontal">
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/apn_settings" android:key="button_apn_key" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
+    <PreferenceScreen android:persistent="false" android:layout="@android:layout/le_preference_horizontal" android:title="@string/networks" android:key="button_carrier_sel_key" android:summary="@string/sum_carrier_select" android:widgetLayout="@android:layout/le_preference_widget_arrow">
         <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NetworkSetting" />
     </PreferenceScreen>
 </PreferenceScreen>

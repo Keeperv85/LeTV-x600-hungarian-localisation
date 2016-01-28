@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: 6PX2EB1mrg0EKmiU6DDHkmk8PG0=
+SHA1-Digest-Manifest: Ihq1gL3Xab9shKjoFSF1wyy1LrM=
 
 Name: res/drawable-xxhdpi-v4/ic_rec_recording_rename.png
 SHA1-Digest-Manifest: B3kyF4Ih7pqZCEc1uJM2lXE7KQE=
@@ -156,7 +156,7 @@ Name: res/drawable-xxhdpi-v4/ic_rec_flag_no.png
 SHA1-Digest-Manifest: Qy0w7goBPb4qv/h9w9a0DzHGD04=
 
 Name: resources.arsc
-SHA1-Digest-Manifest: +8kgl7T/m3Qjy3U9Pd4GTwVuYEg=
+SHA1-Digest-Manifest: olaWcEnnKT3T85LJHKixD4NK6fc=
 
 Name: res/drawable-xxhdpi-v4/ic_pause_record_00004.png
 SHA1-Digest-Manifest: 8jY7/dnkXOmBtC+EypxDAJYjwWk=
@@ -165,7 +165,7 @@ Name: res/layout/recorder_app_widget.xml
 SHA1-Digest-Manifest: hpYwLKEtxkDpU6sBSKBXFuWInE4=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: HvEJc+fvPwHVuy5iECCVZX0B3QA=
+SHA1-Digest-Manifest: tdcyWa1XcHGmJuh+qzsDdJK3Aj0=
 
 Name: res/drawable-xxhdpi-v4/ic_play_record_00009.png
 SHA1-Digest-Manifest: 2WyeSHVOf3e4FMnlOeUjqaai3jo=
@@ -225,7 +225,7 @@ Name: res/drawable-xxhdpi-v4/ic_rec_delete.png
 SHA1-Digest-Manifest: W44exoRA35ZFLsH7jCnxSC2Ef1k=
 
 Name: classes.dex
-SHA1-Digest-Manifest: IVks1u32Ex6bCAtiX89UJaDw6W8=
+SHA1-Digest-Manifest: rnXyEkv0JCFlDIDozhtjaHO62Ak=
 
 Name: res/drawable-xxhdpi-v4/ic_play_share.png
 SHA1-Digest-Manifest: 0l4J7n/F4mJR2MYXy/+Iglj8gNw=
@@ -426,7 +426,7 @@ Name: res/drawable/record_list_bgcolor_selector.xml
 SHA1-Digest-Manifest: A7knR55rvBYC0XyMA/mdfLtg494=
 
 Name: res/layout/fragment_recording.xml
-SHA1-Digest-Manifest: K2YB0T3cX5cQpQfxDgrB2h6c894=
+SHA1-Digest-Manifest: XDFrFL5xDrtXj0OssP+EpSwzMXA=
 
 Name: res/drawable-xxhdpi-v4/ic_pause_play_00007.png
 SHA1-Digest-Manifest: 4U5wJM04wOi9p5+fne5p9mh59XU=
@@ -508,6 +508,9 @@ SHA1-Digest-Manifest: wVJctO2C/XEvEqrOY8ZI7SLfzsI=
 
 Name: res/layout/action_bar_left.xml
 SHA1-Digest-Manifest: AnzcpDwHyDoYx3hWtHx+vc0iTmQ=
+
+Name: res/drawable/window_bg.png
+SHA1-Digest-Manifest: 4N202bPfIAcZ0538Zg0+/9DaFkE=
 
 Name: res/drawable-xhdpi-v4/ic_launcher.jpg
 SHA1-Digest-Manifest: buTWb5U6WniM2JQ7A7wwBF0VC+g=

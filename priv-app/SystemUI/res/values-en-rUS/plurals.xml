@@ -17,7 +17,7 @@
         <item quantity="one">PIN has been entered incorrectly %1$d time.After %2$d more attempts, you can only use the PUK code.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code_leui">
-        <item quantity="other">PUK code has been entered incorrectly %1$d times.After %2$d more failed attempts, SIM will be locked.</item>
-        <item quantity="one">PUK code has been entered incorrectly %1$d time.After %2$d more failed attempts, SIM will be locked.</item>
+        <item quantity="other">PUK code has been entered incorrectly %1$d times.After %2$d more failed attempts, SIM%d will be locked.</item>
+        <item quantity="one">PUK code has been entered incorrectly %1$d time.After %2$d more failed attempts, SIM%d will be locked.</item>
     </plurals>
 </resources>

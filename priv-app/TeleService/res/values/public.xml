@@ -156,19 +156,20 @@
     <public type="xml" name="gsm_umts_call_options" id="0x7f06000d" />
     <public type="xml" name="gsm_umts_options" id="0x7f06000e" />
     <public type="xml" name="leui_call_auto_record_settings" id="0x7f06000f" />
-    <public type="xml" name="leui_network_settings" id="0x7f060010" />
-    <public type="xml" name="leui_sim_settings" id="0x7f060011" />
-    <public type="xml" name="mtk_call_barring_options" id="0x7f060012" />
-    <public type="xml" name="mtk_carrier_select_list" id="0x7f060013" />
-    <public type="xml" name="mtk_ip_prefix_setting" id="0x7f060014" />
-    <public type="xml" name="mtk_plmn_editor" id="0x7f060015" />
-    <public type="xml" name="mtk_plmn_list" id="0x7f060016" />
-    <public type="xml" name="network_setting" id="0x7f060017" />
-    <public type="xml" name="phone_account_selection" id="0x7f060018" />
-    <public type="xml" name="phone_account_settings" id="0x7f060019" />
-    <public type="xml" name="sip_advanced_edit" id="0x7f06001a" />
-    <public type="xml" name="sip_edit" id="0x7f06001b" />
-    <public type="xml" name="sip_setting" id="0x7f06001c" />
+    <public type="xml" name="leui_call_yellowpage_reject_settings" id="0x7f060010" />
+    <public type="xml" name="leui_network_settings" id="0x7f060011" />
+    <public type="xml" name="leui_sim_settings" id="0x7f060012" />
+    <public type="xml" name="mtk_call_barring_options" id="0x7f060013" />
+    <public type="xml" name="mtk_carrier_select_list" id="0x7f060014" />
+    <public type="xml" name="mtk_ip_prefix_setting" id="0x7f060015" />
+    <public type="xml" name="mtk_plmn_editor" id="0x7f060016" />
+    <public type="xml" name="mtk_plmn_list" id="0x7f060017" />
+    <public type="xml" name="network_setting" id="0x7f060018" />
+    <public type="xml" name="phone_account_selection" id="0x7f060019" />
+    <public type="xml" name="phone_account_settings" id="0x7f06001a" />
+    <public type="xml" name="sip_advanced_edit" id="0x7f06001b" />
+    <public type="xml" name="sip_edit" id="0x7f06001c" />
+    <public type="xml" name="sip_setting" id="0x7f06001d" />
     <public type="array" name="transport_types" id="0x7f070000" />
     <public type="array" name="sip_call_options_entries" id="0x7f070001" />
     <public type="array" name="sip_call_options_wifi_only_entries" id="0x7f070002" />
@@ -935,61 +936,68 @@
     <public type="string" name="open_ringtone_increase" id="0x7f0802e2" />
     <public type="string" name="ringtone_increase_title" id="0x7f0802e3" />
     <public type="string" name="call_vibrate" id="0x7f0802e4" />
-    <public type="string" name="data_enable_state" id="0x7f080306" />
-    <public type="string" name="data_disable_state" id="0x7f080307" />
-    <public type="string" name="data_usage_summary" id="0x7f080308" />
-    <public type="string" name="edit_sim_info" id="0x7f080309" />
-    <public type="string" name="edit_name_info" id="0x7f08030a" />
-    <public type="string" name="edit_number_info" id="0x7f08030b" />
-    <public type="string" name="enable_state" id="0x7f08030c" />
-    <public type="string" name="sim1" id="0x7f08030d" />
-    <public type="string" name="sim2" id="0x7f08030e" />
-    <public type="string" name="sim_default_name" id="0x7f08030f" />
-    <public type="string" name="network_priority_title" id="0x7f080310" />
-    <public type="string" name="add_plmn" id="0x7f080311" />
-    <public type="string" name="delete" id="0x7f080312" />
-    <public type="string" name="delete_plmn_confirm" id="0x7f080313" />
-    <public type="string" name="plmn" id="0x7f080314" />
-    <public type="string" name="color_sign" id="0x7f080315" />
-    <public type="string" name="error_priority" id="0x7f080316" />
-    <public type="string" name="network_lte_pref" id="0x7f080317" />
-    <public type="string" name="network_3G_pref" id="0x7f080318" />
-    <public type="string" name="data_connection_progress_message" id="0x7f080319" />
-    <public type="string" name="choose_sim" id="0x7f08031a" />
-    <public type="string" name="continue_search" id="0x7f08031b" />
-    <public type="string" name="dialog_message_warn_data_business_toast" id="0x7f08031c" />
-    <public type="string" name="toast_message_is_calling" id="0x7f08031d" />
-    <public type="string" name="leui_data_usage_no_limit" id="0x7f08031e" />
-    <public type="string" name="call_settings_leui" id="0x7f08031f" />
-    <public type="string" name="realtime_enabled" id="0x7f080320" />
-    <public type="string" name="blue_value" id="0x7f080321" />
-    <public type="string" name="green_value" id="0x7f080322" />
-    <public type="string" name="yellow_value" id="0x7f080323" />
-    <public type="string" name="violet_value" id="0x7f080324" />
-    <public type="string" name="multisim_mobile_networks" id="0x7f080325" />
-    <public type="string" name="sim_settings_title" id="0x7f080326" />
-    <public type="string" name="subscriptioninfo_title" id="0x7f080327" />
-    <public type="string" name="sim_pref_divider" id="0x7f080328" />
-    <public type="string" name="data_management_title" id="0x7f080329" />
-    <public type="string" name="sim_enabler_enabling" id="0x7f08032a" />
-    <public type="string" name="sim_enabler_disabling" id="0x7f08032b" />
-    <public type="string" name="toast_in_call" id="0x7f08032c" />
-    <public type="string" name="dds_deactived" id="0x7f08032d" />
-    <public type="string" name="switch_data_message" id="0x7f08032e" />
-    <public type="string" name="cellular_data_title" id="0x7f08032f" />
-    <public type="string" name="calls_title" id="0x7f080330" />
-    <public type="string" name="sim_cards_celluar_data_dialog_title" id="0x7f080331" />
-    <public type="string" name="sim_cards_calls_dialog_title" id="0x7f080332" />
-    <public type="string" name="sim_calls_ask_first_prefs_title" id="0x7f080333" />
-    <public type="string" name="edit_sim_cards" id="0x7f080334" />
-    <public type="string" name="status_plmn_info" id="0x7f080335" />
-    <public type="string" name="sim_editor_name" id="0x7f080336" />
-    <public type="string" name="sim_editor_number" id="0x7f080337" />
-    <public type="string" name="sim_info_editor_color" id="0x7f080338" />
-    <public type="string" name="sim_card_blue" id="0x7f080339" />
-    <public type="string" name="sim_card_green" id="0x7f08033a" />
-    <public type="string" name="sim_card_yellow" id="0x7f08033b" />
-    <public type="string" name="sim_card_violet" id="0x7f08033c" />
+    <public type="string" name="leui_yellow_page_reject" id="0x7f0802e5" />
+    <public type="string" name="reject_accord_yellow_page_tag" id="0x7f0802e6" />
+    <public type="string" name="remind_about_reject_yellow_page" id="0x7f0802e7" />
+    <public type="string" name="leui_yp_black_fraud" id="0x7f0802e8" />
+    <public type="string" name="leui_yp_black_market" id="0x7f0802e9" />
+    <public type="string" name="leui_yp_black_estate" id="0x7f0802ea" />
+    <public type="string" name="leui_yp_black_harass" id="0x7f0802eb" />
+    <public type="string" name="data_enable_state" id="0x7f080318" />
+    <public type="string" name="data_disable_state" id="0x7f080319" />
+    <public type="string" name="data_usage_summary" id="0x7f08031a" />
+    <public type="string" name="edit_sim_info" id="0x7f08031b" />
+    <public type="string" name="edit_name_info" id="0x7f08031c" />
+    <public type="string" name="edit_number_info" id="0x7f08031d" />
+    <public type="string" name="enable_state" id="0x7f08031e" />
+    <public type="string" name="sim1" id="0x7f08031f" />
+    <public type="string" name="sim2" id="0x7f080320" />
+    <public type="string" name="sim_default_name" id="0x7f080321" />
+    <public type="string" name="network_priority_title" id="0x7f080322" />
+    <public type="string" name="add_plmn" id="0x7f080323" />
+    <public type="string" name="delete" id="0x7f080324" />
+    <public type="string" name="delete_plmn_confirm" id="0x7f080325" />
+    <public type="string" name="plmn" id="0x7f080326" />
+    <public type="string" name="color_sign" id="0x7f080327" />
+    <public type="string" name="error_priority" id="0x7f080328" />
+    <public type="string" name="network_lte_pref" id="0x7f080329" />
+    <public type="string" name="network_3G_pref" id="0x7f08032a" />
+    <public type="string" name="data_connection_progress_message" id="0x7f08032b" />
+    <public type="string" name="choose_sim" id="0x7f08032c" />
+    <public type="string" name="continue_search" id="0x7f08032d" />
+    <public type="string" name="dialog_message_warn_data_business_toast" id="0x7f08032e" />
+    <public type="string" name="toast_message_is_calling" id="0x7f08032f" />
+    <public type="string" name="leui_data_usage_no_limit" id="0x7f080330" />
+    <public type="string" name="call_settings_leui" id="0x7f080331" />
+    <public type="string" name="realtime_enabled" id="0x7f080332" />
+    <public type="string" name="blue_value" id="0x7f080333" />
+    <public type="string" name="green_value" id="0x7f080334" />
+    <public type="string" name="yellow_value" id="0x7f080335" />
+    <public type="string" name="violet_value" id="0x7f080336" />
+    <public type="string" name="multisim_mobile_networks" id="0x7f080337" />
+    <public type="string" name="sim_settings_title" id="0x7f080338" />
+    <public type="string" name="subscriptioninfo_title" id="0x7f080339" />
+    <public type="string" name="sim_pref_divider" id="0x7f08033a" />
+    <public type="string" name="data_management_title" id="0x7f08033b" />
+    <public type="string" name="sim_enabler_enabling" id="0x7f08033c" />
+    <public type="string" name="sim_enabler_disabling" id="0x7f08033d" />
+    <public type="string" name="toast_in_call" id="0x7f08033e" />
+    <public type="string" name="dds_deactived" id="0x7f08033f" />
+    <public type="string" name="switch_data_message" id="0x7f080340" />
+    <public type="string" name="cellular_data_title" id="0x7f080341" />
+    <public type="string" name="calls_title" id="0x7f080342" />
+    <public type="string" name="sim_cards_celluar_data_dialog_title" id="0x7f080343" />
+    <public type="string" name="sim_cards_calls_dialog_title" id="0x7f080344" />
+    <public type="string" name="sim_calls_ask_first_prefs_title" id="0x7f080345" />
+    <public type="string" name="edit_sim_cards" id="0x7f080346" />
+    <public type="string" name="status_plmn_info" id="0x7f080347" />
+    <public type="string" name="sim_editor_name" id="0x7f080348" />
+    <public type="string" name="sim_editor_number" id="0x7f080349" />
+    <public type="string" name="sim_info_editor_color" id="0x7f08034a" />
+    <public type="string" name="sim_card_blue" id="0x7f08034b" />
+    <public type="string" name="sim_card_green" id="0x7f08034c" />
+    <public type="string" name="sim_card_yellow" id="0x7f08034d" />
+    <public type="string" name="sim_card_violet" id="0x7f08034e" />
     <public type="string" name="sip_call_options_entry_3" id="0x7f080048" />
     <public type="string" name="pick_outgoing_call_phone_type" id="0x7f080049" />
     <public type="string" name="pick_outgoing_sip_phone" id="0x7f08004a" />
@@ -1005,29 +1013,24 @@
     <public type="string" name="set_primary_summary" id="0x7f080054" />
     <public type="string" name="no_internet_available_title" id="0x7f080055" />
     <public type="string" name="no_wifi_available_title" id="0x7f080056" />
-    <public type="string" name="respond_via_sms_setting_title" id="0x7f0802e5" />
-    <public type="string" name="respond_via_sms_setting_summary" id="0x7f0802e6" />
-    <public type="string" name="ringtone_title" id="0x7f0802e7" />
-    <public type="string" name="vibrate_on_ring_title" id="0x7f0802e8" />
-    <public type="string" name="dtmf_tone_enable_title" id="0x7f0802e9" />
-    <public type="string" name="APKTOOL_DUMMY_02ea" id="0x7f0802ea" />
-    <public type="string" name="APKTOOL_DUMMY_02eb" id="0x7f0802eb" />
-    <public type="string" name="APKTOOL_DUMMY_02ec" id="0x7f0802ec" />
-    <public type="string" name="APKTOOL_DUMMY_02ed" id="0x7f0802ed" />
-    <public type="string" name="APKTOOL_DUMMY_02ee" id="0x7f0802ee" />
-    <public type="string" name="APKTOOL_DUMMY_02ef" id="0x7f0802ef" />
-    <public type="string" name="APKTOOL_DUMMY_02f0" id="0x7f0802f0" />
-    <public type="string" name="APKTOOL_DUMMY_02f1" id="0x7f0802f1" />
-    <public type="string" name="APKTOOL_DUMMY_02f2" id="0x7f0802f2" />
-    <public type="string" name="APKTOOL_DUMMY_02f3" id="0x7f0802f3" />
-    <public type="string" name="APKTOOL_DUMMY_02f4" id="0x7f0802f4" />
-    <public type="string" name="APKTOOL_DUMMY_02f5" id="0x7f0802f5" />
-    <public type="string" name="APKTOOL_DUMMY_02f6" id="0x7f0802f6" />
-    <public type="string" name="APKTOOL_DUMMY_02f7" id="0x7f0802f7" />
-    <public type="string" name="APKTOOL_DUMMY_02f8" id="0x7f0802f8" />
-    <public type="string" name="APKTOOL_DUMMY_02f9" id="0x7f0802f9" />
-    <public type="string" name="APKTOOL_DUMMY_02fa" id="0x7f0802fa" />
-    <public type="string" name="APKTOOL_DUMMY_02fb" id="0x7f0802fb" />
+    <public type="string" name="respond_via_sms_setting_title" id="0x7f0802ec" />
+    <public type="string" name="respond_via_sms_setting_summary" id="0x7f0802ed" />
+    <public type="string" name="ringtone_title" id="0x7f0802ee" />
+    <public type="string" name="vibrate_on_ring_title" id="0x7f0802ef" />
+    <public type="string" name="dtmf_tone_enable_title" id="0x7f0802f0" />
+    <public type="string" name="dlg_data_reg_denied_msg" id="0x7f08034f" />
+    <public type="string" name="dlg_data_reg_denied_done" id="0x7f080350" />
+    <public type="string" name="disconnect_data_confirm" id="0x7f0802f1" />
+    <public type="string" name="network_lte_wcdma_gsm" id="0x7f0802f2" />
+    <public type="string" name="network_wcdma_gsm" id="0x7f0802f3" />
+    <public type="string" name="preferred_network_mode_global_choice" id="0x7f0802f4" />
+    <public type="string" name="preferred_network_mode_evdo_only_choice" id="0x7f0802f5" />
+    <public type="string" name="preferred_network_mode_cdma_wo_evdo_choice" id="0x7f0802f6" />
+    <public type="string" name="preferred_network_mode_cdma_evdo_auto_choice" id="0x7f0802f7" />
+    <public type="string" name="preferred_network_mode_gsm_wcdma_auto_choice" id="0x7f0802f8" />
+    <public type="string" name="preferred_network_mode_wcdma_only_choice" id="0x7f0802f9" />
+    <public type="string" name="preferred_network_mode_gsm_only_choice" id="0x7f0802fa" />
+    <public type="string" name="preferred_network_mode_gsm_wcdma_preferred_choice" id="0x7f0802fb" />
     <public type="string" name="APKTOOL_DUMMY_02fc" id="0x7f0802fc" />
     <public type="string" name="APKTOOL_DUMMY_02fd" id="0x7f0802fd" />
     <public type="string" name="APKTOOL_DUMMY_02fe" id="0x7f0802fe" />
@@ -1038,26 +1041,24 @@
     <public type="string" name="APKTOOL_DUMMY_0303" id="0x7f080303" />
     <public type="string" name="APKTOOL_DUMMY_0304" id="0x7f080304" />
     <public type="string" name="APKTOOL_DUMMY_0305" id="0x7f080305" />
-    <public type="string" name="APKTOOL_DUMMY_033d" id="0x7f08033d" />
-    <public type="string" name="APKTOOL_DUMMY_033e" id="0x7f08033e" />
-    <public type="string" name="APKTOOL_DUMMY_033f" id="0x7f08033f" />
-    <public type="string" name="APKTOOL_DUMMY_0340" id="0x7f080340" />
-    <public type="string" name="APKTOOL_DUMMY_0341" id="0x7f080341" />
-    <public type="string" name="APKTOOL_DUMMY_0342" id="0x7f080342" />
-    <public type="string" name="APKTOOL_DUMMY_0343" id="0x7f080343" />
-    <public type="string" name="APKTOOL_DUMMY_0344" id="0x7f080344" />
-    <public type="string" name="APKTOOL_DUMMY_0345" id="0x7f080345" />
-    <public type="string" name="APKTOOL_DUMMY_0346" id="0x7f080346" />
-    <public type="string" name="APKTOOL_DUMMY_0347" id="0x7f080347" />
-    <public type="string" name="APKTOOL_DUMMY_0348" id="0x7f080348" />
-    <public type="string" name="APKTOOL_DUMMY_0349" id="0x7f080349" />
-    <public type="string" name="APKTOOL_DUMMY_034a" id="0x7f08034a" />
-    <public type="string" name="APKTOOL_DUMMY_034b" id="0x7f08034b" />
-    <public type="string" name="APKTOOL_DUMMY_034c" id="0x7f08034c" />
-    <public type="string" name="APKTOOL_DUMMY_034d" id="0x7f08034d" />
-    <public type="string" name="APKTOOL_DUMMY_034e" id="0x7f08034e" />
-    <public type="string" name="APKTOOL_DUMMY_034f" id="0x7f08034f" />
-    <public type="string" name="APKTOOL_DUMMY_0350" id="0x7f080350" />
+    <public type="string" name="APKTOOL_DUMMY_0306" id="0x7f080306" />
+    <public type="string" name="APKTOOL_DUMMY_0307" id="0x7f080307" />
+    <public type="string" name="APKTOOL_DUMMY_0308" id="0x7f080308" />
+    <public type="string" name="APKTOOL_DUMMY_0309" id="0x7f080309" />
+    <public type="string" name="APKTOOL_DUMMY_030a" id="0x7f08030a" />
+    <public type="string" name="APKTOOL_DUMMY_030b" id="0x7f08030b" />
+    <public type="string" name="APKTOOL_DUMMY_030c" id="0x7f08030c" />
+    <public type="string" name="APKTOOL_DUMMY_030d" id="0x7f08030d" />
+    <public type="string" name="APKTOOL_DUMMY_030e" id="0x7f08030e" />
+    <public type="string" name="APKTOOL_DUMMY_030f" id="0x7f08030f" />
+    <public type="string" name="APKTOOL_DUMMY_0310" id="0x7f080310" />
+    <public type="string" name="APKTOOL_DUMMY_0311" id="0x7f080311" />
+    <public type="string" name="APKTOOL_DUMMY_0312" id="0x7f080312" />
+    <public type="string" name="APKTOOL_DUMMY_0313" id="0x7f080313" />
+    <public type="string" name="APKTOOL_DUMMY_0314" id="0x7f080314" />
+    <public type="string" name="APKTOOL_DUMMY_0315" id="0x7f080315" />
+    <public type="string" name="APKTOOL_DUMMY_0316" id="0x7f080316" />
+    <public type="string" name="APKTOOL_DUMMY_0317" id="0x7f080317" />
     <public type="string" name="APKTOOL_DUMMY_0351" id="0x7f080351" />
     <public type="string" name="APKTOOL_DUMMY_0352" id="0x7f080352" />
     <public type="string" name="APKTOOL_DUMMY_0353" id="0x7f080353" />
@@ -1088,6 +1089,24 @@
     <public type="string" name="APKTOOL_DUMMY_036c" id="0x7f08036c" />
     <public type="string" name="APKTOOL_DUMMY_036d" id="0x7f08036d" />
     <public type="string" name="APKTOOL_DUMMY_036e" id="0x7f08036e" />
+    <public type="string" name="APKTOOL_DUMMY_036f" id="0x7f08036f" />
+    <public type="string" name="APKTOOL_DUMMY_0370" id="0x7f080370" />
+    <public type="string" name="APKTOOL_DUMMY_0371" id="0x7f080371" />
+    <public type="string" name="APKTOOL_DUMMY_0372" id="0x7f080372" />
+    <public type="string" name="APKTOOL_DUMMY_0373" id="0x7f080373" />
+    <public type="string" name="APKTOOL_DUMMY_0374" id="0x7f080374" />
+    <public type="string" name="APKTOOL_DUMMY_0375" id="0x7f080375" />
+    <public type="string" name="APKTOOL_DUMMY_0376" id="0x7f080376" />
+    <public type="string" name="APKTOOL_DUMMY_0377" id="0x7f080377" />
+    <public type="string" name="APKTOOL_DUMMY_0378" id="0x7f080378" />
+    <public type="string" name="APKTOOL_DUMMY_0379" id="0x7f080379" />
+    <public type="string" name="APKTOOL_DUMMY_037a" id="0x7f08037a" />
+    <public type="string" name="APKTOOL_DUMMY_037b" id="0x7f08037b" />
+    <public type="string" name="APKTOOL_DUMMY_037c" id="0x7f08037c" />
+    <public type="string" name="APKTOOL_DUMMY_037d" id="0x7f08037d" />
+    <public type="string" name="APKTOOL_DUMMY_037e" id="0x7f08037e" />
+    <public type="string" name="APKTOOL_DUMMY_037f" id="0x7f08037f" />
+    <public type="string" name="APKTOOL_DUMMY_0380" id="0x7f080380" />
     <public type="integer" name="floating_action_button_animation_duration" id="0x7f090000" />
     <public type="integer" name="dialpad_slide_in_duration" id="0x7f090001" />
     <public type="integer" name="dialpad_slide_out_duration" id="0x7f090002" />

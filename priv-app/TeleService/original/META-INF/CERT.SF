@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: UFJ4UF9hFr+d1iL7cjy2FBtpUes=
+SHA1-Digest-Manifest: KqFiAjABAwIBzV3EtMq4KJrwBXc=
 
 Name: res/drawable/btn_selected.xml
 SHA1-Digest-Manifest: dut4GaGWKHnjjS10M09P2FYQNu4=
@@ -54,7 +54,7 @@ Name: res/drawable-xxxhdpi-v4/ic_dialpad_voicemail.png
 SHA1-Digest-Manifest: IM7kxzwg/AHTtJPCGrdaF55pYHs=
 
 Name: res/xml/leui_network_settings.xml
-SHA1-Digest-Manifest: 8XASStHMZCBGsXNqxGcAmD1SawQ=
+SHA1-Digest-Manifest: ++L5L60aqvBRHAZsMpYRKtzOA7g=
 
 Name: res/layout-sw600dp-land-v13/dialpad_key_zero.xml
 SHA1-Digest-Manifest: YfucuT7NPQlK/JEZ5hG2zDJ4J8E=
@@ -156,7 +156,7 @@ Name: res/drawable/ic_delete_icon.xml
 SHA1-Digest-Manifest: FlVOu/PFOIqbyMdqofdfphjMTRo=
 
 Name: res/drawable-xxhdpi-v4/leui_action_bar_divider.9.png
-SHA1-Digest-Manifest: CIJQwJfWxrmTZfrb4e2HFrzL8VA=
+SHA1-Digest-Manifest: FzlnsQ+XdOghXrNGJi1vVTEZdrM=
 
 Name: res/layout/app_radio_group_preference.xml
 SHA1-Digest-Manifest: iW/i2G6cyCO9dNmQ41uI8SNsdHQ=
@@ -210,7 +210,7 @@ Name: res/drawable/leui_dialpad_star.xml
 SHA1-Digest-Manifest: VP3jwS/P/xPD2Bg8nKqQ7Zzud7Q=
 
 Name: res/xml/mtk_plmn_editor.xml
-SHA1-Digest-Manifest: zrH2mVb/6bqSuoQfnwRkA+LMe1g=
+SHA1-Digest-Manifest: sqA7Jr9gH89aQTfJ0MScJiC5nbY=
 
 Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_vp_phone_call_on_hold.png
 SHA1-Digest-Manifest: yMM9MmzLn1IVNVZm5+4MQFOcqwY=
@@ -228,7 +228,7 @@ Name: res/drawable-xhdpi-v4/ic_launcher_sip_call.png
 SHA1-Digest-Manifest: y0f52jj0dY7a2thGbqIQLjIHSSU=
 
 Name: res/layout/actionbar_setting_phonesetting.xml
-SHA1-Digest-Manifest: esCEo8lh/1xBcPrKLtsH1of7/vI=
+SHA1-Digest-Manifest: JsECDAQ9Rv+6e7mTv22X/RA06mw=
 
 Name: res/drawable-ldrtl-hdpi-v4/stat_sys_vp_phone_call.png
 SHA1-Digest-Manifest: mYDXVPC4wS0di3jmF0emfvd7lEU=
@@ -326,6 +326,9 @@ SHA1-Digest-Manifest: emuX8hF0S3v8cZZ0XWcO/0r3tXw=
 Name: res/drawable-xxhdpi-v4/sim_icon_ask.xml
 SHA1-Digest-Manifest: w8WqwOTU72rhfK2HfgY0n14wmao=
 
+Name: res/xml/leui_call_yellowpage_reject_settings.xml
+SHA1-Digest-Manifest: POxXdnXO6ZdeYL77YEVdLxje8oU=
+
 Name: res/xml/mtk_ip_prefix_setting.xml
 SHA1-Digest-Manifest: B359K7+TvQo9gcsd3yZCwsdtjF0=
 
@@ -387,7 +390,7 @@ Name: res/drawable-mdpi-v4/stat_sys_phone_call_end.png
 SHA1-Digest-Manifest: +6uYHoJkISRKSAP4g0AipEaYQ/g=
 
 Name: res/xml/call_feature_setting.xml
-SHA1-Digest-Manifest: nQYD0yjxj4izWGUImZXI0sfqbkM=
+SHA1-Digest-Manifest: rlU3+weY9+41TPz93tNILb4osKg=
 
 Name: res/drawable-xhdpi-v4/fab_ic_call.png
 SHA1-Digest-Manifest: m+lXf4MRA/rs85r3CcV4LBnhBCI=
@@ -489,7 +492,7 @@ Name: res/drawable-xxxhdpi-v4/ic_multi_sim4.png
 SHA1-Digest-Manifest: zXt83NfDRSd+JEw2dkeKm9DGtFM=
 
 Name: res/drawable-xxhdpi-v4/leui_launcher_phone.xml
-SHA1-Digest-Manifest: t5X3s/8Aj+myPD1GzWWBZxB3+dg=
+SHA1-Digest-Manifest: 6kil2KblWrRvPJxd6H2mRxMMiPY=
 
 Name: res/drawable-ldrtl-mdpi-v4/ic_emergency_callback_mode.png
 SHA1-Digest-Manifest: OuEHIrgMBVt7QrCCgukolXuRlnQ=
@@ -531,7 +534,7 @@ Name: res/drawable-hdpi-v4/ic_launcher_sip_call.png
 SHA1-Digest-Manifest: mJWJRI1cmODn8XyUl2Enz1MdQ6Y=
 
 Name: res/layout/pref_dialog_editpin.xml
-SHA1-Digest-Manifest: rWir5ldzgUHuKazddJPrwuyYU5Q=
+SHA1-Digest-Manifest: N3fdp5xWWOYXoUSsTlFOC9R3ZlQ=
 
 Name: res/drawable/le_top_btn_icon_reback.xml
 SHA1-Digest-Manifest: s3e+FYjuGCs4NlTEZOEjkU3Opo8=
@@ -540,7 +543,7 @@ Name: res/drawable-xxhdpi-v4/ic_menu_add_light.png
 SHA1-Digest-Manifest: tXOE9fwlnms1cSW7obhupD+OCJw=
 
 Name: res/layout/sim_info_settings.xml
-SHA1-Digest-Manifest: jX6k0vKFaw4r+hz8NIMlDzi9kEI=
+SHA1-Digest-Manifest: ZSUiVmvff+OtHzVSu9gWfPUxZgU=
 
 Name: res/drawable-xxhdpi-v4/ic_overflow_menu.png
 SHA1-Digest-Manifest: kenPaomMLje5YpR/XErhqIlNu1g=
@@ -585,7 +588,7 @@ Name: res/drawable-xhdpi-v4/stat_sys_phone_call_on_hold.png
 SHA1-Digest-Manifest: ItTr90t3NHTN4Qf+hBDi0aiZCaw=
 
 Name: res/xml/leui_sim_settings.xml
-SHA1-Digest-Manifest: DuXqeQzIniTpY0dmUoamuZEesVM=
+SHA1-Digest-Manifest: i+5tefSps/G5JvVlkbfilRD/aDo=
 
 Name: res/drawable-ldrtl-hdpi-v4/ic_btn_back.png
 SHA1-Digest-Manifest: qL7HczIWB+yElKH7hZhwQI0zZ00=
@@ -615,7 +618,7 @@ Name: res/drawable-hdpi-v4/mtk_csgs_other_type.png
 SHA1-Digest-Manifest: uu6KvvchA6+E6XrrnY2dTEASq3M=
 
 Name: resources.arsc
-SHA1-Digest-Manifest: o3QhZAPBxVPt19Iv/oRmr1W2Loc=
+SHA1-Digest-Manifest: 9HTBxlvwexAyjsMDfCpwcH6qUb8=
 
 Name: res/drawable-hdpi-v4/stat_sys_phone_call_end.png
 SHA1-Digest-Manifest: 2ncmzrbhR0zydQ19oKJw96V3ojQ=
@@ -639,7 +642,7 @@ Name: res/drawable-mdpi-v4/ic_multi_sim3.png
 SHA1-Digest-Manifest: 1n9M9T18v25sAP9iwMKeIZtwQ38=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: CyevUjTATFybJTWc7+UHL4KE3/I=
+SHA1-Digest-Manifest: +VE4ND851i8g3E3uxqEu613XVRk=
 
 Name: res/drawable-xxhdpi-v4/callfeature_backg.xml
 SHA1-Digest-Manifest: tWQrycwo2iXC1VbQfQ42wRY6a2A=
@@ -690,7 +693,7 @@ Name: res/drawable-hdpi-v4/ic_emergency_callback_mode.png
 SHA1-Digest-Manifest: Z+agjr/28LisVH1fAd8PJIl0dUY=
 
 Name: classes.dex
-SHA1-Digest-Manifest: dzYh8mj+hP6a34+PMafG2MvixmE=
+SHA1-Digest-Manifest: viQYJRUQ4M5nqFCKH8VtOQAfWdk=
 
 Name: res/drawable-xhdpi-v4/list_pressed_holo_dark.9.png
 SHA1-Digest-Manifest: eLP0sguM4+hR61Rq1o8wr5QpR3g=

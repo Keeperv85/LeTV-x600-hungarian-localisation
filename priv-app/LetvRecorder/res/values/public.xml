@@ -43,6 +43,7 @@
     <public type="drawable" name="share_selector" id="0x7f02008f" />
     <public type="drawable" name="sherlock_text_selector" id="0x7f020090" />
     <public type="drawable" name="start_selector" id="0x7f020091" />
+    <public type="drawable" name="window_bg" id="0x7f020092" />
     <public type="drawable" name="list_divider" id="0x7f020093" />
     <public type="drawable" name="default_rule" id="0x7f020094" />
     <public type="drawable" name="ic_launcher" id="0x7f02000e" />
@@ -159,7 +160,6 @@
     <public type="drawable" name="ic_small_circle" id="0x7f020078" />
     <public type="drawable" name="play_progress" id="0x7f020082" />
     <public type="drawable" name="play_thumb" id="0x7f020087" />
-    <public type="drawable" name="window_bg" id="0x7f020092" />
     <public type="layout" name="action_bar" id="0x7f030000" />
     <public type="layout" name="action_bar_left" id="0x7f030001" />
     <public type="layout" name="action_bar_right" id="0x7f030002" />
@@ -305,8 +305,6 @@
     <public type="string" name="app_keyword_call_record" id="0x7f09003b" />
     <public type="string" name="play_record_error" id="0x7f09003c" />
     <public type="string" name="record_pase" id="0x7f09003d" />
-    <public type="string" name="select_item_xliff" id="0x7f09003e" />
-    <public type="string" name="delete_record_dialog_title" id="0x7f09003f" />
     <public type="plurals" name="select_item_xliff" id="0x7f0a0000" />
     <public type="plurals" name="delete_record_dialog_title" id="0x7f0a0001" />
     <public type="style" name="AppBaseTheme" id="0x7f0b0000" />
