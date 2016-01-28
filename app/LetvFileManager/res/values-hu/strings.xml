@@ -537,4 +537,6 @@ A letv csapata.
     <string name="contain_folder_name">A mappa már létezik. Kérem adjon meg másik nevet!</string>
     <string name="le_installed">Telepített</string>
     <string name="le_un_installed">Eltávolított</string>
+    <string name="le_unzip_to_mobile">Kicsomagolás a gyökérkönyvtárba</string>
+    <string name="unzip_passwoed_exception">hibás a megadott jelszó</string>
 </resources>
