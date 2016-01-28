@@ -30,4 +30,5 @@
     <string name="revert">Visszavonás</string>
     <string name="schpwr_shutdown_message">Az készüléke %s mp. múlva kikapcsol.</string>
     <string name="schpwr_shutdown_message_second">Az készüléke %s mp. múlva kikapcsol.</string>
+    <string name="leui_error_short_interval">A be és kikapcsolás közti időintervallum több kell legyen, mint 5 perc!</string>
 </resources>
