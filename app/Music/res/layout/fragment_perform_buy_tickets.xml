@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <com.android.music.widget.RefreshAndMoreScrollView android:id="@id/scrollContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <WebView android:id="@id/webView_perform_buy_ticket_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" />
+                <TextView android:textSize="14.0sp" android:gravity="center" android:background="@color/white" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_perform_service_help_bottom_remind" />
+            </LinearLayout>
+            <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage_perform_buy_ticket" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </com.android.music.widget.RefreshAndMoreScrollView>
+</RelativeLayout>

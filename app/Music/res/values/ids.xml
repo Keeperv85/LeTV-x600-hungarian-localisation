@@ -23,14 +23,6 @@
     <item type="id" name="content">false</item>
     <item type="id" name="content_webview">false</item>
     <item type="id" name="empty">false</item>
-    <item type="id" name="blankPage_collect">false</item>
-    <item type="id" name="refresh_scrollView">false</item>
-    <item type="id" name="content_collect">false</item>
-    <item type="id" name="imageView_collections_introduce_title_tag">false</item>
-    <item type="id" name="textView_best_collections_indroduce_title">false</item>
-    <item type="id" name="imageView_best_collections_indroduce_cover">false</item>
-    <item type="id" name="textView_best_collections_indroduce_detail">false</item>
-    <item type="id" name="webView_detail">false</item>
     <item type="id" name="frameLayout_container">false</item>
     <item type="id" name="textView_finish">false</item>
     <item type="id" name="divider">false</item>
@@ -40,66 +32,22 @@
     <item type="id" name="blankPage_custom_made">false</item>
     <item type="id" name="layout_root">false</item>
     <item type="id" name="realtabcontent">false</item>
+    <item type="id" name="mini_player">false</item>
     <item type="id" name="sv">false</item>
     <item type="id" name="lrvg">false</item>
     <item type="id" name="vp">false</item>
-    <item type="id" name="background">false</item>
-    <item type="id" name="background_switch">false</item>
-    <item type="id" name="mask">false</item>
     <item type="id" name="pager">false</item>
-    <item type="id" name="controls">false</item>
-    <item type="id" name="left_btn">false</item>
-    <item type="id" name="delete">false</item>
-    <item type="id" name="repeat">false</item>
-    <item type="id" name="download_finished">false</item>
-    <item type="id" name="download">false</item>
-    <item type="id" name="download1">false</item>
-    <item type="id" name="download2">false</item>
-    <item type="id" name="add_to_playlist">false</item>
-    <item type="id" name="radio_control">false</item>
-    <item type="id" name="radio_pause">false</item>
-    <item type="id" name="radio_next">false</item>
-    <item type="id" name="normal_control">false</item>
-    <item type="id" name="prev">false</item>
-    <item type="id" name="pause">false</item>
-    <item type="id" name="next">false</item>
-    <item type="id" name="progressBar">false</item>
-    <item type="id" name="currenttime">false</item>
-    <item type="id" name="totaltime">false</item>
-    <item type="id" name="vs_action_panel">false</item>
-    <item type="id" name="action_panel">false</item>
+    <item type="id" name="player_control">false</item>
     <item type="id" name="left_connect_line">false</item>
     <item type="id" name="listView_my_follow">false</item>
     <item type="id" name="top_container">false</item>
-    <item type="id" name="tabs">false</item>
-    <item type="id" name="scrollContent">false</item>
-    <item type="id" name="webView_perform_buy_ticket_content">false</item>
-    <item type="id" name="blankPage_perform_buy_ticket">false</item>
+    <item type="id" name="actions">false</item>
     <item type="id" name="leProgressBar_perform_service_help">false</item>
     <item type="id" name="textView_perform_service_help_footer">false</item>
     <item type="id" name="webView_perform_service_help">false</item>
     <item type="id" name="album_detail_tab_layout">false</item>
     <item type="id" name="alphabetWavesView_search_artist_region_reference">false</item>
     <item type="id" name="blankPage">false</item>
-    <item type="id" name="scrollView">false</item>
-    <item type="id" name="perform_content">false</item>
-    <item type="id" name="relativeLayout_perform_detail_preson_info">false</item>
-    <item type="id" name="borderedCircleImageView_perform_detail_preson_info_avatar">false</item>
-    <item type="id" name="textView_perform_detail_preson_info_name">false</item>
-    <item type="id" name="relativeLayout_perform_detail_location">false</item>
-    <item type="id" name="textView_perform_detail_location_name">false</item>
-    <item type="id" name="textView_perform_detail_location_detail">false</item>
-    <item type="id" name="relativeLayout_perform_detail_show">false</item>
-    <item type="id" name="relativeLayout_perform_detail_item_title_container">false</item>
-    <item type="id" name="textView_perform_detail_show_name">false</item>
-    <item type="id" name="imageView_perform_detail_query_more">false</item>
-    <item type="id" name="textView_perform_detail_show_detail">false</item>
-    <item type="id" name="relativeLayout_perform_detail_tip">false</item>
-    <item type="id" name="perform_item_title">false</item>
-    <item type="id" name="textView_perform_detail_tip_detail">false</item>
-    <item type="id" name="relativeLayout_perform_detail_service">false</item>
-    <item type="id" name="blankPage_perform_detail">false</item>
-    <item type="id" name="textView_perform_detail_buy_ticket">false</item>
     <item type="id" name="listView_radio_category">false</item>
     <item type="id" name="condition_layout">false</item>
     <item type="id" name="condition_text">false</item>
@@ -117,12 +65,8 @@
     <item type="id" name="selected_none_checkbox">false</item>
     <item type="id" name="bottom_line">false</item>
     <item type="id" name="complete_button">false</item>
-    <item type="id" name="listView_search_artist_region_content">false</item>
-    <item type="id" name="blankPage_artist_region">false</item>
     <item type="id" name="searchBarView_search_header">false</item>
-    <item type="id" name="relativeLayout_search_result_content">false</item>
-    <item type="id" name="tabView_search_result">false</item>
-    <item type="id" name="viewPager_search_result">false</item>
+    <item type="id" name="listView_search_result">false</item>
     <item type="id" name="current_playlist">false</item>
     <item type="id" name="current_playlist_icon">false</item>
     <item type="id" name="current_playlist_name">false</item>
@@ -155,9 +99,13 @@
     <item type="id" name="video_thumbnail">false</item>
     <item type="id" name="video_play">false</item>
     <item type="id" name="action_layout">false</item>
-    <item type="id" name="actions">false</item>
+    <item type="id" name="tabs">false</item>
     <item type="id" name="progress_loading">false</item>
     <item type="id" name="panel_container">false</item>
+    <item type="id" name="controls">false</item>
+    <item type="id" name="prev">false</item>
+    <item type="id" name="pause">false</item>
+    <item type="id" name="next">false</item>
     <item type="id" name="album">false</item>
     <item type="id" name="remaintime">false</item>
     <item type="id" name="title">false</item>
@@ -180,8 +128,29 @@
     <item type="id" name="title_channel">false</item>
     <item type="id" name="channel_layout">false</item>
     <item type="id" name="llv">false</item>
-    <item type="id" name="head_listen">false</item>
-    <item type="id" name="listView_collects">false</item>
+    <item type="id" name="scrollview">false</item>
+    <item type="id" name="head">false</item>
+    <item type="id" name="songs_container">false</item>
+    <item type="id" name="mv_recycleview">false</item>
+    <item type="id" name="collect_recycleview">false</item>
+    <item type="id" name="blank_page">false</item>
+    <item type="id" name="listview">false</item>
+    <item type="id" name="listView_search_artist_region_content">false</item>
+    <item type="id" name="catainer_collect_category">false</item>
+    <item type="id" name="textView_all_category">false</item>
+    <item type="id" name="refresh_scrollView">false</item>
+    <item type="id" name="content_collect">false</item>
+    <item type="id" name="imageView_collections_introduce_title_tag">false</item>
+    <item type="id" name="textView_best_collections_indroduce_title">false</item>
+    <item type="id" name="imageView_best_collections_indroduce_cover">false</item>
+    <item type="id" name="textView_best_collections_indroduce_detail">false</item>
+    <item type="id" name="webView_detail">false</item>
+    <item type="id" name="blankPage_collect">false</item>
+    <item type="id" name="payment_container">false</item>
+    <item type="id" name="program_head">false</item>
+    <item type="id" name="programme">false</item>
+    <item type="id" name="artist_view">false</item>
+    <item type="id" name="review_view">false</item>
     <item type="id" name="pay_show_name">false</item>
     <item type="id" name="pay_show_valid_time">false</item>
     <item type="id" name="pay_show_price">false</item>
@@ -189,6 +158,36 @@
     <item type="id" name="pay_show_buy_now">false</item>
     <item type="id" name="status_view">false</item>
     <item type="id" name="tip">false</item>
+    <item type="id" name="item_container">false</item>
+    <item type="id" name="week_hot_layout">false</item>
+    <item type="id" name="week_hot_title">false</item>
+    <item type="id" name="week_hot_album">false</item>
+    <item type="id" name="week_hot_album_divider">false</item>
+    <item type="id" name="week_hot_song">false</item>
+    <item type="id" name="week_hot_song_divider">false</item>
+    <item type="id" name="best_collection_layout">false</item>
+    <item type="id" name="best_collection_title">false</item>
+    <item type="id" name="best_collection">false</item>
+    <item type="id" name="best_collection_divider">false</item>
+    <item type="id" name="special_topic_layout">false</item>
+    <item type="id" name="special_topic_title">false</item>
+    <item type="id" name="special_topic">false</item>
+    <item type="id" name="special_topic_divider">false</item>
+    <item type="id" name="rank_layout">false</item>
+    <item type="id" name="rank_title">false</item>
+    <item type="id" name="rank">false</item>
+    <item type="id" name="rank_divider">false</item>
+    <item type="id" name="new_album_layout">false</item>
+    <item type="id" name="new_album_title">false</item>
+    <item type="id" name="new_album">false</item>
+    <item type="id" name="new_album_divider">false</item>
+    <item type="id" name="radio_layout">false</item>
+    <item type="id" name="radio_title">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="radio_divider">false</item>
+    <item type="id" name="empty_page">false</item>
+    <item type="id" name="love_fragment_container">false</item>
+    <item type="id" name="fragment_container">false</item>
     <item type="id" name="action_cancel">false</item>
     <item type="id" name="divider1">false</item>
     <item type="id" name="action_share">false</item>
@@ -204,13 +203,14 @@
     <item type="id" name="action_push_to_tv">false</item>
     <item type="id" name="divider7">false</item>
     <item type="id" name="mylist">false</item>
+    <item type="id" name="lyrics_quick_control">false</item>
+    <item type="id" name="lyrics_time">false</item>
+    <item type="id" name="lyrics_play">false</item>
     <item type="id" name="back">false</item>
     <item type="id" name="front">false</item>
-    <item type="id" name="payment_container">false</item>
-    <item type="id" name="program_head">false</item>
-    <item type="id" name="programme">false</item>
     <item type="id" name="programme_footer">false</item>
-    <item type="id" name="head_albums">false</item>
+    <item type="id" name="background">false</item>
+    <item type="id" name="anchor">false</item>
     <item type="id" name="bg_avatar">false</item>
     <item type="id" name="user_avatar">false</item>
     <item type="id" name="login">false</item>
@@ -220,20 +220,73 @@
     <item type="id" name="entry_follow">false</item>
     <item type="id" name="follow_count">false</item>
     <item type="id" name="create_playlist">false</item>
-    <item type="id" name="head_mask">false</item>
-    <item type="id" name="mini_player">false</item>
+    <item type="id" name="local_music_container">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="one_weekhot_container">false</item>
+    <item type="id" name="title_new_hot_songs">false</item>
+    <item type="id" name="container_new_hot_songs">false</item>
+    <item type="id" name="scrollContent">false</item>
+    <item type="id" name="webView_perform_buy_ticket_content">false</item>
+    <item type="id" name="blankPage_perform_buy_ticket">false</item>
+    <item type="id" name="perform_content">false</item>
+    <item type="id" name="relativeLayout_perform_detail_preson_info">false</item>
+    <item type="id" name="borderedCircleImageView_perform_detail_preson_info_avatar">false</item>
+    <item type="id" name="textView_perform_detail_preson_info_name">false</item>
+    <item type="id" name="divider_over_location">false</item>
+    <item type="id" name="relativeLayout_perform_detail_location">false</item>
+    <item type="id" name="textView_perform_detail_location_name">false</item>
+    <item type="id" name="textView_perform_detail_location_detail">false</item>
+    <item type="id" name="imageView_location_tag">false</item>
+    <item type="id" name="relativeLayout_perform_detail_show">false</item>
+    <item type="id" name="textView_perform_detail_show_name">false</item>
+    <item type="id" name="relativeLayout_perform_detail_service">false</item>
+    <item type="id" name="relativeLayout_perform_detail_service_contact_information">false</item>
+    <item type="id" name="textView_service_phone">false</item>
+    <item type="id" name="blankPage_perform_detail">false</item>
+    <item type="id" name="listView_radio">false</item>
     <item type="id" name="listView_radio_detail">false</item>
     <item type="id" name="listView_rank">false</item>
+    <item type="id" name="refresh_more_listView">false</item>
     <item type="id" name="linearLayout_focus">false</item>
-    <item type="id" name="head_content">false</item>
     <item type="id" name="frameLayout_search_bar">false</item>
     <item type="id" name="searchView_search_header">false</item>
     <item type="id" name="mask_search_input">false</item>
     <item type="id" name="scrollView_search_content">false</item>
+    <item type="id" name="listView_search_tip">false</item>
+    <item type="id" name="container_artist">false</item>
+    <item type="id" name="artist_cover">false</item>
+    <item type="id" name="container_mv">false</item>
+    <item type="id" name="mv_cover">false</item>
+    <item type="id" name="container_collect">false</item>
+    <item type="id" name="collect_cover">false</item>
+    <item type="id" name="container_rank">false</item>
+    <item type="id" name="rank_cover">false</item>
+    <item type="id" name="relativeLayout_search_header">false</item>
+    <item type="id" name="search">false</item>
+    <item type="id" name="relativeLayout_search_result_content">false</item>
+    <item type="id" name="tabView_search_result">false</item>
     <item type="id" name="textView_search_select_finish">false</item>
     <item type="id" name="search_finish_divide">false</item>
+    <item type="id" name="viewPager_search_result">false</item>
     <item type="id" name="track_list">false</item>
-    <item type="id" name="empty_page">false</item>
+    <item type="id" name="video_info">false</item>
+    <item type="id" name="title_programme">false</item>
+    <item type="id" name="video_artist_name">false</item>
+    <item type="id" name="video_belong">false</item>
+    <item type="id" name="video_date">false</item>
+    <item type="id" name="detail">false</item>
+    <item type="id" name="dividing_line">false</item>
+    <item type="id" name="title_artist">false</item>
+    <item type="id" name="artist_detail">false</item>
+    <item type="id" name="artist_detail_layout">false</item>
+    <item type="id" name="artist_image">false</item>
+    <item type="id" name="artist_name">false</item>
+    <item type="id" name="follow">false</item>
+    <item type="id" name="dividing_line_artist_detail">false</item>
+    <item type="id" name="title_related_song">false</item>
+    <item type="id" name="related_song_listview">false</item>
+    <item type="id" name="dividing_line_realted_song">false</item>
+    <item type="id" name="realted_video">false</item>
     <item type="id" name="scroll_layout">false</item>
     <item type="id" name="title_abstract">false</item>
     <item type="id" name="video_abstract">false</item>
@@ -241,7 +294,6 @@
     <item type="id" name="artist_layout">false</item>
     <item type="id" name="artist_avatar">false</item>
     <item type="id" name="ic_artist_detail">false</item>
-    <item type="id" name="artist_name">false</item>
     <item type="id" name="song_layout_divider">false</item>
     <item type="id" name="song_layout_label">false</item>
     <item type="id" name="song_layout">false</item>
@@ -273,58 +325,84 @@
     <item type="id" name="layout_music_reward">false</item>
     <item type="id" name="stub_music_sole">false</item>
     <item type="id" name="layout_music_sole">false</item>
-    <item type="id" name="head">false</item>
     <item type="id" name="video_list">false</item>
     <item type="id" name="add_songs">false</item>
+    <item type="id" name="top_head">false</item>
+    <item type="id" name="collect">false</item>
+    <item type="id" name="button_layout">false</item>
+    <item type="id" name="button_layout_album_collect">false</item>
+    <item type="id" name="imgBtn_all_play">false</item>
+    <item type="id" name="line_left">false</item>
+    <item type="id" name="imgBtn_collect">false</item>
+    <item type="id" name="line_right">false</item>
+    <item type="id" name="imgBtn_add_to_list">false</item>
+    <item type="id" name="button_layout_rank">false</item>
+    <item type="id" name="line_right_rank">false</item>
+    <item type="id" name="imgBtn_all_play_rank">false</item>
+    <item type="id" name="imgBtn_add_to_list_rank">false</item>
+    <item type="id" name="relativeLayout_down_container">false</item>
+    <item type="id" name="textView_album_detail_total_music_num">false</item>
+    <item type="id" name="download_all_str">false</item>
+    <item type="id" name="download_all_bt">false</item>
     <item type="id" name="relativeLayout_detail">false</item>
     <item type="id" name="cornersImageView_album_detail_cover">false</item>
     <item type="id" name="textView_album_detail_name">false</item>
     <item type="id" name="textView_album_detail_artist">false</item>
     <item type="id" name="imgBtn_follow">false</item>
-    <item type="id" name="imgBtn_collect">false</item>
-    <item type="id" name="imgBtn_add_to_list">false</item>
-    <item type="id" name="imgBtn_all_play">false</item>
-    <item type="id" name="relativeLayout_down_container">false</item>
-    <item type="id" name="textView_album_detail_total_music_num">false</item>
     <item type="id" name="textView_album_detail_header_xiami_music">false</item>
     <item type="id" name="textView_artist_region_title_name">false</item>
-    <item type="id" name="title_programme">false</item>
+    <item type="id" name="city_name">false</item>
+    <item type="id" name="status_image">false</item>
+    <item type="id" name="performance_image">false</item>
+    <item type="id" name="performance_name">false</item>
+    <item type="id" name="performance_time">false</item>
+    <item type="id" name="bottom_layout">false</item>
+    <item type="id" name="performance_price">false</item>
+    <item type="id" name="textView_perform_detail_buy_ticket">false</item>
+    <item type="id" name="name">false</item>
     <item type="id" name="slide_view_content">false</item>
     <item type="id" name="popup_content_listview">false</item>
     <item type="id" name="slide_view_cover">false</item>
     <item type="id" name="textView_song_index">false</item>
     <item type="id" name="track_name">false</item>
     <item type="id" name="mv_flag">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="textView_title">false</item>
+    <item type="id" name="textView_detail">false</item>
+    <item type="id" name="song_index">false</item>
+    <item type="id" name="mv">false</item>
+    <item type="id" name="name_layout">false</item>
+    <item type="id" name="filter">false</item>
     <item type="id" name="borderedCircleImageView_artist_region_item_cover">false</item>
     <item type="id" name="textView_artist_region_item_name">false</item>
     <item type="id" name="textView_artist_region_right_tag">false</item>
     <item type="id" name="download_head_divider">false</item>
-    <item type="id" name="cornersImageView_best_collectons_item_cover">false</item>
-    <item type="id" name="button_collects_item_play">false</item>
-    <item type="id" name="relativeLayout_best_collectons_item_title_container">false</item>
-    <item type="id" name="imageView_best_collectons_item_title_tag">false</item>
-    <item type="id" name="textView_best_collectons_item_title_name">false</item>
-    <item type="id" name="textView_best_collectons_item_detail">false</item>
+    <item type="id" name="tag_name">false</item>
+    <item type="id" name="collect_cover_container">false</item>
+    <item type="id" name="bottom_divider">false</item>
+    <item type="id" name="right_divider">false</item>
+    <item type="id" name="collect_title">false</item>
+    <item type="id" name="collect_detail">false</item>
     <item type="id" name="label_name">false</item>
-    <item type="id" name="special_item_layout">false</item>
-    <item type="id" name="album_detail_tab1_collect_item_text1">false</item>
-    <item type="id" name="album_detail_tab1_collect_item_text2">false</item>
-    <item type="id" name="album_detail_tab1_collect_item_image">false</item>
     <item type="id" name="album_detail_Item1">false</item>
     <item type="id" name="album_detail_tab1_Image1">false</item>
-    <item type="id" name="album_detail_tab1_Button1">false</item>
     <item type="id" name="album_detail_tab1_text1">false</item>
     <item type="id" name="album_detail_tab1_text2">false</item>
     <item type="id" name="album_detail_2">false</item>
     <item type="id" name="album_detail_tab1_Image2">false</item>
-    <item type="id" name="album_detail_tab1_Button2">false</item>
     <item type="id" name="album_detail_tab1_Text4">false</item>
     <item type="id" name="album_detail_tab1_Text5">false</item>
     <item type="id" name="album_detail_Item3">false</item>
     <item type="id" name="album_detail_tab1_Image3">false</item>
-    <item type="id" name="album_detail_tab1_Button3">false</item>
     <item type="id" name="album_detail_tab1_text7">false</item>
     <item type="id" name="album_detail_tab1_text8">false</item>
+    <item type="id" name="special_item_layout">false</item>
+    <item type="id" name="album_detail_tab1_collect_item_text1">false</item>
+    <item type="id" name="album_detail_tab1_collect_item_text2">false</item>
+    <item type="id" name="album_detail_tab1_collect_item_image">false</item>
+    <item type="id" name="album_detail_tab1_Button1">false</item>
+    <item type="id" name="album_detail_tab1_Button2">false</item>
+    <item type="id" name="album_detail_tab1_Button3">false</item>
     <item type="id" name="blank">false</item>
     <item type="id" name="main_layout">false</item>
     <item type="id" name="newSongImage">false</item>
@@ -385,7 +463,6 @@
     <item type="id" name="image_layout">false</item>
     <item type="id" name="cover_image">false</item>
     <item type="id" name="play_button">false</item>
-    <item type="id" name="name">false</item>
     <item type="id" name="image_layout_left">false</item>
     <item type="id" name="image_layout_right">false</item>
     <item type="id" name="cover_image1">false</item>
@@ -411,6 +488,14 @@
     <item type="id" name="up_x_line">false</item>
     <item type="id" name="up_x_line_s">false</item>
     <item type="id" name="upBlankInsideBottom">false</item>
+    <item type="id" name="performance_status">false</item>
+    <item type="id" name="performance_add">false</item>
+    <item type="id" name="left_alpha_image">false</item>
+    <item type="id" name="right_alpha_image">false</item>
+    <item type="id" name="infor_view">false</item>
+    <item type="id" name="info0">false</item>
+    <item type="id" name="info1">false</item>
+    <item type="id" name="info2">false</item>
     <item type="id" name="music_detail_album_image">false</item>
     <item type="id" name="music_detail_album_next">false</item>
     <item type="id" name="music_detail_album_song_num">false</item>
@@ -435,7 +520,6 @@
     <item type="id" name="logo_container">false</item>
     <item type="id" name="imageView_cover">false</item>
     <item type="id" name="relativeLayout_background">false</item>
-    <item type="id" name="textView_title">false</item>
     <item type="id" name="textView_time">false</item>
     <item type="id" name="imageView_mv_cover">false</item>
     <item type="id" name="imageButton_mv_tag">false</item>
@@ -455,24 +539,30 @@
     <item type="id" name="textView_song_name">false</item>
     <item type="id" name="textView_artist_detaill">false</item>
     <item type="id" name="imageButton_more">false</item>
-    <item type="id" name="performance_image">false</item>
-    <item type="id" name="performance_name">false</item>
-    <item type="id" name="performance_line1">false</item>
-    <item type="id" name="performance_artists_icon">false</item>
-    <item type="id" name="performance_artists_name">false</item>
-    <item type="id" name="performance_line2">false</item>
-    <item type="id" name="performance_location_icon">false</item>
-    <item type="id" name="performance_location_name">false</item>
-    <item type="id" name="performance_line3">false</item>
-    <item type="id" name="performance_time_icon">false</item>
-    <item type="id" name="performance_time_name">false</item>
-    <item type="id" name="performance_line4">false</item>
-    <item type="id" name="performance_ticket_price_icon">false</item>
-    <item type="id" name="performance_ticket_price_name">false</item>
-    <item type="id" name="performance_ticket_info1">false</item>
+    <item type="id" name="container_cover">false</item>
+    <item type="id" name="button_play">false</item>
     <item type="id" name="cityListview_city_name">false</item>
-    <item type="id" name="cityListview_checkbox">false</item>
+    <item type="id" name="yongle_logo">false</item>
+    <item type="id" name="time_layout">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="week">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="number_price">false</item>
+    <item type="id" name="seat">false</item>
+    <item type="id" name="position">false</item>
     <item type="id" name="textView_radio_category_item_name">false</item>
+    <item type="id" name="raido_cover_left">false</item>
+    <item type="id" name="radio_name_left">false</item>
+    <item type="id" name="radio_detail_left">false</item>
+    <item type="id" name="raido_cover_center">false</item>
+    <item type="id" name="radio_name_center">false</item>
+    <item type="id" name="radio_detail_center">false</item>
+    <item type="id" name="raido_cover_right">false</item>
+    <item type="id" name="radio_name_right">false</item>
+    <item type="id" name="radio_detail_right">false</item>
+    <item type="id" name="raido_cover">false</item>
+    <item type="id" name="radio_name">false</item>
+    <item type="id" name="radio_detail">false</item>
     <item type="id" name="imageView_radio_left">false</item>
     <item type="id" name="imageView_radio_center">false</item>
     <item type="id" name="imageView_radio_right">false</item>
@@ -548,9 +638,6 @@
     <item type="id" name="textView_search_result_item_detail">false</item>
     <item type="id" name="textView_search_result_item_hq">false</item>
     <item type="id" name="textView_search_result_item_mv">false</item>
-    <item type="id" name="hot_word_type">false</item>
-    <item type="id" name="hot_word_detail">false</item>
-    <item type="id" name="hot_word_tag">false</item>
     <item type="id" name="textView_search_tip_item_value">false</item>
     <item type="id" name="textView_search_tip_item_delete">false</item>
     <item type="id" name="setting_title">false</item>
@@ -565,7 +652,11 @@
     <item type="id" name="recom_tab1_recommended_text1">false</item>
     <item type="id" name="hifi_icon">false</item>
     <item type="id" name="flag">false</item>
-    <item type="id" name="text_listen">false</item>
+    <item type="id" name="custom_title_root">false</item>
+    <item type="id" name="filterNameLayout">false</item>
+    <item type="id" name="filterName">false</item>
+    <item type="id" name="custom_arrow_icon">false</item>
+    <item type="id" name="searchView">false</item>
     <item type="id" name="album_detail_tab1_collect_detail_download_image1">false</item>
     <item type="id" name="album_detail_tab1_collect_detail_download_image2">false</item>
     <item type="id" name="album_detail_tab1_collect_detail_scrollview">false</item>
@@ -593,13 +684,11 @@
     <item type="id" name="track_count">false</item>
     <item type="id" name="album_name">false</item>
     <item type="id" name="release_date">false</item>
-    <item type="id" name="image">false</item>
     <item type="id" name="more">false</item>
     <item type="id" name="image_play">false</item>
     <item type="id" name="mv_name">false</item>
     <item type="id" name="section_title">false</item>
     <item type="id" name="item_list">false</item>
-    <item type="id" name="song_index">false</item>
     <item type="id" name="song_name">false</item>
     <item type="id" name="song_album">false</item>
     <item type="id" name="song_item_divider">false</item>
@@ -618,6 +707,8 @@
     <item type="id" name="widget_recommend">false</item>
     <item type="id" name="empty_head">false</item>
     <item type="id" name="action">false</item>
+    <item type="id" name="tagRegion_title">false</item>
+    <item type="id" name="tagRegion_container">false</item>
     <item type="id" name="count_down_title">false</item>
     <item type="id" name="count_down_time">false</item>
     <item type="id" name="open_toggle">false</item>
@@ -625,6 +716,8 @@
     <item type="id" name="seekbar_count_down_time">false</item>
     <item type="id" name="finish">false</item>
     <item type="id" name="editTextDialogUserInput">false</item>
+    <item type="id" name="logos">false</item>
+    <item type="id" name="video_logo">false</item>
     <item type="id" name="action_download">false</item>
     <item type="id" name="download_status">false</item>
     <item type="id" name="download_progress">false</item>
@@ -643,12 +736,10 @@
     <item type="id" name="recom_tab1_recommended_image2">false</item>
     <item type="id" name="recom_tab1_recommended_text2">false</item>
     <item type="id" name="recom_tab1_recommended_layout">false</item>
-    <item type="id" name="rank_title">false</item>
     <item type="id" name="rank_image1">false</item>
     <item type="id" name="rank_text1">false</item>
     <item type="id" name="rank_image2">false</item>
     <item type="id" name="rank_text2">false</item>
-    <item type="id" name="rank_layout">false</item>
     <item type="id" name="new_song_title">false</item>
     <item type="id" name="new_song_image1">false</item>
     <item type="id" name="new_song_text1">false</item>
@@ -660,20 +751,22 @@
     <item type="id" name="album_text1">false</item>
     <item type="id" name="album_image2">false</item>
     <item type="id" name="album_text2">false</item>
-    <item type="id" name="radio_title">false</item>
     <item type="id" name="radio_image1">false</item>
     <item type="id" name="radio_text1">false</item>
     <item type="id" name="radio_image2">false</item>
     <item type="id" name="radio_text2">false</item>
-    <item type="id" name="radio_layout">false</item>
     <item type="id" name="blankPage_listen_music_choice">false</item>
     <item type="id" name="recommendedListview">false</item>
     <item type="id" name="blankPage_listen_music_recom">false</item>
+    <item type="id" name="recyclerview">false</item>
+    <item type="id" name="first">false</item>
+    <item type="id" name="sec">false</item>
+    <item type="id" name="thd">false</item>
+    <item type="id" name="fou">false</item>
     <item type="id" name="top_divider">false</item>
     <item type="id" name="playnext">false</item>
     <item type="id" name="playlist_item_delete">false</item>
     <item type="id" name="duration">false</item>
-    <item type="id" name="track_order">false</item>
     <item type="id" name="video_name">false</item>
     <item type="id" name="video_actor">false</item>
     <item type="id" name="item1">false</item>
@@ -682,6 +775,11 @@
     <item type="id" name="music_detail_viewpager">false</item>
     <item type="id" name="borderedCircleImageView_my_follow_item_cover">false</item>
     <item type="id" name="textView_name">false</item>
+    <item type="id" name="volume_controller">false</item>
+    <item type="id" name="volume_low">false</item>
+    <item type="id" name="volume_high">false</item>
+    <item type="id" name="layout_menus">false</item>
+    <item type="id" name="menu_action">false</item>
     <item type="id" name="textView_perform_detail_abstract_title">false</item>
     <item type="id" name="linearLayout_perform_detail_abstract_name">false</item>
     <item type="id" name="textView_perform_detail_abstract_name">false</item>
@@ -693,11 +791,14 @@
     <item type="id" name="textView_perform_detail_abstract_price">false</item>
     <item type="id" name="textView_perform_detail_abstract_interst">false</item>
     <item type="id" name="performance_layout">false</item>
-    <item type="id" name="performance_head_content">false</item>
     <item type="id" name="performance_listview">false</item>
     <item type="id" name="cityListview">false</item>
     <item type="id" name="textView_popup_alternative_left">false</item>
     <item type="id" name="textView_popup_alternative_right">false</item>
+    <item type="id" name="top_blank">false</item>
+    <item type="id" name="mask">false</item>
+    <item type="id" name="listView_container">false</item>
+    <item type="id" name="search_content">false</item>
     <item type="id" name="textView_search_hot_artist">false</item>
     <item type="id" name="container_hot_artist">false</item>
     <item type="id" name="linearLayout_hot_artist_container">false</item>
@@ -728,6 +829,9 @@
     <item type="id" name="textView_search_main_artist_region_name_12">false</item>
     <item type="id" name="textView_back">false</item>
     <item type="id" name="textView_app_detail">false</item>
+    <item type="id" name="slide_view_root">false</item>
+    <item type="id" name="slide_view_bg">false</item>
+    <item type="id" name="slide_view">false</item>
     <item type="id" name="select_all">false</item>
     <item type="id" name="select_all_checkbox">false</item>
     <item type="id" name="select_all_text">false</item>
@@ -736,7 +840,6 @@
     <item type="id" name="channel_logo">false</item>
     <item type="id" name="channel_name">false</item>
     <item type="id" name="state">false</item>
-    <item type="id" name="time">false</item>
     <item type="id" name="recommend_more">false</item>
     <item type="id" name="videos">false</item>
     <item type="id" name="blank_layout">false</item>
@@ -748,12 +851,26 @@
     <item type="id" name="primaryBtn">false</item>
     <item type="id" name="secondBtn">false</item>
     <item type="id" name="thirdBtn">false</item>
+    <item type="id" name="empty_album">false</item>
+    <item type="id" name="album_wheels">false</item>
+    <item type="id" name="seek_bar">false</item>
+    <item type="id" name="action_play">false</item>
+    <item type="id" name="action_pause">false</item>
+    <item type="id" name="lyrics_list">false</item>
+    <item type="id" name="action_repeat">false</item>
+    <item type="id" name="repeat_divider">false</item>
+    <item type="id" name="cover">false</item>
+    <item type="id" name="control_progress">false</item>
+    <item type="id" name="control_album">false</item>
+    <item type="id" name="control_cover">false</item>
+    <item type="id" name="control_action_play">false</item>
+    <item type="id" name="control_action_prev">false</item>
+    <item type="id" name="control_action_next">false</item>
     <item type="id" name="option_list_item_check">false</item>
     <item type="id" name="option_list_item_text">false</item>
     <item type="id" name="layout_overlay_info">false</item>
     <item type="id" name="info_txt">false</item>
     <item type="id" name="btn_shutdown_dlna">false</item>
-    <item type="id" name="citylist_head_image">false</item>
     <item type="id" name="citylist_head_title">false</item>
     <item type="id" name="performance_head_image">false</item>
     <item type="id" name="venus_head_ahead">false</item>
@@ -837,8 +954,6 @@
     <item type="id" name="tips_orientation_switch_btn">false</item>
     <item type="id" name="tosat_msg">false</item>
     <item type="id" name="playing_animation">false</item>
-    <item type="id" name="cover">false</item>
-    <item type="id" name="detail">false</item>
     <item type="id" name="artistalbum">false</item>
     <item type="id" name="download_head">false</item>
     <item type="id" name="listView_album_detail">false</item>
@@ -848,16 +963,13 @@
     <item type="id" name="rl_label_action_box">false</item>
     <item type="id" name="iv_label_action_icon">false</item>
     <item type="id" name="tv_label_action_name">false</item>
-    <item type="id" name="relativeLayout_search_header">false</item>
-    <item type="id" name="search">false</item>
-    <item type="id" name="listView_search_tip">false</item>
     <item type="id" name="text">false</item>
     <item type="id" name="top_bar">false</item>
     <item type="id" name="flag_xiami_music">false</item>
-    <item type="id" name="action_playing">false</item>
     <item type="id" name="action_create_playlist">false</item>
-    <item type="id" name="action_scan_local_res">false</item>
+    <item type="id" name="action_search">false</item>
     <item type="id" name="action_sort">false</item>
+    <item type="id" name="action_scan_local_res">false</item>
     <item type="id" name="action_settings">false</item>
     <item type="id" name="action_search_lyrics">false</item>
     <item type="id" name="action_toggle_hifi">false</item>
@@ -865,10 +977,11 @@
     <item type="id" name="menu_select">false</item>
     <item type="id" name="system_my_follow">false</item>
     <item type="id" name="action_count_down">false</item>
+    <item type="id" name="action_order">false</item>
     <item type="id" name="action_citylist">false</item>
+    <item type="id" name="action_playing">false</item>
     <item type="id" name="action_add_songs">false</item>
     <item type="id" name="select">false</item>
-    <item type="id" name="menu_search">false</item>
     <item type="id" name="app_detail">false</item>
     <item type="id" name="action_dingzhi">false</item>
 </resources>

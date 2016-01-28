@@ -4,7 +4,7 @@
     <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" />
     <FrameLayout android:id="@id/empty_print_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@android:drawable/ic_jog_dial_answer" android:contentDescription="@string/print_searching_for_printers" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@android:drawable/ic_grayedout_printer" android:contentDescription="@string/print_searching_for_printers" />
             <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/print_searching_for_printers" />
             <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal" />
         </LinearLayout>

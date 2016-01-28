@@ -33,4 +33,5 @@
     <string name="revert">Revert</string>
     <string name="schpwr_shutdown_message">Your device will shut down in %s seconds</string>
     <string name="schpwr_shutdown_message_second">Your device will shut down in %s second</string>
+    <string name="leui_error_short_interval">Interval between schedule on and off must longer than 5 minutes</string>
 </resources>

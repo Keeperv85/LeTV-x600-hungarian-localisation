@@ -93,6 +93,59 @@
         <item>韩国MNUT</item>
         <item>日本公信榜</item>
     </string-array>
+    <string-array name="week_day">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="love_performance_home_menu_tltle">
+        <item>演唱会</item>
+        <item>演出</item>
+        <item>音乐会</item>
+    </string-array>
+    <string-array name="listen_music_section_title">
+        <item>一周热门</item>
+        <item>精选集推荐</item>
+        <item>专题推荐</item>
+        <item>排行榜</item>
+        <item>新碟上架</item>
+        <item>情景电台</item>
+    </string-array>
+    <string-array name="love_music_section_radio_name">
+        <item>原创</item>
+        <item>场景</item>
+        <item>风格</item>
+        <item>心情</item>
+    </string-array>
+    <string-array name="radio_name_array">
+        <item>推荐</item>
+        <item>原创</item>
+        <item>场景</item>
+        <item>风格</item>
+        <item>心情</item>
+    </string-array>
+    <string-array name="listen_music_section_rank_name">
+        <item>新歌榜</item>
+        <item>热歌榜</item>
+        <item>ORICON榜</item>
+        <item>Billboard榜</item>
+    </string-array>
+    <string-array name="album_filter">
+        <item>推荐</item>
+        <item>华语</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="performance_order_filter">
+        <item>按下单时间排序</item>
+        <item>按演出时间排序</item>
+        <item>按售票方排序</item>
+    </string-array>
     <string-array name="local_music_sort">
         <item>按创建时间倒序</item>
         <item>按创建时间顺序</item>

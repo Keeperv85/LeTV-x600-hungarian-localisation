@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/custom_title_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:searchview="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/filterNameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/filterName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActionBarTitleStyle" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/custom_arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_actionbar_menu_arrow" />
+    </LinearLayout>
+    <com.letv.leui.widget.LcSearchView android:id="@id/searchView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionSearch" searchview:lcQueryTextSize="15.0dip" searchview:lcInputMarginLeft="0.0dip" searchview:lcAlwaysShowCancel="true" style="@*android:style/Widget.LeuiCommon.SearchView" />
+</LinearLayout>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
-    <com.android.music.widget.UITrackListActionView android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
-    <com.android.music.widget.RefreshAndMoreListView android:id="@id/track_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/actions" />
+    <com.android.music.widget.RefreshAndMoreListView android:id="@id/track_list" android:paddingTop="@dimen/common_content_padding_top" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
     <com.android.music.widget.LeMusicBlankPage android:id="@id/empty_page" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="song_tip" />
 </RelativeLayout>

@@ -3,11 +3,14 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android">
     <FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
-    <com.android.music.ui.search.SearchBarView android:id="@id/searchBarView_search_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <RelativeLayout android:id="@id/relativeLayout_search_result_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchBarView_search_header">
+    <RelativeLayout android:id="@id/relativeLayout_search_header" android:background="#fff5f5f6" android:layout_width="wrap_content" android:layout_height="48.0dip">
+        <com.letv.leui.widget.LcSearchView android:id="@id/search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:imeOptions="actionSearch" leui:lcQueryHint="@string/hint_search_input" leui:lcQueryTextColor="@color/black" leui:lcQueryHintColor="@color/search_query_hint" leui:lcCancelTextColor="@color/black" leui:lcAlwaysShowCancel="true" leui:lcCursorColor="@color/main_color" leui:lcUnderlineColor="@drawable/search_underline_state" style="@*android:style/Widget.LeuiCommon.SearchView" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/relativeLayout_search_result_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/relativeLayout_search_header">
         <com.android.music.widget.UITopNavigationTabView android:id="@id/tabView_search_result" style="@style/TopScrollStripTabWidget" />
         <ImageView android:gravity="center" android:id="@id/textView_search_select_finish" android:layout_width="fill_parent" android:layout_height="54.0dip" android:src="@drawable/music_function_add" android:scaleType="center" android:layout_alignParentBottom="true" />
         <View android:id="@id/search_finish_divide" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/textView_search_select_finish" />
         <android.support.v4.view.ViewPager android:id="@id/viewPager_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/search_finish_divide" android:layout_below="@id/tabView_search_result" />
     </RelativeLayout>
+    <ListView android:id="@id/listView_search_tip" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffc6c7cb" android:dividerHeight="1.0px" android:layout_below="@id/relativeLayout_search_header" />
 </RelativeLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/action_search_lyrics" android:title="@string/media_player_search_lyrics" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/icon_xiami" android:id="@id/flag_xiami_music" android:title="@string/xiami_music" android:showAsAction="always" android:actionLayout="@layout/layout_actionbar_listen_custom" />
+    <item android:icon="@drawable/ic_new_player_search_lyrics" android:id="@id/action_search_lyrics" android:title="@string/media_player_search_lyrics" android:showAsAction="ifRoom" />
 </menu>

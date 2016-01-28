@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.android.music.widget.RefreshAndMoreListView android:id="@id/listView_radio" android:layout_width="fill_parent" android:layout_height="fill_parent" android1:divider="@null" android:lePtrAnimationStyle="rotate" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <com.android.music.widget.FrameSquareImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="32.0dip" android:src="@drawable/music_unknown_song" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_color_artist_detail_primary" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/album_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:layout_below="@id/image" android:layout_alignLeft="@id/image" android:layout_alignRight="@id/image" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" />
+</RelativeLayout>

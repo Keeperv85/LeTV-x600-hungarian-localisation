@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_track_list_item" android:paddingLeft="@dimen/common_content_padding_left_right" android:paddingRight="@dimen/common_content_padding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_love_music_weekhot_song_item" />
+</FrameLayout>

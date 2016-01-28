@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.music.widget.RefreshAndMoreScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/one_weekhot_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/songs_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0dip" android:textColor="#ff747474" android:ellipsize="end" android:id="@id/title_new_hot_songs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="7.0dip" android:text="@string/new_song_hot" android:maxLines="1" android:fontFamily="helve-neue-regular" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/container_new_hot_songs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/title_new_hot_songs" />
+                    <View android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <com.android.music.widget.LeMusicBlankPage android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </com.android.music.widget.RefreshAndMoreScrollView>
+</RelativeLayout>

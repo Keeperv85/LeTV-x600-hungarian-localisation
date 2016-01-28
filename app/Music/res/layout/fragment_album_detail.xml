@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <com.android.music.widget.StateAwareScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.music.ui.listen.albumdetail.AlbumDetailHeadLayout android:id="@id/head" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/songs_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="0.0dip" />
+            <com.android.music.ui.listen.albumdetail.HorizontalRecycleView android:id="@id/mv_recycleview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.android.music.ui.listen.albumdetail.HorizontalRecycleView android:id="@id/collect_recycleview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.android.music.widget.StateAwareScrollView>
+    <com.android.music.widget.LeMusicBlankPage android:id="@id/blank_page" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="default_tip" />
+</RelativeLayout>

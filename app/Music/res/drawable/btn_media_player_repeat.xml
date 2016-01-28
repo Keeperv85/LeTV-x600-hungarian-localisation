@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <level-list
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/statebtn_01" android:minLevel="1" android:maxLevel="1" />
-    <item android:drawable="@drawable/statebtn_02" android:minLevel="2" android:maxLevel="2" />
-    <item android:drawable="@drawable/statebtn_03" android:minLevel="3" android:maxLevel="3" />
-    <item android:drawable="@drawable/statebtn_04" android:minLevel="4" android:maxLevel="4" />
+    <item android:drawable="@drawable/btn_new_player_random" android:minLevel="1" android:maxLevel="1" />
+    <item android:drawable="@drawable/btn_new_player_normal" android:minLevel="2" android:maxLevel="2" />
+    <item android:drawable="@drawable/btn_new_player_repeat_one" android:minLevel="3" android:maxLevel="3" />
+    <item android:drawable="@drawable/btn_new_player_repeat_all" android:minLevel="4" android:maxLevel="4" />
 </level-list>

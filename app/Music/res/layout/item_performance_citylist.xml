@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="34.0dip"
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/prv/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="@color/city_item_name_color" android:id="@id/cityListview_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:layout_centerVertical="true" android:fontFamily="helve-neue" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" />
-    <RelativeLayout android:layout_width="26.0dip" android:layout_height="32.0dip" android:layout_marginRight="@dimen/alphabet_waves_view_divider" android:layout_alignParentRight="true" android:layout_centerVertical="true">
-        <com.letv.leui.widget.LeCheckBox android:id="@id/cityListview_checkbox" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" leui:leBoxOnColor="@color/main_color" />
-    </RelativeLayout>
+    <View android:id="@id/line" android:background="#ffc6c7cb" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="0.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/city_item_name_color" android:id="@id/cityListview_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="helve-neue" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" />
+    <com.letv.leui.widget.LeCheckBox android:id="@id/status_image" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" leui:leBoxArrowColorWithoutBorder="@color/main_color" leui:leBoxWithoutBorder="true" leui:leBoxIsTextOnRight="false" />
 </RelativeLayout>

@@ -11,7 +11,7 @@ packageInfo:
   forced-package-id: '2'
 versionInfo:
   versionCode: '100002'
-  versionName: 37 (21-arm64)
+  versionName: 37 (22-arm64)
 sharedLibrary: true
 doNotCompress:
 - resources.arsc

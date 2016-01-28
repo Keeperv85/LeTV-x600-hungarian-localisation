@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@android:drawable/ic_search_api_holo_dark" android:id="@id/action_search" android:title="@string/search" android:alphabeticShortcut="f" android:imeOptions="actionSearch" android:showAsAction="collapseActionView|ifRoom" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@android:drawable/ic_search" android:id="@id/action_search" android:title="@string/search" android:alphabeticShortcut="f" android:imeOptions="actionSearch" android:showAsAction="collapseActionView|ifRoom" android:actionViewClass="android.widget.SearchView" />
     <item android:icon="@android:drawable/create_contact" android:id="@id/action_add_printer" android:title="@string/print_add_printer" android:alphabeticShortcut="a" android:showAsAction="ifRoom" />
 </menu>

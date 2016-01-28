@@ -12,6 +12,7 @@
     <style name="AppTheme" parent="@style/AppBaseTheme">
         <item name="android:seekBarStyle">@style/le_style_media_seekbar</item>
         <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+        <item name="android:actionModeStyle">@style/actionModeStyle</item>
         <item name="android:fontFamily">@string/title_font_family</item>
     </style>
     <style name="actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
@@ -84,5 +85,13 @@
         <item name="android:minHeight">5.0dip</item>
         <item name="android:mirrorForRtl">true</item>
         <item name="android:splitTrack">true</item>
+    </style>
+    <style name="actionModeStyle" parent="@android:style/Widget.Material.ActionMode">
+        <item name="android:background">@color/mng_title_bg</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
+    </style>
+    <style name="ActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>

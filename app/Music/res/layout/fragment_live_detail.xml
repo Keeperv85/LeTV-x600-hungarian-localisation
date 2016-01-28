@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <com.android.music.widget.VideoRelativelayout android:id="@id/live_show" android:layout_width="fill_parent" android:layout_height="203.0dip">
+        <ImageView android:id="@id/video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/video_play" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/musicpeople_play" android:scaleType="center" />
+    </com.android.music.widget.VideoRelativelayout>
+    <FrameLayout android:id="@id/payment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="203.0dip" android:layout_alignTop="@id/live_show" android:layout_alignBottom="@id/live_show" />
+    <com.android.music.widget.StateAwareScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/live_show">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/program_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/live_show" layout="@layout/header_live_detail_list" />
+            <com.android.music.widget.ListViewInScrollView android:id="@id/programme" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/program_head" />
+            <com.android.music.ui.watch.XRecyclerView android:id="@id/artist_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/programme" />
+            <com.android.music.ui.watch.XRecyclerView android:id="@id/review_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/artist_view" />
+        </RelativeLayout>
+    </com.android.music.widget.StateAwareScrollView>
+    <com.android.music.widget.LeMusicBlankPage android:id="@android:id/empty" android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="song_tip" />
+</RelativeLayout>

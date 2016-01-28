@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_content_background_color" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/volume_controller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/volume_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/ic_bottom_menu_volume_low" />
+        <ImageView android:id="@id/volume_high" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_bottom_menu_volume_high" android:layout_alignParentRight="true" />
+        <SeekBar android:id="@android:id/progress" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="3.0dip" android:progressDrawable="@drawable/media_player_audio_control_progress" android:minHeight="3.0dip" android:thumb="@drawable/ic_new_player_progress_thumb" android:thumbOffset="0.0dip" android:layout_toLeftOf="@id/volume_high" android:layout_toRightOf="@id/volume_low" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="#ff383838" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+        <View android:background="@drawable/divider_common_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <TableLayout android:id="@id/layout_menus" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" />
+    <View android:background="@drawable/divider_common_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff383838" android:gravity="center" android:id="@id/finish" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/cancel" />
+</LinearLayout>

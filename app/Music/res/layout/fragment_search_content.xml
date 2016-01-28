@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/listView_search_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffc6c7cb" android:dividerHeight="1.0px" />
+    <com.android.music.widget.RefreshAndMorePinnedListView android:id="@id/listView_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/listView_search_tip" />
+</RelativeLayout>

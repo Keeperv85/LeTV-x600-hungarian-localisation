@@ -93,6 +93,59 @@
         <item>Korea MNUT</item>
         <item>Japan Oricon Chart</item>
     </string-array>
+    <string-array name="week_day">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="love_performance_home_menu_tltle">
+        <item>Concert</item>
+        <item>Performance</item>
+        <item>Concert</item>
+    </string-array>
+    <string-array name="listen_music_section_title">
+        <item>Weekly Hot</item>
+        <item>Recommended collections</item>
+        <item>Recommended features</item>
+        <item>Charts</item>
+        <item>新碟上架</item>
+        <item>Scenario radio</item>
+    </string-array>
+    <string-array name="love_music_section_radio_name">
+        <item>Original</item>
+        <item>Scene</item>
+        <item>Genre</item>
+        <item>Mood</item>
+    </string-array>
+    <string-array name="radio_name_array">
+        <item>Recommended</item>
+        <item>Original</item>
+        <item>Scene</item>
+        <item>Genre</item>
+        <item>Mood</item>
+    </string-array>
+    <string-array name="listen_music_section_rank_name">
+        <item>New</item>
+        <item>Popular</item>
+        <item>Oricon charts</item>
+        <item>Billboard charts</item>
+    </string-array>
+    <string-array name="album_filter">
+        <item>Recommended</item>
+        <item>Chinese</item>
+        <item>Western</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+    <string-array name="performance_order_filter">
+        <item>Sort by order placing time</item>
+        <item>Sort by performance time</item>
+        <item>Sort by ticketing agent</item>
+    </string-array>
     <string-array name="local_music_sort">
         <item>By earliest creation time</item>
         <item>By latest creation time</item>

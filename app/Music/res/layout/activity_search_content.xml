@@ -3,8 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
     <com.android.music.ui.search.SearchBarView android:id="@id/searchBarView_search_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <RelativeLayout android:id="@id/relativeLayout_search_result_content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchBarView_search_header">
-        <com.android.music.widget.UITopNavigationTabView android:id="@id/tabView_search_result" style="@style/TopScrollStripTabWidget" />
-        <android.support.v4.view.ViewPager android:id="@id/viewPager_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabView_search_result" />
-    </RelativeLayout>
+    <com.android.music.widget.RefreshAndMorePinnedListView android:id="@id/listView_search_result" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchBarView_search_header" />
 </RelativeLayout>

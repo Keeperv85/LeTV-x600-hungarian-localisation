@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo" android:layout_width="@dimen/common_song_item_logo_size" android:layout_height="@dimen/common_song_item_logo_size" android:src="@drawable/music_unknown_song" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/more" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="34.0dip" android:layout_height="38.0dip" android:src="@drawable/listenmusic_little_more" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/mv_flag" android:paddingLeft="9.0dip" android:paddingTop="6.0dip" android:paddingRight="9.0dip" android:paddingBottom="6.0dip" android:visibility="invisible" android:layout_width="36.0dip" android:layout_height="30.0dip" android:src="@drawable/listenmusic_little_mv" android:scaleType="center" android:layout_toLeftOf="@id/more" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="34.0dip" android:layout_height="38.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.letv.leui.widget.LeCheckBox android:id="@id/selector_cb" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" leui:leBoxOnColor="@color/main_color" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/album_name_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:layout_toLeftOf="@id/more" android:layout_toRightOf="@id/logo" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/text_color_song_item_track_name" android:ellipsize="end" android:id="@id/song_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="helve-neue" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0sp" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/text_color_song_item_artist_name" android:ellipsize="end" android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:drawablePadding="@dimen/music_download_flag_padding" android:layout_below="@id/song_name" android:fontFamily="helve-neue" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

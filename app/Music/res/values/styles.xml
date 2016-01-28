@@ -49,13 +49,16 @@
     <style name="AppBaseTheme" parent="@android:style/Theme.Leui">
         <item name="android:colorBackground">@color/main_content_background_color</item>
         <item name="android:actionBarStyle">@style/EmptyActionBar</item>
+        <item name="android:actionModeCloseDrawable">@drawable/main_color_back</item>
         <item name="android:actionMenuTextAppearance">@style/CommonMenuTextStyle</item>
-        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@color/main_color</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">@color/status_bar_background</item>
+        <item name="android:leStatusBarIconColor">@color/status_bar_icon</item>
     </style>
     <style name="ActivityBaseTheme" parent="@style/AppBaseTheme">
         <item name="android:actionBarStyle">@style/BaseActionBar.BackText</item>
         <item name="android:actionModeStyle">@style/actionModeStyle</item>
-        <item name="android:statusBarColor">@color/main_color</item>
     </style>
     <style name="ActivityFullScreenTheme" parent="@style/AppBaseTheme">
         <item name="android:actionBarStyle">@style/TransparentActionBar.BackText</item>
@@ -72,31 +75,51 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/black</item>
     </style>
-    <style name="ActivityHomeTheme" parent="@style/ActivityFullScreenTheme">
-        <item name="android:actionBarStyle">@style/TransparentActionBar.Text</item>
-    </style>
-    <style name="ActivityHomeColorTheme" parent="@style/ActivityHomeTheme">
+    <style name="ActivityHomeTheme" parent="@style/ActivityBaseTheme">
         <item name="android:actionBarStyle">@style/BaseActionBar.Text</item>
-        <item name="android:statusBarColor">@color/main_color</item>
     </style>
     <style name="ActivityPlaybackTheme" parent="@style/ActivityFullScreenTheme">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:actionBarStyle">@style/TransparentActionBar.Custom</item>
     </style>
+    <style name="ActivityPlaybackLightTheme" parent="@style/ActivityBaseTheme">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="playerUIProgressArcColor">@color/new_player_light_theme_progress_arc_color</item>
+        <item name="playerUIActionIconColor">@color/main_color</item>
+        <item name="playerUIListDividerColor">@color/new_player_list_divider_color</item>
+    </style>
+    <style name="ActivityPlaybackDarkTheme" parent="@style/ActivityBaseTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/new_player_dark_background</item>
+        <item name="android:actionBarStyle">@style/CustomPlayerDarkActionBar</item>
+        <item name="android:statusBarColor">@color/new_player_dark_background</item>
+        <item name="android:leStatusBarIconColor">@android:color/white</item>
+        <item name="playerUIProgressArcColor">@color/new_player_dark_theme_progress_arc_color</item>
+        <item name="playerUIActionIconColor">@android:color/white</item>
+        <item name="playerUIListDividerColor">@color/new_player_dark_theme_progress_arc_color</item>
+    </style>
     <style name="ActivityPreviewTheme" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@null</item>
     </style>
-    <style name="EmptyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <style name="EmptyActionBar" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:displayOptions">none</item>
         <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
-        <item name="android:homeAsUpIndicator">@drawable/white_back</item>
+        <item name="android:homeAsUpIndicator">@drawable/main_color_back</item>
     </style>
     <style name="actionModeStyle" parent="@android:style/Widget.Material.ActionMode">
-        <item name="android:background">@color/main_color</item>
+        <item name="android:background">@color/status_bar_background</item>
         <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
     </style>
     <style name="BaseActionBar" parent="@style/EmptyActionBar">
-        <item name="android:background">@color/main_color</item>
+        <item name="android:background">@color/status_bar_background</item>
+    </style>
+    <style name="CustomActionBar" parent="@style/BaseActionBar">
+        <item name="android:displayOptions">homeAsUp|showCustom</item>
+    </style>
+    <style name="CustomPlayerDarkActionBar" parent="@style/CustomActionBar">
+        <item name="android:background">@color/new_player_dark_background</item>
     </style>
     <style name="TransparentActionBar" parent="@style/EmptyActionBar">
         <item name="android:background">@android:color/transparent</item>
@@ -124,7 +147,7 @@
     </style>
     <style name="ActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
     <style name="CommonMenuTextStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
         <item name="android:textAllCaps">false</item>
@@ -147,27 +170,27 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="MyMusicHomeEntryTextItem">
-        <item name="android:textSize">@dimen/list_view_main_text_size</item>
+        <item name="android:textSize">@dimen/list_view_primary_text_size</item>
         <item name="android:textColor">@color/list_item_primary_text_color</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:background">@drawable/bg_view_ripple</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_height">56.0dip</item>
         <item name="android:drawablePadding">12.0dip</item>
-        <item name="android:fontFamily">helve-neue-light</item>
+        <item name="android:fontFamily">helve-sans</item>
     </style>
     <style name="MyMusicHomeEntryCountItem">
         <item name="android:textSize">@dimen/list_view_count_text_size</item>
-        <item name="android:textColor">@color/list_item_count_text_color</item>
+        <item name="android:textColor">@color/local_home_count_text_color</item>
         <item name="android:gravity">center|right</item>
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_height">56.0dip</item>
         <item name="android:drawableRight">@drawable/music_little_next</item>
-        <item name="android:drawablePadding">8.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
         <item name="android:layout_alignParentRight">true</item>
-        <item name="android:fontFamily">helve-neue-light</item>
+        <item name="android:fontFamily">helve-neue</item>
     </style>
     <style name="TopScrollStripTabWidget">
         <item name="android:background">@color/main_content_background_color</item>
@@ -213,6 +236,10 @@
         <item name="android:gravity">bottom|center</item>
         <item name="android:layout_width">@dimen/count_down_text_width</item>
         <item name="android:layout_height">15.0dip</item>
+    </style>
+    <style name="track_bottom_action_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_bottom_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_bottom_hide</item>
     </style>
     <style name="albumRatingBar" parent="@android:style/Widget.RatingBar">
         <item name="android:maxHeight">14.0dip</item>
@@ -329,6 +356,15 @@
         <item name="android:minWidth">4.0dip</item>
         <item name="android:singleLine">true</item>
     </style>
+    <style name="collects_tag_item">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/select_collect_tag</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">25.0dip</item>
+        <item name="android:fontFamily">helve-neue-regular</item>
+    </style>
     <style name="search_main_hot_artist_item">
         <item name="android:layout_width">56.0dip</item>
         <item name="android:layout_height">wrap_content</item>
@@ -382,11 +418,42 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+    <style name="search_index_category_item_container">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">52.0dip</item>
+    </style>
+    <style name="search_index_category_item_cover">
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+        <item name="android:src">@drawable/music_unknown_song</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="search_index_category_item_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">50.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="search_index_category_item_tag">
+        <item name="android:layout_width">18.0dip</item>
+        <item name="android:layout_height">18.0dip</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
     <style name="perform_detail_item_container">
         <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:paddingTop">16.0dip</item>
-        <item name="android:paddingRight">0.0dip</item>
-        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
@@ -397,28 +464,34 @@
         <item name="android:layout_marginRight">6.0dip</item>
     </style>
     <style name="perform_detail_item_title">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ff383838</item>
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ff747474</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginRight">46.0dip</item>
-        <item name="android:drawableLeft">@drawable/musicsearch_icon_1</item>
-        <item name="android:drawablePadding">5.0dip</item>
+        <item name="android:layout_marginRight">40.0dip</item>
+        <item name="android:drawableRight">@drawable/music_grey_next</item>
+        <item name="android:drawablePadding">10.0dip</item>
+        <item name="android:fontFamily">helve-neue-regular</item>
     </style>
     <style name="perform_detail_item_detail">
         <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffbcbcbc</item>
-        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:textColor">@color/black</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">10.0dip</item>
         <item name="android:layout_marginRight">46.0dip</item>
         <item name="android:lineSpacingExtra">4.0dip</item>
     </style>
+    <style name="perform_detail_item_divider">
+        <item name="android:background">#ffdfdfdf</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
     <style name="perform_detail_item_tag">
-        <item name="android:padding">16.0dip</item>
-        <item name="android:layout_width">46.0dip</item>
-        <item name="android:layout_height">46.0dip</item>
+        <item name="android:layout_width">24.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
         <item name="android:src">@drawable/music_grey_next</item>
         <item name="android:scaleType">center</item>
         <item name="android:layout_alignParentRight">true</item>
@@ -508,7 +581,7 @@
         <item name="android:textColor">@color/setting_actionbar_menu_text_color</item>
         <item name="android:textAllCaps">false</item>
     </style>
-    <style name="SettingActionBar" parent="@style/EmptyActionBar">
+    <style name="SettingActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@drawable/leui_action_bar_divider</item>
         <item name="android:height">@dimen/setting_actionbar_height</item>
         <item name="android:displayOptions">homeAsUp|showTitle</item>
@@ -521,11 +594,20 @@
     </style>
     <style name="SearchContent" parent="@style/ActivityNoActionBar">
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:statusBarColor">@color/main_color</item>
+        <item name="android:statusBarColor">@color/status_bar_background</item>
+        <item name="android:leStatusBarIconColor">@color/status_bar_icon</item>
     </style>
     <style name="myfollow_yellow_rating" parent="@android:style/Widget.RatingBar">
         <item name="android:maxHeight">14.0dip</item>
         <item name="android:progressDrawable">@drawable/selector_yellow_rating</item>
         <item name="android:minHeight">14.0dip</item>
+    </style>
+    <style name="selectDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowMinWidthMinor">100.0%</item>
     </style>
 </resources>

@@ -83,6 +83,7 @@
     <public type="string" name="revert" id="0x7f07001e" />
     <public type="string" name="schpwr_shutdown_message" id="0x7f07001f" />
     <public type="string" name="schpwr_shutdown_message_second" id="0x7f070020" />
+    <public type="string" name="leui_error_short_interval" id="0x7f070021" />
     <public type="style" name="PreferenceHeaderPanelSinglePane" id="0x7f080000" />
     <public type="style" name="PreferencePanelSinglePane" id="0x7f080001" />
     <public type="style" name="PreferenceHeaderListSinglePane" id="0x7f080002" />

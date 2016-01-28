@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:id="@id/container_artist" style="@style/search_index_category_item_container">
+        <ImageView android:id="@id/artist_cover" android:src="@drawable/search_artist" style="@style/search_index_category_item_cover" />
+        <TextView android:text="@string/category_artist" android:layout_toRightOf="@id/artist_cover" style="@style/search_index_category_item_title" />
+        <ImageView style="@style/search_index_category_item_tag" />
+    </RelativeLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/container_mv" style="@style/search_index_category_item_container">
+        <ImageView android:id="@id/mv_cover" android:src="@drawable/search_mv" style="@style/search_index_category_item_cover" />
+        <TextView android:text="@string/title_search_result_mv" android:layout_toRightOf="@id/mv_cover" style="@style/search_index_category_item_title" />
+        <ImageView style="@style/search_index_category_item_tag" />
+    </RelativeLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/container_collect" style="@style/search_index_category_item_container">
+        <ImageView android:id="@id/collect_cover" android:src="@drawable/search_collect" style="@style/search_index_category_item_cover" />
+        <TextView android:text="@string/category_collect" android:layout_toRightOf="@id/collect_cover" style="@style/search_index_category_item_title" />
+        <ImageView style="@style/search_index_category_item_tag" />
+    </RelativeLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/container_rank" style="@style/search_index_category_item_container">
+        <ImageView android:id="@id/rank_cover" android:src="@drawable/search_rank" style="@style/search_index_category_item_cover" />
+        <TextView android:text="@string/text_rank_title" android:layout_toRightOf="@id/rank_cover" style="@style/search_index_category_item_title" />
+        <ImageView style="@style/search_index_category_item_tag" />
+    </RelativeLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

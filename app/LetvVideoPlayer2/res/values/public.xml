@@ -1,74 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <public type="drawable" name="btn_down" id="0x7f020000" />
-    <public type="drawable" name="custom_progressbar" id="0x7f020006" />
-    <public type="drawable" name="custom_seekbar" id="0x7f020007" />
-    <public type="drawable" name="guesture_change_value_bg" id="0x7f020008" />
-    <public type="drawable" name="ic_pause_pause" id="0x7f020017" />
-    <public type="drawable" name="ic_play_big_black" id="0x7f020019" />
-    <public type="drawable" name="ic_play_big_white" id="0x7f02001a" />
-    <public type="drawable" name="ic_play_play" id="0x7f02001b" />
-    <public type="drawable" name="le_actionbar_menuitem_white_back" id="0x7f020023" />
-    <public type="drawable" name="le_actionbar_menuitem_white_cancel" id="0x7f020024" />
-    <public type="drawable" name="le_actionbar_menuitem_white_ok" id="0x7f020025" />
-    <public type="drawable" name="player_loading_progress" id="0x7f02002d" />
-    <public type="drawable" name="player_orientation_switch_selector_landscape" id="0x7f020032" />
-    <public type="drawable" name="player_orientation_switch_selector_protrait" id="0x7f020033" />
-    <public type="drawable" name="player_pause_btn_selector" id="0x7f020034" />
-    <public type="drawable" name="player_play_btn_selector" id="0x7f020035" />
-    <public type="drawable" name="popup_shape" id="0x7f020036" />
-    <public type="drawable" name="radio_backgroud" id="0x7f020037" />
-    <public type="drawable" name="radio_button" id="0x7f020038" />
-    <public type="drawable" name="radio_color" id="0x7f020039" />
-    <public type="drawable" name="seekbar_progress" id="0x7f02003a" />
-    <public type="drawable" name="transparent" id="0x7f020041" />
-    <public type="drawable" name="upgrade_btn_normal" id="0x7f020042" />
-    <public type="drawable" name="upgrade_dialog_divider" id="0x7f020043" />
-    <public type="drawable" name="upgrade_dialog_bg" id="0x7f020044" />
-    <public type="drawable" name="btn_pause_normal" id="0x7f020001" />
-    <public type="drawable" name="btn_pause_pressed" id="0x7f020002" />
-    <public type="drawable" name="btn_play_disabled" id="0x7f020003" />
-    <public type="drawable" name="btn_play_normal" id="0x7f020004" />
-    <public type="drawable" name="btn_play_pressed" id="0x7f020005" />
-    <public type="drawable" name="horizontal" id="0x7f020009" />
-    <public type="drawable" name="ic_delete" id="0x7f02000a" />
-    <public type="drawable" name="ic_delete_disable" id="0x7f02000b" />
-    <public type="drawable" name="ic_dolby" id="0x7f02000c" />
-    <public type="drawable" name="ic_dts" id="0x7f02000d" />
-    <public type="drawable" name="ic_dts_qcom" id="0x7f02000e" />
-    <public type="drawable" name="ic_empty_thumbnail" id="0x7f02000f" />
-    <public type="drawable" name="ic_forward" id="0x7f020010" />
-    <public type="drawable" name="ic_forward_disable" id="0x7f020011" />
-    <public type="drawable" name="ic_full_screen" id="0x7f020012" />
-    <public type="drawable" name="ic_go" id="0x7f020013" />
-    <public type="drawable" name="ic_launcher" id="0x7f020014" />
-    <public type="drawable" name="ic_mhl_click_big" id="0x7f020015" />
-    <public type="drawable" name="ic_mhl_click_small" id="0x7f020016" />
-    <public type="drawable" name="ic_pip_close" id="0x7f020018" />
-    <public type="drawable" name="ic_radio" id="0x7f02001c" />
-    <public type="drawable" name="ic_radio_selected" id="0x7f02001d" />
-    <public type="drawable" name="ic_rewind" id="0x7f02001e" />
-    <public type="drawable" name="ic_rewind_disable" id="0x7f02001f" />
-    <public type="drawable" name="ic_seek_conduction" id="0x7f020020" />
-    <public type="drawable" name="ic_seekbar_big" id="0x7f020021" />
-    <public type="drawable" name="ic_video_player" id="0x7f020022" />
-    <public type="drawable" name="le_videocut_1" id="0x7f020026" />
-    <public type="drawable" name="le_videocut_2" id="0x7f020027" />
-    <public type="drawable" name="player_back_btn_back" id="0x7f020028" />
-    <public type="drawable" name="player_controlpanel_center_brightness_icon" id="0x7f020029" />
-    <public type="drawable" name="player_icon_forward" id="0x7f02002a" />
-    <public type="drawable" name="player_icon_rewind" id="0x7f02002b" />
-    <public type="drawable" name="player_loading_icon" id="0x7f02002c" />
-    <public type="drawable" name="player_orientation_switch_btn_landscape_normal" id="0x7f02002e" />
-    <public type="drawable" name="player_orientation_switch_btn_landscape_pressed" id="0x7f02002f" />
-    <public type="drawable" name="player_orientation_switch_btn_portrait_normal" id="0x7f020030" />
-    <public type="drawable" name="player_orientation_switch_btn_portrait_pressed" id="0x7f020031" />
-    <public type="drawable" name="seekbar_seek_thumb" id="0x7f02003b" />
-    <public type="drawable" name="vertical" id="0x7f02003c" />
-    <public type="drawable" name="volume_gesture_0" id="0x7f02003d" />
-    <public type="drawable" name="volume_gesture_1" id="0x7f02003e" />
-    <public type="drawable" name="volume_gesture_2" id="0x7f02003f" />
-    <public type="drawable" name="volume_gesture_3" id="0x7f020040" />
+    <public type="drawable" name="btn_next_selector" id="0x7f020004" />
+    <public type="drawable" name="btn_pre_selector" id="0x7f02000d" />
+    <public type="drawable" name="custom_progressbar" id="0x7f02000e" />
+    <public type="drawable" name="custom_seekbar" id="0x7f02000f" />
+    <public type="drawable" name="guesture_change_value_bg" id="0x7f020010" />
+    <public type="drawable" name="ic_pause_pause" id="0x7f02001f" />
+    <public type="drawable" name="ic_play_big_black" id="0x7f020021" />
+    <public type="drawable" name="ic_play_big_white" id="0x7f020022" />
+    <public type="drawable" name="ic_play_play" id="0x7f020023" />
+    <public type="drawable" name="le_actionbar_menuitem_white_back" id="0x7f02002b" />
+    <public type="drawable" name="le_actionbar_menuitem_white_cancel" id="0x7f02002c" />
+    <public type="drawable" name="le_actionbar_menuitem_white_ok" id="0x7f02002d" />
+    <public type="drawable" name="player_loading_progress" id="0x7f020035" />
+    <public type="drawable" name="player_orientation_switch_selector_landscape" id="0x7f02003a" />
+    <public type="drawable" name="player_orientation_switch_selector_protrait" id="0x7f02003b" />
+    <public type="drawable" name="player_pause_btn_selector" id="0x7f02003c" />
+    <public type="drawable" name="player_play_btn_selector" id="0x7f02003d" />
+    <public type="drawable" name="popup_shape" id="0x7f02003e" />
+    <public type="drawable" name="radio_backgroud" id="0x7f02003f" />
+    <public type="drawable" name="radio_button" id="0x7f020040" />
+    <public type="drawable" name="radio_color" id="0x7f020041" />
+    <public type="drawable" name="seekbar_progress" id="0x7f020042" />
+    <public type="drawable" name="transparent" id="0x7f020049" />
+    <public type="drawable" name="upgrade_btn_normal" id="0x7f02004a" />
+    <public type="drawable" name="upgrade_dialog_divider" id="0x7f02004b" />
+    <public type="drawable" name="upgrade_dialog_bg" id="0x7f02004c" />
+    <public type="drawable" name="btn_next" id="0x7f020001" />
+    <public type="drawable" name="btn_next_down" id="0x7f020002" />
+    <public type="drawable" name="btn_next_no" id="0x7f020003" />
+    <public type="drawable" name="btn_pause_normal" id="0x7f020005" />
+    <public type="drawable" name="btn_pause_pressed" id="0x7f020006" />
+    <public type="drawable" name="btn_play_disabled" id="0x7f020007" />
+    <public type="drawable" name="btn_play_normal" id="0x7f020008" />
+    <public type="drawable" name="btn_play_pressed" id="0x7f020009" />
+    <public type="drawable" name="btn_pre" id="0x7f02000a" />
+    <public type="drawable" name="btn_pre_down" id="0x7f02000b" />
+    <public type="drawable" name="btn_pre_no" id="0x7f02000c" />
+    <public type="drawable" name="horizontal" id="0x7f020011" />
+    <public type="drawable" name="ic_delete" id="0x7f020012" />
+    <public type="drawable" name="ic_delete_disable" id="0x7f020013" />
+    <public type="drawable" name="ic_dolby" id="0x7f020014" />
+    <public type="drawable" name="ic_dts" id="0x7f020015" />
+    <public type="drawable" name="ic_dts_qcom" id="0x7f020016" />
+    <public type="drawable" name="ic_empty_thumbnail" id="0x7f020017" />
+    <public type="drawable" name="ic_forward" id="0x7f020018" />
+    <public type="drawable" name="ic_forward_disable" id="0x7f020019" />
+    <public type="drawable" name="ic_full_screen" id="0x7f02001a" />
+    <public type="drawable" name="ic_go" id="0x7f02001b" />
+    <public type="drawable" name="ic_launcher" id="0x7f02001c" />
+    <public type="drawable" name="ic_mhl_click_big" id="0x7f02001d" />
+    <public type="drawable" name="ic_mhl_click_small" id="0x7f02001e" />
+    <public type="drawable" name="ic_pip_close" id="0x7f020020" />
+    <public type="drawable" name="ic_radio" id="0x7f020024" />
+    <public type="drawable" name="ic_radio_selected" id="0x7f020025" />
+    <public type="drawable" name="ic_rewind" id="0x7f020026" />
+    <public type="drawable" name="ic_rewind_disable" id="0x7f020027" />
+    <public type="drawable" name="ic_seek_conduction" id="0x7f020028" />
+    <public type="drawable" name="ic_seekbar_big" id="0x7f020029" />
+    <public type="drawable" name="ic_video_player" id="0x7f02002a" />
+    <public type="drawable" name="le_videocut_1" id="0x7f02002e" />
+    <public type="drawable" name="le_videocut_2" id="0x7f02002f" />
+    <public type="drawable" name="player_back_btn_back" id="0x7f020030" />
+    <public type="drawable" name="player_controlpanel_center_brightness_icon" id="0x7f020031" />
+    <public type="drawable" name="player_icon_forward" id="0x7f020032" />
+    <public type="drawable" name="player_icon_rewind" id="0x7f020033" />
+    <public type="drawable" name="player_loading_icon" id="0x7f020034" />
+    <public type="drawable" name="player_orientation_switch_btn_landscape_normal" id="0x7f020036" />
+    <public type="drawable" name="player_orientation_switch_btn_landscape_pressed" id="0x7f020037" />
+    <public type="drawable" name="player_orientation_switch_btn_portrait_normal" id="0x7f020038" />
+    <public type="drawable" name="player_orientation_switch_btn_portrait_pressed" id="0x7f020039" />
+    <public type="drawable" name="seekbar_seek_thumb" id="0x7f020043" />
+    <public type="drawable" name="vertical" id="0x7f020044" />
+    <public type="drawable" name="volume_gesture_0" id="0x7f020045" />
+    <public type="drawable" name="volume_gesture_1" id="0x7f020046" />
+    <public type="drawable" name="volume_gesture_2" id="0x7f020047" />
+    <public type="drawable" name="volume_gesture_3" id="0x7f020048" />
     <public type="layout" name="action_bar_custom_view" id="0x7f030000" />
     <public type="layout" name="activity_file_list" id="0x7f030001" />
     <public type="layout" name="activity_player" id="0x7f030002" />
@@ -513,37 +521,6 @@
     <public type="string" name="file_not_found" id="0x7f070051" />
     <public type="string" name="str_video_info_btn" id="0x7f070052" />
     <public type="string" name="format_video_modify" id="0x7f070053" />
-    <public type="string" name="pause" id="0x7f070054" />
-    <public type="string" name="string_brightness" id="0x7f070055" />
-    <public type="string" name="btn_exit" id="0x7f070056" />
-    <public type="string" name="info_no_next" id="0x7f070057" />
-    <public type="string" name="info_no_prev" id="0x7f070058" />
-    <public type="string" name="error_play_cannt_play" id="0x7f070059" />
-    <public type="string" name="str_set_subtitle" id="0x7f07005a" />
-    <public type="string" name="str_font_size" id="0x7f07005b" />
-    <public type="string" name="str_shadow" id="0x7f07005c" />
-    <public type="string" name="str_language" id="0x7f07005d" />
-    <public type="string" name="local_no_dlna_message" id="0x7f07005e" />
-    <public type="string" name="str_title_select" id="0x7f07005f" />
-    <public type="string" name="str_history" id="0x7f070060" />
-    <public type="string" name="info_sub_not_support" id="0x7f070061" />
-    <public type="string" name="info_loading" id="0x7f070062" />
-    <public type="string" name="info_do_play" id="0x7f070063" />
-    <public type="string" name="info_play_controller" id="0x7f070064" />
-    <public type="string" name="str_history_empty" id="0x7f070065" />
-    <public type="string" name="str_local_storage" id="0x7f070066" />
-    <public type="string" name="str_unsupported" id="0x7f070067" />
-    <public type="string" name="str_server_timeout" id="0x7f070068" />
-    <public type="string" name="str_file_open_error" id="0x7f070069" />
-    <public type="string" name="str_set_network" id="0x7f07006a" />
-    <public type="string" name="str_mobile_net" id="0x7f07006b" />
-    <public type="string" name="str_wifi_net" id="0x7f07006c" />
-    <public type="string" name="str_cant_seek_forward" id="0x7f07006d" />
-    <public type="string" name="str_cant_rewind" id="0x7f07006e" />
-    <public type="string" name="str_shutdown_mhl" id="0x7f07006f" />
-    <public type="string" name="str_enjoying" id="0x7f070070" />
-    <public type="string" name="str_mhl_off" id="0x7f070071" />
-    <public type="string" name="str_mhl_subinfo" id="0x7f070072" />
     <public type="style" name="AppBaseTheme" id="0x7f080000" />
     <public type="style" name="AppTheme" id="0x7f080001" />
     <public type="style" name="actionbar_style" id="0x7f080002" />
@@ -558,6 +535,8 @@
     <public type="style" name="FullScreen" id="0x7f08000b" />
     <public type="style" name="dialog" id="0x7f08000c" />
     <public type="style" name="le_style_media_progressbar" id="0x7f08000d" />
+    <public type="style" name="actionModeStyle" id="0x7f08000e" />
+    <public type="style" name="ActionBarTitleStyle" id="0x7f08000f" />
     <public type="menu" name="menu_multi_select" id="0x7f090000" />
     <public type="menu" name="title_bar" id="0x7f090001" />
     <public type="id" name="action_bar_custom_view_text" id="0x7f0a0000" />

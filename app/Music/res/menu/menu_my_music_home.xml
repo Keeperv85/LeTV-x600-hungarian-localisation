@@ -2,5 +2,5 @@
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:icon="@drawable/music_icon_timing" android:id="@id/action_count_down" android:title="@string/menu_title_count_down" android:showAsAction="ifRoom" />
-    <item android:id="@id/action_playing" android:title="@string/menu_title_playing" android:showAsAction="ifRoom" android:actionLayout="@layout/playing_music_action_view" />
+    <item android:icon="@drawable/icon_search" android:id="@id/action_search" android:title="@string/text_search" android:showAsAction="ifRoom" />
 </menu>

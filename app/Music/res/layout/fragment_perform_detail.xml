@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+  xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+    <com.android.music.widget.RefreshAndMoreScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:leui="http://schemas.android.com/apk/prv/res/android"
+      xmlns:music="http://schemas.android.com/apk/res/com.android.music">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/perform_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/header_perform_detail" />
+                <RelativeLayout android:id="@id/relativeLayout_perform_detail_preson_info" style="@style/perform_detail_item_container">
+                    <com.letv.leui.widget.BorderedCircleImageView android:id="@id/borderedCircleImageView_perform_detail_preson_info_avatar" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/music_unknown_people" android:scaleType="centerCrop" android:layout_centerVertical="true" leui:circle_radius="28.0dip" leui:border_width="0.0dip" leui:round_background="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff747474" android:id="@id/textView_perform_detail_preson_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/borderedCircleImageView_perform_detail_preson_info_avatar" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0dip" />
+                    <ImageView style="@style/perform_detail_item_tag" />
+                </RelativeLayout>
+                <View android:id="@id/divider_over_location" style="@style/perform_detail_item_divider" />
+                <RelativeLayout android:id="@id/relativeLayout_perform_detail_location" android:paddingBottom="11.0dip" style="@style/perform_detail_item_container">
+                    <TextView android:id="@id/textView_perform_detail_location_name" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0dip" style="@style/perform_detail_item_title" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textView_perform_detail_location_name">
+                        <TextView android:ellipsize="end" android:id="@id/textView_perform_detail_location_detail" android:layout_marginBottom="10.0dip" android:maxLines="2" android:layout_centerVertical="true" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" style="@style/perform_detail_item_detail" />
+                        <ImageView android:id="@id/imageView_location_tag" android:src="@drawable/details_icon_address" style="@style/perform_detail_item_tag" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <View style="@style/perform_detail_item_divider" />
+                <RelativeLayout android:id="@id/relativeLayout_perform_detail_show" style="@style/perform_detail_item_container">
+                    <TextView android:id="@id/textView_perform_detail_show_name" android:text="@string/text_perform_detail" android:layout_centerVertical="true" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0dip" style="@style/perform_detail_item_title" />
+                </RelativeLayout>
+                <View style="@style/perform_detail_item_divider" />
+                <RelativeLayout android:id="@id/relativeLayout_perform_detail_service" style="@style/perform_detail_item_container">
+                    <TextView android:text="@string/text_perform_service_answer" android:layout_centerVertical="true" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0dip" style="@style/perform_detail_item_title" />
+                </RelativeLayout>
+                <View style="@style/perform_detail_item_divider" />
+                <RelativeLayout android:id="@id/relativeLayout_perform_detail_service_contact_information" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" style="@style/perform_detail_item_container">
+                    <TextView android:id="@id/textView_service_phone" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/text_perform_service_contact_information" android:drawableRight="@null" android:layout_centerVertical="true" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="14.0dip" style="@style/perform_detail_item_title" />
+                    <ImageView android:src="@drawable/details_icon_phone" style="@style/perform_detail_item_tag" />
+                </RelativeLayout>
+                <View style="@style/perform_detail_item_divider" />
+            </LinearLayout>
+            <com.android.music.widget.LeMusicBlankPage android:id="@id/blankPage_perform_detail" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </com.android.music.widget.RefreshAndMoreScrollView>
+</RelativeLayout>

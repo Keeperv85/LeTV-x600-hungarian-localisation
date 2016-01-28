@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.music.widget.RefreshAndMoreListView android:id="@id/refresh_more_listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lePtrAnimationStyle="rotate"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android" />

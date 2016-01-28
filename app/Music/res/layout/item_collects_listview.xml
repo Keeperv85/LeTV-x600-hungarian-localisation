@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/prv/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="180.0dip">
-        <com.letv.leui.widget.BorderedRoundedCornersImageView android:id="@id/cornersImageView_best_collectons_item_cover" android:background="@drawable/shape_1px_1dp_bound" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/collect_loading" android:scaleType="centerCrop" leui:corner_radius="1.0dip" />
-        <Button android:id="@id/button_collects_item_play" android:background="@drawable/music_bigplay" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/collect_cover_container" android:layout_width="95.0dip" android:layout_height="95.0dip" android:alpha="0.8">
+        <View android:id="@id/bottom_divider" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+        <View android:id="@id/right_divider" android:background="#33000000" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <com.letv.leui.widget.BorderedRoundedCornersImageView android:id="@id/collect_cover" android:background="@drawable/shape_1px_1dp_bound" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.5dip" android:layout_marginBottom="1.5dip" android:scaleType="centerCrop" android:layout_toLeftOf="@id/right_divider" android:layout_above="@id/bottom_divider" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/relativeLayout_best_collectons_item_title_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
-        <ImageView android:id="@id/imageView_best_collectons_item_title_tag" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/music_icon1" android:layout_centerVertical="true" />
-        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/textView_best_collectons_item_title_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:maxLines="1" android:layout_toRightOf="@id/imageView_best_collectons_item_title_tag" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans-normal" leui:leCJKTextSize="14.0sp" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="95.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/collect_cover_container">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/collect_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="2" android:fontFamily="helve-neue-regular" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff898b94" android:ellipsize="end" android:id="@id/collect_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/collect_title" android:fontFamily="helve-neue-regular" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="10.0sp" android:textColor="#ffc6c7cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="helve-neue-regular" />
+        </LinearLayout>
     </RelativeLayout>
-    <TextView android:textSize="12.0sp" android:textColor="#ff747474" android:ellipsize="end" android:id="@id/textView_best_collectons_item_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="2" android:lineSpacingExtra="3.0dip" android:fontFamily="helve-neue-regular" leui:leCJKFontFamily="hans-sans" leui:leCJKTextSize="12.0sp" />
-</LinearLayout>
+</RelativeLayout>

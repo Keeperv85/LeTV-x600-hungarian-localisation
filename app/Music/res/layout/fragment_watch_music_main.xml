@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.music.widget.StatusBarAndActionBarFillView android:id="@id/head" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <com.android.music.widget.UITopNavigationTabView android:id="@id/tabs" android:layout_below="@id/head" style="@style/TopScrollStripTabWidget" />
+    <com.android.music.widget.UITopNavigationTabView android:id="@id/tabs" style="@style/TopScrollStripTabWidget" />
     <com.android.music.widget.MusicViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" />
     <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </RelativeLayout>

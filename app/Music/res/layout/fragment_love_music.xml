@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
+    <com.android.music.widget.StateAwareScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v4.view.ViewPager android:id="@id/pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="146.0dip" />
+            <RelativeLayout android:id="@id/week_hot_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/pager">
+                <include android:id="@id/week_hot_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_love_music_child_title" />
+                <include android:id="@id/week_hot_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/week_hot_title" android:layout_centerHorizontal="true" layout="@layout/layout_love_music_weekhot_album" />
+                <View android:id="@id/week_hot_album_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/week_hot_album" />
+                <com.android.music.widget.NoScrollListView android:id="@id/week_hot_song" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/week_hot_album_divider" />
+                <View android:id="@id/week_hot_song_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/week_hot_song" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/best_collection_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/week_hot_layout">
+                <include android:id="@id/best_collection_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" layout="@layout/layout_love_music_child_title" />
+                <include android:id="@id/best_collection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/best_collection_title" layout="@layout/layout_love_music_best_collection" />
+                <View android:id="@id/best_collection_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/best_collection" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/special_topic_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/best_collection_layout">
+                <include android:id="@id/special_topic_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_love_music_child_title" />
+                <com.android.music.widget.NoScrollListView android:id="@id/special_topic" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/special_topic_title" />
+                <View android:id="@id/special_topic_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/special_topic" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rank_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/special_topic_layout">
+                <include android:id="@id/rank_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_love_music_child_title" />
+                <include android:id="@id/rank" android:background="@color/green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/rank_title" layout="@layout/layout_love_music_rank" />
+                <View android:id="@id/rank_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/rank" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/new_album_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/rank_layout">
+                <include android:id="@id/new_album_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" layout="@layout/layout_love_music_child_title" />
+                <include android:id="@id/new_album" android:background="@color/green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/new_album_title" layout="@layout/layout_love_music_new_album" />
+                <View android:id="@id/new_album_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/new_album" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/radio_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/new_album_layout">
+                <include android:id="@id/radio_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_love_music_child_title" />
+                <include android:id="@id/radio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/radio_title" layout="@layout/layout_love_music_radio" />
+                <View android:id="@id/radio_divider" android:background="@drawable/divider_track_list" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/radio" />
+            </RelativeLayout>
+            <com.android.music.widget.LeMusicBlankPage android:id="@id/empty_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" music:tipType="song_tip" />
+        </RelativeLayout>
+    </com.android.music.widget.StateAwareScrollView>
+    <FrameLayout android:id="@id/love_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

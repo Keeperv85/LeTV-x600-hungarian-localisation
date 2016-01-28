@@ -11,10 +11,9 @@ packageInfo:
   forced-package-id: '127'
 versionInfo:
   versionCode: '21'
-  versionName: 5.0.2-10
+  versionName: 5.0.2-22
 sharedLibrary: false
 unknownFiles:
-  XPP3_1.1.4c_VERSION: '0'
   com/letv/tracker/agnes/agnes.properties: '8'
   javax/annotation/CheckForNull.java: '8'
   javax/annotation/CheckForSigned.java: '8'

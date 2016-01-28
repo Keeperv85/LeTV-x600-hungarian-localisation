@@ -351,6 +351,20 @@
     <item type="dimen" name="music_cover_scale2">0.85</item>
     <dimen name="video_round_corner">6.0dip</dimen>
     <dimen name="alphabet_waves_view_divider">24.0dip</dimen>
+    <dimen name="common_song_item_logo_size">38.0dip</dimen>
+    <dimen name="common_video_item_logo_width">96.0dip</dimen>
+    <dimen name="common_video_item_logo_height">54.0dip</dimen>
+    <dimen name="common_content_padding_left_right">16.0dip</dimen>
+    <dimen name="common_content_padding_top">8.0dip</dimen>
+    <dimen name="bottom_mini_player_height">119.0dip</dimen>
+    <dimen name="expand_lyrics_view_padding_top">22.0dip</dimen>
+    <dimen name="lyrics_text_size">15.0sp</dimen>
+    <dimen name="lyrics_text_highlight_size">18.0sp</dimen>
+    <dimen name="player_lyrics_margin_top">20.0dip</dimen>
+    <dimen name="player_action_margin_bottom">40.0dip</dimen>
+    <dimen name="player_content_margin_top">25.0dip</dimen>
+    <dimen name="player_album_margin_top">20.0dip</dimen>
+    <dimen name="player_widget_album_size">44.0dip</dimen>
     <dimen name="setting_actionbar_height">40.0dip</dimen>
     <dimen name="setting_actionbar_menu_text_size">15.0sp</dimen>
     <dimen name="setting_actionbar_title_text_size">18.0sp</dimen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_blank" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.music.widget.StatusBarAndActionBarFillView android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/mask" android:background="#3d253137" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_blank" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_blank">
+        <ListView android:id="@id/listView_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

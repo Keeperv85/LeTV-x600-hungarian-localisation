@@ -94,6 +94,7 @@
     <string name="play_performance">Events</string>
     <string name="latest_performance">Latest events</string>
     <string name="enable_locate">Please enable location services</string>
+    <string name="can_not_find_map">Map application is not currently installed</string>
     <string name="artist_detail">Artist details</string>
     <string name="album_description">Album info</string>
     <string name="album_detail">Album details</string>
@@ -145,7 +146,23 @@
     <string name="scan_result_new_item">Found %1$d song</string>
     <string name="scan_result">No new song. All added to local music.</string>
     <string name="complete">Done</string>
+    <string name="order_form_detail">Order info</string>
+    <string name="price_tail_yuan">RMB</string>
+    <string name="price_tail_from">Starting</string>
+    <string name="live_list">Live program list</string>
+    <string name="related_artists">Related artists</string>
+    <string name="review">View past episodes</string>
+    <string name="live_detail">Live broadcast detail</string>
+    <string name="related_music">Related music</string>
+    <string name="related_video">Related videos</string>
+    <string name="artist">Artist</string>
+    <string name="hot_city">Top cities</string>
+    <string name="order_num_unit">item(s)</string>
+    <string name="order_price_unit">RMB</string>
     <string name="home_tab_my_music">Me</string>
+    <string name="home_tab_love_show">iPerformance</string>
+    <string name="home_tab_love_scence">iLive</string>
+    <string name="home_tab_love_music">Music</string>
     <string name="home_tab_listen_music">Music</string>
     <string name="home_tab_watch_music">Video</string>
     <string name="home_tab_live_show">Events</string>
@@ -233,6 +250,9 @@
     <string name="notification_music_download_action_play">Play</string>
     <string name="notification_music_download_mobile_usage_title">You are using a 3G/4G network. Download has paused</string>
     <string name="notification_music_download_user_paused">Download paused</string>
+    <string name="notification_music_download_user_paused_single_title">Download paused for %s</string>
+    <string name="notification_music_download_user_paused_multi_title">Paused to download %2$d song(s) including %1$s</string>
+    <string name="notification_music_download_user_paused_content">A total of %1$d song(s) successfully downloaded; failed to download %2$d song(s)</string>
     <string name="media_player_no_lyrics">No lyrics</string>
     <string name="media_player_search_lyrics">Search lyrics</string>
     <string name="media_player_clean_playlist">Clear playlist</string>
@@ -243,6 +263,8 @@
     <string name="media_player_check_artist">View artist</string>
     <string name="media_player_check_album">View album</string>
     <string name="media_player_share">Share</string>
+    <string name="media_player_night_mode">Night mode</string>
+    <string name="media_player_day_mode">Day mode</string>
     <string name="media_player_cancel">Cancel</string>
     <string name="media_player_bookmark_added">Favorited</string>
     <string name="media_player_bookmark_removed">Unfavorited</string>
@@ -350,8 +372,10 @@ Description: %3$s"</string>
     <string name="mobile_network_cost">You are using a mobile network. Data usage charges will be incurred.</string>
     <string name="mobile_network_cost_title">You are using a mobile network.</string>
     <string name="mobile_network_cost_content">It will incur data fees</string>
+    <string name="mobile_network">You are using a mobile network.</string>
     <string name="wifi_network">You are using a Wi-Fi network</string>
     <string name="menu_title_sort">Sort</string>
+    <string name="mobile_network_deny_by_policy">Music is prohibited to use cellular data</string>
     <string name="payment_sign">corderid=%1$s&amp;userid=%2$s&amp;companyid=%1$d&amp;%3$s&amp;deptid=%2$d&amp;pid=%3$d</string>
     <string name="transaltion_x">translationX</string>
     <string name="scale_x">scaleX</string>
@@ -408,6 +432,8 @@ Description: %3$s"</string>
     <string name="setting_auto">Auto select</string>
     <string name="text_collects_recommend_title">Best stations</string>
     <string name="text_collects_introduce_title">Description</string>
+    <string name="text_collects_category_all">All collections</string>
+    <string name="text_collects_category">Collection category</string>
     <string name="text_rank_title">Charts</string>
     <string name="text_radio_title">Radio</string>
     <string name="text_radio_category">%1$s radio</string>
@@ -475,6 +501,9 @@ Customer service: 4006-228-228"</string>
     <string name="free_flow_not_enough_tip">You are using a non-Wi-Fi network. Your free traffic allowance will run out soon. Charges will be incurred for additional data usage.</string>
     <string name="free_flow_no_letv_tip">You are accessing non-Letv content. Traffic-free service is unavailable. Data charges will be incurred if you continue.</string>
     <string name="share_copywriter">Share %2$s from %1$s with #Le Superphone#</string>
+    <string name="text_perform_service_contact_information">Customer service hotline: 4008556694</string>
+    <string name="category_artist">Artist</string>
+    <string name="category_collect">Collections</string>
     <string name="onesong">1 song</string>
     <string name="scanning">Scanning SD card...</string>
     <string name="scanning_nosdcard">Scanning USB storage device...</string>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/playshow_icon2" android:id="@id/action_citylist" android:showAsAction="ifRoom" />
-    <item android:id="@id/action_playing" android:title="@string/menu_title_playing" android:showAsAction="ifRoom" android:actionLayout="@layout/playing_music_action_view" />
+    <item android:icon="@drawable/ic_playshow_order" android:id="@id/action_order" android:title="@string/order_form_detail" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/playshow_icon2" android:id="@id/action_citylist" android:title="@string/select_city" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/icon_search" android:id="@id/action_search" android:title="@string/text_search" android:showAsAction="ifRoom" />
 </menu>

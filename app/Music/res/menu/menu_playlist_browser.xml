@@ -2,5 +2,4 @@
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:icon="@drawable/music_add" android:id="@id/action_add_songs" android:title="@string/my_music_create_playlist" android:showAsAction="ifRoom" />
-    <item android:id="@id/action_playing" android:title="@string/menu_title_playing" android:showAsAction="ifRoom" android:actionLayout="@layout/playing_music_action_view" />
 </menu>

@@ -442,6 +442,7 @@
     <color name="background_white_opaque9">#e6ffffff</color>
     <color name="background_white_opaque5">#80ffffff</color>
     <color name="background_grey">#ffb4b4b4</color>
+    <color name="local_home_count_text_color">#ff898b84</color>
     <color name="list_item_primary_text_color">@android:color/black</color>
     <color name="list_item_secondary_text_color">#ffbcbcbc</color>
     <color name="list_item_count_text_color">#ff747474</color>
@@ -452,10 +453,19 @@
     <color name="text_color_grey2">#ff383838</color>
     <color name="color_white_opaque8">#ccffffff</color>
     <color name="artist_detail_cell_background">#ffe6eaf0</color>
+    <color name="new_player_dark_background">#ff1e1e1e</color>
+    <color name="new_player_light_theme_progress_arc_color">#18000000</color>
+    <color name="new_player_dark_theme_progress_arc_color">#18ffffff</color>
+    <color name="new_player_list_divider_color">#ffc6c7cb</color>
+    <color name="song_item_disable_text_color">#ffc6c7cb</color>
     <color name="artist_region_alphabet_seletor_background">#fff84a5a</color>
     <color name="blank_page_failure_watch_music">#fff84a5a</color>
     <color name="custom_made_item">#ffbcbcbc</color>
     <color name="gray_universal">#ff747474</color>
     <color name="setting_actionbar_menu_text_color">#ff2395ee</color>
     <color name="setting_status_background">#fff6f6f7</color>
+    <color name="status_bar">#ff2a2a2a</color>
+    <color name="status_bar_icon">#ff2a2a2a</color>
+    <color name="status_bar_background">#fff5f5f6</color>
+    <color name="search_query_hint">#ffc6c7cb</color>
 </resources>

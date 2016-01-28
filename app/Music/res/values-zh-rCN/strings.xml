@@ -94,6 +94,7 @@
     <string name="play_performance">玩演出</string>
     <string name="latest_performance">近期演出</string>
     <string name="enable_locate">请开启定位服务！</string>
+    <string name="can_not_find_map">当前没有安装地图应用</string>
     <string name="artist_detail">艺人详情</string>
     <string name="album_description">专辑介绍</string>
     <string name="album_detail">专辑详情</string>
@@ -144,7 +145,22 @@
     <string name="scan_result_new_items">共扫描到%1$d首歌曲</string>
     <string name="scan_result">无新增歌曲，已全部添加至本地音乐</string>
     <string name="complete">完成</string>
+    <string name="order_form_detail">订单信息</string>
+    <string name="price_tail_yuan">元</string>
+    <string name="price_tail_from">起</string>
+    <string name="live_list">直播单</string>
+    <string name="related_artists">相关艺人</string>
+    <string name="review">往期回顾</string>
+    <string name="live_detail">直播详情</string>
+    <string name="related_music">相关音乐</string>
+    <string name="related_video">相关视频</string>
+    <string name="artist">艺人</string>
+    <string name="hot_city">热门城市</string>
+    <string name="order_num_unit">张</string>
     <string name="home_tab_my_music">我的</string>
+    <string name="home_tab_love_show">爱演出</string>
+    <string name="home_tab_love_scence">爱现场</string>
+    <string name="home_tab_love_music">爱音乐</string>
     <string name="home_tab_listen_music">听音乐</string>
     <string name="home_tab_watch_music">看音乐</string>
     <string name="home_tab_live_show">看演出</string>
@@ -232,6 +248,9 @@
     <string name="notification_music_download_action_play">播放</string>
     <string name="notification_music_download_mobile_usage_title">正在使用3G/4G网络，已暂停下载</string>
     <string name="notification_music_download_user_paused">已暂停下载</string>
+    <string name="notification_music_download_user_paused_single_title">暂停下载 %s</string>
+    <string name="notification_music_download_user_paused_multi_title">暂停下载 %1$s 等%2$d首歌曲</string>
+    <string name="notification_music_download_user_paused_content">本次累计成功下载%1$d首，暂停%2$d首</string>
     <string name="media_player_no_lyrics">暂无歌词</string>
     <string name="media_player_search_lyrics">搜词</string>
     <string name="media_player_clean_playlist">清空列表</string>
@@ -242,6 +261,8 @@
     <string name="media_player_check_artist">查看歌手</string>
     <string name="media_player_check_album">查看专辑</string>
     <string name="media_player_share">分享</string>
+    <string name="media_player_night_mode">夜间模式</string>
+    <string name="media_player_day_mode">白天模式</string>
     <string name="media_player_cancel">取消</string>
     <string name="media_player_bookmark_added">已收藏</string>
     <string name="media_player_bookmark_removed">已取消收藏</string>
@@ -349,8 +370,12 @@
     <string name="mobile_network_cost">正在使用移动数据流量，会产生流量费用</string>
     <string name="mobile_network_cost_title">正在使用移动数据流量</string>
     <string name="mobile_network_cost_content">会产生流量费用</string>
+    <string name="mobile_network">正在使用移动数据流量</string>
     <string name="wifi_network">正在使用 WIFI 网络</string>
     <string name="menu_title_sort">排序</string>
+    <string name="mobile_network_deny_by_policy">音乐被禁止使用移动数据</string>
+    <string name="local_music_scan_local_song">扫描本地歌曲</string>
+    <string name="local_music_match_album_and_lyrics">匹配封面和歌词</string>
     <string name="payment_sign">corderid=%1$s&amp;userid=%2$s&amp;companyid=%1$d&amp;%3$s&amp;deptid=%2$d&amp;pid=%3$d</string>
     <string name="transaltion_x">translationX</string>
     <string name="scale_x">scaleX</string>
@@ -407,6 +432,8 @@
     <string name="setting_auto">自动选择</string>
     <string name="text_collects_recommend_title">精选集推荐</string>
     <string name="text_collects_introduce_title">精选集介绍</string>
+    <string name="text_collects_category_all">全部精选集</string>
+    <string name="text_collects_category">精选集分类</string>
     <string name="text_rank_title">排行榜</string>
     <string name="text_radio_title">电台</string>
     <string name="text_radio_category">%1$s电台</string>
@@ -474,6 +501,9 @@
     <string name="free_flow_not_enough_tip">您正在使用非WiFi网络，免费流量即将用完，超出部分将产生流量费用</string>
     <string name="free_flow_no_letv_tip">正在访问非乐视内容，无法享受免流量服务，继续将产生流量费用</string>
     <string name="share_copywriter">分享 %1$s 的 %2$s,分享自#乐视超级手机#</string>
+    <string name="text_perform_service_contact_information">客服电话:4008556694</string>
+    <string name="category_artist">艺人</string>
+    <string name="category_collect">精选集</string>
     <string name="onesong">1 首歌曲</string>
     <string name="scanning">正在扫描 SD 卡...</string>
     <string name="scanning_nosdcard">正在扫描 USB 存储设备...</string>

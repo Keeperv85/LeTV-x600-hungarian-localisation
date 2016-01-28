@@ -33,4 +33,5 @@
     <string name="revert">还原</string>
     <string name="schpwr_shutdown_message">您的设备将于 %s 秒后关机</string>
     <string name="schpwr_shutdown_message_second">您的设备将于 %s 秒后关机</string>
+    <string name="leui_error_short_interval">开关机时间间隔不能小于5分钟</string>
 </resources>

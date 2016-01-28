@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:background="@color/main_content_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.music.widget.StatusBarAndActionBarFillView android:id="@id/head" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <com.android.music.widget.RefreshAndMoreListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:divider="@android:color/transparent" android:dividerHeight="14.0dip" android:layout_below="@id/head" />
+    <com.android.music.widget.RefreshAndMoreListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:divider="@android:color/transparent" android:dividerHeight="14.0dip" />
 </RelativeLayout>

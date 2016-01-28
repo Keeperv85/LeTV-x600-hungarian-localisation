@@ -3,5 +3,4 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:icon="@drawable/ic_sort_icon" android:id="@id/action_sort" android:title="@string/menu_title_sort" android:showAsAction="always" />
     <item android:icon="@drawable/scan_icon" android:id="@id/action_scan_local_res" android:title="@string/scan_add" android:showAsAction="always" />
-    <item android:id="@id/action_playing" android:title="@string/menu_title_playing" android:showAsAction="ifRoom" android:actionLayout="@layout/playing_music_action_view" />
 </menu>

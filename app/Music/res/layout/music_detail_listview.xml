@@ -2,6 +2,6 @@
 <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android">
-    <com.android.music.widget.RefreshAndMoreListView android:id="@id/album_detail_tab_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.android.music.widget.RefreshAndMoreListView android:id="@id/album_detail_tab_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_widget" />
 </RelativeLayout>

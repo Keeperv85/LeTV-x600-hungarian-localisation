@@ -2,7 +2,7 @@
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:leui="http://schemas.android.com/apk/prv/res/android" xmlns:music="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/artist_big_album" android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="192.0dip" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/artist_big_album" android:background="@color/status_bar_background" android:layout_width="fill_parent" android:layout_height="192.0dip" android:scaleType="centerCrop" />
     <View android:id="@id/artist_big_album_corver" android:background="@color/artist_image" android:layout_width="fill_parent" android:layout_height="192.0dip" />
     <com.android.music.widget.DistanceAwareScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">

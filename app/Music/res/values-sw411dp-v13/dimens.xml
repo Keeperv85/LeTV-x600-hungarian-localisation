@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="player_lyrics_margin_top">40.0dip</dimen>
+    <dimen name="player_action_margin_bottom">50.0dip</dimen>
+    <dimen name="player_content_margin_top">35.0dip</dimen>
+    <dimen name="player_album_margin_top">30.0dip</dimen>
+</resources>
