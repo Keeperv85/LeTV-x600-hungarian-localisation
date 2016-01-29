@@ -659,9 +659,7 @@
     <string name="set_wallpaper_success">Set wallpaper successfully</string>
     <string name="shortcut_already_exist">Shortcut already exist</string>
     <string name="pref2_download_log_writer">Write download log</string>
-+    <string name="le_use_current_page_prompt_title">提示信息</string>
-+    <string name="le_use_current_page_prompt_message">窗口数量已达上限,是否使用当前页面打开链接?</string>
-+    <string name="le_use_current_page_prompt_confirm">继续</string>
-
-
+    <string name="le_use_current_page_prompt_title">提示信息</string>
+    <string name="le_use_current_page_prompt_message">窗口数量已达上限,是否使用当前页面打开链接?</string>
+    <string name="le_use_current_page_prompt_confirm">继续</string>
 </resources>
