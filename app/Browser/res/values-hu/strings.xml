@@ -460,7 +460,7 @@
     <string name="pref2_font_size">Betűméret</string>
     <string name="pref2_content_font_size">Betűméret</string>
     <string name="pref2_optimize_title">Intelligens optimalizálás</string>
-    <string name="pref2_preload_most_visisted">Gyakran felkeresettek előttöltése</string>
+    <string name="pref2_preload_most_visisted">Gyakran felkeresettek előtöltése</string>
     <string name="pref2_privacy">Adatvédelem és biztonság</string>
     <string name="pref2_privacy_accept_cookies">Sütik engedélyezése</string>
     <string name="pref2_privacy_enable_geolocation">Helyhozzáférés</string>
@@ -593,7 +593,7 @@
     <string name="notification_download_user_paused">Letöltés szünetel</string>
     <string name="notification_download_mobile_usage_title">Letöltés időtúllépés</string>
     <string name="notification_download_action_resume">Letöltés folytatása</string>
-    <string name="notification_download_finish_single_title">%1$s fájl letölve</string>
+    <string name="notification_download_finish_single_title">%1$s fájl letöltve</string>
     <string name="notification_download_finish_multi_title">%2$d fájl letöltve, tartalmazza %1$s</string>
     <string name="notification_download_finish_content">%d fájl letöltve</string>
     <string name="notification_download_finish_contents">%d fájl letöltve</string>
@@ -614,9 +614,6 @@
     <string name="download_no_memory">Letöltés sikertelen, nincs elegendő memória</string>
     <string name="download_fail_dir">Letöltés sikertelen, érvénytelen mappa</string>
     <string name="download_wifi_no_connect">Wi-fi nincs csatlakoztatva, összes szüneteltetése</string>
-    <string name="title_activity_test_download">TestDownloadActivity</string>
-    <string name="title_activity_test_download_info">TestDownloadInfoActivity</string>
-    <string name="title_activity_test_download_http">ResultsConsoleActivity</string>
     <string name="download_wifi_no_conncet">Wi-Fi kapcsolat megszakadt, minden folyamat szünetel, folytatja adatkapcsolattal?</string>
     <string name="download_wifi_disconnected">Wi-Fi kapcsolat megszakadt, minden folyamat szünetel</string>
     <string name="download_sdcard_no_space">Letöltés sikertelen, nincs szabad hely.</string>
@@ -653,8 +650,6 @@
     <string name="downlaod_test_unit">KB/S</string>
     <string name="download_test_ping_unit">MS</string>
     <string name="download_test_average_speed_text">Átlagsebesség</string>
-    <string name="speedometerServerUrl">https://speedometer.googleplex.com</string>
-    <string name="httpUrlHint">www.google.com</string>
     <string name="set_wallpaper_failed">Háttérkép beállítása sikertelen</string>
     <string name="set_wallpaper_success">Háttérkép sikeresen beállítva</string>
     <string name="shortcut_already_exist">Már létező parancsikon</string>
