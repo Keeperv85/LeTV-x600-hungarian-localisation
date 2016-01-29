@@ -107,12 +107,13 @@
     <string name="uninstall_info_app">\"%1$s\" törlése</string>
     <string name="uninstall_info_warning">Minden adat eltávolításra kerül, ha törli az alkalmazást</string>
     <string name="uninstall_button_cancel">Mégsem</string>
-    <string name="uninstall_button_confirm">Töröl</string>
+    <string name="uninstall_button_confirm">Eltávolítás</string>
     <string name="uninstall_failed">Eltávolítás sikertelen</string>
     <string name="system_tools_folder_name">Eszközök</string>
     <string name="leui_more_app_folder_name">Több alkalmazás</string>
-    <string name="double_app_suffix">(kicsi)</string>
-    <string name="widget_add_hint">Érintse meg, vagy tartsa a modult a befejezéshez</string>
+    <string name="double_app_suffix">(Avatár)</string>
+    <string name="wechat_avatar">WeChat avatár</string>
+    <string name="widget_add_hint">Érintse meg, vagy tartsa a modult a hozzáadáshoz</string>
     <string name="theme_button_text">Témák</string>
     <string name="theme_switching_text">Téma megváltoztatása...</string>
     <string name="theme_change_failed">Téma megváltoztatása sikertelen</string>
@@ -121,7 +122,7 @@
     <string name="icon_layout_button_text">Ikonok rendezése</string>
     <string name="auto_layout_mode_button_text">Automatikus</string>
     <string name="manual_layout_mode_button_text">Egyéni</string>
-    <string name="search_hint">Alkalmazások keresése</string>
+    <string name="search_hint">Alkalmazás neve</string>
     <string name="search_no_result">Nincs találat</string>
     <string name="screen_thumb_dragtip">Húzza ide, hogy másik képernyőre áthelyezze</string>
     <string name="screen_thumb_num">Képernyő %1$d</string>
@@ -131,4 +132,11 @@
     <string name="app_installing">Telepítés</string>
     <string name="pending_shortcut_leauto">LeAuto</string>
     <string name="shortcut_lemi">LeMe Közösség</string>
++    <string name="cmcc_apps_folder_name">CMCC alkalmazások</string>
++    <string name="utility_apps_folder_name">Beállítások</string>
++    <string name="social_apps_folder_name">Közösség</string>
++    <string name="entertainment_apps_folder_name">Kikapcsolódás</string>
++    <string name="business_apps_folder_name">Üzleti</string>
++    <string name="cu_apps_folder_name">Unicom alkalmazások</string>
++    <string name="google_folder_name">Google</string>
 </resources>
