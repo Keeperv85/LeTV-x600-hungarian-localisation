@@ -616,8 +616,8 @@ Próbálja újra %d másodperc múlva."</string>
     <string name="status_bar_recent_memory_info">%1$s a %3$s -ból elérhető</string>
     <string name="status_bar_recent_memory_info_only">%1$s a %3$s -ból elérhető</string>
     <string name="le_recent_guide_btn">Tudom</string>
-    <string name="le_recent_guide_txt">"Drop-down locked,drop-down unlock again
-drop-up clear"</string>
+    <string name="le_recent_guide_txt">"Húzza lefelé a feloldáshoz vagy lezáráshoz
+felfelé a törléshez"</string>
     <string name="accessibility_wifi_signal_connecting">Csatlakozás a Wi-fi-hez</string>
     <string name="accessibility_data_connection_4.5g">4.5G</string>
     <string name="leui_volume_icon_description_alarm">Riasztás</string>
