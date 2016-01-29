@@ -132,11 +132,11 @@
     <string name="app_installing">Telepítés</string>
     <string name="pending_shortcut_leauto">LeAuto</string>
     <string name="shortcut_lemi">LeMe Közösség</string>
-+    <string name="cmcc_apps_folder_name">CMCC alkalmazások</string>
-+    <string name="utility_apps_folder_name">Beállítások</string>
-+    <string name="social_apps_folder_name">Közösség</string>
-+    <string name="entertainment_apps_folder_name">Kikapcsolódás</string>
-+    <string name="business_apps_folder_name">Üzleti</string>
-+    <string name="cu_apps_folder_name">Unicom alkalmazások</string>
-+    <string name="google_folder_name">Google</string>
+    <string name="cmcc_apps_folder_name">CMCC alkalmazások</string>
+    <string name="utility_apps_folder_name">Beállítások</string>
+    <string name="social_apps_folder_name">Közösség</string>
+    <string name="entertainment_apps_folder_name">Kikapcsolódás</string>
+    <string name="business_apps_folder_name">Üzleti</string>
+    <string name="cu_apps_folder_name">Unicom alkalmazások</string>
+    <string name="google_folder_name">Google</string>
 </resources>
