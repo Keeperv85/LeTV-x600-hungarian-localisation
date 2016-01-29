@@ -20,8 +20,8 @@
     </plurals>
     <plurals name="kg_password_wrong_puk_code_leui">
         <item quantity="other">"PUK码输入错误%1$d次
-%2$d次后将锁定SIM卡%d"</item>
+%2$d次后将锁定SIM卡%3$d"</item>
         <item quantity="one">"PUK码输入错误%1$d次
-%2$d次后将锁定SIM卡%d"</item>
+%2$d次后将锁定SIM卡%3$d"</item>
     </plurals>
 </resources>
