@@ -91,7 +91,6 @@
         <item>0.9</item>
         <item>1.0</item>
         <item>1.1</item>
-        <item>1.2</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Very slow</item>
@@ -976,51 +975,51 @@
     </string-array>
     <string-array name="leui_settings_ring_song_id_01">
         <item>Paradise</item>
-        <item>羽·泉</item>
+        <item>Yu Quan</item>
     </string-array>
     <string-array name="leui_settings_ring_song_id_02">
         <item>You Are My Sunshine</item>
-        <item>张靓颖</item>
+        <item>Jane Zhang</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_01">
         <item>Being lazy</item>
-        <item>洛伊_Luoyi</item>
+        <item>Luoyi_Luoyi</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_02">
-        <item>铃声之容嬷嬷</item>
-        <item>怀旧配音联盟小夏</item>
+        <item>Ringtone Rongmomo</item>
+        <item>Xiaoxia from Nostalgic Dubbing Alliance</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_03">
-        <item>沙扬娜拉demo</item>
-        <item>续薪小墨</item>
+        <item>Sayonara demo</item>
+        <item>Xuxinxiaomo</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_04">
-        <item>杀猪刀</item>
-        <item>经纪人赵涛</item>
+        <item>Pig-killing knife</item>
+        <item>Broker Zhao Tao</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_05">
-        <item>孙悟空铃声</item>
+        <item>Monkey King ringtone</item>
         <item>Tomfu</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_06">
-        <item>胭脂泪</item>
-        <item>所以然乐乐乐</item>
+        <item>Rouge tears</item>
+        <item>So happy happy happy</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_07">
-        <item>我的小毛毛</item>
+        <item>My little Maomao</item>
         <item>Melilisa</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_08">
-        <item>笛在月明楼</item>
-        <item>笛在月明楼hc</item>
+        <item>Flute in the Moonlight Mansion</item>
+        <item>Flute in the Moonlight Mansion hc</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_09">
-        <item>kxc开小差</item>
-        <item>柯欣辰</item>
+        <item>kxc AWOL</item>
+        <item>Ke Xinchen</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_10">
-        <item>一帮姑娘</item>
-        <item>庸人自扰</item>
+        <item>A bunch of girls</item>
+        <item>Much Ado About Nothing</item>
     </string-array>
     <string-array name="leui_settings_ring_national_id_11">
         <item>No money no honey</item>

@@ -85,4 +85,6 @@
     <color name="radio_preference_title_unchecked_color_disabled">#80000000</color>
     <color name="bottom_widget">#ffffffff</color>
     <color name="wifi_widget">#ff000000</color>
+    <color name="reset_data_item_divider_bg">#ffd9d9d9</color>
+    <color name="data_reset_list_content">#ff2a2a2a</color>
 </resources>

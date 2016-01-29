@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/data_backup_reduction" android:key="data_backup">
+        <Preference android:icon="@drawable/ic_time_machine" android:layout="@layout/le_preference_normal32" android:title="@string/recycle_bin" android:key="time_preference_t" android:summary="@string/recycle_bin_summary" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.android.settings.accounts.LetvAccountSyncTypeBackup" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/data_sync_server" android:key="checkboxes_preference" />
+</PreferenceScreen>

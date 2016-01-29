@@ -5,4 +5,5 @@
     <PreferenceScreen android:title="@string/leui_useragreement_hk" android:key="leui_useragreement_hk" android:widgetLayout="@layout/leui_widget_arrow" />
     <PreferenceScreen android:title="@string/leui_useragreement_india" android:key="leui_useragreement_india" android:widgetLayout="@layout/leui_widget_arrow" />
     <PreferenceScreen android:title="@string/leui_useragreement_north_america" android:key="leui_useragreement_north_america" android:widgetLayout="@layout/leui_widget_arrow" />
+    <PreferenceScreen android:title="@string/leui_useragreement_thailand" android:key="leui_useragreement_thailand" android:widgetLayout="@layout/leui_widget_arrow" />
 </PreferenceScreen>

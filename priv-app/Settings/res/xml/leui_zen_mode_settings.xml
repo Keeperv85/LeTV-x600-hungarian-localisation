@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/personal_time_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/leui_zenmode_enable_title" android:key="zenmode_enable" />
+    <PreferenceCategory android:title="@string/leui_zenmode_advance_settings_category" android:key="zenmode_advanced_category">
+        <Preference android:layout="@android:layout/le_preference_horizontal" android:title="@string/leui_zenmode_advance_allow_call" android:key="zenmode_allow_calls" android:widgetLayout="@layout/leui_widget_arrow" android:fragment="com.letv.leui.settings.zenmode.LeUIZenModeAllowCallSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/leui_zenmode_timed_category" android:key="zenmode_timed_category" />
+</PreferenceScreen>

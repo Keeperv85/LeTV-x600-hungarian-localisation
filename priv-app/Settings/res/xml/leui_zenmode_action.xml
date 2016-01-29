@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/personal_time_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.letv.leui.preference.LeEditTextPreference android:title="@string/zen_mode_new_name" android:key="leui_zenmode_name" android:inputType="text" />
+    <com.letv.leui.settings.widget.LeUITimePickerPreference android:title="@string/zen_mode_start_time" android:key="leui_zenmode_start_time" />
+    <com.letv.leui.settings.widget.LeUITimePickerPreference android:title="@string/zen_mode_end_time" android:key="leui_zenmode_end_time" />
+    <Preference android:persistent="false" android:title="@string/zen_mode_new_days" android:key="leui_zenmode_days" android:widgetLayout="@android:layout/le_preference_widget_arrow" />
+</PreferenceScreen>

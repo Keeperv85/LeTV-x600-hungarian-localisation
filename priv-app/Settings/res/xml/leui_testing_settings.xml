@@ -2,7 +2,7 @@
 <PreferenceScreen android:title="@string/testing"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="leui_zen_mode_test" android:fragment="com.android.settings.notification.ZenModeSettings" settings:keywords="@string/keywords_sounds_and_notifications_interruptions" />
+    <Preference android:title="@string/personal_time_settings" android:key="leui_zen_mode_test" android:fragment="com.letv.leui.settings.zenmode.LeUIZenModeSettings" />
     <SwitchPreference android:persistent="false" android:title="@string/leui_timealign_twilight" android:key="leui_key_timealign_twilight_enable" />
     <SwitchPreference android:persistent="false" android:title="@string/leui_sys_display_string" android:key="leui_sys_display_string" />
 </PreferenceScreen>

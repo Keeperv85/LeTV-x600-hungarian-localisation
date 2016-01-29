@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <include layout="@layout/search_action_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.letv.leui.widget.LeListView android:id="@id/le_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/search_masker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="#88000000" />
+        <com.letv.leui.widget.LeBlankPage android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.letv.leui.widget.LeBottomWidget android:orientation="horizontal" android:id="@id/bottom_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

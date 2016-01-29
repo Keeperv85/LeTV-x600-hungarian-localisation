@@ -28,7 +28,7 @@
         <dashboard-tile leui:icon="@drawable/ic_settings_controlcenter_svg" leui:id="@id/leui_controlcenter_settings" leui:title="@string/control_center_settings">
             <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.controlcenter.settings.LeControlCenterSettingActivity" />
         </dashboard-tile>
-        <dashboard-tile leui:icon="@drawable/ic_settings_personal" leui:id="@id/leui_personal_time_settings" leui:title="@string/personal_time_settings" leui:fragment="com.android.settings.notification.ZenModeSettings" />
+        <dashboard-tile leui:icon="@drawable/ic_settings_personal" leui:id="@id/leui_personal_time_settings" leui:title="@string/personal_time_settings" leui:fragment="com.letv.leui.settings.zenmode.LeUIZenModeSettings" />
     </dashboard-category>
     <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_personal">
         <dashboard-tile leui:icon="@drawable/ic_settings_letv_ecosystem_svg" leui:id="@id/leui_ecosystem_settings" leui:title="@string/leui_ecosystem_settings_title" leui:summary="@string/leui_ecosystem_settings_summary" />

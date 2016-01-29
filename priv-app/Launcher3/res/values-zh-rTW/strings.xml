@@ -18,7 +18,7 @@
     <string name="group_shortcuts">捷徑</string>
     <string name="group_widgets">小工具</string>
     <string name="completely_out_of_space">主螢幕已無空間。</string>
-    <string name="out_of_space">此螢幕空間不足</string>
+    <string name="out_of_space">此螢幕空間不足。</string>
     <string name="hotseat_out_of_space">我的最愛已滿</string>
     <string name="all_apps_button_label">應用程式</string>
     <string name="all_apps_home_button_label">主螢幕</string>
@@ -52,7 +52,7 @@
     <string name="folder_tap_to_close">輕觸即可關閉資料夾</string>
     <string name="folder_tap_to_rename">輕觸即可儲存新名稱</string>
     <string name="folder_closed">資料夾已關閉</string>
-    <string name="folder_renamed">已將資料夾重新命名為「%1$s」</string>
+    <string name="folder_renamed">已將資料夾重新命名為“%1$s”</string>
     <string name="folder_name_format">資料夾：%1$s</string>
     <string name="widget_button_text">Widget</string>
     <string name="wallpaper_button_text">桌布</string>
@@ -77,18 +77,19 @@
     <string name="uninstall_info_warning">移除後其中的所有資料也將一併刪除</string>
     <string name="uninstall_button_cancel">取消</string>
     <string name="uninstall_button_confirm">移除</string>
-    <string name="uninstall_failed">卸载失败</string>
     <string name="system_tools_folder_name">系統工具</string>
-    <string name="leui_more_app_folder_name">更多应用</string>
+    <string name="leui_more_app_folder_name">更多應用</string>
+    <string name="double_app_suffix">(小號)</string>
+    <string name="wechat_avatar">微信小號</string>
     <string name="widget_add_hint">點擊或按住 Widget 即可完成新增</string>
     <string name="theme_button_text">主題</string>
     <string name="theme_switching_text">正在更換主題...</string>
     <string name="theme_change_failed">主題更換失敗</string>
     <string name="wallpaper_change_failed">桌布更換失敗</string>
     <string name="more_wallpaper">更多桌布</string>
-    <string name="icon_layout_button_text">排列图标</string>
-    <string name="auto_layout_mode_button_text">自动排列</string>
-    <string name="manual_layout_mode_button_text">手动排列</string>
+    <string name="icon_layout_button_text">排列圖示</string>
+    <string name="auto_layout_mode_button_text">自動排列</string>
+    <string name="manual_layout_mode_button_text">手動排列</string>
     <string name="search_hint">搜尋桌面應用程式</string>
     <string name="search_no_result">未搜尋到對應結果</string>
     <string name="screen_thumb_dragtip">拖曳到此處可跨螢幕移動</string>
@@ -99,6 +100,11 @@
     <string name="app_installing">安裝中</string>
     <string name="pending_shortcut_leauto">樂視車聯</string>
     <string name="shortcut_lemi">樂迷社群</string>
+    <string name="cmcc_apps_folder_name">中國移動應用程式</string>
+    <string name="utility_apps_folder_name">實用工具</string>
+    <string name="social_apps_folder_name">社交生活</string>
+    <string name="entertainment_apps_folder_name">休閒娛樂</string>
+    <string name="business_apps_folder_name">辦公商務</string>
     <string name="home">主螢幕</string>
     <string name="uid_name">Android 核心應用程式</string>
     <string name="widgets_tab_label">小工具</string>
@@ -132,4 +138,5 @@
     <item type="string" name="APKTOOL_DUMMY_0068">false</item>
     <item type="string" name="APKTOOL_DUMMY_008d">false</item>
     <item type="string" name="APKTOOL_DUMMY_008e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b1">false</item>
 </resources>

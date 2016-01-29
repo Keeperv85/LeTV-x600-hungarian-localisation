@@ -523,6 +523,54 @@
         <item>30分钟</item>
         <item>永不</item>
     </string-array>
+    <string-array name="leui_settings_ring_song_id_01">
+        <item>Paradise</item>
+        <item>羽·泉</item>
+    </string-array>
+    <string-array name="leui_settings_ring_song_id_02">
+        <item>You Are My Sunshine</item>
+        <item>张靓颖</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_01">
+        <item>Being lazy</item>
+        <item>洛伊_Luoyi</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_02">
+        <item>铃声之容嬷嬷</item>
+        <item>怀旧配音联盟小夏</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_03">
+        <item>沙扬娜拉demo</item>
+        <item>续薪小墨</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_04">
+        <item>杀猪刀</item>
+        <item>经纪人赵涛</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_05">
+        <item>孙悟空铃声</item>
+        <item>Tomfu</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_06">
+        <item>胭脂泪</item>
+        <item>所以然乐乐乐</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_07">
+        <item>我的小毛毛</item>
+        <item>Melilisa</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_08">
+        <item>笛在月明楼</item>
+        <item>笛在月明楼hc</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_09">
+        <item>kxc开小差</item>
+        <item>柯欣辰</item>
+    </string-array>
+    <string-array name="leui_settings_ring_national_id_10">
+        <item>一帮姑娘</item>
+        <item>庸人自扰</item>
+    </string-array>
     <string-array name="sim_slot">
         <item>(未指定)</item>
         <item>SIM 卡槽 1</item>

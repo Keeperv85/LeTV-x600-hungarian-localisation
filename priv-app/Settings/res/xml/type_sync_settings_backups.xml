@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/data_type_recovery_title" android:key="type_sync" />
+    <PreferenceScreen android:title="@string/contacts_settings" android:key="contact" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:fragment="com.android.settings.accounts.DataPickFragment">
+        <extra android:name="restore_data_type" android:value="contact" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/note" android:key="note" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:fragment="com.android.settings.accounts.DataPickFragment">
+        <extra android:name="restore_data_type" android:value="note" />
+    </PreferenceScreen>
+</PreferenceScreen>

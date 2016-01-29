@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" coreApp="true" package="com.android.settings" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-21">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" coreApp="true" package="com.android.settings" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-22">
     <original-package android:name="com.android.settings"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -71,6 +71,8 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>//caomengmeng@letv.com for finger settings
 <uses-permission android:name="android.permission.ENROLL_FINGERPRINT"/>//caomengmeng@letv.com for finger settings
 <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>//caomengmeng@letv.com for finger settings
+<uses-permission android:name="android.permission.INTERNET"/>//caomengmeng@letv.com for Privacy Policy
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>//caomengmeng@letv.com for Privacy Policy
 <uses-permission android:name="com.letv.android.ota.permission.OTA_SUBSCRIPT"/>
     <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_settings" android:label="@string/settings_label" android:requiredForAllUsers="true" android:supportsRtl="true" android:taskAffinity="" android:theme="@style/Theme.Settings">
         <activity android:label="@string/settings_label_launcher" android:launchMode="singleTask" android:name="com.letv.leui.settings.LeUIMainSettings" android:screenOrientation="portrait" android:taskAffinity="com.android.settings" android:theme="@style/Theme.LeUIMainSettings" android:windowSoftInputMode="adjustResize">
@@ -121,6 +123,10 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.VOICE_LAUNCH"/>
                 <category android:name="com.android.settings.SHORTCUT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.wifi_settings"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.wifi.WifiSettings"/>
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID" android:resource="@id/wifi_settings"/>
@@ -215,6 +221,7 @@
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.ApnSettings"/>
         </activity>
+        <activity android:name=".SubSettings$BackupSubSettings" android:parentActivityName="Settings" android:screenOrientation="portrait" android:taskAffinity="com.android.settings" android:theme="@style/Theme.SyncSettings"/>
         <activity android:label="@string/bluetooth_settings_title" android:name="Settings$BluetoothSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -379,13 +386,13 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.UserDictionarySettings"/>
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID" android:resource="@id/language_settings"/>
         </activity-alias>
-        <activity android:exported="true" android:label="@string/zen_mode_settings_title" android:name="Settings$ZenModeSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="">
+        <activity android:exported="true" android:label="@string/leui_zenmode_enable_title" android:name="Settings$ZenModeSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.settings.ZEN_MODE_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.notification.ZenModeSettings"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.letv.leui.settings.zenmode.LeUIZenModeSettings"/>
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID" android:resource="@id/notification_settings"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
         </activity>
@@ -1433,13 +1440,22 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.letv.leui.settings.fingerprint.LeUIFingerPrintActonNewFragment"/>
         </activity>
-        <activity android:label="@string/letv_cloud_settings" android:name="Settings$LeUIAccountSyncActivity" android:parentActivityName="Settings" android:screenOrientation="portrait" android:taskAffinity="">
+        <activity android:label="@string/letv_cloud_settings" android:name="Settings$LeUIAccountSyncActivity" android:parentActivityName="Settings" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/Theme.SyncSettings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.settings.LEUI_SYNC_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.accounts.LetvAccountSettings"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
+        </activity>
+        <activity android:label="@string/letv_cloud_settings" android:name="Settings$LeUIAccountSyncRecoveryActivity" android:parentActivityName="Settings" android:screenOrientation="portrait" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.settings.LEUI_SYNC_RECOVERY_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.accounts.LetvAccountSyncTypeBackup"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true"/>
         </activity>
         <activity android:label="@string/battery_timealign" android:name="Settings$LeUITimeAlignSettingsActivity" android:parentActivityName="Settings" android:screenOrientation="portrait" android:taskAffinity="com.android.settings">
@@ -1497,6 +1513,11 @@
         <receiver android:name="com.letv.leui.settings.LeUISuperManagerReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.SUPER_MANAGER_FLOW_SETTINGS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.settings.wifi.BluetoothStateReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.pan.profile.action.CONNECTION_STATE_CHANGED"/>
             </intent-filter>
         </receiver>
     </application>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="setup_wizard_navbar_button_drawable_padding">6.0dip</dimen>
+    <dimen name="setup_wizard_navbar_button_padding_sides">10.0dip</dimen>
+    <dimen name="setup_wizard_navbar_height">56.0dip</dimen>
+    <dimen name="setup_wizard_navbar_ic_intrinsic_size">24.0dip</dimen>
+    <dimen name="setup_wizard_navbar_padding_sides">24.0dip</dimen>
+    <dimen name="setup_wizard_navbar_text_size">16.0sp</dimen>
     <dimen name="panel_footer_text_size">20.0sp</dimen>
     <dimen name="panel_footer_height">72.0dip</dimen>
     <dimen name="device_memory_usage_button_width">16.0dip</dimen>
@@ -127,4 +133,5 @@
     <dimen name="lockscreen_preview_layout_paddings">8.0dip</dimen>
     <dimen name="oobe_setup_title_size">25.0sp</dimen>
     <dimen name="qrcode_image_size">156.0dip</dimen>
+    <dimen name="account_letv_reset_list_item_padding">16.0dip</dimen>
 </resources>
