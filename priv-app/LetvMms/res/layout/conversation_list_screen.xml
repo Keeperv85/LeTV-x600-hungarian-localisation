@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/conv_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <com.letv.leui.widget.LeListView android:scrollbarStyle="insideOverlay" android:id="@android:id/list" android:fadingEdgeLength="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/white" android:divider="@color/main_color_grey" android:dividerHeight="1.0px" android:layout_above="@id/linear_bottom_action" android:layout_below="@id/view_driver" android:fastScrollEnabled="false" android:leSwipeMode="both" android:leSwipeActionLeft="reveal" android:leSwipeActionRight="swipeSwitch" android:leSwipeOffsetLeft="58.0dip" android:leSwipeOffsetRight="58.0dip" android:leSwipeRightSwitchLine="116.0dip" android:leSwipeAnimationTime="250" android:leSwipeCloseAllItemsWhenMoveList="true" android:leSwipeFrontView="@id/front" android:leSwipeBackView="@id/back" android:leListViewMode="leSwipe" style="?android:attr/listViewWhiteStyle" />
+    <View android:id="@id/view_driver" android:background="@color/main_color_grey" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/banner_sms_promo" />
+    <com.letv.leui.widget.LeBlankPage android:icon="@android:drawable/le_blank_page_no_msg" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:message="@string/loading_conversations" />
+    <include layout="@layout/banner_sms_promo" />
+    <LinearLayout android:id="@id/linear_bottom_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.letv.leui.widget.LeBottomWidget android:id="@id/bottom_action" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/leui_top_slide_content" />
+</RelativeLayout>

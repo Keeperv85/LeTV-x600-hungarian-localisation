@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_screen_remind_and_notify" android:key="pref_key_remind_and_notify">
+        <SwitchPreference android:title="@string/pref_title_enable_preview_content" android:key="pref_key_enable_preview_content" android:summary="@string/pref_summary_enable_preview_content" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/pref_title_light_screen" android:key="pref_key_light_screen" android:summary="@string/pref_summary_light_screen" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_title_mms_auto_change_screen" android:key="pref_key_mms_auto_change_screen" android:defaultValue="false" />
+        <Preference android:title="@string/pref_title_sms_delivery_report" android:key="pref_key_sms_delivery_reports" android:summary="@string/pref_summary_sms_delivery_report" android:widgetLayout="@android:layout/le_preference_widget_arrow" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_display" android:key="pref_key_sms_settings">
+        <SwitchPreference android:title="@string/pref_title_show_recent_contact" android:key="pref_key_show_recent_contact" android:summary="@string/pref_summary_show_recent_contact" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/pref_title_spam_msg_block" android:key="pref_key_spam_msg_block" android:summary="@string/pref_summary_spam_msg_block" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/pref_title_intelligent_msg" android:key="pref_key_intelligent_msg" android:summary="@string/pref_summary_intelligent_msg" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_others_settings" android:key="pref_key_others_settings">
+        <PreferenceScreen android:persistent="false" android:title="@string/black_list_manager" android:key="button_black_list_manager_key" android:widgetLayout="@android:layout/le_preference_widget_arrow">
+            <intent android:action="android.intent.action.VIEW_BLACK_LIST_SMS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/pref_title_msg_senior_settings" android:key="button_senior_manager_key" android:widgetLayout="@android:layout/le_preference_widget_arrow">
+            <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.letv.leui.mms.act.LeUiMessagingPreferenceSeniorActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

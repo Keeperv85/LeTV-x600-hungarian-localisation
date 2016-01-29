@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/slideView_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <View android:id="@id/slideView_bg" android:background="@color/cover_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.letv.leui.widget.LimitedHeightLinearLayout android:orientation="vertical" android:id="@id/slideView" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:linearLayoutMaxHeight="330.0dip">
+        <ListView android:id="@id/slide_listview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+    </com.letv.leui.widget.LimitedHeightLinearLayout>
+</FrameLayout>
