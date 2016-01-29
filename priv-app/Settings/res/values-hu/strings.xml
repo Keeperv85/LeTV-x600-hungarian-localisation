@@ -2747,7 +2747,7 @@ Ez segít megóvni adatait, ha ellopják eszközét."</string>
     <string name="finger_enroll">Ujjlenyomat regisztrálása</string>
     <string name="finger_enroll_comming">Ujjlenyomat szélének regisztrálása</string>
     <string name="finger_enroll_info">Az ujját helyezze a készülék hátlapján található ujjlenyomat olvasóra, amikor rezgést érez, érintse meg újra a leolvasót</string>
-    <string name="finger_enroll_success">Ujjlenyomat sikeresen regisztrálva</string>
+    <string name="finger_enroll_success">Ujjlenyomat sikeresen hozzáadva</string>
     <string name="finger_esit">Ez az ujjlenyomat már létezik, kérem regisztráljon másik ujjat</string>
     <string name="esit">esit</string>
     <string name="finger_name_empty">A név nem lehet üres</string>
@@ -3001,7 +3001,7 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="leui_color_mode_changed_title">Színmód kiválasztása</string>
     <string name="leui_securitysettings_single_hand_lockscreen_title">Egykezes zárolási képernyő</string>
     <string name="leui_securitysettings_single_hand_lockscreen_summary">Mutassa a zárolási képernyőt a gravitációs szenzor adatai alapján</string>
-    <string name="leui_empty_acitivity_settings_dsc">Üres!!!</string>
+    <string name="leui_empty_acitivity_settings_dsc">Nincsenek alkalmazásbeállítások</string>
     <string name="leui_notification_app_priority_important">Prioritás</string>
     <string name="leui_notification_app_priority_normal">Normal</string>
     <string name="leui_notification_include">Magában foglal</string>
@@ -3054,7 +3054,7 @@ a rendszer letiltja az adathasználatot"</string>
     <string name="leui_incall_settings">Bejövő hívás</string>
     <string name="leui_ota_update_flag">Új frissítés!!!</string>
     <string name="leui_file_cleanup_category">Terület felszabadítása</string>
-    <string name="leui_large_file_cleanup">Nagy fájlok</string>
+    <string name="leui_large_file_cleanup">Nagy fájlok takarítása</string>
     <string name="leui_large_file_cleanup_summary">Ellenőrizheti, majd takaríthatja a fájljait</string>
     <string name="leui_anti_inadvertently_title">Zseb mód</string>
     <string name="leui_anti_inadvertently_summary">Megakadályozza a szükségtelen műveleteket, míg a készülék a zsebében van</string>
@@ -3130,7 +3130,7 @@ http://xpage.g.scloud.letv.com/web/agree"</string>
     <string name="leui_telecontroller_text">Távirányító</string>
     <string name="leui_voiceassistant_text">Hang-asszisztens</string>
     <string name="leui_superseatch_text">PanoSearch</string>
-    <string name="leui_master_clear_low_battery_warning_title">A töltöttség 20% alatt van. Kérem töltse fel, majd utána próbálja a gyári beállítások visszaállítását.</string>
+    <string name="leui_master_clear_low_battery_warning_title">Alacsony akkutöltöttség.</string>
     <string name="leui_longpress_virtualkey_recent_title">Menü</string>
     <string name="leui_longpress_virtualkey_recent_system_default_title">Rendszer alapértelmezett</string>
     <string name="leui_longpress_virtualkey_recent_system_default_summary">Az alapértelmezett funkció a menü</string>
