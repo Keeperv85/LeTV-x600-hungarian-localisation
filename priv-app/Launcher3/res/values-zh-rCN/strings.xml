@@ -77,10 +77,9 @@
     <string name="uninstall_info_warning">卸载后其所有数据也将被删除</string>
     <string name="uninstall_button_cancel">取消</string>
     <string name="uninstall_button_confirm">卸载</string>
+    <string name="uninstall_failed">卸载失败</string>
     <string name="system_tools_folder_name">系统工具</string>
     <string name="leui_more_app_folder_name">更多应用</string>
-    <string name="double_app_suffix">(小号)</string>
-    <string name="wechat_avatar">微信小号</string>
     <string name="widget_add_hint">点击或按住小部件来完成添加</string>
     <string name="theme_button_text">主题</string>
     <string name="theme_switching_text">正在更换主题...</string>
@@ -100,11 +99,6 @@
     <string name="app_installing">安装中</string>
     <string name="pending_shortcut_leauto">乐视车联</string>
     <string name="shortcut_lemi">乐迷社区</string>
-    <string name="cmcc_apps_folder_name">移动应用</string>
-    <string name="utility_apps_folder_name">实用工具</string>
-    <string name="social_apps_folder_name">社交生活</string>
-    <string name="entertainment_apps_folder_name">休闲娱乐</string>
-    <string name="business_apps_folder_name">办公商务</string>
     <string name="home">主屏</string>
     <string name="uid_name">Android 核心应用</string>
     <string name="widgets_tab_label">小部件</string>

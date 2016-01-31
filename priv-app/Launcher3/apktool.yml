@@ -11,7 +11,7 @@ packageInfo:
   forced-package-id: '127'
 versionInfo:
   versionCode: '55'
-  versionName: 5.0.2-22
+  versionName: 5.0.2-10
 sharedLibrary: false
 unknownFiles:
   com/j256/ormlite/android/LICENSE.txt: '8'

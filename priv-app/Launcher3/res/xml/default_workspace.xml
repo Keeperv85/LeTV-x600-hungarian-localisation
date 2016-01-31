@@ -27,5 +27,15 @@
         <favorite launcher:packageName="com.android.providers.downloads.ui" />
         <favorite launcher:packageName="com.letv.android.compass" />
     </folder>
+    <folder launcher:screen="1" launcher:x="4" launcher:y="4" launcher:title="@string/system_tools_folder_name">
+        <favorite launcher:packageName="com.android.videoplayer" />
+        <favorite launcher:packageName="com.android.email" />
+        <favorite launcher:packageName="com.android.calculator2" />
+        <favorite launcher:className="com.android.dialer.allContactsActivity" launcher:packageName="com.android.dialer" />
+        <favorite launcher:packageName="com.letv.android.recorder" />
+        <favorite launcher:packageName="com.android.stk" />
+        <favorite launcher:packageName="com.android.providers.downloads.ui" />
+        <favorite launcher:packageName="com.letv.android.compass" />
+    </folder>
     <include workspace="@xml/leui_more_app" />
 </favorites>

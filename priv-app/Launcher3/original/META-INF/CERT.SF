@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: 3ofqL1mMCF7Bsz2SAKlHWEgho2g=
+SHA1-Digest-Manifest: lk8WGrPJfapEIcqS8VPrxRgYFgg=
 
 Name: res/xml/default_workspace_5x6.xml
 SHA1-Digest-Manifest: e/jniEcyt+wciHsRUiJmCtD6+dA=
@@ -36,7 +36,7 @@ Name: res/drawable-xhdpi-v4/ic_pageindicator_default.png
 SHA1-Digest-Manifest: +XYrn0Fnns7IgMYI+iE/21sICbQ=
 
 Name: res/layout/screen_thumbs_container.xml
-SHA1-Digest-Manifest: EgSA/9/jDS8dqnKdUu97Ujdsh7s=
+SHA1-Digest-Manifest: vM9ROn+WT6HKlagNC6bYvjU1Guk=
 
 Name: res/drawable-xxxhdpi-v4/portal_ring_rest.png
 SHA1-Digest-Manifest: VeVxkb1Cl77aCj8fguKvsCaQ43s=
@@ -63,7 +63,7 @@ Name: res/drawable-xxhdpi-v4/weibo_icon.png
 SHA1-Digest-Manifest: BUo3q92mQsS2hFPkQZ99WPGghvA=
 
 Name: res/layout/widgets_view.xml
-SHA1-Digest-Manifest: vfm1TERorc+quyx3cik1JwXR57w=
+SHA1-Digest-Manifest: EsxgjrdG+mg5ZTA997IzYI8Yi3E=
 
 Name: res/drawable-sw720dp-xhdpi-v13/workspace_bg.9.png
 SHA1-Digest-Manifest: 99sf6apDT5DimzgXlKbGjm0QxjU=
@@ -135,7 +135,7 @@ Name: res/drawable-mdpi-v4/ic_launcher_clear_normal_holo.png
 SHA1-Digest-Manifest: RdQIE5fGpAAHVSp4X/RFH0LElmA=
 
 Name: res/layout/longpress_cling_content.xml
-SHA1-Digest-Manifest: b9DW0N76PjoZzItQo3C8ZYKKDGU=
+SHA1-Digest-Manifest: kjuTEwbEqRa5Vz+04us7g0ickos=
 
 Name: com/j256/ormlite/core/LICENSE.txt
 SHA1-Digest-Manifest: FTT70/61vafAmQeoUM3zS/13HHY=
@@ -318,7 +318,7 @@ Name: res/drawable-xxhdpi-v4/workspace_bg.9.png
 SHA1-Digest-Manifest: Ljsz08NM4SfKjgVm9En98WPzb1U=
 
 Name: res/drawable/page_indicator_space.xml
-SHA1-Digest-Manifest: RQKrOaxtb746ICbGvZjSn0HWaNw=
+SHA1-Digest-Manifest: kIVZr87+KjklX6YzZqn0DmKJEOc=
 
 Name: com/j256/ormlite/core/README.txt
 SHA1-Digest-Manifest: FO0PGNY9+RZ35qAoc/g+dreIzwo=
@@ -333,7 +333,7 @@ Name: res/drawable-xxhdpi-v4/ic_wallpaper.png
 SHA1-Digest-Manifest: je7xzb+w096iza1/XJgFi4AIrS4=
 
 Name: res/drawable/uninstall_button_cancel_bg_pressed.xml
-SHA1-Digest-Manifest: aUNKLFrDOX+rC2+vaSZh1y0Jf3c=
+SHA1-Digest-Manifest: BaIYlbywu28X3Ia+UCMl6Vw8mvM=
 
 Name: res/drawable-hdpi-v4/ic_pageindicator_current_folder.png
 SHA1-Digest-Manifest: LNc7FpTLb9WQu5su3+FOTbKkiZs=
@@ -360,7 +360,7 @@ Name: res/mipmap-xxhdpi-v4/ic_launcher_home.png
 SHA1-Digest-Manifest: NoEI8sgqiJ9vrWWYXlGWw7c6qmQ=
 
 Name: res/layout/wallpaper_container_layout.xml
-SHA1-Digest-Manifest: jiC7xBubymT6mwUWj5/XmCE8cSw=
+SHA1-Digest-Manifest: MumQyAUvVVODlr4G8IioRgeHBf4=
 
 Name: res/drawable-xhdpi-v4/ic_launcher_trashcan_active_holo.png
 SHA1-Digest-Manifest: LUULy3Yd5n+Z+PZuElE1WYO16uM=
@@ -453,7 +453,7 @@ Name: res/drawable-mdpi-v4/ic_search_grey.png
 SHA1-Digest-Manifest: IlU65JnyapD5iOE+8MZrh6t6DtM=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: XbsCswsiFuBSW7uwNl+xI41BwXI=
+SHA1-Digest-Manifest: y47nBRJGvKbx2KZr/EACS1QP05E=
 
 Name: res/drawable-mdpi-v4/ic_setting.png
 SHA1-Digest-Manifest: A4mBkeE1s5DLPDKXENP2mNHrGMM=
@@ -480,10 +480,10 @@ Name: res/drawable-xxhdpi-v4/ic_pageindicator_current.png
 SHA1-Digest-Manifest: BS6NcGh99mYcYYmpzbXQXECGMCg=
 
 Name: classes.dex
-SHA1-Digest-Manifest: aKckGoyAFEYNKaMl27EA7Aa+6Rs=
+SHA1-Digest-Manifest: HFnuzQPPwcGZjGi1iMAyO96pz3U=
 
 Name: res/drawable/wallpaper_and_theme_item_text_background.xml
-SHA1-Digest-Manifest: pvsYggGe9n9/na3S1MEGkChETHg=
+SHA1-Digest-Manifest: IYiTtrQXx9bdHeLnMa+Gy/QhKLg=
 
 Name: res/drawable-xhdpi-v4/widget_resize_shadow.9.png
 SHA1-Digest-Manifest: BamNXZcPDtv7TkJsCexoE4lygOM=
@@ -510,7 +510,7 @@ Name: res/drawable-mdpi-v4/portal_ring_outer.png
 SHA1-Digest-Manifest: RonNbfyyEGCru+IrWFvpD3ve23U=
 
 Name: res/layout/theme_animation_layout.xml
-SHA1-Digest-Manifest: u/8Ram8Tw8eGS2BjEYodvdPNeik=
+SHA1-Digest-Manifest: WY05RRSBNOktsUwIcpn9rAlV3oM=
 
 Name: res/drawable-xxhdpi-v4/frame_line.9.png
 SHA1-Digest-Manifest: DC1vJZcTN0WYiotkFbGwrn7dIF8=
@@ -537,7 +537,7 @@ Name: res/drawable-xxhdpi-v4/theme_animation_triangle.png
 SHA1-Digest-Manifest: bgGYUg8z90a0le8Cj+zM4E01Vyo=
 
 Name: res/layout/workspace_screen.xml
-SHA1-Digest-Manifest: z+L4XjwEIAeiLVAQXcmrgKYfOWI=
+SHA1-Digest-Manifest: gQF/m6uL3mvXB0gIU7+SD8IU8hU=
 
 Name: res/drawable-hdpi-v4/ic_arrow_back_grey.png
 SHA1-Digest-Manifest: gIDhlBQMlF0u72QustF22jwe0/Q=
@@ -651,7 +651,7 @@ Name: res/drawable-xxhdpi-v4/control_hide_button_on.png
 SHA1-Digest-Manifest: UOn+DWvvpkO/trSeswZknUUT5Sc=
 
 Name: res/drawable/not_open_prompt_icon.xml
-SHA1-Digest-Manifest: WiN+jXSGFtxX6NNncxZJwl4qnUY=
+SHA1-Digest-Manifest: Fc8Usvl7u5mmd/1erAPH/PTYoMA=
 
 Name: res/drawable-hdpi-v4/ic_setting.png
 SHA1-Digest-Manifest: ze/N9KXdblRAbGyiAIMz4QTfTMY=
@@ -669,7 +669,7 @@ Name: com/j256/ormlite/android/LICENSE.txt
 SHA1-Digest-Manifest: Wu9Ike+LU2dVfkzL9jrlXy7/hSk=
 
 Name: res/layout/search_drop_target_bar.xml
-SHA1-Digest-Manifest: AC/cXS+eGSgDeB2CayTEaY8Es5o=
+SHA1-Digest-Manifest: 43FN67FuBoBc8A1RXjI98JpA3kY=
 
 Name: res/drawable-xxhdpi-v4/ic_widget_black.png
 SHA1-Digest-Manifest: HoGs4V9VciCYDnxSQpejIH6oCYQ=
@@ -681,7 +681,7 @@ Name: res/drawable-xxhdpi-v4/le_auto_shortcut.png
 SHA1-Digest-Manifest: F3NleVl83C2rPDWcEy9eKsoG3PI=
 
 Name: res/layout/app_search_view_ex.xml
-SHA1-Digest-Manifest: YLKcCwRQyNrz6sJrfge76h3E8ac=
+SHA1-Digest-Manifest: S6HjL2hU8k5MRa924drOvQNL7yc=
 
 Name: res/drawable-mdpi-v4/ic_pageindicator_default_folder.png
 SHA1-Digest-Manifest: l5OBPEUI7lQsBc8Ypro1OD0Syo8=
@@ -750,10 +750,10 @@ Name: res/drawable-xxxhdpi-v4/superscript_bubble_normal.png
 SHA1-Digest-Manifest: c3VKZRAZtGcaeRqWHPXo1/zE5Do=
 
 Name: res/layout/le_search_drop_target_bar.xml
-SHA1-Digest-Manifest: yueLC9wr07irJg2+ZYOe2p6I1bY=
+SHA1-Digest-Manifest: A9/OFddwvXEEdliRwPIsIlajx1g=
 
 Name: res/drawable/wallpaper_and_theme_item_selected_mark.xml
-SHA1-Digest-Manifest: A96qkR/R05f/XKKBc/Jq7JaKq7o=
+SHA1-Digest-Manifest: EaA5pMVR6y2M3z3xikf2ptrrYvw=
 
 Name: res/drawable-xhdpi-v4/ic_pageindicator_default_folder.png
 SHA1-Digest-Manifest: Hn/noZVrds0rOzKoAs+GJdPyYhg=
@@ -765,7 +765,7 @@ Name: res/drawable-xxhdpi-v4/ic_launcher_info_active_holo.png
 SHA1-Digest-Manifest: NSXIkcVT5txZVLBlPEaPZCYVW8k=
 
 Name: res/layout/widget_preview_container.xml
-SHA1-Digest-Manifest: l0JmXk1d+h9To5h2FPE/DMXF6Rg=
+SHA1-Digest-Manifest: wrRVHbIE1lfmzIocG49jsQ1NM8Y=
 
 Name: res/drawable-hdpi-v4/cling_bg.9.png
 SHA1-Digest-Manifest: RlsQc1XaKdsjenKbwvHiXgp+Goo=
@@ -789,7 +789,7 @@ Name: res/drawable-xhdpi-v4/ic_allapps.png
 SHA1-Digest-Manifest: BeHtQW8yzJp3YrBpo7MjBK9b1Cg=
 
 Name: res/layout/wallpaper_and_theme_item_layout.xml
-SHA1-Digest-Manifest: Bg195hAzInW6Z/ByNx9XChlT0rk=
+SHA1-Digest-Manifest: UdcYQdyBsAePsleKbCcWcRDBc7I=
 
 Name: res/drawable-xxhdpi-v4/confirm_panel_normal.9.png
 SHA1-Digest-Manifest: HzT0EpUqcuZ6ssDIDgOMR3V9LBg=
@@ -825,7 +825,7 @@ Name: res/drawable-xxxhdpi-v4/ic_arrow_back_grey.png
 SHA1-Digest-Manifest: ep5fdKemGSBWhu67HLsymOWoZ0Q=
 
 Name: res/layout-land/migration_cling.xml
-SHA1-Digest-Manifest: D+29PJtQdTLlV4YAMu1ecg/3Zjg=
+SHA1-Digest-Manifest: rrZhWIRlAOf1p0PMVxEz/+00Ano=
 
 Name: res/drawable-xxhdpi-v4/ic_pageindicator_add_video.png
 SHA1-Digest-Manifest: QADYfQgG8yX38XfM+hyafzozCUs=
@@ -858,7 +858,7 @@ Name: res/drawable-xxhdpi-v4/ic_wallpaper_black_pressed.png
 SHA1-Digest-Manifest: kA5irgTRCIrIX5SEStcMkv3l/Wo=
 
 Name: res/layout/screen_thumb_dragtip.xml
-SHA1-Digest-Manifest: XiStePojCSAz6NTfbgnPKfw5x3o=
+SHA1-Digest-Manifest: +7/LcC0TonEBIEwBGSI2E2z8NGE=
 
 Name: res/drawable-xxhdpi-v4/ic_pageindicator_current_news_black.png
 SHA1-Digest-Manifest: 8DExx7cXsyLll/wiSNfayiw3CJY=
@@ -930,7 +930,7 @@ Name: res/drawable-mdpi-v4/ic_pageindicator_current_folder.png
 SHA1-Digest-Manifest: aZoh1Y5rEMiJbmns7l6oGP6rpVs=
 
 Name: res/layout/live_layout.xml
-SHA1-Digest-Manifest: CdSomFW9E3xT3pxks2f9KBDAmlA=
+SHA1-Digest-Manifest: A0WcCVo/gqdMbKkwRE+4kKhCEg8=
 
 Name: res/drawable-xxxhdpi-v4/ic_auto_layout_mode.png
 SHA1-Digest-Manifest: o2FcN7u4oVuxczNFaQcid8UDsAw=
@@ -951,10 +951,10 @@ Name: res/drawable-hdpi-v4/page_hover_right.9.png
 SHA1-Digest-Manifest: CRSYZR+LNWljmwOTVbmFZXpfdzs=
 
 Name: res/layout/uninstall_layout.xml
-SHA1-Digest-Manifest: vh1RDAn9WjTLbbJIyFikGcBk9BM=
+SHA1-Digest-Manifest: 4VB7NgCBDJr5SnKVNKdwW0QBE4A=
 
 Name: res/layout-land/longpress_cling.xml
-SHA1-Digest-Manifest: a9pIPBwXFX03DIR17oVxCUtiC8c=
+SHA1-Digest-Manifest: lz7t5E/7p77HEIN2HN+XAMS9EBo=
 
 Name: res/drawable/wallpaper_button.xml
 SHA1-Digest-Manifest: Zuk/osFAFLWitcDwUxbI1AAxnLs=
@@ -1023,7 +1023,7 @@ Name: res/drawable-xxhdpi-v4/portal_ring_inner_nolip_holo.png
 SHA1-Digest-Manifest: i3kFQEV9wylbTAjLIoFVB30dAl4=
 
 Name: res/drawable/uninstall_button_confirm_bg_pressed.xml
-SHA1-Digest-Manifest: clhFuUFw20YgXf7YSmoEbIW+MiI=
+SHA1-Digest-Manifest: sfCI4HjsNc9oM0rdHXNmDP4Srcg=
 
 Name: res/drawable-hdpi-v4/ic_launcher_info_active_holo.png
 SHA1-Digest-Manifest: AwODIVjS7VSTWGfZ2rf0gBCJVlw=
@@ -1032,13 +1032,13 @@ Name: res/drawable-land-mdpi-v4/workspace_bg.9.png
 SHA1-Digest-Manifest: dxXp6m2GD3g0trwh3CqReysfeXM=
 
 Name: res/layout/thumb_view_layout.xml
-SHA1-Digest-Manifest: e27wCTrZHg7Em8xzeS2EkQOdCdc=
+SHA1-Digest-Manifest: VuiRZ0VU1F8zmQ0CGO+jQlwHqqo=
 
 Name: res/mipmap-hdpi-v4/ic_launcher_application.png
 SHA1-Digest-Manifest: H1E+9yhF1mdNReTHuJ8MkYrY6C8=
 
 Name: res/layout/widget_cell.xml
-SHA1-Digest-Manifest: sC/RyANmsx9uoSzZfJATMK6t9Ms=
+SHA1-Digest-Manifest: y1YH4VDZJdudSXoxR/qtJBx51L0=
 
 Name: res/drawable-xhdpi-v4/ic_remove_launcher.png
 SHA1-Digest-Manifest: HjPetpXx5kIkE1E9tkqFR84d6gs=
@@ -1068,10 +1068,10 @@ Name: res/drawable-mdpi-v4/ic_arrow_back_grey.png
 SHA1-Digest-Manifest: Bv2C+q1VLgIY1M4GEMZNopIQq0o=
 
 Name: res/xml/default_workspace.xml
-SHA1-Digest-Manifest: g3tW47WyFCdARF5Hzf3yyJHFizk=
+SHA1-Digest-Manifest: FC4bVSIleEtfChJ8Vi3YBndAIrY=
 
 Name: res/layout/longpress_cling_welcome_content.xml
-SHA1-Digest-Manifest: WPoNfCZnfCoNmuyC6Gzak9X1v3E=
+SHA1-Digest-Manifest: HmPjjKNI+zTBm4gz5HkFFGWYIWM=
 
 Name: res/mipmap-xhdpi-v4/ic_launcher_application.png
 SHA1-Digest-Manifest: iTdD763A5VbF+Yt3wM3nRalHH0k=
@@ -1113,7 +1113,7 @@ Name: res/drawable/icon_layout_black_button.xml
 SHA1-Digest-Manifest: OnoSjZNI4wqEPS+qOb1pCyc3u3Q=
 
 Name: res/layout/theme_container_layout.xml
-SHA1-Digest-Manifest: 8ZXUpU+ivQKJrKOLsVo6PsJ1uok=
+SHA1-Digest-Manifest: jSZ86b8lT7U6TGo6SuwNCh+w8ys=
 
 Name: res/drawable-xxhdpi-v4/confirm_panel_delete_press.9.png
 SHA1-Digest-Manifest: Y3s90Q8XrSwbzk+TaXozWHBfOts=
@@ -1125,7 +1125,7 @@ Name: res/drawable-xxhdpi-v4/multiple_icon_indicator.png
 SHA1-Digest-Manifest: Pv68XjFLz8VT/Bmgs5CBt9jKi/A=
 
 Name: res/drawable/uninstall_button_confirm_bg.xml
-SHA1-Digest-Manifest: FvO7IsdoGro2ztNlDTnvc0opjPA=
+SHA1-Digest-Manifest: cUZkcWA9cA+51J1+k1XlNiUb80A=
 
 Name: res/xml/leui_more_app.xml
 SHA1-Digest-Manifest: Ul2ZQsxo21DEMWoKun8BXM47Jw0=
@@ -1140,7 +1140,7 @@ Name: res/drawable-xxhdpi-v4/my_info_bottombar_shadow.9.png
 SHA1-Digest-Manifest: 7Mz2emI5utmDi87yLNMlsGhBEO0=
 
 Name: res/layout/icon_layout_modes_layout.xml
-SHA1-Digest-Manifest: XkrVQrCuTgmszE4mUPCK29Hy0Gk=
+SHA1-Digest-Manifest: cykmv9dLJrmJwL9VSkEuXIamXfg=
 
 Name: res/drawable-hdpi-v4/ic_launcher_trashcan_active_holo.png
 SHA1-Digest-Manifest: u1EoLRo2lIOk3mwdrFBPjFxaGzE=
@@ -1161,10 +1161,10 @@ Name: res/drawable-hdpi-v4/ic_setting_pressed.png
 SHA1-Digest-Manifest: VinsN2pBtOeAIGJlFzgGHagdIlI=
 
 Name: res/layout/widgets_list_row_view.xml
-SHA1-Digest-Manifest: 9Sk7lqx9D5p5yVsK2w8p1V7MMOw=
+SHA1-Digest-Manifest: YeWdpVGwej1hHSTnD/iBHgPmW+Y=
 
 Name: res/layout/overview_panel.xml
-SHA1-Digest-Manifest: QgZx1UEMC9ltJ5M2OzbgEZl863g=
+SHA1-Digest-Manifest: IXPtX89O8xR6354d8gUIaELvD1M=
 
 Name: res/drawable-xxhdpi-v4/folder_open_normal_bg.9.png
 SHA1-Digest-Manifest: QIQ67c42q7C0dmKT9me6U0P1L+s=
@@ -1182,16 +1182,16 @@ Name: res/drawable-xxhdpi-v4/portal_ring_inner_holo.png
 SHA1-Digest-Manifest: 9UqhF2su3mClJOxfJm4VpbGvD20=
 
 Name: res/layout-port/migration_cling.xml
-SHA1-Digest-Manifest: gvJQ0USoZt3maAdvOw5sgbXujVk=
+SHA1-Digest-Manifest: mIGudMs3E/bwoLKMnZ1ZsUqVmSM=
 
 Name: res/layout-sw720dp-v13/launcher.xml
 SHA1-Digest-Manifest: n+wnx4WbyJYxsXJttjQuKq0bEK8=
 
 Name: res/drawable/theme_animation_ring.xml
-SHA1-Digest-Manifest: tB7CpyGLrM09Vh6bcg0HaGnv4ds=
+SHA1-Digest-Manifest: IFBhh8iVSZa4f38tSGXNxUbz7yg=
 
 Name: resources.arsc
-SHA1-Digest-Manifest: mEYk1aYajVxQQhEASGxm3ugCD2w=
+SHA1-Digest-Manifest: 2OWH1fLplduzlrZCN0YKG8LdZQ4=
 
 Name: res/drawable-xhdpi-v4/ic_launcher_info_normal_holo.png
 SHA1-Digest-Manifest: NM0WoreP3c0599A0pmHIALtI290=
@@ -1227,7 +1227,7 @@ Name: res/drawable-mdpi-v4/cling_bg.9.png
 SHA1-Digest-Manifest: hxyARt7CoXPXeyHElQv4R7BGdgE=
 
 Name: res/drawable/uninstall_button_cancel_bg.xml
-SHA1-Digest-Manifest: 2WZ+Cc6RO04sa+jp/SuTRFT8p2g=
+SHA1-Digest-Manifest: Rp1B47R/qjoZ/rV7gHZOG/yALas=
 
 Name: res/drawable-xxxhdpi-v4/ic_manual_layout_mode.png
 SHA1-Digest-Manifest: OvKeaGDaEcMcsTbhLrap5jD3AA0=
@@ -1266,7 +1266,7 @@ Name: res/drawable-xhdpi-v4/ic_launcher_clear_normal_holo.png
 SHA1-Digest-Manifest: RqEneHxdIgrXrG/gCA4mywZ/jtE=
 
 Name: res/layout/search_app_item.xml
-SHA1-Digest-Manifest: Obz4E7ETd4P97Ryz9Rtv9UVNddY=
+SHA1-Digest-Manifest: VM+lr+3gWZz8fbInZ3GybhOaxjo=
 
 Name: res/drawable-hdpi-v4/ic_allapps_pressed.png
 SHA1-Digest-Manifest: yyyR8X5ZrZKMwIcALxZHeu5t3vU=
@@ -1309,7 +1309,7 @@ Name: res/drawable-xxxhdpi-v4/ic_remove_launcher.png
 SHA1-Digest-Manifest: PpOWmV/JC8tzUMZRVjUcpDnVEso=
 
 Name: res/layout/user_folder.xml
-SHA1-Digest-Manifest: lu4nRBacwnhZt5f2eu0RTwm3yq8=
+SHA1-Digest-Manifest: QZv2kCVbRYdxs/kBGkD9Ax2amSs=
 
 Name: res/drawable-xxhdpi-v4/widget_resize_frame.9.png
 SHA1-Digest-Manifest: Nd/wCPB8Wphm6rQqtjFe7B+iuQ0=
@@ -1355,7 +1355,7 @@ Name: res/xml/launcher_preferences.xml
 SHA1-Digest-Manifest: ie7R3QPb2eTIuK2fxt5w+8erJzk=
 
 Name: res/layout/page_indicator_marker.xml
-SHA1-Digest-Manifest: PrMTMhk9t1TC5gP/mcmkfkrpIw8=
+SHA1-Digest-Manifest: Wbl5oVLyN0Ku7FxHicJIxNCFFAs=
 
 Name: res/drawable-xxhdpi-v4/theme_animation_rectangle.png
 SHA1-Digest-Manifest: gXu1qrKNQwcXZWWnfzdoEL/fW/0=
@@ -1364,22 +1364,22 @@ Name: res/drawable-xxhdpi-v4/screenthumb_bg_new.9.png
 SHA1-Digest-Manifest: EW8qaQqjCeLxfj+6C0btDJXdWXc=
 
 Name: res/layout/wallpaper_and_theme_page_layout.xml
-SHA1-Digest-Manifest: 9w20hhfh2qfOzG5+QTUsPGjs5/4=
+SHA1-Digest-Manifest: /JOJIyzNOYpehXBzSyg6U9Ez0sA=
 
 Name: res/drawable-xhdpi-v4/ic_pageindicator_current_folder.png
 SHA1-Digest-Manifest: X0ex+G3/IosIcNOQURoo+qvBv7c=
 
 Name: res/layout-sw600dp-port-v13/longpress_cling.xml
-SHA1-Digest-Manifest: rBRuFdZvCN/BVoGqJ3K5qWM1mqg=
+SHA1-Digest-Manifest: mXIxGL/Vhh3SvbfDHoZVQtNp8z0=
 
 Name: res/drawable/theme_animation_mask.xml
-SHA1-Digest-Manifest: 3lygIyUNcHKjU1L5FKndWCSBoIQ=
+SHA1-Digest-Manifest: N3Wwx7rfTSq+oJQSv+M75D+RXDs=
 
 Name: res/drawable/manual_layout_mode_button.xml
 SHA1-Digest-Manifest: DHiuEWyoxPvotkAIQYJ28Z80u0U=
 
 Name: res/layout-port/longpress_cling.xml
-SHA1-Digest-Manifest: K3r03Vgv0TGwapPITj1mUqhGPsg=
+SHA1-Digest-Manifest: rTV8o2dSS5ZfTGXmkEGwmn7qwqs=
 
 Name: res/layout/all_apps_container.xml
 SHA1-Digest-Manifest: z9ASsfz/fNRbIScWa/l0ybEYGZg=

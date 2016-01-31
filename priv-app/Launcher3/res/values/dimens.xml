@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="app_icon_size">144.0px</dimen>
+    <dimen name="app_icon_size">164.0px</dimen>
     <dimen name="dynamic_grid_edge_margin">7.0dip</dimen>
     <dimen name="dynamic_grid_search_bar_max_width">500.0dip</dimen>
     <dimen name="dynamic_grid_search_bar_height">41.0dip</dimen>
@@ -73,6 +73,22 @@
     <dimen name="blur_size_medium_outline">2.0dip</dimen>
     <dimen name="blur_size_click_shadow">4.0dip</dimen>
     <dimen name="click_shadow_high_shift">2.0dip</dimen>
+    <dimen name="eui_week_margin_top">24.0px</dimen>
+    <dimen name="eui_week_text_size">24.0px</dimen>
+    <dimen name="eui_day_margin_top">60.0px</dimen>
+    <dimen name="eui_day_text_size">81.0px</dimen>
+    <dimen name="gorgeous_week_margin_top">12.0px</dimen>
+    <dimen name="gorgeous_week_text_size">24.0px</dimen>
+    <dimen name="gorgeous_day_margin_top">60.0px</dimen>
+    <dimen name="gorgeous_day_text_size">72.0px</dimen>
+    <dimen name="thin_week_margin_top">102.0px</dimen>
+    <dimen name="thin_week_text_size">24.0px</dimen>
+    <dimen name="thin_day_margin_top">33.0px</dimen>
+    <dimen name="thin_day_text_size">75.0px</dimen>
+    <dimen name="multicolored_week_margin_top">15.0px</dimen>
+    <dimen name="multicolored_week_text_size">21.0px</dimen>
+    <dimen name="multicolored_day_margin_top">51.0px</dimen>
+    <dimen name="multicolored_day_text_size">72.0px</dimen>
     <dimen name="dynamic_grid_cell_text_height">40.0dip</dimen>
     <dimen name="bubble_textview_not_open_prompt_icon_size">6.0dip</dimen>
     <dimen name="bubble_textview_not_open_prompt_margin_right">3.0dip</dimen>

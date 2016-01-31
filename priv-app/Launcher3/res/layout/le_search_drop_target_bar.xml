@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.android.launcher3.DropTargetBar android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.launcher3.DeleteDropTarget android:id="@id/delete_target_text" android:layout_width="fill_parent" android:layout_height="@dimen/delete_drop_target_height" />
-    <com.android.launcher3.UninstallDropTarget android:id="@id/uninstall_target_text" android:layout_width="fill_parent" android:layout_height="@dimen/delete_drop_target_height" />
+    <com.android.launcher3.DeleteDropTarget android:id="@id/delete_target_text" android:layout_width="fill_parent" android:layout_height="@dimen/delete_drop_target_height" android:drawableStart="@drawable/uninstall_target_selector" />
 </com.android.launcher3.DropTargetBar>

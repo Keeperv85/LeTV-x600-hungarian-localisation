@@ -51,7 +51,6 @@
     <item type="id" name="search_overlay">false</item>
     <item type="id" name="search_box">false</item>
     <item type="id" name="delete_target_text">false</item>
-    <item type="id" name="uninstall_target_text">false</item>
     <item type="id" name="live_layout">false</item>
     <item type="id" name="live">false</item>
     <item type="id" name="longpress_cling">false</item>
@@ -73,6 +72,7 @@
     <item type="id" name="app_label">false</item>
     <item type="id" name="drag_target_bar">false</item>
     <item type="id" name="info_target_text">false</item>
+    <item type="id" name="uninstall_target_text">false</item>
     <item type="id" name="theme_ring">false</item>
     <item type="id" name="theme_mask">false</item>
     <item type="id" name="theme_large_gear">false</item>
@@ -88,6 +88,7 @@
     <item type="id" name="arrow_left">false</item>
     <item type="id" name="arrow_right">false</item>
     <item type="id" name="theme_animation_layout">false</item>
+    <item type="id" name="uninstall_layout">false</item>
     <item type="id" name="uninstall_panel">false</item>
     <item type="id" name="uninstall_info_layout">false</item>
     <item type="id" name="uninstall_info_icon">false</item>
