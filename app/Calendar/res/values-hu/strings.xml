@@ -94,9 +94,9 @@
     <string name="quick_response_custom_msg">Saját válasz írása...</string>
     <string name="event_info_organizer">Szervező:</string>
     <string name="event_info_reminders_label">Emlékeztetők</string>
-    <string name="agenda_today">MA, %1$s</string>
-    <string name="agenda_yesterday">TEGNAP, %1$s</string>
-    <string name="agenda_tomorrow">HOLNAP, %1$s</string>
+    <string name="agenda_today">MA</string>
+    <string name="agenda_yesterday">TEGNAP</string>
+    <string name="agenda_tomorrow">HOLNAP</string>
     <string name="loading">Betöltés…</string>
     <string name="show_older_events">Érintse meg %1$s előtti események megtekintéséhez</string>
     <string name="show_newer_events">Érintse meg %1$s utáni események megtekintéséhez</string>
