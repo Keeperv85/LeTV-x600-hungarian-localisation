@@ -388,6 +388,7 @@ Lehetősége van a speciális beállításoknál a teljes privilegizált módú 
 
 A letv csapata.
 "</string>
+    <string name="mobile_st">Belső tárhely</string>
     <string name="data_name">Android adatok</string>
     <string name="dcim_name">Albumok</string>
     <string name="download_name">Letöltések</string>
@@ -493,7 +494,7 @@ A letv csapata.
     <string name="document">Dokumentumok</string>
     <string name="compress_type">Archívumok</string>
     <string name="app_type">Alkalmazások</string>
-    <string name="mobile_title">Fájlm mappájának böngészése</string>
+    <string name="mobile_title">Fájlmappák böngészése</string>
     <string name="expand_title">Külső eszköz</string>
     <string name="enable">\u0009elérhető</string>
     <string name="back">Vissza</string>
@@ -538,5 +539,6 @@ A letv csapata.
     <string name="le_installed">Telepített</string>
     <string name="le_un_installed">Eltávolított</string>
     <string name="le_unzip_to_mobile">Kicsomagolás a gyökérkönyvtárba</string>
-    <string name="unzip_passwoed_exception">hibás a megadott jelszó</string>
+    <string name="unzip_passwoed_exception">A megadott jelszó hibás</string>
+
 </resources>
