@@ -689,7 +689,7 @@ Más alkalmazások hozzáférnek ehhez az információhoz és a mentett képekhe
     <string name="le_photo_details">Részletek</string>
     <string name="le_position_error">Nincs</string>
     <string name="le_number_select_none">Érintse meg a kiválasztáshoz</string>
-    <string name="delete_hint">Includes the images and videos saved to the Favorites album</string>
+    <string name="delete_hint">Tartalmazza a képeket és a videokat a kedvencek albumból</string>
     <string name="share_limit_hint">You may only share 300 files at a time!</string>
     <string name="blank_message">Nincs kép vagy videó</string>
     <string name="blank_message_photo">Nincsenek képek</string>
