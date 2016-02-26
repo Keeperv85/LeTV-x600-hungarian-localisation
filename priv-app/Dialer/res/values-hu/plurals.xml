@@ -13,16 +13,16 @@
         <item quantity="one">1 kapcsolat</item>
     </plurals>
     <plurals name="rington_count">
-        <item quantity="other">Ring %s times</item>
-        <item quantity="one">Ring 1 time</item>
+        <item quantity="other">Kicsengett %s alkalommal</item>
+        <item quantity="one">Kicsengett 1 alkalommal</item>
     </plurals>
     <plurals name="contactsDeleteTip">
         <item quantity="other">Biztosan töröl %s kapcsolatot?</item>
         <item quantity="one">Biztosan törli a kapcsolatot?</item>
     </plurals>
     <plurals name="addContactsForGroupTip">
-        <item quantity="other">Are you sure to move %s contacts to this group</item>
-        <item quantity="one">Are you sure to move 1 contact to this group</item>
+        <item quantity="other">Biztos hogy áthelyez %s névjegyet ebbe a csoportba</item>
+        <item quantity="one">Biztos hogy áthelyez 1 névjegyet ebbe a csoportba</item>
     </plurals>
     <plurals name="selectedContact">
         <item quantity="other">%d kapcsolat kiválasztva</item>
